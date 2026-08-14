@@ -1,6 +1,7 @@
 import {
-  formatMatchTime,
+  formatKickoffTime,
   formatUpcomingBadge,
+  getLiveBadge,
   getMatchTitle,
   getSourceKey,
   getSourceLabel,
@@ -63,13 +64,23 @@ export function buildM3uPlaylist(entries = []) {
 
     const logo = match?.homeTeam?.logo || match?.competition?.logo || '';
     const group = getSourceLabel(match);
-    const time = formatMatchTime(match);
+    // LUÔN dùng ngày-giờ đá thật làm phần đầu tên kênh (không phải nhãn
+    // LIVE/phút thi đấu) — bắt buộc để mọi app IPTV tự sort danh sách
+    // kênh theo TÊN vẫn ra đúng thứ tự thời gian, bất kể trận đó đang
+    // live hay chưa đá. Nhãn LIVE/phút thi đấu (nếu có) gắn thêm ngay
+    // sau, dạng "[LIVE 18']", để vẫn thấy trận nào đang live mà không
+    // phá thứ tự sort. (Trước đó dùng formatMatchTime() ở đây — hàm đó
+    // trả "18'" thay cho ngày-giờ với trận live, làm app sort theo tên
+    // bị đẩy lệch chỗ các trận live — đây là lỗi vừa fix.)
+    const time = formatKickoffTime(match) || match?.timeFormatted || '';
+    const liveBadge = getLiveBadge(match);
+    const liveTag = liveBadge ? `[LIVE ${liveBadge}]` : '';
     const title = getMatchTitle(match);
     const streamer = stream.streamerName || stream.name || 'Server';
     const fmt = entry.upcoming
       ? '[sắp diễn ra]'
       : (stream.format === 'flv' || /\.flv(\?|$)/i.test(url) ? '[flv]' : '[hls]');
-    const nameParts = [time, title, `(${streamer})`, fmt].filter(Boolean);
+    const nameParts = [time, liveTag, title, `(${streamer})`, fmt].filter(Boolean);
     const displayName = nameParts.join(' ');
 
     // Dòng phân cách khi sang ngày mới (giờ Việt Nam) — chỉ để dễ đọc

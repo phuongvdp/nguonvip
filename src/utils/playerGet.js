@@ -564,8 +564,18 @@ export function isStaleLiveMatch(match) {
  *  chuỗi thấy "0" < "1" ở đầu, dù file gốc đã sort đúng theo thời gian
  *  thực. Đặt ngày trước để so sánh chuỗi cũng ra đúng thứ tự ngày trước,
  *  giờ sau — khớp với sort thời gian thực bất kể app có tự sort theo
- *  tên hay không. */
-function formatKickoffTime(match) {
+ *  tên hay không.
+ *
+ *  QUAN TRỌNG: hàm này LUÔN trả về ngày-giờ đá (không bao giờ trả về
+ *  "LIVE"/phút thi đấu) — dùng làm phần ĐẦU tên kênh trong .m3u để giữ
+ *  đúng thứ tự sort-theo-tên ở mọi trạng thái trận (live/sắp đá đều
+ *  giống nhau). Nhãn LIVE/phút thi đấu hiển thị THÊM vào sau, xem
+ *  getLiveBadge() — không được gộp chung vào 1 hàm rồi thay thế phần
+ *  ngày-giờ như formatMatchTime() làm cho web, vì làm vậy sẽ khiến tên
+ *  trận live bắt đầu bằng "18'" thay vì ngày-giờ, phá sort-theo-tên y hệt
+ *  lỗi ngày/giờ đã fix trước đó — nhưng lần này xảy ra riêng với các
+ *  trận live. */
+export function formatKickoffTime(match) {
   const ts = match?.matchTimeTimestamp || match?.matchTime;
   if (!ts) return '';
   const ms = toMatchTimeMs(ts);
@@ -584,6 +594,19 @@ function formatKickoffTime(match) {
   return `${dateStr} ${timeStr}`;
 }
 
+/** Nhãn LIVE ngắn gọn ("18'", "HT", "LIVE"...) dùng để GẮN THÊM cạnh
+ *  ngày-giờ trong tên kênh .m3u (xem getPlaylistLabel() trong
+ *  m3uPlaylist.js) — không thay thế ngày-giờ như formatMatchTime(). Trả
+ *  về '' khi trận không phải đang live. */
+export function getLiveBadge(match) {
+  const status = match?.status || {};
+  if (!status.isLive) return '';
+  const raw = String(status.elapsedTime || '').trim();
+  const looksLikeClock = raw && /^(\d{1,3}(\+\d{1,2})?['’]?|HT|FT)$/i.test(raw);
+  if (looksLikeClock) return raw;
+  return status.text || status.name || 'LIVE';
+}
+
 export function formatMatchTime(match) {
   const status = match?.status || {};
   const kickoff = formatKickoffTime(match);
@@ -593,17 +616,12 @@ export function formatMatchTime(match) {
   // KHÔNG có gì trong 2 cái đó (cực hiếm) mới rơi xuống hiện giờ bóng lăn
   // để badge không bao giờ trống hoặc vô nghĩa.
   //
-  // LƯU Ý: trước đây code check `kickoff` TRƯỚC — nhưng kickoff hầu như
-  // LUÔN có giá trị (mọi service đều gán matchTimeTimestamp), nên nhánh
-  // hiện "LIVE"/phút thi đấu không bao giờ chạy tới được, khiến badge
-  // trận đang live chỉ hiện giờ đá thay vì chữ "LIVE" — đây chính là lỗi
-  // đã fix ở đây: đổi thứ tự ưu tiên đúng như mô tả trên.
+  // Dùng cho GIAO DIỆN WEB (badge hiển thị, không ảnh hưởng sort — web
+  // sort theo mảng dữ liệu, không sort theo chuỗi text này). File .m3u
+  // KHÔNG dùng hàm này cho phần tên chính — xem getLiveBadge() ở trên.
   if (status.isLive) {
-    const raw = String(status.elapsedTime || '').trim();
-    const looksLikeClock = raw && /^(\d{1,3}(\+\d{1,2})?['’]?|HT|FT)$/i.test(raw);
-    if (looksLikeClock) return raw;
-    if (status.text) return status.text;
-    if (status.name) return status.name;
+    const badge = getLiveBadge(match);
+    if (badge) return badge;
     if (kickoff) return kickoff;
     if (match?.timeFormatted) return match.timeFormatted;
     return 'LIVE';
@@ -618,6 +636,7 @@ export function formatMatchTime(match) {
   if (match?.timeFormatted) return match.timeFormatted;
   return '';
 }
+
 
 export function getMatchTitle(match) {
   if (match?.title) return match.title;
