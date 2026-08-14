@@ -2,7 +2,6 @@ import { useEffect, useMemo, useState, useCallback } from 'react';
 import {
   SPORT_TABS,
   SOURCE_TOGGLE_LIST,
-  SOURCE_GROUP_ORDER,
   loadEnabledSources,
   saveEnabledSources,
   isSourceEnabled,
@@ -393,22 +392,16 @@ export default function Home() {
     saveViewMode(mode);
   };
 
-  const grouped = useMemo(() => {
-    const visible = matches.filter((m) => isSourceEnabled(m, enabledSources));
-    const buckets = new Map();
-    for (const m of visible) {
-      const key = m.source || 'custom';
-      if (!buckets.has(key)) buckets.set(key, []);
-      buckets.get(key).push(m);
-    }
-    const orderedKeys = [
-      ...SOURCE_GROUP_ORDER.filter((k) => buckets.has(k)),
-      ...[...buckets.keys()].filter((k) => !SOURCE_GROUP_ORDER.includes(k))
-    ];
-    return orderedKeys.map((key) => ({ key, label: getSourceShortLabel(key), items: buckets.get(key) }));
-  }, [matches, enabledSources]);
-
-  const visibleCount = grouped.reduce((sum, g) => sum + g.items.length, 0);
+  const visibleMatches = useMemo(
+    // /api/matches (qua playlistBuilder.service.js:sortPlayable) đã trả về
+    // đúng thứ tự thời gian toàn cục — CHỈ lọc theo nguồn đang bật, KHÔNG
+    // gom nhóm lại theo nguồn ở đây nữa, để không phá vỡ thứ tự ngày/giờ
+    // chung của cả trang (gom theo nguồn từng khiến trận ở khối nguồn A
+    // hiện trước trận sớm hơn ở khối nguồn B, nhìn như bị lộn ngày).
+    () => matches.filter((m) => isSourceEnabled(m, enabledSources)),
+    [matches, enabledSources]
+  );
+  const visibleCount = visibleMatches.length;
 
   return (
     <main className="min-h-screen bg-background text-foreground">
@@ -463,28 +456,19 @@ export default function Home() {
           <p className="text-muted-foreground">Không có trận nào đang phát (hoặc tất cả nguồn đang bị tắt).</p>
         )}
 
-        {grouped.map((group) => (
-          group.items.length > 0 && (
-            <div key={group.key}>
-              <h2 className="mb-3 text-lg font-semibold">
-                {group.label} <span className="text-sm font-normal text-muted-foreground">({group.items.length} trận)</span>
-              </h2>
-              {viewMode === 'list' ? (
-                <div className="space-y-2">
-                  {group.items.map((m) => (
-                    <MatchListRow key={`${group.key}:${m.matchId}`} match={m} />
-                  ))}
-                </div>
-              ) : (
-                <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
-                  {group.items.map((m) => (
-                    <MatchCard key={`${group.key}:${m.matchId}`} match={m} />
-                  ))}
-                </div>
-              )}
-            </div>
-          )
-        ))}
+        {viewMode === 'list' ? (
+          <div className="space-y-2">
+            {visibleMatches.map((m) => (
+              <MatchListRow key={m.matchId} match={m} />
+            ))}
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {visibleMatches.map((m) => (
+              <MatchCard key={m.matchId} match={m} />
+            ))}
+          </div>
+        )}
       </section>
     </main>
   );

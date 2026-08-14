@@ -1,5 +1,6 @@
 import * as cheerio from 'cheerio';
 import { createHttpClient } from '@/src/utils/httpClient';
+import { parseKickoffDate } from '@/src/utils/dateParse';
 
 // LƯU Ý: domain gốc trong code là xoilacxtx.tv, nhưng trang này hiện khai báo
 // canonical/CDN trỏ sang xoilacxtl.tv (đổi domain do bị chặn). Có thể đây là
@@ -70,41 +71,8 @@ const RACKET_PLAYING = {
 };
 const RACKET_FINISHED = 100;
 
-/** Convert Xoilac's mixed timestamp/text markup to a reliable kickoff Date. */
-function parseKickoffDate(runtimeValue, timeText = '') {
-  const runtime = Number.parseInt(runtimeValue, 10);
-  // The attribute is normally Unix seconds, but some templates emit ms.
-  if (Number.isFinite(runtime) && runtime >= 1000000000) {
-    const ms = runtime >= 100000000000 ? runtime : runtime * 1000;
-    const date = new Date(ms);
-    if (!Number.isNaN(date.getTime())) return date;
-  }
-
-  const text = String(timeText || '').replace(/\s+/g, ' ').trim();
-  let parts = text.match(/(\d{1,2})\s*(?::|h)\s*(\d{2}).*?(\d{1,2})\s*[\/.\-]\s*(\d{1,2})(?:\s*[\/.\-]\s*(\d{2,4}))?/i);
-  let hour;
-  let minute;
-  let day;
-  let month;
-  let year;
-
-  if (parts) {
-    [, hour, minute, day, month, year] = parts;
-  } else {
-    parts = text.match(/(\d{1,2})\s*[\/.\-]\s*(\d{1,2})(?:\s*[\/.\-]\s*(\d{2,4}))?.*?(\d{1,2})\s*(?::|h)\s*(\d{2})/i);
-    if (!parts) return null;
-    [, day, month, year, hour, minute] = parts;
-  }
-
-  const now = new Date();
-  const fullYear = year ? (Number(year) < 100 ? 2000 + Number(year) : Number(year)) : now.getUTCFullYear();
-  // Construct explicitly in Vietnam time (UTC+7), independent of server region.
-  let date = new Date(Date.UTC(fullYear, Number(month) - 1, Number(day), Number(hour) - 7, Number(minute)));
-  if (!year && date.getTime() < now.getTime() - 14 * 24 * 60 * 60 * 1000) {
-    date = new Date(Date.UTC(fullYear + 1, Number(month) - 1, Number(day), Number(hour) - 7, Number(minute)));
-  }
-  return Number.isNaN(date.getTime()) ? null : date;
-}
+/** Convert Xoilac's mixed timestamp/text markup to a reliable kickoff Date.
+ *  (Dùng chung với các nguồn khác — xem src/utils/dateParse.js) */
 
 class XoilacService {
   constructor() {

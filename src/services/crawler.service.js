@@ -15,6 +15,10 @@ class CrawlerService {
         'Referer': GAVANG_URLS.BASE_URL + '/'
       }
     });
+    // Chẩn đoán lần chạy getLiveMatches/getMatchesByTab gần nhất — trả kèm
+    // trong response API khi count = 0, đỡ phải mò log Vercel mới biết
+    // đang tắc ở bước nào (pagination filter-matches hay fallback content).
+    this.lastDiagnostics = null;
   }
 
   /**
@@ -63,6 +67,7 @@ class CrawlerService {
     const maxPages = 40;
     const all = [];
     const seen = new Set();
+    this.lastDiagnostics = { baseUrl: GAVANG_URLS.BASE_URL, at: new Date().toISOString(), sport: sportKey };
 
     try {
       for (let page = 0; page < maxPages; page++) {
@@ -83,6 +88,8 @@ class CrawlerService {
         if (!has_more || !(matches || []).length) break;
       }
 
+      this.lastDiagnostics.pagination = { matchesFound: all.length };
+
       // The filter endpoint itself is the authoritative live tab.  Gà Vàng
       // periodically changes the card class/status text, so do not let a
       // parser miss turn every returned card into a non-live match.
@@ -99,6 +106,7 @@ class CrawlerService {
         }));
       }
     } catch (error) {
+      this.lastDiagnostics.pagination = { error: error.message };
       console.warn('getLiveMatches pagination failed, fallback live_content:', error.message);
     }
 
@@ -115,7 +123,12 @@ class CrawlerService {
           name: m.status?.name || 'LIVE'
         }
       }));
-      
+
+      this.lastDiagnostics.fallbackLiveContent = {
+        htmlLength: String(data.live_content || '').length,
+        matchesFound: liveMatches.length
+      };
+
       if (liveMatches.length) return liveMatches;
       
       // Extra fallback: try all content buckets if live_content is empty
@@ -127,8 +140,10 @@ class CrawlerService {
       ];
       
       const combined = allBuckets.flat().map(m => ({ ...m, sport: sportKey }));
+      this.lastDiagnostics.fallbackOtherBuckets = { matchesFound: combined.length };
       return combined;
     } catch (error) {
+      this.lastDiagnostics.fallbackLiveContent = { error: error.message };
       console.error('All fallbacks failed for getLiveMatches:', error.message);
       return [];
     }
@@ -145,6 +160,7 @@ class CrawlerService {
     const maxPages = 40;
     const all = [];
     const seen = new Set();
+    this.lastDiagnostics = { baseUrl: GAVANG_URLS.BASE_URL, at: new Date().toISOString(), sport: sportKey, tab: targetTab };
 
     try {
       for (let page = 0; page < maxPages; page++) {
@@ -165,8 +181,10 @@ class CrawlerService {
         if (!has_more || !(matches || []).length) break;
       }
 
+      this.lastDiagnostics.pagination = { matchesFound: all.length };
       if (all.length) return all;
     } catch (error) {
+      this.lastDiagnostics.pagination = { error: error.message };
       console.warn(`getMatchesByTab(${targetTab}) pagination failed, fallback:`, error.message);
     }
 
@@ -295,8 +313,10 @@ class CrawlerService {
         count: json.data.count || matches.length
       };
     } catch (error) {
-      console.error(`[gavang] Error in getLoadMoreMatches: ${error.message}`);
-      throw new Error(`Failed to load matches: ${error.message}`);
+      const status = error.response?.status;
+      const bodySnippet = typeof error.response?.data === 'string' ? error.response.data.slice(0, 200) : JSON.stringify(error.response?.data || {}).slice(0, 200);
+      console.error(`[gavang] Error in getLoadMoreMatches: ${error.message}${status ? ` (status ${status}, body: ${bodySnippet})` : ''}`);
+      throw new Error(`Failed to load matches: ${error.message}${status ? ` (HTTP ${status})` : ''}`);
     }
   }
 

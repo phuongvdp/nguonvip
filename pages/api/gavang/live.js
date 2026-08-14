@@ -14,12 +14,16 @@ export default async function handler(req, res) {
     return res.status(200).json({
       success: true,
       count: matches.length,
-      data: matches
+      data: matches,
+      // Chỉ trả debug khi rỗng, để biết ngay đang tắc ở bước nào (gọi API
+      // filter-matches hay fallback đọc content) mà không cần vào log Vercel.
+      ...(matches.length === 0 ? { debug: crawlerService.lastDiagnostics } : {}),
     });
   } catch (error) {
     return res.status(500).json({
       success: false,
-      message: error.message || 'Internal Server Error'
+      message: error.message || 'Internal Server Error',
+      debug: crawlerService.lastDiagnostics,
     });
   }
 }
