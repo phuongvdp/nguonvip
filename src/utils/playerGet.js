@@ -589,17 +589,24 @@ export function formatMatchTime(match) {
   const kickoff = formatKickoffTime(match);
 
   // Trận đang live: ưu tiên hiện phút thi đấu thật (34', HT...) khi nguồn
-  // đọc được. Nhiều nguồn (Gà Vàng, Xôi Lạc) không lấy được phút thi đấu và
-  // chỉ trả về nhãn tĩnh "Live"/"LIVE" — trường hợp đó KHÔNG được coi là
-  // "đã có giờ", phải rơi xuống hiện giờ bóng lăn thật để badge giờ không
-  // bao giờ trống hoặc vô nghĩa với trận đang live.
+  // đọc được, rồi tới nhãn tĩnh "Live"/"LIVE" do nguồn trả về. Chỉ khi
+  // KHÔNG có gì trong 2 cái đó (cực hiếm) mới rơi xuống hiện giờ bóng lăn
+  // để badge không bao giờ trống hoặc vô nghĩa.
+  //
+  // LƯU Ý: trước đây code check `kickoff` TRƯỚC — nhưng kickoff hầu như
+  // LUÔN có giá trị (mọi service đều gán matchTimeTimestamp), nên nhánh
+  // hiện "LIVE"/phút thi đấu không bao giờ chạy tới được, khiến badge
+  // trận đang live chỉ hiện giờ đá thay vì chữ "LIVE" — đây chính là lỗi
+  // đã fix ở đây: đổi thứ tự ưu tiên đúng như mô tả trên.
   if (status.isLive) {
-    if (kickoff) return kickoff;
-    if (match?.timeFormatted) return match.timeFormatted;
     const raw = String(status.elapsedTime || '').trim();
     const looksLikeClock = raw && /^(\d{1,3}(\+\d{1,2})?['’]?|HT|FT)$/i.test(raw);
     if (looksLikeClock) return raw;
-    return status.text || status.name || 'LIVE';
+    if (status.text) return status.text;
+    if (status.name) return status.name;
+    if (kickoff) return kickoff;
+    if (match?.timeFormatted) return match.timeFormatted;
+    return 'LIVE';
   }
 
   // Trận đã kết thúc: hiện rõ "Kết thúc" thay vì giờ bóng lăn lúc trước.
