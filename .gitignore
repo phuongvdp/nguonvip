@@ -1,0 +1,75 @@
+# ===== BUILD & DEPENDENCIES =====
+node_modules/
+.npm/
+.pnp
+.pnp.js
+package-lock.json
+yarn.lock
+
+# ===== NEXT.JS =====
+.next/
+out/
+build/
+dist/
+
+# ===== ENVIRONMENT =====
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# ===== IDE & EDITOR =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# ===== LOGS & TEMP =====
+*.log
+*.logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+*.tmp
+*.temp
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+*.pdb
+
+# ===== DATA FILES (Cache & Temp) =====
+data/.cache/
+data/temp/
+data/*.backup.json
+
+# ===== PLAYLISTS (Generated) =====
+# public/playlists/*.m3u — CỐ Ý KHÔNG ignore nữa: workflow
+# .github/workflows/validate-and-generate.yml (scripts/generate-playlists.js)
+# sinh các file .m3u này để COMMIT vào repo làm bản backup tĩnh, nên phải
+# được Git theo dõi. .refresh-state.json cũng cần được track để nhớ chu kỳ
+# tự giãn/thu giữa các lần chạy CI.
+public/playlists/stats.json
+public/playlists/manifest.json
+
+# ===== LOCAL TESTING =====
+.vercel/
+local_test/
+test_data/
+
+# ===== CREDENTIALS & SECRETS =====
+.credentials
+credentials.json
+private/
+secrets/
+
+# Keep these files:
+!data/sources.json
+!data/sources.schema.json
+!data/backup/.gitkeep
+!public/playlists/.gitkeep
