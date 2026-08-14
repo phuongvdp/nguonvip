@@ -482,7 +482,13 @@ class XoilacService {
           },
           odds: hasOdds ? odds : null,
           matchTime: matchDate.getTime(),
-          matchTimeTimestamp: matchTimestampSeconds,
+          // BUG: từng gán nhầm bằng matchTimestampSeconds (đơn vị GIÂY) —
+          // trong khi mọi service khác (giovang/ninety/phaohoa/vsc9) đều
+          // lưu field này theo MILI-GIÂY. Lệch đơn vị x1000 làm toàn bộ
+          // trận Xôi Lạc bị coi như xảy ra năm 1970 khi gộp sort chung ở
+          // playlistBuilder.service.js -> phá vỡ thứ tự ngày/giờ của cả
+          // danh sách. matchDate.getTime() ở trên đã đúng mili-giây sẵn.
+          matchTimeTimestamp: matchDate.getTime(),
           dateStr: dateStr,
           timeStr: timeStr,
           timeFormatted: timeFormatted,

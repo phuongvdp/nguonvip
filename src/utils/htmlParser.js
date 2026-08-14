@@ -1,6 +1,12 @@
 const cheerio = require('cheerio');
 const { extractSlugFromUrl, buildMatchSlug } = require('./slug');
 
+function normalizeToMs(raw) {
+  const n = parseInt(raw, 10);
+  if (!n || Number.isNaN(n)) return null;
+  return n < 1e12 ? n * 1000 : n;
+}
+
 /**
  * Parse Gà Vàng TV HTML containing football match cards.
  * @param {string} htmlString - Raw HTML fragment from update-content-live.json
@@ -158,7 +164,14 @@ function parseMatchCards(htmlString) {
     const match = {
       matchId,
       isHot: card.attr('data-accent') === 'hot',
-      matchTimeTimestamp: matchTimeTimestamp ? parseInt(matchTimeTimestamp) : null,
+      // Chuẩn hoá về MILI-GIÂY để khớp đơn vị dùng chung với mọi service
+      // khác (giovang/ninety/phaohoa/vsc9/xoilac) khi gộp sort chung ở
+      // playlistBuilder.service.js. Không rõ chắc chắn data-match-time/
+      // data-time của Gà Vàng trả về giây hay mili-giây (thường HTML
+      // data-* kiểu này hay là giây kiểu PHP time()) — tự nhận diện theo
+      // độ lớn số: mili-giây hiện tại luôn > 10^12, giây hiện tại chỉ
+      // ~1.7x10^9, nên < 10^12 gần như chắc chắn là giây, nhân 1000 lại.
+      matchTimeTimestamp: normalizeToMs(matchTimeTimestamp),
       timeFormatted: timeFormattedText,
       competition: {
         id: competitionId,

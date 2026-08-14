@@ -226,7 +226,12 @@ async function resolveStreams(match) {
 }
 
 function sortPlayable(list) {
-  return [...list].sort((a, b) => (a.matchTimeTimestamp || 0) - (b.matchTimeTimestamp || 0));
+  // Thiếu matchTimeTimestamp (dữ liệu nguồn không có) -> đẩy XUỐNG CUỐI
+  // thay vì coi như 0 (tức "năm 1970", tự động nhảy lên đầu danh sách) —
+  // tránh lặp lại kiểu lỗi timestamp sai đơn vị/thiếu field từng làm cả
+  // danh sách trận trên nhiều nguồn bị lộn xộn.
+  const fallback = Number.MAX_SAFE_INTEGER;
+  return [...list].sort((a, b) => (a.matchTimeTimestamp || fallback) - (b.matchTimeTimestamp || fallback));
 }
 
 function dedupeByKey(list) {
