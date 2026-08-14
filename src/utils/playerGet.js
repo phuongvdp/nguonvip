@@ -552,8 +552,19 @@ export function isStaleLiveMatch(match) {
   return Date.now() - ms > maxHours * 60 * 60 * 1000;
 }
 
-/** Giờ bóng lăn thực (HH:mm dd/MM) tính từ matchTimeTimestamp, dùng chung
- *  cho cả trận sắp diễn ra lẫn trận live không đọc được phút thi đấu. */
+/** Giờ bóng lăn thực (dd/MM HH:mm) tính từ matchTimeTimestamp, dùng chung
+ *  cho cả trận sắp diễn ra lẫn trận live không đọc được phút thi đấu.
+ *
+ *  QUAN TRỌNG: NGÀY phải đứng TRƯỚC giờ trong chuỗi trả về (không phải
+ *  "HH:mm dd/MM" như trước) — vì chuỗi này được dùng làm phần đầu tên
+ *  kênh trong file .m3u (xem m3uPlaylist.js). Rất nhiều app IPTV tự sắp
+ *  xếp danh sách kênh theo TÊN (so sánh chuỗi ký tự) thay vì theo đúng
+ *  thứ tự dòng trong file — nếu giờ đứng trước ngày, 1 trận "00:00
+ *  15/08" sẽ bị app xếp LÊN TRƯỚC trận "18:00 14/08" chỉ vì so sánh
+ *  chuỗi thấy "0" < "1" ở đầu, dù file gốc đã sort đúng theo thời gian
+ *  thực. Đặt ngày trước để so sánh chuỗi cũng ra đúng thứ tự ngày trước,
+ *  giờ sau — khớp với sort thời gian thực bất kể app có tự sort theo
+ *  tên hay không. */
 function formatKickoffTime(match) {
   const ts = match?.matchTimeTimestamp || match?.matchTime;
   if (!ts) return '';
@@ -570,7 +581,7 @@ function formatKickoffTime(match) {
     month: '2-digit',
     timeZone: 'Asia/Ho_Chi_Minh'
   });
-  return `${timeStr} ${dateStr}`;
+  return `${dateStr} ${timeStr}`;
 }
 
 export function formatMatchTime(match) {
