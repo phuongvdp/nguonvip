@@ -1,0 +1,61 @@
+name: Generate Playlists
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/sources.json'
+  schedule:
+    - cron: '*/15 * * * *'  # ← kiểm tra mỗi 15 phút; script tự giãn ra khi không có trận live
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    # GITHUB_TOKEN mặc định chỉ có quyền đọc — cần thêm quyền đọc
+    # "deployments" để bước dưới tự hỏi GitHub xem Vercel vừa deploy domain
+    # nào (không cần tạo secret hay token gì thêm, GITHUB_TOKEN GitHub tự
+    # cấp sẵn cho mọi workflow).
+    permissions:
+      contents: write
+      deployments: read
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Resolve production URL from latest Vercel deployment
+        id: vercel_url
+        run: |
+          DEPLOY_ID=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/${{ github.repository }}/deployments?environment=production&per_page=1" \
+            | jq -r '.[0].id // empty')
+          SITE_URL=""
+          if [ -n "$DEPLOY_ID" ]; then
+            SITE_URL=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              "https://api.github.com/repos/${{ github.repository }}/deployments/$DEPLOY_ID/statuses" \
+              | jq -r '[.[] | select(.state=="success")][0].environment_url // empty')
+          fi
+          echo "site_url=$SITE_URL" >> "$GITHUB_OUTPUT"
+          echo "Domain tự dò được từ Vercel: ${SITE_URL:-'(không tìm thấy — script sẽ tự dùng domain mặc định)'}"
+      
+      - name: Generate playlists
+        run: npm run generate-playlists
+        env:
+          SITE_URL: ${{ steps.vercel_url.outputs.site_url }}
+      
+      - name: Commit and push
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add public/playlists/
+          git commit -m "Generate playlists" || true
+          git push
