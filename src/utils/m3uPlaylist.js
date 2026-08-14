@@ -22,52 +22,71 @@ import {
 export function buildM3uPlaylist(entries = []) {
   const lines = ['#EXTM3U', ''];
 
-  // Gom theo nguồn, giữ nguyên thứ tự (theo giờ) trong từng nhóm — entries
-  // truyền vào đã được sort theo giờ từ trước.
-  const buckets = new Map();
-  for (const entry of entries) {
+  // QUAN TRỌNG: KHÔNG được gom vật lý theo nguồn (nhóm hết Xôi Lạc, rồi
+  // hết Pháo Hoa, rồi hết Gà Vàng...) như bản cũ — làm vậy phá vỡ thứ tự
+  // thời gian tổng thể giữa các nguồn, vì các nhóm được in ra theo thứ tự
+  // CỐ ĐỊNH của SOURCE_GROUP_ORDER chứ không theo giờ thi đấu thực. Hậu
+  // quả: 1 trận 0h ngày hôm sau của nguồn đứng trước trong danh sách vẫn
+  // bị in ra TRƯỚC 1 trận 18h ngày hôm trước của nguồn đứng sau, dù trận
+  // sau mới là trận đá trước. `entries` truyền vào đây đã được sort đúng
+  // theo giờ thi đấu thực (matchTimeTimestamp) từ playlistBuilder.service.js
+  // — chỉ cần giữ NGUYÊN thứ tự đó khi in ra. Việc gom nhóm theo nguồn cho
+  // người xem vẫn được giữ nhờ thuộc tính `group-title` trên từng dòng
+  // #EXTINF — VLC/TiviMate/hầu hết player IPTV tự nhóm kênh theo
+  // group-title mà không cần các dòng nằm liền kề nhau trong file.
+  const withUrl = entries.filter((entry) => {
+    const url = entry.stream?.playUrl || entry.stream?.m3u8Url || entry.stream?.flvUrl || '';
+    return !!url;
+  });
+
+  if (!withUrl.length) return lines.join('\n').trim() + '\n';
+
+  // Dòng thống kê đầu file (giữ lại thông tin "mỗi nguồn bao nhiêu trận"
+  // như bản cũ) — chỉ để tham khảo, KHÔNG dùng để sắp xếp lại danh sách.
+  const countBySource = new Map();
+  for (const entry of withUrl) {
     const key = entry?.match?.source || 'custom';
-    if (!buckets.has(key)) buckets.set(key, []);
-    buckets.get(key).push(entry);
+    countBySource.set(key, (countBySource.get(key) || 0) + 1);
   }
   const orderedKeys = [
-    ...SOURCE_GROUP_ORDER.filter((k) => buckets.has(k)),
-    ...[...buckets.keys()].filter((k) => !SOURCE_GROUP_ORDER.includes(k))
+    ...SOURCE_GROUP_ORDER.filter((k) => countBySource.has(k)),
+    ...[...countBySource.keys()].filter((k) => !SOURCE_GROUP_ORDER.includes(k))
   ];
+  const summary = orderedKeys.map((k) => `${getSourceShortLabel(k)} (${countBySource.get(k)} trận)`).join(', ');
+  lines.push(`# ===== Tất cả trận, sắp theo giờ thi đấu thực — ${summary} =====`);
+  lines.push('');
 
-  for (const sourceKey of orderedKeys) {
-    const groupEntries = buckets.get(sourceKey);
-    const withUrl = groupEntries.filter((entry) => {
-      const url = entry.stream?.playUrl || entry.stream?.m3u8Url || entry.stream?.flvUrl || '';
-      return !!url;
-    });
-    if (!withUrl.length) continue;
+  let lastDateStr = '';
+  for (const entry of withUrl) {
+    const { match, stream } = entry;
+    const url = stream?.playUrl || stream?.m3u8Url || stream?.flvUrl || '';
 
-    lines.push(`# ===== ${getSourceShortLabel(sourceKey)} (${withUrl.length} trận) =====`);
+    const logo = match?.homeTeam?.logo || match?.competition?.logo || '';
+    const group = getSourceLabel(match);
+    const time = formatMatchTime(match);
+    const title = getMatchTitle(match);
+    const streamer = stream.streamerName || stream.name || 'Server';
+    const fmt = entry.upcoming
+      ? '[sắp diễn ra]'
+      : (stream.format === 'flv' || /\.flv(\?|$)/i.test(url) ? '[flv]' : '[hls]');
+    const nameParts = [time, title, `(${streamer})`, fmt].filter(Boolean);
+    const displayName = nameParts.join(' ');
 
-    for (const entry of withUrl) {
-      const { match, stream } = entry;
-      const url = stream?.playUrl || stream?.m3u8Url || stream?.flvUrl || '';
-
-      const logo = match?.homeTeam?.logo || match?.competition?.logo || '';
-      const group = getSourceLabel(match);
-      const time = formatMatchTime(match);
-      const title = getMatchTitle(match);
-      const streamer = stream.streamerName || stream.name || 'Server';
-      const fmt = entry.upcoming
-        ? '[sắp diễn ra]'
-        : (stream.format === 'flv' || /\.flv(\?|$)/i.test(url) ? '[flv]' : '[hls]');
-      const nameParts = [time, title, `(${streamer})`, fmt].filter(Boolean);
-      const displayName = nameParts.join(' ');
-
-      const attrs = ['#EXTINF:-1'];
-      if (logo) attrs.push(`tvg-logo="${logo}"`);
-      attrs.push(`group-title="${group}"`);
-
-      lines.push(`${attrs.join(' ')} , ${displayName}`);
-      lines.push(url);
-      lines.push('');
+    // Dòng phân cách khi sang ngày mới (giờ Việt Nam) — chỉ để dễ đọc
+    // bằng mắt khi mở file .m3u dạng text, không ảnh hưởng player parse.
+    const dateStr = match?.dateStr || '';
+    if (dateStr && dateStr !== lastDateStr) {
+      lines.push(`# ----- Ngày ${dateStr} -----`);
+      lastDateStr = dateStr;
     }
+
+    const attrs = ['#EXTINF:-1'];
+    if (logo) attrs.push(`tvg-logo="${logo}"`);
+    attrs.push(`group-title="${group}"`);
+
+    lines.push(`${attrs.join(' ')} , ${displayName}`);
+    lines.push(url);
+    lines.push('');
   }
 
   return lines.join('\n').trim() + '\n';
