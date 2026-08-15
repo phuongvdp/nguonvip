@@ -300,6 +300,48 @@ export function isRecognizedProCompetition(match) {
 }
 
 /**
+ * Trận đội tuyển quốc gia (không phải CLB) — nhận diện qua tên đội trùng
+ * tên 1 quốc gia. Dùng để KHÔNG áp bộ lọc whitelist giải chuyên nghiệp
+ * (PRO_LEAGUE_KEYWORDS) cho Xôi Lạc/Gà Vàng với các trận này: nhiều trận
+ * đội tuyển (giao hữu quốc tế, vòng loại, cúp khu vực như AFF/SEA Games...)
+ * bị nguồn Xôi Lạc ghi tên giải không khớp whitelist (hoặc để trống/khác
+ * tên) nên bị lọc mất oan, dù nguồn khác (Pháo Hoa, Giờ Vàng — không lọc
+ * theo whitelist) vẫn hiện bình thường. Ví dụ: "Thái Lan vs Singapore".
+ */
+const NATIONAL_TEAM_NAMES = [
+  'viet nam', 'thai lan', 'thailand', 'singapore', 'malaysia', 'indonesia',
+  'philippines', 'myanmar', 'campuchia', 'cambodia', 'lao', 'laos', 'brunei',
+  'timor leste', 'trung quoc', 'china', 'nhat ban', 'japan', 'han quoc',
+  'korea republic', 'south korea', 'north korea', 'trieu tien', 'an do', 'india',
+  'uc', 'australia', 'iraq', 'iran', 'saudi arabia', 'qatar', 'uae',
+  'united arab emirates', 'jordan', 'oman', 'bahrain', 'kuwait', 'syria',
+  'lebanon', 'palestine', 'yemen', 'afghanistan', 'uzbekistan', 'turkmenistan',
+  'tajikistan', 'kyrgyzstan', 'mongolia', 'nepal', 'bangladesh', 'sri lanka',
+  'maldives', 'bhutan', 'pakistan', 'hong kong', 'macau', 'macao', 'chinese taipei',
+  'anh', 'england', 'phap', 'france', 'duc', 'germany', 'tay ban nha', 'spain',
+  'y', 'italy', 'bo dao nha', 'portugal', 'ha lan', 'netherlands', 'bi', 'belgium',
+  'thuy si', 'switzerland', 'ao', 'austria', 'ba lan', 'poland', 'nga', 'russia',
+  'ukraina', 'ukraine', 'thuy dien', 'sweden', 'na uy', 'norway', 'dan mach',
+  'denmark', 'croatia', 'serbia', 'hy lap', 'greece', 'tho nhi ky', 'turkiye',
+  'turkey', 'scotland', 'wales', 'ireland', 'iceland', 'phan lan', 'finland',
+  'brazil', 'argentina', 'uruguay', 'chile', 'colombia', 'peru', 'ecuador',
+  'paraguay', 'bolivia', 'venezuela', 'mexico', 'hoa ky', 'usa', 'united states',
+  'canada', 'costa rica', 'panama', 'jamaica', 'ai cap', 'egypt', 'morocco',
+  'ma rop', 'algeria', 'tunisia', 'nigeria', 'ghana', 'senegal', 'cameroon',
+  'nam phi', 'south africa', 'new zealand'
+];
+
+function isCountryTeamName(name) {
+  const n = stripDiacritics(name || '').trim();
+  if (!n) return false;
+  return NATIONAL_TEAM_NAMES.some((c) => n === c || n.includes(c));
+}
+
+export function isNationalTeamMatch(match) {
+  return isCountryTeamName(match?.homeTeam?.name) && isCountryTeamName(match?.awayTeam?.name);
+}
+
+/**
  * True khi trận nên bị loại khỏi danh sách.
  * - Mọi nguồn: loại trận rơi vào danh sách "cỏ"/phong trào/hạng dưới đã
  *   nhận diện rõ tên (MINOR_LEAGUE_KEYWORDS), hoặc không có tên giải.
@@ -307,8 +349,17 @@ export function isRecognizedProCompetition(match) {
  *   trận thuộc giải đã được nhận diện là chuyên nghiệp (PRO_LEAGUE_KEYWORDS)
  *   — bất cứ giải nào không khớp whitelist (hạng 2/3/4, giải lạ, không rõ
  *   nguồn...) đều bị loại theo đúng yêu cầu "chỉ để lại giải chuyên nghiệp".
+ *   NGOẠI LỆ: trận giữa 2 đội TUYỂN QUỐC GIA (isNationalTeamMatch) luôn
+ *   được giữ lại (miễn không dính MINOR_LEAGUE_KEYWORDS ở trên) — các nguồn
+ *   hay ghi sai/thiếu tên giải cho trận đội tuyển khiến chúng bị lọc oan.
  */
 export function isJunkMatch(match) {
+  // Trận đội tuyển quốc gia (tên đội trùng tên nước) luôn được giữ lại,
+  // bỏ qua toàn bộ lọc minor-league/whitelist bên dưới — các nguồn hay ghi
+  // sai/thiếu/lệch tên giải cho dạng trận này (giao hữu quốc tế, vòng loại,
+  // cúp khu vực...) khiến chúng bị lọc oan dù là trận đáng xem.
+  if (isNationalTeamMatch(match)) return false;
+
   if (isMinorLeagueMatch(match)) return true;
 
   const key = getSourceKey(match);
