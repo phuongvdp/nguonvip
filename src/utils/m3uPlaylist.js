@@ -5,6 +5,7 @@ import {
   getMatchTitle,
   getSourceKey,
   getSourceLabel,
+  getSourceReferer,
   getSourceShortLabel,
   SOURCE_GROUP_ORDER
 } from '@/src/utils/playerGet';
@@ -96,6 +97,11 @@ export function buildM3uPlaylist(entries = []) {
     attrs.push(`group-title="${group}"`);
 
     lines.push(`${attrs.join(' ')} , ${displayName}`);
+    // FIX "resource unavailable": kèm Referer đúng nguồn (VLC/TiviMate/
+    // Perfect Player đều hiểu #EXTVLCOPT:http-referrer) để CDN không chặn
+    // request khi player mở thẳng link — xem chi tiết ở getSourceReferer().
+    const referer = getSourceReferer(match);
+    if (referer) lines.push(`#EXTVLCOPT:http-referrer=${referer}`);
     lines.push(url);
     lines.push('');
   }

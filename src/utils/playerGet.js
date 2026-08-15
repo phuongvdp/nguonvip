@@ -438,6 +438,27 @@ export function getApiSource(match) {
   return 'gavang';
 }
 
+/**
+ * FIX "resource unavailable": nhiều CDN của Gà Vàng/Xôi Lạc (Tencent,
+ * Alibaba/Aliyun, VNBong, streambylivepulse...) kiểm tra header Referer —
+ * thiếu đúng Referer, CDN từ chối request dù link còn hiệu lực và trận vẫn
+ * đang đá. File .m3u trước đây chỉ ghi mỗi dòng URL trần, không kèm
+ * Referer, nên VLC/TiviMate/Perfect Player mở thẳng link bị CDN chặn.
+ * Giovang/Pháo Hoa không đòi hỏi header này nên trước giờ không bị lộ ra.
+ * Hàm này trả về Referer đúng theo từng nguồn để ghi kèm dòng
+ * #EXTVLCOPT:http-referrer trong m3uPlaylist.js.
+ */
+export function getSourceReferer(match) {
+  const key = getSourceKey(match);
+  if (key === 'gavang') {
+    return (process.env.GAVANG_DOMAIN || process.env.GAVANG_BASE_URL || 'https://gavangtv.nl') + '/';
+  }
+  if (key === 'xoilac') {
+    return (process.env.XOILAC_DOMAIN || process.env.XOILAC_BASE_URL || 'https://xoilacxtx.tv') + '/';
+  }
+  return '';
+}
+
 export function isM3u8Url(url) {
   if (!url || typeof url !== 'string') return false;
   return /\.m3u8(\?|$)/i.test(url);
