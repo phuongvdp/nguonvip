@@ -116,7 +116,13 @@ export function buildM3uPlaylist(entries = []) {
 export function matchesToPlaylistEntries(matches = [], { baseUrl = '' } = {}) {
   const entries = [];
   for (const match of matches) {
-    const stream = (match.streams || []).find((s) => s?.m3u8Url);
+    // BUG FIX: trước đây chỉ tìm stream có m3u8Url — nhiều nguồn (xoilac,
+    // ninety, customSource, xoilacAffcup, crawler...) khi ưu tiên chọn kênh
+    // FLV (cert hợp lệ hơn) chỉ trả về flvUrl, m3u8Url rỗng. Kết quả: trận
+    // đang live hiển thị trên web (có link FLV) nhưng bị loại hoàn toàn
+    // khỏi playlist vì .find(s => s?.m3u8Url) không khớp. Giờ chấp nhận
+    // bất kỳ dạng URL nào đã resolve được (m3u8 / flv / playUrl chung).
+    const stream = (match.streams || []).find((s) => s?.m3u8Url || s?.flvUrl || s?.playUrl);
     if (stream) {
       entries.push({ match, stream });
       continue;
