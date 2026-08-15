@@ -601,10 +601,18 @@ export function formatKickoffTime(match) {
 export function getLiveBadge(match) {
   const status = match?.status || {};
   if (!status.isLive) return '';
+  // Chỉ hiện nhãn LIVE tĩnh — KHÔNG hiện số phút thi đấu (ví dụ "34'")
+  // trong tên trận, dù ở web hay trong file .m3u. Vẫn giữ các nhãn không
+  // phải số phút như "HT" (nghỉ giữa hiệp) nếu nguồn có trả về.
+  const looksLikeMinuteClock = (v) => /^\d{1,3}(\+\d{1,2})?['’]?$/i.test(String(v || '').trim());
+
   const raw = String(status.elapsedTime || '').trim();
-  const looksLikeClock = raw && /^(\d{1,3}(\+\d{1,2})?['’]?|HT|FT)$/i.test(raw);
-  if (looksLikeClock) return raw;
-  return status.text || status.name || 'LIVE';
+  if (raw && !looksLikeMinuteClock(raw)) return raw;
+
+  const fallback = String(status.text || status.name || '').trim();
+  if (fallback && !looksLikeMinuteClock(fallback)) return fallback;
+
+  return 'LIVE';
 }
 
 export function formatMatchTime(match) {

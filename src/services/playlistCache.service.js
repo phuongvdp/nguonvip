@@ -6,9 +6,19 @@ const ACTIVE_REFRESH_INTERVAL_MS = 15 * 60 * 1000; // 15 phút
 // (băng thông, request tới các nguồn gốc), nhưng vẫn đủ nhanh để không bỏ lỡ
 // khi có trận mới bắt đầu. Giãn dần theo số lần quét liên tiếp "trắng" và
 // dừng giãn ở mức trần, quay lại 15 phút ngay khi tìm thấy trận live.
-const IDLE_REFRESH_INTERVAL_MS = 30 * 60 * 1000; // bắt đầu giãn: 30 phút
-const IDLE_REFRESH_MAX_MS = 2 * 60 * 60 * 1000; // giãn tối đa: 2 tiếng
-const STALE_MULTIPLIER = 2; // an toàn nếu 1-2 lần tự refresh bị lỗi liên tiếp
+//
+// QUAN TRỌNG: chạy trên Vercel serverless — KHÔNG phải 1 process sống liên
+// tục — nên setTimeout tự quét nền (scheduleNext/refresh) không đảm bảo
+// chạy được giữa các lần request (container có thể bị đóng băng). Vì vậy
+// trần giãn + hệ số STALE_MULTIPLIER phải đủ THẤP để, kể cả khi timer nền
+// không chạy, request kế tiếp (dù cách xa vài chục phút) vẫn tự ép quét lại
+// đồng bộ thay vì tiếp tục phục vụ cache cũ/rỗng hàng giờ liền — đây chính
+// là lỗi khiến trận mới hôm sau không lên được playlist dù người dùng đã
+// bấm refresh nguồn trên app IPTV (app chỉ tải lại file, không ép server
+// quét lại; server tự quyết định cache có "đủ mới" hay không).
+const IDLE_REFRESH_INTERVAL_MS = 10 * 60 * 1000; // bắt đầu giãn: 10 phút
+const IDLE_REFRESH_MAX_MS = 20 * 60 * 1000; // giãn tối đa: 20 phút (trước đây 2 tiếng — quá dài cho serverless)
+const STALE_MULTIPLIER = 1.5; // trước đây x2 (tới 4 tiếng) — hạ để buộc quét lại sớm hơn
 
 // Trần thời gian ĐỢI 1 lần quét (không phải trần thời gian quét — quét vẫn
 // chạy tiếp ở nền dù đã hết hạn đợi). Quét lần đầu (cold start) phải gọi

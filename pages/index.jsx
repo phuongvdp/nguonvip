@@ -31,12 +31,12 @@ function saveViewMode(mode) {
 }
 
 function PlaylistLink() {
-  const [url, setUrl] = useState('/playlist.m3u');
+  const [url, setUrl] = useState('/playlist.m3u?refresh=1');
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      setUrl(`${window.location.origin}/playlist.m3u`);
+      setUrl(`${window.location.origin}/playlist.m3u?refresh=1`);
     }
   }, []);
 
