@@ -119,18 +119,20 @@ export function isSourceEnabled(match, enabledSources) {
 // phân biệt hoa thường trên tên giải đấu (competition.name). Áp dụng cho
 // TẤT CẢ nguồn (kể cả Pháo Hoa/AFF Cup/90 Phút).
 export const MINOR_LEAGUE_KEYWORDS = [
-  'giao huu',       // friendly
-  'phong trao',     // grassroots
-  'nghiep du',      // amateur
-  'giai co',        // "giải cỏ" (sân cỏ nhân tạo, phủi)
+  'giao huu phong trao',  // grassroots friendly (không phải pro-level)
+  'giao huu vo dich',     // grassroots/regional friendly
+  'phong trao',           // grassroots
+  'nghiep du',            // amateur
+  'giai co',              // "giải cỏ" (sân cỏ nhân tạo, phủi)
   'san co',
   'phu i',
   'phui',
   'futsal phong trao',
-  'hang nhi',       // hạng nhì / league two (nhiều nước)
-  'hang ba',        // hạng ba / league three
-  'hang tu',
-  'reserve',        // đội trẻ/dự bị
+  'hang nhi',             // hạng nhì / league two (nhiều nước)
+  'hang ba',              // hạng ba / league three
+  'hang tu',              // league four
+  'hang nam',             // league five+
+  'reserve',              // đội trẻ/dự bị
   'du bi',
   'cup lang',
   'cup xa',
@@ -138,35 +140,48 @@ export const MINOR_LEAGUE_KEYWORDS = [
   'giai phuong',
   'giai quan',
   'giai huyen',
-  'thieu nien',     // giải thiếu niên nhi đồng
+  'thieu nien',           // giải thiếu niên nhi đồng
   'nhi dong',
-  'giai tinh',      // giải tỉnh/thành phố phong trào
-  'giai truong',    // giải trường học
-  'giai noi bo',    // giải nội bộ công ty/cơ quan
+  'giai tinh',            // giải tỉnh/thành phố phong trào
+  'giai truong',          // giải trường học
+  'giai noi bo',          // giải nội bộ công ty/cơ quan
   'cup doanh nghiep',
   'cup cong ty',
   'the thao hoc duong',
-  'sinh vien',      // giải sinh viên
-  'cong nhan',      // giải công nhân viên chức
-  've lang',        // "về làng" — giao lưu phong trào
-  'giai tre',       // giải trẻ (U-series các nước) — vd "Giải Trẻ Ukrainian"
-  'hang 2',         // "Hạng 2 <nước>" — dạng số, khác với "hạng nhì" chữ ở trên
+  'sinh vien',            // giải sinh viên
+  'cong nhan',            // giải công nhân viên chức
+  've lang',              // "về làng" — giao lưu phong trào
+  'giai tre',             // giải trẻ (U-series các nước) — vd "Giải Trẻ Ukrainian"
+  'hang 2',               // "Hạng 2 <nước>" — dạng số, khác với "hạng nhì" chữ ở trên
   'hang 3',
   'hang 4',
-  'esiliiga',       // giải hạng dưới Estonia — vd "Hạng 3 Esiliiga"
+  'hang 5',
+  'hang 6',
+  'hang 7',
+  'esiliiga',             // giải hạng dưới Estonia — vd "Hạng 3 Esiliiga"
   // Hạng 2/3/4+ của các giải nhà nghề lớn — chặn tường minh để KHÔNG bị
   // whitelist bên dưới "vồ nhầm" qua so khớp chuỗi con (vd tên giải hạng 2
   // Đức vẫn chứa chữ "bundesliga").
-  'hang nhat',              // Giải hạng Nhất QG Việt Nam (dưới V-League)
+  'hang nhat',            // Giải hạng Nhất QG Việt Nam (dưới V-League)
   '2. bundesliga',
   'zweite bundesliga',
+  '3. bundesliga',
+  '4. bundesliga',        // Regionalliga Hạng 4 Đức
+  '5. bundesliga',        // Oberliga Hạng 5 Đức
   '3. liga',
+  '4. liga',
   'regionalliga',
+  'oberliga',             // Hạng 4 Đức
   'segunda division',
   'segunda liga',
   'primera rfef',
-  'la liga 2',
+  '4. division',          // Hạng 4 các giải khác
+  'liga 2 belanda',       // Hạng 2 Hà Lan
+  'primeira liga 2',      // Hạng 2 Bồ Đào Nha
+  'liga portugal 2',      // Hạng 2 Bồ Đào Nha
+  'liga 2',               // Hạng 2 Bồ Đào Nha, Portugal
   'laliga 2',
+  'la liga 2',
   'laliga2',
   'smartbank',
   'ligue 2',
@@ -178,20 +193,23 @@ export const MINOR_LEAGUE_KEYWORDS = [
   'league one',
   'league two',
   'national league',
-  'championship',    // hạng 2 Anh (EFL Championship)
-  'eerste divisie',  // hạng 2 Hà Lan (khác Eredivisie)
+  'championship',         // hạng 2 Anh (EFL Championship)
+  'eerste divisie',       // hạng 2 Hà Lan (khác Eredivisie)
   'challenger pro league',
   'tff 1. lig',
   'tff 2. lig',
   'tff 3. lig',
   'j2 league',
   'j3 league',
+  'jfl',                  // Japan Football League (hạng 3 Nhật)
   'k league 2',
   'thai league 2',
-  'liga expansion',  // hạng 2 Mexico
+  'liga expansion',       // hạng 2 Mexico
   'primera b',
   'primera nacional',
-  'segunda profesional'
+  'segunda profesional',
+  'super group 1',        // Grouping trong các giải hạng dưới
+  'super group 2'
 ];
 
 // Tên giải đấu "rỗng"/mặc định mà các nguồn scrape trả về khi không nhận
@@ -266,8 +284,19 @@ export const PRO_LEAGUE_KEYWORDS = [
   'afcon', 'african cup of nations', 'cup of nations',
   'uefa nations league', 'nations league',
   'asian cup',
-  'aff cup', 'aff championship', 'asean championship',
-  'uefa euro', 'vck euro'
+  'aff cup', 'aff championship', 'asean championship', 'aff',
+  'uefa euro', 'vck euro',
+  // Giao hữu CLB chuyên nghiệp (pro-level friendlies)
+  'club friendlies', 'friendly',
+  'international friendlies',
+  // Các giải khác đáng xem
+  'super cup', 'coppa italia', 'fa cup', 'dfb pokal', 'coupe de france',
+  'carabao cup', 'efl cup', 'league cup',
+  'intercontinental cup', 'toyota cup',
+  'club world cup', 'fifa club world cup',
+  'playoff',
+  'qualification', 'vong loai',
+  'semi-final', 'final', 'semifinal'
 ];
 
 function stripDiacritics(str) {
