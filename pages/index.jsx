@@ -131,28 +131,108 @@ function StatusBar({ generatedAt, count, onRefresh, refreshing }) {
   );
 }
 
-function SourceToggles({ enabledSources, onToggle }) {
+function SourceToggles({ enabledSources, onToggle, healthStatus }) {
+  const [showDetail, setShowDetail] = useState(false);
+
   return (
-    <div className="flex flex-wrap gap-2">
-      {SOURCE_TOGGLE_LIST.map((s) => {
-        const on = enabledSources[s.key] !== false;
-        return (
-          <button
-            key={s.key}
-            type="button"
-            onClick={() => onToggle(s.key)}
-            className={cn(
-              'rounded-full border px-3 py-1.5 text-sm transition-colors',
-              on
-                ? 'border-primary bg-primary text-primary-foreground'
-                : 'border-border bg-muted text-muted-foreground'
-            )}
-            aria-pressed={on}
-          >
-            {s.label}
-          </button>
-        );
-      })}
+    <div className="space-y-3">
+      <div className="flex items-center justify-between">
+        <h3 className="font-semibold text-foreground">Bật/Tắt Nguồn</h3>
+        <button
+          type="button"
+          onClick={() => setShowDetail(!showDetail)}
+          className="text-xs text-muted-foreground hover:text-foreground transition-colors"
+        >
+          {showDetail ? '▼' : '▶'} Chi tiết
+        </button>
+      </div>
+
+      {!showDetail ? (
+        // Compact mode - just toggles
+        <div className="flex flex-wrap gap-2">
+          {SOURCE_TOGGLE_LIST.map((s) => {
+            const on = enabledSources[s.key] !== false;
+            return (
+              <button
+                key={s.key}
+                type="button"
+                onClick={() => onToggle(s.key)}
+                className={cn(
+                  'rounded-md border px-4 py-2.5 text-sm font-medium transition-all hover:shadow-md',
+                  on
+                    ? 'border-primary bg-primary text-primary-foreground shadow-sm'
+                    : 'border-border bg-muted text-muted-foreground hover:bg-accent'
+                )}
+                aria-pressed={on}
+              >
+                {on ? '✓' : '○'} {s.label}
+              </button>
+            );
+          })}
+        </div>
+      ) : (
+        // Detailed mode - with domain and health info
+        <div className="space-y-2 rounded-lg border border-border bg-card p-4">
+          {SOURCE_TOGGLE_LIST.map((s) => {
+            const on = enabledSources[s.key] !== false;
+            const health = healthStatus?.[s.key];
+            const isHealthy = health?.ok && health?.live > 0;
+            const hasDomain = !!health?.domain;
+
+            return (
+              <div
+                key={s.key}
+                className={cn(
+                  'flex items-center justify-between rounded-lg border px-3 py-2 transition-all',
+                  on
+                    ? 'border-primary bg-primary/5'
+                    : 'border-border bg-muted/30'
+                )}
+              >
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-2">
+                    <button
+                      type="button"
+                      onClick={() => onToggle(s.key)}
+                      className={cn(
+                        'shrink-0 h-5 w-5 rounded border transition-colors',
+                        on
+                          ? 'border-primary bg-primary text-primary-foreground flex items-center justify-center'
+                          : 'border-border bg-muted hover:bg-accent'
+                      )}
+                    >
+                      {on && '✓'}
+                    </button>
+                    <span className={cn('font-medium text-sm', on ? 'text-foreground' : 'text-muted-foreground')}>
+                      {s.label}
+                    </span>
+                    {isHealthy && (
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-green-100 text-green-700 dark:bg-green-900/30 dark:text-green-400">
+                        🟢 Sống ({health.live} trận)
+                      </span>
+                    )}
+                    {health?.ok === false && (
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400">
+                        🔴 Chết
+                      </span>
+                    )}
+                    {health?.ok && health?.live === 0 && (
+                      <span className="text-xs px-2 py-0.5 rounded-full bg-yellow-100 text-yellow-700 dark:bg-yellow-900/30 dark:text-yellow-400">
+                        🟡 Nghi ngờ
+                      </span>
+                    )}
+                  </div>
+                  {hasDomain && (
+                    <div className="text-xs text-muted-foreground mt-1 ml-7 truncate">
+                      {health.domain}
+                    </div>
+                  )}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }
@@ -352,6 +432,8 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
   const [error, setError] = useState('');
+  const [healthStatus, setHealthStatus] = useState({});
+  const [checkingHealth, setCheckingHealth] = useState(false);
 
   const fetchMatches = useCallback(async (opts = {}) => {
     const { refresh } = opts;
@@ -372,6 +454,21 @@ export default function Home() {
       setRefreshing(false);
     }
   }, [activeSport]);
+
+  const fetchHealthStatus = useCallback(async () => {
+    setCheckingHealth(true);
+    try {
+      const res = await fetch('/api/sources/health');
+      const json = await res.json();
+      if (json.success && json.sources) {
+        setHealthStatus(json.sources);
+      }
+    } catch (err) {
+      console.error('Error fetching health status:', err);
+    } finally {
+      setCheckingHealth(false);
+    }
+  }, []);
 
   useEffect(() => {
     fetchMatches();
@@ -424,7 +521,7 @@ export default function Home() {
             refreshing={refreshing}
           />
 
-          <SourceToggles enabledSources={enabledSources} onToggle={toggleSource} />
+          <SourceToggles enabledSources={enabledSources} onToggle={toggleSource} healthStatus={healthStatus} />
 
           <div className="flex flex-wrap items-center justify-between gap-3">
             <div className="flex flex-wrap gap-2">
@@ -444,7 +541,17 @@ export default function Home() {
                 </button>
               ))}
             </div>
-            <ViewModeToggle mode={viewMode} onChange={changeViewMode} />
+            <div className="flex items-center gap-2">
+              <button
+                type="button"
+                onClick={() => fetchHealthStatus()}
+                disabled={checkingHealth}
+                className="rounded-md border border-border px-3 py-1.5 text-xs font-medium hover:bg-accent disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              >
+                {checkingHealth ? '🔄 Kiểm tra...' : '🔍 Sức khỏe'}
+              </button>
+              <ViewModeToggle mode={viewMode} onChange={changeViewMode} />
+            </div>
           </div>
         </div>
       </header>
