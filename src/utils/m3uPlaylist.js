@@ -128,10 +128,14 @@ export function matchesToPlaylistEntries(matches = [], { baseUrl = '' } = {}) {
       continue;
     }
 
-    // A live card without a stream is useful on the website while the source
-    // is catching up, but it must not be emitted as an "upcoming" resolver.
-    if (match?.status?.isLive) continue;
-
+    // BUG FIX THẬT SỰ: trận đang LIVE nhưng resolveStreams() ở
+    // playlistBuilder.service.js chưa kịp lấy được link (timeout 4.5s,
+    // nguồn chậm/tạm lỗi...) vẫn được GIỮ trên web (card live không kèm
+    // stream), nhưng dòng dưới đây trước kia `continue` bỏ hẳn trận này
+    // khỏi playlist — không có cách nào phát được nữa dù trận vẫn đang
+    // đá. Đây chính là nguyên nhân "web có, playlist không có". Giờ để
+    // trận live không có stream sẵn rơi xuống nhánh resolver bên dưới
+    // (giống trận sắp đá) — player sẽ tự lấy link thật ngay lúc bấm phát.
     if (!baseUrl) continue;
 
     const source = getSourceKey(match);
@@ -142,13 +146,17 @@ export function matchesToPlaylistEntries(matches = [], { baseUrl = '' } = {}) {
       sport: match.sport || 'football'
     });
     const resolverUrl = `${baseUrl}/api/playlist/resolve?${params.toString()}`;
+    const isLiveNoStream = !!match?.status?.isLive;
 
     entries.push({
       match,
-      upcoming: true,
+      // Chỉ gắn nhãn "sắp diễn ra" cho trận thật sự chưa đá — trận đang
+      // live mà rơi vào nhánh này chỉ là do stream chưa kịp resolve sẵn,
+      // không phải chưa bắt đầu, nên không gắn cờ `upcoming`.
+      upcoming: !isLiveNoStream,
       stream: {
         m3u8Url: resolverUrl,
-        streamerName: formatUpcomingBadge(match)
+        streamerName: isLiveNoStream ? 'Đang tải link...' : formatUpcomingBadge(match)
       }
     });
   }
