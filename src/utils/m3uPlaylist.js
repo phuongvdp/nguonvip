@@ -134,20 +134,14 @@ export function matchesToPlaylistEntries(matches = [], { baseUrl = '' } = {}) {
       continue;
     }
 
-    // FIX theo yêu cầu: Gà Vàng & Xôi Lạc đã bị lọc từ trước (không có bình
-    // luận viên → không được đưa vào danh sách nữa — xem hasCommentator ở
-    // playlistBuilder.service.js). Nên nếu 1 trận của 2 nguồn này TỚI ĐÂY
-    // vẫn không có `match.streams` sau khi playlistBuilder.service.js đã
-    // thử resolve (kèm retry), nhiều khả năng là link chết thật sự (CDN
-    // die, domain đổi giữa chừng...) chứ không phải "chưa kịp có" — đưa
-    // vào playlist qua resolver rất dễ vẫn báo lỗi khi bấm (kiểu "Không
-    // thể tìm thấy trang ... .quickscoreboardz.com"). Theo yêu cầu người
-    // dùng: LOẠI HẲN các trận kiểu này khỏi playlist thay vì hiện ra rồi
-    // báo lỗi. Các nguồn khác (giovang, phaohoa, 90phut, vsc9...) không bị
-    // lọc theo bình luận viên nên vẫn giữ nguyên cơ chế resolver-lúc-phát
-    // như cũ — các nguồn đó là API ổn định, ít khi treo link chết.
+    // Gà Vàng & Xôi Lạc: chỉ loại khi trận ĐANG LIVE mà vẫn không resolve
+    // được stream (nhiều khả năng link chết thật — CDN die, domain đổi
+    // giữa chừng...), tránh đưa vào playlist rồi báo lỗi khi bấm. Trận
+    // SẮP ĐẤU (chưa live) thì chưa có gì để resolve cả — không phải link
+    // chết, nên vẫn cho qua resolver-lúc-phát như mọi nguồn khác.
     const source = getSourceKey(match);
-    if (source === 'gavang' || source === 'xoilac') continue;
+    const isLiveNoStream = !!match?.status?.isLive;
+    if ((source === 'gavang' || source === 'xoilac') && isLiveNoStream) continue;
 
     if (!baseUrl) continue;
     const params = new URLSearchParams({
@@ -157,7 +151,6 @@ export function matchesToPlaylistEntries(matches = [], { baseUrl = '' } = {}) {
       sport: match.sport || 'football'
     });
     const resolverUrl = `${baseUrl}/api/playlist/resolve?${params.toString()}`;
-    const isLiveNoStream = !!match?.status?.isLive;
 
     entries.push({
       match,
