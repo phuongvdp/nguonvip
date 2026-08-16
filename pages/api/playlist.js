@@ -34,9 +34,14 @@ export default async function handler(req, res) {
       'Content-Disposition',
       `${download ? 'attachment' : 'inline'}; filename="live-${sportTab}.m3u"`
     );
-    // File tự làm mới mỗi 15 phút ở phía server — client/CDN có thể cache ngắn hạn,
-    // vẫn luôn kiểm tra lại (revalidate) để không bao giờ phục vụ bản quá cũ.
-    res.setHeader('Cache-Control', 'public, max-age=60, s-maxage=120, stale-while-revalidate=300');
+    // KHÔNG để CDN/edge cache response này — app IPTV bấm "refresh" là gọi
+    // lại đúng URL này, nếu CDN cache (như trước đây: s-maxage=120,
+    // stale-while-revalidate=300 → có thể phục vụ bản cũ tới ~7 phút mà
+    // không hề chạm tới server) thì bấm refresh trên app sẽ KHÔNG BAO GIỜ
+    // thấy nội dung mới dù server đã quét xong từ lâu. Độ mới đã được lo
+    // đúng ở tầng server (playlistCache.service.js tự làm mới theo lịch
+    // 15 phút / giãn khi rảnh) — không cần thêm 1 lớp cache HTTP nữa.
+    res.setHeader('Cache-Control', 'no-store');
     if (generatedAt) res.setHeader('Last-Modified', new Date(generatedAt).toUTCString());
     res.setHeader('X-Playlist-Generated-At', generatedAt ? new Date(generatedAt).toISOString() : '');
     res.setHeader('X-Playlist-Age-Seconds', String(ageSec));
