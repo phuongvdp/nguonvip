@@ -96,15 +96,9 @@ async function fetchLiveLists() {
   const pushList = (list, source) => {
     for (const m of normalize(list)) {
       if (isExcludedSport(m)) continue;
-      
       const key = m.matchId || m.stream?.liveUrl;
       if (!key || seen.has(`${source}:${key}`)) continue;
       const withSource = tagMatchSource(m, source);
-      // FIX: tran live nhung CHUA co binh luan vien thi nguon (Ga Vang/Xoi
-      // Lac) chua he tao link stream nao ca - truoc day chi chan viec nay o
-      // Xoi Lac, Ga Vang van lot vao playlist roi bao loi khi bam phat.
-      // Chan ngay tu day cho ca 2 nguon, do hien kenh chac chan khong phat
-      // duoc. (m.stream.streamerName do htmlParser.js gan khi quet Ga Vang.)
       const hasCommentator = m.commentators?.length || m.streamers?.length || m.stream?.streamerName;
       if ((source === 'gavang' || source === 'xoilac') && !hasCommentator) continue;
       if ((source === 'gavang' || source === 'xoilac') && isJunkMatch(withSource)) continue;
@@ -173,6 +167,13 @@ async function fetchUpcomingLists() {
       const key = m.matchId || m.stream?.liveUrl;
       if (!key || seen.has(`${source}:${key}`)) continue;
       const withSource = tagMatchSource(m, source);
+      // FIX: tran live nhung CHUA co binh luan vien thi nguon (Ga Vang/Xoi
+      // Lac) chua he tao link stream nao ca - truoc day chi chan viec nay o
+      // Xoi Lac, Ga Vang van lot vao playlist roi bao loi khi bam phat.
+      // Chan ngay tu day cho ca 2 nguon, do hien kenh chac chan khong phat
+      // duoc. (m.stream.streamerName do htmlParser.js gan khi quet Ga Vang.)
+      const hasCommentator = m.commentators?.length || m.streamers?.length || m.stream?.streamerName;
+      if ((source === 'gavang' || source === 'xoilac') && !hasCommentator) continue;
       if ((source === 'gavang' || source === 'xoilac') && isJunkMatch(withSource)) continue;
       if (isMinorLeagueMatch(withSource)) continue;
       seen.add(`${source}:${key}`);
