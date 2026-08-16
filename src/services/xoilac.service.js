@@ -2,6 +2,7 @@ import * as cheerio from 'cheerio';
 import axios from 'axios';
 import { createHttpClient } from '@/src/utils/httpClient';
 import { parseKickoffDate } from '@/src/utils/dateParse';
+import { isDeadStreamDomain } from '@/src/utils/playerGet';
 
 // LƯU Ý: domain gốc trong code là xoilacxtx.tv, nhưng trang này hiện khai báo
 // canonical/CDN trỏ sang xoilacxtl.tv (đổi domain do bị chặn). Có thể đây là
@@ -900,6 +901,15 @@ class XoilacService {
    * lỗi ở tầng DNS/kết nối (ENOTFOUND, EAI_AGAIN, ECONNREFUSED).
    */
   async isUrlReachable(url) {
+    // FIX quickscoreboardz.com và các domain tương tự: bị chặn DNS riêng ở
+    // phía người xem VN nhưng vẫn phản hồi HEAD bình thường từ server, nên
+    // check mạng bên dưới không phát hiện được — chặn thẳng theo danh sách
+    // domain đã biết (xem isDeadStreamDomain trong playerGet.js) trước khi
+    // tốn 1 request mạng.
+    if (isDeadStreamDomain(url)) {
+      console.warn('[xoilac] domain trong danh sách chặn, bỏ qua candidate:', url);
+      return false;
+    }
     try {
       await axios.head(url, {
         timeout: 4000,

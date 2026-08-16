@@ -475,9 +475,39 @@ export function flvToM3u8Candidate(url) {
   return url.replace(/\.flv(?=\?|$)/i, '.m3u8');
 }
 
+/**
+ * FIX "Không thể tìm thấy trang ... .quickscoreboardz.com" (DNS_PROBE_
+ * FINISHED_NXDOMAIN) trên các trận CÓ bình luận viên (web lẫn playlist):
+ * một số domain CDN mà nguồn (Xôi Lạc / Xôi Lạc AFF Cup / Gà Vàng...) trả
+ * về vẫn phản hồi bình thường khi server (Vercel, hạ tầng nước ngoài) tự
+ * kiểm tra (xem isUrlReachable() ở xoilac.service.js), nhưng đã bị nhà
+ * mạng trong nước (VNPT/Viettel/FPT...) chặn DNS riêng cho người xem VN —
+ * nên link vẫn lọt qua mọi bộ lọc hiện có rồi báo lỗi khi bấm phát thật.
+ * Domain kiểu này không tự "khỏi" được bằng retry/kiểm tra mạng từ server,
+ * phải liệt kê thủ công. Đây là điểm lọc DÙNG CHUNG cho MỌI nguồn (xem
+ * normalizeStreamList() bên dưới — nơi duy nhất mọi nguồn đều đi qua trước
+ * khi ra playlist/web) — thêm domain mới vào đây khi có báo lỗi kèm tên
+ * domain cụ thể, KHÔNG cần sửa gì ở từng service riêng lẻ.
+ */
+const DEAD_STREAM_DOMAINS = [
+  'quickscoreboardz.com'
+];
+
+export function isDeadStreamDomain(url) {
+  if (!url || typeof url !== 'string') return false;
+  let host = '';
+  try {
+    host = new URL(url).hostname.toLowerCase();
+  } catch {
+    return false;
+  }
+  return DEAD_STREAM_DOMAINS.some((d) => host === d || host.endsWith(`.${d}`));
+}
+
 export function isPlayableStreamUrl(url) {
   if (!url || typeof url !== 'string') return false;
   if (!/^https?:\/\//i.test(url)) return false;
+  if (isDeadStreamDomain(url)) return false;
   if (isM3u8Url(url) || isFlvUrl(url)) return true;
   // Chấp nhận URL CDN stream hợp lệ không có phần mở rộng .m3u8/.flv
   // (Tencent liveplay, Alibaba/AliCDN, phaohoa, và các CDN phổ biến khác)

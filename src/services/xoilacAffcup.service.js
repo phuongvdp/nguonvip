@@ -1,6 +1,7 @@
 import * as cheerio from 'cheerio';
 import { createHttpClient } from '@/src/utils/httpClient';
 import { buildMatchSlug, extractSlugFromUrl, slugifyVi } from '@/src/utils/slug';
+import { isDeadStreamDomain } from '@/src/utils/playerGet';
 
 const XOILAC_AFFCUP_BASE_URL = process.env.AFFCUP_DOMAIN || 'https://xoilacbongda-affcup2026b.live';
 
@@ -446,7 +447,7 @@ class XoilacAffcupService {
               const $el = $(el);
               const streamUrl = this.extractStreamUrl($el);
 
-              if (!streamUrl || seen.has(streamUrl)) return;
+              if (!streamUrl || seen.has(streamUrl) || isDeadStreamDomain(streamUrl)) return;
               seen.add(streamUrl);
 
               // Kiểm tra loại stream
@@ -500,7 +501,7 @@ class XoilacAffcupService {
               let match;
               while ((match = pattern.exec(html))) {
                 const url = match[1];
-                if (!url || seen.has(url)) continue;
+                if (!url || seen.has(url) || isDeadStreamDomain(url)) continue;
                 
                 const isFlv = /\.flv(\?|$)/i.test(url);
                 const isM3u8 = /\.m3u8(\?|$)/i.test(url);
