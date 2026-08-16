@@ -5,6 +5,8 @@ import {
   loadEnabledSources,
   saveEnabledSources,
   isSourceEnabled,
+  getSourceKey,
+  getSourceLabel,
   getSourceShortLabel,
   formatMatchTime
 } from '@/src/utils/playerGet';
@@ -423,6 +425,22 @@ function MatchListRow({ match }) {
   );
 }
 
+function SourceGroupHeader({ source, count }) {
+  const meta = SOURCE_META[source] || SOURCE_META.custom;
+  return (
+    <div className="flex items-center gap-2 border-b border-border pb-2">
+      <span
+        className="inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs"
+        style={{ backgroundColor: `${meta.color}33` }}
+      >
+        {meta.icon}
+      </span>
+      <h2 className="text-sm font-semibold text-foreground">{getSourceLabel(source)}</h2>
+      <span className="text-xs text-muted-foreground">({count} trận)</span>
+    </div>
+  );
+}
+
 export default function Home() {
   const [enabledSources, setEnabledSources] = useState(() => loadEnabledSources());
   const [viewMode, setViewMode] = useState(() => loadViewMode());
@@ -500,6 +518,28 @@ export default function Home() {
   );
   const visibleCount = visibleMatches.length;
 
+  // FIX: người dùng muốn khi bật NHIỀU nguồn cùng lúc, mỗi nguồn hiển thị
+  // thành 1 khối riêng — không muốn trận của các nguồn khác nhau xen kẽ
+  // lẫn lộn theo thời gian như trước (xem comment ở visibleMatches). Gom
+  // nhóm CHỈ ở bước hiển thị (giữ nguyên thứ tự thời gian trong từng
+  // khối, vì visibleMatches đã sort theo giờ toàn cục — filter theo nguồn
+  // không làm mất thứ tự đó); playlist .m3u (dùng cho VLC/IPTV) không đụng
+  // tới, vẫn phẳng theo thời gian như cũ.
+  const groupedMatches = useMemo(() => {
+    const order = SOURCE_TOGGLE_LIST.map((s) => s.key);
+    const groups = new Map();
+    for (const m of visibleMatches) {
+      const key = getSourceKey(m);
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(m);
+    }
+    return [...groups.entries()].sort((a, b) => {
+      const ai = order.indexOf(a[0]);
+      const bi = order.indexOf(b[0]);
+      return (ai === -1 ? order.length : ai) - (bi === -1 ? order.length : bi);
+    });
+  }, [visibleMatches]);
+
   return (
     <main className="min-h-screen bg-background text-foreground">
       <header className="border-b border-border">
@@ -564,15 +604,29 @@ export default function Home() {
         )}
 
         {viewMode === 'list' ? (
-          <div className="space-y-2">
-            {visibleMatches.map((m) => (
-              <MatchListRow key={m.matchId} match={m} />
+          <div className="space-y-6">
+            {groupedMatches.map(([source, list]) => (
+              <div key={source} className="space-y-2">
+                <SourceGroupHeader source={source} count={list.length} />
+                <div className="space-y-2">
+                  {list.map((m) => (
+                    <MatchListRow key={m.matchId} match={m} />
+                  ))}
+                </div>
+              </div>
             ))}
           </div>
         ) : (
-          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {visibleMatches.map((m) => (
-              <MatchCard key={m.matchId} match={m} />
+          <div className="space-y-6">
+            {groupedMatches.map(([source, list]) => (
+              <div key={source} className="space-y-3">
+                <SourceGroupHeader source={source} count={list.length} />
+                <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                  {list.map((m) => (
+                    <MatchCard key={m.matchId} match={m} />
+                  ))}
+                </div>
+              </div>
             ))}
           </div>
         )}

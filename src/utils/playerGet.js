@@ -720,18 +720,21 @@ export function formatMatchTime(match) {
   const status = match?.status || {};
   const kickoff = formatKickoffTime(match);
 
-  // Trận đang live: ưu tiên hiện phút thi đấu thật (34', HT...) khi nguồn
-  // đọc được, rồi tới nhãn tĩnh "Live"/"LIVE" do nguồn trả về. Chỉ khi
-  // KHÔNG có gì trong 2 cái đó (cực hiếm) mới rơi xuống hiện giờ bóng lăn
-  // để badge không bao giờ trống hoặc vô nghĩa.
-  //
-  // Dùng cho GIAO DIỆN WEB (badge hiển thị, không ảnh hưởng sort — web
-  // sort theo mảng dữ liệu, không sort theo chuỗi text này). File .m3u
-  // KHÔNG dùng hàm này cho phần tên chính — xem getLiveBadge() ở trên.
+  // Trận đang live: hiện GIỜ BÓNG LĂN (kickoff) trước — vì UI đã có sẵn 1
+  // badge đỏ "LIVE" riêng ngay cạnh (xem MatchCard/MatchListRow), nên nếu
+  // hàm này cũng trả về "LIVE" thì người xem thấy 2 chữ LIVE cạnh nhau mà
+  // KHÔNG thấy giờ bắt đầu trận đâu cả — đúng lỗi đã gặp. Ưu tiên:
+  //   1) Giờ bóng lăn (kickoff) — luôn có ý nghĩa, không đổi giữa các lần
+  //      làm mới cache nên không sợ hiện sai.
+  //   2) Nếu có thêm nhãn không phải số phút (vd "HT" nghỉ giữa hiệp) thì
+  //      nối thêm sau giờ bóng lăn, dạng "21:00 · HT".
+  //   3) Chỉ khi HOÀN TOÀN không có kickoff (nguồn không trả giờ) mới rơi
+  //      xuống nhãn live tĩnh ("LIVE") để badge không bao giờ trống.
   if (status.isLive) {
     const badge = getLiveBadge(match);
+    const meaningfulBadge = badge && badge !== 'LIVE' ? badge : '';
+    if (kickoff) return meaningfulBadge ? `${kickoff} · ${meaningfulBadge}` : kickoff;
     if (badge) return badge;
-    if (kickoff) return kickoff;
     if (match?.timeFormatted) return match.timeFormatted;
     return 'LIVE';
   }

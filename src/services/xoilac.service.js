@@ -1,4 +1,5 @@
 import * as cheerio from 'cheerio';
+import axios from 'axios';
 import { createHttpClient } from '@/src/utils/httpClient';
 import { parseKickoffDate } from '@/src/utils/dateParse';
 
@@ -886,6 +887,40 @@ class XoilacService {
   }
 
   /**
+   * FIX "Không thể tìm thấy trang ... này" (DNS_PROBE_FINISHED_NXDOMAIN):
+   * biến `urlStream` lấy từ trang embed đôi lúc trỏ tới 1 domain CDN đã
+   * chết/đổi (site nguồn quản lý nhiều domain CDN, cái nào cũng có thể rớt
+   * bất cứ lúc nào) — trước đây resolveBestForChannel() chấp nhận NGAY
+   * candidate đầu tiên coi định dạng URL hợp lệ (.m3u8/.flv) mà không kiểm
+   * tra domain đó có còn phân giải DNS/phản hồi hay không, nên trả về 1 link
+   * chết dù vẫn còn tới 5 candidate khác (BLV khác/type khác) có thể dùng
+   * được. Hàm này gửi 1 request HEAD ngắn (4s) chỉ để xác nhận domain còn
+   * sống — KHÔNG xét status code (403/302 vẫn tính là "còn sống", vì nhiều
+   * CDN chặn HEAD nhưng phát bình thường trong player thật), chỉ loại khi
+   * lỗi ở tầng DNS/kết nối (ENOTFOUND, EAI_AGAIN, ECONNREFUSED).
+   */
+  async isUrlReachable(url) {
+    try {
+      await axios.head(url, {
+        timeout: 4000,
+        maxRedirects: 2,
+        validateStatus: () => true,
+        headers: { Referer: `${this.baseUrl}/` }
+      });
+      return true;
+    } catch (err) {
+      const code = err?.code || '';
+      if (code === 'ENOTFOUND' || code === 'EAI_AGAIN' || code === 'ECONNREFUSED') {
+        console.warn('[xoilac] CDN domain chết, bỏ qua candidate:', url, code);
+        return false;
+      }
+      // Lỗi khác (timeout, TLS lạ...) — không đủ chắc chắn để loại, tránh
+      // bỏ oan 1 link vẫn còn dùng được trong player thật.
+      return true;
+    }
+  }
+
+  /**
    * Resolve best playable URL for one BLV channel (Xoilac shows 1 button per BLV).
    * Tries FLV pulse first (valid TLS), then other types — returns a single pick.
    */
@@ -914,6 +949,7 @@ class XoilacService {
       const isM3u8 = /\.m3u8(\?|$)/i.test(info.url);
       const isFlv = /\.flv(\?|$)/i.test(info.url) || info.isFlv;
       if (!isM3u8 && !isFlv) continue;
+      if (!(await this.isUrlReachable(info.url))) continue;
       return {
         url: info.url,
         isFlv,
