@@ -895,38 +895,35 @@ class XoilacService {
    * candidate đầu tiên coi định dạng URL hợp lệ (.m3u8/.flv) mà không kiểm
    * tra domain đó có còn phân giải DNS/phản hồi hay không, nên trả về 1 link
    * chết dù vẫn còn tới 5 candidate khác (BLV khác/type khác) có thể dùng
-   * được. Hàm này gửi 1 request GET ngắn (4s, kèm header Range như player
-   * thật hay gửi) chỉ để xác nhận domain còn phát được — loại khi lỗi ở
-   * tầng DNS/kết nối (ENOTFOUND, EAI_AGAIN, ECONNREFUSED) HOẶC khi CDN trả
-   * thẳng 401/403 (đã xác nhận qua báo cáo thực tế: CDN nào 403 ở đây thì
-   * player thật cũng bị từ chối luôn, không phải kiểu 403-giả-do-chặn-HEAD
-   * như suy đoán ban đầu). Các mã khác (302, 5xx, timeout...) vẫn coi là
-   * "còn sống" — tránh loại oan 1 link vẫn dùng được trong player thật.
+   * được. Hàm này gửi 1 request HEAD ngắn (4s) chỉ để xác nhận domain còn
+   * sống — KHÔNG xét status code (403/302 vẫn tính là "còn sống", vì nhiều
+   * CDN chặn HEAD/request-kiểm-tra như thế này nhưng vẫn phát bình thường
+   * trong player thật — ĐÃ THỬ coi 403 là chết ở đây, kết quả gần như mọi
+   * candidate của Xôi Lạc lẫn Gà Vàng bị loại oan cùng lúc, do 2 nguồn này
+   * dùng CHUNG 1 hàng đợi quét 12 luồng ở playlistBuilder.service.js —
+   * KHÔNG quay lại cách đó nữa), chỉ loại khi lỗi ở tầng DNS/kết nối
+   * (ENOTFOUND, EAI_AGAIN, ECONNREFUSED) hoặc khi domain nằm trong danh
+   * sách đã xác nhận chết thủ công (isDeadStreamDomain — xem bên dưới).
    */
   async isUrlReachable(url) {
-    // FIX quickscoreboardz.com và các domain tương tự: bị chặn DNS riêng ở
-    // phía người xem VN nhưng vẫn phản hồi HEAD bình thường từ server, nên
-    // check mạng bên dưới không phát hiện được — chặn thẳng theo danh sách
-    // domain đã biết (xem isDeadStreamDomain trong playerGet.js) trước khi
-    // tốn 1 request mạng.
+    // FIX quickscoreboardz.com/livefeedtextbox.com và tương tự: các domain
+    // này bị chặn DNS/quyền truy cập riêng ở phía người xem (hoặc lỗi thật
+    // sự đã xác nhận qua báo cáo) nhưng vẫn phản hồi HEAD bình thường từ
+    // server — check mạng bên dưới không phát hiện được nên phải chặn thủ
+    // công theo danh sách domain đã biết trước khi tốn 1 request mạng. CHỈ
+    // thêm domain vào đây khi đã XÁC NHẬN nó thật sự chết (không suy đoán
+    // qua status code chung chung — xem lý do ở docblock phía trên).
     if (isDeadStreamDomain(url)) {
       console.warn('[xoilac] domain trong danh sách chặn, bỏ qua candidate:', url);
       return false;
     }
     try {
-      const res = await axios.get(url, {
+      await axios.head(url, {
         timeout: 4000,
         maxRedirects: 2,
         validateStatus: () => true,
-        responseType: 'stream',
-        headers: { Referer: `${this.baseUrl}/`, Range: 'bytes=0-1024' }
+        headers: { Referer: `${this.baseUrl}/` }
       });
-      // Luôn đóng stream response ngay, không đọc hết nội dung — chỉ cần status.
-      res.data?.destroy?.();
-      if (res.status === 401 || res.status === 403) {
-        console.warn('[xoilac] CDN từ chối quyền truy cập (401/403), bỏ qua candidate:', url);
-        return false;
-      }
       return true;
     } catch (err) {
       const code = err?.code || '';
