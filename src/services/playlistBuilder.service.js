@@ -96,12 +96,6 @@ async function fetchLiveLists() {
   const pushList = (list, source) => {
     for (const m of normalize(list)) {
       if (isExcludedSport(m)) continue;
-      // Be more lenient: accept matches if explicitly marked as live OR if status name suggests live
-      const isExplicitlyLive = m?.status?.isLive === true;
-      const statusNameSuggestsLive = m?.status?.name && 
-        m.status.name.toLowerCase().includes('live');
-      
-      if (!isExplicitlyLive && !statusNameSuggestsLive) continue;
       
       const key = m.matchId || m.stream?.liveUrl;
       if (!key || seen.has(`${source}:${key}`)) continue;
