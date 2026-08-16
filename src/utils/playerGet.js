@@ -195,7 +195,15 @@ export const MINOR_LEAGUE_KEYWORDS = [
   'league one',
   'league two',
   'national league',
-  'championship',         // hạng 2 Anh (EFL Championship)
+  // FIX (Xôi Lạc vẫn mất trận "ASEAN Championship" dù đã có trong whitelist):
+  // từ khoá 'championship' để trần (không kèm "efl") khớp luôn cả chuỗi con
+  // trong "ASEAN Championship"/"AFF Championship" — và vì blacklist này được
+  // xét TRƯỚC whitelist trong isJunkMatch, trận bị loại ngay ở vòng blacklist,
+  // chẳng bao giờ tới lượt whitelist (dù "asean championship"/"aff championship"
+  // đã có sẵn trong PRO_LEAGUE_KEYWORDS) được xét tới. Thu hẹp lại thành cụm
+  // cụ thể "efl championship" để chỉ khớp đúng giải hạng 2 Anh, không còn
+  // dính oan các giải tên có chữ "championship" khác.
+  'efl championship',     // hạng 2 Anh (EFL Championship)
   'eerste divisie',       // hạng 2 Hà Lan (khác Eredivisie)
   'challenger pro league',
   'tff 1. lig',
