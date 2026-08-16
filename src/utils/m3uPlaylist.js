@@ -134,17 +134,22 @@ export function matchesToPlaylistEntries(matches = [], { baseUrl = '' } = {}) {
       continue;
     }
 
-    // BUG FIX THẬT SỰ: trận đang LIVE nhưng resolveStreams() ở
-    // playlistBuilder.service.js chưa kịp lấy được link (timeout 4.5s,
-    // nguồn chậm/tạm lỗi...) vẫn được GIỮ trên web (card live không kèm
-    // stream), nhưng dòng dưới đây trước kia `continue` bỏ hẳn trận này
-    // khỏi playlist — không có cách nào phát được nữa dù trận vẫn đang
-    // đá. Đây chính là nguyên nhân "web có, playlist không có". Giờ để
-    // trận live không có stream sẵn rơi xuống nhánh resolver bên dưới
-    // (giống trận sắp đá) — player sẽ tự lấy link thật ngay lúc bấm phát.
-    if (!baseUrl) continue;
-
+    // FIX theo yêu cầu: Gà Vàng & Xôi Lạc đã bị lọc từ trước (không có bình
+    // luận viên → không được đưa vào danh sách nữa — xem hasCommentator ở
+    // playlistBuilder.service.js). Nên nếu 1 trận của 2 nguồn này TỚI ĐÂY
+    // vẫn không có `match.streams` sau khi playlistBuilder.service.js đã
+    // thử resolve (kèm retry), nhiều khả năng là link chết thật sự (CDN
+    // die, domain đổi giữa chừng...) chứ không phải "chưa kịp có" — đưa
+    // vào playlist qua resolver rất dễ vẫn báo lỗi khi bấm (kiểu "Không
+    // thể tìm thấy trang ... .quickscoreboardz.com"). Theo yêu cầu người
+    // dùng: LOẠI HẲN các trận kiểu này khỏi playlist thay vì hiện ra rồi
+    // báo lỗi. Các nguồn khác (giovang, phaohoa, 90phut, vsc9...) không bị
+    // lọc theo bình luận viên nên vẫn giữ nguyên cơ chế resolver-lúc-phát
+    // như cũ — các nguồn đó là API ổn định, ít khi treo link chết.
     const source = getSourceKey(match);
+    if (source === 'gavang' || source === 'xoilac') continue;
+
+    if (!baseUrl) continue;
     const params = new URLSearchParams({
       source,
       matchId: match.matchId || '',
