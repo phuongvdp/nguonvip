@@ -3,6 +3,7 @@ const { GAVANG_URLS } = require('../config/constants');
 const { parseMatchCards } = require('../utils/htmlParser');
 const { createHttpClient } = require('../utils/httpClient');
 const { extractSlugFromUrl, buildMatchSlug } = require('../utils/slug');
+const { fetchRenderedHtml } = require('../utils/browserFetch');
 
 class CrawlerService {
   constructor() {
@@ -423,6 +424,90 @@ class CrawlerService {
     });
 
     return streams;
+  }
+
+  /**
+   * FIX Gà Vàng "resource unavailable": trang gavangtv.* giờ nạp khung phát
+   * trực tiếp bằng JavaScript phía client sau khi trang tải xong (không còn
+   * nằm sẵn trong HTML tĩnh như trước — kiểm tra thực tế 15/08/2026 cho
+   * thấy trang trận chỉ có "Đang tải..." trong HTML gốc, link thật gọi
+   * riêng qua JS). getStreamLinksByMatchId() ở trên chỉ đọc HTML TĨNH
+   * (cheerio, không chạy JS) nên không còn thấy được `.commentator-card`
+   * hay link stream nữa với nhiều trận, dù trận vẫn đang live thật.
+   *
+   * Hàm này mở trình duyệt Chromium headless thật (xem browserFetch.js) để
+   * trang tự chạy JS như người dùng thật, rồi đọc lại DOM đã render đầy đủ.
+   * Thử theo 2 bước, từ rẻ tới đắt:
+   *   1) Vẫn tìm `.commentator-card` như cũ nhưng trên DOM ĐÃ RENDER (giữ
+   *      nguyên được streamerName/avatar/cdn nếu site còn dùng class đó).
+   *   2) Nếu không thấy (site đổi hẳn tên class/cấu trúc) — quét toàn bộ
+   *      HTML đã render tìm thẳng link .m3u8/.flv bằng regex (không phụ
+   *      thuộc tên class, chỉ cần link còn xuất hiện đâu đó trong DOM).
+   */
+  async getStreamsViaBrowser(liveUrl) {
+    if (!liveUrl) return [];
+    let html = '';
+    try {
+      const rendered = await fetchRenderedHtml(liveUrl, {
+        timeoutMs: 25000,
+        waitForSelector: '.commentator-card, video, iframe',
+        userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
+      });
+      html = rendered.html || '';
+    } catch (err) {
+      console.warn('[gavang] getStreamsViaBrowser: fetchRenderedHtml lỗi:', err.message);
+      return [];
+    }
+    if (!html) return [];
+
+    const streams = [];
+    const $$ = cheerio.load(html);
+    $$('.commentator-card').each((index, element) => {
+      const card = $$(element);
+      const m3u8Url = card.attr('data-stream-url') || '';
+      const flvUrl = card.attr('data-stream-url-flv') || '';
+      if (!m3u8Url && !flvUrl) return;
+      streams.push({
+        streamerId: card.attr('data-streamer-id') || '',
+        streamerName: card.attr('data-stream-name') || card.find('span').first().text().trim() || `BLV ${index + 1}`,
+        m3u8Url,
+        flvUrl,
+        cdn: card.attr('data-cdn') || ''
+      });
+    });
+
+    if (!streams.length) {
+      const clean = (u) => String(u || '').replace(/\\\//g, '/').trim();
+      const m3u8Urls = [...new Set((html.match(/https?:[^'"\s<>\\]+?\.m3u8(?:\?[^'"\s<>\\]*)?/gi) || []).map(clean))];
+      const flvUrls = [...new Set((html.match(/https?:[^'"\s<>\\]+?\.flv(?:\?[^'"\s<>\\]*)?/gi) || []).map(clean))];
+      m3u8Urls.forEach((url, i) => streams.push({ streamerName: `BLV ${i + 1}`, m3u8Url: url, flvUrl: '' }));
+      flvUrls.forEach((url, i) => streams.push({ streamerName: `BLV ${m3u8Urls.length + i + 1}`, m3u8Url: '', flvUrl: url }));
+    }
+
+    return streams;
+  }
+
+  /**
+   * Điểm vào chính để lấy stream của 1 trận Gà Vàng — gộp cả 2 cách:
+   *   1) Cách cũ (nhanh, ~1 request): tra theo matchId qua JSON tĩnh.
+   *   2) Dự phòng (chậm hơn, ~2-4s mở trình duyệt): render trang thật bằng
+   *      headless browser khi cách 1 không ra link nào — xem
+   *      getStreamsViaBrowser() ở trên để biết lý do cần bước này.
+   */
+  async getStreamsForLiveUrl(liveUrl, matchId) {
+    let streams = [];
+    try {
+      let id = matchId;
+      if (!id && liveUrl) id = await this.getMatchIdFromUrl(liveUrl).catch(() => '');
+      if (id) streams = await this.getStreamLinksByMatchId(id).catch(() => []);
+    } catch {
+      streams = [];
+    }
+
+    if (streams.length) return streams;
+    if (!liveUrl) return [];
+
+    return this.getStreamsViaBrowser(liveUrl);
   }
 
   /**

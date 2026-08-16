@@ -53,8 +53,11 @@ export default async function handler(req, res) {
     // cáo: trận vẫn đang live nhưng bấm vào báo "resource unavailable" vì
     // lần thử DUY NHẤT đó dính lỗi mạng thoáng qua. Thêm retry ở đây cho
     // toàn bộ nguồn, đặc biệt gavang/xoilac.
-    const isRetryProne = source === 'xoilac' || source === 'gavang' || !source;
-    const maxAttempts = isRetryProne ? 3 : 2;
+    const isRetryProne = source === 'xoilac' || !source;
+    // Gà Vàng dùng riêng 2 lần thử: mỗi lần getStreamsForLiveUrl() đã tự
+    // chạy 2 bước (JSON tĩnh nhanh → rồi mới tới trình duyệt headless nếu
+    // cần, ~20-25s) — lặp 3 lần như trước dễ vượt quá maxDuration=60s.
+    const maxAttempts = isRetryProne ? 3 : (source === 'gavang' ? 2 : 2);
 
     for (let attempt = 1; attempt <= maxAttempts; attempt++) {
       try {
@@ -83,22 +86,13 @@ export default async function handler(req, res) {
           const detail = await giovangService.getMatchDetail(id);
           raw = detail?.streams || [];
         } else {
-          // gavang (mặc định)
-          let id = matchId;
-          if (!id && url) id = await crawlerService.getMatchIdFromUrl(url);
-          if (!id) return notReadyYet();
-          raw = await crawlerService.getStreamLinksByMatchId(id);
-          // matchId trong playlist đến từ data-match-id lúc quét danh sách —
-          // có thể đã lệch/hết hạn so với uuid thật của trận tại THỜI ĐIỂM
-          // bấm play (site đổi id, hoặc id lúc cache đã cũ). Nếu tra theo id
-          // đó ra rỗng mà có url trang trận, thử lại bằng uuid lấy trực tiếp
-          // từ trang chi tiết thay vì bỏ cuộc ngay.
-          if (!raw?.length && url) {
-            const freshId = await crawlerService.getMatchIdFromUrl(url).catch(() => '');
-            if (freshId && freshId !== id) {
-              raw = await crawlerService.getStreamLinksByMatchId(freshId);
-            }
-          }
+          // gavang (mặc định) — getStreamsForLiveUrl() tự lo cả việc tra
+          // matchId lẫn fallback mở trình duyệt headless khi trang giờ nạp
+          // link bằng JS phía client (xem crawlerService.getStreamsViaBrowser
+          // để biết lý do cần bước này — site đổi cách render, không còn
+          // đọc được bằng HTML tĩnh nữa với nhiều trận).
+          if (!matchId && !url) return notReadyYet();
+          raw = await crawlerService.getStreamsForLiveUrl(url, matchId);
         }
 
         if (raw?.length) break;

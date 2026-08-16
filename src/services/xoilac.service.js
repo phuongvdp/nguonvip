@@ -6,7 +6,11 @@ import { parseKickoffDate } from '@/src/utils/dateParse';
 // canonical/CDN trỏ sang xoilacxtl.tv (đổi domain do bị chặn). Có thể đây là
 // nguyên nhân chính khiến nguồn Xôi Lạc không quét ra link. Override qua biến
 // môi trường XOILAC_BASE_URL trên Vercel khi domain đổi, không cần sửa code.
-const XOILAC_BASE_URL = process.env.XOILAC_DOMAIN || process.env.XOILAC_BASE_URL || 'https://xoilacxtx.tv';
+// FIX: domain cũ (xoilacxtl.tv / xoilacxtx.tv) đã hết hạn/đổi — kiểm tra trực
+// tiếp xác nhận canonical hiện tại của site là xoilacxtr.tv (15/08/2026).
+// Nếu site đổi domain lần nữa, set env XOILAC_DOMAIN trên Vercel (ưu tiên
+// cao nhất) — KHÔNG cần sửa code.
+const XOILAC_BASE_URL = process.env.XOILAC_DOMAIN || process.env.XOILAC_BASE_URL || 'https://xoilacxtr.tv';
 
 const LIVE_SCORE_APIS = {
   football: 'https://fb-api.sportliveapiz.com/football/match/detail_live',

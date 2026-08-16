@@ -71,6 +71,16 @@ async function fetchLiveLists() {
 
   // Phaohoa / AFF Cup / 90Phut: skip isMinorLeagueMatch — these sources have
   // reliable/curated data; the competition-name whitelist would wrongly drop them.
+  //
+  // BUG FIX (nguồn gốc lỗi "resource unavailable" hàng loạt ở Gà Vàng & Xôi
+  // Lạc): isJunkMatch() áp bộ lọc whitelist giải chuyên nghiệp cho CẢ HAI
+  // nguồn gavang lẫn xoilac (xem docstring của isJunkMatch trong playerGet.js
+  // — "Riêng Gà Vàng & Xôi Lạc"), nhưng chỗ gọi bên dưới trước đây chỉ kiểm
+  // tra `source === 'gavang'`, bỏ sót xoilac hoàn toàn. Hậu quả: mọi trận
+  // hạng thấp/giải lạ từ Xôi Lạc (vốn không có BLV/link ổn định) lọt thẳng
+  // vào playlist thay vì bị loại, gây lỗi phát khi bấm vào. Đã sửa để áp
+  // dụng cho cả 2 nguồn — SỬA CHỖ NÀY THÌ NHỚ SỬA CẢ 2 HÀM (fetchLiveLists
+  // và fetchUpcomingLists) VÌ CÓ 2 BẢN SAO CỦA ĐOẠN LOGIC NÀY.
   const pushListNoFilter = (list, source) => {
     for (const m of normalize(list)) {
       if (isExcludedSport(m)) continue;
@@ -96,7 +106,7 @@ async function fetchLiveLists() {
       if (!key || seen.has(`${source}:${key}`)) continue;
       const withSource = tagMatchSource(m, source);
       if (source === 'xoilac' && !(m.commentators?.length || m.streamers?.length || m.stream?.streamerName)) continue;
-      if (source === 'gavang' && isJunkMatch(withSource)) continue;
+      if ((source === 'gavang' || source === 'xoilac') && isJunkMatch(withSource)) continue;
       if (isMinorLeagueMatch(withSource)) continue;
       seen.add(`${source}:${key}`);
       tagged.push(withSource);
@@ -163,7 +173,7 @@ async function fetchUpcomingLists() {
       if (!key || seen.has(`${source}:${key}`)) continue;
       const withSource = tagMatchSource(m, source);
       if (source === 'xoilac' && !(m.commentators?.length || m.streamers?.length || m.stream?.streamerName)) continue;
-      if (source === 'gavang' && isJunkMatch(withSource)) continue;
+      if ((source === 'gavang' || source === 'xoilac') && isJunkMatch(withSource)) continue;
       if (isMinorLeagueMatch(withSource)) continue;
       seen.add(`${source}:${key}`);
       tagged.push(withSource);
@@ -207,11 +217,12 @@ async function resolveStreams(match) {
         const detail = await giovangService.getMatchDetail(liveUrl || matchId);
         raw = detail?.streams || [];
       } else {
-        // gavang (default)
-        let id = matchId;
-        if (!id && liveUrl) id = await crawlerService.getMatchIdFromUrl(liveUrl);
-        if (!id) return [];
-        raw = await crawlerService.getStreamLinksByMatchId(id);
+        // gavang (default) — getStreamsForLiveUrl() tự thử cách JSON tĩnh
+        // cũ trước, rồi mới rơi xuống trình duyệt headless nếu cần (site
+        // hiện nạp link bằng JS phía client — xem chi tiết trong
+        // crawlerService.getStreamsViaBrowser()).
+        if (!matchId && !liveUrl) return [];
+        raw = await crawlerService.getStreamsForLiveUrl(liveUrl, matchId);
       }
 
       const list = normalizeStreamList(raw || []);
