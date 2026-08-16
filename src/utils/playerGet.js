@@ -291,6 +291,16 @@ export const PRO_LEAGUE_KEYWORDS = [
   // Giao hữu CLB chuyên nghiệp (pro-level friendlies)
   'club friendlies', 'friendly',
   'international friendlies',
+  // FIX (Xôi Lạc bị lọc mất "Club Friendlies"/"ASEAN Championship"): các
+  // whitelist ở trên chỉ có tên tiếng Anh, trong khi Xôi Lạc thường trả về
+  // tên giải bằng tiếng Việt ("Giao Hữu", "Giao Hữu CLB", "Vô Địch Đông
+  // Nam Á"...) nên bị coi là không khớp whitelist -> bị loại oan. Bổ sung
+  // các biến thể tiếng Việt tương ứng. Lưu ý: "giao huu" (không kèm "phong
+  // trao"/"phong trào") vẫn AN TOÀN để whitelist vì MINOR_LEAGUE_KEYWORDS
+  // ở trên đã chặn riêng cụm "giao huu phong trao"/"giao huu vo dich" TRƯỚC
+  // khi whitelist này được xét tới (xem isJunkMatch).
+  'giao huu', 'giao luu',
+  'dong nam a', 'sea games',
   // Các giải khác đáng xem
   'super cup', 'coppa italia', 'fa cup', 'dfb pokal', 'coupe de france',
   'carabao cup', 'efl cup', 'league cup',
@@ -314,13 +324,28 @@ function normalizedCompetitionName(match) {
   return stripDiacritics(name).trim();
 }
 
+// FIX (Gà Vàng còn lọt "Liga Portugal 2", "German Bundesliga 5"...):
+// MINOR_LEAGUE_KEYWORDS ở trên chỉ liệt kê thủ công từng tên hạng dưới cụ
+// thể — đủ cho những cái đã biết (vd "liga portugal 2" khớp thẳng chuỗi
+// con), nhưng Gà Vàng lại đặt tên giải theo kiểu "<Tên giải> <số hạng>" ở
+// CUỐI chuỗi (vd "German Bundesliga 5", "England League 3"...) thay vì kiểu
+// "5. Bundesliga" đã liệt kê. Vì PRO_LEAGUE_KEYWORDS chỉ khớp chuỗi con nên
+// "german bundesliga 5" vẫn chứa "bundesliga" -> bị coi nhầm là giải hạng 1
+// (whitelist "vồ" luôn dù có số hạng phía sau). Thêm 1 regex tổng quát bắt
+// MỌI tên giải kết thúc bằng số hạng đứng riêng (2-9, không tính "1" vì đó
+// vẫn là hạng cao nhất ở 1 số nước như "Liga 1", "K League 1") hoặc số La
+// Mã (II-IX) — áp dụng cho TẤT CẢ nguồn, chạy TRƯỚC khi xét whitelist nên
+// không phụ thuộc phải liệt kê thủ công từng định dạng/từng nước.
+const TRAILING_TIER_SUFFIX_REGEX = /(?:^|\s)(?:[2-9]|ii|iii|iv|v|vi|vii|viii|ix)$/i;
+
 /** True when a match's competition name looks like a minor/amateur league,
  *  or the source couldn't even identify a real competition name for it. */
 export function isMinorLeagueMatch(match) {
   const normalized = normalizedCompetitionName(match);
   if (!normalized) return true;
   if (GENERIC_COMPETITION_NAMES.includes(normalized)) return true;
-  return MINOR_LEAGUE_KEYWORDS.some((kw) => normalized.includes(stripDiacritics(kw)));
+  if (MINOR_LEAGUE_KEYWORDS.some((kw) => normalized.includes(stripDiacritics(kw)))) return true;
+  return TRAILING_TIER_SUFFIX_REGEX.test(normalized);
 }
 
 /** True khi tên giải khớp với 1 giải VĐQG hạng 1 / cúp quốc tế đã biết. */
