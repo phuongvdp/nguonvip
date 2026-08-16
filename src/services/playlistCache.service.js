@@ -27,7 +27,19 @@ const STALE_MULTIPLIER = 1.5; // trước đây x2 (tới 4 tiếng) — hạ đ
 // Vercel) có thể bị treo lâu hơn giới hạn thời gian chạy của nền tảng.
 // Đặt dưới mức maxDuration (60s, xem export const config trong các route
 // gọi hàm này) để luôn kịp trả response trước khi Vercel tự ngắt.
-const AWAIT_REFRESH_TIMEOUT_MS = 25000;
+//
+// FIX "playlist thiếu nhiều trận so với web dù cùng 1 nguồn dữ liệu": mỗi
+// route API (/api/matches, /api/playlist...) là 1 serverless function
+// RIÊNG trên Vercel — KHÔNG chia sẻ cache bộ nhớ (globalThis) với nhau dù
+// cùng import chung file này. Web gọi /api/matches liên tục (polling) nên
+// function đó hiếm khi "nguội" — luôn có cache đầy đủ. App IPTV chỉ gọi
+// /api/playlist khi bấm refresh, thưa hơn nhiều → hay bị cold-start → cache
+// rỗng → phải quét lại từ đầu. Trước đây chỉ đợi 25s: quét đủ ~15-20 nguồn
+// (có nguồn cần mở trình duyệt headless, chậm hơn hẳn) thường LÂU HƠN 25s
+// → hết giờ đợi, trả dữ liệu cũ/rỗng ngay trong khi server vẫn quét tiếp ở
+// nền → thiếu trận. Nâng lên gần trần 60s để lần cold-start có đủ thời gian
+// quét xong thật sự trước khi trả kết quả.
+const AWAIT_REFRESH_TIMEOUT_MS = 50000;
 
 function delay(ms, value) {
   return new Promise((resolve) => setTimeout(() => resolve(value), ms));
