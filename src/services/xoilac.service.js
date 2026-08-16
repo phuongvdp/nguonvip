@@ -893,37 +893,47 @@ class XoilacService {
    * chết/đổi (site nguồn quản lý nhiều domain CDN, cái nào cũng có thể rớt
    * bất cứ lúc nào) — trước đây resolveBestForChannel() chấp nhận NGAY
    * candidate đầu tiên coi định dạng URL hợp lệ (.m3u8/.flv) mà không kiểm
-   * tra domain đó có còn phân giải DNS/phản hồi hay không, nên trả về 1 link
-   * chết dù vẫn còn tới 5 candidate khác (BLV khác/type khác) có thể dùng
-   * được. Hàm này gửi 1 request HEAD ngắn (4s) chỉ để xác nhận domain còn
-   * sống — KHÔNG xét status code (403/302 vẫn tính là "còn sống", vì nhiều
-   * CDN chặn HEAD/request-kiểm-tra như thế này nhưng vẫn phát bình thường
-   * trong player thật — ĐÃ THỬ coi 403 là chết ở đây, kết quả gần như mọi
-   * candidate của Xôi Lạc lẫn Gà Vàng bị loại oan cùng lúc, do 2 nguồn này
-   * dùng CHUNG 1 hàng đợi quét 12 luồng ở playlistBuilder.service.js —
-   * KHÔNG quay lại cách đó nữa), chỉ loại khi lỗi ở tầng DNS/kết nối
-   * (ENOTFOUND, EAI_AGAIN, ECONNREFUSED) hoặc khi domain nằm trong danh
-   * sách đã xác nhận chết thủ công (isDeadStreamDomain — xem bên dưới).
+   * tra domain đó có còn phân giải DNS/phản hồi/phát được thật hay không,
+   * nên trả về 1 link chết dù vẫn còn tới 5 candidate khác (BLV khác/type
+   * khác) có thể dùng được. Hàm này gửi 1 request GET ngắn (4s, hủy ngay
+   * sau khi nhận header, không tải hết nội dung) để xác nhận domain còn
+   * phát được THẬT — dựa vào 2 tín hiệu đáng tin, KHÔNG dựa vào status code
+   * (đã thử coi 403 là chết — loại oan cả loạt link Xôi Lạc/Gà Vàng vẫn
+   * phát tốt, vì nhiều CDN vốn luôn trả 403 cho request kiểm tra dù player
+   * thật vẫn phát bình thường — KHÔNG quay lại cách đó):
+   *   1) Lỗi tầng DNS/kết nối (ENOTFOUND, EAI_AGAIN, ECONNREFUSED) → chắc
+   *      chắn chết.
+   *   2) Content-Type trả về là text/html → CDN trả 1 TRANG WEB (trang lỗi/
+   *      trang chặn/trang yêu cầu đăng nhập...) thay vì dữ liệu stream thật
+   *      — link .m3u8/.flv thật KHÔNG BAO GIỜ có content-type html, bất kể
+   *      status code là 200 hay 403, nên đây là bằng chứng chắc chắn hơn
+   *      status code rất nhiều mà không sợ loại oan link còn dùng được.
+   * Domain đã xác nhận chết qua báo cáo cụ thể (không đoán được bằng 2 tín
+   * hiệu trên) vẫn chặn thẳng theo danh sách thủ công (isDeadStreamDomain).
    */
   async isUrlReachable(url) {
-    // FIX quickscoreboardz.com/livefeedtextbox.com và tương tự: các domain
-    // này bị chặn DNS/quyền truy cập riêng ở phía người xem (hoặc lỗi thật
-    // sự đã xác nhận qua báo cáo) nhưng vẫn phản hồi HEAD bình thường từ
-    // server — check mạng bên dưới không phát hiện được nên phải chặn thủ
-    // công theo danh sách domain đã biết trước khi tốn 1 request mạng. CHỈ
-    // thêm domain vào đây khi đã XÁC NHẬN nó thật sự chết (không suy đoán
-    // qua status code chung chung — xem lý do ở docblock phía trên).
     if (isDeadStreamDomain(url)) {
       console.warn('[xoilac] domain trong danh sách chặn, bỏ qua candidate:', url);
       return false;
     }
     try {
-      await axios.head(url, {
+      const res = await axios.get(url, {
         timeout: 4000,
-        maxRedirects: 2,
+        maxRedirects: 3,
         validateStatus: () => true,
-        headers: { Referer: `${this.baseUrl}/` }
+        responseType: 'stream',
+        headers: {
+          Referer: `${this.baseUrl}/`,
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+          Accept: '*/*'
+        }
       });
+      const contentType = String(res.headers?.['content-type'] || '').toLowerCase();
+      res.data?.destroy?.(); // chỉ cần header, hủy ngay không tải phần thân
+      if (contentType.includes('text/html')) {
+        console.warn('[xoilac] CDN trả về trang HTML (lỗi/chặn) thay vì stream thật, bỏ qua candidate:', url);
+        return false;
+      }
       return true;
     } catch (err) {
       const code = err?.code || '';

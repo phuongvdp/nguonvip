@@ -1,4 +1,6 @@
 /** Sport category tabs for home page (align with Gavang / Xoilac / Phaohoa). */
+import axios from 'axios';
+
 export const SPORT_TABS = [
   { id: 'all', label: 'Tất cả' },
   { id: 'football', label: 'Bóng đá' },
@@ -503,6 +505,51 @@ export function isDeadStreamDomain(url) {
     return false;
   }
   return DEAD_STREAM_DOMAINS.some((d) => host === d || host.endsWith(`.${d}`));
+}
+
+/**
+ * FIX "vẫn có link trận đấu mà không xem được" dù domain lạ (chưa từng có
+ * trong DEAD_STREAM_DOMAINS) — lớp lọc CUỐI CÙNG áp dụng cho MỌI nguồn (Gà
+ * Vàng, Xôi Lạc, Pháo Hoa, Giovang, 90Phut, VSC9...) ngay trước khi đưa vào
+ * playlist/web (gọi từ playlistBuilder.service.js:resolveStreams, sau
+ * normalizeStreamList — điểm mà TẤT CẢ nguồn đều đi qua). Gửi 1 request GET
+ * ngắn, hủy ngay sau khi nhận header (không tải hết nội dung), loại link
+ * nếu 1 trong 2 tín hiệu chắc chắn sau xảy ra:
+ *   1) Lỗi tầng DNS/kết nối (ENOTFOUND, EAI_AGAIN, ECONNREFUSED) → domain
+ *      chết thật.
+ *   2) Content-Type trả về là text/html → CDN trả 1 TRANG WEB (trang lỗi/
+ *      trang chặn/trang yêu cầu đăng nhập...) thay vì dữ liệu stream thật —
+ *      link .m3u8/.flv thật KHÔNG BAO GIỜ có content-type html, bất kể
+ *      status code là gì.
+ * CHỦ Ý KHÔNG xét status code (403/302...): đã thử coi 403 là chết ở lần
+ * sửa trước — loại oan gần như toàn bộ link Xôi Lạc/Gà Vàng vẫn phát tốt,
+ * vì nhiều CDN vốn luôn trả 403 cho request kiểm tra dù player thật vẫn
+ * phát bình thường. KHÔNG lặp lại cách đó.
+ */
+export async function verifyStreamUrlPlayable(url) {
+  if (!url) return false;
+  if (isDeadStreamDomain(url)) return false;
+  try {
+    const res = await axios.get(url, {
+      timeout: 3000,
+      maxRedirects: 3,
+      validateStatus: () => true,
+      responseType: 'stream',
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        Accept: '*/*'
+      }
+    });
+    const contentType = String(res.headers?.['content-type'] || '').toLowerCase();
+    res.data?.destroy?.(); // chỉ cần header, hủy ngay không tải phần thân
+    return !contentType.includes('text/html');
+  } catch (err) {
+    const code = err?.code || '';
+    if (code === 'ENOTFOUND' || code === 'EAI_AGAIN' || code === 'ECONNREFUSED') return false;
+    // Lỗi khác (timeout, TLS lạ...) — không đủ chắc chắn để loại, tránh bỏ
+    // oan 1 link vẫn còn dùng được trong player thật.
+    return true;
+  }
 }
 
 export function isPlayableStreamUrl(url) {

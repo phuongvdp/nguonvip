@@ -5,7 +5,7 @@ import xoilacAffcupService from '@/src/services/xoilacAffcup.service';
 import ninetyService from '@/src/services/ninety.service';
 import vsc9Service from '@/src/services/vsc9.service';
 import giovangService from '@/src/services/giovang.service';
-import { normalizeStreamList } from '@/src/utils/playerGet';
+import { normalizeStreamList, verifyStreamUrlPlayable } from '@/src/utils/playerGet';
 
 /**
  * GET /api/playlist/resolve?source=<key>&matchId=<id>&url=<liveUrl>&sport=<sport>
@@ -103,7 +103,22 @@ export default async function handler(req, res) {
     }
 
     const list = normalizeStreamList(raw || []);
-    const best = list.find((s) => s.m3u8Url) || list[0];
+    // FIX cùng cơ chế với playlistBuilder.service.js: Gà Vàng không tự kiểm
+    // tra domain còn phát được hay không (Xôi Lạc đã có isUrlReachable()
+    // riêng trong xoilac.service.js) — xác minh lại ở đây trước khi redirect
+    // thẳng người xem sang 1 link chết.
+    let verifiedList = list;
+    if (source === 'gavang' && list.length) {
+      const checked = await Promise.all(
+        list.map(async (s) => {
+          const url = s.playUrl || s.m3u8Url || s.flvUrl;
+          return (await verifyStreamUrlPlayable(url)) ? s : null;
+        })
+      );
+      const playable = checked.filter(Boolean);
+      if (playable.length) verifiedList = playable;
+    }
+    const best = verifiedList.find((s) => s.m3u8Url) || verifiedList[0];
     const playUrl = best?.playUrl || best?.m3u8Url || best?.flvUrl;
 
     if (!playUrl) return notReadyYet();

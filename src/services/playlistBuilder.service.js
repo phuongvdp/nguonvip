@@ -12,7 +12,8 @@ import {
   normalizeStreamList,
   sleep,
   streamsFromMatchCard,
-  tagMatchSource
+  tagMatchSource,
+  verifyStreamUrlPlayable
 } from '@/src/utils/playerGet';
 
 // Trận "sắp đá" chỉ lấy trong khoảng này để biết lịch thi đấu sắp tới —
@@ -238,7 +239,22 @@ async function resolveStreams(match) {
       }
 
       const list = normalizeStreamList(raw || []);
-      if (list.length) return list;
+      if (list.length) {
+        // FIX "vẫn có link trận đấu mà không xem được" ở Gà Vàng: nguồn
+        // này (crawlerService) lấy thẳng URL từ thuộc tính data-stream-url
+        // trên trang, không tự kiểm tra domain đó còn phát được hay không
+        // (khác Xôi Lạc — đã có isUrlReachable() riêng trong xoilac.service.js
+        // với cùng cơ chế bên dưới). Xác minh thật (content-type, KHÔNG dựa
+        // status code — xem lý do ở docblock verifyStreamUrlPlayable) trước
+        // khi chấp nhận, để trận có link chết không lọt vào playlist/web.
+        if (apiSource !== 'gavang') return list;
+        const verified = await mapPool(list, 4, async (s) => {
+          const url = s.playUrl || s.m3u8Url || s.flvUrl;
+          return (await verifyStreamUrlPlayable(url)) ? s : null;
+        });
+        const playable = verified.filter(Boolean);
+        if (playable.length) return playable;
+      }
       if (attempt < maxAttempts) await sleep(500 * attempt);
     } catch {
       if (attempt < maxAttempts) await sleep(500 * attempt);
