@@ -490,7 +490,8 @@ export function flvToM3u8Candidate(url) {
  * domain cụ thể, KHÔNG cần sửa gì ở từng service riêng lẻ.
  */
 const DEAD_STREAM_DOMAINS = [
-  'quickscoreboardz.com'
+  'quickscoreboardz.com',
+  'livefeedtextbox.com'
 ];
 
 export function isDeadStreamDomain(url) {
