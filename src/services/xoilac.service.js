@@ -895,10 +895,13 @@ class XoilacService {
    * candidate đầu tiên coi định dạng URL hợp lệ (.m3u8/.flv) mà không kiểm
    * tra domain đó có còn phân giải DNS/phản hồi hay không, nên trả về 1 link
    * chết dù vẫn còn tới 5 candidate khác (BLV khác/type khác) có thể dùng
-   * được. Hàm này gửi 1 request HEAD ngắn (4s) chỉ để xác nhận domain còn
-   * sống — KHÔNG xét status code (403/302 vẫn tính là "còn sống", vì nhiều
-   * CDN chặn HEAD nhưng phát bình thường trong player thật), chỉ loại khi
-   * lỗi ở tầng DNS/kết nối (ENOTFOUND, EAI_AGAIN, ECONNREFUSED).
+   * được. Hàm này gửi 1 request GET ngắn (4s, kèm header Range như player
+   * thật hay gửi) chỉ để xác nhận domain còn phát được — loại khi lỗi ở
+   * tầng DNS/kết nối (ENOTFOUND, EAI_AGAIN, ECONNREFUSED) HOẶC khi CDN trả
+   * thẳng 401/403 (đã xác nhận qua báo cáo thực tế: CDN nào 403 ở đây thì
+   * player thật cũng bị từ chối luôn, không phải kiểu 403-giả-do-chặn-HEAD
+   * như suy đoán ban đầu). Các mã khác (302, 5xx, timeout...) vẫn coi là
+   * "còn sống" — tránh loại oan 1 link vẫn dùng được trong player thật.
    */
   async isUrlReachable(url) {
     // FIX quickscoreboardz.com và các domain tương tự: bị chặn DNS riêng ở
@@ -911,12 +914,19 @@ class XoilacService {
       return false;
     }
     try {
-      await axios.head(url, {
+      const res = await axios.get(url, {
         timeout: 4000,
         maxRedirects: 2,
         validateStatus: () => true,
-        headers: { Referer: `${this.baseUrl}/` }
+        responseType: 'stream',
+        headers: { Referer: `${this.baseUrl}/`, Range: 'bytes=0-1024' }
       });
+      // Luôn đóng stream response ngay, không đọc hết nội dung — chỉ cần status.
+      res.data?.destroy?.();
+      if (res.status === 401 || res.status === 403) {
+        console.warn('[xoilac] CDN từ chối quyền truy cập (401/403), bỏ qua candidate:', url);
+        return false;
+      }
       return true;
     } catch (err) {
       const code = err?.code || '';
