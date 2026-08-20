@@ -21,9 +21,18 @@ const nextConfig = {
     // kiểm tra ĐUÔI FILE trong URL trước khi tải — thấy không phải .m3u/.m3u8
     // là báo lỗi ngay, dù nội dung /api/playlist trả về đúng chuẩn m3u.
     // Thêm alias có đuôi thật để những app khó tính này chấp nhận.
+    // Playlist RIÊNG từng nguồn cũng cần alias đuôi .m3u/.m3u8 tương tự,
+    // để dán thẳng vào app IPTV mà không cần biết cú pháp query
+    // ?source=... — vẫn giữ nguyên /playlist.m3u?source=xxx cho ai muốn
+    // tự ghép link (ví dụ thêm &sport=football), vì Next tự forward mọi
+    // query param không khớp trong "source" sang "destination".
     return [
       { source: '/playlist.m3u', destination: '/api/playlist' },
-      { source: '/playlist.m3u8', destination: '/api/playlist' }
+      { source: '/playlist.m3u8', destination: '/api/playlist' },
+      { source: '/playlist-xoilac.m3u', destination: '/api/playlist?source=xoilac' },
+      { source: '/playlist-phaohoa.m3u', destination: '/api/playlist?source=phaohoa' },
+      { source: '/playlist-gavang.m3u', destination: '/api/playlist?source=gavang' },
+      { source: '/playlist-giovang.m3u', destination: '/api/playlist?source=giovang' }
     ];
   }
 };

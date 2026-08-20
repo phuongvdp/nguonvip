@@ -1,6 +1,6 @@
 import { getMatches } from '@/src/services/playlistCache.service';
 import { buildM3uPlaylist, matchesToPlaylistEntries } from '@/src/utils/m3uPlaylist';
-import { filterBySportTab } from '@/src/utils/playerGet';
+import { filterBySportTab, filterBySource, getSourceShortLabel } from '@/src/utils/playerGet';
 
 export default async function handler(req, res) {
   if (req.method !== 'GET') {
@@ -9,6 +9,10 @@ export default async function handler(req, res) {
 
   try {
     const sportTab = String(req.query.sport || 'all');
+    // ?source=xoilac|phaohoa|gavang|giovang — playlist RIÊNG cho 1 nguồn,
+    // để dán vào VLC/app IPTV chỉ theo dõi 1 nguồn thay vì gộp tất cả.
+    // Bỏ trống hoặc 'all' thì giữ hành vi cũ (gộp mọi nguồn).
+    const sourceKey = String(req.query.source || req.query.nguon || 'all');
     const download = req.query.download === '1' || req.query.download === 'true';
     // ?refresh=1 — ép quét lại ngay (bỏ qua cache 15 phút), dùng khi cần dữ liệu mới nhất gấp.
     const forceRefresh = req.query.refresh === '1' || req.query.refresh === 'true';
@@ -23,16 +27,21 @@ export default async function handler(req, res) {
 
     const { matches, generatedAt, nextRefreshAt, refreshIntervalMs } = await getMatches({ forceRefresh });
 
-    const playable = filterBySportTab(matches, sportTab);
+    const bySport = filterBySportTab(matches, sportTab);
+    const playable = filterBySource(bySport, sourceKey);
     const entries = matchesToPlaylistEntries(playable, { baseUrl });
     const playlist = buildM3uPlaylist(entries);
 
     const ageSec = generatedAt ? Math.max(0, Math.round((Date.now() - generatedAt) / 1000)) : 0;
+    // Tên file phản ánh cả nguồn lẫn môn thể thao khi có lọc, ví dụ
+    // "live-xoilac-football.m3u" — giúp phân biệt khi tải nhiều playlist
+    // khác nhau về cùng 1 máy/app IPTV.
+    const fileSlug = sourceKey === 'all' ? sportTab : `${sourceKey}-${sportTab}`;
 
     res.setHeader('Content-Type', 'audio/x-mpegurl');
     res.setHeader(
       'Content-Disposition',
-      `${download ? 'attachment' : 'inline'}; filename="live-${sportTab}.m3u"`
+      `${download ? 'attachment' : 'inline'}; filename="live-${fileSlug}.m3u"`
     );
     // s-maxage NGẮN (60s, không phải 120s như bug cũ) + stale-while-revalidate
     // NGẮN (90s) — vừa đủ để bấm refresh trên app luôn được CDN trả NGAY LẬP
@@ -47,6 +56,7 @@ export default async function handler(req, res) {
     res.setHeader('X-Playlist-Age-Seconds', String(ageSec));
     res.setHeader('X-Playlist-Refresh-Interval-Seconds', String(refreshIntervalMs / 1000));
     res.setHeader('X-Playlist-Next-Refresh-At', nextRefreshAt ? new Date(nextRefreshAt).toISOString() : '');
+    res.setHeader('X-Playlist-Source', sourceKey === 'all' ? 'all' : getSourceShortLabel(sourceKey));
 
     return res.status(200).send(playlist);
   } catch (error) {

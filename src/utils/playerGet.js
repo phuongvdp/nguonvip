@@ -976,6 +976,17 @@ export function filterBySportTab(matches, tabId) {
   return matches.filter((m) => m.sportCategory === tabId);
 }
 
+/**
+ * Lọc danh sách trận theo NGUỒN (xoilac/phaohoa/gavang/giovang...) — dùng
+ * cho playlist .m3u riêng từng nguồn (?source=xoilac), tương tự cách
+ * filterBySportTab lọc theo môn thể thao. sourceKey rỗng hoặc 'all' thì
+ * giữ nguyên toàn bộ (không lọc) — khớp hành vi mặc định hiện có.
+ */
+export function filterBySource(matches, sourceKey) {
+  if (!sourceKey || sourceKey === 'all') return matches;
+  return matches.filter((m) => getSourceKey(m) === sourceKey);
+}
+
 export function countBySportTab(matches) {
   const counts = { all: matches.length };
   SPORT_TABS.forEach((tab) => {

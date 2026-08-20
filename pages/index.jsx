@@ -32,15 +32,17 @@ function saveViewMode(mode) {
   }
 }
 
-function PlaylistLink() {
-  const [url, setUrl] = useState('/playlist.m3u?refresh=1');
+// 1 dòng link playlist (input readonly + nút Copy) — dùng chung cho cả
+// link "Tất cả" lẫn từng link riêng theo nguồn bên dưới, tránh lặp code.
+function PlaylistLinkRow({ label, path }) {
+  const [url, setUrl] = useState(path);
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
-      setUrl(`${window.location.origin}/playlist.m3u?refresh=1`);
+      setUrl(`${window.location.origin}${path}`);
     }
-  }, []);
+  }, [path]);
 
   const handleCopy = async () => {
     try {
@@ -55,7 +57,7 @@ function PlaylistLink() {
 
   return (
     <div className="flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-2 text-sm">
-      <span className="whitespace-nowrap text-muted-foreground">Link playlist (dán vào VLC/app IPTV):</span>
+      <span className="whitespace-nowrap text-muted-foreground">{label}</span>
       <input
         type="text"
         readOnly
@@ -70,6 +72,39 @@ function PlaylistLink() {
       >
         {copied ? 'Đã copy ✓' : 'Copy'}
       </button>
+    </div>
+  );
+}
+
+// Link playlist tổng ("Tất cả") + danh sách link riêng từng nguồn (xoilac,
+// phaohoa, gavang, giovang...), thu gọn sau 1 nút bấm để không chiếm chỗ
+// mặc định — chỉ ai cần theo dõi riêng 1 nguồn mới cần mở ra.
+function PlaylistLink() {
+  const [showBySource, setShowBySource] = useState(false);
+
+  return (
+    <div className="space-y-2">
+      <PlaylistLinkRow label="Link playlist (dán vào VLC/app IPTV):" path="/playlist.m3u?refresh=1" />
+
+      <button
+        type="button"
+        onClick={() => setShowBySource((v) => !v)}
+        className="text-xs text-muted-foreground underline-offset-2 hover:text-foreground hover:underline"
+      >
+        {showBySource ? '▾ Ẩn link playlist riêng từng nguồn' : '▸ Link playlist riêng từng nguồn'}
+      </button>
+
+      {showBySource && (
+        <div className="space-y-2 border-l-2 border-border pl-3">
+          {SOURCE_TOGGLE_LIST.map((s) => (
+            <PlaylistLinkRow
+              key={s.key}
+              label={`${s.label}:`}
+              path={`/playlist.m3u?source=${s.key}&refresh=1`}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 }

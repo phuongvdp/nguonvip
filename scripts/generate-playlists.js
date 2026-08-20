@@ -33,6 +33,12 @@ const path = require('path');
 // lọc bỏ ở đó).
 const SPORT_TABS = ['all', 'football', 'basketball', 'volleyball', 'badminton', 'tennis'];
 
+// Khớp với SOURCE_GROUP_ORDER trong src/utils/playerGet.js — playlist tĩnh
+// RIÊNG từng nguồn (source-xoilac.m3u, source-phaohoa.m3u...), song song
+// với playlist theo môn ở trên. Không import trực tiếp từ playerGet.js vì
+// lý do đã nêu ở đầu file (alias "@/..." chỉ Next.js/webpack hiểu).
+const SOURCE_KEYS = ['xoilac', 'phaohoa', 'gavang', 'giovang'];
+
 const SITE_URL = (process.env.SITE_URL || process.env.NEXT_PUBLIC_SITE_URL || 'https://nguonvip.vercel.app').replace(/\/+$/, '');
 // Domain không phải thông tin nhạy cảm nên đặt sẵn giá trị mặc định — không
 // bắt buộc phải khai báo secret gì trên GitHub. Chỉ cần set biến SITE_URL
@@ -61,8 +67,10 @@ function writeState(state) {
   fs.writeFileSync(STATE_PATH, JSON.stringify(state, null, 2) + '\n', 'utf8');
 }
 
-async function fetchPlaylist(sport) {
-  const url = `${SITE_URL}/api/playlist?sport=${encodeURIComponent(sport)}`;
+async function fetchPlaylist(sport, source) {
+  const params = new URLSearchParams({ sport });
+  if (source) params.set('source', source);
+  const url = `${SITE_URL}/api/playlist?${params.toString()}`;
   const res = await fetch(url, { headers: { 'User-Agent': 'generate-playlists-ci' } });
   if (!res.ok) {
     throw new Error(`HTTP ${res.status} khi gọi ${url}`);
@@ -89,6 +97,23 @@ async function generateOnce() {
       console.error(`[generate-playlists] Lỗi khi tạo playlist "${sport}":`, err.message);
     }
   }
+
+  // Playlist tĩnh riêng từng nguồn (mọi môn thể thao gộp, chỉ lọc theo
+  // nguồn) — không tính vào liveMatchCount vì đã tính đủ ở playlist "all"
+  // phía trên, tránh đếm trùng khi quyết định giãn/thu chu kỳ.
+  for (const source of SOURCE_KEYS) {
+    try {
+      const content = await fetchPlaylist('all', source);
+      const filename = `source-${source}.m3u`;
+      fs.writeFileSync(path.join(OUTPUT_DIR, filename), content, 'utf8');
+      const matchCount = (content.match(/^#EXTINF/gm) || []).length;
+      console.log(`[generate-playlists] ${filename}: ${matchCount} trận`);
+    } catch (err) {
+      hasError = true;
+      console.error(`[generate-playlists] Lỗi khi tạo playlist nguồn "${source}":`, err.message);
+    }
+  }
+
   return { ok: !hasError, liveMatchCount };
 }
 
