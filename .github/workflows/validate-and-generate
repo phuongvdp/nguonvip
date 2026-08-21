@@ -7,7 +7,7 @@ on:
     paths:
       - 'data/sources.json'
   schedule:
-    - cron: '*/15 * * * *'  # ← kiểm tra mỗi 15 phút; script tự giãn ra khi không có trận live
+    - cron: '*/5 * * * *'  # ← kiểm tra mỗi 5 phút; script tự giãn ra khi không có trận live
 
 jobs:
   generate:
