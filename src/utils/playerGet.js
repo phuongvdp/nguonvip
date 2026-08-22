@@ -992,6 +992,11 @@ export async function mapPool(items, concurrency, fn) {
 }
 
 export function filterBySportTab(matches, tabId) {
+  // FIX "a.filter is not a function": nếu vì lý do gì đó `matches` không
+  // phải mảng (cache lỗi, dữ liệu nguồn bất thường...) thì trả về mảng
+  // rỗng thay vì để .filter ném lỗi làm sập cả route /api/playlist —
+  // người dùng thấy playlist rỗng tạm thời còn hơn thấy trang lỗi.
+  if (!Array.isArray(matches)) return [];
   if (!tabId || tabId === 'all') return matches;
   return matches.filter((m) => m.sportCategory === tabId);
 }
@@ -1003,15 +1008,17 @@ export function filterBySportTab(matches, tabId) {
  * giữ nguyên toàn bộ (không lọc) — khớp hành vi mặc định hiện có.
  */
 export function filterBySource(matches, sourceKey) {
+  if (!Array.isArray(matches)) return [];
   if (!sourceKey || sourceKey === 'all') return matches;
   return matches.filter((m) => getSourceKey(m) === sourceKey);
 }
 
 export function countBySportTab(matches) {
-  const counts = { all: matches.length };
+  const list = Array.isArray(matches) ? matches : [];
+  const counts = { all: list.length };
   SPORT_TABS.forEach((tab) => {
     if (tab.id === 'all') return;
-    counts[tab.id] = matches.filter((m) => m.sportCategory === tab.id).length;
+    counts[tab.id] = list.filter((m) => m.sportCategory === tab.id).length;
   });
   return counts;
 }

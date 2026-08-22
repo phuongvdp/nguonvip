@@ -85,9 +85,17 @@ async function refresh() {
   state.refreshing = (async () => {
     try {
       const matches = await buildAggregatedMatches();
-      state.matches = matches;
-      state.generatedAt = Date.now();
-      state.consecutiveEmptyScans = matches.length > 0 ? 0 : state.consecutiveEmptyScans + 1;
+      // FIX "a.filter is not a function": chốt chặn cuối cùng — nếu vì lý
+      // do gì đó buildAggregatedMatches() không trả về mảng (không nên xảy
+      // ra, nhưng phòng hờ), KHÔNG ghi đè cache bằng giá trị sai kiểu, giữ
+      // nguyên cache cũ (mảng) để mọi nơi dùng .filter phía sau luôn an toàn.
+      if (Array.isArray(matches)) {
+        state.matches = matches;
+        state.generatedAt = Date.now();
+        state.consecutiveEmptyScans = matches.length > 0 ? 0 : state.consecutiveEmptyScans + 1;
+      } else {
+        console.error('[playlist-cache] buildAggregatedMatches() trả về không phải mảng:', matches);
+      }
     } catch (err) {
       console.error('[playlist-cache] auto-refresh failed:', err.message);
     } finally {

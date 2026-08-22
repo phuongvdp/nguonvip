@@ -29,7 +29,7 @@ export default async function handler(req, res) {
 
     const bySport = filterBySportTab(matches, sportTab);
     const playable = filterBySource(bySport, sourceKey);
-    const entries = matchesToPlaylistEntries(playable, { baseUrl });
+    const entries = await matchesToPlaylistEntries(playable, { baseUrl });
     const playlist = buildM3uPlaylist(entries);
 
     const ageSec = generatedAt ? Math.max(0, Math.round((Date.now() - generatedAt) / 1000)) : 0;
@@ -56,11 +56,27 @@ export default async function handler(req, res) {
     res.setHeader('X-Playlist-Age-Seconds', String(ageSec));
     res.setHeader('X-Playlist-Refresh-Interval-Seconds', String(refreshIntervalMs / 1000));
     res.setHeader('X-Playlist-Next-Refresh-At', nextRefreshAt ? new Date(nextRefreshAt).toISOString() : '');
-    res.setHeader('X-Playlist-Source', sourceKey === 'all' ? 'all' : getSourceShortLabel(sourceKey));
+    // FIX (lỗi luôn tái hiện với MỌI request có ?source=... hoặc ?nguon=...):
+    // getSourceShortLabel() trả về nhãn tiếng Việt có dấu (vd "Xôi Lạc",
+    // "Gà Vàng") — HTTP header chỉ chấp nhận ký tự Latin-1 (ISO-8859-1),
+    // Node ném "TypeError: Invalid character in header content" ngay khi
+    // setHeader() với chuỗi có dấu tiếng Việt. Lỗi này bị try/catch bên
+    // dưới bắt lại rồi in ra dưới dạng "#EXTM3U\n# Error: ..." — tức là
+    // toàn bộ playlist theo nguồn riêng (?source=xoilac/gavang/phaohoa/
+    // giovang) bị hỏng 100% các lần gọi, không phụ thuộc mạng/dữ liệu.
+    // encodeURIComponent() giữ header luôn là ASCII hợp lệ; phía client
+    // muốn hiển thị tên có dấu thì decodeURIComponent() lại.
+    res.setHeader(
+      'X-Playlist-Source',
+      sourceKey === 'all' ? 'all' : encodeURIComponent(getSourceShortLabel(sourceKey))
+    );
 
     return res.status(200).send(playlist);
   } catch (error) {
-    console.error('[playlist] failed:', error);
+    // In cả stack trace ra log Vercel (không phải chỉ message) để lần sau
+    // biết chính xác dòng nào gây lỗi, thay vì phải đoán qua thông báo
+    // chung chung như "a.filter is not a function".
+    console.error('[playlist] failed:', error?.stack || error);
     res.setHeader('Content-Type', 'text/plain; charset=utf-8');
     return res.status(500).send('#EXTM3U\n# Error: ' + (error.message || 'Internal Server Error') + '\n');
   }

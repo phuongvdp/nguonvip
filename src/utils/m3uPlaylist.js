@@ -57,6 +57,9 @@ async function preferHlsForIptv(stream) {
  */
 export function buildM3uPlaylist(entries = []) {
   const lines = ['#EXTM3U', ''];
+  // FIX "a.filter is not a function": nếu entries truyền vào không phải
+  // mảng (lỗi upstream/cache bất thường), coi như rỗng thay vì ném lỗi.
+  entries = Array.isArray(entries) ? entries : [];
 
   // QUAN TRỌNG: KHÔNG được gom vật lý theo nguồn (nhóm hết Xôi Lạc, rồi
   // hết Pháo Hoa, rồi hết Gà Vàng...) như bản cũ — làm vậy phá vỡ thứ tự
@@ -155,14 +158,16 @@ export function buildM3uPlaylist(entries = []) {
  */
 export async function matchesToPlaylistEntries(matches = [], { baseUrl = '' } = {}) {
   const entries = [];
-  for (const match of matches) {
+  const safeMatches = Array.isArray(matches) ? matches : [];
+  for (const match of safeMatches) {
     // BUG FIX: trước đây chỉ tìm stream có m3u8Url — nhiều nguồn (xoilac,
     // ninety, customSource, xoilacAffcup, crawler...) khi ưu tiên chọn kênh
     // FLV (cert hợp lệ hơn) chỉ trả về flvUrl, m3u8Url rỗng. Kết quả: trận
     // đang live hiển thị trên web (có link FLV) nhưng bị loại hoàn toàn
     // khỏi playlist vì .find(s => s?.m3u8Url) không khớp. Giờ chấp nhận
     // bất kỳ dạng URL nào đã resolve được (m3u8 / flv / playUrl chung).
-    const stream = (match.streams || []).find((s) => s?.m3u8Url || s?.flvUrl || s?.playUrl);
+    const matchStreams = Array.isArray(match?.streams) ? match.streams : [];
+    const stream = matchStreams.find((s) => s?.m3u8Url || s?.flvUrl || s?.playUrl);
     if (stream) {
       entries.push({ match, stream: await preferHlsForIptv(stream) });
       continue;
