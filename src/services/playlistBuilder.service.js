@@ -99,8 +99,20 @@ async function fetchLiveLists() {
       const key = m.matchId || m.stream?.liveUrl;
       if (!key || seen.has(`${source}:${key}`)) continue;
       const withSource = tagMatchSource(m, source);
+      // FIX: trước đây bắt buộc phải scrape thấy tên BLV/commentator ngay ở
+      // trang danh sách mới cho trận vào playlist (thêm hồi trước để tránh
+      // trận live nhưng bấm vào không phát được trên điện thoại). Nhưng làm
+      // vậy lọc NHẦM cả trận Xôi Lạc CÓ link phát được thật — vì việc scrape
+      // đọc tên BLV ở trang danh sách rất dễ trật (đổi giao diện, BLV chưa
+      // kịp hiện lúc vừa live...), trong khi bước resolveStreams() thật sự
+      // (gọi trang chi tiết trận) đáng tin hơn nhiều. Việc "trận live không
+      // phát được thì loại" đã có sẵn ở matchesToPlaylistEntries() (xem
+      // m3uPlaylist.js — chỉ loại gavang/xoilac live KHÔNG resolve được
+      // stream) nên bỏ điều kiện commentator ở đây KHÔNG làm lọt lại trận
+      // chết — chỉ để lại quyết định "phát được hay không" cho đúng chỗ.
+      // Vẫn giữ điều kiện này riêng cho Gà Vàng (chưa có báo lỗi tương tự).
       const hasCommentator = m.commentators?.length || m.streamers?.length || m.stream?.streamerName;
-      if ((source === 'gavang' || source === 'xoilac') && !hasCommentator) continue;
+      if (source === 'gavang' && !hasCommentator) continue;
       if ((source === 'gavang' || source === 'xoilac') && isJunkMatch(withSource)) continue;
       if (isMinorLeagueMatch(withSource)) continue;
       seen.add(`${source}:${key}`);
