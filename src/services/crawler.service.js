@@ -70,45 +70,59 @@ class CrawlerService {
     const seen = new Set();
     this.lastDiagnostics = { baseUrl: GAVANG_URLS.BASE_URL, at: new Date().toISOString(), sport: sportKey };
 
-    try {
-      for (let page = 0; page < maxPages; page++) {
-        const offset = page * pageSize;
-        const { matches, has_more } = await this.getLoadMoreMatches({
+    // FIX "Gà Vàng: lúc hiện đủ trận, lúc lại không hiện trận nào": trước
+    // đây try/catch bọc NGUYÊN cả vòng lặp phân trang — 1 trang bất kỳ lỗi
+    // tạm thời (timeout mạng, site chậm...) làm mất TOÀN BỘ kết quả các
+    // trang trước đó đã lấy thành công (biến `all` bị vứt luôn khi catch),
+    // rồi rơi xuống fallback fetchLiveContent() vốn chỉ đọc được ~20 thẻ
+    // đầu — kết quả thất thường: có lần đủ trận (không trang nào lỗi), có
+    // lần gần như trống (chỉ 1 trang giữa chừng lỗi mạng thoáng qua). Giờ
+    // lỗi ở 1 trang chỉ DỪNG phân trang (break) chứ không xoá dữ liệu các
+    // trang trước — chỉ thật sự rơi xuống fallback khi CHƯA lấy được trang
+    // nào cả (all.length === 0).
+    for (let page = 0; page < maxPages; page++) {
+      const offset = page * pageSize;
+      let matches;
+      let has_more;
+      try {
+        ({ matches, has_more } = await this.getLoadMoreMatches({
           tab: 'live',
           sport: sportKey,
           offset
-        });
-
-        for (const m of matches || []) {
-          const key = m.matchId || m.stream?.liveUrl;
-          if (!key || seen.has(key)) continue;
-          seen.add(key);
-          all.push({ ...m, sport: m.sport || sportKey });
-        }
-
-        if (!has_more || !(matches || []).length) break;
-      }
-
-      this.lastDiagnostics.pagination = { matchesFound: all.length };
-
-      // The filter endpoint itself is the authoritative live tab.  Gà Vàng
-      // periodically changes the card class/status text, so do not let a
-      // parser miss turn every returned card into a non-live match.
-      if (all.length) {
-        return all.map((m) => ({
-          ...m,
-          status: {
-            ...(m.status || {}),
-            isLive: true,
-            isUpcoming: false,
-            isFinished: false,
-            name: m.status?.name || 'LIVE'
-          }
         }));
+      } catch (error) {
+        this.lastDiagnostics.pagination = { matchesFound: all.length, stoppedAtPage: page, error: error.message };
+        console.warn(`getLiveMatches: trang ${page} lỗi, dùng ${all.length} trận đã lấy được trước đó:`, error.message);
+        break;
       }
-    } catch (error) {
-      this.lastDiagnostics.pagination = { error: error.message };
-      console.warn('getLiveMatches pagination failed, fallback live_content:', error.message);
+
+      for (const m of matches || []) {
+        const key = m.matchId || m.stream?.liveUrl;
+        if (!key || seen.has(key)) continue;
+        seen.add(key);
+        all.push({ ...m, sport: m.sport || sportKey });
+      }
+
+      if (!has_more || !(matches || []).length) {
+        this.lastDiagnostics.pagination = { matchesFound: all.length };
+        break;
+      }
+    }
+
+    // The filter endpoint itself is the authoritative live tab.  Gà Vàng
+    // periodically changes the card class/status text, so do not let a
+    // parser miss turn every returned card into a non-live match.
+    if (all.length) {
+      return all.map((m) => ({
+        ...m,
+        status: {
+          ...(m.status || {}),
+          isLive: true,
+          isUpcoming: false,
+          isFinished: false,
+          name: m.status?.name || 'LIVE'
+        }
+      }));
     }
 
     try {
@@ -163,31 +177,38 @@ class CrawlerService {
     const seen = new Set();
     this.lastDiagnostics = { baseUrl: GAVANG_URLS.BASE_URL, at: new Date().toISOString(), sport: sportKey, tab: targetTab };
 
-    try {
-      for (let page = 0; page < maxPages; page++) {
-        const offset = page * pageSize;
-        const { matches, has_more } = await this.getLoadMoreMatches({
+    // Cùng fix "lúc hiện lúc không" như getLiveMatches() ở trên — lỗi 1
+    // trang chỉ dừng phân trang, không xoá các trang trước đã lấy được.
+    for (let page = 0; page < maxPages; page++) {
+      const offset = page * pageSize;
+      let matches;
+      let has_more;
+      try {
+        ({ matches, has_more } = await this.getLoadMoreMatches({
           tab: targetTab,
           sport: sportKey,
           offset
-        });
-
-        for (const m of matches || []) {
-          const key = m.matchId || m.stream?.liveUrl;
-          if (!key || seen.has(key)) continue;
-          seen.add(key);
-          all.push({ ...m, sport: m.sport || sportKey });
-        }
-
-        if (!has_more || !(matches || []).length) break;
+        }));
+      } catch (error) {
+        this.lastDiagnostics.pagination = { matchesFound: all.length, stoppedAtPage: page, error: error.message };
+        console.warn(`getMatchesByTab(${targetTab}): trang ${page} lỗi, dùng ${all.length} trận đã lấy được trước đó:`, error.message);
+        break;
       }
 
-      this.lastDiagnostics.pagination = { matchesFound: all.length };
-      if (all.length) return all;
-    } catch (error) {
-      this.lastDiagnostics.pagination = { error: error.message };
-      console.warn(`getMatchesByTab(${targetTab}) pagination failed, fallback:`, error.message);
+      for (const m of matches || []) {
+        const key = m.matchId || m.stream?.liveUrl;
+        if (!key || seen.has(key)) continue;
+        seen.add(key);
+        all.push({ ...m, sport: m.sport || sportKey });
+      }
+
+      if (!has_more || !(matches || []).length) {
+        this.lastDiagnostics.pagination = { matchesFound: all.length };
+        break;
+      }
     }
+
+    if (all.length) return all;
 
     // Fallback to the single-shot content buckets when filter-matches is unreachable.
     if (targetTab === 'live') return this.getLiveMatches(sportKey);

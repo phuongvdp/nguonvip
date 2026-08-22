@@ -8,6 +8,42 @@ function normalizeToMs(raw) {
 }
 
 /**
+ * FIX "Gà Vàng: giờ trận hiển thị sớm hơn giờ thật 4 tiếng": data-match-time
+ * do chính trang gavangtv.* trả về trong HTML bị lệch múi giờ ngay từ gốc
+ * (nhiều khả năng server của họ tính giờ trận theo múi UTC-4/EDT — đúng 4
+ * tiếng như báo cáo — thay vì giờ Việt Nam thật). formatKickoffTime() (xem
+ * src/utils/playerGet.js) đã hiển thị đúng theo múi 'Asia/Ho_Chi_Minh' rồi
+ * nên KHÔNG phải lỗi ở khâu hiển thị — lỗi nằm ở chính con số epoch nhận
+ * được từ nguồn. Cộng bù thủ công đúng 4 tiếng ở NGAY ĐIỂM ĐỌC DỮ LIỆU
+ * (duy nhất 1 chỗ, chỉ áp dụng cho Gà Vàng — không đụng tới các nguồn
+ * khác) để mọi nơi dùng matchTimeTimestamp phía sau (hiển thị giờ, sắp xếp
+ * theo giờ, lọc "hôm nay/ngày mai"...) đều tự động đúng theo.
+ *
+ * LƯU Ý QUAN TRỌNG (22/08/2026): domain Gà Vàng đã đổi từ gavangtv.nl (cấu
+ * hình cũ) sang gavangtv.spot (gavangtv.my chỉ redirect sang đây) — xem
+ * src/config/constants.js. Domain mới có thể trả dữ liệu/độ lệch giờ KHÁC
+ * domain cũ, nên con số "4 tiếng" dưới đây chỉ là điểm khởi đầu dựa theo
+ * báo cáo lúc domain còn cũ, CHƯA chắc còn đúng 100% với domain mới. Cho
+ * phép chỉnh qua biến môi trường GAVANG_TIME_OFFSET_MINUTES trên Vercel
+ * (không cần sửa code/deploy lại) — set 0 để tắt bù hẳn nếu domain mới đã
+ * trả giờ đúng, hoặc đổi số phút nếu độ lệch khác 4 tiếng. Cách kiểm tra
+ * nhanh: mở /api/gavang/live trên trang đã deploy, so `matchTimeTimestamp`
+ * (đổi ra giờ VN) của 1 trận với giờ thật ghi trên gavangtv.spot.
+ */
+function getGavangTimeOffsetMinutes() {
+  const raw = process.env.GAVANG_TIME_OFFSET_MINUTES;
+  if (raw === undefined || raw === '') return 4 * 60;
+  const n = Number(raw);
+  return Number.isFinite(n) ? n : 4 * 60;
+}
+
+function normalizeGavangMatchTimeMs(raw) {
+  const ms = normalizeToMs(raw);
+  if (!ms) return null;
+  return ms + getGavangTimeOffsetMinutes() * 60 * 1000;
+}
+
+/**
  * Parse Gà Vàng TV HTML containing football match cards.
  * @param {string} htmlString - Raw HTML fragment from update-content-live.json
  * @returns {Array} List of structured matches
@@ -171,7 +207,7 @@ function parseMatchCards(htmlString) {
       // data-* kiểu này hay là giây kiểu PHP time()) — tự nhận diện theo
       // độ lớn số: mili-giây hiện tại luôn > 10^12, giây hiện tại chỉ
       // ~1.7x10^9, nên < 10^12 gần như chắc chắn là giây, nhân 1000 lại.
-      matchTimeTimestamp: normalizeToMs(matchTimeTimestamp),
+      matchTimeTimestamp: normalizeGavangMatchTimeMs(matchTimeTimestamp),
       timeFormatted: timeFormattedText,
       competition: {
         id: competitionId,

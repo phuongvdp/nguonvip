@@ -7,8 +7,42 @@ import {
   getSourceLabel,
   getSourceReferer,
   getSourceShortLabel,
-  SOURCE_GROUP_ORDER
+  SOURCE_GROUP_ORDER,
+  isFlvUrl,
+  isM3u8Url,
+  flvToM3u8Candidate,
+  verifyStreamUrlPlayable
 } from '@/src/utils/playerGet';
+
+/**
+ * FIX "nguồn Xôi Lạc: web xem được, app IPTV trên Android TV box không xem
+ * được": trang web dùng flv.js (components/VideoPlayer.jsx) nên phát FLV
+ * bình thường, nhưng hầu hết app IPTV trên TV box (TiviMate, GSE, Perfect
+ * Player...) chạy engine ExoPlayer — KHÔNG hỗ trợ tốt FLV, chỉ chạy ổn với
+ * HLS (.m3u8). File .m3u xuất ra cho các app này trước đây vẫn nhét thẳng
+ * link .flv vào nên không phát được trên TV box dù link vẫn còn sống.
+ *
+ * flvToM3u8Candidate() (playerGet.js) đã có sẵn cách đoán "bản HLS song
+ * song" của link FLV (nhiều CDN kiểu Xôi Lạc lộ cùng 1 stream ra cả 2 đuôi
+ * .flv/.m3u8) nhưng trước đây không được dùng ở đâu cả. Hàm này thử xác
+ * minh (HEAD ngắn, giống isUrlReachable trong xoilac.service.js) bản đoán
+ * đó CÒN PHÁT ĐƯỢC THẬT hay không rồi mới ưu tiên dùng cho file .m3u —
+ * không đoán suông, tránh đưa app IPTV vào 1 link .m3u8 chết. Không xác
+ * minh được thì giữ nguyên FLV như cũ (web + VLC vẫn phát bình thường).
+ */
+async function preferHlsForIptv(stream) {
+  const url = stream?.playUrl || stream?.m3u8Url || stream?.flvUrl || '';
+  const alreadyHls = isM3u8Url(url);
+  if (alreadyHls || !isFlvUrl(url)) return stream;
+
+  const candidate = flvToM3u8Candidate(url);
+  if (!candidate) return stream;
+
+  const ok = await verifyStreamUrlPlayable(candidate).catch(() => false);
+  if (!ok) return stream;
+
+  return { ...stream, playUrl: candidate, m3u8Url: candidate, format: 'hls' };
+}
 
 /**
  * Build an IPTV-style M3U playlist from live match + stream entries.
@@ -119,7 +153,7 @@ export function buildM3uPlaylist(entries = []) {
  *   before or after kickoff). Needs an absolute `baseUrl` since the .m3u
  *   file is opened by players on a different machine; skipped without one.
  */
-export function matchesToPlaylistEntries(matches = [], { baseUrl = '' } = {}) {
+export async function matchesToPlaylistEntries(matches = [], { baseUrl = '' } = {}) {
   const entries = [];
   for (const match of matches) {
     // BUG FIX: trước đây chỉ tìm stream có m3u8Url — nhiều nguồn (xoilac,
@@ -130,7 +164,7 @@ export function matchesToPlaylistEntries(matches = [], { baseUrl = '' } = {}) {
     // bất kỳ dạng URL nào đã resolve được (m3u8 / flv / playUrl chung).
     const stream = (match.streams || []).find((s) => s?.m3u8Url || s?.flvUrl || s?.playUrl);
     if (stream) {
-      entries.push({ match, stream });
+      entries.push({ match, stream: await preferHlsForIptv(stream) });
       continue;
     }
 
