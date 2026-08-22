@@ -42,6 +42,30 @@ export default async function handler(req, res) {
 
   const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+  // FIX "chờ mãi không phát được trên điện thoại" (Xôi Lạc): mỗi lần thử
+  // bên dưới trước đây KHÔNG có giới hạn thời gian riêng — xoilacService
+  // .getStreams() probe TUẦN TỰ nhiều candidate CDN cho từng BLV (xem
+  // resolveBestForChannel() trong xoilac.service.js), có candidate không
+  // phản hồi thì cứ đợi hết timeout mạng mặc định. Cộng dồn nhiều candidate
+  // × nhiều BLV × tối đa 3 lần thử (isRetryProne) dễ vượt xa 60s
+  // (maxDuration) — route bị Vercel NGẮT NGANG, KHÔNG trả response gì cả,
+  // nên app/điện thoại chỉ thấy "đang tải..." treo mãi chứ không phải báo
+  // lỗi rõ ràng. Ép mỗi LẦN THỬ phải xong trong 1 mốc an toàn — quá hạn thì
+  // coi như lần thử đó rỗng (giống lỗi mạng thoáng qua) và sang lần kế/trả
+  // lỗi 503 rõ ràng, đảm bảo tổng thời gian toàn bộ vòng lặp luôn có margin
+  // an toàn dưới 60s cho MỌI nguồn.
+  async function withDeadline(promise, ms) {
+    let timer;
+    const timeout = new Promise((resolve) => {
+      timer = setTimeout(() => resolve([]), ms);
+    });
+    try {
+      return await Promise.race([promise, timeout]);
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+
   try {
     let raw = [];
 
@@ -59,32 +83,51 @@ export default async function handler(req, res) {
     // chạy 2 bước (JSON tĩnh nhanh → rồi mới tới trình duyệt headless nếu
     // cần, ~20-25s) — lặp 3 lần như trước dễ vượt quá maxDuration=60s.
     const maxAttempts = isRetryProne ? 3 : (source === 'gavang' ? 2 : 2);
+    // Mốc thời gian an toàn cho 1 LẦN THỬ, theo đặc điểm từng nguồn — nhân
+    // với maxAttempts (+ sleep giữa các lần) luôn còn margin rõ dưới 60s:
+    //  - gavang (kể cả source rỗng, rơi vào nhánh gavang mặc định): có bước
+    //    trình duyệt headless (~20-25s) → 22s × 2 lần + sleep ≈ 44.4s.
+    //  - xoilac/xoilac-affcup: chỉ HTML tĩnh + probe candidate tuần tự,
+    //    không mở trình duyệt → 12s × 3 lần + sleep ≈ 37.2s. Chậm hơn 12s
+    //    thật sự gần như chắc chắn là candidate bị kẹt, không phải "sắp
+    //    xong" — cắt sớm để còn thời gian thử candidate/lần khác.
+    //  - phaohoa/90phut/vsc9/giovang: gọi thẳng 1 API, hiếm khi chậm → 8s.
+    const ATTEMPT_TIMEOUT_BY_SOURCE = {
+      gavang: 22000,
+      xoilac: 12000,
+      'xoilac-affcup': 12000,
+      phaohoa: 8000,
+      '90phut': 8000,
+      vsc9: 8000,
+      giovang: 8000
+    };
+    const attemptTimeoutMs = ATTEMPT_TIMEOUT_BY_SOURCE[source || 'gavang'] || 12000;
 
     for (let attempt = 1; attempt <= maxAttempts; attempt++) {
       try {
         if (source === 'xoilac') {
           if (!url) return notReadyYet();
-          raw = await xoilacService.getStreams(url);
+          raw = await withDeadline(xoilacService.getStreams(url), attemptTimeoutMs);
         } else if (source === 'phaohoa') {
           if (!matchId) return notReadyYet();
-          raw = await phaohoaService.getStreamLinks(matchId, sport);
+          raw = await withDeadline(phaohoaService.getStreamLinks(matchId, sport), attemptTimeoutMs);
         } else if (source === 'xoilac-affcup') {
           if (!url) return notReadyYet();
-          raw = await xoilacAffcupService.getStreams(url);
+          raw = await withDeadline(xoilacAffcupService.getStreams(url), attemptTimeoutMs);
         } else if (source === '90phut') {
           const id = matchId || url;
           if (!id) return notReadyYet();
-          const detail = await ninetyService.getMatchDetail(id, sport);
+          const detail = await withDeadline(ninetyService.getMatchDetail(id, sport), attemptTimeoutMs);
           raw = detail?.streams || [];
         } else if (source === 'vsc9') {
           const id = url || matchId;
           if (!id) return notReadyYet();
-          const detail = await vsc9Service.getMatchDetail(id);
+          const detail = await withDeadline(vsc9Service.getMatchDetail(id), attemptTimeoutMs);
           raw = detail?.streams || [];
         } else if (source === 'giovang') {
           const id = url || matchId;
           if (!id) return notReadyYet();
-          const detail = await giovangService.getMatchDetail(id);
+          const detail = await withDeadline(giovangService.getMatchDetail(id), attemptTimeoutMs);
           raw = detail?.streams || [];
         } else {
           // gavang (mặc định) — getStreamsForLiveUrl() tự lo cả việc tra
@@ -93,7 +136,7 @@ export default async function handler(req, res) {
           // để biết lý do cần bước này — site đổi cách render, không còn
           // đọc được bằng HTML tĩnh nữa với nhiều trận).
           if (!matchId && !url) return notReadyYet();
-          raw = await crawlerService.getStreamsForLiveUrl(url, matchId);
+          raw = await withDeadline(crawlerService.getStreamsForLiveUrl(url, matchId), attemptTimeoutMs);
         }
 
         if (raw?.length) break;
