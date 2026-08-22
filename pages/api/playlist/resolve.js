@@ -6,6 +6,7 @@ import ninetyService from '@/src/services/ninety.service';
 import vsc9Service from '@/src/services/vsc9.service';
 import giovangService from '@/src/services/giovang.service';
 import { normalizeStreamList, verifyStreamUrlPlayable } from '@/src/utils/playerGet';
+import { preferHlsForIptv } from '@/src/utils/m3uPlaylist';
 
 /**
  * GET /api/playlist/resolve?source=<key>&matchId=<id>&url=<liveUrl>&sport=<sport>
@@ -119,7 +120,20 @@ export default async function handler(req, res) {
       if (playable.length) verifiedList = playable;
     }
     const best = verifiedList.find((s) => s.m3u8Url) || verifiedList[0];
-    const playUrl = best?.playUrl || best?.m3u8Url || best?.flvUrl;
+
+    // FIX "link FLV không xem được trên điện thoại": route này redirect
+    // THẲNG người xem sang playUrl gốc — nếu nguồn chỉ trả FLV (Xôi Lạc hay
+    // ưu tiên chọn kênh FLV vì cert hợp lệ hơn), điện thoại/app IPTV (hầu
+    // hết chỉ chạy được HLS, không hỗ trợ FLV) sẽ không phát được dù trận
+    // vẫn đang live thật — dù link đã redirect đúng, VLC/TiviMate/Perfect
+    // Player mở lên vẫn báo lỗi vì bản thân ĐỊNH DẠNG file không chạy được,
+    // không phải do link chết. Trước khi redirect, thử nâng cấp sang bản
+    // HLS song song (preferHlsForIptv() — CÙNG hàm dùng khi nhúng link trực
+    // tiếp vào .m3u ở matchesToPlaylistEntries(), xem m3uPlaylist.js) và chỉ
+    // dùng nếu xác minh CÒN PHÁT ĐƯỢC THẬT; không có/không xác minh được thì
+    // vẫn giữ FLV như cũ (web + VLC trên PC vẫn phát bình thường FLV).
+    const upgraded = await preferHlsForIptv(best || {});
+    const playUrl = upgraded?.playUrl || upgraded?.m3u8Url || best?.playUrl || best?.m3u8Url || best?.flvUrl;
 
     if (!playUrl) return notReadyYet();
 

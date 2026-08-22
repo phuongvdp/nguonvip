@@ -30,7 +30,7 @@ import {
  * không đoán suông, tránh đưa app IPTV vào 1 link .m3u8 chết. Không xác
  * minh được thì giữ nguyên FLV như cũ (web + VLC vẫn phát bình thường).
  */
-async function preferHlsForIptv(stream) {
+export async function preferHlsForIptv(stream) {
   const url = stream?.playUrl || stream?.m3u8Url || stream?.flvUrl || '';
   const alreadyHls = isM3u8Url(url);
   if (alreadyHls || !isFlvUrl(url)) return stream;
@@ -173,14 +173,24 @@ export async function matchesToPlaylistEntries(matches = [], { baseUrl = '' } = 
       continue;
     }
 
-    // Gà Vàng & Xôi Lạc: chỉ loại khi trận ĐANG LIVE mà vẫn không resolve
-    // được stream (nhiều khả năng link chết thật — CDN die, domain đổi
-    // giữa chừng...), tránh đưa vào playlist rồi báo lỗi khi bấm. Trận
-    // SẮP ĐẤU (chưa live) thì chưa có gì để resolve cả — không phải link
-    // chết, nên vẫn cho qua resolver-lúc-phát như mọi nguồn khác.
+    // FIX "mất trận đang live khỏi playlist": bản cũ loại HẲN (continue,
+    // không có gì thay thế) trận Gà Vàng/Xôi Lạc đang live mà bước resolve
+    // lúc build cache (resolveStreams(), timeout 4.5s) chưa ra link — với
+    // lý do "nhiều khả năng link chết thật". Nhưng phần lớn trường hợp chỉ
+    // là lỗi TẠM THỜI (mạng chậm, CDN chập chờn, trang chi tiết đổi giao
+    // diện...), trong khi trận vẫn đang live và link vẫn sẽ có. Loại hẳn
+    // khiến trận biến mất khỏi playlist tới tận lần refresh cache sau
+    // (15 phút) dù đang live thật.
+    //
+    // Từ giờ mọi nguồn (kể cả gavang/xoilac) đều thống nhất 1 cách xử lý:
+    // trận live chưa có stream sẵn -> vẫn đưa vào playlist, trỏ tới
+    // /api/playlist/resolve (route này TỰ RETRY riêng cho gavang/xoilac —
+    // xem pages/api/playlist/resolve.js — nên khả năng ra link cao hơn cả
+    // lần thử lúc build cache). Chỉ khi người xem thực sự bấm vào mà
+    // resolver cũng không ra link (link chết thật) thì mới báo lỗi ở đó,
+    // thay vì lặng lẽ giấu cả trận đi từ trước.
     const source = getSourceKey(match);
     const isLiveNoStream = !!match?.status?.isLive;
-    if ((source === 'gavang' || source === 'xoilac') && isLiveNoStream) continue;
 
     if (!baseUrl) continue;
     const params = new URLSearchParams({
