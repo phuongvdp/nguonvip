@@ -10,7 +10,23 @@ import {
   getSourceShortLabel,
   formatMatchTime
 } from '@/src/utils/playerGet';
+import Link from 'next/link';
 import { cn } from '@/lib/utils';
+
+// Nút ▶ trước đây mở THẲNG link .m3u8/.flv thô bằng target="_blank" —
+// browser không tự phát được (đặc biệt FLV, và HLS ngoài Safari), xem
+// components/VideoPlayer.jsx để biết chi tiết. Giờ trỏ vào /watch, trang có
+// player thật (hls.js/flv.js).
+function buildWatchHref(match, stream) {
+  const params = new URLSearchParams({
+    url: stream.playUrl,
+    format: stream.format || '',
+    name: stream.name || ''
+  });
+  if (match.homeTeam?.name) params.set('home', match.homeTeam.name);
+  if (match.awayTeam?.name) params.set('away', match.awayTeam.name);
+  return `/watch?${params.toString()}`;
+}
 
 const VIEW_MODE_STORAGE_KEY = 'player-get:view-mode:v1';
 
@@ -110,14 +126,14 @@ function PlaylistLink() {
 }
 
 // Thời điểm GitHub Actions kiểm tra kế tiếp
-// (.github/workflows/validate-and-generate.yml, cron "*/15 * * * *" — chạy
-// theo giờ UTC, tức mỗi khi phút UTC chạm mốc 00/15/30/45). Đây là lịch
+// (.github/workflows/validate-and-generate.yml, cron "*/5 * * * *" — chạy
+// theo giờ UTC, tức mỗi khi phút UTC chạm mốc chia hết cho 5). Đây là lịch
 // KIỂM TRA cố định, không phải lịch làm mới thật — script bên trong tự
 // quyết định có làm mới thật hay không: đang có trận live thì làm mới đúng
-// 15 phút/lần, không có trận live thì tự giãn ra dần (tối đa 2 tiếng) để
+// 5 phút/lần, không có trận live thì tự giãn ra dần (tối đa 2 tiếng) để
 // đỡ tốn tài nguyên, nên thời gian làm mới thật có thể lâu hơn số hiện ở
 // đây.
-function nextCronRunUtc(intervalMinutes = 15) {
+function nextCronRunUtc(intervalMinutes = 5) {
   const next = new Date();
   next.setUTCSeconds(0, 0);
   const utcMinutes = next.getUTCMinutes();
@@ -131,7 +147,7 @@ function AutoGenerateNote() {
 
   useEffect(() => {
     function update() {
-      const next = nextCronRunUtc(15);
+      const next = nextCronRunUtc(5);
       const diffMin = Math.max(0, Math.ceil((next.getTime() - Date.now()) / 60000));
       setLabel(diffMin <= 1 ? '~1 phút nữa' : `~${diffMin} phút nữa`);
     }
@@ -142,7 +158,7 @@ function AutoGenerateNote() {
 
   return (
     <p className="px-1 text-xs text-muted-foreground">
-      File playlist tĩnh (<code className="font-mono">public/playlists/</code>) được GitHub Actions kiểm tra mỗi 15
+      File playlist tĩnh (<code className="font-mono">public/playlists/</code>) được GitHub Actions kiểm tra mỗi 5
       phút — lần kiểm tra kế tiếp {label || '…'} (giờ UTC, có thể trễ vài phút do hàng đợi của GitHub). Đang có trận
       live thì làm mới đúng chu kỳ đó; im ắng thì tự giãn ra dần (tối đa 2 tiếng) để đỡ tốn tài nguyên.
     </p>
@@ -151,17 +167,27 @@ function AutoGenerateNote() {
 
 function StatusBar({ generatedAt, count, onRefresh, refreshing }) {
   return (
-    <div className="flex flex-wrap items-center justify-between gap-3 rounded-lg border border-border bg-card px-4 py-3 text-sm text-muted-foreground">
-      <div>
-        {count} trận đang phát
-        {generatedAt ? ` · cập nhật lúc ${new Date(generatedAt).toLocaleTimeString('vi-VN')}` : ''}
+    <div className="flex flex-wrap items-center justify-between gap-3 overflow-hidden rounded-lg border border-border bg-card px-4 py-3">
+      <div className="flex items-baseline gap-2.5">
+        <span className="font-display text-3xl leading-none tracking-wide text-primary">
+          {String(count).padStart(2, '0')}
+        </span>
+        <div className="leading-tight">
+          <div className="text-sm font-medium text-foreground">trận đang phát</div>
+          {generatedAt && (
+            <div className="text-xs text-muted-foreground">
+              cập nhật lúc {new Date(generatedAt).toLocaleTimeString('vi-VN')}
+            </div>
+          )}
+        </div>
       </div>
       <button
         type="button"
         onClick={onRefresh}
         disabled={refreshing}
-        className="rounded-md border border-border px-3 py-1 hover:bg-accent disabled:opacity-50"
+        className="inline-flex items-center gap-1.5 rounded-md border border-border px-3 py-1.5 text-sm font-medium hover:bg-accent hover:border-primary/40 disabled:opacity-50 transition-colors"
       >
+        <span className={cn('inline-block', refreshing && 'animate-spin')}>↻</span>
         {refreshing ? 'Đang làm mới…' : 'Làm mới'}
       </button>
     </div>
@@ -288,7 +314,7 @@ function ViewModeToggle({ mode, onChange }) {
           className={cn(
             'rounded px-2.5 py-1 text-xs transition-colors',
             mode === opt.id
-              ? 'bg-secondary text-secondary-foreground font-medium'
+              ? 'bg-primary text-primary-foreground font-medium'
               : 'text-muted-foreground hover:bg-accent'
           )}
           aria-pressed={mode === opt.id}
@@ -342,21 +368,28 @@ function MatchCard({ match }) {
 
   return (
     <div
-      className="overflow-hidden rounded-lg border border-border bg-card"
-      style={{ borderLeft: `3px solid ${meta.color}` }}
+      className={cn(
+        'group relative overflow-hidden rounded-lg border bg-card transition-shadow',
+        isLive ? 'border-destructive/30 hover:shadow-live' : 'border-border hover:shadow-glow'
+      )}
     >
-      <div className="flex items-center justify-between px-4 pt-3 text-xs">
-        <span className="inline-flex items-center gap-1 text-muted-foreground">
-          <span>{meta.icon}</span>
-          {getSourceShortLabel(match.source)}
-        </span>
+      {/* Nhãn nguồn kiểu "bug" đài truyền hình — cắt góc chéo, màu riêng theo nguồn */}
+      <div
+        className="absolute left-0 top-0 flex items-center gap-1 rounded-br-lg px-2.5 py-1 text-[11px] font-semibold text-background"
+        style={{ backgroundColor: meta.color }}
+      >
+        <span>{meta.icon}</span>
+        {getSourceShortLabel(match.source)}
+      </div>
+
+      <div className="flex items-center justify-end px-3 pt-3 text-xs">
         {isLive ? (
-          <span className="inline-flex items-center gap-1.5">
-            <span className="text-muted-foreground">{formatMatchTime(match) || 'Sắp diễn ra'}</span>
-            <span className="inline-flex items-center gap-1 rounded-full bg-destructive/10 px-2 py-0.5 font-medium text-destructive">
-              <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-destructive" />
-              LIVE
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-destructive/15 px-2 py-0.5 font-semibold text-destructive">
+            <span className="relative flex h-1.5 w-1.5">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-destructive opacity-75" />
+              <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-destructive" />
             </span>
+            LIVE · {formatMatchTime(match) || 'đang phát'}
           </span>
         ) : (
           <span className="rounded-full bg-muted px-2 py-0.5 text-muted-foreground">
@@ -366,7 +399,7 @@ function MatchCard({ match }) {
       </div>
 
       {match.competition?.name && (
-        <div className="truncate px-4 pt-2 text-xs text-muted-foreground">{match.competition.name}</div>
+        <div className="truncate px-4 pt-2 text-center text-xs text-muted-foreground">{match.competition.name}</div>
       )}
 
       <div className="flex items-center justify-between gap-2 px-4 py-3">
@@ -374,7 +407,7 @@ function MatchCard({ match }) {
           <TeamLogo name={match.homeTeam?.name} logo={match.homeTeam?.logo} />
           <span className="line-clamp-2 text-xs font-medium leading-tight">{match.homeTeam?.name || 'Home'}</span>
         </div>
-        <div className="shrink-0 px-1 text-xs font-semibold text-muted-foreground">
+        <div className="shrink-0 px-1 font-display text-lg leading-none text-muted-foreground/70">
           VS
         </div>
         <div className="flex min-w-0 flex-1 flex-col items-center gap-1.5 text-center">
@@ -386,15 +419,14 @@ function MatchCard({ match }) {
       {!!match.streams?.length && (
         <div className="flex flex-wrap gap-2 border-t border-border px-4 py-2.5">
           {match.streams.map((s, i) => (
-            <a
+            <Link
               key={`${s.playUrl}-${i}`}
-              href={s.playUrl}
+              href={buildWatchHref(match, s)}
               target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-md border border-border px-2.5 py-1 text-xs hover:bg-accent"
+              className="rounded-md border border-border px-2.5 py-1 text-xs font-medium hover:border-primary/50 hover:bg-primary/10 hover:text-primary transition-colors"
             >
               ▶ {s.name}
-            </a>
+            </Link>
           ))}
         </div>
       )}
@@ -415,8 +447,11 @@ function MatchListRow({ match }) {
         {isLive ? (
           <span className="flex flex-col items-start gap-0.5">
             <span className="text-muted-foreground">{formatMatchTime(match) || 'Sắp diễn ra'}</span>
-            <span className="inline-flex items-center gap-1 font-medium text-destructive">
-              <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-destructive" />
+            <span className="inline-flex items-center gap-1 font-semibold text-destructive">
+              <span className="relative flex h-1.5 w-1.5">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-destructive opacity-75" />
+                <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-destructive" />
+              </span>
               LIVE
             </span>
           </span>
@@ -445,15 +480,14 @@ function MatchListRow({ match }) {
 
       <div className="flex shrink-0 flex-wrap gap-1.5">
         {(match.streams || []).map((s, i) => (
-          <a
+          <Link
             key={`${s.playUrl}-${i}`}
-            href={s.playUrl}
+            href={buildWatchHref(match, s)}
             target="_blank"
-            rel="noopener noreferrer"
             className="rounded-md border border-border px-2 py-0.5 text-xs hover:bg-accent"
           >
             ▶ {s.name}
-          </a>
+          </Link>
         ))}
       </div>
     </div>
@@ -578,10 +612,13 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-background text-foreground">
       <header className="border-b border-border">
+        <div className="h-1.5 bg-turf" />
         <div className="container py-6 space-y-4">
           <div>
-            <h1 className="text-2xl font-bold">Nguồn Thể Thao VIP</h1>
-            <p className="mt-1 text-muted-foreground">
+            <h1 className="font-display text-4xl leading-none tracking-wide text-foreground">
+              NGUỒN THỂ THAO <span className="text-primary">VIP</span>
+            </h1>
+            <p className="mt-2 text-sm text-muted-foreground">
               Danh sách trận trực tiếp tổng hợp từ nhiều nguồn — bật/tắt nguồn tuỳ ý.
             </p>
           </div>
@@ -606,10 +643,10 @@ export default function Home() {
                   type="button"
                   onClick={() => setActiveSport(tab.id)}
                   className={cn(
-                    'rounded-md px-3 py-1.5 text-sm',
+                    'rounded-full px-3.5 py-1.5 text-sm transition-colors',
                     activeSport === tab.id
-                      ? 'bg-secondary text-secondary-foreground font-medium'
-                      : 'text-muted-foreground hover:bg-accent'
+                      ? 'bg-primary text-primary-foreground font-semibold shadow-glow'
+                      : 'text-muted-foreground hover:bg-accent hover:text-foreground'
                   )}
                 >
                   {tab.label}
@@ -632,10 +669,21 @@ export default function Home() {
       </header>
 
       <section className="container py-8 space-y-8">
-        {loading && <p className="text-muted-foreground">Đang tải danh sách trận…</p>}
-        {!loading && error && <p className="text-destructive">{error}</p>}
+        {loading && (
+          <div className="flex items-center gap-2 text-sm text-muted-foreground">
+            <span className="h-3 w-3 animate-spin rounded-full border-2 border-muted-foreground/30 border-t-primary" />
+            Đang tải danh sách trận…
+          </div>
+        )}
+        {!loading && error && (
+          <div className="rounded-lg border border-destructive/30 bg-destructive/10 px-4 py-3 text-sm text-destructive">
+            Không tải được danh sách trận: {error}
+          </div>
+        )}
         {!loading && !error && visibleCount === 0 && (
-          <p className="text-muted-foreground">Không có trận nào đang phát (hoặc tất cả nguồn đang bị tắt).</p>
+          <div className="rounded-lg border border-dashed border-border px-4 py-8 text-center text-sm text-muted-foreground">
+            Không có trận nào đang phát — thử bật thêm nguồn ở trên, hoặc bấm &quot;Làm mới&quot;.
+          </div>
         )}
 
         {viewMode === 'list' ? (

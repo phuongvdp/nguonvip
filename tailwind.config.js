@@ -15,6 +15,17 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        display: ['Teko', 'Inter', 'ui-sans-serif', 'sans-serif'],
+      },
+      backgroundImage: {
+        'turf': 'repeating-linear-gradient(90deg, hsl(var(--turf-a)) 0px, hsl(var(--turf-a)) 40px, hsl(var(--turf-b)) 40px, hsl(var(--turf-b)) 80px)',
+      },
+      boxShadow: {
+        'glow': '0 0 0 1px hsl(var(--primary) / 0.4), 0 0 24px -4px hsl(var(--primary) / 0.55)',
+        'live': '0 0 0 1px hsl(var(--destructive) / 0.5), 0 0 18px -2px hsl(var(--destructive) / 0.65)',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
