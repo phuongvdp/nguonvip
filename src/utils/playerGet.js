@@ -8,6 +8,7 @@ export const SPORT_TABS = [
   { id: 'volleyball', label: 'Bóng chuyền' },
   { id: 'badminton', label: 'Cầu lông' },
   { id: 'tennis', label: 'Tennis' },
+  { id: 'f1', label: 'F1' },
   { id: 'esports', label: 'Esports' }
 ].filter(({ id }) => id !== 'esports');
 
@@ -26,7 +27,26 @@ const SPORT_ALIASES = {
   esport: 'esports',
   lol: 'esports',
   dota2: 'esports',
-  csgo: 'esports'
+  csgo: 'esports',
+  // Nguồn Giờ Vàng (giovang) mới thêm các chặng đua F1 — chưa xác nhận
+  // được CHÍNH XÁC chuỗi "type" thô mà API của họ trả về cho F1, nên gộp
+  // sẵn các biến thể hay gặp (tiếng Anh lẫn slug tiếng Việt không dấu) để
+  // khớp được dù họ đặt tên kiểu nào.
+  f1: 'f1',
+  'f-1': 'f1',
+  formula1: 'f1',
+  'formula-1': 'f1',
+  formula_1: 'f1',
+  racing: 'f1',
+  motorracing: 'f1',
+  'motor-racing': 'f1',
+  motorsport: 'f1',
+  'motor-sport': 'f1',
+  grandprix: 'f1',
+  'grand-prix': 'f1',
+  duaxe: 'f1',
+  'dua-xe': 'f1',
+  'dua-xe-f1': 'f1'
 };
 
 const SOURCE_LABELS = {

@@ -29,6 +29,20 @@ const SPORT_TYPE_MAP = {
   badminton: 'badminton',
   caulong: 'badminton',
   tennis: 'tennis',
+  // Chưa xác nhận được chuỗi "type" thô THẬT SỰ mà API giovang trả về cho
+  // các chặng đua F1 (mới xuất hiện) — gộp sẵn các biến thể hay gặp, khớp
+  // với alias tương ứng trong SPORT_ALIASES (src/utils/playerGet.js) để dù
+  // API đặt tên kiểu nào thì trận vẫn rơi đúng vào tab "F1" thay vì "other".
+  f1: 'f1',
+  'f-1': 'f1',
+  formula1: 'f1',
+  'formula-1': 'f1',
+  racing: 'f1',
+  motorracing: 'f1',
+  'motor-racing': 'f1',
+  motorsport: 'f1',
+  duaxe: 'f1',
+  'dua-xe': 'f1',
 };
 
 function cleanUrl(str) {

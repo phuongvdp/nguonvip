@@ -31,7 +31,7 @@ const path = require('path');
 
 // Khớp với SPORT_TABS trong src/utils/playerGet.js (bỏ 'esports' vì cũng bị
 // lọc bỏ ở đó).
-const SPORT_TABS = ['all', 'football', 'basketball', 'volleyball', 'badminton', 'tennis'];
+const SPORT_TABS = ['all', 'football', 'basketball', 'volleyball', 'badminton', 'tennis', 'f1'];
 
 // Khớp với SOURCE_GROUP_ORDER trong src/utils/playerGet.js — playlist tĩnh
 // RIÊNG từng nguồn (source-xoilac.m3u, source-phaohoa.m3u...), song song
