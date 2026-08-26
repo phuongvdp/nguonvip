@@ -1,7 +1,6 @@
 import phaohoaService from '@/src/services/phaohoa.service';
 import giovangService from '@/src/services/giovang.service';
 import {
-  isMinorLeagueMatch,
   isWithinNextHours,
   mapPool,
   matchCacheKey,
@@ -26,6 +25,16 @@ const MULTI_SPORTS = ['football', 'basketball', 'tennis', 'badminton', 'volleyba
 // m3u8Url/flvUrl riêng cho Gà Vàng, dò lại nhiều lần cho Xôi Lạc...) đã bị
 // xoá theo — 2 nguồn còn lại vốn không cần các bước đó (dữ liệu ổn định,
 // luôn trả sẵn .m3u8 hợp lệ).
+//
+// FIX RUNTIME (26/08/2026 — "cả 2 nguồn lỗi không quét được trận nào"):
+// đợt dọn code ở trên lỡ tay XOÁ LUÔN isMinorLeagueMatch() khỏi
+// playerGet.js (hàm đó thuộc bộ lọc giải cỏ chỉ dành riêng cho Gà Vàng/Xôi
+// Lạc) NHƯNG file này vẫn còn IMPORT và GỌI nó ở 2 chỗ bên dưới — import 1
+// tên không tồn tại khiến cả module lỗi ngay khi load, kéo theo toàn bộ
+// quét trận (cả Pháo Hoa lẫn Giờ Vàng) chết theo dù bản thân 2 nguồn này
+// không hề có vấn đề gì. Bỏ hẳn import + 2 lời gọi đó — Pháo Hoa/Giờ Vàng
+// vốn là dữ liệu có cấu trúc rõ ràng từ API riêng, không cần bộ lọc "giải
+// cỏ" kiểu quét-trang-HTML như Gà Vàng/Xôi Lạc trước đây.
 
 async function safe(promise, label) {
   try {
@@ -185,7 +194,7 @@ export async function buildAggregatedMatches() {
     fetchUpcomingLists()
   ]);
 
-  const liveMatches = dedupeByKey(liveRaw).filter((m) => !isMinorLeagueMatch(m));
+  const liveMatches = dedupeByKey(liveRaw);
   const resolved = await mapPool(liveMatches, STREAM_RESOLVE_CONCURRENCY, async (match) => {
     const streams = await resolveWithinDeadline(match);
     return streams.length ? { ...match, streams } : null;
@@ -200,7 +209,6 @@ export async function buildAggregatedMatches() {
   // live (a source can list the same fixture under both tabs briefly).
   const liveKeys = new Set(liveReady.map((m) => `${m.source}:${matchCacheKey(m)}`));
   const upcomingReady = dedupeByKey(upcomingRaw)
-    .filter((m) => !isMinorLeagueMatch(m))
     .filter((m) => !liveKeys.has(`${m.source}:${matchCacheKey(m)}`));
 
   return sortPlayable([...liveReady, ...upcomingReady]);
