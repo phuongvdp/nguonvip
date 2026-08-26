@@ -174,15 +174,6 @@ export function flvToM3u8Candidate(url) {
  * khi ra playlist/web) — thêm domain mới vào đây khi có báo lỗi kèm tên
  * domain cụ thể, KHÔNG cần sửa gì ở từng service riêng lẻ.
  */
-const DEAD_STREAM_DOMAINS = [ * kiểm tra), nhưng đã bị nhà
- * mạng trong nước (VNPT/Viettel/FPT...) chặn DNS riêng cho người xem VN —
- * nên link vẫn lọt qua mọi bộ lọc hiện có rồi báo lỗi khi bấm phát thật.
- * Domain kiểu này không tự "khỏi" được bằng retry/kiểm tra mạng từ server,
- * phải liệt kê thủ công. Đây là điểm lọc DÙNG CHUNG cho MỌI nguồn (xem
- * normalizeStreamList() bên dưới — nơi duy nhất mọi nguồn đều đi qua trước
- * khi ra playlist/web) — thêm domain mới vào đây khi có báo lỗi kèm tên
- * domain cụ thể, KHÔNG cần sửa gì ở từng service riêng lẻ.
- */
 const DEAD_STREAM_DOMAINS = [
   'quickscoreboardz.com',
   'livefeedtextbox.com'
