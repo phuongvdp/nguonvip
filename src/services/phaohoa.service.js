@@ -148,6 +148,8 @@ class PhaoHoaService {
       const url = c.streamUrl || '';
       if (!url || seen.has(url)) continue;
       seen.add(url);
+      const isFlv = /\.flv(\?|$)/i.test(url);
+      const isM3u8 = /\.m3u8(\?|$)/i.test(url);
       list.push({
         id: c.id,
         streamerId: c.id,
@@ -157,12 +159,16 @@ class PhaoHoaService {
         streamerAvatar: c.avatar,
         link: url,
         m3u8Url: url,
+        playUrl: url,
+        format: isFlv ? 'flv' : (isM3u8 ? 'hls' : ''),
         cdn: c.cdn || this.detectCdn(url),
         quality: 'HD'
       });
     }
 
     if (!list.length && match?.streamUrl) {
+      const isFlv = /\.flv(\?|$)/i.test(match.streamUrl);
+      const isM3u8 = /\.m3u8(\?|$)/i.test(match.streamUrl);
       list.push({
         id: 'primary',
         streamerId: 'primary',
@@ -172,6 +178,8 @@ class PhaoHoaService {
         streamerAvatar: '',
         link: match.streamUrl,
         m3u8Url: match.streamUrl,
+        playUrl: match.streamUrl,
+        format: isFlv ? 'flv' : (isM3u8 ? 'hls' : ''),
         cdn: this.detectCdn(match.streamUrl),
         quality: 'HD'
       });
