@@ -22,14 +22,27 @@ import { useEffect, useRef, useState } from 'react';
  * thấp). Đợi 8 giây mới hiện nút to là quá chậm — giờ hễ video.play() bị
  * trình duyệt TỪ CHỐI (chính là dấu hiệu chặn autoplay) là hiện NGAY LẬP
  * TỨC nút "▶ Bấm để phát" to, rõ, giữa màn hình — không cần đợi.
+ *
+ * FIX "pháo hoa: bấm nút ▶ thì nút BIẾN MẤT, không xem được" (27/08/2026):
+ * bug nằm ở `manualStartKey` — trước đây bấm nút vừa gọi video.play() vừa
+ * tăng manualStartKey để "buộc" effect chạy lại. Vì manualStartKey nằm
+ * trong dependency của useEffect, việc này khiến TOÀN BỘ player đang phát
+ * (hls/flv) bị HỦY và TẠO LẠI TỪ ĐẦU — tức là hủy luôn player vừa mới
+ * play() thành công, tải lại luồng từ đầu, rồi tự phát lại lần nữa NGOÀI
+ * user-gesture gốc (vì phải đi qua `await import()` bất đồng bộ) nên rất
+ * dễ bị trình duyệt chặn autoplay LẦN 2 — trong khi nút đã bị ẩn ngay khi
+ * bấm (setStuck(false)) nên có "khoảng trống" không nút, không video, tối
+ * đa 8 giây (hoặc lâu hơn nếu luồng tải lại chậm). Giờ bấm nút KHÔNG rebuild
+ * lại player nữa — chỉ gọi play() trên player đang có sẵn, và chỉ ẩn nút
+ * SAU KHI play() thực sự thành công (không ẩn lạc quan trước).
  */
 const STUCK_TIMEOUT_MS = 8000;
 
 export default function VideoPlayer({ url, format }) {
   const videoRef = useRef(null);
+  const playerRef = useRef(null); // { play: () => Promise } — điều khiển player đang hoạt động (video hoặc flvPlayer)
   const [error, setError] = useState('');
   const [stuck, setStuck] = useState(false);
-  const [manualStartKey, setManualStartKey] = useState(0);
 
   useEffect(() => {
     if (!url) return undefined;
@@ -86,6 +99,7 @@ export default function VideoPlayer({ url, format }) {
           if (!cancelled) setError('Nguồn FLV này hiện không phát được — thử server khác hoặc bấm làm mới trận.');
         });
         video.addEventListener('playing', markPlaying, { once: true });
+        playerRef.current = { play: () => flvPlayer.play() };
         tryAutoplay(() => flvPlayer.play());
         return;
       }
@@ -95,6 +109,7 @@ export default function VideoPlayer({ url, format }) {
       if (nativeHls) {
         video.src = url;
         video.addEventListener('playing', markPlaying, { once: true });
+        playerRef.current = { play: () => video.play() };
         tryAutoplay(() => video.play());
         return;
       }
@@ -119,6 +134,7 @@ export default function VideoPlayer({ url, format }) {
         }
       });
       video.addEventListener('playing', markPlaying, { once: true });
+      playerRef.current = { play: () => video.play() };
       tryAutoplay(() => video.play());
     }
 
@@ -131,6 +147,7 @@ export default function VideoPlayer({ url, format }) {
       cancelled = true;
       clearTimeout(stuckTimer);
       video.removeEventListener('playing', markPlaying);
+      playerRef.current = null;
       if (hls) hls.destroy();
       if (flvPlayer) {
         flvPlayer.pause();
@@ -139,7 +156,9 @@ export default function VideoPlayer({ url, format }) {
         flvPlayer.destroy();
       }
     };
-  }, [url, format, manualStartKey]);
+    // Chỉ rebuild player khi URL/format thực sự đổi (đổi trận/đổi server) —
+    // KHÔNG rebuild chỉ vì bấm nút "play thủ công" (xem nút ▶ bên dưới).
+  }, [url, format]);
 
   return (
     <div className="relative aspect-video w-full overflow-hidden rounded-lg bg-black">
@@ -156,10 +175,18 @@ export default function VideoPlayer({ url, format }) {
           <button
             type="button"
             onClick={() => {
-              const video = videoRef.current;
-              if (video) video.play().catch(() => {});
-              setStuck(false);
-              setManualStartKey((k) => k + 1);
+              const player = playerRef.current;
+              if (!player) return;
+              // Chỉ ẩn nút SAU KHI play() thực sự thành công — không ẩn
+              // lạc quan trước, và KHÔNG rebuild lại player (xem ghi chú
+              // FIX "pháo hoa: nút ▶ biến mất" ở đầu file).
+              player
+                .play()
+                .then(() => setStuck(false))
+                .catch((err) => {
+                  console.warn('[VideoPlayer] Bấm play thủ công vẫn bị trình duyệt từ chối:', err?.message);
+                  // giữ nguyên nút để người dùng bấm lại thay vì ẩn mất
+                });
             }}
             className="flex h-16 w-16 items-center justify-center rounded-full bg-primary text-2xl text-primary-foreground shadow-lg hover:opacity-90"
             aria-label="Bấm để phát"
