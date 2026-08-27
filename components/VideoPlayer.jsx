@@ -10,17 +10,18 @@ import { useEffect, useRef, useState } from 'react';
  * trong thẻ <video>, đúng cách 1 trang xem trực tiếp cần làm.
  *
  * FIX "màn hình đen, không nút bấm, không lỗi gì cả" (26/08/2026): trước
- * đây CHỈ hiện lỗi khi hls.js báo data.fatal === true — lỗi KHÔNG-fatal
- * (hls.js tự thử phục hồi nhưng đôi khi không bao giờ thành công thật) và
- * lỗi từ video.play() (bị trình duyệt chặn autoplay khi mở tab mới — user
- * gesture không được tính là "trong trang đó") đều bị NUỐT ÂM THẦM, người
- * xem chỉ thấy video đen treo mãi không rõ vì sao. Giờ: (1) log MỌI lỗi
- * hls.js/flv.js ra console (kể cả không-fatal) để dễ soi khi có báo lỗi
- * lần sau, (2) đặt hẹn giờ — quá X giây mà chưa có tí dữ liệu nào (chưa
- * bao giờ vào trạng thái "đang phát") thì tự hiện nút "▶ Bấm để phát thủ
- * công" — vừa là lối thoát rõ ràng thay vì treo vô thời hạn, vừa VÔ TÌNH
- * giải quyết luôn trường hợp bị chặn autoplay (bấm nút này CHÍNH LÀ 1 cử
- * chỉ người dùng thật, trình duyệt luôn cho phép phát sau đó).
+ * đây CHỈ hiện lỗi khi hls.js báo data.fatal === true — lỗi KHÔNG-fatal và
+ * lỗi từ video.play() (bị trình duyệt chặn autoplay) đều bị NUỐT ÂM THẦM.
+ * Thêm log đầy đủ + nút "▶ Bấm để phát" thủ công sau 8 giây treo.
+ *
+ * FIX "nút bấm bị ẩn" (27/08/2026 — có ảnh chụp màn hình xác nhận): video
+ * THỰC RA đã tải xong (đủ dữ liệu để biết thời lượng "0:00"), chỉ là bị
+ * chặn autoplay nên dừng ở trạng thái tạm dừng — nhưng nút ▶ MẶC ĐỊNH của
+ * trình duyệt để phát lại chỉ là 1 tam giác nhỏ xíu góc trên-trái, cực dễ
+ * bị bỏ qua/tưởng là "ẩn" (đặc biệt nhìn qua ảnh chụp màn hình độ phân giải
+ * thấp). Đợi 8 giây mới hiện nút to là quá chậm — giờ hễ video.play() bị
+ * trình duyệt TỪ CHỐI (chính là dấu hiệu chặn autoplay) là hiện NGAY LẬP
+ * TỨC nút "▶ Bấm để phát" to, rõ, giữa màn hình — không cần đợi.
  */
 const STUCK_TIMEOUT_MS = 8000;
 
@@ -52,6 +53,20 @@ export default function VideoPlayer({ url, format }) {
       clearTimeout(stuckTimer);
     };
 
+    // Gọi CHUNG cho cả 3 nhánh phát (flv.js/native HLS/hls.js) — nếu
+    // video.play() bị trình duyệt TỪ CHỐI (autoplay policy), hiện NGAY nút
+    // "▶ Bấm để phát" to giữa màn hình thay vì trông chờ vào nút ▶ nhỏ xíu
+    // mặc định của trình duyệt (rất dễ bị bỏ sót) hoặc đợi đủ 8 giây.
+    const tryAutoplay = (playFn) => {
+      const result = playFn();
+      if (result?.catch) {
+        result.catch((err) => {
+          console.warn('[VideoPlayer] play() bị từ chối (trình duyệt chặn autoplay):', err?.message);
+          if (!cancelled && !startedPlaying) setStuck(true);
+        });
+      }
+    };
+
     async function setup() {
       const isFlv = format === 'flv' || /\.flv(\?|$)/i.test(url);
 
@@ -71,9 +86,7 @@ export default function VideoPlayer({ url, format }) {
           if (!cancelled) setError('Nguồn FLV này hiện không phát được — thử server khác hoặc bấm làm mới trận.');
         });
         video.addEventListener('playing', markPlaying, { once: true });
-        flvPlayer.play().catch((err) => {
-          console.warn('[VideoPlayer] flv play() bị từ chối (có thể do trình duyệt chặn autoplay):', err?.message);
-        });
+        tryAutoplay(() => flvPlayer.play());
         return;
       }
 
@@ -82,9 +95,7 @@ export default function VideoPlayer({ url, format }) {
       if (nativeHls) {
         video.src = url;
         video.addEventListener('playing', markPlaying, { once: true });
-        video.play().catch((err) => {
-          console.warn('[VideoPlayer] play() bị từ chối (có thể do trình duyệt chặn autoplay):', err?.message);
-        });
+        tryAutoplay(() => video.play());
         return;
       }
 
@@ -108,9 +119,7 @@ export default function VideoPlayer({ url, format }) {
         }
       });
       video.addEventListener('playing', markPlaying, { once: true });
-      video.play().catch((err) => {
-        console.warn('[VideoPlayer] play() bị từ chối (có thể do trình duyệt chặn autoplay):', err?.message);
-      });
+      tryAutoplay(() => video.play());
     }
 
     setup().catch((err) => {
@@ -142,8 +151,8 @@ export default function VideoPlayer({ url, format }) {
         className="h-full w-full"
       />
       {stuck && !error && (
-        <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-black/90 px-6 text-center text-sm text-white">
-          <p>Chưa tự phát được — trình duyệt có thể đang chặn tự động phát.</p>
+        <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 bg-black/80 px-6 text-center text-sm text-white">
+          <p>Trình duyệt đang chặn tự động phát.</p>
           <button
             type="button"
             onClick={() => {
@@ -152,10 +161,12 @@ export default function VideoPlayer({ url, format }) {
               setStuck(false);
               setManualStartKey((k) => k + 1);
             }}
-            className="rounded-md bg-primary px-4 py-2 font-medium text-primary-foreground hover:opacity-90"
+            className="flex h-16 w-16 items-center justify-center rounded-full bg-primary text-2xl text-primary-foreground shadow-lg hover:opacity-90"
+            aria-label="Bấm để phát"
           >
-            ▶ Bấm để phát
+            ▶
           </button>
+          <p className="text-xs text-white/70">Bấm nút ▶ ở trên để bắt đầu xem</p>
         </div>
       )}
       {error && (
