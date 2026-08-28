@@ -1,6 +1,21 @@
 import { useEffect, useRef, useState } from 'react';
+import { buildProxyStreamUrl } from '@/src/utils/proxyUrl';
 
 /**
+ * FIX "hls.js error: networkError manifestLoadError fatal=true" / CORS bị
+ * chặn khi phát (28/08/2026, xem lỗi.txt): trước đây component này đưa
+ * THẲNG link .m3u8 gốc của CDN nguồn (ví dụ luong.phaohoa.live) cho hls.js
+ * gọi trực tiếp từ trình duyệt — CDN đó không gắn header
+ * "Access-Control-Allow-Origin" nên trình duyệt tự chặn (CORS), khiến
+ * manifest không tải được ngay từ đầu -> lỗi fatal, màn hình đen.
+ * Sửa: mọi link đưa cho <video>/hls.js/flv.js đều đi qua
+ * buildProxyStreamUrl() để bọc qua route /api/proxy/hls chạy trên server —
+ * server gọi HTTP thì không bị CORS chi phối, còn trình duyệt lúc này chỉ
+ * gọi về same-origin (domain của chính app) nên hết bị chặn. `url` GỐC
+ * (chưa bọc proxy) vẫn được giữ nguyên ở nơi khác (pages/watch.jsx) để hiện
+ * cho người dùng copy sang VLC/app IPTV ngoài trình duyệt — nơi đó không bị
+ * CORS chi phối nên cứ dùng link gốc là phát bình thường, không cần proxy.
+ *
  * FIX "nhiều trận flv/hls không xem được": trước đây nút ▶
  * trỏ THẲNG vào link .m3u8/.flv thô (playUrl) và mở bằng target="_blank" —
  * đó là link DỮ LIỆU STREAM, không phải trang xem, nên trình duyệt chỉ tải
@@ -165,6 +180,10 @@ export default function VideoPlayer({ url, format }) {
 
     async function setup() {
       const isFlv = format === 'flv' || /\.flv(\?|$)/i.test(url);
+      // Nhận diện định dạng dựa trên URL GỐC (url) như cũ — chỉ đổi sang
+      // link đã bọc proxy tại đúng điểm đưa cho player thực sự phát
+      // (playbackUrl), tránh làm sai logic nhận diện .flv/.m3u8 ở trên.
+      const playbackUrl = buildProxyStreamUrl(url);
 
       if (isFlv) {
         const mod = await import('flv.js');
@@ -174,7 +193,7 @@ export default function VideoPlayer({ url, format }) {
           setError('Trình duyệt này không hỗ trợ phát FLV — thử Chrome/Edge trên máy tính, hoặc dùng link trong VLC.');
           return;
         }
-        flvPlayer = flvjs.createPlayer({ type: 'flv', url, isLive: true, hasAudio: true, hasVideo: true });
+        flvPlayer = flvjs.createPlayer({ type: 'flv', url: playbackUrl, isLive: true, hasAudio: true, hasVideo: true });
         flvPlayer.attachMediaElement(video);
         flvPlayer.load();
         flvPlayer.on(flvjs.Events.ERROR, (errType, errDetail) => {
@@ -214,7 +233,7 @@ export default function VideoPlayer({ url, format }) {
 
       if (Hls.isSupported()) {
         hls = new Hls({ enableWorker: true, lowLatencyMode: true });
-        hls.loadSource(url);
+        hls.loadSource(playbackUrl);
         hls.attachMedia(video);
         hls.on(Hls.Events.ERROR, (_evt, data) => {
           // Log MỌI lỗi (kể cả không-fatal) — hls.js tự thử phục hồi lỗi
@@ -244,7 +263,7 @@ export default function VideoPlayer({ url, format }) {
       // Extensions) — fallback native, chỉ thật sự hoạt động trên Safari.
       const nativeHls = video.canPlayType('application/vnd.apple.mpegurl');
       if (nativeHls) {
-        video.src = url;
+        video.src = playbackUrl;
         playerRef.current = { play: () => video.play() };
         playWhenReady();
         return;
