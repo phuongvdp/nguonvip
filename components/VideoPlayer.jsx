@@ -110,13 +110,22 @@ export default function VideoPlayer({ url, format }) {
       if (cancelled) return;
       scheduleWatchdog();
     };
+    // FIX 28/08/2026: sự kiện 'error' gốc của <video> (khác với lỗi riêng
+    // của hls.js/flv.js) trước đây bị nuốt âm thầm, không log gì — khiến
+    // không tài nào biết vì sao video treo đen. Log rõ mã lỗi MediaError
+    // (1=ABORTED, 2=NETWORK, 3=DECODE, 4=SRC_NOT_SUPPORTED) để dễ chẩn đoán.
+    const handleVideoError = () => {
+      if (cancelled) return;
+      console.error('[VideoPlayer] <video> error:', video.error?.code, video.error?.message);
+      scheduleWatchdog();
+    };
 
     // Theo dõi LIÊN TỤC trong suốt vòng đời player (không phải { once: true })
     video.addEventListener('playing', handlePlaying);
     video.addEventListener('pause', handleStall);
     video.addEventListener('waiting', handleStall);
     video.addEventListener('stalled', handleStall);
-    video.addEventListener('error', handleStall);
+    video.addEventListener('error', handleVideoError);
 
     scheduleWatchdog(); // đếm ngay từ lúc mount / mỗi khi đổi nguồn (url/format)
 
@@ -182,7 +191,57 @@ export default function VideoPlayer({ url, format }) {
         return;
       }
 
-      // HLS: Safari/iOS phát .m3u8 gốc, các trình duyệt khác cần hls.js
+      // FIX 28/08/2026 (xác nhận qua Network tab: request .m3u8 có type
+      // "media" — nghĩa là <video> tự lấy thẳng link, KHÔNG qua hls.js —
+      // và bị (failed)): trước đây code kiểm tra
+      // video.canPlayType('application/vnd.apple.mpegurl') TRƯỚC TIÊN, chỉ
+      // dùng hls.js nếu check đó falsy. Nhưng 1 số trình duyệt Chromium nội
+      // địa (ví dụ Cốc Cốc trên Windows có cài codec pack) trả lời DƯƠNG
+      // TÍNH GIẢ cho check này — tưởng phát native được (giống Safari) rồi
+      // gán thẳng video.src = url — nhưng thực ra KHÔNG phát được (chỉ
+      // Safari/WebKit thật mới có engine native HLS), nên request thất bại
+      // ngay, và video.play() sau đó ném "Failed to load because no
+      // supported source was found".
+      // Sửa: đảo thứ tự — LUÔN ưu tiên hls.js (dùng MediaSource Extensions,
+      // hoạt động nhất quán trên mọi trình duyệt Chromium) nếu
+      // Hls.isSupported() === true. Chỉ dùng nhánh native (gán thẳng src)
+      // làm phương án CUỐI CÙNG khi hls.js thật sự không chạy được trên
+      // trình duyệt đó (chủ yếu chỉ còn Safari/iOS, nơi hls.js không hoạt
+      // động vì thiếu MSE cho HLS nhưng có sẵn engine native).
+      const mod = await import('hls.js');
+      const Hls = mod.default || mod;
+      if (cancelled) return;
+
+      if (Hls.isSupported()) {
+        hls = new Hls({ enableWorker: true, lowLatencyMode: true });
+        hls.loadSource(url);
+        hls.attachMedia(video);
+        hls.on(Hls.Events.ERROR, (_evt, data) => {
+          // Log MỌI lỗi (kể cả không-fatal) — hls.js tự thử phục hồi lỗi
+          // không-fatal nhưng không phải lúc nào cũng thành công.
+          console.error('[VideoPlayer] hls.js error:', data?.type, data?.details, 'fatal=', data?.fatal);
+          if (data?.fatal && !cancelled) {
+            setError('Nguồn này hiện không phát được — thử server khác hoặc bấm làm mới trận.');
+          } else if (!cancelled) {
+            // Lỗi không-fatal: hls.js tự retry — cho watchdog cơ hội hiện
+            // lại nút ▶ nếu retry không thành công trong 8 giây.
+            scheduleWatchdog();
+          }
+        });
+        playerRef.current = { play: () => video.play() };
+        // hls.js khuyến cáo chính thức: gọi play() sau MANIFEST_PARSED,
+        // không phải ngay sau attachMedia(). Vẫn giữ thêm playWhenReady()
+        // làm lưới an toàn cho trường hợp MANIFEST_PARSED không bắn nhưng
+        // <video> vẫn có dữ liệu qua đường khác.
+        hls.on(Hls.Events.MANIFEST_PARSED, () => {
+          if (!cancelled) tryAutoplay(() => video.play());
+        });
+        playWhenReady();
+        return;
+      }
+
+      // hls.js không hỗ trợ được trình duyệt này (thiếu MediaSource
+      // Extensions) — fallback native, chỉ thật sự hoạt động trên Safari.
       const nativeHls = video.canPlayType('application/vnd.apple.mpegurl');
       if (nativeHls) {
         video.src = url;
@@ -191,38 +250,7 @@ export default function VideoPlayer({ url, format }) {
         return;
       }
 
-      const mod = await import('hls.js');
-      const Hls = mod.default || mod;
-      if (cancelled) return;
-      if (!Hls.isSupported()) {
-        setError('Trình duyệt này không hỗ trợ phát HLS — thử trình duyệt khác, hoặc dùng link trong VLC.');
-        return;
-      }
-      hls = new Hls({ enableWorker: true, lowLatencyMode: true });
-      hls.loadSource(url);
-      hls.attachMedia(video);
-      hls.on(Hls.Events.ERROR, (_evt, data) => {
-        // Log MỌI lỗi (kể cả không-fatal) — hls.js tự thử phục hồi lỗi
-        // không-fatal nhưng không phải lúc nào cũng thành công.
-        console.error('[VideoPlayer] hls.js error:', data?.type, data?.details, 'fatal=', data?.fatal);
-        if (data?.fatal && !cancelled) {
-          setError('Nguồn này hiện không phát được — thử server khác hoặc bấm làm mới trận.');
-        } else if (!cancelled) {
-          // Lỗi không-fatal: hls.js tự retry — cho watchdog cơ hội hiện
-          // lại nút ▶ nếu retry không thành công trong 8 giây.
-          scheduleWatchdog();
-        }
-      });
-      playerRef.current = { play: () => video.play() };
-      // hls.js khuyến cáo chính thức: gọi play() sau MANIFEST_PARSED, không
-      // phải ngay sau attachMedia() — đây chính là nguồn gốc lỗi "Failed to
-      // load because no supported source was found". Vẫn giữ thêm
-      // playWhenReady() làm lưới an toàn cho trường hợp MANIFEST_PARSED
-      // không bắn nhưng <video> vẫn có dữ liệu qua đường khác.
-      hls.on(Hls.Events.MANIFEST_PARSED, () => {
-        if (!cancelled) tryAutoplay(() => video.play());
-      });
-      playWhenReady();
+      setError('Trình duyệt này không hỗ trợ phát HLS — thử trình duyệt khác, hoặc dùng link trong VLC.');
     }
 
     setup().catch((err) => {
@@ -237,7 +265,7 @@ export default function VideoPlayer({ url, format }) {
       video.removeEventListener('pause', handleStall);
       video.removeEventListener('waiting', handleStall);
       video.removeEventListener('stalled', handleStall);
-      video.removeEventListener('error', handleStall);
+      video.removeEventListener('error', handleVideoError);
       playerRef.current = null;
       if (hls) hls.destroy();
       if (flvPlayer) {
