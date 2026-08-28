@@ -46,6 +46,22 @@ import { useEffect, useRef, useState } from 'react';
  *     nguồn tự ngắt giữa chừng.
  * Nhờ vậy nút ▶ sẽ hiện lại BẤT CỨ LÚC NÀO stream bị gián đoạn quá 8 giây,
  * không chỉ ở lần đầu tiên.
+ *
+ * FIX "play() bị từ chối: Failed to load because no supported source was
+ * found" (28/08/2026 — NGUYÊN NHÂN GỐC THẬT SỰ, xác nhận qua log Console):
+ * đây KHÔNG PHẢI lỗi trình duyệt chặn autoplay như dòng cảnh báo (bị gắn
+ * nhầm nhãn) — đây là MediaError thật, nghĩa là tại thời điểm gọi
+ * video.play(), thẻ <video> CHƯA CÓ nguồn phát nào cả. Lý do: code cũ gọi
+ * video.play() NGAY SAU hls.attachMedia(video)/flvPlayer.attachMediaElement
+ * (video) — nhưng attachMedia chạy BẤT ĐỒNG BỘ, phải đợi hls.js bắn sự kiện
+ * MANIFEST_PARSED (đã tải + phân tích xong danh sách segment) thì thẻ
+ * <video> mới thật sự có dữ liệu để phát. Gọi play() sớm hơn mốc đó thì
+ * đúng là "chưa có nguồn nào" theo góc nhìn của trình duyệt → lỗi trên. Tài
+ * liệu chính thức của hls.js cũng khuyến cáo CHỈ gọi play() sau
+ * MANIFEST_PARSED, không phải ngay sau attachMedia().
+ * Sửa: chỉ gọi play() sau khi thẻ <video> bắn 'loadedmetadata' (áp dụng
+ * chung cho cả 3 nhánh flv/native-HLS/hls.js — không phụ thuộc riêng vào
+ * sự kiện nội bộ của từng thư viện).
  */
 const STUCK_TIMEOUT_MS = 8000;
 
@@ -105,15 +121,36 @@ export default function VideoPlayer({ url, format }) {
     scheduleWatchdog(); // đếm ngay từ lúc mount / mỗi khi đổi nguồn (url/format)
 
     // Gọi CHUNG cho cả 3 nhánh phát (flv.js/native HLS/hls.js) — nếu
-    // video.play() bị trình duyệt TỪ CHỐI (autoplay policy), hiện NGAY nút
-    // "▶ Bấm để phát" to giữa màn hình thay vì đợi watchdog 8 giây.
+    // video.play() bị trình duyệt TỪ CHỐI (autoplay policy hoặc MediaError
+    // khác), hiện NGAY nút "▶ Bấm để phát" to giữa màn hình thay vì đợi
+    // watchdog 8 giây.
     const tryAutoplay = (playFn) => {
       const result = playFn();
       if (result?.catch) {
         result.catch((err) => {
-          console.warn('[VideoPlayer] play() bị từ chối (trình duyệt chặn autoplay):', err?.message);
+          console.warn('[VideoPlayer] play() bị từ chối:', err?.name, err?.message);
           if (!cancelled) setStuck(true);
         });
+      }
+    };
+
+    // CHỈ gọi play() sau khi thẻ <video> thật sự có dữ liệu ('loadedmetadata')
+    // — xem chú thích FIX "Failed to load because no supported source was
+    // found" ở đầu file. Dùng chung cho cả 3 nhánh thay vì gọi play() ngay
+    // sau attachMedia/attachMediaElement/gán src.
+    const playWhenReady = () => {
+      if (cancelled) return;
+      if (video.readyState >= 1) {
+        // readyState >= HAVE_METADATA: đã có dữ liệu ngay lúc này rồi.
+        tryAutoplay(() => video.play());
+      } else {
+        video.addEventListener(
+          'loadedmetadata',
+          () => {
+            if (!cancelled) tryAutoplay(() => video.play());
+          },
+          { once: true }
+        );
       }
     };
 
@@ -140,8 +177,8 @@ export default function VideoPlayer({ url, format }) {
             scheduleWatchdog();
           }
         });
-        playerRef.current = { play: () => flvPlayer.play() };
-        tryAutoplay(() => flvPlayer.play());
+        playerRef.current = { play: () => video.play() };
+        playWhenReady();
         return;
       }
 
@@ -150,7 +187,7 @@ export default function VideoPlayer({ url, format }) {
       if (nativeHls) {
         video.src = url;
         playerRef.current = { play: () => video.play() };
-        tryAutoplay(() => video.play());
+        playWhenReady();
         return;
       }
 
@@ -177,7 +214,15 @@ export default function VideoPlayer({ url, format }) {
         }
       });
       playerRef.current = { play: () => video.play() };
-      tryAutoplay(() => video.play());
+      // hls.js khuyến cáo chính thức: gọi play() sau MANIFEST_PARSED, không
+      // phải ngay sau attachMedia() — đây chính là nguồn gốc lỗi "Failed to
+      // load because no supported source was found". Vẫn giữ thêm
+      // playWhenReady() làm lưới an toàn cho trường hợp MANIFEST_PARSED
+      // không bắn nhưng <video> vẫn có dữ liệu qua đường khác.
+      hls.on(Hls.Events.MANIFEST_PARSED, () => {
+        if (!cancelled) tryAutoplay(() => video.play());
+      });
+      playWhenReady();
     }
 
     setup().catch((err) => {
