@@ -1,5 +1,6 @@
 import phaohoaService from '@/src/services/phaohoa.service';
 import giovangService from '@/src/services/giovang.service';
+import khandaitvService from '@/src/services/khandaitv.service';
 import { normalizeStreamList, isFlvUrl } from '@/src/utils/playerGet';
 import { preferHlsForIptv } from '@/src/utils/m3uPlaylist';
 
@@ -20,6 +21,8 @@ import { preferHlsForIptv } from '@/src/utils/m3uPlaylist';
  *
  * FIX (25/08/2026 — theo yêu cầu "chỉ giữ Pháo Hoa + Giờ Vàng"): đã xoá hẳn
  * các nhánh Gà Vàng/Xôi Lạc/AFF Cup/90Phút/VSC9 — chỉ còn phaohoa/giovang.
+ * FIX (09/09/2026 — theo yêu cầu): thêm nhánh khandaitv (cùng cách gọi như
+ * phaohoa vì cùng schema/backend, xem khandaitv.service.js).
  */
 export default async function handler(req, res) {
   if (req.method !== 'GET') {
@@ -59,13 +62,16 @@ export default async function handler(req, res) {
   try {
     let raw = [];
     const maxAttempts = 2;
-    const attemptTimeoutMs = 8000; // Pháo Hoa/Giờ Vàng gọi thẳng 1 API, hiếm khi chậm
+    const attemptTimeoutMs = 8000; // Pháo Hoa/Giờ Vàng/Khán Đài gọi thẳng 1 API, hiếm khi chậm
 
     for (let attempt = 1; attempt <= maxAttempts; attempt++) {
       try {
         if (source === 'phaohoa') {
           if (!matchId) return notReadyYet();
           raw = await withDeadline(phaohoaService.getStreamLinks(matchId, sport), attemptTimeoutMs);
+        } else if (source === 'khandaitv') {
+          if (!matchId) return notReadyYet();
+          raw = await withDeadline(khandaitvService.getStreamLinks(matchId, sport), attemptTimeoutMs);
         } else if (source === 'giovang') {
           const id = url || matchId;
           if (!id) return notReadyYet();

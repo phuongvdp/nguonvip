@@ -51,17 +51,19 @@ const SPORT_ALIASES = {
 
 const SOURCE_LABELS = {
   phaohoa: 'Phao Hoa TV',
-  giovang: 'Gio Vang TV'
+  giovang: 'Gio Vang TV',
+  khandaitv: 'Khan Dai TV'
 };
 
 const SOURCE_SHORT = {
   phaohoa: 'Pháo Hoa',
-  giovang: 'Giờ Vàng'
+  giovang: 'Giờ Vàng',
+  khandaitv: 'Khán Đài'
 };
 
 // Thứ tự nhóm theo nguồn dùng chung cho danh sách trên trang quét lẫn file
 // playlist .m3u, để cả hai nơi hiển thị nhất quán.
-export const SOURCE_GROUP_ORDER = ['phaohoa', 'giovang'];
+export const SOURCE_GROUP_ORDER = ['phaohoa', 'giovang', 'khandaitv'];
 
 // Danh sách nguồn dùng để vẽ công tắc bật/tắt trên giao diện. Giữ đồng bộ
 // với SOURCE_GROUP_ORDER — mỗi nguồn 1 công tắc, người dùng tự chọn nguồn
@@ -71,14 +73,20 @@ export const SOURCE_GROUP_ORDER = ['phaohoa', 'giovang'];
 // Gà Vàng, Xôi Lạc, VSC9, 90 Phút, AFF Cup, Custom Sources — code các nguồn
 // này (services, API routes liên quan) cũng đã bị xoá khỏi project, không
 // chỉ ẩn trên giao diện.
+// FIX (09/09/2026 — theo yêu cầu): thêm Khán Đài TV (khandaitv.service.js).
+// Site này chạy trên domain phaohoa.live — CÙNG backend/schema trận đấu với
+// nguồn Pháo Hoa hiện có (đã xác nhận qua bản HTML lấy từ site) — nhưng vẫn
+// cố tình để thành 1 nguồn RIÊNG theo yêu cầu, nên có thể thấy trận trùng
+// giữa Pháo Hoa và Khán Đài — đây là hành vi CHỦ Ý chứ không phải lỗi.
 export const SOURCE_TOGGLE_LIST = [
   { key: 'phaohoa', label: 'Pháo Hoa' },
-  { key: 'giovang', label: 'Giờ Vàng' }
+  { key: 'giovang', label: 'Giờ Vàng' },
+  { key: 'khandaitv', label: 'Khán Đài' }
 ];
 
 // Bump the key once so an old browser setting cannot hide every source after
 // the source list/status handling changes. New choices are still persisted.
-const SOURCE_TOGGLE_STORAGE_KEY = 'player-get:enabled-sources:v2';
+const SOURCE_TOGGLE_STORAGE_KEY = 'player-get:enabled-sources:v3';
 
 /** Mặc định: tất cả nguồn đều bật. */
 export function getDefaultEnabledSources() {

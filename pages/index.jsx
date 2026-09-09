@@ -258,7 +258,8 @@ function ViewModeToggle({ mode, onChange }) {
 
 const SOURCE_META = {
   phaohoa: { color: '#FF6B6B', icon: '🎆' },
-  giovang: { color: '#F5B301', icon: '🥇' }
+  giovang: { color: '#F5B301', icon: '🥇' },
+  khandaitv: { color: '#4F8EF7', icon: '🏟️' }
 };
 
 function TeamLogo({ name, logo, small = false }) {
