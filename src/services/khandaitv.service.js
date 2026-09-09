@@ -1,17 +1,23 @@
 import { createHttpClient } from '@/src/utils/httpClient';
 import { buildMatchSlug, slugifyVi } from '@/src/utils/slug';
 
-// KhanDaiTV (tên gọi khác: "Khán Đài TV") chạy trên domain phaohoa.live —
-// đã xác nhận qua bản HTML lấy từ site (window.__NUXT__/__NUXT_DATA__,
-// 08/09/2026): cùng schema trận đấu (id, sport, home_team_name,
-// tournament_name, commentators[].stream_url...) và cùng dải domain anh em
-// phaohoa.live/phaohoa1.live/.../phaohoa5.live với nguồn Pháo Hoa đã có
-// (xem phaohoa.service.js) — nói cách khác đây là CÙNG 1 backend, khác
-// domain/skin. Theo yêu cầu, vẫn thêm thành 1 nguồn RIÊNG trên giao diện
-// (chấp nhận có thể trùng trận với Pháo Hoa) thay vì gộp làm domain dự
-// phòng — nên toàn bộ logic bên dưới cố tình COPY lại từ
-// PhaoHoaService, chỉ đổi domain mặc định + tiền tố id/nhãn nguồn.
-const KHANDAITV_BASE_URL = process.env.KHANDAITV_DOMAIN || process.env.KHANDAITV_BASE_URL || 'https://phaohoa.live';
+// KhanDaiTV (tên gọi khác: "Khán Đài TV") — đã xác nhận qua bản HTML lấy từ
+// site (window.__NUXT__/__NUXT_DATA__, 08/09/2026): cùng schema trận đấu
+// (id, sport, home_team_name, tournament_name, commentators[].stream_url...)
+// với nguồn Pháo Hoa đã có (xem phaohoa.service.js) — tức CÙNG 1 backend,
+// khác domain/skin. Ban đầu đoán domain theo dải "phaohoa.live" thấy trong
+// bản HTML đó, NHƯNG domain "phaohoa.live" lại đang nằm chung nhóm với
+// domain Pháo Hoa (phaohoa1.live) đang bị lỗi tạm thời → kéo theo Khán Đài
+// cũng không lấy được trận dù bản thân nguồn Khán Đài vẫn hoạt động tốt.
+// FIX (09/09/2026 — theo yêu cầu "đừng bắt chước domain Pháo Hoa"): đổi
+// sang domain THẬT, ĐỘC LẬP do người dùng cung cấp: https://khandai3.link —
+// đã tự kiểm tra domain này đang chạy tốt, cùng danh sách BLV/dữ liệu với
+// bản HTML gốc (Tày, Kevin, Chim Nhỏ, KaKa, Lưu Bị, Tiểu Mây, Pháo Thủ...).
+// Theo yêu cầu, vẫn thêm thành 1 nguồn RIÊNG trên giao diện (chấp nhận có
+// thể trùng trận với Pháo Hoa vì chung backend) thay vì gộp làm domain dự
+// phòng — nên toàn bộ logic bên dưới cố tình COPY lại từ PhaoHoaService,
+// chỉ đổi domain mặc định + tiền tố id/nhãn nguồn.
+const KHANDAITV_BASE_URL = process.env.KHANDAITV_DOMAIN || process.env.KHANDAITV_BASE_URL || 'https://khandai3.link';
 
 class KhanDaiTvService {
   constructor() {
@@ -140,7 +146,10 @@ class KhanDaiTvService {
       streamers: commentators,
       streamUrl: primaryStream,
       stream: {
-        liveUrl: `${KHANDAITV_BASE_URL}/truc-tiep/${slug}/`,
+        // Domain thật (khandai3.link) dùng route "/truc-tiep/{slug}" KHÔNG có
+        // dấu "/" cuối — đã tự kiểm tra trực tiếp trên site, khác với format
+        // "/truc-tiep/{slug}/" (có "/" cuối) của phaohoa.service.js.
+        liveUrl: `${KHANDAITV_BASE_URL}/truc-tiep/${slug}`,
         streamerName: commentators[0]?.name || null,
         streamerAvatar: commentators[0]?.avatar || null
       },

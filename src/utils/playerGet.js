@@ -73,11 +73,13 @@ export const SOURCE_GROUP_ORDER = ['phaohoa', 'giovang', 'khandaitv'];
 // Gà Vàng, Xôi Lạc, VSC9, 90 Phút, AFF Cup, Custom Sources — code các nguồn
 // này (services, API routes liên quan) cũng đã bị xoá khỏi project, không
 // chỉ ẩn trên giao diện.
-// FIX (09/09/2026 — theo yêu cầu): thêm Khán Đài TV (khandaitv.service.js).
-// Site này chạy trên domain phaohoa.live — CÙNG backend/schema trận đấu với
-// nguồn Pháo Hoa hiện có (đã xác nhận qua bản HTML lấy từ site) — nhưng vẫn
-// cố tình để thành 1 nguồn RIÊNG theo yêu cầu, nên có thể thấy trận trùng
-// giữa Pháo Hoa và Khán Đài — đây là hành vi CHỦ Ý chứ không phải lỗi.
+// FIX (09/09/2026 — theo yêu cầu): thêm Khán Đài TV (khandaitv.service.js),
+// domain khandai3.link. Cùng schema dữ liệu trận đấu với nguồn Pháo Hoa
+// hiện có (đã xác nhận qua bản HTML lấy từ site) nhưng domain HOÀN TOÀN
+// ĐỘC LẬP với domain Pháo Hoa (không dùng chung/ăn theo phaohoa.live) — để
+// khi domain Pháo Hoa gặp sự cố, Khán Đài không bị kéo theo. Vẫn cố tình để
+// thành 1 nguồn RIÊNG theo yêu cầu, nên có thể thấy trận trùng giữa Pháo
+// Hoa và Khán Đài (do chung backend) — đây là hành vi CHỦ Ý chứ không phải lỗi.
 export const SOURCE_TOGGLE_LIST = [
   { key: 'phaohoa', label: 'Pháo Hoa' },
   { key: 'giovang', label: 'Giờ Vàng' },

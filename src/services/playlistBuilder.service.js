@@ -28,9 +28,10 @@ const MULTI_SPORTS = ['football', 'basketball', 'tennis', 'badminton', 'volleyba
 // luôn trả sẵn .m3u8 hợp lệ).
 //
 // FIX (09/09/2026 — theo yêu cầu): thêm khandaitvService (nguồn Khán Đài
-// TV, domain phaohoa.live) — cùng schema/cách gọi API với phaohoaService
-// (cùng backend, khác domain) nên mọi chỗ gọi phaohoaService bên dưới đều
-// được nhân đôi cho khandaitvService, KHÔNG cần bộ lọc riêng gì thêm.
+// TV, domain khandai3.link — ĐỘC LẬP với domain Pháo Hoa, không ăn theo
+// phaohoa.live) — cùng schema/cách gọi API với phaohoaService (cùng
+// backend, khác domain) nên mọi chỗ gọi phaohoaService bên dưới đều được
+// nhân đôi cho khandaitvService, KHÔNG cần bộ lọc riêng gì thêm.
 //
 // FIX RUNTIME (26/08/2026 — "cả 2 nguồn lỗi không quét được trận nào"):
 // đợt dọn code ở trên lỡ tay XOÁ LUÔN isMinorLeagueMatch() khỏi
