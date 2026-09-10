@@ -47,8 +47,22 @@ class KhanDaiTvService {
   }
 
   normalizeMatch(m) {
-    const isLive = m.status === 'live';
-    const isFinished = m.status === 'finished';
+    // FIX (10/09/2026 — theo dữ liệu JSON thật người dùng gửi từ
+    // /api/matches/?ordering=smart&page_size=30): khandai3.link dùng status
+    // CHI TIẾT theo từng giai đoạn trận đấu (vd "half_time" khi đang nghỉ
+    // giữa hiệp) — KHÁC với Pháo Hoa vốn chỉ trả đúng 1 chữ "live" chung
+    // cho mọi trận đang đá. Nếu chỉ check `status === 'live'` như code cũ
+    // (copy nguyên từ phaohoa.service.js) thì mọi trận đang đá thực tế đều
+    // bị nhận nhầm thành "chưa đá" → không hiện trên web. Sửa lại: coi mọi
+    // status KHÔNG nằm trong nhóm "chưa đá" và KHÔNG nằm trong nhóm "đã
+    // kết thúc" là đang live (chấp nhận mọi giá trị con chưa biết trước
+    // như first_half/second_half/extra_time/penalty...).
+    const rawStatus = String(m.status || '').toLowerCase();
+    const NOT_STARTED_STATUSES = new Set(['scheduled', 'not_started', 'upcoming', 'pending', 'ns']);
+    const FINISHED_STATUSES = new Set(['finished', 'ended', 'ft', 'full_time', 'cancelled', 'canceled', 'postponed', 'abandoned', 'awarded']);
+    const isNotStarted = NOT_STARTED_STATUSES.has(rawStatus);
+    const isFinished = FINISHED_STATUSES.has(rawStatus);
+    const isLive = !!rawStatus && !isNotStarted && !isFinished;
 
     const sportInfoMap = {
       41: { name: 'BÓNG ĐÁ', icon: 'fa-futbol', slug: 'football' },
@@ -234,15 +248,18 @@ class KhanDaiTvService {
     };
     const sportId = sportMap[sportHint] || null;
 
+    // FIX (10/09/2026): bỏ `status=live` khỏi các query dò trận (server
+    // không có giá trị status đúng chữ "live" — xem ghi chú trong
+    // normalizeMatch) — thay bằng việc dò rộng theo sport/toàn bộ rồi so
+    // khớp id/slug ở dưới, không phụ thuộc status nữa.
     const queries = [
-      'ordering=smart&status=live&page_size=100',
+      'ordering=smart&page_size=100',
       'ordering=smart&status=scheduled&page_size=50',
       'ordering=smart&is_hot=true&page_size=50',
       'ordering=smart&has_commentators=true&page_size=50'
     ];
     if (sportId) {
-      queries.unshift(`ordering=smart&status=live&sport=${sportId}&page_size=100`);
-      queries.push(`ordering=smart&sport=${sportId}&page_size=100`);
+      queries.unshift(`ordering=smart&sport=${sportId}&page_size=100`);
     }
 
     const settled = await Promise.allSettled(
@@ -303,8 +320,11 @@ class KhanDaiTvService {
 
       if (targetSportId) url += `&sport=${targetSportId}`;
 
-      if (tab === 'live') url += '&status=live';
-      else if (tab === 'upcoming') url += '&status=scheduled';
+      // FIX (10/09/2026): KHÔNG gửi `&status=live` cho tab 'live' — server
+      // khandai3.link dùng status chi tiết (half_time, first_half...) chứ
+      // không có giá trị đúng chữ "live", nên filter này luôn trả rỗng.
+      // Lọc live ngay dưới, ở phía code, dựa trên status đã chuẩn hoá.
+      if (tab === 'upcoming') url += '&status=scheduled';
       else if (tab === 'hot') url += '&is_hot=true';
       else if (tab === 'commentator' || tab === 'with-stream') url += '&has_commentators=true';
 
@@ -318,7 +338,8 @@ class KhanDaiTvService {
       const tomorrowStr = tomorrowDate.toLocaleDateString('en-CA', { timeZone: 'Asia/Ho_Chi_Minh' });
 
       let filtered = matches;
-      if (tab === 'today') filtered = matches.filter((m) => m.dateStr === todayStr);
+      if (tab === 'live') filtered = matches.filter((m) => m.status.isLive);
+      else if (tab === 'today') filtered = matches.filter((m) => m.dateStr === todayStr);
       else if (tab === 'tomorrow') filtered = matches.filter((m) => m.dateStr === tomorrowStr);
 
       return { matches: filtered, hasMore, totalCount };
@@ -350,7 +371,11 @@ class KhanDaiTvService {
         all.push(m);
       }
 
-      if (!hasMore || !(matches || []).length) {
+      // FIX (10/09/2026): chỉ dừng khi hết trang thật sự (hasMore=false từ
+      // data.next của server) — KHÔNG dừng sớm nếu 1 trang lọc ra 0 trận
+      // live/hôm nay/ngày mai, vì matches ở đây đã bị lọc theo tab, trang
+      // sau có thể vẫn còn dữ liệu phù hợp.
+      if (!hasMore) {
         return { matches: all, hasMore: false, totalCount: totalCount || all.length };
       }
       page += 1;
@@ -366,20 +391,23 @@ class KhanDaiTvService {
       const tomorrowDate = new Date(Date.now() + 24 * 60 * 60 * 1000);
       const tomorrowStr = tomorrowDate.toLocaleDateString('en-CA', { timeZone: 'Asia/Ho_Chi_Minh' });
 
-      const [liveRes, scheduledRes, hotRes, allRes] = await Promise.allSettled([
-        this.fetchMatchesQuery(`sport=${sportId}&status=live`),
+      // FIX (10/09/2026): không còn query riêng `status=live` (server không
+      // có giá trị này) — lấy 1 lần tất cả trận theo sport rồi tự đếm live/
+      // upcoming từ status đã chuẩn hoá trong normalizeMatch. `status=
+      // scheduled`/`is_hot=true` vẫn giữ vì đã xác nhận đúng giá trị thật.
+      const [scheduledRes, hotRes, allRes] = await Promise.allSettled([
         this.fetchMatchesQuery(`sport=${sportId}&status=scheduled`),
         this.fetchMatchesQuery(`sport=${sportId}&is_hot=true`),
         this.fetchMatchesQuery(`sport=${sportId}&page_size=100`)
       ]);
 
-      const liveCount = liveRes.status === 'fulfilled' ? (liveRes.value.count || 0) : 0;
       const upcomingCount = scheduledRes.status === 'fulfilled' ? (scheduledRes.value.count || 0) : 0;
       const hotCount = hotRes.status === 'fulfilled' ? (hotRes.value.count || 0) : 0;
 
       const allMatches = allRes.status === 'fulfilled' ? (allRes.value.results || []) : [];
       const normalized = allMatches.map((m) => this.normalizeMatch(m));
 
+      const liveCount = normalized.filter((m) => m.status.isLive).length;
       const todayCount = normalized.filter((m) => m.dateStr === todayStr).length || allMatches.length;
       const tomorrowCount = normalized.filter((m) => m.dateStr === tomorrowStr).length;
       const commentatorCount = normalized.filter((m) => m.commentators.length > 0).length;
