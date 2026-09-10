@@ -1,36 +1,92 @@
-import { createHttpClient } from '@/src/utils/httpClient';
 import { buildMatchSlug, slugifyVi } from '@/src/utils/slug';
+import { fetchPageGlobal } from '@/src/utils/browserFetch';
 
 // KhanDaiTV (tên gọi khác: "Khán Đài TV") — đã xác nhận qua bản HTML lấy từ
 // site (window.__NUXT__/__NUXT_DATA__, 08/09/2026): cùng schema trận đấu
 // (id, sport, home_team_name, tournament_name, commentators[].stream_url...)
 // với nguồn Pháo Hoa đã có (xem phaohoa.service.js) — tức CÙNG 1 backend,
-// khác domain/skin. Ban đầu đoán domain theo dải "phaohoa.live" thấy trong
-// bản HTML đó, NHƯNG domain "phaohoa.live" lại đang nằm chung nhóm với
-// domain Pháo Hoa (phaohoa1.live) đang bị lỗi tạm thời → kéo theo Khán Đài
-// cũng không lấy được trận dù bản thân nguồn Khán Đài vẫn hoạt động tốt.
-// FIX (09/09/2026 — theo yêu cầu "đừng bắt chước domain Pháo Hoa"): đổi
-// sang domain THẬT, ĐỘC LẬP do người dùng cung cấp: https://khandai3.link —
-// đã tự kiểm tra domain này đang chạy tốt, cùng danh sách BLV/dữ liệu với
-// bản HTML gốc (Tày, Kevin, Chim Nhỏ, KaKa, Lưu Bị, Tiểu Mây, Pháo Thủ...).
-// Theo yêu cầu, vẫn thêm thành 1 nguồn RIÊNG trên giao diện (chấp nhận có
-// thể trùng trận với Pháo Hoa vì chung backend) thay vì gộp làm domain dự
-// phòng — nên toàn bộ logic bên dưới cố tình COPY lại từ PhaoHoaService,
-// chỉ đổi domain mặc định + tiền tố id/nhãn nguồn.
+// khác domain/skin. Theo yêu cầu, vẫn thêm thành 1 nguồn RIÊNG trên giao
+// diện (chấp nhận có thể trùng trận với Pháo Hoa vì chung backend).
+//
+// FIX (09/09/2026 — theo yêu cầu "đừng bắt chước domain Pháo Hoa"): domain
+// THẬT, ĐỘC LẬP do người dùng cung cấp: https://khandai3.link.
+//
+// FIX (10/09/2026 — QUAN TRỌNG, đổi hẳn cách lấy dữ liệu): domain này được
+// Cloudflare bảo vệ bằng "Just a moment..." (JS challenge) cho TOÀN BỘ
+// domain (đã tự kiểm tra: cả trang chủ lẫn /api/matches/ đều bị chặn 403
+// như nhau khi gọi bằng axios/HTTP thường từ server) — KHÔNG phải chặn
+// riêng API. Gọi thẳng /api/matches/ bằng axios (kiểu phaohoa.service.js)
+// KHÔNG dùng được ở nguồn này. Chuyển sang dùng trình duyệt Chromium
+// headless thật (đã có sẵn cho nguồn Giờ Vàng, xem src/utils/browserFetch)
+// để mở trang chủ — trình duyệt thật có thể vượt qua challenge vì nó chạy
+// đúng JS mà Cloudflare yêu cầu (không đảm bảo 100%, tuỳ mức độ chặn, nhưng
+// là cách duy nhất còn khả thi). Sau khi trang tải xong, đọc thẳng
+// window.__NUXT__ (dữ liệu đã được chính app tự giải mã để chạy, khỏi cần
+// tự viết lại bộ giải mã định dạng "devalue" mà Nuxt dùng để nhúng dữ liệu
+// vào HTML).
+//
+// Vì mở trình duyệt tốn vài giây (không thể làm mỗi query như axios), toàn
+// bộ trận (mọi môn, mọi trạng thái) được lấy 1 LẦN duy nhất mỗi khi cache
+// hết hạn (RAW_CACHE_TTL_MS), sau đó MỌI hàm bên dưới (getMatchesByTab,
+// getCounts, findRawMatch...) đều lọc lại từ danh sách đã lấy sẵn trong bộ
+// nhớ, thay vì tự gọi mạng riêng như các nguồn khác.
 const KHANDAITV_BASE_URL = process.env.KHANDAITV_DOMAIN || process.env.KHANDAITV_BASE_URL || 'https://khandai3.link';
 
-class KhanDaiTvService {
-  constructor() {
-    this.client = createHttpClient({
-      baseURL: KHANDAITV_BASE_URL,
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept': 'application/json, text/plain, */*',
-        'Referer': `${KHANDAITV_BASE_URL}/`
-      }
-    });
-  }
+const SPORT_ID_MAP = {
+  football: 41,
+  'bong-chuyen': 43,
+  volleyball: 43,
+  billiards: 44,
+  'cau-long': 45,
+  esports: 46,
+  'bong-ro': 47,
+  basketball: 47,
+  tennis: 48,
+  'bong-ban': 49,
+  boxing: 50
+};
 
+// Trận đấu trong payload luôn có 2 khoá này — dùng để nhận diện 1 object
+// bất kỳ trong cây dữ liệu window.__NUXT__ có phải là 1 trận đấu hay không,
+// KHÔNG cần biết trước tên khoá cha (vd "catalog"/"matches"/"live"...) mà
+// app này dùng để chứa danh sách trận — mỗi site Nuxt có thể đặt tên khác
+// nhau, nhưng bản thân object trận đấu thì luôn có các trường này (đã xác
+// nhận qua JSON thật từ /api/matches/ do người dùng gửi).
+function looksLikeRawMatch(obj) {
+  return !!obj
+    && typeof obj === 'object'
+    && !Array.isArray(obj)
+    && 'id' in obj
+    && 'home_team_name' in obj
+    && 'away_team_name' in obj;
+}
+
+function collectRawMatches(node, seen, out, depth = 0) {
+  if (!node || depth > 8) return;
+  if (Array.isArray(node)) {
+    for (const item of node) {
+      if (looksLikeRawMatch(item)) {
+        if (!seen.has(item.id)) {
+          seen.add(item.id);
+          out.push(item);
+        }
+      } else if (item && typeof item === 'object') {
+        collectRawMatches(item, seen, out, depth + 1);
+      }
+    }
+    return;
+  }
+  if (typeof node === 'object') {
+    for (const key of Object.keys(node)) {
+      collectRawMatches(node[key], seen, out, depth + 1);
+    }
+  }
+}
+
+let rawMatchesCache = { data: null, fetchedAt: 0, pending: null };
+const RAW_CACHE_TTL_MS = 20 * 1000; // đủ nhanh cho tỉ số live, đủ lâu để đỡ mở trình duyệt liên tục
+
+class KhanDaiTvService {
   getFullUrl(url) {
     if (!url) return '';
     if (url.startsWith('http')) return url;
@@ -46,17 +102,53 @@ class KhanDaiTvService {
     return 'HLS';
   }
 
+  /**
+   * Lấy TOÀN BỘ trận (mọi môn, mọi trạng thái) đúng 1 lần bằng trình duyệt
+   * headless thật, cache lại trong bộ nhớ ~20s. Mọi hàm khác trong class
+   * này đều gọi qua đây rồi tự lọc, KHÔNG gọi mạng riêng lẻ nữa.
+   */
+  async getAllRawMatches() {
+    const now = Date.now();
+    if (rawMatchesCache.data && now - rawMatchesCache.fetchedAt < RAW_CACHE_TTL_MS) {
+      return rawMatchesCache.data;
+    }
+    // Nhiều request cùng lúc khi cache vừa hết hạn → chỉ mở trình duyệt 1
+    // lần, các request còn lại đợi chung kết quả đó.
+    if (rawMatchesCache.pending) {
+      return rawMatchesCache.pending;
+    }
+
+    const task = (async () => {
+      try {
+        const { data } = await fetchPageGlobal(`${KHANDAITV_BASE_URL}/`, {
+          evalExpr: 'window.__NUXT__',
+          timeoutMs: 28000,
+          userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+        });
+
+        const out = [];
+        collectRawMatches(data, new Set(), out);
+        rawMatchesCache = { data: out, fetchedAt: Date.now(), pending: null };
+        return out;
+      } catch (error) {
+        console.error('Error fetching KhanDaiTV via browser:', error.message);
+        rawMatchesCache = { data: rawMatchesCache.data || [], fetchedAt: rawMatchesCache.data ? Date.now() : 0, pending: null };
+        return rawMatchesCache.data;
+      }
+    })();
+
+    rawMatchesCache.pending = task;
+    return task;
+  }
+
   normalizeMatch(m) {
     // FIX (10/09/2026 — theo dữ liệu JSON thật người dùng gửi từ
     // /api/matches/?ordering=smart&page_size=30): khandai3.link dùng status
     // CHI TIẾT theo từng giai đoạn trận đấu (vd "half_time" khi đang nghỉ
     // giữa hiệp) — KHÁC với Pháo Hoa vốn chỉ trả đúng 1 chữ "live" chung
-    // cho mọi trận đang đá. Nếu chỉ check `status === 'live'` như code cũ
-    // (copy nguyên từ phaohoa.service.js) thì mọi trận đang đá thực tế đều
-    // bị nhận nhầm thành "chưa đá" → không hiện trên web. Sửa lại: coi mọi
-    // status KHÔNG nằm trong nhóm "chưa đá" và KHÔNG nằm trong nhóm "đã
-    // kết thúc" là đang live (chấp nhận mọi giá trị con chưa biết trước
-    // như first_half/second_half/extra_time/penalty...).
+    // cho mọi trận đang đá. Coi mọi status KHÔNG nằm trong nhóm "chưa đá"
+    // và KHÔNG nằm trong nhóm "đã kết thúc" là đang live (chấp nhận mọi giá
+    // trị con chưa biết trước như first_half/second_half/extra_time...).
     const rawStatus = String(m.status || '').toLowerCase();
     const NOT_STARTED_STATUSES = new Set(['scheduled', 'not_started', 'upcoming', 'pending', 'ns']);
     const FINISHED_STATUSES = new Set(['finished', 'ended', 'ft', 'full_time', 'cancelled', 'canceled', 'postponed', 'abandoned', 'awarded']);
@@ -161,8 +253,7 @@ class KhanDaiTvService {
       streamUrl: primaryStream,
       stream: {
         // Domain thật (khandai3.link) dùng route "/truc-tiep/{slug}" KHÔNG có
-        // dấu "/" cuối — đã tự kiểm tra trực tiếp trên site, khác với format
-        // "/truc-tiep/{slug}/" (có "/" cuối) của phaohoa.service.js.
+        // dấu "/" cuối — đã tự kiểm tra trực tiếp trên site.
         liveUrl: `${KHANDAITV_BASE_URL}/truc-tiep/${slug}`,
         streamerName: commentators[0]?.name || null,
         streamerAvatar: commentators[0]?.avatar || null
@@ -219,64 +310,15 @@ class KhanDaiTvService {
     return list;
   }
 
-  async fetchMatchesQuery(query = '') {
-    const url = `/api/matches/?${query}${query.includes('_t=') ? '' : `${query ? '&' : ''}_t=${Date.now()}`}`;
-    const response = await this.client.get(url);
-    return response.data || {};
-  }
-
   /**
-   * Find raw upstream match by numeric id or slug (list APIs don't filter by id).
+   * Dò trận theo id/slug trong danh sách đã lấy sẵn (không gọi mạng riêng).
    */
-  async findRawMatch(slugOrId, sportHint = 'football') {
+  async findRawMatch(slugOrId) {
     if (!slugOrId) return null;
     const key = decodeURIComponent(String(slugOrId)).replace(/\/+$/, '').trim();
     const cleanId = key.replace(/^kd_/, '');
 
-    const sportMap = {
-      football: 41,
-      'bong-chuyen': 43,
-      volleyball: 43,
-      billiards: 44,
-      'cau-long': 45,
-      esports: 46,
-      'bong-ro': 47,
-      basketball: 47,
-      tennis: 48,
-      'bong-ban': 49,
-      boxing: 50
-    };
-    const sportId = sportMap[sportHint] || null;
-
-    // FIX (10/09/2026): bỏ `status=live` khỏi các query dò trận (server
-    // không có giá trị status đúng chữ "live" — xem ghi chú trong
-    // normalizeMatch) — thay bằng việc dò rộng theo sport/toàn bộ rồi so
-    // khớp id/slug ở dưới, không phụ thuộc status nữa.
-    const queries = [
-      'ordering=smart&page_size=100',
-      'ordering=smart&status=scheduled&page_size=50',
-      'ordering=smart&is_hot=true&page_size=50',
-      'ordering=smart&has_commentators=true&page_size=50'
-    ];
-    if (sportId) {
-      queries.unshift(`ordering=smart&sport=${sportId}&page_size=100`);
-    }
-
-    const settled = await Promise.allSettled(
-      queries.map((q) => this.fetchMatchesQuery(q))
-    );
-
-    const seen = new Set();
-    const all = [];
-    for (const res of settled) {
-      if (res.status !== 'fulfilled') continue;
-      for (const m of res.value.results || []) {
-        if (!m?.id || seen.has(m.id)) continue;
-        seen.add(m.id);
-        all.push(m);
-      }
-    }
-
+    const all = await this.getAllRawMatches();
     return all.find((m) =>
       String(m.id) === cleanId
       || m.slug === key
@@ -286,63 +328,53 @@ class KhanDaiTvService {
 
   async getAllMatches(sport = 'football') {
     try {
-      const sportId = sport === 'basketball' || sport === 'bong-ro' ? 47 : 41;
-      const data = await this.fetchMatchesQuery(`sport=${sportId}&page_size=100`);
-      return (data.results || []).map((m) => this.normalizeMatch(m));
+      const sportId = sport === 'basketball' || sport === 'bong-ro' ? 47 : (SPORT_ID_MAP[sport] || 41);
+      const all = await this.getAllRawMatches();
+      return all
+        .filter((m) => !sportId || m.sport === sportId)
+        .map((m) => this.normalizeMatch(m));
     } catch (error) {
       console.error('Error fetching KhanDaiTV matches:', error.message);
       return [];
     }
   }
 
+  /**
+   * Không còn phân trang thật từ server (đã lấy hết 1 lần) — page/pageSize
+   * chỉ dùng để cắt mảng trong bộ nhớ, giữ nguyên interface cho chỗ gọi.
+   */
   async getMatchesByTab(tab, sport = 'football', page = 1, pageSize = 18) {
     try {
-      const sportMap = {
-        all: null,
-        football: 41,
-        'bong-chuyen': 43,
-        billiards: 44,
-        'cau-long': 45,
-        'bong-ro': 47,
-        esports: 46,
-        tennis: 48,
-        'bong-ban': 49,
-        boxing: 50
-      };
+      const targetSportId = tab === 'all' || sport === 'all'
+        ? null
+        : (SPORT_ID_MAP[tab] !== undefined
+          ? SPORT_ID_MAP[tab]
+          : (SPORT_ID_MAP[sport] !== undefined
+            ? SPORT_ID_MAP[sport]
+            : (sport === 'basketball' || sport === 'bong-ro' ? 47 : 41)));
 
-      let url = `ordering=smart&page=${page}&page_size=${pageSize}`;
-
-      const targetSportId = sportMap[tab] !== undefined
-        ? sportMap[tab]
-        : (sportMap[sport] !== undefined
-          ? sportMap[sport]
-          : (sport === 'basketball' || sport === 'bong-ro' ? 47 : 41));
-
-      if (targetSportId) url += `&sport=${targetSportId}`;
-
-      // FIX (10/09/2026): KHÔNG gửi `&status=live` cho tab 'live' — server
-      // khandai3.link dùng status chi tiết (half_time, first_half...) chứ
-      // không có giá trị đúng chữ "live", nên filter này luôn trả rỗng.
-      // Lọc live ngay dưới, ở phía code, dựa trên status đã chuẩn hoá.
-      if (tab === 'upcoming') url += '&status=scheduled';
-      else if (tab === 'hot') url += '&is_hot=true';
-      else if (tab === 'commentator' || tab === 'with-stream') url += '&has_commentators=true';
-
-      const data = await this.fetchMatchesQuery(url);
-      const matches = (data.results || []).map((m) => this.normalizeMatch(m));
-      const hasMore = !!data.next;
-      const totalCount = data.count || matches.length;
+      const all = await this.getAllRawMatches();
+      let normalized = all
+        .filter((m) => !targetSportId || m.sport === targetSportId)
+        .map((m) => this.normalizeMatch(m));
 
       const todayStr = new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Ho_Chi_Minh' });
       const tomorrowDate = new Date(Date.now() + 24 * 60 * 60 * 1000);
       const tomorrowStr = tomorrowDate.toLocaleDateString('en-CA', { timeZone: 'Asia/Ho_Chi_Minh' });
 
-      let filtered = matches;
-      if (tab === 'live') filtered = matches.filter((m) => m.status.isLive);
-      else if (tab === 'today') filtered = matches.filter((m) => m.dateStr === todayStr);
-      else if (tab === 'tomorrow') filtered = matches.filter((m) => m.dateStr === tomorrowStr);
+      if (tab === 'live') normalized = normalized.filter((m) => m.status.isLive);
+      else if (tab === 'upcoming') normalized = normalized.filter((m) => m.status.isUpcoming);
+      else if (tab === 'hot') normalized = normalized.filter((m) => m.isHot);
+      else if (tab === 'commentator' || tab === 'with-stream') normalized = normalized.filter((m) => m.commentators.length > 0);
+      else if (tab === 'today') normalized = normalized.filter((m) => m.dateStr === todayStr);
+      else if (tab === 'tomorrow') normalized = normalized.filter((m) => m.dateStr === tomorrowStr);
 
-      return { matches: filtered, hasMore, totalCount };
+      const totalCount = normalized.length;
+      const start = (page - 1) * pageSize;
+      const pageItems = normalized.slice(start, start + pageSize);
+      const hasMore = start + pageSize < totalCount;
+
+      return { matches: pageItems, hasMore, totalCount };
     } catch (error) {
       console.error(`Error fetching KhanDaiTV tab ${tab} page ${page}:`, error.message);
       return { matches: [], hasMore: false, totalCount: 0 };
@@ -371,10 +403,6 @@ class KhanDaiTvService {
         all.push(m);
       }
 
-      // FIX (10/09/2026): chỉ dừng khi hết trang thật sự (hasMore=false từ
-      // data.next của server) — KHÔNG dừng sớm nếu 1 trang lọc ra 0 trận
-      // live/hôm nay/ngày mai, vì matches ở đây đã bị lọc theo tab, trang
-      // sau có thể vẫn còn dữ liệu phù hợp.
       if (!hasMore) {
         return { matches: all, hasMore: false, totalCount: totalCount || all.length };
       }
@@ -386,29 +414,20 @@ class KhanDaiTvService {
 
   async getCounts(sport = 'football') {
     try {
-      const sportId = sport === 'basketball' || sport === 'bong-ro' ? 47 : 41;
+      const sportId = sport === 'basketball' || sport === 'bong-ro' ? 47 : (SPORT_ID_MAP[sport] || 41);
       const todayStr = new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Ho_Chi_Minh' });
       const tomorrowDate = new Date(Date.now() + 24 * 60 * 60 * 1000);
       const tomorrowStr = tomorrowDate.toLocaleDateString('en-CA', { timeZone: 'Asia/Ho_Chi_Minh' });
 
-      // FIX (10/09/2026): không còn query riêng `status=live` (server không
-      // có giá trị này) — lấy 1 lần tất cả trận theo sport rồi tự đếm live/
-      // upcoming từ status đã chuẩn hoá trong normalizeMatch. `status=
-      // scheduled`/`is_hot=true` vẫn giữ vì đã xác nhận đúng giá trị thật.
-      const [scheduledRes, hotRes, allRes] = await Promise.allSettled([
-        this.fetchMatchesQuery(`sport=${sportId}&status=scheduled`),
-        this.fetchMatchesQuery(`sport=${sportId}&is_hot=true`),
-        this.fetchMatchesQuery(`sport=${sportId}&page_size=100`)
-      ]);
-
-      const upcomingCount = scheduledRes.status === 'fulfilled' ? (scheduledRes.value.count || 0) : 0;
-      const hotCount = hotRes.status === 'fulfilled' ? (hotRes.value.count || 0) : 0;
-
-      const allMatches = allRes.status === 'fulfilled' ? (allRes.value.results || []) : [];
-      const normalized = allMatches.map((m) => this.normalizeMatch(m));
+      const all = await this.getAllRawMatches();
+      const normalized = all
+        .filter((m) => !sportId || m.sport === sportId)
+        .map((m) => this.normalizeMatch(m));
 
       const liveCount = normalized.filter((m) => m.status.isLive).length;
-      const todayCount = normalized.filter((m) => m.dateStr === todayStr).length || allMatches.length;
+      const upcomingCount = normalized.filter((m) => m.status.isUpcoming).length;
+      const hotCount = normalized.filter((m) => m.isHot).length;
+      const todayCount = normalized.filter((m) => m.dateStr === todayStr).length || normalized.length;
       const tomorrowCount = normalized.filter((m) => m.dateStr === tomorrowStr).length;
       const commentatorCount = normalized.filter((m) => m.commentators.length > 0).length;
 
@@ -427,9 +446,9 @@ class KhanDaiTvService {
     }
   }
 
-  async getStreamLinks(matchId, sport = 'football') {
+  async getStreamLinks(matchId) {
     try {
-      const raw = await this.findRawMatch(matchId, sport);
+      const raw = await this.findRawMatch(matchId);
       if (!raw) return [];
       return this.mapStreams(this.normalizeMatch(raw));
     } catch (error) {
@@ -438,8 +457,8 @@ class KhanDaiTvService {
     }
   }
 
-  async getMatchDetail(slugOrId, sport = 'football') {
-    const raw = await this.findRawMatch(slugOrId, sport);
+  async getMatchDetail(slugOrId) {
+    const raw = await this.findRawMatch(slugOrId);
     if (!raw) return null;
     const match = this.normalizeMatch(raw);
     if (!match.slug) match.slug = buildMatchSlug(match) || match.matchId;
@@ -447,8 +466,8 @@ class KhanDaiTvService {
     return { match, streams, matchId: match.matchId };
   }
 
-  async getMatchLiveSnapshot(slugOrId, sport = 'football') {
-    const raw = await this.findRawMatch(slugOrId, sport);
+  async getMatchLiveSnapshot(slugOrId) {
+    const raw = await this.findRawMatch(slugOrId);
     return raw ? this.normalizeMatch(raw) : null;
   }
 }

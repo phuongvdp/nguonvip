@@ -9,6 +9,8 @@ const nextConfig = {
   outputFileTracingIncludes: {
     '/api/giovang/live': ['./node_modules/@sparticuz/chromium/bin/**'],
     '/api/giovang/stream': ['./node_modules/@sparticuz/chromium/bin/**'],
+    '/api/khandaitv/live': ['./node_modules/@sparticuz/chromium/bin/**'],
+    '/api/khandaitv/stream': ['./node_modules/@sparticuz/chromium/bin/**'],
     '/api/matches': ['./node_modules/@sparticuz/chromium/bin/**'],
     '/api/playlist': ['./node_modules/@sparticuz/chromium/bin/**'],
     '/api/playlist/status': ['./node_modules/@sparticuz/chromium/bin/**'],

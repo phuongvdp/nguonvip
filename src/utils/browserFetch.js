@@ -117,4 +117,55 @@ async function fetchApiViaBrowser(url, matchUrl, opts = {}) {
   }
 }
 
-module.exports = { fetchRenderedHtml, fetchApiViaBrowser, getBrowser };
+/**
+ * Mở trang bằng trình duyệt thật rồi đọc 1 biến global trên window (sau khi
+ * đã hydrate/chạy xong JS của trang) — dùng cho các site Nuxt/Next nhúng
+ * sẵn dữ liệu (window.__NUXT__, window.__NEXT_DATA__...) nhưng ở dạng đã
+ * mã hoá riêng (devalue...) trong HTML nguồn, rất khó tự parse tay. Nhờ
+ * chính trình duyệt (đã tự giải mã xong để chạy app) trả lại giá trị JS
+ * THẬT SỰ đã dựng xong, khỏi phải viết lại bộ giải mã đó.
+ *
+ * @param {string} url
+ * @param {{ evalExpr?: string, timeoutMs?: number, userAgent?: string }} [opts]
+ */
+async function fetchPageGlobal(url, opts = {}) {
+  const { evalExpr = 'window.__NUXT__', timeoutMs = 25000, userAgent } = opts;
+  const browser = await getBrowser();
+  const page = await browser.newPage();
+  try {
+    if (userAgent) await page.setUserAgent(userAgent);
+    await page.setExtraHTTPHeaders({ 'Accept-Language': 'vi-VN,vi;q=0.9,en-US;q=0.8' });
+    const response = await page.goto(url, { waitUntil: 'networkidle2', timeout: timeoutMs });
+
+    // Cloudflare "Just a moment..." tự chuyển trang sau khi giải xong JS
+    // challenge — đợi thêm 1 chút, không cần biết chính xác lúc nào xong.
+    await page.waitForFunction(
+      (expr) => {
+        try {
+          // eslint-disable-next-line no-eval
+          return !!eval(expr);
+        } catch {
+          return false;
+        }
+      },
+      { timeout: timeoutMs },
+      evalExpr
+    ).catch(() => {});
+
+    const data = await page.evaluate((expr) => {
+      try {
+        // eslint-disable-next-line no-eval
+        const val = eval(expr);
+        return val === undefined ? null : JSON.parse(JSON.stringify(val));
+      } catch {
+        return null;
+      }
+    }, evalExpr);
+
+    return { data, status: response?.status() || 0 };
+  } finally {
+    await page.close().catch(() => {});
+  }
+}
+
+module.exports = { fetchRenderedHtml, fetchApiViaBrowser, fetchPageGlobal, getBrowser };
