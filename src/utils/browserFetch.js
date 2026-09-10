@@ -9,6 +9,8 @@
 // dung lượng). Máy dev local không có sẵn chromium kiểu này thì tự tải
 // Chrome hệ thống qua biến CHROME_EXECUTABLE_PATH (xem README/env.example).
 
+const path = require('path');
+
 let chromiumPromise;
 
 async function loadChromium() {
@@ -40,6 +42,20 @@ async function getBrowser() {
 
   const { chromium, puppeteer } = await loadChromium();
   const executablePath = process.env.CHROME_EXECUTABLE_PATH || (await chromium.executablePath());
+
+  // FIX (10/09/2026 — lỗi "error while loading shared libraries: libnss3.so:
+  // cannot open shared object file" khi chạy trên Vercel): @sparticuz/
+  // chromium có giải nén đúng file .so cần thiết ra /tmp cùng thư mục với
+  // file thực thi chromium, NHƯNG hệ điều hành không tự biết tìm thư viện
+  // dùng chung (.so) ở thư mục đó nếu không khai báo LD_LIBRARY_PATH — dẫn
+  // đến lỗi trên dù file vẫn nằm đúng chỗ. Khai báo tay để chắc chắn, giữ
+  // lại đường dẫn cũ (nếu có) phòng khi hệ thống đã cần path khác.
+  if (!process.env.CHROME_EXECUTABLE_PATH) {
+    const execDir = path.dirname(executablePath);
+    process.env.LD_LIBRARY_PATH = process.env.LD_LIBRARY_PATH
+      ? `${execDir}:${process.env.LD_LIBRARY_PATH}`
+      : execDir;
+  }
 
   browserOpenedAt = Date.now();
   browserPromise = puppeteer.launch({
