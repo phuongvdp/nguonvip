@@ -131,7 +131,7 @@ class KhanDaiTvService {
         rawMatchesCache = { data: out, fetchedAt: Date.now(), pending: null };
         return out;
       } catch (error) {
-        console.error('Error fetching KhanDaiTV via browser:', error.message);
+        console.error('Error fetching KhanDaiTV via browser [build-marker-v2]:', error.message);
         rawMatchesCache = { data: rawMatchesCache.data || [], fetchedAt: rawMatchesCache.data ? Date.now() : 0, pending: null };
         return rawMatchesCache.data;
       }

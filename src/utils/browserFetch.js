@@ -156,7 +156,19 @@ async function getBrowser() {
 
   browserOpenedAt = Date.now();
   browserPromise = puppeteer.launch({
-    args: [...chromium.args, '--disable-blink-features=AutomationControlled'],
+    args: [
+      ...chromium.args,
+      '--disable-blink-features=AutomationControlled',
+      // FIX (10/09/2026 — lỗi "Navigating frame was detached" / "Attempted
+      // to use detached Frame"): dấu hiệu Chromium bị crash giữa chừng khi
+      // đang tải trang — nguyên nhân phổ biến nhất trên môi trường
+      // container/serverless là /dev/shm (bộ nhớ dùng chung) bị giới hạn
+      // quá nhỏ, Chromium cần nhiều hơn mức đó nên crash. Cờ này bắt
+      // Chromium dùng file tạm trên đĩa thay vì /dev/shm, tránh crash.
+      '--disable-dev-shm-usage',
+      '--no-zygote',
+      '--single-process'
+    ],
     defaultViewport: { width: 1366, height: 768 },
     executablePath,
     headless: chromium.headless ?? true,
@@ -178,7 +190,7 @@ async function fetchRenderedHtml(url, opts = {}) {
   try {
     if (userAgent) await page.setUserAgent(userAgent);
     await page.setExtraHTTPHeaders({ 'Accept-Language': 'vi-VN,vi;q=0.9,en-US;q=0.8' });
-    const response = await page.goto(url, { waitUntil: 'networkidle2', timeout: timeoutMs });
+    const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: timeoutMs });
     if (waitForSelector) {
       await page.waitForSelector(waitForSelector, { timeout: timeoutMs }).catch(() => {});
     }
@@ -219,7 +231,7 @@ async function fetchApiViaBrowser(url, matchUrl, opts = {}) {
       }
     });
 
-    await page.goto(url, { waitUntil: 'networkidle2', timeout: timeoutMs });
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: timeoutMs });
     if (triggerClick) {
       await page.click(triggerClick).catch(() => {});
       await page.waitForNetworkIdle({ idleTime: 800, timeout: timeoutMs }).catch(() => {});
@@ -287,7 +299,7 @@ async function fetchPageGlobal(url, opts = {}) {
       // "chờ Cloudflare tự giải + chuyển hướng" quan trọng hơn nằm ở bước
       // pollPageEvaluate ngay dưới, cần nhường phần lớn thời gian cho nó.
       const gotoTimeoutMs = Math.min(timeoutMs, 15000);
-      const response = await page.goto(url, { waitUntil: 'networkidle2', timeout: gotoTimeoutMs });
+      const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: gotoTimeoutMs });
       status = response?.status() || 0;
     } catch (error) {
       // "Execution context was destroyed"/timeout ngay trong lúc goto cũng
