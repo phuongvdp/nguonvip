@@ -159,15 +159,11 @@ async function getBrowser() {
     args: [
       ...chromium.args,
       '--disable-blink-features=AutomationControlled',
-      // FIX (10/09/2026 — lỗi "Navigating frame was detached" / "Attempted
-      // to use detached Frame"): dấu hiệu Chromium bị crash giữa chừng khi
-      // đang tải trang — nguyên nhân phổ biến nhất trên môi trường
-      // container/serverless là /dev/shm (bộ nhớ dùng chung) bị giới hạn
-      // quá nhỏ, Chromium cần nhiều hơn mức đó nên crash. Cờ này bắt
-      // Chromium dùng file tạm trên đĩa thay vì /dev/shm, tránh crash.
-      '--disable-dev-shm-usage',
-      '--no-zygote',
-      '--single-process'
+      // FIX (10/09/2026 — lỗi "Navigating frame was detached"): /dev/shm bị
+      // giới hạn quá nhỏ trên môi trường container/serverless khiến
+      // Chromium crash giữa chừng — cờ này bắt Chromium dùng file tạm trên
+      // đĩa thay vì /dev/shm.
+      '--disable-dev-shm-usage'
     ],
     defaultViewport: { width: 1366, height: 768 },
     executablePath,
