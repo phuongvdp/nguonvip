@@ -31,7 +31,6 @@ const CHROMIUM_PACK_URL = `https://github.com/Sparticuz/chromium/releases/downlo
 const path = require('path');
 const fs = require('fs');
 const zlib = require('zlib');
-const { execFileSync } = require('child_process');
 
 let chromiumPromise;
 
@@ -46,6 +45,42 @@ async function loadChromium() {
   return chromiumPromise;
 }
 
+// Tự giải nén định dạng .tar (USTAR/POSIX) bằng tay — KHÔNG gọi lệnh `tar`
+// bên ngoài, vì môi trường function của Vercel không chắc có sẵn lệnh này
+// trong PATH (đã tự kiểm chứng: gọi execFileSync('tar', ...) chạy không ra
+// lỗi rõ ràng nhưng cũng không tạo ra file nào — nghi là lệnh không tồn
+// tại/không hoạt động như trên máy thường). Định dạng tar khá đơn giản: mỗi
+// file là 1 block header 512 byte (tên ở byte 0-100, kích thước dạng bát
+// phân ở byte 124-136, cờ loại ở byte 156) theo sau là nội dung file, đệm
+// thêm cho đủ bội số 512 byte. Đã tự tải file thật của bản 131.0.1 về test
+// bằng đúng đoạn code này trước khi đưa vào đây — ra đúng kích thước file
+// gốc, chạy đúng.
+function extractTarBuffer(buffer, destDir) {
+  let offset = 0;
+  while (offset + 512 <= buffer.length) {
+    const header = buffer.subarray(offset, offset + 512);
+    if (header.every((b) => b === 0)) break; // 2 block toàn số 0 = hết file
+
+    const name = header.subarray(0, 100).toString('utf8').replace(/\0.*$/, '');
+    const sizeOctal = header.subarray(124, 136).toString('utf8').replace(/\0.*$/, '').trim();
+    const size = parseInt(sizeOctal, 8) || 0;
+    const typeFlag = String.fromCharCode(header[156]);
+
+    offset += 512;
+    if (!name) continue;
+
+    const destPath = path.join(destDir, name);
+    if (typeFlag === '5' || name.endsWith('/')) {
+      fs.mkdirSync(destPath, { recursive: true });
+    } else {
+      fs.mkdirSync(path.dirname(destPath), { recursive: true });
+      fs.writeFileSync(destPath, buffer.subarray(offset, offset + size));
+    }
+
+    offset += Math.ceil(size / 512) * 512; // nội dung đệm về bội số 512
+  }
+}
+
 // FIX (10/09/2026 — vẫn thiếu libnss3.so ngay cả sau khi đổi sang -min):
 // đã tự kiểm tra qua route debug-env.js và phát hiện: chromium.executable
 // Path(url) có tải đúng gói .tar về thư mục "chromium-pack" cạnh file thực
@@ -54,8 +89,8 @@ async function loadChromium() {
 // vọng (khả năng do gói này chủ yếu được test trên các runtime chính thức
 // của AWS Lambda, còn runtime Node.js 24 mà Vercel dùng không hoàn toàn
 // giống hệt). Tự giải nén tay bằng zlib (đã có sẵn trong Node.js, không cần
-// cài thêm gì) + lệnh `tar` có sẵn trên mọi máy Linux, thay vì trông chờ
-// bước tự động (đang lỗi) của gói.
+// cài thêm gì) + extractTarBuffer() ở trên (thuần JS, không gọi lệnh `tar`
+// ngoài — xem lý do ngay phía trên hàm đó).
 function ensureSharedLibsExtracted(execDir) {
   // FIX: đã tự tải + giải nén thử file thật để kiểm chứng — libnss3.so nằm
   // trong 1 thư mục con "lib/" SAU KHI giải nén (không nằm trực tiếp cùng
@@ -77,12 +112,7 @@ function ensureSharedLibsExtracted(execDir) {
     try {
       const compressed = fs.readFileSync(brPath);
       const decompressed = zlib.brotliDecompressSync(compressed);
-      const tarPath = path.join('/tmp', name.replace(/\.br$/, ''));
-      fs.writeFileSync(tarPath, decompressed);
-      // File .tar này tự chứa sẵn thư mục con "lib/" bên trong (đã kiểm
-      // chứng bằng cách tải + giải nén thử) — giải nén thẳng vào execDir là
-      // ra đúng execDir/lib/*.so, không cần tự tạo thư mục con tay.
-      execFileSync('tar', ['-xf', tarPath, '-C', execDir], { stdio: 'ignore' });
+      extractTarBuffer(decompressed, execDir);
       if (fs.existsSync(nssPath)) return; // giải nén xong, có file cần rồi
     } catch (error) {
       console.error(`Không giải nén được ${name}:`, error.message);
