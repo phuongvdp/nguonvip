@@ -312,47 +312,69 @@ function isFatalFrameError(message) {
 }
 
 /**
- * Liên tục thử page.evaluate(expr) mỗi `intervalMs` cho tới khi ra kết quả
- * khác rỗng hoặc hết `overallTimeoutMs` — thay vì đoán chính xác lúc nào
- * trang chuyển hướng xong (khó đoán khi Cloudflare có thể tự chuyển trang
- * nhiều lần liên tiếp), bỏ qua các lỗi TẠM THỜI giữa chừng (như "Execution
- * context was destroyed" do đang chuyển trang) và thử lại đến khi nào được
- * thì thôi. Riêng lỗi frame/page đã chết HẲN (xem isFatalFrameError) thì
- * dừng ngay, không lặp lại vô ích trên cùng 1 page đã chết.
+ * Chờ page.evaluate(expr) ra kết quả khác rỗng, dùng page.waitForFunction()
+ * có sẵn của Puppeteer thay vì tự viết vòng lặp gọi page.evaluate() thủ công.
+ *
+ * FIX (11/09/2026 — QUAN TRỌNG, thay hẳn cách chờ dữ liệu): bản cũ tự viết 1
+ * vòng `while` gọi `page.evaluate()` lặp lại mỗi `intervalMs`. Đã thử vá đủ
+ * kiểu ở tầng "mở lại page/browser khi gặp lỗi" (xem các ghi chú FIX phía
+ * trên) nhưng lỗi "Attempted to use detached Frame" vẫn lặp lại Y HỆT trên
+ * CẢ 3 lượt, kể cả sau khi mở hẳn browser mới — tức nguyên nhân KHÔNG phải
+ * browser/page bị hỏng, mà là cách polling tự viết tay không biết gì về
+ * vòng đời điều hướng của Puppeteer: đúng lúc Cloudflare tự chuyển trang
+ * (bình thường với "Just a moment..." — có thể chuyển hướng nhiều lần liên
+ * tiếp), lệnh `page.evaluate()` gọi thủ công bị bắt gặp ĐÚNG khoảnh khắc
+ * frame vừa bị Puppeteer thay bằng frame mới, nên luôn báo lỗi detached dù
+ * bản thân page vẫn hoàn toàn khoẻ mạnh và sắp load xong.
+ * `page.waitForFunction()` giải quyết đúng vấn đề này: nó tạo 1 "wait task"
+ * gắn với world của frame, TỰ ĐỘNG lắng nghe sự kiện đổi execution context
+ * (do điều hướng) và tự gắn lại/chạy lại điều kiện trên context MỚI — không
+ * ném lỗi ra ngoài khi frame bị thay do điều hướng bình thường. Chỉ khi nào
+ * page/browser thật sự chết (crash, đóng...) thì mới lỗi thật, lúc đó vẫn
+ * cần isFatalFrameError để phân biệt như trước.
  *
  * @returns {Promise<{ value: any, fatal: boolean }>} `fatal: true` nghĩa là
- *   page hiện tại không dùng lại được nữa — bên gọi cần mở page mới.
+ *   page hiện tại không dùng lại được nữa — bên gọi cần mở page/browser mới.
  */
 async function pollPageEvaluate(page, expr, overallTimeoutMs, intervalMs = 1000) {
-  const deadline = Date.now() + overallTimeoutMs;
-  let lastError;
-  while (Date.now() < deadline) {
-    if (page.isClosed()) {
-      return { value: null, fatal: true };
-    }
-    try {
-      const val = await page.evaluate((e) => {
+  if (page.isClosed()) {
+    return { value: null, fatal: true };
+  }
+  if (overallTimeoutMs <= 0) {
+    return { value: null, fatal: false };
+  }
+
+  let handle;
+  try {
+    handle = await page.waitForFunction(
+      (e) => {
         try {
           // eslint-disable-next-line no-eval
           const v = eval(e);
-          return v === undefined ? null : JSON.parse(JSON.stringify(v));
+          if (v === undefined || v === null) return false;
+          // Làm sạch ngay trong ngữ cảnh trang (vd bỏ giá trị không
+          // serialize được qua CDP) trước khi Puppeteer đọc ra ngoài, giống
+          // hệt cách bản cũ (page.evaluate thủ công) từng làm.
+          return JSON.parse(JSON.stringify(v));
         } catch {
-          return null;
+          return false; // biểu thức chưa evaluate được (trang chưa hydrate xong) — coi như chưa có, thử lại ở lần poll kế
         }
-      }, expr);
-      if (val) return { value: val, fatal: false };
-    } catch (error) {
-      lastError = error;
-      if (isFatalFrameError(error.message)) {
-        break; // frame/page chết hẳn — dừng lặp ngay, khỏi phí thời gian còn lại
-      }
-      // context bị huỷ TẠM THỜI do đang chuyển trang — bỏ qua, thử lại
-    }
-    await new Promise((resolve) => setTimeout(resolve, intervalMs));
+      },
+      { timeout: overallTimeoutMs, polling: intervalMs },
+      expr
+    );
+    const value = await handle.jsonValue().catch(() => null);
+    return { value: value || null, fatal: false };
+  } catch (error) {
+    // TimeoutError (hết giờ, trang khoẻ nhưng đúng là chưa/không có dữ liệu
+    // cần) KHÔNG được coi là fatal — khác hẳn với browser/page thật sự chết
+    // (Target closed/Session closed/Protocol error...).
+    const fatal = isFatalFrameError(error.message);
+    console.error('pollPageEvaluate: hết giờ/frame chết, lỗi cuối cùng:', error.message);
+    return { value: null, fatal };
+  } finally {
+    if (handle) await handle.dispose().catch(() => {});
   }
-  const fatal = !!lastError && isFatalFrameError(lastError.message);
-  if (lastError) console.error('pollPageEvaluate: hết giờ/frame chết, lỗi cuối cùng:', lastError.message);
-  return { value: null, fatal };
 }
 
 /**
