@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
+const PUPPETEER_EXTRA_TRACE_PATHS = [
+  './node_modules/puppeteer-extra/**',
+  './node_modules/puppeteer-extra-plugin/**',
+  './node_modules/puppeteer-extra-plugin-stealth/**',
+  './node_modules/puppeteer-extra-plugin-user-data-dir/**',
+  './node_modules/puppeteer-extra-plugin-user-preferences/**'
+];
+
 const nextConfig = {
   reactStrictMode: true,
   output: 'standalone',
@@ -11,23 +19,25 @@ const nextConfig = {
   // cách nào tự cài bù vào được trên Vercel.
   //
   // FIX (10/09/2026 — lỗi "Cannot find module 'puppeteer-extra-plugin-
-  // stealth/evasions/chrome.app'"): thêm puppeteer-extra-plugin-stealth để
-  // né phát hiện bot (xem browserFetch.js) — nhưng gói này tự require() các
-  // file con trong thư mục evasions/ MỘT CÁCH ĐỘNG lúc chạy, Next.js dò đồ
-  // thị import tĩnh nên không tự biết cần đóng gói theo — phải khai báo tay
-  // outputFileTracingIncludes cho MỌI route có khả năng dùng tới trình
+  // stealth/evasions/chrome.app'", rồi tiếp "puppeteer-extra-plugin-user-
+  // preferences"): thêm puppeteer-extra-plugin-stealth để né phát hiện bot
+  // (xem browserFetch.js) — nhưng cả họ gói puppeteer-extra-plugin-* này tự
+  // require() lẫn nhau + các file con MỘT CÁCH ĐỘNG lúc chạy (kiến trúc
+  // plugin), Next.js dò đồ thị import tĩnh nên không tự biết cần đóng gói
+  // theo — đã liệt kê đủ CẢ CHUỖI phụ thuộc (tự kiểm tra package.json của
+  // từng gói để chắc không sót) cho MỌI route có khả năng dùng tới trình
   // duyệt headless (trực tiếp hoặc gián tiếp qua playlistBuilder/matches
   // aggregator), nếu không sẽ lỗi module not found lúc chạy trên Vercel dù
   // chạy local vẫn OK.
   outputFileTracingIncludes: {
-    '/api/giovang/live': ['./node_modules/puppeteer-extra-plugin-stealth/**'],
-    '/api/giovang/stream': ['./node_modules/puppeteer-extra-plugin-stealth/**'],
-    '/api/khandaitv/live': ['./node_modules/puppeteer-extra-plugin-stealth/**'],
-    '/api/khandaitv/stream': ['./node_modules/puppeteer-extra-plugin-stealth/**'],
-    '/api/matches': ['./node_modules/puppeteer-extra-plugin-stealth/**'],
-    '/api/playlist': ['./node_modules/puppeteer-extra-plugin-stealth/**'],
-    '/api/playlist/status': ['./node_modules/puppeteer-extra-plugin-stealth/**'],
-    '/api/playlist/resolve': ['./node_modules/puppeteer-extra-plugin-stealth/**'],
+    '/api/giovang/live': PUPPETEER_EXTRA_TRACE_PATHS,
+    '/api/giovang/stream': PUPPETEER_EXTRA_TRACE_PATHS,
+    '/api/khandaitv/live': PUPPETEER_EXTRA_TRACE_PATHS,
+    '/api/khandaitv/stream': PUPPETEER_EXTRA_TRACE_PATHS,
+    '/api/matches': PUPPETEER_EXTRA_TRACE_PATHS,
+    '/api/playlist': PUPPETEER_EXTRA_TRACE_PATHS,
+    '/api/playlist/status': PUPPETEER_EXTRA_TRACE_PATHS,
+    '/api/playlist/resolve': PUPPETEER_EXTRA_TRACE_PATHS,
   },
   async rewrites() {
     // Nhiều app IPTV (GSE, Perfect Player, SS IPTV, 1 số bản TiviMate...) tự
