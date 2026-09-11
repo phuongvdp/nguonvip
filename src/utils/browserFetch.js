@@ -252,18 +252,53 @@ async function fetchApiViaBrowser(url, matchUrl, opts = {}) {
   }
 }
 
+// FIX (11/09/2026 — lỗi "Attempted to use detached Frame '<id>'" lặp lại
+// liên tục cho tới khi hết giờ, dù đã có cơ chế "bỏ qua mọi lỗi rồi thử
+// lại" bên dưới): đã phân biệt nhầm 2 loại lỗi khác nhau khi page.evaluate()
+// thất bại giữa lúc Cloudflare đang tự chuyển hướng nhiều lần —
+//   1) "Execution context was destroyed": frame VẪN CÒN SỐNG, chỉ đang
+//      chuyển trang dở dang — thử lại evaluate() trên CHÍNH page đó ở vòng
+//      lặp kế tiếp là hợp lý, vì rất có thể trang đã chuyển xong lúc đó.
+//   2) "Attempted to use detached Frame" (và các lỗi tương tự như "Session
+//      closed"/"Target closed"/"Protocol error"): frame (hoặc cả page) đã bị
+//      HUỶ HẲN, không còn tồn tại để evaluate() lên nữa — đây là lỗi VĨNH
+//      VIỄN đối với page hiện tại, không phải tạm thời. Code cũ vẫn coi 2
+//      loại này như nhau ("bỏ qua, thử lại"), nên cứ gọi evaluate() lặp lại
+//      trên đúng 1 frame đã chết cho tới hết `overallTimeoutMs`, luôn ra
+//      đúng 1 lỗi đó — không bao giờ có cơ hội thành công.
+// Giải pháp: nhận diện riêng nhóm lỗi (2), dừng vòng lặp NGAY (khỏi phí thời
+// gian còn lại của overallTimeoutMs) và báo `fatal: true` cho hàm gọi
+// (fetchPageGlobal) biết để mở 1 page/trang HOÀN TOÀN MỚI rồi thử lại, thay
+// vì tiếp tục dùng page đã chết.
+function isFatalFrameError(message) {
+  const m = String(message || '');
+  return /detached Frame/i.test(m)
+    || /Session closed/i.test(m)
+    || /Target closed/i.test(m)
+    || /Protocol error/i.test(m)
+    || /Requesting main frame too early/i.test(m)
+    || /Connection closed/i.test(m);
+}
+
 /**
  * Liên tục thử page.evaluate(expr) mỗi `intervalMs` cho tới khi ra kết quả
  * khác rỗng hoặc hết `overallTimeoutMs` — thay vì đoán chính xác lúc nào
  * trang chuyển hướng xong (khó đoán khi Cloudflare có thể tự chuyển trang
- * nhiều lần liên tiếp), cứ bỏ qua MỌI lỗi giữa chừng (kể cả "Execution
+ * nhiều lần liên tiếp), bỏ qua các lỗi TẠM THỜI giữa chừng (như "Execution
  * context was destroyed" do đang chuyển trang) và thử lại đến khi nào được
- * thì thôi, trong giới hạn thời gian cho phép.
+ * thì thôi. Riêng lỗi frame/page đã chết HẲN (xem isFatalFrameError) thì
+ * dừng ngay, không lặp lại vô ích trên cùng 1 page đã chết.
+ *
+ * @returns {Promise<{ value: any, fatal: boolean }>} `fatal: true` nghĩa là
+ *   page hiện tại không dùng lại được nữa — bên gọi cần mở page mới.
  */
 async function pollPageEvaluate(page, expr, overallTimeoutMs, intervalMs = 1000) {
   const deadline = Date.now() + overallTimeoutMs;
   let lastError;
   while (Date.now() < deadline) {
+    if (page.isClosed()) {
+      return { value: null, fatal: true };
+    }
     try {
       const val = await page.evaluate((e) => {
         try {
@@ -274,14 +309,19 @@ async function pollPageEvaluate(page, expr, overallTimeoutMs, intervalMs = 1000)
           return null;
         }
       }, expr);
-      if (val) return val;
+      if (val) return { value: val, fatal: false };
     } catch (error) {
-      lastError = error; // context bị huỷ do đang chuyển trang — bỏ qua, thử lại
+      lastError = error;
+      if (isFatalFrameError(error.message)) {
+        break; // frame/page chết hẳn — dừng lặp ngay, khỏi phí thời gian còn lại
+      }
+      // context bị huỷ TẠM THỜI do đang chuyển trang — bỏ qua, thử lại
     }
     await new Promise((resolve) => setTimeout(resolve, intervalMs));
   }
-  if (lastError) console.error('pollPageEvaluate: hết giờ, lỗi cuối cùng:', lastError.message);
-  return null;
+  const fatal = !!lastError && isFatalFrameError(lastError.message);
+  if (lastError) console.error('pollPageEvaluate: hết giờ/frame chết, lỗi cuối cùng:', lastError.message);
+  return { value: null, fatal };
 }
 
 /**
@@ -297,36 +337,85 @@ async function pollPageEvaluate(page, expr, overallTimeoutMs, intervalMs = 1000)
  */
 async function fetchPageGlobal(url, opts = {}) {
   const { evalExpr = 'window.__NUXT__', timeoutMs = 25000, userAgent } = opts;
-  const browser = await getBrowser();
-  const page = await browser.newPage();
-  try {
-    if (userAgent) await page.setUserAgent(userAgent);
-    await page.setExtraHTTPHeaders({ 'Accept-Language': 'vi-VN,vi;q=0.9,en-US;q=0.8' });
+  const overallDeadline = Date.now() + timeoutMs;
+  let status = 0;
+  let lastError;
+  let attempt = 0;
 
-    let status = 0;
+  // FIX (11/09/2026 — tiếp nối fix trong pollPageEvaluate ở trên): trước
+  // đây hàm này mở ĐÚNG 1 page rồi dùng suốt cho cả bước goto lẫn toàn bộ
+  // thời gian poll — nếu frame chết hẳn (detached) giữa chừng thì coi như
+  // page đó "bỏ đi", không còn cách nào lấy được dữ liệu nữa dù vẫn còn dư
+  // thời gian. Giờ bọc thêm 1 vòng lặp ngoài: mỗi lần pollPageEvaluate báo
+  // `fatal: true`, đóng page đã chết, mở page MỚI (và mở luôn browser mới
+  // nếu chính browser cũng đã hỏng), goto lại từ đầu rồi poll tiếp — miễn
+  // còn đủ thời gian trong `overallTimeoutMs`.
+  while (Date.now() < overallDeadline) {
+    attempt += 1;
+    const remainingMs = overallDeadline - Date.now();
+    if (remainingMs < 2000) break; // không còn đủ thời gian để mở 1 vòng mới cho tử tế
+
+    let browser;
     try {
-      // Giới hạn riêng bước goto ngắn hơn tổng thời gian cho phép — phần
-      // "chờ Cloudflare tự giải + chuyển hướng" quan trọng hơn nằm ở bước
-      // pollPageEvaluate ngay dưới, cần nhường phần lớn thời gian cho nó.
-      const gotoTimeoutMs = Math.min(timeoutMs, 15000);
-      const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: gotoTimeoutMs });
-      status = response?.status() || 0;
+      browser = await getBrowser();
     } catch (error) {
-      // "Execution context was destroyed"/timeout ngay trong lúc goto cũng
-      // có thể xảy ra nếu Cloudflare tự chuyển hướng liên tục — bỏ qua, vẫn
-      // thử đọc dữ liệu ở bước dưới vì page có thể đã load được trang thật.
-      console.error('fetchPageGlobal: lỗi lúc goto (bỏ qua, thử đọc tiếp):', error.message);
+      lastError = error;
+      break; // mở browser lỗi hẳn thì không có gì để thử lại nữa
     }
 
-    // Cloudflare "Just a moment..." có thể tự chuyển hướng NHIỀU LẦN liên
-    // tiếp — không đoán chính xác lúc nào xong, cứ thử đọc liên tục cho
-    // tới khi ra dữ liệu hoặc hết giờ.
-    const data = await pollPageEvaluate(page, evalExpr, timeoutMs, 1000);
+    let page;
+    try {
+      page = await browser.newPage();
+    } catch (error) {
+      // Mở page mới cũng lỗi (vd "Session closed"/"Target closed") — dấu
+      // hiệu chính browser instance đang dùng lại đã hỏng dù
+      // browser.isConnected() vẫn báo true. Ép getBrowser() ở vòng lặp kế
+      // tiếp phải mở 1 browser HOÀN TOÀN MỚI thay vì tiếp tục dùng cái cũ.
+      lastError = error;
+      browserPromise = null;
+      continue;
+    }
 
-    return { data, status };
-  } finally {
-    await page.close().catch(() => {});
+    try {
+      if (userAgent) await page.setUserAgent(userAgent);
+      await page.setExtraHTTPHeaders({ 'Accept-Language': 'vi-VN,vi;q=0.9,en-US;q=0.8' });
+
+      try {
+        // Giới hạn riêng bước goto ngắn hơn tổng thời gian cho phép — phần
+        // "chờ Cloudflare tự giải + chuyển hướng" quan trọng hơn nằm ở bước
+        // pollPageEvaluate ngay dưới, cần nhường phần lớn thời gian cho nó.
+        const gotoTimeoutMs = Math.min(remainingMs, 15000);
+        const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: gotoTimeoutMs });
+        status = response?.status() || 0;
+      } catch (error) {
+        // "Execution context was destroyed"/timeout ngay trong lúc goto cũng
+        // có thể xảy ra nếu Cloudflare tự chuyển hướng liên tục — bỏ qua, vẫn
+        // thử đọc dữ liệu ở bước dưới vì page có thể đã load được trang thật.
+        console.error(`fetchPageGlobal: lỗi lúc goto (lần ${attempt}, bỏ qua, thử đọc tiếp):`, error.message);
+      }
+
+      // Cloudflare "Just a moment..." có thể tự chuyển hướng NHIỀU LẦN liên
+      // tiếp — không đoán chính xác lúc nào xong, cứ thử đọc liên tục cho
+      // tới khi ra dữ liệu, hết giờ, hoặc frame chết hẳn (fatal).
+      const pollBudget = Math.max(0, overallDeadline - Date.now());
+      const { value: data, fatal } = await pollPageEvaluate(page, evalExpr, pollBudget, 1000);
+
+      if (data) return { data, status };
+
+      if (!fatal) {
+        // Hết giờ nhưng KHÔNG phải do frame chết hẳn (vd trang tải được
+        // nhưng đúng là chưa có dữ liệu cần) — mở lại từ đầu cũng vô ích,
+        // dừng luôn thay vì lặp thêm.
+        break;
+      }
+      console.error(`fetchPageGlobal: frame chết giữa chừng (lần ${attempt}), mở trang mới nếu còn thời gian...`);
+    } finally {
+      await page.close().catch(() => {});
+    }
   }
+
+  if (lastError) console.error('fetchPageGlobal: hết giờ/hết lượt thử, lỗi cuối cùng:', lastError.message);
+  return { data: null, status };
 }
 
 module.exports = { fetchRenderedHtml, fetchApiViaBrowser, fetchPageGlobal, getBrowser, ensureSharedLibsExtracted };
