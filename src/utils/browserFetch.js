@@ -383,7 +383,7 @@ async function fetchPageGlobal(url, opts = {}) {
   while (Date.now() < overallDeadline && attempt < MAX_ATTEMPTS) {
     attempt += 1;
     const remainingMs = overallDeadline - Date.now();
-    if (remainingMs < 2000) break; // không còn đủ thời gian để mở 1 vòng mới cho tử tế
+    if (remainingMs < 3000) break; // không còn đủ thời gian để mở lại (có thể cả browser) cho tử tế
 
     let browser;
     try {
@@ -411,6 +411,26 @@ async function fetchPageGlobal(url, opts = {}) {
     try {
       if (userAgent) await page.setUserAgent(userAgent);
       await page.setExtraHTTPHeaders({ 'Accept-Language': 'vi-VN,vi;q=0.9,en-US;q=0.8' });
+
+      // FIX (11/09/2026 — "Target closed"/"Protocol error" lặp lại ngay cả
+      // trên page MỚI mở, dấu hiệu chính TIẾN TRÌNH Chromium đang bị hệ điều
+      // hành OOM-kill/crash giữa chừng chứ không chỉ 1 page/frame lẻ bị lỗi):
+      // trang này chỉ cần đọc window.__NUXT__, không cần hiển thị hình ảnh gì
+      // — chặn hẳn các loại tài nguyên nặng (ảnh, font, video/audio) ngay từ
+      // đầu để giảm đáng kể RAM/CPU Chromium phải tốn cho mỗi lần thử, giảm
+      // nguy cơ bị crash giữa chừng do thiếu tài nguyên trên môi trường
+      // serverless. Vẫn giữ nguyên CSS/JS vì trang có thể cần JS để tự chạy
+      // (và lỡ Turnstile/Cloudflare cần đo style nào đó).
+      await page.setRequestInterception(true);
+      const onRequest = (req) => {
+        const type = req.resourceType();
+        if (type === 'image' || type === 'font' || type === 'media') {
+          req.abort().catch(() => {});
+        } else {
+          req.continue().catch(() => {});
+        }
+      };
+      page.on('request', onRequest);
 
       try {
         // Giới hạn riêng bước goto ngắn hơn tổng thời gian cho phép — phần
@@ -456,7 +476,15 @@ async function fetchPageGlobal(url, opts = {}) {
           // dừng luôn thay vì lặp thêm.
           break;
         }
-        console.error(`fetchPageGlobal: frame chết giữa chừng (lần ${attempt}), mở trang mới nếu còn thời gian...`);
+        // FIX (11/09/2026): "Attempted to use detached Frame"/"Target
+        // closed"/"Protocol error" ở đây không còn là dấu hiệu CHỈ 1
+        // page/frame lẻ bị lỗi — đã quan sát thực tế lỗi này lặp lại NGAY
+        // CẢ trên page hoàn toàn mới vừa mở ở lượt sau, tức chính tiến
+        // trình Chromium (browser) đang chết dần/bị crash giữa chừng. Mở
+        // lại page mới trên CÙNG browser đó (như trước đây) là vô ích — cần
+        // đóng hẳn browser và mở browser MỚI HOÀN TOÀN ở lượt kế tiếp.
+        forceBrowserRestart = true;
+        console.error(`fetchPageGlobal: frame chết giữa chừng (lần ${attempt}), sẽ mở browser mới nếu còn thời gian...`);
       }
     } finally {
       await page.close().catch(() => {});

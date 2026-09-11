@@ -122,7 +122,12 @@ class KhanDaiTvService {
       try {
         const { data } = await fetchPageGlobal(`${KHANDAITV_BASE_URL}/`, {
           evalExpr: 'window.__NUXT__',
-          timeoutMs: 28000,
+          // FIX (11/09/2026 — nâng từ 28000): khi phải mở lại HẲN browser
+          // (không chỉ page) sau mỗi lần "Target closed"/detached frame,
+          // mỗi lượt thử tốn thêm vài giây khởi động lại Chromium — 28s
+          // không đủ chỗ cho 2-3 lượt thử trọn vẹn. Route này đã cấu hình
+          // maxDuration: 60 trong vercel.json nên còn dư nhiều để nâng lên.
+          timeoutMs: 45000,
           userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
         });
 
