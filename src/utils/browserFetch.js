@@ -38,7 +38,21 @@ async function loadChromium() {
   if (!chromiumPromise) {
     chromiumPromise = (async () => {
       const chromium = (await import('@sparticuz/chromium-min')).default;
-      const puppeteer = await import('puppeteer-core');
+      // FIX (10/09/2026 — lỗi "Attempted to use detached Frame" lặp lại
+      // liên tục khi đọc dữ liệu, dù đã qua được bước tải trang): Cloudflare
+      // không chỉ kiểm tra navigator.webdriver mà còn dò thêm nhiều dấu
+      // hiệu khác của trình duyệt tự động/máy chủ (renderer đồ hoạ giả lập
+      // SwiftShader, chrome.runtime thiếu, danh sách plugin trống...),
+      // khiến trang cứ liên tục bắt giải lại challenge, không bao giờ qua
+      // hẳn — mỗi lần code định đọc dữ liệu lại đúng lúc trang đang tải lại
+      // giữa chừng. Đổi từ puppeteer-core thuần sang puppeteer-extra + plugin
+      // stealth (bộ vá ~17 dấu hiệu nhận diện bot được cộng đồng dùng rộng
+      // rãi cho đúng loại vấn đề này) thay vì tự vá tay từng dấu hiệu một.
+      const { addExtra } = await import('puppeteer-extra');
+      const puppeteerCore = await import('puppeteer-core');
+      const StealthPlugin = (await import('puppeteer-extra-plugin-stealth')).default;
+      const puppeteer = addExtra(puppeteerCore.default ?? puppeteerCore);
+      puppeteer.use(StealthPlugin());
       return { chromium, puppeteer };
     })();
   }
@@ -173,17 +187,6 @@ async function getBrowser() {
 }
 
 /**
- * Che dấu hiệu rõ nhất để các hệ chống bot (Cloudflare...) nhận ra đây là
- * trình duyệt tự động (navigator.webdriver = true mặc định) — nếu bị nhận
- * ra, trang cứ bắt giải challenge liên tục, không bao giờ cho qua hẳn.
- */
-async function applyStealthPatches(page) {
-  await page.evaluateOnNewDocument(() => {
-    Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
-  });
-}
-
-/**
  * Mở 1 trang bằng trình duyệt thật, chờ load xong, trả về HTML cuối cùng
  * (đã chạy JS) — dùng khi chỉ cần đọc DOM render sẵn.
  *
@@ -195,7 +198,6 @@ async function fetchRenderedHtml(url, opts = {}) {
   const browser = await getBrowser();
   const page = await browser.newPage();
   try {
-    await applyStealthPatches(page);
     if (userAgent) await page.setUserAgent(userAgent);
     await page.setExtraHTTPHeaders({ 'Accept-Language': 'vi-VN,vi;q=0.9,en-US;q=0.8' });
     const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: timeoutMs });
@@ -226,7 +228,6 @@ async function fetchApiViaBrowser(url, matchUrl, opts = {}) {
   const page = await browser.newPage();
   const captured = [];
   try {
-    await applyStealthPatches(page);
     page.on('response', async (response) => {
       try {
         const reqUrl = response.url();
@@ -299,7 +300,6 @@ async function fetchPageGlobal(url, opts = {}) {
   const browser = await getBrowser();
   const page = await browser.newPage();
   try {
-    await applyStealthPatches(page);
     if (userAgent) await page.setUserAgent(userAgent);
     await page.setExtraHTTPHeaders({ 'Accept-Language': 'vi-VN,vi;q=0.9,en-US;q=0.8' });
 
