@@ -231,6 +231,29 @@ async function fetchApiViaBrowser(url, matchUrl, opts = {}) {
 }
 
 /**
+ * Gọi lại page.evaluate/waitForFunction vài lần nếu dính lỗi "Execution
+ * context was destroyed" — lỗi này xảy ra khi trang đang TỰ CHUYỂN HƯỚNG
+ * (vd Cloudflare "Just a moment..." giải xong JS challenge rồi tự tải lại
+ * trang thật) đúng lúc code đang cố đọc dữ liệu ở context cũ (đã bị huỷ).
+ * Đợi 1 chút rồi thử lại ở context MỚI (sau khi trang đã chuyển xong) là
+ * qua được, không cần biết chính xác lúc nào trang chuyển hướng xong.
+ */
+async function retryOnDestroyedContext(fn, { retries = 4, delayMs = 1500 } = {}) {
+  let lastError;
+  for (let attempt = 0; attempt <= retries; attempt += 1) {
+    try {
+      return await fn();
+    } catch (error) {
+      lastError = error;
+      const isDestroyed = /execution context was destroyed|context was destroyed|navigation/i.test(error.message || '');
+      if (!isDestroyed || attempt === retries) throw error;
+      await new Promise((resolve) => setTimeout(resolve, delayMs));
+    }
+  }
+  throw lastError;
+}
+
+/**
  * Mở trang bằng trình duyệt thật rồi đọc 1 biến global trên window (sau khi
  * đã hydrate/chạy xong JS của trang) — dùng cho các site Nuxt/Next nhúng
  * sẵn dữ liệu (window.__NUXT__, window.__NEXT_DATA__...) nhưng ở dạng đã
@@ -250,9 +273,19 @@ async function fetchPageGlobal(url, opts = {}) {
     await page.setExtraHTTPHeaders({ 'Accept-Language': 'vi-VN,vi;q=0.9,en-US;q=0.8' });
     const response = await page.goto(url, { waitUntil: 'networkidle2', timeout: timeoutMs });
 
+    // Nếu vẫn đang ở trang "Just a moment..." của Cloudflare, đợi hẳn 1
+    // lần chuyển hướng nữa trước khi đọc gì — tránh vừa mở page.evaluate
+    // vừa bị trang tự chuyển trang giữa chừng.
+    const title = await page.title().catch(() => '');
+    if (/just a moment/i.test(title)) {
+      await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: timeoutMs }).catch(() => {});
+    }
+
     // Cloudflare "Just a moment..." tự chuyển trang sau khi giải xong JS
     // challenge — đợi thêm 1 chút, không cần biết chính xác lúc nào xong.
-    await page.waitForFunction(
+    // Bọc retryOnDestroyedContext vì bước chuyển trang có thể vẫn đang xảy
+    // ra đúng lúc gọi (xem ghi chú của hàm đó).
+    await retryOnDestroyedContext(() => page.waitForFunction(
       (expr) => {
         try {
           // eslint-disable-next-line no-eval
@@ -263,9 +296,9 @@ async function fetchPageGlobal(url, opts = {}) {
       },
       { timeout: timeoutMs },
       evalExpr
-    ).catch(() => {});
+    )).catch(() => {});
 
-    const data = await page.evaluate((expr) => {
+    const data = await retryOnDestroyedContext(() => page.evaluate((expr) => {
       try {
         // eslint-disable-next-line no-eval
         const val = eval(expr);
@@ -273,7 +306,7 @@ async function fetchPageGlobal(url, opts = {}) {
       } catch {
         return null;
       }
-    }, evalExpr);
+    }, evalExpr));
 
     return { data, status: response?.status() || 0 };
   } finally {
