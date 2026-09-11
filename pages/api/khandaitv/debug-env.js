@@ -53,6 +53,38 @@ export default async function handler(req, res) {
       result.libSubdirContents = fs.readdirSync(libSubdir);
       result.hasLibnss3InLibSubdir = result.libSubdirContents.includes('libnss3.so');
     }
+
+    // FIX (10/09/2026 — vẫn thiếu libnss3.so sau khi đổi sang -min): gói
+    // .tar tải về có thể được giải nén vào 1 thư mục con riêng (thấy xuất
+    // hiện "chromium-pack" cạnh file "chromium") thay vì cùng chỗ với file
+    // thực thi — dò sâu thêm mọi thư mục con NẰM CẠNH file chromium để tìm
+    // đúng vị trí thật của các file .so.
+    for (const entry of result.execDirContents) {
+      const entryPath = path.join(execDir, entry);
+      try {
+        const stat = fs.statSync(entryPath);
+        if (stat.isDirectory()) {
+          const contents = fs.readdirSync(entryPath);
+          result[`subdir__${entry}`] = contents;
+          if (contents.includes('libnss3.so')) {
+            result.libnss3FoundIn = entryPath;
+          }
+          // đào thêm 1 cấp nữa phòng khi lồng sâu hơn nữa
+          for (const sub of contents) {
+            const subPath = path.join(entryPath, sub);
+            try {
+              if (fs.statSync(subPath).isDirectory()) {
+                const subContents = fs.readdirSync(subPath);
+                result[`subdir__${entry}__${sub}`] = subContents;
+                if (subContents.includes('libnss3.so')) {
+                  result.libnss3FoundIn = subPath;
+                }
+              }
+            } catch { /* bỏ qua */ }
+          }
+        }
+      } catch { /* bỏ qua */ }
+    }
   } catch (error) {
     result.chromiumInspectError = error.message;
   }
