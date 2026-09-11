@@ -12,6 +12,7 @@
 import fs from 'fs';
 import path from 'path';
 import chromiumPkg from '@sparticuz/chromium-min/package.json';
+import { ensureSharedLibsExtracted } from '@/src/utils/browserFetch';
 
 const CHROMIUM_PACK_VERSION = '131.0.1';
 const CHROMIUM_PACK_URL = `https://github.com/Sparticuz/chromium/releases/download/v${CHROMIUM_PACK_VERSION}/chromium-v${CHROMIUM_PACK_VERSION}-pack.tar`;
@@ -41,6 +42,11 @@ export default async function handler(req, res) {
     result.executablePath = executablePath;
 
     const execDir = path.dirname(executablePath);
+
+    // Tự gọi bước giải nén tay (xem browserFetch.js) để kiểm tra ngay tại
+    // đây, không cần đợi mở cả trình duyệt mới biết được có ăn thua không.
+    ensureSharedLibsExtracted(execDir);
+
     result.execDirContents = fs.readdirSync(execDir);
 
     const nssCandidates = result.execDirContents.filter((f) => /nss|nspr|\.so/i.test(f));

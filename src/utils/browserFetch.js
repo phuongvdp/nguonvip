@@ -29,6 +29,9 @@ const CHROMIUM_PACK_VERSION = '131.0.1';
 const CHROMIUM_PACK_URL = `https://github.com/Sparticuz/chromium/releases/download/v${CHROMIUM_PACK_VERSION}/chromium-v${CHROMIUM_PACK_VERSION}-pack.tar`;
 
 const path = require('path');
+const fs = require('fs');
+const zlib = require('zlib');
+const { execFileSync } = require('child_process');
 
 let chromiumPromise;
 
@@ -41,6 +44,51 @@ async function loadChromium() {
     })();
   }
   return chromiumPromise;
+}
+
+// FIX (10/09/2026 — vẫn thiếu libnss3.so ngay cả sau khi đổi sang -min):
+// đã tự kiểm tra qua route debug-env.js và phát hiện: chromium.executable
+// Path(url) có tải đúng gói .tar về thư mục "chromium-pack" cạnh file thực
+// thi, NHƯNG bên trong đó các file thư viện hệ thống vẫn còn nguyên dạng
+// nén Brotli (al2023.tar.br) — KHÔNG được tự động giải nén ra .so như kỳ
+// vọng (khả năng do gói này chủ yếu được test trên các runtime chính thức
+// của AWS Lambda, còn runtime Node.js 24 mà Vercel dùng không hoàn toàn
+// giống hệt). Tự giải nén tay bằng zlib (đã có sẵn trong Node.js, không cần
+// cài thêm gì) + lệnh `tar` có sẵn trên mọi máy Linux, thay vì trông chờ
+// bước tự động (đang lỗi) của gói.
+function ensureSharedLibsExtracted(execDir) {
+  // FIX: đã tự tải + giải nén thử file thật để kiểm chứng — libnss3.so nằm
+  // trong 1 thư mục con "lib/" SAU KHI giải nén (không nằm trực tiếp cùng
+  // cấp với file chromium như đoán ban đầu).
+  const libDir = path.join(execDir, 'lib');
+  const nssPath = path.join(libDir, 'libnss3.so');
+  if (fs.existsSync(nssPath)) return; // đã có sẵn, khỏi làm gì thêm
+
+  const packDir = path.join(execDir, 'chromium-pack');
+  if (!fs.existsSync(packDir)) return;
+
+  // Ưu tiên al2023 (môi trường Amazon Linux 2023 — dùng cho Node.js 20 trở
+  // lên), al2 chỉ để dự phòng nếu vì lý do gì đó al2023 không có/không giải
+  // nén được.
+  const candidates = ['al2023.tar.br', 'al2.tar.br'];
+  for (const name of candidates) {
+    const brPath = path.join(packDir, name);
+    if (!fs.existsSync(brPath)) continue;
+    try {
+      const compressed = fs.readFileSync(brPath);
+      const decompressed = zlib.brotliDecompressSync(compressed);
+      const tarPath = path.join('/tmp', name.replace(/\.br$/, ''));
+      fs.writeFileSync(tarPath, decompressed);
+      // File .tar này tự chứa sẵn thư mục con "lib/" bên trong (đã kiểm
+      // chứng bằng cách tải + giải nén thử) — giải nén thẳng vào execDir là
+      // ra đúng execDir/lib/*.so, không cần tự tạo thư mục con tay.
+      execFileSync('tar', ['-xf', tarPath, '-C', execDir], { stdio: 'ignore' });
+      if (fs.existsSync(nssPath)) return; // giải nén xong, có file cần rồi
+    } catch (error) {
+      console.error(`Không giải nén được ${name}:`, error.message);
+      // thử file tiếp theo trong danh sách candidates
+    }
+  }
 }
 
 // Giữ 1 browser instance dùng lại giữa các lần gọi trong cùng 1 lambda còn
@@ -63,14 +111,17 @@ async function getBrowser() {
   const { chromium, puppeteer } = await loadChromium();
   const executablePath = process.env.CHROME_EXECUTABLE_PATH || (await chromium.executablePath(CHROMIUM_PACK_URL));
 
-  // Giữ lại phòng hờ: dù gói pack.tar đã tự chứa mọi thư viện cần thiết,
-  // khai báo thêm LD_LIBRARY_PATH trỏ đúng thư mục giải nén vẫn vô hại và
-  // giúp chắc chắn hơn nếu có thư viện phụ nào chưa được linker tự tìm thấy.
   if (!process.env.CHROME_EXECUTABLE_PATH) {
     const execDir = path.dirname(executablePath);
+    ensureSharedLibsExtracted(execDir);
+
+    // Thư viện .so giải nén ra nằm trong execDir/lib (xem
+    // ensureSharedLibsExtracted) — trỏ LD_LIBRARY_PATH vào ĐÚNG thư mục đó,
+    // không phải execDir gốc.
+    const libDir = path.join(execDir, 'lib');
     process.env.LD_LIBRARY_PATH = process.env.LD_LIBRARY_PATH
-      ? `${execDir}:${process.env.LD_LIBRARY_PATH}`
-      : execDir;
+      ? `${libDir}:${execDir}:${process.env.LD_LIBRARY_PATH}`
+      : `${libDir}:${execDir}`;
   }
 
   browserOpenedAt = Date.now();
@@ -200,4 +251,4 @@ async function fetchPageGlobal(url, opts = {}) {
   }
 }
 
-module.exports = { fetchRenderedHtml, fetchApiViaBrowser, fetchPageGlobal, getBrowser };
+module.exports = { fetchRenderedHtml, fetchApiViaBrowser, fetchPageGlobal, getBrowser, ensureSharedLibsExtracted };
