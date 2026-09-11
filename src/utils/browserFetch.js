@@ -231,26 +231,35 @@ async function fetchApiViaBrowser(url, matchUrl, opts = {}) {
 }
 
 /**
- * Gọi lại page.evaluate/waitForFunction vài lần nếu dính lỗi "Execution
- * context was destroyed" — lỗi này xảy ra khi trang đang TỰ CHUYỂN HƯỚNG
- * (vd Cloudflare "Just a moment..." giải xong JS challenge rồi tự tải lại
- * trang thật) đúng lúc code đang cố đọc dữ liệu ở context cũ (đã bị huỷ).
- * Đợi 1 chút rồi thử lại ở context MỚI (sau khi trang đã chuyển xong) là
- * qua được, không cần biết chính xác lúc nào trang chuyển hướng xong.
+ * Liên tục thử page.evaluate(expr) mỗi `intervalMs` cho tới khi ra kết quả
+ * khác rỗng hoặc hết `overallTimeoutMs` — thay vì đoán chính xác lúc nào
+ * trang chuyển hướng xong (khó đoán khi Cloudflare có thể tự chuyển trang
+ * nhiều lần liên tiếp), cứ bỏ qua MỌI lỗi giữa chừng (kể cả "Execution
+ * context was destroyed" do đang chuyển trang) và thử lại đến khi nào được
+ * thì thôi, trong giới hạn thời gian cho phép.
  */
-async function retryOnDestroyedContext(fn, { retries = 4, delayMs = 1500 } = {}) {
+async function pollPageEvaluate(page, expr, overallTimeoutMs, intervalMs = 1000) {
+  const deadline = Date.now() + overallTimeoutMs;
   let lastError;
-  for (let attempt = 0; attempt <= retries; attempt += 1) {
+  while (Date.now() < deadline) {
     try {
-      return await fn();
+      const val = await page.evaluate((e) => {
+        try {
+          // eslint-disable-next-line no-eval
+          const v = eval(e);
+          return v === undefined ? null : JSON.parse(JSON.stringify(v));
+        } catch {
+          return null;
+        }
+      }, expr);
+      if (val) return val;
     } catch (error) {
-      lastError = error;
-      const isDestroyed = /execution context was destroyed|context was destroyed|navigation/i.test(error.message || '');
-      if (!isDestroyed || attempt === retries) throw error;
-      await new Promise((resolve) => setTimeout(resolve, delayMs));
+      lastError = error; // context bị huỷ do đang chuyển trang — bỏ qua, thử lại
     }
+    await new Promise((resolve) => setTimeout(resolve, intervalMs));
   }
-  throw lastError;
+  if (lastError) console.error('pollPageEvaluate: hết giờ, lỗi cuối cùng:', lastError.message);
+  return null;
 }
 
 /**
@@ -271,44 +280,28 @@ async function fetchPageGlobal(url, opts = {}) {
   try {
     if (userAgent) await page.setUserAgent(userAgent);
     await page.setExtraHTTPHeaders({ 'Accept-Language': 'vi-VN,vi;q=0.9,en-US;q=0.8' });
-    const response = await page.goto(url, { waitUntil: 'networkidle2', timeout: timeoutMs });
 
-    // Nếu vẫn đang ở trang "Just a moment..." của Cloudflare, đợi hẳn 1
-    // lần chuyển hướng nữa trước khi đọc gì — tránh vừa mở page.evaluate
-    // vừa bị trang tự chuyển trang giữa chừng.
-    const title = await page.title().catch(() => '');
-    if (/just a moment/i.test(title)) {
-      await page.waitForNavigation({ waitUntil: 'networkidle2', timeout: timeoutMs }).catch(() => {});
+    let status = 0;
+    try {
+      // Giới hạn riêng bước goto ngắn hơn tổng thời gian cho phép — phần
+      // "chờ Cloudflare tự giải + chuyển hướng" quan trọng hơn nằm ở bước
+      // pollPageEvaluate ngay dưới, cần nhường phần lớn thời gian cho nó.
+      const gotoTimeoutMs = Math.min(timeoutMs, 15000);
+      const response = await page.goto(url, { waitUntil: 'networkidle2', timeout: gotoTimeoutMs });
+      status = response?.status() || 0;
+    } catch (error) {
+      // "Execution context was destroyed"/timeout ngay trong lúc goto cũng
+      // có thể xảy ra nếu Cloudflare tự chuyển hướng liên tục — bỏ qua, vẫn
+      // thử đọc dữ liệu ở bước dưới vì page có thể đã load được trang thật.
+      console.error('fetchPageGlobal: lỗi lúc goto (bỏ qua, thử đọc tiếp):', error.message);
     }
 
-    // Cloudflare "Just a moment..." tự chuyển trang sau khi giải xong JS
-    // challenge — đợi thêm 1 chút, không cần biết chính xác lúc nào xong.
-    // Bọc retryOnDestroyedContext vì bước chuyển trang có thể vẫn đang xảy
-    // ra đúng lúc gọi (xem ghi chú của hàm đó).
-    await retryOnDestroyedContext(() => page.waitForFunction(
-      (expr) => {
-        try {
-          // eslint-disable-next-line no-eval
-          return !!eval(expr);
-        } catch {
-          return false;
-        }
-      },
-      { timeout: timeoutMs },
-      evalExpr
-    )).catch(() => {});
+    // Cloudflare "Just a moment..." có thể tự chuyển hướng NHIỀU LẦN liên
+    // tiếp — không đoán chính xác lúc nào xong, cứ thử đọc liên tục cho
+    // tới khi ra dữ liệu hoặc hết giờ.
+    const data = await pollPageEvaluate(page, evalExpr, timeoutMs, 1000);
 
-    const data = await retryOnDestroyedContext(() => page.evaluate((expr) => {
-      try {
-        // eslint-disable-next-line no-eval
-        const val = eval(expr);
-        return val === undefined ? null : JSON.parse(JSON.stringify(val));
-      } catch {
-        return null;
-      }
-    }, evalExpr));
-
-    return { data, status: response?.status() || 0 };
+    return { data, status };
   } finally {
     await page.close().catch(() => {});
   }
