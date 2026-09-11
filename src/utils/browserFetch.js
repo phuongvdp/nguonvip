@@ -173,6 +173,17 @@ async function getBrowser() {
 }
 
 /**
+ * Che dấu hiệu rõ nhất để các hệ chống bot (Cloudflare...) nhận ra đây là
+ * trình duyệt tự động (navigator.webdriver = true mặc định) — nếu bị nhận
+ * ra, trang cứ bắt giải challenge liên tục, không bao giờ cho qua hẳn.
+ */
+async function applyStealthPatches(page) {
+  await page.evaluateOnNewDocument(() => {
+    Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+  });
+}
+
+/**
  * Mở 1 trang bằng trình duyệt thật, chờ load xong, trả về HTML cuối cùng
  * (đã chạy JS) — dùng khi chỉ cần đọc DOM render sẵn.
  *
@@ -184,6 +195,7 @@ async function fetchRenderedHtml(url, opts = {}) {
   const browser = await getBrowser();
   const page = await browser.newPage();
   try {
+    await applyStealthPatches(page);
     if (userAgent) await page.setUserAgent(userAgent);
     await page.setExtraHTTPHeaders({ 'Accept-Language': 'vi-VN,vi;q=0.9,en-US;q=0.8' });
     const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: timeoutMs });
@@ -214,6 +226,7 @@ async function fetchApiViaBrowser(url, matchUrl, opts = {}) {
   const page = await browser.newPage();
   const captured = [];
   try {
+    await applyStealthPatches(page);
     page.on('response', async (response) => {
       try {
         const reqUrl = response.url();
@@ -286,6 +299,7 @@ async function fetchPageGlobal(url, opts = {}) {
   const browser = await getBrowser();
   const page = await browser.newPage();
   try {
+    await applyStealthPatches(page);
     if (userAgent) await page.setUserAgent(userAgent);
     await page.setExtraHTTPHeaders({ 'Accept-Language': 'vi-VN,vi;q=0.9,en-US;q=0.8' });
 
