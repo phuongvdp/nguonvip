@@ -2,20 +2,15 @@
 const nextConfig = {
   reactStrictMode: true,
   output: 'standalone',
-  // @sparticuz/chromium ném kèm 1 file binary chromium nén (.br) không nằm
-  // trong đồ thị import tĩnh mà Vercel tự dò ra — phải khai báo tay để nó
-  // được đóng gói theo function, nếu không sẽ lỗi "Could not find chromium"
-  // lúc chạy trên Vercel dù chạy local vẫn OK.
-  outputFileTracingIncludes: {
-    '/api/giovang/live': ['./node_modules/@sparticuz/chromium/bin/**'],
-    '/api/giovang/stream': ['./node_modules/@sparticuz/chromium/bin/**'],
-    '/api/khandaitv/live': ['./node_modules/@sparticuz/chromium/bin/**'],
-    '/api/khandaitv/stream': ['./node_modules/@sparticuz/chromium/bin/**'],
-    '/api/matches': ['./node_modules/@sparticuz/chromium/bin/**'],
-    '/api/playlist': ['./node_modules/@sparticuz/chromium/bin/**'],
-    '/api/playlist/status': ['./node_modules/@sparticuz/chromium/bin/**'],
-    '/api/playlist/resolve': ['./node_modules/@sparticuz/chromium/bin/**'],
-  },
+  // FIX (10/09/2026): đã chuyển từ @sparticuz/chromium (gói thường, ném kèm
+  // sẵn file binary chromium .br trong node_modules) sang @sparticuz/
+  // chromium-min (KHÔNG đóng gói sẵn binary — tự tải 1 gói .tar tự chứa từ
+  // GitHub Releases về /tmp lúc chạy, xem src/utils/browserFetch.js) — vì
+  // bản @sparticuz/chromium thường thiếu hẳn thư viện libnss3.so trên môi
+  // trường Amazon Linux 2023 mà Vercel dùng cho Node.js 20/22/24, không có
+  // cách nào tự cài bù vào được trên Vercel. Do KHÔNG còn file binary nào
+  // trong node_modules cần đóng gói riêng nữa, KHÔNG cần
+  // outputFileTracingIncludes cho các route dùng trình duyệt headless nữa.
   async rewrites() {
     // Nhiều app IPTV (GSE, Perfect Player, SS IPTV, 1 số bản TiviMate...) tự
     // kiểm tra ĐUÔI FILE trong URL trước khi tải — thấy không phải .m3u/.m3u8

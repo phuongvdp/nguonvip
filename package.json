@@ -16,7 +16,7 @@
   "description": "Live M3U8 playlist tool with crawl APIs",
   "dependencies": {
     "@base-ui/react": "^1.6.0",
-    "@sparticuz/chromium": "^131.0.0",
+    "@sparticuz/chromium-min": "^131.0.0",
     "autoprefixer": "^10.5.4",
     "axios": "^1.19.0",
     "cheerio": "^1.0.0-rc.13",

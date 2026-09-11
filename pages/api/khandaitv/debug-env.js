@@ -1,17 +1,20 @@
-// ROUTE TẠM ĐỂ DÒ LỖI libnss3.so (10/09/2026) — không gọi mạng ra ngoài,
-// chỉ soi trực tiếp môi trường Node.js + gói @sparticuz/chromium đã cài
-// trên chính server đang chạy, để biết chính xác:
-//   1. Vercel đang chạy Node.js bản mấy (ảnh hưởng cách @sparticuz/chromium
-//      tự chọn gói Chromium cho AL2 hay AL2023).
-//   2. File libnss3.so có THỰC SỰ nằm trong thư mục chromium đã giải nén
-//      hay không (nếu không có thật thì phải đổi phiên bản gói, không phải
-//      lỗi đường dẫn LD_LIBRARY_PATH nữa).
-//   3. Bản thân @sparticuz/chromium đã cài là version nào (package.json có
-//      thể ghi "^131.0.0" nhưng bản thực cài có thể là 131.x.x bất kỳ).
-// Có thể xoá file này sau khi xong.
+// ROUTE TẠM ĐỂ DÒ LỖI libnss3.so (10/09/2026) — không gọi mạng ra ngoài
+// (ngoại trừ chính @sparticuz/chromium-min tự tải gói pack.tar về /tmp nếu
+// chưa có), chỉ soi trực tiếp môi trường Node.js + gói chromium đã cài
+// trên chính server đang chạy. Có thể xoá file này sau khi xong.
+//
+// FIX (10/09/2026): đã xác nhận bản @sparticuz/chromium ĐẦY ĐỦ (gói
+// thường) thiếu hẳn libnss3.so trên Node.js 20/22/24 của Vercel (AL2023
+// không có sẵn NSS, gói lại không tự đóng gói kèm) — đã chuyển sang
+// @sparticuz/chromium-min (tự tải gói .tar tự chứa từ GitHub Releases, xem
+// src/utils/browserFetch.js). File debug này cập nhật theo để dò tiếp nếu
+// vẫn còn lỗi sau khi đổi gói.
 import fs from 'fs';
 import path from 'path';
-import chromiumPkg from '@sparticuz/chromium/package.json';
+import chromiumPkg from '@sparticuz/chromium-min/package.json';
+
+const CHROMIUM_PACK_VERSION = '131.0.1';
+const CHROMIUM_PACK_URL = `https://github.com/Sparticuz/chromium/releases/download/v${CHROMIUM_PACK_VERSION}/chromium-v${CHROMIUM_PACK_VERSION}-pack.tar`;
 
 export default async function handler(req, res) {
   const result = {
@@ -20,18 +23,21 @@ export default async function handler(req, res) {
     arch: process.arch,
     isVercel: !!process.env.VERCEL,
     vercelRegion: process.env.VERCEL_REGION || null,
-    ldLibraryPath: process.env.LD_LIBRARY_PATH || null
+    ldLibraryPath: process.env.LD_LIBRARY_PATH || null,
+    chromiumPackUrl: CHROMIUM_PACK_URL
   };
 
   try {
-    result.installedChromiumVersion = chromiumPkg.version;
+    result.installedChromiumMinVersion = chromiumPkg.version;
   } catch (error) {
-    result.installedChromiumVersionError = error.message;
+    result.installedChromiumMinVersionError = error.message;
   }
 
   try {
-    const chromium = (await import('@sparticuz/chromium')).default;
-    const executablePath = await chromium.executablePath();
+    const chromium = (await import('@sparticuz/chromium-min')).default;
+    const startedAt = Date.now();
+    const executablePath = await chromium.executablePath(CHROMIUM_PACK_URL);
+    result.downloadAndExtractMs = Date.now() - startedAt;
     result.executablePath = executablePath;
 
     const execDir = path.dirname(executablePath);

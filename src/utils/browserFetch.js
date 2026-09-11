@@ -3,11 +3,30 @@
 // site không phân biệt được với người dùng thường, rồi đọc HTML đã render
 // hoặc bắt response của 1 API call cụ thể phát sinh trong lúc load trang.
 //
-// Trên Vercel dùng @sparticuz/chromium (bản Chromium nén sẵn cho môi trường
-// serverless) + puppeteer-core (không kèm chromium riêng, nhẹ hơn nhiều so
-// với puppeteer đầy đủ — quan trọng vì serverless function có giới hạn
-// dung lượng). Máy dev local không có sẵn chromium kiểu này thì tự tải
-// Chrome hệ thống qua biến CHROME_EXECUTABLE_PATH (xem README/env.example).
+// Trên Vercel dùng @sparticuz/chromium-min (bản Chromium NÉN SẴN CÓ trong
+// gói npm KHÔNG đủ dùng — xem lý do ở FIX 10/09/2026 bên dưới) + puppeteer-
+// core (không kèm chromium riêng, nhẹ hơn nhiều so với puppeteer đầy đủ).
+// Máy dev local không có sẵn chromium kiểu này thì tự tải Chrome hệ thống
+// qua biến CHROME_EXECUTABLE_PATH (xem README/env.example).
+//
+// FIX (10/09/2026 — lỗi "error while loading shared libraries: libnss3.so:
+// cannot open shared object file"): đã tự kiểm tra trực tiếp trên Vercel
+// (route debug-env.js) và xác nhận: bản @sparticuz/chromium ĐẦY ĐỦ (gói
+// thường, không phải -min) khi chạy trên Node.js 20/22/24 của Vercel tự cho
+// rằng hệ điều hành nền (Amazon Linux 2023) đã có sẵn NSS nên KHÔNG đóng gói
+// kèm libnss3.so trong gói npm — nhưng môi trường Vercel thực tế lại không
+// có sẵn, và Vercel không cho tự cài thêm gói hệ thống (dnf/apt) như máy chủ
+// tự quản để bù vào. Đây không phải lỗi đường dẫn — file đó THỰC SỰ không
+// tồn tại ở đâu cả trong trường hợp này.
+// Giải pháp: dùng bản "-min" của gói này — bản này KHÔNG đóng gói sẵn
+// chromium trong node_modules, mà TỰ TẢI 1 gói .tar nén Brotli đầy đủ (kèm
+// mọi thư viện .so cần thiết, tự chứa, không phụ thuộc hệ điều hành) từ
+// GitHub Releases của chính dự án @sparticuz/chromium ngay lần chạy đầu
+// tiên (cold start), giải nén vào /tmp, các lần chạy sau (còn "ấm") dùng
+// lại luôn không tải lại. Cần khớp ĐÚNG version release với version cài
+// trong package.json (không tự ý đổi version 1 bên mà quên bên kia).
+const CHROMIUM_PACK_VERSION = '131.0.1';
+const CHROMIUM_PACK_URL = `https://github.com/Sparticuz/chromium/releases/download/v${CHROMIUM_PACK_VERSION}/chromium-v${CHROMIUM_PACK_VERSION}-pack.tar`;
 
 const path = require('path');
 
@@ -16,7 +35,7 @@ let chromiumPromise;
 async function loadChromium() {
   if (!chromiumPromise) {
     chromiumPromise = (async () => {
-      const chromium = (await import('@sparticuz/chromium')).default;
+      const chromium = (await import('@sparticuz/chromium-min')).default;
       const puppeteer = await import('puppeteer-core');
       return { chromium, puppeteer };
     })();
@@ -25,7 +44,8 @@ async function loadChromium() {
 }
 
 // Giữ 1 browser instance dùng lại giữa các lần gọi trong cùng 1 lambda còn
-// "ấm" (warm) — mở Chromium mất 2-4s, không muốn trả giá đó ở mọi request.
+// "ấm" (warm) — mở Chromium mất 2-4s (chưa tính lần đầu phải tải thêm gói
+// pack.tar ở trên, có thể lâu hơn), không muốn trả giá đó ở mọi request.
 let browserPromise;
 let browserOpenedAt = 0;
 const BROWSER_MAX_AGE_MS = 5 * 60 * 1000;
@@ -41,15 +61,11 @@ async function getBrowser() {
   }
 
   const { chromium, puppeteer } = await loadChromium();
-  const executablePath = process.env.CHROME_EXECUTABLE_PATH || (await chromium.executablePath());
+  const executablePath = process.env.CHROME_EXECUTABLE_PATH || (await chromium.executablePath(CHROMIUM_PACK_URL));
 
-  // FIX (10/09/2026 — lỗi "error while loading shared libraries: libnss3.so:
-  // cannot open shared object file" khi chạy trên Vercel): @sparticuz/
-  // chromium có giải nén đúng file .so cần thiết ra /tmp cùng thư mục với
-  // file thực thi chromium, NHƯNG hệ điều hành không tự biết tìm thư viện
-  // dùng chung (.so) ở thư mục đó nếu không khai báo LD_LIBRARY_PATH — dẫn
-  // đến lỗi trên dù file vẫn nằm đúng chỗ. Khai báo tay để chắc chắn, giữ
-  // lại đường dẫn cũ (nếu có) phòng khi hệ thống đã cần path khác.
+  // Giữ lại phòng hờ: dù gói pack.tar đã tự chứa mọi thư viện cần thiết,
+  // khai báo thêm LD_LIBRARY_PATH trỏ đúng thư mục giải nén vẫn vô hại và
+  // giúp chắc chắn hơn nếu có thư viện phụ nào chưa được linker tự tìm thấy.
   if (!process.env.CHROME_EXECUTABLE_PATH) {
     const execDir = path.dirname(executablePath);
     process.env.LD_LIBRARY_PATH = process.env.LD_LIBRARY_PATH
