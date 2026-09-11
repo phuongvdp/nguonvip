@@ -179,11 +179,42 @@ async function getBrowser() {
       // đĩa thay vì /dev/shm.
       '--disable-dev-shm-usage'
     ],
-    defaultViewport: { width: 1366, height: 768 },
+    // FIX (11/09/2026 — "ERR_INSUFFICIENT_RESOURCES" khi mở lại trang nhiều
+    // lần trong cùng 1 lần chạy function): giảm kích thước viewport mặc
+    // định (trước 1366x768) để bớt RAM cho mỗi tab render — mỗi lần mở lại
+    // trang mới (xem fetchPageGlobal) đều tốn thêm 1 tab, RAM eo hẹp trên
+    // serverless nên giảm chỗ nào đỡ chỗ đó.
+    defaultViewport: { width: 1024, height: 640 },
     executablePath,
     headless: chromium.headless ?? true,
   });
   return browserPromise;
+}
+
+// FIX (11/09/2026 — "ERR_INSUFFICIENT_RESOURCES" lặp lại ở các lần thử sau
+// trong cùng 1 lần chạy function, dù mỗi lần "frame chết" đã có cơ chế mở
+// lại từ đầu ở fetchPageGlobal): cơ chế "mở lại" trước đó chỉ XOÁ THAM
+// CHIẾU `browserPromise` (browserPromise = null) khi nghi browser hỏng, chứ
+// KHÔNG thực sự gọi browser.close() — tiến trình Chromium cũ (nếu vẫn còn
+// sống dở, chỉ hỏng ở tầng điều khiển) tiếp tục chiếm RAM/file-handle trong
+// nền, cộng dồn qua từng lần mở lại trong CÙNG 1 lần chạy function (vốn có
+// RAM giới hạn của môi trường serverless), tới lần thứ 4-5 thì hết sạch tài
+// nguyên → lỗi net::ERR_INSUFFICIENT_RESOURCES ngay cả ở bước goto tưởng
+// chừng đơn giản. Hàm này đóng HẲN tiến trình Chromium hiện tại (nếu có)
+// trước khi cho phép getBrowser() mở 1 tiến trình mới, đảm bảo tài nguyên
+// được thu hồi thật sự giữa các lần thử.
+async function closeBrowser() {
+  if (!browserPromise) return;
+  const pending = browserPromise;
+  browserPromise = null;
+  browserOpenedAt = 0;
+  try {
+    const browser = await pending;
+    await browser.close();
+  } catch {
+    // browser đã chết sẵn (không mở được/đã crash) hoặc đóng bị lỗi — không
+    // sao, coi như đã dọn xong, lần gọi getBrowser() kế tiếp sẽ mở mới.
+  }
 }
 
 /**
@@ -341,16 +372,15 @@ async function fetchPageGlobal(url, opts = {}) {
   let status = 0;
   let lastError;
   let attempt = 0;
+  // FIX (11/09/2026 — "ERR_INSUFFICIENT_RESOURCES" ở lần thử 4-5): giới hạn
+  // CỨNG số lần mở lại, KHÔNG chỉ dựa vào còn dư `timeoutMs` hay không — dù
+  // vẫn còn thời gian, mở quá nhiều lần trong cùng 1 lần chạy function trên
+  // môi trường RAM giới hạn tự nó gây cạn tài nguyên (xem closeBrowser() ở
+  // trên). 3 lần là đủ cho các trường hợp Cloudflare chuyển hướng dở dang
+  // thật sự, khỏi cố thêm khi rõ ràng môi trường đang thiếu tài nguyên.
+  const MAX_ATTEMPTS = 3;
 
-  // FIX (11/09/2026 — tiếp nối fix trong pollPageEvaluate ở trên): trước
-  // đây hàm này mở ĐÚNG 1 page rồi dùng suốt cho cả bước goto lẫn toàn bộ
-  // thời gian poll — nếu frame chết hẳn (detached) giữa chừng thì coi như
-  // page đó "bỏ đi", không còn cách nào lấy được dữ liệu nữa dù vẫn còn dư
-  // thời gian. Giờ bọc thêm 1 vòng lặp ngoài: mỗi lần pollPageEvaluate báo
-  // `fatal: true`, đóng page đã chết, mở page MỚI (và mở luôn browser mới
-  // nếu chính browser cũng đã hỏng), goto lại từ đầu rồi poll tiếp — miễn
-  // còn đủ thời gian trong `overallTimeoutMs`.
-  while (Date.now() < overallDeadline) {
+  while (Date.now() < overallDeadline && attempt < MAX_ATTEMPTS) {
     attempt += 1;
     const remainingMs = overallDeadline - Date.now();
     if (remainingMs < 2000) break; // không còn đủ thời gian để mở 1 vòng mới cho tử tế
@@ -369,13 +399,15 @@ async function fetchPageGlobal(url, opts = {}) {
     } catch (error) {
       // Mở page mới cũng lỗi (vd "Session closed"/"Target closed") — dấu
       // hiệu chính browser instance đang dùng lại đã hỏng dù
-      // browser.isConnected() vẫn báo true. Ép getBrowser() ở vòng lặp kế
-      // tiếp phải mở 1 browser HOÀN TOÀN MỚI thay vì tiếp tục dùng cái cũ.
+      // browser.isConnected() vẫn báo true. Đóng HẲN nó (giải phóng RAM
+      // thật sự, xem closeBrowser) để lần getBrowser() kế tiếp mở 1 browser
+      // hoàn toàn mới, sạch sẽ.
       lastError = error;
-      browserPromise = null;
+      await closeBrowser();
       continue;
     }
 
+    let forceBrowserRestart = false;
     try {
       if (userAgent) await page.setUserAgent(userAgent);
       await page.setExtraHTTPHeaders({ 'Accept-Language': 'vi-VN,vi;q=0.9,en-US;q=0.8' });
@@ -388,29 +420,56 @@ async function fetchPageGlobal(url, opts = {}) {
         const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: gotoTimeoutMs });
         status = response?.status() || 0;
       } catch (error) {
-        // "Execution context was destroyed"/timeout ngay trong lúc goto cũng
-        // có thể xảy ra nếu Cloudflare tự chuyển hướng liên tục — bỏ qua, vẫn
-        // thử đọc dữ liệu ở bước dưới vì page có thể đã load được trang thật.
-        console.error(`fetchPageGlobal: lỗi lúc goto (lần ${attempt}, bỏ qua, thử đọc tiếp):`, error.message);
+        lastError = error;
+        // FIX (11/09/2026): "net::ERR_INSUFFICIENT_RESOURCES" (hoặc tương
+        // tự: hết bộ nhớ/handle của hệ điều hành) ngay ở bước goto là dấu
+        // hiệu BẢN THÂN trình duyệt/hệ thống đang cạn tài nguyên — KHÁC với
+        // "Execution context was destroyed" (chỉ là Cloudflare đang chuyển
+        // hướng dở dang, page vẫn khoẻ). Với nhóm lỗi cạn tài nguyên, đọc
+        // tiếp dữ liệu ở dưới chắc chắn vô ích (trang chưa từng tải được gì)
+        // và có thể càng làm tệ hơn — đánh dấu cần đóng hẳn browser trước
+        // khi thử lại, thay vì chỉ coi là nhiễu rồi bỏ qua như trước.
+        if (/ERR_INSUFFICIENT_RESOURCES|ERR_OUT_OF_MEMORY|ERR_PROCESS_CRASHED/i.test(error.message)) {
+          forceBrowserRestart = true;
+          console.error(`fetchPageGlobal: cạn tài nguyên lúc goto (lần ${attempt}):`, error.message);
+        } else {
+          // Các lỗi goto khác (timeout, "Execution context was destroyed"
+          // do Cloudflare tự chuyển hướng...) có thể tạm thời — bỏ qua, vẫn
+          // thử đọc dữ liệu ở bước dưới vì page có thể đã load được trang
+          // thật rồi.
+          console.error(`fetchPageGlobal: lỗi lúc goto (lần ${attempt}, bỏ qua, thử đọc tiếp):`, error.message);
+        }
       }
 
-      // Cloudflare "Just a moment..." có thể tự chuyển hướng NHIỀU LẦN liên
-      // tiếp — không đoán chính xác lúc nào xong, cứ thử đọc liên tục cho
-      // tới khi ra dữ liệu, hết giờ, hoặc frame chết hẳn (fatal).
-      const pollBudget = Math.max(0, overallDeadline - Date.now());
-      const { value: data, fatal } = await pollPageEvaluate(page, evalExpr, pollBudget, 1000);
+      if (!forceBrowserRestart) {
+        // Cloudflare "Just a moment..." có thể tự chuyển hướng NHIỀU LẦN
+        // liên tiếp — không đoán chính xác lúc nào xong, cứ thử đọc liên
+        // tục cho tới khi ra dữ liệu, hết giờ, hoặc frame chết hẳn (fatal).
+        const pollBudget = Math.max(0, overallDeadline - Date.now());
+        const { value: data, fatal } = await pollPageEvaluate(page, evalExpr, pollBudget, 1000);
 
-      if (data) return { data, status };
+        if (data) return { data, status };
 
-      if (!fatal) {
-        // Hết giờ nhưng KHÔNG phải do frame chết hẳn (vd trang tải được
-        // nhưng đúng là chưa có dữ liệu cần) — mở lại từ đầu cũng vô ích,
-        // dừng luôn thay vì lặp thêm.
-        break;
+        if (!fatal) {
+          // Hết giờ nhưng KHÔNG phải do frame chết hẳn (vd trang tải được
+          // nhưng đúng là chưa có dữ liệu cần) — mở lại từ đầu cũng vô ích,
+          // dừng luôn thay vì lặp thêm.
+          break;
+        }
+        console.error(`fetchPageGlobal: frame chết giữa chừng (lần ${attempt}), mở trang mới nếu còn thời gian...`);
       }
-      console.error(`fetchPageGlobal: frame chết giữa chừng (lần ${attempt}), mở trang mới nếu còn thời gian...`);
     } finally {
       await page.close().catch(() => {});
+    }
+
+    if (forceBrowserRestart) {
+      // FIX (11/09/2026): đóng HẲN browser (giải phóng RAM thật sự, xem
+      // closeBrowser) rồi chờ 1 nhịp ngắn trước khi thử lại — cho hệ điều
+      // hành thời gian thu hồi bộ nhớ/handle của tiến trình Chromium vừa bị
+      // đóng, tránh mở lại quá nhanh khi tài nguyên chưa kịp giải phóng
+      // xong (đúng lúc gây ra ERR_INSUFFICIENT_RESOURCES ban đầu).
+      await closeBrowser();
+      await new Promise((resolve) => setTimeout(resolve, 500));
     }
   }
 
@@ -418,4 +477,4 @@ async function fetchPageGlobal(url, opts = {}) {
   return { data: null, status };
 }
 
-module.exports = { fetchRenderedHtml, fetchApiViaBrowser, fetchPageGlobal, getBrowser, ensureSharedLibsExtracted };
+module.exports = { fetchRenderedHtml, fetchApiViaBrowser, fetchPageGlobal, getBrowser, closeBrowser, ensureSharedLibsExtracted };
