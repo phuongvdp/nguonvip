@@ -4,7 +4,28 @@ const PUPPETEER_EXTRA_TRACE_PATHS = [
   './node_modules/puppeteer-extra-plugin/**',
   './node_modules/puppeteer-extra-plugin-stealth/**',
   './node_modules/puppeteer-extra-plugin-user-data-dir/**',
-  './node_modules/puppeteer-extra-plugin-user-preferences/**'
+  './node_modules/puppeteer-extra-plugin-user-preferences/**',
+  // FIX (10/09/2026): chuỗi phụ thuộc TIẾP THEO của puppeteer-extra-plugin-
+  // user-data-dir (dùng fs-extra + rimraf, 2 gói khá "nặng" về số lượng gói
+  // con) — đã tự cài fs-extra@10 + rimraf@3 xuống máy và soi (npm ls --all)
+  // ra hết TOÀN BỘ nhánh lá còn lại trong 1 lần, liệt kê đủ luôn ở đây,
+  // tránh phải sửa thêm nhiều vòng nữa mỗi khi lộ ra 1 gói thiếu mới.
+  './node_modules/fs-extra/**',
+  './node_modules/graceful-fs/**',
+  './node_modules/jsonfile/**',
+  './node_modules/universalify/**',
+  './node_modules/rimraf/**',
+  './node_modules/glob/**',
+  './node_modules/minimatch/**',
+  './node_modules/brace-expansion/**',
+  './node_modules/balanced-match/**',
+  './node_modules/concat-map/**',
+  './node_modules/inflight/**',
+  './node_modules/inherits/**',
+  './node_modules/once/**',
+  './node_modules/wrappy/**',
+  './node_modules/fs.realpath/**',
+  './node_modules/path-is-absolute/**'
 ];
 
 const nextConfig = {
