@@ -51,6 +51,108 @@ const REFERER_BY_SOURCE = {
 };
 const REFERER_FALLBACK = REFERER_BY_SOURCE.phaohoa;
 
+// FIX 2 (17/09/2026 — vẫn 403 Forbidden dù đã chọn đúng Referer theo
+// nguồn ở trên, riêng CDN hdplaylink.com của Chuối Chiên):
+// Chuối Chiên có 2 domain khác nhau — "domain chính" chuoichientv.link
+// (xem chú thích đầu file src/services/chuoichientv.service.js) và domain
+// PHỤ live05.chuoichientv.me là nơi trình duyệt thật sự chạy player. Trước
+// đây route này đoán CDN hdplaylink.com kiểm tra Referer khớp domain PHỤ
+// (live05...) — đoán sai, hoặc CDN đổi cách kiểm tra/đổi domain hợp lệ,
+// nên header đó vẫn bị từ chối (403). Vì không có quyền đăng nhập backend
+// CDN để biết CHÍNH XÁC domain nào được chấp nhận, và giá trị này có thể
+// tự đổi bất cứ lúc nào phía CDN, KHÔNG đoán cứng 1 giá trị nữa — thử LẦN
+// LƯỢT nhiều ứng viên hợp lý (domain chính, domain phụ, có/không dấu "/"
+// cuối, gắn kèm Origin cùng cặp vì 1 số CDN đòi Origin thay vì/thêm vào
+// Referer, và cuối cùng thử bỏ hẳn Referer/Origin — một số CDN chỉ chặn
+// Referer SAI chứ không chặn Referer RỖNG) cho tới khi có 1 ứng viên được
+// CDN chấp nhận (status không phải 401/403/451). Ứng viên nào thắng sẽ
+// được nhớ lại trong bộ nhớ (theo hostname CDN) để các request sau (segment
+// .ts kế tiếp của CÙNG 1 trận, dồn dập hàng chục request/phút) dùng thẳng,
+// không phải thử lại từ đầu mỗi lần — tránh làm chậm phát video.
+const REFERER_CANDIDATES_BY_SOURCE = {
+  chuoichientv: ['https://live05.chuoichientv.me/', 'https://chuoichientv.link/', null],
+  phaohoa: [REFERER_BY_SOURCE.phaohoa, null],
+  giovang: [REFERER_BY_SOURCE.giovang, null],
+  khandaitv: [REFERER_BY_SOURCE.khandaitv, null]
+};
+
+// Nhớ lại (trong bộ nhớ container, theo hostname CDN) ứng viên Referer nào
+// vừa thắng gần nhất, để không phải thử lại tuần tự mỗi request.
+const workingRefererByHost = new Map();
+
+function refererCandidatesFor(source, target) {
+  const preset = REFERER_CANDIDATES_BY_SOURCE[source];
+  const list = preset && preset.length ? preset.slice() : [REFERER_BY_SOURCE[source] || REFERER_FALLBACK, null];
+
+  let host = '';
+  try {
+    host = new URL(target).hostname;
+  } catch {
+    // target không parse được thì bỏ qua bước ưu tiên theo cache, vẫn thử
+    // tuần tự các ứng viên còn lại như bình thường.
+  }
+  const remembered = host && workingRefererByHost.has(host) ? workingRefererByHost.get(host) : undefined;
+  if (remembered !== undefined && list.includes(remembered)) {
+    // Đẩy ứng viên đã từng thắng lên đầu danh sách để thử trước tiên.
+    return [remembered, ...list.filter((r) => r !== remembered)];
+  }
+  return list;
+}
+
+function rememberWorkingReferer(target, referer) {
+  try {
+    const host = new URL(target).hostname;
+    if (host) workingRefererByHost.set(host, referer);
+  } catch {
+    // bỏ qua nếu không parse được URL
+  }
+}
+
+// Nguồn phát chặn hotlink (Referer/Origin sai) luôn trả 401/403, một số nơi
+// dùng 451 — coi các mã này là "ứng viên hiện tại chưa đúng, thử tiếp",
+// khác với lỗi thật (404 hết hạn link, 5xx server nguồn lỗi...) là dừng
+// ngay không thử thêm (thử thêm Referer khác cũng không cứu được các lỗi
+// này, chỉ tốn thời gian).
+function isHotlinkBlockStatus(status) {
+  return status === 401 || status === 403 || status === 451;
+}
+
+async function fetchUpstreamWithRefererFallback(target, source, rangeHeader) {
+  const candidates = refererCandidatesFor(source, target);
+  let lastResponse = null;
+  let lastError = null;
+
+  for (const referer of candidates) {
+    const upstreamHeaders = {
+      'User-Agent': DEFAULT_UA,
+      Accept: '*/*'
+    };
+    if (referer) {
+      upstreamHeaders.Referer = referer;
+      try {
+        upstreamHeaders.Origin = new URL(referer).origin;
+      } catch {
+        // referer không phải URL hợp lệ (không nên xảy ra) -> bỏ qua Origin
+      }
+    }
+    if (rangeHeader) upstreamHeaders.Range = rangeHeader;
+
+    try {
+      const response = await fetch(target, { headers: upstreamHeaders, redirect: 'follow' });
+      if (!isHotlinkBlockStatus(response.status)) {
+        rememberWorkingReferer(target, referer);
+        return response;
+      }
+      lastResponse = response;
+    } catch (err) {
+      lastError = err;
+    }
+  }
+
+  if (lastResponse) return lastResponse;
+  throw lastError || new Error('Không có Referer nào gọi được tới nguồn phát');
+}
+
 function buildProxyPath(absoluteUrl, source) {
   const qs = new URLSearchParams({ url: absoluteUrl });
   if (source) qs.set('source', source);
@@ -113,24 +215,13 @@ export default async function handler(req, res) {
 
   const target = String(req.query.url || '');
   const source = String(req.query.source || '');
-  const referer = REFERER_BY_SOURCE[source] || REFERER_FALLBACK;
   if (!/^https?:\/\//i.test(target)) {
     res.status(400).json({ success: false, message: 'Thiếu hoặc sai tham số "url" (phải là link http/https đầy đủ).' });
     return;
   }
 
   try {
-    const upstreamHeaders = {
-      'User-Agent': DEFAULT_UA,
-      Accept: '*/*',
-      Referer: referer
-    };
-    if (req.headers.range) upstreamHeaders.Range = req.headers.range;
-
-    const upstream = await fetch(target, {
-      headers: upstreamHeaders,
-      redirect: 'follow'
-    });
+    const upstream = await fetchUpstreamWithRefererFallback(target, source, req.headers.range);
 
     if (!upstream.ok && upstream.status !== 206) {
       res.status(upstream.status || 502).json({
