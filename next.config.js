@@ -75,7 +75,8 @@ const nextConfig = {
       { source: '/playlist.m3u8', destination: '/api/playlist' },
       { source: '/playlist-phaohoa.m3u', destination: '/api/playlist?source=phaohoa' },
       { source: '/playlist-giovang.m3u', destination: '/api/playlist?source=giovang' },
-      { source: '/playlist-khandaitv.m3u', destination: '/api/playlist?source=khandaitv' }
+      { source: '/playlist-khandaitv.m3u', destination: '/api/playlist?source=khandaitv' },
+      { source: '/playlist-chuoichientv.m3u', destination: '/api/playlist?source=chuoichientv' }
     ];
   }
 };

@@ -1,6 +1,7 @@
 import phaohoaService from '@/src/services/phaohoa.service';
 import giovangService from '@/src/services/giovang.service';
 import khandaitvService from '@/src/services/khandaitv.service';
+import chuoichientvService from '@/src/services/chuoichientv.service';
 import {
   isWithinNextHours,
   mapPool,
@@ -32,6 +33,15 @@ const MULTI_SPORTS = ['football', 'basketball', 'tennis', 'badminton', 'volleyba
 // phaohoa.live) — cùng schema/cách gọi API với phaohoaService (cùng
 // backend, khác domain) nên mọi chỗ gọi phaohoaService bên dưới đều được
 // nhân đôi cho khandaitvService, KHÔNG cần bộ lọc riêng gì thêm.
+// LƯU Ý: Khán Đài hiện KHÔNG lấy được dữ liệu (Cloudflare chặn IP máy chủ
+// Vercel) — code vẫn giữ nguyên, sẽ tự hoạt động lại nếu sau này qua được.
+//
+// FIX (17/09/2026 — theo yêu cầu): thêm chuoichientvService (nguồn Chuối
+// Chiên TV, API riêng api-v2.chuoichientv.net) — KHÁC HẲN backend/schema
+// với Pháo Hoa/Khán Đài, có hàm getAllMatchesByTab(tab) RIÊNG (chỉ 1 tham
+// số, không cần tách sport/pageSize như 2 nguồn kia vì API đã trả gộp mọi
+// môn thể thao trong 1 lần gọi) — nên gọi đơn giản hơn, không nhân đôi theo
+// basketball như phaohoa/khandaitv bên dưới.
 //
 // FIX RUNTIME (26/08/2026 — "cả 2 nguồn lỗi không quét được trận nào"):
 // đợt dọn code ở trên lỡ tay XOÁ LUÔN isMinorLeagueMatch() khỏi
@@ -66,12 +76,13 @@ async function resolveWithinDeadline(match) {
 
 /** Mirror fetchLiveLists() from pages/index.jsx but calling services in-process. */
 async function fetchLiveLists() {
-  const [phaohoaAll, phaohoaBb, giovangLive, khandaitvAll, khandaitvBb] = await Promise.all([
+  const [phaohoaAll, phaohoaBb, giovangLive, khandaitvAll, khandaitvBb, chuoichientvLive] = await Promise.all([
     safe(phaohoaService.getAllMatchesByTab('live', 'all', 50), 'phaohoa:all'),
     safe(phaohoaService.getAllMatchesByTab('live', 'basketball', 50), 'phaohoa:basketball'),
     safe(giovangService.getAllMatchesByTab('live'), 'giovang:live'),
     safe(khandaitvService.getAllMatchesByTab('live', 'all', 50), 'khandaitv:all'),
-    safe(khandaitvService.getAllMatchesByTab('live', 'basketball', 50), 'khandaitv:basketball')
+    safe(khandaitvService.getAllMatchesByTab('live', 'basketball', 50), 'khandaitv:basketball'),
+    safe(chuoichientvService.getAllMatchesByTab('live'), 'chuoichientv:live')
   ]);
 
   const normalize = (res) => (Array.isArray(res) ? res : (res?.matches || res?.data || []));
@@ -94,6 +105,7 @@ async function fetchLiveLists() {
   [phaohoaAll, phaohoaBb].forEach((res) => pushListNoFilter(res, 'phaohoa'));
   pushListNoFilter(giovangLive, 'giovang');
   [khandaitvAll, khandaitvBb].forEach((res) => pushListNoFilter(res, 'khandaitv'));
+  pushListNoFilter(chuoichientvLive, 'chuoichientv');
 
   return tagged;
 }
@@ -106,12 +118,13 @@ async function fetchLiveLists() {
  * moment the player actually opens the channel.
  */
 async function fetchUpcomingLists() {
-  const [phaohoaAll, phaohoaBb, giovangUpcoming, khandaitvAll, khandaitvBb] = await Promise.all([
+  const [phaohoaAll, phaohoaBb, giovangUpcoming, khandaitvAll, khandaitvBb, chuoichientvUpcoming] = await Promise.all([
     safe(phaohoaService.getAllMatchesByTab('upcoming', 'all', 50), 'phaohoa:upcoming:all'),
     safe(phaohoaService.getAllMatchesByTab('upcoming', 'basketball', 50), 'phaohoa:upcoming:basketball'),
     safe(giovangService.getAllMatchesByTab('upcoming'), 'giovang:upcoming'),
     safe(khandaitvService.getAllMatchesByTab('upcoming', 'all', 50), 'khandaitv:upcoming:all'),
-    safe(khandaitvService.getAllMatchesByTab('upcoming', 'basketball', 50), 'khandaitv:upcoming:basketball')
+    safe(khandaitvService.getAllMatchesByTab('upcoming', 'basketball', 50), 'khandaitv:upcoming:basketball'),
+    safe(chuoichientvService.getAllMatchesByTab('upcoming'), 'chuoichientv:upcoming')
   ]);
 
   const normalize = (res) => (Array.isArray(res) ? res : (res?.matches || res?.data || []));
@@ -136,6 +149,7 @@ async function fetchUpcomingLists() {
   [phaohoaAll, phaohoaBb].forEach((res) => pushListNoFilter(res, 'phaohoa'));
   pushListNoFilter(giovangUpcoming, 'giovang');
   [khandaitvAll, khandaitvBb].forEach((res) => pushListNoFilter(res, 'khandaitv'));
+  pushListNoFilter(chuoichientvUpcoming, 'chuoichientv');
 
   return tagged;
 }
@@ -161,6 +175,9 @@ async function resolveStreams(match) {
       } else if (source === 'khandaitv') {
         if (!matchId) return [];
         raw = await khandaitvService.getStreamLinks(matchId, match.sport || 'football');
+      } else if (source === 'chuoichientv') {
+        if (!matchId) return [];
+        raw = await chuoichientvService.getStreamLinks(matchId);
       } else if (source === 'giovang') {
         if (!liveUrl && !matchId) return [];
         const detail = await giovangService.getMatchDetail(liveUrl || matchId);

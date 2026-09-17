@@ -52,18 +52,20 @@ const SPORT_ALIASES = {
 const SOURCE_LABELS = {
   phaohoa: 'Phao Hoa TV',
   giovang: 'Gio Vang TV',
-  khandaitv: 'Khan Dai TV'
+  khandaitv: 'Khan Dai TV',
+  chuoichientv: 'Chuoi Chien TV'
 };
 
 const SOURCE_SHORT = {
   phaohoa: 'Pháo Hoa',
   giovang: 'Giờ Vàng',
-  khandaitv: 'Khán Đài'
+  khandaitv: 'Khán Đài',
+  chuoichientv: 'Chuối Chiên'
 };
 
 // Thứ tự nhóm theo nguồn dùng chung cho danh sách trên trang quét lẫn file
 // playlist .m3u, để cả hai nơi hiển thị nhất quán.
-export const SOURCE_GROUP_ORDER = ['phaohoa', 'giovang', 'khandaitv'];
+export const SOURCE_GROUP_ORDER = ['phaohoa', 'giovang', 'khandaitv', 'chuoichientv'];
 
 // Danh sách nguồn dùng để vẽ công tắc bật/tắt trên giao diện. Giữ đồng bộ
 // với SOURCE_GROUP_ORDER — mỗi nguồn 1 công tắc, người dùng tự chọn nguồn
@@ -80,15 +82,27 @@ export const SOURCE_GROUP_ORDER = ['phaohoa', 'giovang', 'khandaitv'];
 // khi domain Pháo Hoa gặp sự cố, Khán Đài không bị kéo theo. Vẫn cố tình để
 // thành 1 nguồn RIÊNG theo yêu cầu, nên có thể thấy trận trùng giữa Pháo
 // Hoa và Khán Đài (do chung backend) — đây là hành vi CHỦ Ý chứ không phải lỗi.
+// LƯU Ý (10/09/2026): Khán Đài vẫn KHÔNG lấy được dữ liệu — bị Cloudflare
+// chặn ở tầng IP máy chủ Vercel, đã thử cả trình duyệt headless +
+// puppeteer-extra-stealth đều không qua được. Vẫn giữ nguyên code/công tắc,
+// chỉ là hiện tại nguồn này sẽ luôn rỗng cho tới khi đổi domain khác hoặc
+// dùng dịch vụ vượt chặn trả phí.
+// FIX (17/09/2026 — theo yêu cầu): thêm Chuối Chiên TV
+// (chuoichientv.service.js), domain chuoichientv.link/live05.chuoichientv.me.
+// KHÁC HẲN backend với Pháo Hoa/Khán Đài — API riêng (api-v2.chuoichientv.net),
+// schema JSON gọn (blvs[].streams[].url có sẵn link .m3u8), gọi thẳng bằng
+// HTTP thường là được, KHÔNG bị Cloudflare chặn, KHÔNG cần trình duyệt
+// headless — đơn giản hơn hẳn 2 nguồn kia.
 export const SOURCE_TOGGLE_LIST = [
   { key: 'phaohoa', label: 'Pháo Hoa' },
   { key: 'giovang', label: 'Giờ Vàng' },
-  { key: 'khandaitv', label: 'Khán Đài' }
+  { key: 'khandaitv', label: 'Khán Đài' },
+  { key: 'chuoichientv', label: 'Chuối Chiên' }
 ];
 
 // Bump the key once so an old browser setting cannot hide every source after
 // the source list/status handling changes. New choices are still persisted.
-const SOURCE_TOGGLE_STORAGE_KEY = 'player-get:enabled-sources:v3';
+const SOURCE_TOGGLE_STORAGE_KEY = 'player-get:enabled-sources:v4';
 
 /** Mặc định: tất cả nguồn đều bật. */
 export function getDefaultEnabledSources() {

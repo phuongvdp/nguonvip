@@ -179,42 +179,11 @@ async function getBrowser() {
       // đĩa thay vì /dev/shm.
       '--disable-dev-shm-usage'
     ],
-    // FIX (11/09/2026 — "ERR_INSUFFICIENT_RESOURCES" khi mở lại trang nhiều
-    // lần trong cùng 1 lần chạy function): giảm kích thước viewport mặc
-    // định (trước 1366x768) để bớt RAM cho mỗi tab render — mỗi lần mở lại
-    // trang mới (xem fetchPageGlobal) đều tốn thêm 1 tab, RAM eo hẹp trên
-    // serverless nên giảm chỗ nào đỡ chỗ đó.
-    defaultViewport: { width: 1024, height: 640 },
+    defaultViewport: { width: 1366, height: 768 },
     executablePath,
     headless: chromium.headless ?? true,
   });
   return browserPromise;
-}
-
-// FIX (11/09/2026 — "ERR_INSUFFICIENT_RESOURCES" lặp lại ở các lần thử sau
-// trong cùng 1 lần chạy function, dù mỗi lần "frame chết" đã có cơ chế mở
-// lại từ đầu ở fetchPageGlobal): cơ chế "mở lại" trước đó chỉ XOÁ THAM
-// CHIẾU `browserPromise` (browserPromise = null) khi nghi browser hỏng, chứ
-// KHÔNG thực sự gọi browser.close() — tiến trình Chromium cũ (nếu vẫn còn
-// sống dở, chỉ hỏng ở tầng điều khiển) tiếp tục chiếm RAM/file-handle trong
-// nền, cộng dồn qua từng lần mở lại trong CÙNG 1 lần chạy function (vốn có
-// RAM giới hạn của môi trường serverless), tới lần thứ 4-5 thì hết sạch tài
-// nguyên → lỗi net::ERR_INSUFFICIENT_RESOURCES ngay cả ở bước goto tưởng
-// chừng đơn giản. Hàm này đóng HẲN tiến trình Chromium hiện tại (nếu có)
-// trước khi cho phép getBrowser() mở 1 tiến trình mới, đảm bảo tài nguyên
-// được thu hồi thật sự giữa các lần thử.
-async function closeBrowser() {
-  if (!browserPromise) return;
-  const pending = browserPromise;
-  browserPromise = null;
-  browserOpenedAt = 0;
-  try {
-    const browser = await pending;
-    await browser.close();
-  } catch {
-    // browser đã chết sẵn (không mở được/đã crash) hoặc đóng bị lỗi — không
-    // sao, coi như đã dọn xong, lần gọi getBrowser() kế tiếp sẽ mở mới.
-  }
 }
 
 /**
@@ -283,98 +252,36 @@ async function fetchApiViaBrowser(url, matchUrl, opts = {}) {
   }
 }
 
-// FIX (11/09/2026 — lỗi "Attempted to use detached Frame '<id>'" lặp lại
-// liên tục cho tới khi hết giờ, dù đã có cơ chế "bỏ qua mọi lỗi rồi thử
-// lại" bên dưới): đã phân biệt nhầm 2 loại lỗi khác nhau khi page.evaluate()
-// thất bại giữa lúc Cloudflare đang tự chuyển hướng nhiều lần —
-//   1) "Execution context was destroyed": frame VẪN CÒN SỐNG, chỉ đang
-//      chuyển trang dở dang — thử lại evaluate() trên CHÍNH page đó ở vòng
-//      lặp kế tiếp là hợp lý, vì rất có thể trang đã chuyển xong lúc đó.
-//   2) "Attempted to use detached Frame" (và các lỗi tương tự như "Session
-//      closed"/"Target closed"/"Protocol error"): frame (hoặc cả page) đã bị
-//      HUỶ HẲN, không còn tồn tại để evaluate() lên nữa — đây là lỗi VĨNH
-//      VIỄN đối với page hiện tại, không phải tạm thời. Code cũ vẫn coi 2
-//      loại này như nhau ("bỏ qua, thử lại"), nên cứ gọi evaluate() lặp lại
-//      trên đúng 1 frame đã chết cho tới hết `overallTimeoutMs`, luôn ra
-//      đúng 1 lỗi đó — không bao giờ có cơ hội thành công.
-// Giải pháp: nhận diện riêng nhóm lỗi (2), dừng vòng lặp NGAY (khỏi phí thời
-// gian còn lại của overallTimeoutMs) và báo `fatal: true` cho hàm gọi
-// (fetchPageGlobal) biết để mở 1 page/trang HOÀN TOÀN MỚI rồi thử lại, thay
-// vì tiếp tục dùng page đã chết.
-function isFatalFrameError(message) {
-  const m = String(message || '');
-  return /detached Frame/i.test(m)
-    || /Session closed/i.test(m)
-    || /Target closed/i.test(m)
-    || /Protocol error/i.test(m)
-    || /Requesting main frame too early/i.test(m)
-    || /Connection closed/i.test(m);
-}
-
 /**
- * Chờ page.evaluate(expr) ra kết quả khác rỗng, dùng page.waitForFunction()
- * có sẵn của Puppeteer thay vì tự viết vòng lặp gọi page.evaluate() thủ công.
- *
- * FIX (11/09/2026 — QUAN TRỌNG, thay hẳn cách chờ dữ liệu): bản cũ tự viết 1
- * vòng `while` gọi `page.evaluate()` lặp lại mỗi `intervalMs`. Đã thử vá đủ
- * kiểu ở tầng "mở lại page/browser khi gặp lỗi" (xem các ghi chú FIX phía
- * trên) nhưng lỗi "Attempted to use detached Frame" vẫn lặp lại Y HỆT trên
- * CẢ 3 lượt, kể cả sau khi mở hẳn browser mới — tức nguyên nhân KHÔNG phải
- * browser/page bị hỏng, mà là cách polling tự viết tay không biết gì về
- * vòng đời điều hướng của Puppeteer: đúng lúc Cloudflare tự chuyển trang
- * (bình thường với "Just a moment..." — có thể chuyển hướng nhiều lần liên
- * tiếp), lệnh `page.evaluate()` gọi thủ công bị bắt gặp ĐÚNG khoảnh khắc
- * frame vừa bị Puppeteer thay bằng frame mới, nên luôn báo lỗi detached dù
- * bản thân page vẫn hoàn toàn khoẻ mạnh và sắp load xong.
- * `page.waitForFunction()` giải quyết đúng vấn đề này: nó tạo 1 "wait task"
- * gắn với world của frame, TỰ ĐỘNG lắng nghe sự kiện đổi execution context
- * (do điều hướng) và tự gắn lại/chạy lại điều kiện trên context MỚI — không
- * ném lỗi ra ngoài khi frame bị thay do điều hướng bình thường. Chỉ khi nào
- * page/browser thật sự chết (crash, đóng...) thì mới lỗi thật, lúc đó vẫn
- * cần isFatalFrameError để phân biệt như trước.
- *
- * @returns {Promise<{ value: any, fatal: boolean }>} `fatal: true` nghĩa là
- *   page hiện tại không dùng lại được nữa — bên gọi cần mở page/browser mới.
+ * Liên tục thử page.evaluate(expr) mỗi `intervalMs` cho tới khi ra kết quả
+ * khác rỗng hoặc hết `overallTimeoutMs` — thay vì đoán chính xác lúc nào
+ * trang chuyển hướng xong (khó đoán khi Cloudflare có thể tự chuyển trang
+ * nhiều lần liên tiếp), cứ bỏ qua MỌI lỗi giữa chừng (kể cả "Execution
+ * context was destroyed" do đang chuyển trang) và thử lại đến khi nào được
+ * thì thôi, trong giới hạn thời gian cho phép.
  */
 async function pollPageEvaluate(page, expr, overallTimeoutMs, intervalMs = 1000) {
-  if (page.isClosed()) {
-    return { value: null, fatal: true };
-  }
-  if (overallTimeoutMs <= 0) {
-    return { value: null, fatal: false };
-  }
-
-  let handle;
-  try {
-    handle = await page.waitForFunction(
-      (e) => {
+  const deadline = Date.now() + overallTimeoutMs;
+  let lastError;
+  while (Date.now() < deadline) {
+    try {
+      const val = await page.evaluate((e) => {
         try {
           // eslint-disable-next-line no-eval
           const v = eval(e);
-          if (v === undefined || v === null) return false;
-          // Làm sạch ngay trong ngữ cảnh trang (vd bỏ giá trị không
-          // serialize được qua CDP) trước khi Puppeteer đọc ra ngoài, giống
-          // hệt cách bản cũ (page.evaluate thủ công) từng làm.
-          return JSON.parse(JSON.stringify(v));
+          return v === undefined ? null : JSON.parse(JSON.stringify(v));
         } catch {
-          return false; // biểu thức chưa evaluate được (trang chưa hydrate xong) — coi như chưa có, thử lại ở lần poll kế
+          return null;
         }
-      },
-      { timeout: overallTimeoutMs, polling: intervalMs },
-      expr
-    );
-    const value = await handle.jsonValue().catch(() => null);
-    return { value: value || null, fatal: false };
-  } catch (error) {
-    // TimeoutError (hết giờ, trang khoẻ nhưng đúng là chưa/không có dữ liệu
-    // cần) KHÔNG được coi là fatal — khác hẳn với browser/page thật sự chết
-    // (Target closed/Session closed/Protocol error...).
-    const fatal = isFatalFrameError(error.message);
-    console.error('pollPageEvaluate: hết giờ/frame chết, lỗi cuối cùng:', error.message);
-    return { value: null, fatal };
-  } finally {
-    if (handle) await handle.dispose().catch(() => {});
+      }, expr);
+      if (val) return val;
+    } catch (error) {
+      lastError = error; // context bị huỷ do đang chuyển trang — bỏ qua, thử lại
+    }
+    await new Promise((resolve) => setTimeout(resolve, intervalMs));
   }
+  if (lastError) console.error('pollPageEvaluate: hết giờ, lỗi cuối cùng:', lastError.message);
+  return null;
 }
 
 /**
@@ -390,141 +297,36 @@ async function pollPageEvaluate(page, expr, overallTimeoutMs, intervalMs = 1000)
  */
 async function fetchPageGlobal(url, opts = {}) {
   const { evalExpr = 'window.__NUXT__', timeoutMs = 25000, userAgent } = opts;
-  const overallDeadline = Date.now() + timeoutMs;
-  let status = 0;
-  let lastError;
-  let attempt = 0;
-  // FIX (11/09/2026 — "ERR_INSUFFICIENT_RESOURCES" ở lần thử 4-5): giới hạn
-  // CỨNG số lần mở lại, KHÔNG chỉ dựa vào còn dư `timeoutMs` hay không — dù
-  // vẫn còn thời gian, mở quá nhiều lần trong cùng 1 lần chạy function trên
-  // môi trường RAM giới hạn tự nó gây cạn tài nguyên (xem closeBrowser() ở
-  // trên). 3 lần là đủ cho các trường hợp Cloudflare chuyển hướng dở dang
-  // thật sự, khỏi cố thêm khi rõ ràng môi trường đang thiếu tài nguyên.
-  const MAX_ATTEMPTS = 3;
+  const browser = await getBrowser();
+  const page = await browser.newPage();
+  try {
+    if (userAgent) await page.setUserAgent(userAgent);
+    await page.setExtraHTTPHeaders({ 'Accept-Language': 'vi-VN,vi;q=0.9,en-US;q=0.8' });
 
-  while (Date.now() < overallDeadline && attempt < MAX_ATTEMPTS) {
-    attempt += 1;
-    const remainingMs = overallDeadline - Date.now();
-    if (remainingMs < 3000) break; // không còn đủ thời gian để mở lại (có thể cả browser) cho tử tế
-
-    let browser;
+    let status = 0;
     try {
-      browser = await getBrowser();
+      // Giới hạn riêng bước goto ngắn hơn tổng thời gian cho phép — phần
+      // "chờ Cloudflare tự giải + chuyển hướng" quan trọng hơn nằm ở bước
+      // pollPageEvaluate ngay dưới, cần nhường phần lớn thời gian cho nó.
+      const gotoTimeoutMs = Math.min(timeoutMs, 15000);
+      const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: gotoTimeoutMs });
+      status = response?.status() || 0;
     } catch (error) {
-      lastError = error;
-      break; // mở browser lỗi hẳn thì không có gì để thử lại nữa
+      // "Execution context was destroyed"/timeout ngay trong lúc goto cũng
+      // có thể xảy ra nếu Cloudflare tự chuyển hướng liên tục — bỏ qua, vẫn
+      // thử đọc dữ liệu ở bước dưới vì page có thể đã load được trang thật.
+      console.error('fetchPageGlobal: lỗi lúc goto (bỏ qua, thử đọc tiếp):', error.message);
     }
 
-    let page;
-    try {
-      page = await browser.newPage();
-    } catch (error) {
-      // Mở page mới cũng lỗi (vd "Session closed"/"Target closed") — dấu
-      // hiệu chính browser instance đang dùng lại đã hỏng dù
-      // browser.isConnected() vẫn báo true. Đóng HẲN nó (giải phóng RAM
-      // thật sự, xem closeBrowser) để lần getBrowser() kế tiếp mở 1 browser
-      // hoàn toàn mới, sạch sẽ.
-      lastError = error;
-      await closeBrowser();
-      continue;
-    }
+    // Cloudflare "Just a moment..." có thể tự chuyển hướng NHIỀU LẦN liên
+    // tiếp — không đoán chính xác lúc nào xong, cứ thử đọc liên tục cho
+    // tới khi ra dữ liệu hoặc hết giờ.
+    const data = await pollPageEvaluate(page, evalExpr, timeoutMs, 1000);
 
-    let forceBrowserRestart = false;
-    try {
-      if (userAgent) await page.setUserAgent(userAgent);
-      await page.setExtraHTTPHeaders({ 'Accept-Language': 'vi-VN,vi;q=0.9,en-US;q=0.8' });
-
-      // FIX (11/09/2026 — "Target closed"/"Protocol error" lặp lại ngay cả
-      // trên page MỚI mở, dấu hiệu chính TIẾN TRÌNH Chromium đang bị hệ điều
-      // hành OOM-kill/crash giữa chừng chứ không chỉ 1 page/frame lẻ bị lỗi):
-      // trang này chỉ cần đọc window.__NUXT__, không cần hiển thị hình ảnh gì
-      // — chặn hẳn các loại tài nguyên nặng (ảnh, font, video/audio) ngay từ
-      // đầu để giảm đáng kể RAM/CPU Chromium phải tốn cho mỗi lần thử, giảm
-      // nguy cơ bị crash giữa chừng do thiếu tài nguyên trên môi trường
-      // serverless. Vẫn giữ nguyên CSS/JS vì trang có thể cần JS để tự chạy
-      // (và lỡ Turnstile/Cloudflare cần đo style nào đó).
-      await page.setRequestInterception(true);
-      const onRequest = (req) => {
-        const type = req.resourceType();
-        if (type === 'image' || type === 'font' || type === 'media') {
-          req.abort().catch(() => {});
-        } else {
-          req.continue().catch(() => {});
-        }
-      };
-      page.on('request', onRequest);
-
-      try {
-        // Giới hạn riêng bước goto ngắn hơn tổng thời gian cho phép — phần
-        // "chờ Cloudflare tự giải + chuyển hướng" quan trọng hơn nằm ở bước
-        // pollPageEvaluate ngay dưới, cần nhường phần lớn thời gian cho nó.
-        const gotoTimeoutMs = Math.min(remainingMs, 15000);
-        const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: gotoTimeoutMs });
-        status = response?.status() || 0;
-      } catch (error) {
-        lastError = error;
-        // FIX (11/09/2026): "net::ERR_INSUFFICIENT_RESOURCES" (hoặc tương
-        // tự: hết bộ nhớ/handle của hệ điều hành) ngay ở bước goto là dấu
-        // hiệu BẢN THÂN trình duyệt/hệ thống đang cạn tài nguyên — KHÁC với
-        // "Execution context was destroyed" (chỉ là Cloudflare đang chuyển
-        // hướng dở dang, page vẫn khoẻ). Với nhóm lỗi cạn tài nguyên, đọc
-        // tiếp dữ liệu ở dưới chắc chắn vô ích (trang chưa từng tải được gì)
-        // và có thể càng làm tệ hơn — đánh dấu cần đóng hẳn browser trước
-        // khi thử lại, thay vì chỉ coi là nhiễu rồi bỏ qua như trước.
-        if (/ERR_INSUFFICIENT_RESOURCES|ERR_OUT_OF_MEMORY|ERR_PROCESS_CRASHED/i.test(error.message)) {
-          forceBrowserRestart = true;
-          console.error(`fetchPageGlobal: cạn tài nguyên lúc goto (lần ${attempt}):`, error.message);
-        } else {
-          // Các lỗi goto khác (timeout, "Execution context was destroyed"
-          // do Cloudflare tự chuyển hướng...) có thể tạm thời — bỏ qua, vẫn
-          // thử đọc dữ liệu ở bước dưới vì page có thể đã load được trang
-          // thật rồi.
-          console.error(`fetchPageGlobal: lỗi lúc goto (lần ${attempt}, bỏ qua, thử đọc tiếp):`, error.message);
-        }
-      }
-
-      if (!forceBrowserRestart) {
-        // Cloudflare "Just a moment..." có thể tự chuyển hướng NHIỀU LẦN
-        // liên tiếp — không đoán chính xác lúc nào xong, cứ thử đọc liên
-        // tục cho tới khi ra dữ liệu, hết giờ, hoặc frame chết hẳn (fatal).
-        const pollBudget = Math.max(0, overallDeadline - Date.now());
-        const { value: data, fatal } = await pollPageEvaluate(page, evalExpr, pollBudget, 1000);
-
-        if (data) return { data, status };
-
-        if (!fatal) {
-          // Hết giờ nhưng KHÔNG phải do frame chết hẳn (vd trang tải được
-          // nhưng đúng là chưa có dữ liệu cần) — mở lại từ đầu cũng vô ích,
-          // dừng luôn thay vì lặp thêm.
-          break;
-        }
-        // FIX (11/09/2026): "Attempted to use detached Frame"/"Target
-        // closed"/"Protocol error" ở đây không còn là dấu hiệu CHỈ 1
-        // page/frame lẻ bị lỗi — đã quan sát thực tế lỗi này lặp lại NGAY
-        // CẢ trên page hoàn toàn mới vừa mở ở lượt sau, tức chính tiến
-        // trình Chromium (browser) đang chết dần/bị crash giữa chừng. Mở
-        // lại page mới trên CÙNG browser đó (như trước đây) là vô ích — cần
-        // đóng hẳn browser và mở browser MỚI HOÀN TOÀN ở lượt kế tiếp.
-        forceBrowserRestart = true;
-        console.error(`fetchPageGlobal: frame chết giữa chừng (lần ${attempt}), sẽ mở browser mới nếu còn thời gian...`);
-      }
-    } finally {
-      await page.close().catch(() => {});
-    }
-
-    if (forceBrowserRestart) {
-      // FIX (11/09/2026): đóng HẲN browser (giải phóng RAM thật sự, xem
-      // closeBrowser) rồi chờ 1 nhịp ngắn trước khi thử lại — cho hệ điều
-      // hành thời gian thu hồi bộ nhớ/handle của tiến trình Chromium vừa bị
-      // đóng, tránh mở lại quá nhanh khi tài nguyên chưa kịp giải phóng
-      // xong (đúng lúc gây ra ERR_INSUFFICIENT_RESOURCES ban đầu).
-      await closeBrowser();
-      await new Promise((resolve) => setTimeout(resolve, 500));
-    }
+    return { data, status };
+  } finally {
+    await page.close().catch(() => {});
   }
-
-  if (lastError) console.error('fetchPageGlobal: hết giờ/hết lượt thử, lỗi cuối cùng:', lastError.message);
-  return { data: null, status };
 }
 
-module.exports = { fetchRenderedHtml, fetchApiViaBrowser, fetchPageGlobal, getBrowser, closeBrowser, ensureSharedLibsExtracted };
+module.exports = { fetchRenderedHtml, fetchApiViaBrowser, fetchPageGlobal, getBrowser, ensureSharedLibsExtracted };
