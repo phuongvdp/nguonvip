@@ -9,10 +9,12 @@
  * để copy sang VLC/app IPTV ngoài, vì các app đó chạy ngoài trình duyệt nên
  * không bị CORS chi phối, cứ dùng thẳng link gốc là phát được bình thường.
  */
-export function buildProxyStreamUrl(url) {
+export function buildProxyStreamUrl(url, source) {
   if (!url) return url;
   // Đã là link nội bộ (route tương đối của chính app, ví dụ đã được resolve
   // qua proxy từ trước) thì không bọc chồng thêm lần nữa.
   if (url.startsWith('/')) return url;
-  return `/api/proxy/hls?url=${encodeURIComponent(url)}`;
+  const qs = new URLSearchParams({ url });
+  if (source) qs.set('source', source);
+  return `/api/proxy/hls?${qs.toString()}`;
 }

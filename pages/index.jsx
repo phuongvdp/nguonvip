@@ -17,11 +17,18 @@ import { cn } from '@/lib/utils';
 // browser không tự phát được (đặc biệt FLV, và HLS ngoài Safari), xem
 // components/VideoPlayer.jsx để biết chi tiết. Giờ trỏ vào /watch, trang có
 // player thật (hls.js/flv.js).
+// FIX (17/09/2026 — "you do not have permission to access the requested
+// resource" khi phát nguồn Chuối Chiên): route /api/proxy/hls trước đây gắn
+// CỨNG Referer theo domain Pháo Hoa cho MỌI nguồn — CDN của nguồn khác
+// (edgemaxcdn.org, hdplaylink.com...) kiểm tra Referer, nhận sai nên từ
+// chối. Truyền thêm `source` để proxy biết chọn đúng Referer — xem
+// pages/api/proxy/hls.js.
 function buildWatchHref(match, stream) {
   const params = new URLSearchParams({
     url: stream.playUrl || '',
     format: stream.format || '',
-    name: stream.name || ''
+    name: stream.name || '',
+    source: match.source || ''
   });
   // Trận live Gà Vàng/Xôi Lạc chưa có link resolve sẵn (xem pages/api/
   // matches.js) — truyền URL resolver qua param riêng `resolve` thay vì

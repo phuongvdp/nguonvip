@@ -53,9 +53,10 @@ function useResolvedStream(resolveUrl) {
 
 export default function WatchPage() {
   const router = useRouter();
-  const { url, format, name, home, away, resolve } = router.query;
+  const { url, format, name, home, away, resolve, source } = router.query;
   const directUrl = typeof url === 'string' ? url : '';
   const resolveUrl = typeof resolve === 'string' ? resolve : '';
+  const streamSource = typeof source === 'string' ? source : '';
 
   const resolved = useResolvedStream(resolveUrl);
   const streamUrl = resolveUrl ? resolved.url : directUrl;
@@ -92,7 +93,7 @@ export default function WatchPage() {
           </div>
         ) : (
           <>
-            <VideoPlayer url={streamUrl} format={streamFormat} />
+            <VideoPlayer url={streamUrl} format={streamFormat} source={streamSource} />
             <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-muted-foreground">
               <span>
                 {name ? `Server: ${name} · ` : ''}Không xem được trên trình duyệt? Dán link này vào VLC/app IPTV:

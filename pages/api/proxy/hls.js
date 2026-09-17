@@ -34,15 +34,27 @@
 const DEFAULT_UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 
-// Referer mặc định lấy theo domain trang nguồn (giống cách phaohoa.service.js
-// đang set Referer cho các API JSON) — nhiều CDN chặn hotlink dựa trên
-// Referer của TRANG WEB gốc chứ không phải domain CDN media, nên set cứng
-// domain trang thay vì đoán theo domain của chính link CDN.
-const REFERER_FALLBACK =
-  process.env.PHAOHOA_DOMAIN || process.env.PHAOHOA_BASE_URL || 'https://phaohoa1.live';
+// FIX (17/09/2026 — "you do not have permission to access the requested
+// resource" khi phát nguồn Chuối Chiên, và tiềm ẩn tương tự cho Giờ Vàng/
+// Khán Đài): trước đây route này gắn CỨNG 1 Referer duy nhất (domain Pháo
+// Hoa) cho MỌI nguồn — sai với CDN của các nguồn khác (vd edgemaxcdn.org,
+// hdplaylink.com của Chuối Chiên), bị chặn vì nhiều CDN kiểm tra Referer
+// khớp đúng domain trang gốc mới cho phát (chống hotlink). Giờ chọn Referer
+// theo `source` (truyền từ buildProxyStreamUrl -> VideoPlayer -> đây) —
+// vẫn giữ Pháo Hoa làm mặc định để không phá vỡ link cũ/link không rõ
+// nguồn (playlist .m3u tĩnh tải về từ trước, v.v).
+const REFERER_BY_SOURCE = {
+  phaohoa: process.env.PHAOHOA_DOMAIN || process.env.PHAOHOA_BASE_URL || 'https://phaohoa1.live',
+  giovang: process.env.GIOVANG_DOMAIN || 'https://giovang.city',
+  khandaitv: process.env.KHANDAITV_DOMAIN || process.env.KHANDAITV_BASE_URL || 'https://khandai3.link',
+  chuoichientv: 'https://live05.chuoichientv.me'
+};
+const REFERER_FALLBACK = REFERER_BY_SOURCE.phaohoa;
 
-function buildProxyPath(absoluteUrl) {
-  return `/api/proxy/hls?url=${encodeURIComponent(absoluteUrl)}`;
+function buildProxyPath(absoluteUrl, source) {
+  const qs = new URLSearchParams({ url: absoluteUrl });
+  if (source) qs.set('source', source);
+  return `/api/proxy/hls?${qs.toString()}`;
 }
 
 function resolveAbsolute(baseUrl, maybeRelative) {
@@ -56,28 +68,28 @@ function resolveAbsolute(baseUrl, maybeRelative) {
 // Viết lại URI="..." trong các dòng thẻ như #EXT-X-KEY, #EXT-X-MEDIA để
 // cũng đi qua proxy (nếu không, trình duyệt sẽ tự tải thẳng key/audio phụ
 // từ CDN gốc và lại dính đúng lỗi CORS y như link .m3u8 chính).
-function rewriteUriAttr(line, baseUrl) {
+function rewriteUriAttr(line, baseUrl, source) {
   return line.replace(/URI="([^"]+)"/i, (match, uri) => {
     const abs = resolveAbsolute(baseUrl, uri);
-    return `URI="${buildProxyPath(abs)}"`;
+    return `URI="${buildProxyPath(abs, source)}"`;
   });
 }
 
-function rewriteM3u8(text, baseUrl) {
+function rewriteM3u8(text, baseUrl, source) {
   const lines = text.split(/\r?\n/);
   const rewritten = lines.map((line) => {
     const trimmed = line.trim();
     if (!trimmed) return line;
 
     if (trimmed.startsWith('#')) {
-      return /URI="/i.test(trimmed) ? rewriteUriAttr(line, baseUrl) : line;
+      return /URI="/i.test(trimmed) ? rewriteUriAttr(line, baseUrl, source) : line;
     }
 
     // Dòng không bắt đầu bằng "#" -> link segment (.ts/.aac/...) hoặc link
     // playlist con (sau #EXT-X-STREAM-INF) — cả 2 trường hợp đều cần bọc
     // qua proxy, kể cả khi link vốn đã là URL tuyệt đối.
     const abs = resolveAbsolute(baseUrl, trimmed);
-    return buildProxyPath(abs);
+    return buildProxyPath(abs, source);
   });
   return rewritten.join('\n');
 }
@@ -100,6 +112,8 @@ export default async function handler(req, res) {
   }
 
   const target = String(req.query.url || '');
+  const source = String(req.query.source || '');
+  const referer = REFERER_BY_SOURCE[source] || REFERER_FALLBACK;
   if (!/^https?:\/\//i.test(target)) {
     res.status(400).json({ success: false, message: 'Thiếu hoặc sai tham số "url" (phải là link http/https đầy đủ).' });
     return;
@@ -109,7 +123,7 @@ export default async function handler(req, res) {
     const upstreamHeaders = {
       'User-Agent': DEFAULT_UA,
       Accept: '*/*',
-      Referer: REFERER_FALLBACK
+      Referer: referer
     };
     if (req.headers.range) upstreamHeaders.Range = req.headers.range;
 
@@ -146,7 +160,7 @@ export default async function handler(req, res) {
         });
         return;
       }
-      const rewritten = rewriteM3u8(text, finalUrl);
+      const rewritten = rewriteM3u8(text, finalUrl, source);
       res.setHeader('Content-Type', 'application/vnd.apple.mpegurl');
       res.setHeader('Cache-Control', 'no-store');
       res.status(200).send(rewritten);
