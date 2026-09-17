@@ -80,7 +80,7 @@ import { buildProxyStreamUrl } from '@/src/utils/proxyUrl';
  */
 const STUCK_TIMEOUT_MS = 8000;
 
-export default function VideoPlayer({ url, format }) {
+export default function VideoPlayer({ url, format, source }) {
   const videoRef = useRef(null);
   const playerRef = useRef(null); // { play: () => Promise } — điều khiển player đang hoạt động (video hoặc flvPlayer)
   const [error, setError] = useState('');
@@ -183,7 +183,7 @@ export default function VideoPlayer({ url, format }) {
       // Nhận diện định dạng dựa trên URL GỐC (url) như cũ — chỉ đổi sang
       // link đã bọc proxy tại đúng điểm đưa cho player thực sự phát
       // (playbackUrl), tránh làm sai logic nhận diện .flv/.m3u8 ở trên.
-      const playbackUrl = buildProxyStreamUrl(url);
+      const playbackUrl = buildProxyStreamUrl(url, source);
 
       if (isFlv) {
         const mod = await import('flv.js');
@@ -296,7 +296,7 @@ export default function VideoPlayer({ url, format }) {
     };
     // Chỉ rebuild player khi URL/format thực sự đổi (đổi trận/đổi server) —
     // KHÔNG rebuild chỉ vì bấm nút "play thủ công" (xem nút ▶ bên dưới).
-  }, [url, format]);
+  }, [url, format, source]);
 
   return (
     <div className="relative aspect-video w-full overflow-hidden rounded-lg bg-black">
