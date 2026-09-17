@@ -30,6 +30,17 @@ class ChuoiChienTvService {
         'Referer': 'https://live05.chuoichientv.me/'
       }
     });
+    // FIX (17/09/2026 — "các trận đang live nguồn Chuối Chiên không xem
+    // được"): findRawMatch() bên dưới gọi 1 endpoint chi tiết RIÊNG
+    // (/matches/external/{id}) để lấy lại link stream cho 1 trận — nếu
+    // endpoint đó lỗi/timeout/đổi schema thì trận live mất sạch nút ▶, dù
+    // list `/matches?type=live` NGAY TRƯỚC ĐÓ đã trả sẵn đầy đủ BLV/link
+    // rồi (xem normalizeMatch — commentators dựng thẳng từ m.blvs trong
+    // response danh sách). Giữ 1 cache nhỏ trong bộ nhớ (raw match theo
+    // externalId, ghi đè mỗi lần fetchList) làm phương án DỰ PHÒNG: nếu gọi
+    // endpoint chi tiết thất bại, dùng lại đúng dữ liệu vừa quét được thay
+    // vì trả về rỗng.
+    this._rawMatchCache = new Map();
   }
 
   detectCdn(url) {
@@ -145,7 +156,14 @@ class ChuoiChienTvService {
   async fetchList(type, page = 1, limit = 500) {
     try {
       const { data } = await this.client.get('/matches', { params: { type, page, limit, _t: Date.now() } });
-      return data?.matches || [];
+      const list = data?.matches || [];
+      // Ghi lại từng trận thô vào cache dự phòng cho findRawMatch() — xem
+      // chú thích FIX 17/09/2026 ở constructor.
+      for (const m of list) {
+        const key = m?.externalId || m?._id;
+        if (key) this._rawMatchCache.set(String(key), m);
+      }
+      return list;
     } catch (error) {
       console.error(`Error fetching ChuoiChienTV list (type=${type}):`, error.message);
       return [];
@@ -185,11 +203,15 @@ class ChuoiChienTvService {
     if (!cleanId) return null;
     try {
       const { data } = await this.client.get(`/matches/external/${cleanId}`, { params: { _t: Date.now() } });
-      return data?.data || null;
+      const detail = data?.data || null;
+      if (detail) return detail;
     } catch (error) {
       console.error('Error fetching ChuoiChienTV match detail:', error.message);
-      return null;
     }
+    // FIX 17/09/2026: endpoint chi tiết lỗi/rỗng -> dùng lại bản ghi thô đã
+    // có sẵn từ lần quét danh sách gần nhất (xem cache trong fetchList())
+    // thay vì trả về null (mất nút ▶ dù dữ liệu cần thiết vốn đã có).
+    return this._rawMatchCache.get(cleanId) || null;
   }
 
   async getStreamLinks(matchId) {

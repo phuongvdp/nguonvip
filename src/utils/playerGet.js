@@ -324,14 +324,33 @@ export function normalizeStreamList(list = []) {
     .filter((s) => isPlayableStreamUrl(s.playUrl || s.m3u8Url));
 }
 
-/** Extract streams already present on Phaohoa list cards. */
+/**
+ * Extract streams already present on the list-card object, without doing a
+ * second network round-trip to fetch match detail.
+ *
+ * FIX (17/09/2026 — "các trận đang live nguồn Chuối Chiên không xem
+ * được"): resolveStreams() trong playlistBuilder.service.js gọi hàm này
+ * TRƯỚC TIÊN; nếu trả về rỗng mới rơi xuống nhánh gọi riêng
+ * chuoichientvService.getStreamLinks(matchId) — hàm đó lại gọi
+ * findRawMatch() để fetch THÊM 1 LẦN NỮA sang API ngoài
+ * (`/matches/external/{id}`) chỉ để lấy đúng cái danh sách BLV/link stream
+ * mà lần gọi danh sách trận ban đầu (`/matches?type=live`) ĐÃ CÓ SẴN rồi
+ * (xem chuoichientv.service.js — normalizeMatch() dựng `commentators` trực
+ * tiếp từ `m.blvs` ngay trong response danh sách). Lần gọi thứ 2 này không
+ * cần thiết và là điểm lỗi thêm vô ích (endpoint riêng, có thể sai id/timeout
+ * /đổi schema) — mỗi khi nó lỗi thì match live mất sạch nút ▶ dù dữ liệu
+ * cần thiết đã nằm sẵn trong tay. Trước đây hàm này CHỈ áp dụng lối tắt này
+ * cho nguồn 'phaohoa' — giờ thêm 'chuoichientv' vào vì nguồn này cũng trả
+ * sẵn đầy đủ link stream ngay trong danh sách, y hệt Pháo Hoa, không cần
+ * gọi chi tiết riêng.
+ */
 export function streamsFromMatchCard(match) {
   if (Array.isArray(match?.streams) && match.streams.length) {
     const list = normalizeStreamList(match.streams);
     return list.length ? list : null;
   }
 
-  if (match?.source !== 'phaohoa') return null;
+  if (match?.source !== 'phaohoa' && match?.source !== 'chuoichientv') return null;
 
   const fromCommentators = (match.commentators || match.streamers || [])
     .filter((c) => c.streamUrl || c.link || c.m3u8Url)
