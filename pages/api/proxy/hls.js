@@ -117,10 +117,49 @@ function isHotlinkBlockStatus(status) {
   return status === 401 || status === 403 || status === 451;
 }
 
+// FIX 3 (17/09/2026 — ĐÃ deploy bản thử nhiều Referer/Origin ở FIX 2,
+// người dùng xác nhận VẪN 403 y hệt): ứng viên cuối cùng ở FIX 2 là "không
+// gửi Referer/Origin" — CDN vẫn chặn ngay cả khi không gửi Referer nào cả.
+// Điều này gần như loại bỏ khả năng đây là chặn theo Referer/Origin (nếu
+// chặn theo Referer, request KHÔNG có Referer thường sẽ lọt qua, vì hotlink
+// filter kiểu đó chỉ so khớp khi header tồn tại). Nhiều khả năng hơn: CDN
+// chặn theo IP/dải mạng của Vercel (nhiều site phim/thể thao "lậu" ở VN cấu
+// hình chặn thẳng dải IP datacenter — AWS/Vercel/GCP — chỉ cho phép IP dân
+// dụng thật, không header nào sửa được việc này từ phía server), hoặc yêu
+// cầu 1 cơ chế xác thực khác hẳn (cookie phiên, token ký kèm theo link mà
+// list API chưa trả về...). Không có quyền truy cập trực tiếp CDN này để
+// kiểm chứng giả thuyết nào đúng, nên KHÔNG đoán thêm mù mờ nữa — thay vào
+// đó, khi mọi ứng viên đều thất bại, gói lại toàn bộ chi tiết từng lần thử
+// (mã trạng thái, vài header quan trọng CDN trả về, đoạn đầu nội dung body
+// nếu có — nhiều CDN chặn bot trả kèm trang lỗi HTML/JSON nêu rõ lý do) và
+// đính kèm thẳng vào JSON lỗi trả về trình duyệt (KHÔNG chỉ log phía server
+// — vì không chắc người dùng có quyền xem Vercel function logs), để chỉ
+// cần mở tab Network, xem Response của request bị lỗi là có ngay bằng
+// chứng thật, thay vì tiếp tục đoán mò.
+async function describeFailedAttempt(referer, response, error) {
+  if (error) {
+    return { referer: referer || '(không gửi)', error: error.message || String(error) };
+  }
+  let bodySnippet = '';
+  try {
+    bodySnippet = (await response.text()).slice(0, 300);
+  } catch {
+    bodySnippet = '(không đọc được body)';
+  }
+  const headerKeys = ['server', 'cf-ray', 'cf-mitigated', 'via', 'x-cache', 'www-authenticate', 'content-type'];
+  const headers = {};
+  for (const key of headerKeys) {
+    const value = response.headers.get(key);
+    if (value) headers[key] = value;
+  }
+  return { referer: referer || '(không gửi)', status: response.status, headers, bodySnippet };
+}
+
 async function fetchUpstreamWithRefererFallback(target, source, rangeHeader) {
   const candidates = refererCandidatesFor(source, target);
   let lastResponse = null;
   let lastError = null;
+  const attempts = [];
 
   for (const referer of candidates) {
     const upstreamHeaders = {
@@ -143,14 +182,28 @@ async function fetchUpstreamWithRefererFallback(target, source, rangeHeader) {
         rememberWorkingReferer(target, referer);
         return response;
       }
+      // Đọc + lưu chi tiết TRƯỚC khi mất response (clone để không phá luồng
+      // body gốc, dù ở đây response này sẽ bị bỏ qua nên clone hay không
+      // không ảnh hưởng logic thử tiếp).
+      attempts.push(await describeFailedAttempt(referer, response.clone()));
       lastResponse = response;
     } catch (err) {
+      attempts.push(await describeFailedAttempt(referer, null, err));
       lastError = err;
     }
   }
 
-  if (lastResponse) return lastResponse;
-  throw lastError || new Error('Không có Referer nào gọi được tới nguồn phát');
+  console.error('[api/proxy/hls] Mọi Referer đều thất bại | target:', target, '| chi tiết:', JSON.stringify(attempts));
+
+  if (lastResponse) {
+    const debugError = new Error(`Nguồn phát chặn tất cả ${attempts.length} kiểu Referer đã thử`);
+    debugError.blockedResponse = lastResponse;
+    debugError.debugAttempts = attempts;
+    throw debugError;
+  }
+  const finalError = lastError || new Error('Không có Referer nào gọi được tới nguồn phát');
+  finalError.debugAttempts = attempts;
+  throw finalError;
 }
 
 function buildProxyPath(absoluteUrl, source) {
@@ -284,9 +337,14 @@ export default async function handler(req, res) {
     res.end();
   } catch (err) {
     console.error('[api/proxy/hls]', err?.message, '| target:', target);
-    res.status(502).json({
+    const status = err?.blockedResponse?.status || 502;
+    res.status(status).json({
       success: false,
-      message: 'Không lấy được dữ liệu từ nguồn phát: ' + (err?.message || 'lỗi không xác định')
+      message: 'Không lấy được dữ liệu từ nguồn phát: ' + (err?.message || 'lỗi không xác định'),
+      // Chi tiết từng lần thử Referer/Origin — mở tab Network, xem Response
+      // của request /api/proxy/hls bị lỗi để đọc trực tiếp, không cần vào
+      // Vercel function logs.
+      debug: err?.debugAttempts || undefined
     });
   }
 }
