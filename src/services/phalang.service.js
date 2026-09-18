@@ -1,9 +1,8 @@
 import { createHttpClient } from '@/src/utils/httpClient';
 
-// Phá Làng TV — domain hiển thị phalang.tv (React/Vite SPA, không lộ API
-// trong HTML tĩnh). API thật nằm trên domain RIÊNG do người dùng cung cấp
-// qua tab Network của trình duyệt. ĐÃ TỰ DÒ (18/09/2026, xem
-// pages/api/phalang/debug.js) và XÁC NHẬN đúng method/param:
+// Phá Làng TV — domain hiển thị đã đổi sang phalang.live (trước đây dò ra là
+// phalang.tv, ĐÃ SAI — xem FIX 18/09/2026 bên dưới). API thật nằm trên
+// domain RIÊNG do người dùng cung cấp qua tab Network của trình duyệt.
 //   - POST /matches/graph  (BẮT BUỘC có body, kể cả body rỗng {} — GET trả
 //     405, POST không kèm body trả 422 "Field required") -> { data: [...], total }
 //     Trả về TOÀN BỘ trận (không chỉ live) — is_live là boolean có sẵn
@@ -12,10 +11,26 @@ import { createHttpClient } from '@/src/utils/httpClient';
 //     Trận CHƯA có link (chưa live) trả 404 "EntityNotFound" — đây là phản
 //     hồi HỢP LỆ của API (không phải lỗi/bị chặn), KHÔNG log ra console.error
 //     như lỗi thật để tránh làm ồn log Vercel mỗi lần quét.
-// Không cần Referer/User-Agent giả trình duyệt gì thêm — cả 2 endpoint trên
-// gọi trần bằng axios từ server đều ăn (không bị bot-detection như nghi
-// ngờ ban đầu, 405/404 trước đó là do sai method/id chứ không phải bị chặn).
+//
+// FIX (18/09/2026 — "nguồn Phá Làng không hiển thị trận live"): bắt được
+// request THẬT từ trình duyệt (tab Network trang phalang.live/trang-chu) và
+// phát hiện 2 chỗ sai so với code cũ:
+//   1) Referer cũ trỏ nhầm sang phalang.tv (domain cũ/không còn đúng) — trang
+//      thật đang chạy ở phalang.live, kèm Origin cross-site
+//      "https://phalang.live" mà code cũ không hề gửi.
+//   2) Body cũ gửi {} (rỗng hoàn toàn). API vẫn nhận (không lỗi) nhưng khi đó
+//      rơi vào limit/sắp xếp MẶC ĐỊNH của server — không có gì đảm bảo mặc
+//      định đó liệt kê đủ toàn bộ trận (đặc biệt trận đang live, đá từ trước
+//      đó lâu, dễ bị rơi khỏi trang đầu nếu mặc định sort khác
+//      order_asc=start_date). Request thật của trình duyệt LUÔN kèm
+//      limit/page/order_asc/queries tường minh — nay gửi đúng cấu trúc đó
+//      (queries: [] để lấy tất cả, không lọc is_hot như tab "Hot" trên web),
+//      dùng limit lớn (200) + tự phân trang qua `total` trả về để chắc chắn
+//      lấy hết mọi trận trong 1 lần quét, không chỉ trang đầu.
 const PHALANG_API_BASE = process.env.PHALANG_API_BASE || 'https://api.plapi202624081158.com';
+const PHALANG_SITE_ORIGIN = 'https://phalang.live';
+const PHALANG_LIST_PAGE_SIZE = 200;
+const PHALANG_LIST_MAX_PAGES = 5;
 
 const SPORT_INFO = {
   football: { name: 'BÓNG ĐÁ', icon: 'fa-futbol' },
@@ -38,7 +53,9 @@ class PhalangService {
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         Accept: 'application/json, text/plain, */*',
-        Referer: 'https://phalang.tv/'
+        'Content-Type': 'application/json',
+        Origin: PHALANG_SITE_ORIGIN,
+        Referer: `${PHALANG_SITE_ORIGIN}/trang-chu`
       }
     });
   }
@@ -128,13 +145,37 @@ class PhalangService {
     }));
   }
 
+  /** Body giống hệt trình duyệt thật gửi lên /matches/graph (xem FIX 18/09/2026
+   *  ở đầu file) — queries rỗng = không lọc theo is_hot/… như tab "Hot" trên
+   *  web, lấy TOÀN BỘ trận để tự lọc live/upcoming ở code bên dưới. */
+  buildListBody(page) {
+    return {
+      limit: PHALANG_LIST_PAGE_SIZE,
+      page,
+      order_asc: 'start_date',
+      queries: []
+    };
+  }
+
   async fetchList() {
     try {
-      // FIX (18/09/2026 — GET trả 405 Method Not Allowed): endpoint đúng
-      // là POST kèm body rỗng {} (đã tự dò qua route debug tạm
-      // pages/api/phalang/debug.js) — không phải GET như các nguồn khác.
-      const { data } = await this.client.post('/matches/graph', {}, { params: { _t: Date.now() } });
-      return Array.isArray(data?.data) ? data.data : [];
+      const all = [];
+      let total = Infinity;
+
+      for (let page = 1; page <= PHALANG_LIST_MAX_PAGES && all.length < total; page++) {
+        const { data } = await this.client.post(
+          '/matches/graph',
+          this.buildListBody(page),
+          { params: { _t: Date.now() } }
+        );
+        const batch = Array.isArray(data?.data) ? data.data : [];
+        total = Number.isFinite(data?.total) ? data.total : batch.length;
+        all.push(...batch);
+        // Trang cuối trả về ít hơn page size -> không còn dữ liệu, dừng sớm.
+        if (batch.length < PHALANG_LIST_PAGE_SIZE) break;
+      }
+
+      return all;
     } catch (error) {
       console.error('Error fetching Phalang list:', error.message);
       return [];
