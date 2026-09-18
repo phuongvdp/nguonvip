@@ -71,12 +71,14 @@ class PhalangService {
     const sport = mapSport(m.desc);
     const sportInfo = SPORT_INFO[sport] || { name: String(m.desc || 'BÓNG ĐÁ').toUpperCase(), icon: 'fa-futbol' };
 
-    // FIX GHI CHÚ (18/09/2026): start_date trả về dạng "YYYY-MM-DDTHH:mm:ss"
-    // KHÔNG có múi giờ. Coi đây là giờ Việt Nam (+07:00) sẵn — trang hướng
-    // tới người xem VN, giống cách hiển thị trực tiếp trên site gốc. Nếu
-    // sau này phát hiện giờ hiển thị lệch 7 tiếng so với thực tế, đổi lại
-    // thành new Date(m.start_date + 'Z') (tức API trả UTC) thay vì '+07:00'.
-    const matchDate = m.start_date ? new Date(`${m.start_date}+07:00`) : new Date();
+    // FIX (18/09/2026 — "thời gian các trận bị lệch 7h"): start_date trả về
+    // dạng "YYYY-MM-DDTHH:mm:ss" KHÔNG có múi giờ. Lần trước ĐOÁN đây là giờ
+    // Việt Nam sẵn (gán '+07:00') — SAI, thực tế API trả giờ UTC, cộng thêm
+    // +07:00 khi hiển thị (qua timeZone: 'Asia/Ho_Chi_Minh' bên dưới) làm giờ
+    // bị cộng dồn 2 lần -> lệch hẳn 7 tiếng so với giờ thật. Đổi lại đúng như
+    // ghi chú đã lường trước: coi start_date là UTC (gán 'Z') rồi mới quy đổi
+    // sang giờ VN lúc format.
+    const matchDate = m.start_date ? new Date(`${m.start_date}Z`) : new Date();
     const timeStr = matchDate.toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Asia/Ho_Chi_Minh' });
     const dateStr = matchDate.toLocaleDateString('en-CA', { timeZone: 'Asia/Ho_Chi_Minh' });
     const dd = String(matchDate.getDate()).padStart(2, '0');
