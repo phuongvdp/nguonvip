@@ -47,7 +47,16 @@ const REFERER_BY_SOURCE = {
   phaohoa: process.env.PHAOHOA_DOMAIN || process.env.PHAOHOA_BASE_URL || 'https://phaohoa1.live',
   giovang: process.env.GIOVANG_DOMAIN || 'https://giovang.city',
   khandaitv: process.env.KHANDAITV_DOMAIN || process.env.KHANDAITV_BASE_URL || 'https://khandai3.link',
-  chuoichientv: 'https://live05.chuoichientv.me'
+  chuoichientv: 'https://live05.chuoichientv.me',
+  // FIX (18/09/2026 — "trận có tên BLV kiểu '... (Server 1)' của Phá Làng
+  // không xem được, còn trận 'Server 1' trơn thì xem được"): trận có tên
+  // kèm BLV là trận lấy link qua getStreamLinks() (/match/{id}/live, CDN
+  // pull.digitalcdn.net) — thiếu hẳn entry 'phalang' ở đây nên rơi vào
+  // REFERER_FALLBACK (domain Pháo Hoa, SAI) -> bị CDN digitalcdn.net chặn
+  // hotlink. Trận "Server 1" trơn lấy link thẳng từ source_live có sẵn
+  // trong danh sách (CDN khác, không kiểm tra Referer) nên vẫn phát được dù
+  // Referer sai — không liên quan gì tới việc thiếu entry này.
+  phalang: 'https://phalang.live'
 };
 const REFERER_FALLBACK = REFERER_BY_SOURCE.phaohoa;
 
@@ -73,7 +82,11 @@ const REFERER_CANDIDATES_BY_SOURCE = {
   chuoichientv: ['https://live05.chuoichientv.me/', 'https://chuoichientv.link/', null],
   phaohoa: [REFERER_BY_SOURCE.phaohoa, null],
   giovang: [REFERER_BY_SOURCE.giovang, null],
-  khandaitv: [REFERER_BY_SOURCE.khandaitv, null]
+  khandaitv: [REFERER_BY_SOURCE.khandaitv, null],
+  // domain hiển thị thật của Phá Làng là phalang.live (xem FIX 18/09/2026 ở
+  // phalang.service.js) — thử kèm/không dấu "/" cuối rồi mới tới không gửi
+  // Referer, theo đúng khuôn mẫu các nguồn khác ở trên.
+  phalang: [REFERER_BY_SOURCE.phalang, `${REFERER_BY_SOURCE.phalang}/`, null]
 };
 
 // Nhớ lại (trong bộ nhớ container, theo hostname CDN) ứng viên Referer nào
