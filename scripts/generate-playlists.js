@@ -37,7 +37,7 @@ const SPORT_TABS = ['all', 'football', 'basketball', 'volleyball', 'badminton', 
 // RIÊNG từng nguồn (source-xoilac.m3u, source-phaohoa.m3u...), song song
 // với playlist theo môn ở trên. Không import trực tiếp từ playerGet.js vì
 // lý do đã nêu ở đầu file (alias "@/..." chỉ Next.js/webpack hiểu).
-const SOURCE_KEYS = ['phaohoa', 'giovang', 'khandaitv', 'chuoichientv'];
+const SOURCE_KEYS = ['phaohoa', 'giovang', 'khandaitv', 'chuoichientv', 'phalang'];
 
 const SITE_URL = (process.env.SITE_URL || process.env.NEXT_PUBLIC_SITE_URL || 'https://nguonvip1.vercel.app').replace(/\/+$/, '');
 // FIX domain mặc định SAI (thiếu số "1"): trước đây là 'https://nguonvip.

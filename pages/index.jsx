@@ -267,7 +267,8 @@ const SOURCE_META = {
   phaohoa: { color: '#FF6B6B', icon: '🎆' },
   giovang: { color: '#F5B301', icon: '🥇' },
   khandaitv: { color: '#4F8EF7', icon: '🏟️' },
-  chuoichientv: { color: '#FFD23F', icon: '🍌' }
+  chuoichientv: { color: '#FFD23F', icon: '🍌' },
+  phalang: { color: '#8E5CF7', icon: '⚡' }
 };
 
 function TeamLogo({ name, logo, small = false }) {

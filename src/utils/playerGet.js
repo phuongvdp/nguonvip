@@ -53,19 +53,21 @@ const SOURCE_LABELS = {
   phaohoa: 'Phao Hoa TV',
   giovang: 'Gio Vang TV',
   khandaitv: 'Khan Dai TV',
-  chuoichientv: 'Chuoi Chien TV'
+  chuoichientv: 'Chuoi Chien TV',
+  phalang: 'Pha Lang TV'
 };
 
 const SOURCE_SHORT = {
   phaohoa: 'Pháo Hoa',
   giovang: 'Giờ Vàng',
   khandaitv: 'Khán Đài',
-  chuoichientv: 'Chuối Chiên'
+  chuoichientv: 'Chuối Chiên',
+  phalang: 'Phá Làng'
 };
 
 // Thứ tự nhóm theo nguồn dùng chung cho danh sách trên trang quét lẫn file
 // playlist .m3u, để cả hai nơi hiển thị nhất quán.
-export const SOURCE_GROUP_ORDER = ['phaohoa', 'giovang', 'khandaitv', 'chuoichientv'];
+export const SOURCE_GROUP_ORDER = ['phaohoa', 'giovang', 'khandaitv', 'chuoichientv', 'phalang'];
 
 // Danh sách nguồn dùng để vẽ công tắc bật/tắt trên giao diện. Giữ đồng bộ
 // với SOURCE_GROUP_ORDER — mỗi nguồn 1 công tắc, người dùng tự chọn nguồn
@@ -93,16 +95,23 @@ export const SOURCE_GROUP_ORDER = ['phaohoa', 'giovang', 'khandaitv', 'chuoichie
 // schema JSON gọn (blvs[].streams[].url có sẵn link .m3u8), gọi thẳng bằng
 // HTTP thường là được, KHÔNG bị Cloudflare chặn, KHÔNG cần trình duyệt
 // headless — đơn giản hơn hẳn 2 nguồn kia.
+// FIX (18/09/2026 — theo yêu cầu): thêm Phá Làng TV (phalang.service.js),
+// domain phalang.tv. API riêng (api.plapi202624081158.com/matches/graph +
+// /match/{id}/live) — is_live trả thẳng boolean (không cần suy luận từ
+// status string như chuoichientv), nhưng link stream LUÔN phải gọi riêng
+// /match/{id}/live cho trận đang live (đã thấy trường hợp source_live=null
+// dù is_live=true trong response danh sách).
 export const SOURCE_TOGGLE_LIST = [
   { key: 'phaohoa', label: 'Pháo Hoa' },
   { key: 'giovang', label: 'Giờ Vàng' },
   { key: 'khandaitv', label: 'Khán Đài' },
-  { key: 'chuoichientv', label: 'Chuối Chiên' }
+  { key: 'chuoichientv', label: 'Chuối Chiên' },
+  { key: 'phalang', label: 'Phá Làng' }
 ];
 
 // Bump the key once so an old browser setting cannot hide every source after
 // the source list/status handling changes. New choices are still persisted.
-const SOURCE_TOGGLE_STORAGE_KEY = 'player-get:enabled-sources:v4';
+const SOURCE_TOGGLE_STORAGE_KEY = 'player-get:enabled-sources:v5';
 
 /** Mặc định: tất cả nguồn đều bật. */
 export function getDefaultEnabledSources() {
@@ -350,7 +359,7 @@ export function streamsFromMatchCard(match) {
     return list.length ? list : null;
   }
 
-  if (match?.source !== 'phaohoa' && match?.source !== 'chuoichientv') return null;
+  if (match?.source !== 'phaohoa' && match?.source !== 'chuoichientv' && match?.source !== 'phalang') return null;
 
   const fromCommentators = (match.commentators || match.streamers || [])
     .filter((c) => c.streamUrl || c.link || c.m3u8Url)

@@ -2,6 +2,7 @@ import phaohoaService from '@/src/services/phaohoa.service';
 import giovangService from '@/src/services/giovang.service';
 import khandaitvService from '@/src/services/khandaitv.service';
 import chuoichientvService from '@/src/services/chuoichientv.service';
+import phalangService from '@/src/services/phalang.service';
 import { normalizeStreamList, isFlvUrl } from '@/src/utils/playerGet';
 import { preferHlsForIptv } from '@/src/utils/m3uPlaylist';
 
@@ -78,6 +79,9 @@ export default async function handler(req, res) {
         } else if (source === 'chuoichientv') {
           if (!matchId) return notReadyYet();
           raw = await withDeadline(chuoichientvService.getStreamLinks(matchId), attemptTimeoutMs);
+        } else if (source === 'phalang') {
+          if (!matchId) return notReadyYet();
+          raw = await withDeadline(phalangService.getStreamLinks(matchId), attemptTimeoutMs);
         } else if (source === 'giovang') {
           const id = url || matchId;
           if (!id) return notReadyYet();
