@@ -77,8 +77,40 @@ import { buildProxyStreamUrl } from '@/src/utils/proxyUrl';
  * Sửa: chỉ gọi play() sau khi thẻ <video> bắn 'loadedmetadata' (áp dụng
  * chung cho cả 3 nhánh flv/native-HLS/hls.js — không phụ thuộc riêng vào
  * sự kiện nội bộ của từng thư viện).
+ *
+ * FIX "nguồn Chuối Chiên: 403 (Forbidden) mọi trận, kể cả sau khi
+ * /api/proxy/hls đã thử nhiều Referer/Origin khác nhau" (17/09/2026 —
+ * xem chú thích "FIX 3" trong pages/api/proxy/hls.js để rõ toàn bộ quá
+ * trình chẩn đoán): dữ liệu debug lấy trực tiếp từ CDN xác nhận request
+ * bị chặn GIỐNG HỆT nhau (403, không header phân biệt, không body) bất kể
+ * gửi Referer nào hay không gửi — tức đây RẤT có thể là chặn theo
+ * IP/mạng của server (Vercel) hoặc theo kiểu kết nối (dấu vân tay TLS của
+ * Node khác hẳn trình duyệt thật), không phải chặn theo Referer như 2 lần
+ * sửa trước từng đoán — nghĩa là ĐỔI HEADER TỪ PHÍA SERVER PROXY KHÔNG THỂ
+ * CỨU ĐƯỢC, vì chặn xảy ra trước khi request tới được code app.
+ * Hướng còn lại CÓ THỂ thử ở phía TRÌNH DUYỆT (nơi request tới từ 1 kết nối
+ * mạng dân dụng thật + TLS/JA3 của trình duyệt thật — khác hẳn Node) là:
+ * để hls.js thử gọi TRỰC TIẾP link gốc CDN (bỏ qua proxy) TRƯỚC, chỉ
+ * fallback về link qua proxy (`/api/proxy/hls`) nếu bản trực tiếp thất bại
+ * vì lỗi mạng (đa số là do CDN không gắn CORS — network/manifestLoadError —
+ * chứ không phải do trình duyệt "không biết phát"). CHƯA CHẮC hết bị chặn
+ * (nếu CDN chặn theo IP/ASN của người xem chứ không phải của Vercel thì
+ * vẫn dính y hệt), nhưng vì nguyên nhân thật sự nằm ngoài tầm với của code
+ * app (hạ tầng mạng của CDN nguồn), đây là hướng duy nhất còn lại đáng thử
+ * bằng code trước khi phải đổi sang giải pháp hạ tầng (đổi nhà cung cấp
+ * server / dùng proxy dân dụng trả phí...). Chỉ áp dụng thử-trực-tiếp-
+ * trước cho các `source` nằm trong DIRECT_FIRST_SOURCES bên dưới — các
+ * nguồn khác (phaohoa...) ĐÃ XÁC NHẬN cần proxy vì lỗi CORS thật sự (xem
+ * FIX 28/08/2026 phía trên), không đổi hành vi của các nguồn đó.
  */
 const STUCK_TIMEOUT_MS = 8000;
+
+// Các nguồn nên thử gọi TRỰC TIẾP (không qua /api/proxy/hls) trước tiên —
+// xem chú thích FIX 17/09/2026 ở trên. Chỉ thêm 1 source vào đây khi có
+// bằng chứng cụ thể (như debug 403 của Chuối Chiên) cho thấy proxy hiện
+// tại không cứu được nguồn đó; KHÔNG thêm tùy tiện vì sẽ làm sống lại lỗi
+// CORS gốc (28/08/2026) cho các nguồn vốn đang chạy tốt qua proxy.
+const DIRECT_FIRST_SOURCES = ['chuoichientv'];
 
 export default function VideoPlayer({ url, format, source }) {
   const videoRef = useRef(null);
@@ -183,7 +215,13 @@ export default function VideoPlayer({ url, format, source }) {
       // Nhận diện định dạng dựa trên URL GỐC (url) như cũ — chỉ đổi sang
       // link đã bọc proxy tại đúng điểm đưa cho player thực sự phát
       // (playbackUrl), tránh làm sai logic nhận diện .flv/.m3u8 ở trên.
-      const playbackUrl = buildProxyStreamUrl(url, source);
+      const proxiedUrl = buildProxyStreamUrl(url, source);
+      // Danh sách link thử theo THỨ TỰ ƯU TIÊN cho nhánh hls.js — xem chú
+      // thích FIX 17/09/2026 ở đầu file. Với nguồn KHÔNG nằm trong
+      // DIRECT_FIRST_SOURCES, hành vi giữ NGUYÊN như cũ (chỉ 1 phần tử,
+      // luôn qua proxy) — không ảnh hưởng các nguồn đang chạy ổn định.
+      const hlsUrlCandidates =
+        DIRECT_FIRST_SOURCES.includes(source) && url !== proxiedUrl ? [url, proxiedUrl] : [proxiedUrl];
 
       if (isFlv) {
         const mod = await import('flv.js');
@@ -193,7 +231,7 @@ export default function VideoPlayer({ url, format, source }) {
           setError('Trình duyệt này không hỗ trợ phát FLV — thử Chrome/Edge trên máy tính, hoặc dùng link trong VLC.');
           return;
         }
-        flvPlayer = flvjs.createPlayer({ type: 'flv', url: playbackUrl, isLive: true, hasAudio: true, hasVideo: true });
+        flvPlayer = flvjs.createPlayer({ type: 'flv', url: proxiedUrl, isLive: true, hasAudio: true, hasVideo: true });
         flvPlayer.attachMediaElement(video);
         flvPlayer.load();
         flvPlayer.on(flvjs.Events.ERROR, (errType, errDetail) => {
@@ -232,29 +270,56 @@ export default function VideoPlayer({ url, format, source }) {
       if (cancelled) return;
 
       if (Hls.isSupported()) {
-        hls = new Hls({ enableWorker: true, lowLatencyMode: true });
-        hls.loadSource(playbackUrl);
-        hls.attachMedia(video);
-        hls.on(Hls.Events.ERROR, (_evt, data) => {
-          // Log MỌI lỗi (kể cả không-fatal) — hls.js tự thử phục hồi lỗi
-          // không-fatal nhưng không phải lúc nào cũng thành công.
-          console.error('[VideoPlayer] hls.js error:', data?.type, data?.details, 'fatal=', data?.fatal);
-          if (data?.fatal && !cancelled) {
+        let candidateIndex = 0;
+
+        // FIX 17/09/2026: khi có nhiều link ứng viên (direct trước, proxy
+        // sau — xem DIRECT_FIRST_SOURCES), thử TỪNG link một; nếu 1 link bị
+        // lỗi mạng FATAL (loại networkError — đúng dạng lỗi CORS/403/kết
+        // nối bị chặn đang gặp phải), HỦY hls instance hiện tại và tạo lại
+        // với link kế tiếp thay vì báo lỗi ngay. Lỗi fatal loại KHÁC (vd
+        // mediaError — hỏng dữ liệu, không liên quan tới việc link nào)
+        // thì không có ích gì khi đổi link, báo lỗi như cũ.
+        const startHls = (playbackUrl) => {
+          hls = new Hls({ enableWorker: true, lowLatencyMode: true });
+          hls.loadSource(playbackUrl);
+          hls.attachMedia(video);
+          hls.on(Hls.Events.ERROR, (_evt, data) => {
+            // Log MỌI lỗi (kể cả không-fatal) — hls.js tự thử phục hồi lỗi
+            // không-fatal nhưng không phải lúc nào cũng thành công.
+            console.error(
+              '[VideoPlayer] hls.js error:',
+              data?.type,
+              data?.details,
+              'fatal=',
+              data?.fatal,
+              '| link đang thử:',
+              playbackUrl
+            );
+            if (!data?.fatal || cancelled) {
+              if (!cancelled && !data?.fatal) scheduleWatchdog();
+              return;
+            }
+            const canTryNext = data.type === Hls.ErrorTypes.NETWORK_ERROR && candidateIndex + 1 < hlsUrlCandidates.length;
+            if (canTryNext) {
+              candidateIndex += 1;
+              console.warn('[VideoPlayer] Link hiện tại lỗi mạng fatal, thử link dự phòng:', hlsUrlCandidates[candidateIndex]);
+              hls.destroy();
+              startHls(hlsUrlCandidates[candidateIndex]);
+              return;
+            }
             setError('Nguồn này hiện không phát được — thử server khác hoặc bấm làm mới trận.');
-          } else if (!cancelled) {
-            // Lỗi không-fatal: hls.js tự retry — cho watchdog cơ hội hiện
-            // lại nút ▶ nếu retry không thành công trong 8 giây.
-            scheduleWatchdog();
-          }
-        });
-        playerRef.current = { play: () => video.play() };
-        // hls.js khuyến cáo chính thức: gọi play() sau MANIFEST_PARSED,
-        // không phải ngay sau attachMedia(). Vẫn giữ thêm playWhenReady()
-        // làm lưới an toàn cho trường hợp MANIFEST_PARSED không bắn nhưng
-        // <video> vẫn có dữ liệu qua đường khác.
-        hls.on(Hls.Events.MANIFEST_PARSED, () => {
-          if (!cancelled) tryAutoplay(() => video.play());
-        });
+          });
+          playerRef.current = { play: () => video.play() };
+          // hls.js khuyến cáo chính thức: gọi play() sau MANIFEST_PARSED,
+          // không phải ngay sau attachMedia(). Vẫn giữ thêm playWhenReady()
+          // làm lưới an toàn cho trường hợp MANIFEST_PARSED không bắn nhưng
+          // <video> vẫn có dữ liệu qua đường khác.
+          hls.on(Hls.Events.MANIFEST_PARSED, () => {
+            if (!cancelled) tryAutoplay(() => video.play());
+          });
+        };
+
+        startHls(hlsUrlCandidates[candidateIndex]);
         playWhenReady();
         return;
       }
@@ -263,7 +328,7 @@ export default function VideoPlayer({ url, format, source }) {
       // Extensions) — fallback native, chỉ thật sự hoạt động trên Safari.
       const nativeHls = video.canPlayType('application/vnd.apple.mpegurl');
       if (nativeHls) {
-        video.src = playbackUrl;
+        video.src = proxiedUrl;
         playerRef.current = { play: () => video.play() };
         playWhenReady();
         return;
