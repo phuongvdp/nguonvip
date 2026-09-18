@@ -59,16 +59,17 @@ export default async function handler(req, res) {
     ? listResult.dataSample.data[0]?.id
     : null;
   if (firstId) {
-    const [liveGet, livePost] = await Promise.all([
+    const [liveGet, livePost, livePostEmpty] = await Promise.all([
       tryFetch(`${base}/match/${firstId}/live?_t=${Date.now()}`, referer, 'get'),
-      tryFetch(`${base}/match/${firstId}/live?_t=${Date.now()}`, referer, 'post')
+      tryFetch(`${base}/match/${firstId}/live?_t=${Date.now()}`, referer, 'post'),
+      tryFetch(`${base}/match/${firstId}/live?_t=${Date.now()}`, referer, 'post', {})
     ]);
-    liveResult = liveGet.ok ? liveGet : livePost;
+    liveResult = { get: liveGet, post: livePost, postEmptyBody: livePostEmpty };
   }
 
   return res.status(200).json({
     baseUrlUsed: base,
     matchesGraphAttempts: { get: getAttempt, postNoBody, postEmptyBody },
-    matchLive: liveResult
+    matchLiveAttempts: liveResult
   });
 }

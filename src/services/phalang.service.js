@@ -127,7 +127,10 @@ class PhalangService {
 
   async fetchList() {
     try {
-      const { data } = await this.client.get('/matches/graph', { params: { _t: Date.now() } });
+      // FIX (18/09/2026 — GET trả 405 Method Not Allowed): endpoint đúng
+      // là POST kèm body rỗng {} (đã tự dò qua route debug tạm
+      // pages/api/phalang/debug.js) — không phải GET như các nguồn khác.
+      const { data } = await this.client.post('/matches/graph', {}, { params: { _t: Date.now() } });
       return Array.isArray(data?.data) ? data.data : [];
     } catch (error) {
       console.error('Error fetching Phalang list:', error.message);
