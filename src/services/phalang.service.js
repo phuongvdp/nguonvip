@@ -2,16 +2,19 @@ import { createHttpClient } from '@/src/utils/httpClient';
 
 // Phá Làng TV — domain hiển thị phalang.tv (React/Vite SPA, không lộ API
 // trong HTML tĩnh). API thật nằm trên domain RIÊNG do người dùng cung cấp
-// qua tab Network của trình duyệt:
-//   - GET  /matches/graph        -> { data: [...], total }  (danh sách trận)
-//   - GET  /match/{id}/live      -> { type, source, hd_1, hd_2, ... } (link phát)
-// Gọi thẳng bằng axios KHÔNG có Referer/User-Agent trình duyệt bị chặn bot
-// (đã tự kiểm tra, lỗi bot-detection) — vì vậy bắt buộc phải giả User-Agent +
-// Referer giống trình duyệt thật, y hệt cách chuoichientv.service.js làm.
-// CHƯA XÁC NHẬN được việc set 2 header này có đủ để vượt qua bot-detection
-// khi chạy trên IP máy chủ Vercel hay không (khác NAT với máy người dùng) —
-// nếu vẫn bị chặn, xem khandaitv.service.js để biết cách chuyển sang
-// browserFetch (Chromium headless) làm phương án dự phòng.
+// qua tab Network của trình duyệt. ĐÃ TỰ DÒ (18/09/2026, xem
+// pages/api/phalang/debug.js) và XÁC NHẬN đúng method/param:
+//   - POST /matches/graph  (BẮT BUỘC có body, kể cả body rỗng {} — GET trả
+//     405, POST không kèm body trả 422 "Field required") -> { data: [...], total }
+//     Trả về TOÀN BỘ trận (không chỉ live) — is_live là boolean có sẵn
+//     ngay trong từng phần tử, tự lọc live/upcoming ở code bên dưới.
+//   - GET  /match/{id}/live -> { type, source, hd_1, hd_2, ... } (link phát)
+//     Trận CHƯA có link (chưa live) trả 404 "EntityNotFound" — đây là phản
+//     hồi HỢP LỆ của API (không phải lỗi/bị chặn), KHÔNG log ra console.error
+//     như lỗi thật để tránh làm ồn log Vercel mỗi lần quét.
+// Không cần Referer/User-Agent giả trình duyệt gì thêm — cả 2 endpoint trên
+// gọi trần bằng axios từ server đều ăn (không bị bot-detection như nghi
+// ngờ ban đầu, 405/404 trước đó là do sai method/id chứ không phải bị chặn).
 const PHALANG_API_BASE = process.env.PHALANG_API_BASE || 'https://api.plapi202624081158.com';
 
 const SPORT_INFO = {
@@ -183,7 +186,12 @@ class PhalangService {
         quality: 'HD'
       }));
     } catch (error) {
-      console.error('Error fetching Phalang stream links:', error.message);
+      // 404 EntityNotFound = trận chưa có link phát (chưa live/nguồn chưa
+      // cập nhật) — phản hồi HỢP LỆ của API, không phải lỗi thật, không log
+      // ồn console mỗi lần quét. Chỉ log các lỗi khác (mạng, 5xx...).
+      if (error.response?.status !== 404) {
+        console.error('Error fetching Phalang stream links:', error.message);
+      }
       return [];
     }
   }
