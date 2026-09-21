@@ -2,7 +2,7 @@ name: Generate Playlists
 
 on:
   # Cho phep bam tay "Run workflow" tren tab Actions de test ngay, khong
-  # can doi lich cron 5 phut.
+  # can doi lich cron 2 phut.
   workflow_dispatch:
   push:
     branches:
@@ -10,7 +10,7 @@ on:
     paths:
       - 'data/sources.json'
   schedule:
-    - cron: '*/5 * * * *'  # kiem tra moi 5 phut; script tu gian ra khi khong co tran live
+    - cron: '*/2 * * * *'  # kiem tra moi 2 phut; script tu gian ra khi khong co tran live
 
 jobs:
   generate:
