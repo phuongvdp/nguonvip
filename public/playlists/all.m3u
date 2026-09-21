@@ -3,11 +3,11 @@
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (12 trận), Chuối Chiên (16 trận), Phá Làng (8 trận) =====
 
 # ----- Ngày 2026-09-21 -----
-#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Gio Vang TV" , 21-09 13:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Chưa có link — chờ cập nhật) [hls]
-https://giovang.city/truc-tiep-asiad-2026-vs-asiad-2026-21-09-asooi3g7yvxg
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Gio Vang TV" , 21-09 13:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
+https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/aEBU_ri8U6F06oTqWmKY5g_96x96.png" group-title="Gio Vang TV" , 21-09 14:00 [LIVE Đang diễn ra] Thái Lan vs Trung Quốc (Chưa có link — chờ cập nhật) [hls]
-https://giovang.city/truc-tiep-thai-lan-vs-trung-quoc-21-09-sbnyrxkxwv3k
+#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/aEBU_ri8U6F06oTqWmKY5g_96x96.png" group-title="Gio Vang TV" , 21-09 14:00 [LIVE Đang diễn ra] Thái Lan vs Trung Quốc (Giovang 1) [hls]
+https://eqr2hdarxfliv.vcdn.cloud/1789928502_hd/1789928502_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_OOrZwnR.jpg" group-title="Khan Dai TV" , 21-09 14:00 [LIVE LIVE] Trung Quốc vs Thái Lan (KaKa) [hls]
 https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
@@ -15,11 +15,11 @@ https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_081520_6f8a2bf2.gif" group-title="Chuoi Chien TV" , 21-09 14:00 [LIVE LIVE] Thailand W vs China W (Chuối Kem (HD)) [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/89f7715eb4c4fdc1f7c3d6da3058d53b.png!w80" group-title="Pha Lang TV" , 21-09 14:00 [LIVE LIVE] Thái Lan Nữ - Trung Quốc (LÝ LIỀU LĨNH (Server 1)) [hls]
+https://pull.digitalcdn.net/live/e325908dfcf54a989af47f54a4d14d63/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bc575d043f92657a6dd97751cd326cce.png" group-title="Pha Lang TV" , 21-09 15:00 [LIVE LIVE] Bengaluru Roots FC - Hal FC (Server 1) [hls]
 https://lilive1.eu.cc/live/dc321cc6712043477589315749513833/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9ae36debba0abd59c01de2e60fc42648.png" group-title="Pha Lang TV" , 21-09 15:00 [LIVE LIVE] Khovd Western - Khaan Khuns-Erchim FC (Server 1) [hls]
-https://lilive1.eu.cc/live/525a432515405651d5684789b3ed013f/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f56c716018da872bea80885498f14ba0.png" group-title="Pha Lang TV" , 21-09 15:30 [LIVE LIVE] Niigata XI U17 - Myanmar U17 (Server 1) [hls]
 https://lilive1.eu.cc/live/ddc6026733025b24160ea1662106bb08/playlist.m3u8

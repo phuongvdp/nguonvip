@@ -1,16 +1,13 @@
 #EXTM3U
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (8 trận), Khán Đài (8 trận), Chuối Chiên (13 trận), Phá Làng (8 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (8 trận), Khán Đài (8 trận), Chuối Chiên (13 trận), Phá Làng (7 trận) =====
 
 # ----- Ngày 2026-09-21 -----
-#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Gio Vang TV" , 21-09 13:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Chưa có link — chờ cập nhật) [hls]
-https://giovang.city/truc-tiep-asiad-2026-vs-asiad-2026-21-09-asooi3g7yvxg
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Gio Vang TV" , 21-09 13:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
+https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bc575d043f92657a6dd97751cd326cce.png" group-title="Pha Lang TV" , 21-09 15:00 [LIVE LIVE] Bengaluru Roots FC - Hal FC (Server 1) [hls]
 https://lilive1.eu.cc/live/dc321cc6712043477589315749513833/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9ae36debba0abd59c01de2e60fc42648.png" group-title="Pha Lang TV" , 21-09 15:00 [LIVE LIVE] Khovd Western - Khaan Khuns-Erchim FC (Server 1) [hls]
-https://lilive1.eu.cc/live/525a432515405651d5684789b3ed013f/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f56c716018da872bea80885498f14ba0.png" group-title="Pha Lang TV" , 21-09 15:30 [LIVE LIVE] Niigata XI U17 - Myanmar U17 (Server 1) [hls]
 https://lilive1.eu.cc/live/ddc6026733025b24160ea1662106bb08/playlist.m3u8
