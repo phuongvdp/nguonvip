@@ -1,0 +1,81 @@
+name: Generate Playlists
+
+on:
+  # Cho phep bam tay "Run workflow" tren tab Actions de test ngay, khong
+  # can doi lich cron 5 phut.
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/sources.json'
+  schedule:
+    - cron: '*/5 * * * *'  # kiem tra moi 5 phut; script tu gian ra khi khong co tran live
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # FIX (20/09/2026 - "khong deploy VPS/Vercel/Render nao ca, chi up len
+      # GitHub"): truoc day workflow nay goi qua HTTP toi 1 trang DA DEPLOY
+      # (xem scripts/generate-playlists.js) de lay du lieu tran dau - buoc
+      # do can 1 server dang chay song (Vercel/Render/VPS). Gio KHONG con
+      # server nao ca, nen chuyen sang scripts/generate-playlists-standalone.mjs
+      # (tu goi thang buildAggregatedMatches() - dung 100% logic that, chi
+      # khac la chay TRUC TIEP trong chinh tien trinh GitHub Actions nay,
+      # khong qua HTTP toi dau ca). File .mjs do dung alias "@/..." (chi
+      # Next.js/webpack hieu) nen phai BUNDLE truoc bang esbuild (doc alias
+      # thang tu jsconfig.json) ra 1 file .cjs doc lap roi moi chay duoc
+      # bang node thuan - xem npm script "generate-playlists:standalone:build"
+      # trong package.json.
+      - name: Bundle standalone playlist generator
+        run: npm run generate-playlists:standalone:build
+
+      # 2 nguon (Gio Vang, Khan Dai) can mo trinh duyet Chromium that de
+      # vuot chan (xem src/utils/browserFetch.js) - GitHub Actions ubuntu-
+      # latest KHONG co san chromium dang dung duoc thang (goi "chromium"
+      # qua apt tren Ubuntu la snap wrapper, khong chay duoc trong container
+      # khong co snapd) - tu tai 1 ban Chrome-for-Testing doc lap qua CLI
+      # chinh thuc cua Puppeteer (@puppeteer/browsers), roi tro thang
+      # CHROME_EXECUTABLE_PATH vao do - src/utils/browserFetch.js da tu uu
+      # tien bien nay tu truoc (dung chung co che voi huong dan Docker/VPS
+      # trong DEPLOY_VPS.md), khong can sua gi them o do.
+      - name: Install Chromium for headless sources (Gio Vang / Khan Dai)
+        id: chrome
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libnss3 libatk-bridge2.0-0 libatk1.0-0 libcups2 \
+            libdrm2 libgbm1 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 \
+            libxrandr2 libasound2t64
+          INSTALL_OUTPUT=$(npx --yes @puppeteer/browsers install chrome@stable --path "$RUNNER_TEMP/chrome-browser")
+          echo "$INSTALL_OUTPUT"
+          CHROME_PATH=$(echo "$INSTALL_OUTPUT" | tail -1 | awk '{print $2}')
+          echo "Duong dan Chrome: $CHROME_PATH"
+          echo "path=$CHROME_PATH" >> "$GITHUB_OUTPUT"
+
+      - name: Generate playlists (khong can server nao dang chay)
+        run: node .generate-playlists-standalone.cjs
+        env:
+          CHROME_EXECUTABLE_PATH: ${{ steps.chrome.outputs.path }}
+
+      - name: Commit and push
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add public/playlists/
+          git commit -m "Generate playlists" || true
+          git push
