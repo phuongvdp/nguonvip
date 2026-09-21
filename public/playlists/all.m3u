@@ -1,37 +1,40 @@
 #EXTM3U
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (19 trận), Chuối Chiên (3 trận), Phá Làng (6 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận), Khán Đài (18 trận), Chuối Chiên (3 trận), Phá Làng (8 trận) =====
 
 # ----- Ngày 2026-09-22 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/32a9a20cf26ee69ea136370865f7ae90.png" group-title="Pha Lang TV" , 22-09 01:30 [LIVE LIVE] Guidonia - Livorno (Server 1) [hls]
-https://lilive1.eu.cc/live/042dfcf687fb7dc3028a181a73dec7a6/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/efc9bcc3e2c1493997bb7ba1d5291a6c.png" group-title="Pha Lang TV" , 22-09 04:45 [LIVE LIVE] Atlante W - Queretaro Women (Server 1) [hls]
+https://lilive1.eu.cc/live/0feaf6dc4d8d5951593723e2e76e8f49/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/57b5adfa6fd809d19d6506fa3dbcd209.png" group-title="Pha Lang TV" , 22-09 01:30 [LIVE LIVE] AC Dolomiti Bellunesi - Lumezzane (Server 1) [hls]
-https://lilive1.eu.cc/live/5ac696c9cc6236446bed5dda37d7b618/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/barracas-central.png" group-title="Gio Vang TV" , 22-09 05:00 [LIVE Đang diễn ra] Barracas Central vs Independiente Rivadavia (Giovang 1) [hls]
+https://eqr2hdarxfliv.vcdn.cloud/1789913155_hd/1789913155_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e5b01d6e33eb37624bd8ea8e1a585d0b.png" group-title="Pha Lang TV" , 22-09 01:30 [LIVE LIVE] US Pianese - US Sambenedettese (Server 1) [hls]
-https://lilive1.eu.cc/live/a2f88d9d1b33d3d8f7f688bd8096fb19/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/12/Guabir%C3%A1_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="Gio Vang TV" , 22-09 05:00 [LIVE Đang diễn ra] Guabira vs SA Bulo Bulo (Giovang 1) [hls]
+https://eqr2hdarxfliv.vcdn.cloud/1789913188_hd/1789913188_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9d6d1db4667e39e980b0f9f497931b53.png" group-title="Pha Lang TV" , 22-09 01:30 [LIVE LIVE] Treviso - Desenzano Calvina (Server 1) [hls]
-https://lilive1.eu.cc/live/7d62f39fafde6873ca792005832297e4/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b8ff3b78b8ff52dbca3b7eb27fb1c1fb.png" group-title="Pha Lang TV" , 22-09 05:00 [LIVE LIVE] CA Barracas Central - Independiente Rivadavia (Server 1) [hls]
+https://lilive1.eu.cc/live/18385e100c4e5678ac85d4ae7309bab1/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d8c05f02f3ad2bb52a4c539e3453a30a.png" group-title="Pha Lang TV" , 22-09 01:30 [LIVE LIVE] Spezia - Vis Pesaro (Server 1) [hls]
-https://lilive1.eu.cc/live/c200e3c77b545ab547037c3180289aa4/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d390f3b4be2499face8eb4af0e73140e.png" group-title="Pha Lang TV" , 22-09 05:00 [LIVE LIVE] Club Guabira - San Antonio Bulo Bulo (Server 1) [hls]
+https://lilive1.eu.cc/live/145b61382bbe0f4e0b48879271215263/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c57d78c8cdda6502abc9e7fb6a9adcf7.png" group-title="Pha Lang TV" , 22-09 01:30 [LIVE LIVE] Trento - Pro Vercelli (Server 1) [hls]
-https://lilive1.eu.cc/live/776c8c29bd2d1ad3705032cba0113d2f/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/50fbe18e0f3a8bba0049607f8780eed0.png" group-title="Pha Lang TV" , 22-09 05:00 [LIVE LIVE] Real Soacha Cundinamarca - Deportes Quindio (Server 1) [hls]
+https://lilive1.eu.cc/live/85a20f7cb5422f54c21cc80ac006a07b/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_oeLkAjM.jpg" group-title="Khan Dai TV" , 22-09 02:00 [LIVE LIVE] Slovenia vs Serbia (KaKa) [hls]
-https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6b4a5eb452bf0ce6bcbeed86685ca363.png" group-title="Pha Lang TV" , 22-09 05:00 [LIVE LIVE] Nueva Chicago - Patronato Parana (Server 1) [hls]
+https://lilive1.eu.cc/live/a6e00f8e6dabb156678d10ca962f47d6/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/barracas-central.png" group-title="Gio Vang TV" , 22-09 05:00 Barracas Central vs Independiente Rivadavia (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-barracas-central-vs-independiente-rivadavia-22-09-6aa88adf24d46db8704964ee
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aa5c4ca51cfa4274339610158b7f2244.png" group-title="Pha Lang TV" , 22-09 05:05 [LIVE LIVE] Humble Lions - Waterhouse FC (Server 1) [hls]
+https://lilive1.eu.cc/live/b566fb15b3b646ef777142f635cb7155/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/12/Guabir%C3%A1_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="Gio Vang TV" , 22-09 05:00 Guabira vs SA Bulo Bulo (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-guabira-vs-sa-bulo-bulo-22-09-czdkh38kotgl
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/criciuma.png" group-title="Gio Vang TV" , 22-09 05:30 [LIVE Đang diễn ra] Criciuma vs Operario Ferroviario PR (Giovang 1) [hls]
+https://eqr2hdarxfliv.vcdn.cloud/1790020359_hd/1790020359_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/criciuma.png" group-title="Gio Vang TV" , 22-09 05:30 Criciuma vs Operario Ferroviario PR (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-criciuma-vs-operario-ferroviario-pr-22-09-6aa88adf24d46db8704964fd
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7387c2c385ae09a16c7d0f96e5e86c94.png" group-title="Pha Lang TV" , 22-09 05:30 [LIVE LIVE] Central Espanol - Montevideo City Torque (Server 1) [hls]
+https://lilive1.eu.cc/live/892a8024a5dd4249c47ad43b27439704/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/800183891d5c018ba4bff9e039b06eee.png" group-title="Pha Lang TV" , 22-09 06:00 [LIVE LIVE] Leon Women - Juarez FC Women (Server 1) [hls]
+https://lilive1.eu.cc/live/b0c89aa4af06b10e01bec95106f42039/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/7a41b2cf98e8350722b096134858af8e.png" group-title="Gio Vang TV" , 22-09 07:00 New York Liberty vs Atlanta Dream (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-new-york-liberty-vs-atlanta-dream-22-09-27425075
@@ -42,11 +45,11 @@ https://giovang.city/truc-tiep-los-angeles-rams-vs-new-york-giants-22-09-yyp6237
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132721_5487ae5f.png" group-title="Chuoi Chien TV" , 22-09 07:15 Lanus vs Estudiantes L.P. (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1493144/lanus-vs-estudiantes-l-p
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/independiente.png" group-title="Gio Vang TV" , 22-09 07:30 Independiente vs Tomayapo (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-independiente-vs-tomayapo-22-09-pcwj7fs0b26m
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/5a/Sport_Club_Corinthians_Paulista_crest.svg" group-title="Gio Vang TV" , 22-09 07:30 Corinthians W vs Bahia W (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-corinthians-w-vs-bahia-w-22-09-ta8y9rebb5d0
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/independiente.png" group-title="Gio Vang TV" , 22-09 07:30 Independiente vs Tomayapo (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-independiente-vs-tomayapo-22-09-pcwj7fs0b26m
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/depindependiente-medellin.png" group-title="Gio Vang TV" , 22-09 07:30 Real Cartagena vs Envigado (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-real-cartagena-vs-envigado-22-09-6aa88ae124d46db8704966db
@@ -111,14 +114,14 @@ https://khandai3.link/truc-tiep/hong-kong-vs-philippines
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Khan Dai TV" , 22-09 17:20 Nhật Bản vs Trung Quốc (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/nhat-ban-vs-trung-quoc
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_uiH5uS2.jpg" group-title="Khan Dai TV" , 22-09 20:00 Ba Lan vs Đức (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/ba-lan-vs-duc
-
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4kCzOp7.jpg" group-title="Khan Dai TV" , 22-09 20:00 Pháp vs Romania (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/phap-vs-romania
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_8589.jpg" group-title="Khan Dai TV" , 22-09 22:00 Al Bidda vs Shamal (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/al-bidda-vs-shamal-22-09-2026-856114
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_uiH5uS2.jpg" group-title="Khan Dai TV" , 22-09 23:00 Ba Lan vs Đức (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/ba-lan-vs-duc
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/bayern-munchen-w.png" group-title="Gio Vang TV" , 22-09 23:45 Nữ Bayern Munich vs Nữ Manchester City (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-nu-bayern-munich-vs-nu-manchester-city-22-09-6aadd18745163e9e3e085d3d
@@ -156,3 +159,9 @@ https://khandai3.link/truc-tiep/juventus-w-vs-sl-benfica-w-23-09-2026-855203
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_486.jpg" group-title="Khan Dai TV" , 23-09 02:00 Real Madrid W vs PSG W (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/real-madrid-w-vs-psg-w-23-09-2026-855224
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/jgSYTgil-lGGssG8o.png" group-title="Gio Vang TV" , 23-09 04:00 Puerto Montt vs Ñublense (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-puerto-montt-vs-nublense-23-09-wanfto8ot7hn
+
+#EXTINF:-1 tvg-logo="https://worldinsport.com/wp-content/uploads/2026/08/dwcs-season-10-night-3-results-1200x630.webp" group-title="Gio Vang TV" , 23-09 06:00 Dana White's Contender Series: Season 10, Week 7 vs Dana White's Contender Series: Season 10, Week 7 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-dana-white-s-contender-series-season-10-week-7-vs-dana-white-s-contender-series-season-10-week-7-23-09-a2zt8mldckd3

@@ -1,22 +1,28 @@
 #EXTM3U
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (6 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (8 trận) =====
 
 # ----- Ngày 2026-09-22 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/32a9a20cf26ee69ea136370865f7ae90.png" group-title="Pha Lang TV" , 22-09 01:30 [LIVE LIVE] Guidonia - Livorno (Server 1) [hls]
-https://lilive1.eu.cc/live/042dfcf687fb7dc3028a181a73dec7a6/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/efc9bcc3e2c1493997bb7ba1d5291a6c.png" group-title="Pha Lang TV" , 22-09 04:45 [LIVE LIVE] Atlante W - Queretaro Women (Server 1) [hls]
+https://lilive1.eu.cc/live/0feaf6dc4d8d5951593723e2e76e8f49/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/57b5adfa6fd809d19d6506fa3dbcd209.png" group-title="Pha Lang TV" , 22-09 01:30 [LIVE LIVE] AC Dolomiti Bellunesi - Lumezzane (Server 1) [hls]
-https://lilive1.eu.cc/live/5ac696c9cc6236446bed5dda37d7b618/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b8ff3b78b8ff52dbca3b7eb27fb1c1fb.png" group-title="Pha Lang TV" , 22-09 05:00 [LIVE LIVE] CA Barracas Central - Independiente Rivadavia (Server 1) [hls]
+https://lilive1.eu.cc/live/18385e100c4e5678ac85d4ae7309bab1/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e5b01d6e33eb37624bd8ea8e1a585d0b.png" group-title="Pha Lang TV" , 22-09 01:30 [LIVE LIVE] US Pianese - US Sambenedettese (Server 1) [hls]
-https://lilive1.eu.cc/live/a2f88d9d1b33d3d8f7f688bd8096fb19/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d390f3b4be2499face8eb4af0e73140e.png" group-title="Pha Lang TV" , 22-09 05:00 [LIVE LIVE] Club Guabira - San Antonio Bulo Bulo (Server 1) [hls]
+https://lilive1.eu.cc/live/145b61382bbe0f4e0b48879271215263/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9d6d1db4667e39e980b0f9f497931b53.png" group-title="Pha Lang TV" , 22-09 01:30 [LIVE LIVE] Treviso - Desenzano Calvina (Server 1) [hls]
-https://lilive1.eu.cc/live/7d62f39fafde6873ca792005832297e4/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/50fbe18e0f3a8bba0049607f8780eed0.png" group-title="Pha Lang TV" , 22-09 05:00 [LIVE LIVE] Real Soacha Cundinamarca - Deportes Quindio (Server 1) [hls]
+https://lilive1.eu.cc/live/85a20f7cb5422f54c21cc80ac006a07b/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d8c05f02f3ad2bb52a4c539e3453a30a.png" group-title="Pha Lang TV" , 22-09 01:30 [LIVE LIVE] Spezia - Vis Pesaro (Server 1) [hls]
-https://lilive1.eu.cc/live/c200e3c77b545ab547037c3180289aa4/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6b4a5eb452bf0ce6bcbeed86685ca363.png" group-title="Pha Lang TV" , 22-09 05:00 [LIVE LIVE] Nueva Chicago - Patronato Parana (Server 1) [hls]
+https://lilive1.eu.cc/live/a6e00f8e6dabb156678d10ca962f47d6/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c57d78c8cdda6502abc9e7fb6a9adcf7.png" group-title="Pha Lang TV" , 22-09 01:30 [LIVE LIVE] Trento - Pro Vercelli (Server 1) [hls]
-https://lilive1.eu.cc/live/776c8c29bd2d1ad3705032cba0113d2f/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aa5c4ca51cfa4274339610158b7f2244.png" group-title="Pha Lang TV" , 22-09 05:05 [LIVE LIVE] Humble Lions - Waterhouse FC (Server 1) [hls]
+https://lilive1.eu.cc/live/b566fb15b3b646ef777142f635cb7155/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7387c2c385ae09a16c7d0f96e5e86c94.png" group-title="Pha Lang TV" , 22-09 05:30 [LIVE LIVE] Central Espanol - Montevideo City Torque (Server 1) [hls]
+https://lilive1.eu.cc/live/892a8024a5dd4249c47ad43b27439704/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/800183891d5c018ba4bff9e039b06eee.png" group-title="Pha Lang TV" , 22-09 06:00 [LIVE LIVE] Leon Women - Juarez FC Women (Server 1) [hls]
+https://lilive1.eu.cc/live/b0c89aa4af06b10e01bec95106f42039/playlist.m3u8
