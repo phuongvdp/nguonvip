@@ -60,7 +60,11 @@ const __dirname = process.cwd();
 // Khớp với SPORT_TABS trong src/utils/playerGet.js (bỏ 'esports' vì cũng bị lọc bỏ ở đó).
 const SPORT_TABS = ['all', 'football', 'basketball', 'volleyball', 'badminton', 'tennis', 'f1'];
 // Khớp với SOURCE_GROUP_ORDER trong src/utils/playerGet.js.
-const SOURCE_KEYS = ['phaohoa', 'giovang', 'khandaitv', 'chuoichientv', 'phalang'];
+// FIX (20/09/2026): trước đây tự khai báo lại danh sách nguồn ở đây (dễ
+// quên đồng bộ mỗi khi thêm/bớt nguồn, như vừa xảy ra khi loại Pháo Hoa) —
+// giờ dùng thẳng SOURCE_GROUP_ORDER đã import từ playerGet.js (nguồn định
+// nghĩa DUY NHẤT), chỉ cần sửa 1 chỗ đó khi danh sách nguồn thay đổi.
+const SOURCE_KEYS = SOURCE_GROUP_ORDER;
 
 const OUTPUT_DIR = path.join(__dirname, 'public', 'playlists');
 const STATE_PATH = path.join(OUTPUT_DIR, '.refresh-state.json');

@@ -68,7 +68,7 @@ export function buildM3uPlaylist(entries = []) {
   // — chỉ để tham khảo, KHÔNG dùng để sắp xếp lại danh sách.
   const countBySource = new Map();
   for (const entry of withUrl) {
-    const key = entry?.match?.source || 'phaohoa';
+    const key = entry?.match?.source || 'unknown';
     countBySource.set(key, (countBySource.get(key) || 0) + 1);
   }
   const orderedKeys = [

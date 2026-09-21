@@ -315,11 +315,15 @@ function ViewModeToggle({ mode, onChange }) {
 }
 
 const SOURCE_META = {
-  phaohoa: { color: '#FF6B6B', icon: '🎆' },
   giovang: { color: '#F5B301', icon: '🥇' },
   khandaitv: { color: '#4F8EF7', icon: '🏟️' },
   chuoichientv: { color: '#FFD23F', icon: '🍌' },
-  phalang: { color: '#8E5CF7', icon: '⚡' }
+  phalang: { color: '#8E5CF7', icon: '⚡' },
+  // FIX (20/09/2026): trước đây dùng SOURCE_META.phaohoa làm giá trị
+  // dự phòng (fallback) mỗi khi gặp match.source lạ — Pháo Hoa đã bị loại
+  // bỏ khỏi pipeline (domain chết) nên không còn hợp lý làm fallback nữa.
+  // Thêm 1 mục "default" trung tính riêng cho việc này.
+  default: { color: '#9CA3AF', icon: '📺' }
 };
 
 function TeamLogo({ name, logo, small = false }) {
@@ -348,7 +352,7 @@ function TeamLogo({ name, logo, small = false }) {
 }
 
 function MatchCard({ match }) {
-  const meta = SOURCE_META[match.source] || SOURCE_META.phaohoa;
+  const meta = SOURCE_META[match.source] || SOURCE_META.default;
   const isLive = !!match.status?.isLive;
 
   return (
@@ -420,7 +424,7 @@ function MatchCard({ match }) {
 }
 
 function MatchListRow({ match }) {
-  const meta = SOURCE_META[match.source] || SOURCE_META.phaohoa;
+  const meta = SOURCE_META[match.source] || SOURCE_META.default;
   const isLive = !!match.status?.isLive;
 
   return (
@@ -480,7 +484,7 @@ function MatchListRow({ match }) {
 }
 
 function SourceGroupHeader({ source, count }) {
-  const meta = SOURCE_META[source] || SOURCE_META.phaohoa;
+  const meta = SOURCE_META[source] || SOURCE_META.default;
   return (
     <div className="flex items-center gap-2 border-b border-border pb-2">
       <span

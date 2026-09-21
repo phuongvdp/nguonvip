@@ -1,4 +1,7 @@
-import phaohoaService from '@/src/services/phaohoa.service';
+// FIX (20/09/2026 — loại bỏ Pháo Hoa, domain chết): không import
+// phaohoaService ở route này nữa — không còn trận nào có source='phaohoa'
+// được tạo ra từ playlistBuilder.service.js, nhánh xử lý bên dưới không
+// bao giờ được gọi tới nữa.
 import giovangService from '@/src/services/giovang.service';
 import khandaitvService from '@/src/services/khandaitv.service';
 import chuoichientvService from '@/src/services/chuoichientv.service';
@@ -67,14 +70,11 @@ export default async function handler(req, res) {
   try {
     let raw = [];
     const maxAttempts = 2;
-    const attemptTimeoutMs = 8000; // Pháo Hoa/Giờ Vàng/Khán Đài gọi thẳng 1 API, hiếm khi chậm
+    const attemptTimeoutMs = 8000; // Giờ Vàng/Khán Đài/Chuối Chiên/Phá Làng gọi thẳng 1 API, hiếm khi chậm
 
     for (let attempt = 1; attempt <= maxAttempts; attempt++) {
       try {
-        if (source === 'phaohoa') {
-          if (!matchId) return notReadyYet();
-          raw = await withDeadline(phaohoaService.getStreamLinks(matchId, sport), attemptTimeoutMs);
-        } else if (source === 'khandaitv') {
+        if (source === 'khandaitv') {
           if (!matchId) return notReadyYet();
           raw = await withDeadline(khandaitvService.getStreamLinks(matchId, sport), attemptTimeoutMs);
         } else if (source === 'chuoichientv') {

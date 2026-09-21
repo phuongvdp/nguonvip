@@ -37,7 +37,12 @@ const SPORT_TABS = ['all', 'football', 'basketball', 'volleyball', 'badminton', 
 // RIÊNG từng nguồn (source-xoilac.m3u, source-phaohoa.m3u...), song song
 // với playlist theo môn ở trên. Không import trực tiếp từ playerGet.js vì
 // lý do đã nêu ở đầu file (alias "@/..." chỉ Next.js/webpack hiểu).
-const SOURCE_KEYS = ['phaohoa', 'giovang', 'khandaitv', 'chuoichientv', 'phalang'];
+// FIX (20/09/2026 — loại bỏ Pháo Hoa, domain phaohoa1.live đã chết hẳn):
+// file này là CJS thuần (require), không dùng được alias "@/..." nên KHÔNG
+// import chung được SOURCE_GROUP_ORDER từ src/utils/playerGet.js như bản
+// scripts/generate-playlists-standalone.mjs — phải tự sửa tay ở đây mỗi khi
+// danh sách nguồn đổi, nhớ đồng bộ với SOURCE_GROUP_ORDER bên đó.
+const SOURCE_KEYS = ['giovang', 'khandaitv', 'chuoichientv', 'phalang'];
 
 const SITE_URL = (process.env.SITE_URL || process.env.NEXT_PUBLIC_SITE_URL || 'https://nguonvip1.vercel.app').replace(/\/+$/, '');
 // FIX domain mặc định SAI (thiếu số "1"): trước đây là 'https://nguonvip.

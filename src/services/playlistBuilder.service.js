@@ -1,4 +1,10 @@
-import phaohoaService from '@/src/services/phaohoa.service';
+// FIX (20/09/2026 — "Pháo Hoa bị chết domain, loại bỏ nguồn Pháo Hoa"):
+// không import/gọi phaohoaService nữa — domain nguồn (phaohoa1.live) đã
+// ngừng hoạt động hẳn, mọi request gửi tới chỉ tốn thời gian chờ rồi lỗi
+// (DNS not found), không mang lại trận nào. Giữ nguyên file
+// src/services/phaohoa.service.js (không xoá — phòng khi domain khác của
+// Pháo Hoa hoạt động lại sau này, chỉ cần import lại + thêm lại các dòng
+// gọi bên dưới là dùng lại được ngay).
 import giovangService from '@/src/services/giovang.service';
 import khandaitvService from '@/src/services/khandaitv.service';
 import chuoichientvService from '@/src/services/chuoichientv.service';
@@ -16,8 +22,27 @@ import {
 // xa hơn thì lịch hay thay đổi (đổi giờ, hủy...), không đáng tin.
 const UPCOMING_WINDOW_HOURS = 24;
 // Do not let a slow streamer detail page delay the complete match list.
+// FIX (20/09/2026 — "Giờ Vàng đều bị 'chưa có link'"): mốc 4500ms này ban
+// đầu hợp lý cho những nguồn gọi thẳng 1 API JSON (chuoichientv, phalang).
+// Nhưng Giờ Vàng (và Khán Đài) phải MỞ CẢ 1 TRÌNH DUYỆT THẬT (Puppeteer) để
+// tải trang, đọc DOM sau khi chạy JS xong — vốn đã chậm hơn hẳn 1 lệnh gọi
+// API, cộng thêm chạy trên máy chủ GitHub Actions (CPU/mạng yếu hơn hẳn máy
+// cá nhân, lại chạy tới 12 tab song song cạnh tranh tài nguyên, xem
+// STREAM_RESOLVE_CONCURRENCY) — 4.5 giây gần như KHÔNG BAO GIỜ đủ, dẫn tới
+// toàn bộ trận Giờ Vàng rơi vào nhánh "chưa có link" dù trận đang live thật.
+// Trước đây (còn 1 server sống) hậu quả nhẹ — chỉ chậm 1 nhịp, người xem
+// bấm lại /api/playlist/resolve sẽ tự thử lại. Giờ (chế độ tĩnh, không
+// server) KHÔNG còn cơ hội thử lại giữa 2 lần GitHub Actions chạy (5 phút),
+// nên phải đủ thời gian NGAY TRONG LẦN CHẠY NÀY. Tách riêng mốc thời gian
+// theo loại nguồn: nguồn cần trình duyệt được rộng rãi hơn hẳn.
 const STREAM_RESOLVE_TIMEOUT_MS = 4500;
+const STREAM_RESOLVE_TIMEOUT_MS_BROWSER = 18000;
+const BROWSER_BASED_SOURCES = new Set(['giovang', 'khandaitv']);
 const STREAM_RESOLVE_CONCURRENCY = 12;
+// Riêng nguồn cần trình duyệt: giảm số tab mở song song — 12 tab Chrome
+// cùng lúc trên máy chủ CI 2 nhân rất dễ khiến MỌI tab đều chậm/timeout dây
+// chuyền thay vì vài tab chậm riêng lẻ.
+const STREAM_RESOLVE_CONCURRENCY_BROWSER = 4;
 
 const MULTI_SPORTS = ['football', 'basketball', 'tennis', 'badminton', 'volleyball'];
 
@@ -69,9 +94,12 @@ async function safe(promise, label) {
 }
 
 async function resolveWithinDeadline(match) {
+  const timeoutMs = BROWSER_BASED_SOURCES.has(match?.source)
+    ? STREAM_RESOLVE_TIMEOUT_MS_BROWSER
+    : STREAM_RESOLVE_TIMEOUT_MS;
   let timer;
   const timeout = new Promise((resolve) => {
-    timer = setTimeout(() => resolve([]), STREAM_RESOLVE_TIMEOUT_MS);
+    timer = setTimeout(() => resolve([]), timeoutMs);
   });
   try {
     return await Promise.race([resolveStreams(match), timeout]);
@@ -82,9 +110,7 @@ async function resolveWithinDeadline(match) {
 
 /** Mirror fetchLiveLists() from pages/index.jsx but calling services in-process. */
 async function fetchLiveLists() {
-  const [phaohoaAll, phaohoaBb, giovangLive, khandaitvAll, khandaitvBb, chuoichientvLive, phalangLive] = await Promise.all([
-    safe(phaohoaService.getAllMatchesByTab('live', 'all', 50), 'phaohoa:all'),
-    safe(phaohoaService.getAllMatchesByTab('live', 'basketball', 50), 'phaohoa:basketball'),
+  const [giovangLive, khandaitvAll, khandaitvBb, chuoichientvLive, phalangLive] = await Promise.all([
     safe(giovangService.getAllMatchesByTab('live'), 'giovang:live'),
     safe(khandaitvService.getAllMatchesByTab('live', 'all', 50), 'khandaitv:all'),
     safe(khandaitvService.getAllMatchesByTab('live', 'basketball', 50), 'khandaitv:basketball'),
@@ -109,7 +135,6 @@ async function fetchLiveLists() {
     }
   };
 
-  [phaohoaAll, phaohoaBb].forEach((res) => pushListNoFilter(res, 'phaohoa'));
   pushListNoFilter(giovangLive, 'giovang');
   [khandaitvAll, khandaitvBb].forEach((res) => pushListNoFilter(res, 'khandaitv'));
   pushListNoFilter(chuoichientvLive, 'chuoichientv');
@@ -126,9 +151,7 @@ async function fetchLiveLists() {
  * moment the player actually opens the channel.
  */
 async function fetchUpcomingLists() {
-  const [phaohoaAll, phaohoaBb, giovangUpcoming, khandaitvAll, khandaitvBb, chuoichientvUpcoming, phalangUpcoming] = await Promise.all([
-    safe(phaohoaService.getAllMatchesByTab('upcoming', 'all', 50), 'phaohoa:upcoming:all'),
-    safe(phaohoaService.getAllMatchesByTab('upcoming', 'basketball', 50), 'phaohoa:upcoming:basketball'),
+  const [giovangUpcoming, khandaitvAll, khandaitvBb, chuoichientvUpcoming, phalangUpcoming] = await Promise.all([
     safe(giovangService.getAllMatchesByTab('upcoming'), 'giovang:upcoming'),
     safe(khandaitvService.getAllMatchesByTab('upcoming', 'all', 50), 'khandaitv:upcoming:all'),
     safe(khandaitvService.getAllMatchesByTab('upcoming', 'basketball', 50), 'khandaitv:upcoming:basketball'),
@@ -155,7 +178,6 @@ async function fetchUpcomingLists() {
     }
   };
 
-  [phaohoaAll, phaohoaBb].forEach((res) => pushListNoFilter(res, 'phaohoa'));
   pushListNoFilter(giovangUpcoming, 'giovang');
   [khandaitvAll, khandaitvBb].forEach((res) => pushListNoFilter(res, 'khandaitv'));
   pushListNoFilter(chuoichientvUpcoming, 'chuoichientv');
@@ -179,10 +201,7 @@ async function resolveStreams(match) {
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     try {
       let raw = [];
-      if (source === 'phaohoa') {
-        if (!matchId) return [];
-        raw = await phaohoaService.getStreamLinks(matchId, match.sport || 'football');
-      } else if (source === 'khandaitv') {
+      if (source === 'khandaitv') {
         if (!matchId) return [];
         raw = await khandaitvService.getStreamLinks(matchId, match.sport || 'football');
       } else if (source === 'chuoichientv') {
@@ -241,10 +260,34 @@ export async function buildAggregatedMatches() {
   ]);
 
   const liveMatches = dedupeByKey(liveRaw);
-  const resolved = await mapPool(liveMatches, STREAM_RESOLVE_CONCURRENCY, async (match) => {
+
+  // FIX (20/09/2026): trước đây gộp chung TẤT CẢ nguồn vào 1 mapPool với
+  // 1 mức độ song song duy nhất (12) — hợp lý cho nguồn gọi API tức thời,
+  // nhưng nguồn cần trình duyệt (giovang/khandaitv) mở 12 tab Chrome cùng
+  // lúc trên máy CI (2 nhân) làm MỌI tab đều chậm dây chuyền, dễ vượt cả
+  // mốc thời gian đã nới rộng (xem STREAM_RESOLVE_TIMEOUT_MS_BROWSER). Tách
+  // riêng 2 nhóm, mỗi nhóm 1 mức song song phù hợp, quét đồng thời với
+  // nhau (không phải tuần tự — không mất thêm thời gian tổng thể).
+  const browserMatches = [];
+  const otherMatches = [];
+  liveMatches.forEach((match, index) => {
+    (BROWSER_BASED_SOURCES.has(match?.source) ? browserMatches : otherMatches).push({ match, index });
+  });
+
+  const resolveEntry = async ({ match }) => {
     const streams = await resolveWithinDeadline(match);
     return streams.length ? { ...match, streams } : null;
-  });
+  };
+
+  const [browserResolved, otherResolved] = await Promise.all([
+    mapPool(browserMatches, STREAM_RESOLVE_CONCURRENCY_BROWSER, resolveEntry),
+    mapPool(otherMatches, STREAM_RESOLVE_CONCURRENCY, resolveEntry)
+  ]);
+
+  const resolved = new Array(liveMatches.length);
+  browserMatches.forEach(({ index }, i) => { resolved[index] = browserResolved[i]; });
+  otherMatches.forEach(({ index }, i) => { resolved[index] = otherResolved[i]; });
+
   // Keep every live card for the website. A temporary streamer lookup failure
   // must not make a source disappear from the UI.
   const liveReady = resolved.map((resolvedMatch, index) => resolvedMatch || liveMatches[index]);

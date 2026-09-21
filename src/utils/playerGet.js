@@ -50,7 +50,6 @@ const SPORT_ALIASES = {
 };
 
 const SOURCE_LABELS = {
-  phaohoa: 'Phao Hoa TV',
   giovang: 'Gio Vang TV',
   khandaitv: 'Khan Dai TV',
   chuoichientv: 'Chuoi Chien TV',
@@ -58,7 +57,6 @@ const SOURCE_LABELS = {
 };
 
 const SOURCE_SHORT = {
-  phaohoa: 'Pháo Hoa',
   giovang: 'Giờ Vàng',
   khandaitv: 'Khán Đài',
   chuoichientv: 'Chuối Chiên',
@@ -67,7 +65,7 @@ const SOURCE_SHORT = {
 
 // Thứ tự nhóm theo nguồn dùng chung cho danh sách trên trang quét lẫn file
 // playlist .m3u, để cả hai nơi hiển thị nhất quán.
-export const SOURCE_GROUP_ORDER = ['phaohoa', 'giovang', 'khandaitv', 'chuoichientv', 'phalang'];
+export const SOURCE_GROUP_ORDER = ['giovang', 'khandaitv', 'chuoichientv', 'phalang'];
 
 // Danh sách nguồn dùng để vẽ công tắc bật/tắt trên giao diện. Giữ đồng bộ
 // với SOURCE_GROUP_ORDER — mỗi nguồn 1 công tắc, người dùng tự chọn nguồn
@@ -84,11 +82,9 @@ export const SOURCE_GROUP_ORDER = ['phaohoa', 'giovang', 'khandaitv', 'chuoichie
 // khi domain Pháo Hoa gặp sự cố, Khán Đài không bị kéo theo. Vẫn cố tình để
 // thành 1 nguồn RIÊNG theo yêu cầu, nên có thể thấy trận trùng giữa Pháo
 // Hoa và Khán Đài (do chung backend) — đây là hành vi CHỦ Ý chứ không phải lỗi.
-// LƯU Ý (10/09/2026): Khán Đài vẫn KHÔNG lấy được dữ liệu — bị Cloudflare
-// chặn ở tầng IP máy chủ Vercel, đã thử cả trình duyệt headless +
-// puppeteer-extra-stealth đều không qua được. Vẫn giữ nguyên code/công tắc,
-// chỉ là hiện tại nguồn này sẽ luôn rỗng cho tới khi đổi domain khác hoặc
-// dùng dịch vụ vượt chặn trả phí.
+// LƯU Ý (20/09/2026): đã xác nhận Khán Đài hoạt động bình thường trở lại
+// qua GitHub Actions (không còn bị chặn như lúc chạy trên IP Vercel trước
+// đây) — xem thêm scripts/generate-playlists-standalone.mjs.
 // FIX (17/09/2026 — theo yêu cầu): thêm Chuối Chiên TV
 // (chuoichientv.service.js), domain chuoichientv.link/live05.chuoichientv.me.
 // KHÁC HẲN backend với Pháo Hoa/Khán Đài — API riêng (api-v2.chuoichientv.net),
@@ -101,8 +97,12 @@ export const SOURCE_GROUP_ORDER = ['phaohoa', 'giovang', 'khandaitv', 'chuoichie
 // status string như chuoichientv), nhưng link stream LUÔN phải gọi riêng
 // /match/{id}/live cho trận đang live (đã thấy trường hợp source_live=null
 // dù is_live=true trong response danh sách).
+// FIX (20/09/2026 — theo yêu cầu): LOẠI BỎ Pháo Hoa — domain phaohoa1.live
+// đã chết hẳn (DNS không phân giải được), mọi request gửi tới chỉ tốn thời
+// gian chờ rồi lỗi, không còn mang lại trận nào. Không xoá
+// src/services/phaohoa.service.js (phòng khi domain khác hoạt động lại) —
+// chỉ ngừng gọi/hiển thị ở mọi nơi khác trong pipeline.
 export const SOURCE_TOGGLE_LIST = [
-  { key: 'phaohoa', label: 'Pháo Hoa' },
   { key: 'giovang', label: 'Giờ Vàng' },
   { key: 'khandaitv', label: 'Khán Đài' },
   { key: 'chuoichientv', label: 'Chuối Chiên' },
@@ -111,7 +111,7 @@ export const SOURCE_TOGGLE_LIST = [
 
 // Bump the key once so an old browser setting cannot hide every source after
 // the source list/status handling changes. New choices are still persisted.
-const SOURCE_TOGGLE_STORAGE_KEY = 'player-get:enabled-sources:v5';
+const SOURCE_TOGGLE_STORAGE_KEY = 'player-get:enabled-sources:v6';
 
 /** Mặc định: tất cả nguồn đều bật. */
 export function getDefaultEnabledSources() {
@@ -163,7 +163,12 @@ export function normalizeSport(sport) {
 }
 
 export function getSourceKey(match) {
-  return match?.source || 'phaohoa';
+  // FIX (20/09/2026): mặc định cũ là 'phaohoa' — nguồn đã bị loại bỏ khỏi
+  // pipeline (xem SOURCE_GROUP_ORDER), giữ nguyên default đó sẽ gắn nhầm
+  // nhãn "Pháo Hoa" cho match không rõ nguồn. Đổi thành 'unknown' — trường
+  // hợp này hiếm khi xảy ra (mọi service đều tự gắn source qua
+  // tagMatchSource khi build danh sách).
+  return match?.source || 'unknown';
 }
 
 export function getSourceLabel(matchOrSource) {
