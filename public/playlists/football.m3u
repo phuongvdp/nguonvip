@@ -1,25 +1,19 @@
 #EXTM3U
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (11 trận), Khán Đài (8 trận), Chuối Chiên (13 trận), Phá Làng (5 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (8 trận), Khán Đài (8 trận), Chuối Chiên (13 trận), Phá Làng (8 trận) =====
 
 # ----- Ngày 2026-09-21 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Gio Vang TV" , 21-09 13:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Chưa có link — chờ cập nhật) [hls]
 https://giovang.city/truc-tiep-asiad-2026-vs-asiad-2026-21-09-asooi3g7yvxg
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/bangladesh-w.png" group-title="Gio Vang TV" , 21-09 14:00 [LIVE Đang diễn ra] Bangladesh Nữ vs Myanmar Nữ (Chưa có link — chờ cập nhật) [hls]
-https://giovang.city/truc-tiep-bangladesh-nu-vs-myanmar-nu-21-09-6aa0a1e24edbf7ab84041928
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/china-w.png" group-title="Gio Vang TV" , 21-09 14:00 [LIVE Đang diễn ra] Nữ Trung Quốc vs Nữ Philippines (Chưa có link — chờ cập nhật) [hls]
-https://giovang.city/truc-tiep-nu-trung-quoc-vs-nu-philippines-21-09-6aa0a1e24edbf7ab8404192c
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/uzbekistan-w.png" group-title="Gio Vang TV" , 21-09 14:00 [LIVE Đang diễn ra] Uzbekistan Nữ vs Hồng Kông Nữ (Chưa có link — chờ cập nhật) [hls]
-https://giovang.city/truc-tiep-uzbekistan-nu-vs-hong-kong-nu-21-09-6aa0a1e24edbf7ab8404192d
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bc575d043f92657a6dd97751cd326cce.png" group-title="Pha Lang TV" , 21-09 15:00 [LIVE LIVE] Bengaluru Roots FC - Hal FC (Server 1) [hls]
 https://lilive1.eu.cc/live/dc321cc6712043477589315749513833/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9ae36debba0abd59c01de2e60fc42648.png" group-title="Pha Lang TV" , 21-09 15:00 [LIVE LIVE] Khovd Western - Khaan Khuns-Erchim FC (Server 1) [hls]
 https://lilive1.eu.cc/live/525a432515405651d5684789b3ed013f/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f56c716018da872bea80885498f14ba0.png" group-title="Pha Lang TV" , 21-09 15:30 [LIVE LIVE] Niigata XI U17 - Myanmar U17 (Server 1) [hls]
+https://lilive1.eu.cc/live/ddc6026733025b24160ea1662106bb08/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a2324c377a142d82de9b710308cca602.png" group-title="Pha Lang TV" , 21-09 15:30 [LIVE LIVE] FC Victoria Mykolaivka - Nyva Ternopil (Server 1) [hls]
 https://lilive1.eu.cc/live/7ef1f34df89ccba0cd9e5e87e5860801/playlist.m3u8
@@ -29,6 +23,12 @@ https://lilive1.eu.cc/live/7e0ba1d751e0eda7a6bcf3bd24fe0bf9/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cc6b5e5081fad4f44ce01101b646dcd8.png" group-title="Pha Lang TV" , 21-09 16:00 [LIVE LIVE] Zambia U20 - Comoros U20 (Server 1) [hls]
 https://lilive1.eu.cc/live/470151dfa20e07fe24fae73570655dc3/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/40187bced90d7613a4a99ce810b7638e.png" group-title="Pha Lang TV" , 21-09 16:10 [LIVE LIVE] FC Shakhtar Donetsk Youth - LNZ Cherkasy U21 (Server 1) [hls]
+https://lilive1.eu.cc/live/fb914e6aecdfd3ede921a6a1c88f0990/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/22c2754457f0042a05f4029458be2adc.png" group-title="Pha Lang TV" , 21-09 16:30 [LIVE LIVE] Penuel Kryvyi Rih - FC Trostianets (Server 1) [hls]
+https://lilive1.eu.cc/live/7330d9294d4ac1ca866f2b7ad7e5f49e/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/japan-w.png" group-title="Gio Vang TV" , 21-09 17:30 Nữ Nhật Bản vs Đài Loan TQ Nữ (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-nu-nhat-ban-vs-dai-loan-tq-nu-21-09-6aa0a1e24edbf7ab84041924

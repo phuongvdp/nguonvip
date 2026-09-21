@@ -1,6 +1,6 @@
 #EXTM3U
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Khán Đài (4 trận), Chuối Chiên (3 trận), Phá Làng (1 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Khán Đài (4 trận), Chuối Chiên (3 trận) =====
 
 # ----- Ngày 2026-09-21 -----
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/aEBU_ri8U6F06oTqWmKY5g_96x96.png" group-title="Gio Vang TV" , 21-09 14:00 [LIVE Đang diễn ra] Thái Lan vs Trung Quốc (Chưa có link — chờ cập nhật) [hls]
@@ -11,9 +11,6 @@ https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_081520_6f8a2bf2.gif" group-title="Chuoi Chien TV" , 21-09 14:00 [LIVE LIVE] Thailand W vs China W (Chuối Kem (HD)) [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/89f7715eb4c4fdc1f7c3d6da3058d53b.png!w80" group-title="Pha Lang TV" , 21-09 14:00 [LIVE LIVE] Thái Lan Nữ - Trung Quốc (LÝ LIỀU LĨNH (Server 1)) [hls]
-https://pull.digitalcdn.net/live/e325908dfcf54a989af47f54a4d14d63/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/WtRTYpCr-hhXdwebJ.png" group-title="Gio Vang TV" , 21-09 17:20 Nhật Bản vs Hàn Quốc (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-nhat-ban-vs-han-quoc-21-09-pcrj5dno0g2u
