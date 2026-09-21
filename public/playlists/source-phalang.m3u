@@ -1,7 +1,22 @@
 #EXTM3U
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (1 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (6 trận) =====
 
-# ----- Ngày 2026-09-21 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/de9ffdc17d1944dea59d58fe44c3e544.png" group-title="Pha Lang TV" , 21-09 21:00 [LIVE LIVE] Panthrakikos F.C. - Niki Volou (Server 1) [hls]
-https://lilive1.eu.cc/live/b3370fd82bb97592145c41da90b09227/playlist.m3u8
+# ----- Ngày 2026-09-22 -----
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/32a9a20cf26ee69ea136370865f7ae90.png" group-title="Pha Lang TV" , 22-09 01:30 [LIVE LIVE] Guidonia - Livorno (Server 1) [hls]
+https://lilive1.eu.cc/live/042dfcf687fb7dc3028a181a73dec7a6/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/57b5adfa6fd809d19d6506fa3dbcd209.png" group-title="Pha Lang TV" , 22-09 01:30 [LIVE LIVE] AC Dolomiti Bellunesi - Lumezzane (Server 1) [hls]
+https://lilive1.eu.cc/live/5ac696c9cc6236446bed5dda37d7b618/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e5b01d6e33eb37624bd8ea8e1a585d0b.png" group-title="Pha Lang TV" , 22-09 01:30 [LIVE LIVE] US Pianese - US Sambenedettese (Server 1) [hls]
+https://lilive1.eu.cc/live/a2f88d9d1b33d3d8f7f688bd8096fb19/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9d6d1db4667e39e980b0f9f497931b53.png" group-title="Pha Lang TV" , 22-09 01:30 [LIVE LIVE] Treviso - Desenzano Calvina (Server 1) [hls]
+https://lilive1.eu.cc/live/7d62f39fafde6873ca792005832297e4/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d8c05f02f3ad2bb52a4c539e3453a30a.png" group-title="Pha Lang TV" , 22-09 01:30 [LIVE LIVE] Spezia - Vis Pesaro (Server 1) [hls]
+https://lilive1.eu.cc/live/c200e3c77b545ab547037c3180289aa4/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c57d78c8cdda6502abc9e7fb6a9adcf7.png" group-title="Pha Lang TV" , 22-09 01:30 [LIVE LIVE] Trento - Pro Vercelli (Server 1) [hls]
+https://lilive1.eu.cc/live/776c8c29bd2d1ad3705032cba0113d2f/playlist.m3u8
