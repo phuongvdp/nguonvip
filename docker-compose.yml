@@ -1,0 +1,21 @@
+# Mẫu deploy cho từng VPS — copy file này (và .env, xem env.example) lên
+# VPS, chỉnh env cho phù hợp domain/nguồn của riêng VPS đó, rồi chạy:
+#   docker compose up -d --build
+#
+# Mỗi VPS có thể chỉnh khác nhau qua file .env cạnh file này (không sửa
+# trực tiếp file docker-compose.yml) — xem env.example để biết đủ danh sách
+# biến và ý nghĩa từng biến.
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    ports:
+      # Đổi "3000" bên TRÁI nếu VPS đã có dịch vụ khác dùng cổng 3000 (ví
+      # dụ "8080:3000") — bên phải giữ nguyên 3000 vì đó là cổng Next.js
+      # lắng nghe TRONG container (khớp PORT ở Dockerfile).
+      - '3000:3000'
+    env_file:
+      - .env
+    volumes:
+      # Cho phép sửa data/sources.json trên VPS mà không cần build lại image.
+      - ./data/sources.json:/app/data/sources.json:ro
