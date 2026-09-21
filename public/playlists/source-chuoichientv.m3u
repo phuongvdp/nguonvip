@@ -1,37 +1,19 @@
 #EXTM3U
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (9 trận) =====
 
 # ----- Ngày 2026-09-21 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_081520_6f8a2bf2.gif" group-title="Chuoi Chien TV" , 21-09 14:00 [LIVE LIVE] Thailand W vs China W (Chuối Kem (HD)) [hls]
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125446_7256014f.png" group-title="Chuoi Chien TV" , 21-09 21:00 [LIVE LIVE] Belgium vs Czech Republic (Chuối Kem (HD)) [hls]
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133018_f7c8e720.png" group-title="Chuoi Chien TV" , 21-09 17:20 Japan W vs South Korea W (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://live05.chuoichientv.me/live/992222/japan-w-vs-south-korea-w
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133916_1151bcde.png" group-title="Chuoi Chien TV" , 21-09 22:00 [LIVE LIVE] Oţelul vs Corvinul Hunedoara (Chuối Lá (HD)) [hls]
+https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133018_f7c8e720.png" group-title="Chuoi Chien TV" , 21-09 17:30 Japan W vs Chinese Taipei W (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://live05.chuoichientv.me/live/1639561/japan-w-vs-chinese-taipei-w
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131730_66336252.png" group-title="Chuoi Chien TV" , 21-09 22:15 [LIVE LIVE] Xorazm vs Qizilqum (Chuối Tây (HD)) [hls]
+https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Chuoi Chien TV" , 21-09 17:30 Việt Nam vs Thailand W (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://live05.chuoichientv.me/live/1639562/viet-nam-vs-thailand-w
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142527_4828aa10.png" group-title="Chuoi Chien TV" , 21-09 19:00 Botswana U20 vs Malawi U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://live05.chuoichientv.me/live/1640453/botswana-u20-vs-malawi-u20
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142526_7c049a13.png" group-title="Chuoi Chien TV" , 21-09 20:00 South Africa U20 vs Angola U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://live05.chuoichientv.me/live/1640454/south-africa-u20-vs-angola-u20
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125446_7256014f.png" group-title="Chuoi Chien TV" , 21-09 21:00 Belgium vs Czech Republic (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://live05.chuoichientv.me/live/998409/belgium-vs-czech-republic
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133916_1151bcde.png" group-title="Chuoi Chien TV" , 21-09 22:00 Oţelul vs Corvinul Hunedoara (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://live05.chuoichientv.me/live/1565259/otelul-vs-corvinul-hunedoara
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131730_66336252.png" group-title="Chuoi Chien TV" , 21-09 22:15 Xorazm vs Qizilqum (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://live05.chuoichientv.me/live/1516144/xorazm-vs-qizilqum
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142528_7091bd62.png" group-title="Chuoi Chien TV" , 21-09 23:00 Eswatini U20 vs Lesotho U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://live05.chuoichientv.me/live/1640455/eswatini-u20-vs-lesotho-u20
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142528_7091bd62.png" group-title="Chuoi Chien TV" , 21-09 23:00 [LIVE LIVE] Eswatini U20 vs Lesotho U20 (Trốc Tru (HD)) [hls]
+https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
 
 # ----- Ngày 2026-09-22 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_130846_bd5e96a7.png" group-title="Chuoi Chien TV" , 22-09 00:15 Al-Duhail SC vs Al-Arabi SC (Chưa có link — chờ cập nhật) [sắp diễn ra]
@@ -42,9 +24,6 @@ https://live05.chuoichientv.me/live/1493137/aldosivi-vs-atletico-tucuman
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133915_0d9261aa.png" group-title="Chuoi Chien TV" , 22-09 01:00 Petrolul Ploiesti vs Csikszereda (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1565260/petrolul-ploiesti-vs-csikszereda
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132728_39bee3ac.png" group-title="Chuoi Chien TV" , 22-09 05:00 Barracas Central vs Independ. Rivadavia (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://live05.chuoichientv.me/live/1493138/barracas-central-vs-independ-rivadavia
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132721_5487ae5f.png" group-title="Chuoi Chien TV" , 22-09 07:15 Lanus vs Estudiantes L.P. (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1493144/lanus-vs-estudiantes-l-p
