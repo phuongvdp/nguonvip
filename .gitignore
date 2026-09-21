@@ -1,0 +1,37 @@
+# FIX (19/09/2026): file .gitignore này TRƯỚC ĐÓ RỖNG (0 byte) — nghĩa là
+# `git add .` sẽ commit nhầm node_modules (rất nặng), thư mục build .next,
+# và ĐẶC BIỆT nguy hiểm: file .env/.env.local chứa cấu hình riêng từng VPS
+# (domain nguồn, có thể có API key sau này) lên thẳng GitHub công khai.
+# Giờ mỗi VPS tự giữ 1 file .env riêng (xem DEPLOY_VPS.md) nên việc này
+# CÀNG quan trọng hơn trước — bắt buộc phải chặn ở đây.
+
+# dependencies
+/node_modules
+
+# next.js build output
+/.next/
+/out/
+
+# env — KHÔNG BAO GIỜ commit, mỗi VPS/máy tự giữ file riêng (copy từ
+# env.example rồi tự điền)
+.env
+.env.local
+.env.*.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+
+# File bundle tạm sinh ra bởi 'npm run generate-playlists:standalone:build'
+# (xem package.json + scripts/generate-playlists-standalone.mjs) — không
+# phải source, không commit.
+.generate-playlists-standalone.cjs
