@@ -1,1 +1,41 @@
 #EXTM3U
+
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (12 trận) =====
+
+# ----- Ngày 2026-09-21 -----
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_OOrZwnR.jpg" group-title="Khan Dai TV" , 21-09 14:00 [LIVE LIVE] Trung Quốc vs Thái Lan (KaKa) [hls]
+https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Khan Dai TV" , 21-09 17:20 Nhật Bản vs Hàn Quốc (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/nhat-ban-vs-han-quoc
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_11934.jpg" group-title="Khan Dai TV" , 21-09 17:30 Vietnam W vs Thailand W (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/vietnam-w-vs-thailand-w-21-09-2026-856449
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP.jpg" group-title="Khan Dai TV" , 21-09 21:00 Bỉ vs Cộng Hoà Séc (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/bi-vs-cong-hoa-sec
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_3901.jpg" group-title="Khan Dai TV" , 21-09 22:00 Rustavi vs Iberia 1999 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/rustavi-vs-iberia-1999-21-09-2026-730161
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_6085.jpg" group-title="Khan Dai TV" , 21-09 22:00 Otelul vs Corvinul (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/otelul-vs-corvinul-21-09-2026-775049
+
+# ----- Ngày 2026-09-22 -----
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_369.jpg" group-title="Khan Dai TV" , 22-09 00:15 Al-Duhail vs Al Arabi (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/al-duhail-vs-al-arabi-22-09-2026-856112
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_8590.jpg" group-title="Khan Dai TV" , 22-09 00:15 Lusail vs Al Markhiya (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/lusail-vs-al-markhiya-22-09-2026-856113
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_6176.jpg" group-title="Khan Dai TV" , 22-09 01:00 Petrolul vs Csikszereda M. Ciuc (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/petrolul-vs-csikszereda-m-ciuc-22-09-2026-775050
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_oeLkAjM.jpg" group-title="Khan Dai TV" , 22-09 02:00 Slovenia vs Serbia (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/slovenia-vs-serbia
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_10368.jpg" group-title="Khan Dai TV" , 22-09 12:00 Philippines U23 vs Kuwait U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/philippines-u23-vs-kuwait-u23-22-09-2026-856652
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/448549e606ea37761de7ce9cdc77acdc.webp" group-title="Khan Dai TV" , 22-09 12:00 Vietnam U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/vietnam-u23-vs-uzbekistan-ol-22-09-2026-856653

@@ -1,1 +1,164 @@
 #EXTM3U
+
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (12 trận), Chuối Chiên (16 trận), Phá Làng (6 trận) =====
+
+# ----- Ngày 2026-09-21 -----
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Gio Vang TV" , 21-09 13:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Chưa có link — chờ cập nhật) [hls]
+https://giovang.city/truc-tiep-asiad-2026-vs-asiad-2026-21-09-asooi3g7yvxg
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/bangladesh-w.png" group-title="Gio Vang TV" , 21-09 14:00 [LIVE Đang diễn ra] Bangladesh Nữ vs Myanmar Nữ (Chưa có link — chờ cập nhật) [hls]
+https://giovang.city/truc-tiep-bangladesh-nu-vs-myanmar-nu-21-09-6aa0a1e24edbf7ab84041928
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/china-w.png" group-title="Gio Vang TV" , 21-09 14:00 [LIVE Đang diễn ra] Nữ Trung Quốc vs Nữ Philippines (Chưa có link — chờ cập nhật) [hls]
+https://giovang.city/truc-tiep-nu-trung-quoc-vs-nu-philippines-21-09-6aa0a1e24edbf7ab8404192c
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/uzbekistan-w.png" group-title="Gio Vang TV" , 21-09 14:00 [LIVE Đang diễn ra] Uzbekistan Nữ vs Hồng Kông Nữ (Chưa có link — chờ cập nhật) [hls]
+https://giovang.city/truc-tiep-uzbekistan-nu-vs-hong-kong-nu-21-09-6aa0a1e24edbf7ab8404192d
+
+#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/aEBU_ri8U6F06oTqWmKY5g_96x96.png" group-title="Gio Vang TV" , 21-09 14:00 [LIVE Đang diễn ra] Thái Lan vs Trung Quốc (Chưa có link — chờ cập nhật) [hls]
+https://giovang.city/truc-tiep-thai-lan-vs-trung-quoc-21-09-sbnyrxkxwv3k
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_OOrZwnR.jpg" group-title="Khan Dai TV" , 21-09 14:00 [LIVE LIVE] Trung Quốc vs Thái Lan (KaKa) [hls]
+https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_081520_6f8a2bf2.gif" group-title="Chuoi Chien TV" , 21-09 14:00 [LIVE LIVE] Thailand W vs China W (Chuối Kem (HD)) [hls]
+https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/89f7715eb4c4fdc1f7c3d6da3058d53b.png!w80" group-title="Pha Lang TV" , 21-09 14:00 [LIVE LIVE] Thái Lan Nữ - Trung Quốc (LÝ LIỀU LĨNH (Server 1)) [hls]
+https://pull.digitalcdn.net/live/e325908dfcf54a989af47f54a4d14d63/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bc575d043f92657a6dd97751cd326cce.png" group-title="Pha Lang TV" , 21-09 15:00 [LIVE LIVE] Bengaluru Roots FC - Hal FC (Server 1) [hls]
+https://lilive1.eu.cc/live/dc321cc6712043477589315749513833/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9ae36debba0abd59c01de2e60fc42648.png" group-title="Pha Lang TV" , 21-09 15:00 [LIVE LIVE] Khovd Western - Khaan Khuns-Erchim FC (Server 1) [hls]
+https://lilive1.eu.cc/live/525a432515405651d5684789b3ed013f/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a2324c377a142d82de9b710308cca602.png" group-title="Pha Lang TV" , 21-09 15:30 [LIVE LIVE] FC Victoria Mykolaivka - Nyva Ternopil (Server 1) [hls]
+https://lilive1.eu.cc/live/7ef1f34df89ccba0cd9e5e87e5860801/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/635f940d10ef8f9a356a85dadb428f7c.png" group-title="Pha Lang TV" , 21-09 16:00 [LIVE LIVE] Karpaty U21 - Veres Rivne Youth (Server 1) [hls]
+https://lilive1.eu.cc/live/7e0ba1d751e0eda7a6bcf3bd24fe0bf9/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cc6b5e5081fad4f44ce01101b646dcd8.png" group-title="Pha Lang TV" , 21-09 16:00 [LIVE LIVE] Zambia U20 - Comoros U20 (Server 1) [hls]
+https://lilive1.eu.cc/live/470151dfa20e07fe24fae73570655dc3/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Crg4NaGG-ALs6yNah.png" group-title="Gio Vang TV" , 21-09 16:30 [LIVE Đang diễn ra] Nhật Bản vs Palestine (Chưa có link — chờ cập nhật) [hls]
+https://giovang.city/truc-tiep-nhat-ban-vs-palestine-21-09-1nl41va3c6su
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/MPHHn8dM-2ur67bOJ.png" group-title="Gio Vang TV" , 21-09 16:30 [LIVE Đang diễn ra] Đài Loan vs Hàn Quốc (Chưa có link — chờ cập nhật) [hls]
+https://giovang.city/truc-tiep-dai-loan-vs-han-quoc-21-09-hy4f572q7q7n
+
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/b4775c62432e01185c4fd9669952b258.png" group-title="Gio Vang TV" , 21-09 16:30 Tasmania JackJumpers vs South East Melbourne Phoenix (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-tasmania-jackjumpers-vs-south-east-melbourne-phoenix-21-09-26122270
+
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/b2f29c1f131d0390b8d6c1e596843514.jpg" group-title="Gio Vang TV" , 21-09 17:00 China (w) vs Indonesia (W) (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-china-w-vs-indonesia-w-21-09-36356370
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/WtRTYpCr-hhXdwebJ.png" group-title="Gio Vang TV" , 21-09 17:20 Nhật Bản vs Hàn Quốc (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-nhat-ban-vs-han-quoc-21-09-pcrj5dno0g2u
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Khan Dai TV" , 21-09 17:20 Nhật Bản vs Hàn Quốc (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/nhat-ban-vs-han-quoc
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133018_f7c8e720.png" group-title="Chuoi Chien TV" , 21-09 17:20 Japan W vs South Korea W (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/992222/japan-w-vs-south-korea-w
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/japan-w.png" group-title="Gio Vang TV" , 21-09 17:30 Nữ Nhật Bản vs Đài Loan TQ Nữ (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-nu-nhat-ban-vs-dai-loan-tq-nu-21-09-6aa0a1e24edbf7ab84041924
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/vietnam-w.png" group-title="Gio Vang TV" , 21-09 17:30 Nữ Việt Nam vs Thái Lan Nữ (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-nu-viet-nam-vs-thai-lan-nu-21-09-6aa0a1e24edbf7ab84041925
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_11934.jpg" group-title="Khan Dai TV" , 21-09 17:30 Vietnam W vs Thailand W (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/vietnam-w-vs-thailand-w-21-09-2026-856449
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133018_f7c8e720.png" group-title="Chuoi Chien TV" , 21-09 17:30 Japan W vs Chinese Taipei W (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1639561/japan-w-vs-chinese-taipei-w
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Chuoi Chien TV" , 21-09 17:30 Việt Nam vs Thailand W (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1639562/viet-nam-vs-thailand-w
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142527_4828aa10.png" group-title="Chuoi Chien TV" , 21-09 19:00 Botswana U20 vs Malawi U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1640453/botswana-u20-vs-malawi-u20
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142526_7c049a13.png" group-title="Chuoi Chien TV" , 21-09 20:00 South Africa U20 vs Angola U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1640454/south-africa-u20-vs-angola-u20
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Qur1J5jl-dtrVaP64.png" group-title="Gio Vang TV" , 21-09 21:00 Bỉ vs Cộng Hòa Séc (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-bi-vs-cong-hoa-sec-21-09-s5rboc2ce5me
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP.jpg" group-title="Khan Dai TV" , 21-09 21:00 Bỉ vs Cộng Hoà Séc (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/bi-vs-cong-hoa-sec
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125446_7256014f.png" group-title="Chuoi Chien TV" , 21-09 21:00 Belgium vs Czech Republic (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/998409/belgium-vs-czech-republic
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/ELyZwCYA-SKQzk2kD.png" group-title="Gio Vang TV" , 21-09 22:00 Umm-Salal vs Al-Kharitiyath (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-umm-salal-vs-al-kharitiyath-21-09-9d98xjf9ithy
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_3901.jpg" group-title="Khan Dai TV" , 21-09 22:00 Rustavi vs Iberia 1999 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/rustavi-vs-iberia-1999-21-09-2026-730161
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_6085.jpg" group-title="Khan Dai TV" , 21-09 22:00 Otelul vs Corvinul (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/otelul-vs-corvinul-21-09-2026-775049
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133916_1151bcde.png" group-title="Chuoi Chien TV" , 21-09 22:00 Oţelul vs Corvinul Hunedoara (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1565259/otelul-vs-corvinul-hunedoara
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/xorazm-urganch.png" group-title="Gio Vang TV" , 21-09 22:15 Xorazm Urganch vs Qizilqum Zarafshon (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-xorazm-urganch-vs-qizilqum-zarafshon-21-09-6aa88ade24d46db87049641d
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131730_66336252.png" group-title="Chuoi Chien TV" , 21-09 22:15 Xorazm vs Qizilqum (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1516144/xorazm-vs-qizilqum
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142528_7091bd62.png" group-title="Chuoi Chien TV" , 21-09 23:00 Eswatini U20 vs Lesotho U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1640455/eswatini-u20-vs-lesotho-u20
+
+# ----- Ngày 2026-09-22 -----
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrlab9oBI8mjKTkXeZQAGtWxIEfr1D7ayy-NdrCdwBkw&s" group-title="Gio Vang TV" , 22-09 00:15 Al-Duhail vs Al Arabi (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-al-duhail-vs-al-arabi-22-09-r3sywqesax2o
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_369.jpg" group-title="Khan Dai TV" , 22-09 00:15 Al-Duhail vs Al Arabi (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/al-duhail-vs-al-arabi-22-09-2026-856112
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_8590.jpg" group-title="Khan Dai TV" , 22-09 00:15 Lusail vs Al Markhiya (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/lusail-vs-al-markhiya-22-09-2026-856113
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_130846_bd5e96a7.png" group-title="Chuoi Chien TV" , 22-09 00:15 Al-Duhail SC vs Al-Arabi SC (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1639134/al-duhail-sc-vs-al-arabi-sc
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_130353_4aab4f40.png" group-title="Chuoi Chien TV" , 22-09 00:30 Aldosivi vs Atletico Tucuman (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1493137/aldosivi-vs-atletico-tucuman
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_6176.jpg" group-title="Khan Dai TV" , 22-09 01:00 Petrolul vs Csikszereda M. Ciuc (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/petrolul-vs-csikszereda-m-ciuc-22-09-2026-775050
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133915_0d9261aa.png" group-title="Chuoi Chien TV" , 22-09 01:00 Petrolul Ploiesti vs Csikszereda (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1565260/petrolul-ploiesti-vs-csikszereda
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/tOvKhGDa-zNyrigZg.png" group-title="Gio Vang TV" , 22-09 02:00 Slovenia vs Serbia (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-slovenia-vs-serbia-22-09-tpjt48zgys5p
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_oeLkAjM.jpg" group-title="Khan Dai TV" , 22-09 02:00 Slovenia vs Serbia (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/slovenia-vs-serbia
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/barracas-central.png" group-title="Gio Vang TV" , 22-09 05:00 Barracas Central vs Independiente Rivadavia (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-barracas-central-vs-independiente-rivadavia-22-09-6aa88adf24d46db8704964ee
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/12/Guabir%C3%A1_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="Gio Vang TV" , 22-09 05:00 Guabira vs SA Bulo Bulo (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-guabira-vs-sa-bulo-bulo-22-09-czdkh38kotgl
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132728_39bee3ac.png" group-title="Chuoi Chien TV" , 22-09 05:00 Barracas Central vs Independ. Rivadavia (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1493138/barracas-central-vs-independ-rivadavia
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132721_5487ae5f.png" group-title="Chuoi Chien TV" , 22-09 07:15 Lanus vs Estudiantes L.P. (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1493144/lanus-vs-estudiantes-l-p
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250916_004011_bb3475cd.png" group-title="Chuoi Chien TV" , 22-09 08:06 Santos Laguna W vs Cruz Azul W (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1603371/santos-laguna-w-vs-cruz-azul-w
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_10368.jpg" group-title="Khan Dai TV" , 22-09 12:00 Philippines U23 vs Kuwait U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/philippines-u23-vs-kuwait-u23-22-09-2026-856652
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/448549e606ea37761de7ce9cdc77acdc.webp" group-title="Khan Dai TV" , 22-09 12:00 Vietnam U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/vietnam-u23-vs-uzbekistan-ol-22-09-2026-856653

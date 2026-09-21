@@ -1,1 +1,22 @@
 #EXTM3U
+
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (6 trận) =====
+
+# ----- Ngày 2026-09-21 -----
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/89f7715eb4c4fdc1f7c3d6da3058d53b.png!w80" group-title="Pha Lang TV" , 21-09 14:00 [LIVE LIVE] Thái Lan Nữ - Trung Quốc (LÝ LIỀU LĨNH (Server 1)) [hls]
+https://pull.digitalcdn.net/live/e325908dfcf54a989af47f54a4d14d63/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bc575d043f92657a6dd97751cd326cce.png" group-title="Pha Lang TV" , 21-09 15:00 [LIVE LIVE] Bengaluru Roots FC - Hal FC (Server 1) [hls]
+https://lilive1.eu.cc/live/dc321cc6712043477589315749513833/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9ae36debba0abd59c01de2e60fc42648.png" group-title="Pha Lang TV" , 21-09 15:00 [LIVE LIVE] Khovd Western - Khaan Khuns-Erchim FC (Server 1) [hls]
+https://lilive1.eu.cc/live/525a432515405651d5684789b3ed013f/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a2324c377a142d82de9b710308cca602.png" group-title="Pha Lang TV" , 21-09 15:30 [LIVE LIVE] FC Victoria Mykolaivka - Nyva Ternopil (Server 1) [hls]
+https://lilive1.eu.cc/live/7ef1f34df89ccba0cd9e5e87e5860801/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/635f940d10ef8f9a356a85dadb428f7c.png" group-title="Pha Lang TV" , 21-09 16:00 [LIVE LIVE] Karpaty U21 - Veres Rivne Youth (Server 1) [hls]
+https://lilive1.eu.cc/live/7e0ba1d751e0eda7a6bcf3bd24fe0bf9/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cc6b5e5081fad4f44ce01101b646dcd8.png" group-title="Pha Lang TV" , 21-09 16:00 [LIVE LIVE] Zambia U20 - Comoros U20 (Server 1) [hls]
+https://lilive1.eu.cc/live/470151dfa20e07fe24fae73570655dc3/playlist.m3u8
