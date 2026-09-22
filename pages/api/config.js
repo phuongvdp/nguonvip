@@ -9,13 +9,13 @@
 // FIX (19/09/2026 — "muốn file .m3u tĩnh lưu trên git, nhưng vẫn hiển thị
 // link git trên web VPS"): file playlists tĩnh (public/playlists/*.m3u,
 // xem scripts/generate-playlists.js) được GitHub Actions commit thẳng lên
-// GitHub mỗi 5 phút — trên Vercel thì mỗi lần commit đó TỰ kích hoạt 1 bản
+// GitHub mỗi 2 phút — trên Vercel thì mỗi lần commit đó TỰ kích hoạt 1 bản
 // deploy mới (Vercel theo dõi nhánh main), nên file cục bộ Vercel đang phục
 // vụ luôn là bản mới nhất. Trên VPS/Docker thì KHÔNG có cơ chế tự deploy
 // lại khi GitHub Actions commit — file trong image Docker chỉ mới tính từ
 // lúc `docker compose up -d --build` gần nhất, đứng yên cho tới lần build
 // kế tiếp (xem DEPLOY_VPS.md, mục "Cập nhật code khi có bản mới"). Thay vì
-// bắt VPS tự rebuild mỗi 5 phút (nặng, không cần thiết), trỏ link playlist
+// bắt VPS tự rebuild mỗi 2 phút (nặng, không cần thiết), trỏ link playlist
 // tĩnh thẳng ra bản mới nhất trên GitHub (raw.githubusercontent.com) — luôn
 // mới theo đúng nhịp GitHub Actions, không phụ thuộc lúc nào VPS build lại.
 export default function handler(req, res) {

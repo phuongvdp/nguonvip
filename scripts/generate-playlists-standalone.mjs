@@ -69,7 +69,7 @@ const SOURCE_KEYS = SOURCE_GROUP_ORDER;
 const OUTPUT_DIR = path.join(__dirname, 'public', 'playlists');
 const STATE_PATH = path.join(OUTPUT_DIR, '.refresh-state.json');
 
-const BASE_INTERVAL_MIN = 5;
+const BASE_INTERVAL_MIN = 2; // khớp lịch cron */2 trong .github/workflows/validate-and-generate.yml
 const MAX_INTERVAL_MIN = 120;
 const WATCH_INTERVAL_MS = BASE_INTERVAL_MIN * 60 * 1000;
 

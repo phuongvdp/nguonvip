@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Sinh sẵn file .m3u tĩnh cho từng môn thể thao, lưu vào public/playlists/
 // để commit vào repo — dùng bởi .github/workflows/validate-and-generate.yml
-// (cron kiểm tra mỗi 5 phút, hoặc khi data/sources.json thay đổi).
+// (cron kiểm tra mỗi 2 phút, hoặc khi data/sources.json thay đổi).
 //
 // TẠI SAO GỌI QUA HTTP TỚI TRANG ĐÃ DEPLOY THAY VÌ QUÉT LẠI TỪ ĐẦU:
 // Các service quét nguồn (src/services/*.service.js) dùng alias "@/..." —
@@ -9,14 +9,14 @@
 // không hiểu alias này (và phần lớn import trong code cũng không có đuôi
 // .js, Node ESM cũng không tự suy ra được). Ngoài ra 1 số nguồn (VSC9,
 // Giovang) cần mở Chromium headless mới lấy được stream — cài + chạy lại
-// trong GitHub Actions mỗi 5 phút vừa nặng vừa dễ timeout.
+// trong GitHub Actions mỗi 2 phút vừa nặng vừa dễ timeout.
 // => Gọi thẳng /api/playlist trên chính trang đã chạy (Vercel) là chắc ăn
 // nhất: tái dùng đúng 100% logic thật, không lặp code, không cần cài thêm
 // gì trong CI ngoài Node.
 //
 // TỰ GIÃN/THU CHU KỲ LÀM MỚI:
 // GitHub Actions cron không tự đổi lịch được (chỉ khai báo tĩnh trong file
-// .yml) — nên cron vẫn "gõ cửa" đều mỗi 5 phút như bình thường, nhưng bản
+// .yml) — nên cron vẫn "gõ cửa" đều mỗi 2 phút như bình thường, nhưng bản
 // thân script tự quyết định có LÀM THẬT hay không dựa vào trạng thái lưu ở
 // public/playlists/.refresh-state.json (được commit lại cùng playlist, nên
 // nhớ được giữa các lần chạy):
@@ -61,7 +61,7 @@ const SITE_URL = (process.env.SITE_URL || process.env.NEXT_PUBLIC_SITE_URL || 'h
 const OUTPUT_DIR = path.join(__dirname, '..', 'public', 'playlists');
 const STATE_PATH = path.join(OUTPUT_DIR, '.refresh-state.json');
 
-const BASE_INTERVAL_MIN = 5; // chu kỳ chuẩn khi đang có trận live
+const BASE_INTERVAL_MIN = 2; // chu kỳ chuẩn khi đang có trận live (khớp lịch cron */2 trong .github/workflows/validate-and-generate.yml)
 const MAX_INTERVAL_MIN = 120; // trần giãn tối đa (2 tiếng) khi im ắng kéo dài
 const WATCH_INTERVAL_MS = BASE_INTERVAL_MIN * 60 * 1000; // dùng cho `--watch` chạy local
 

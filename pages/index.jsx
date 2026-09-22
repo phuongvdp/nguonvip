@@ -133,12 +133,17 @@ function PlaylistLink() {
     };
   }, []);
 
-  // GITHUB_REPO chưa khai báo (Vercel không cần biến này — mỗi lần GitHub
-  // Actions commit playlist tĩnh, Vercel tự deploy lại nên file cục bộ luôn
-  // mới) -> dùng path cục bộ /playlists/<file>. Đã khai báo (thường là VPS,
-  // xem pages/api/config.js) -> trỏ thẳng ra bản mới nhất trên GitHub, luôn
-  // cập nhật đúng nhịp GitHub Actions bất kể VPS build lại lúc nào.
-  const staticPath = (filename) => (staticBase ? `${staticBase}/${filename}` : `/playlists/${filename}`);
+  // FIX (22/09/2026 — "all.m3u hiện ra dạng file text trên app IPTV"): link
+  // KHÔNG còn trỏ thẳng ra raw.githubusercontent.com nữa (GitHub luôn trả
+  // Content-Type: text/plain cho mọi file, khiến app hiểu nhầm là file text
+  // — xem giải thích đầy đủ trong pages/api/static-playlist/[file].js).
+  // Mọi link playlist tĩnh giờ luôn đi qua route proxy trên chính domain
+  // của mình — route đó TỰ quyết định lấy nội dung từ GitHub (nếu đã khai
+  // báo GITHUB_REPO) hay từ file cục bộ, rồi trả lại với Content-Type
+  // playlist đúng chuẩn. `staticBase` (từ /api/config) giờ chỉ còn dùng để
+  // hiển thị chú thích "lấy thẳng bản mới nhất trên GitHub" bên dưới, không
+  // còn dùng để dựng URL nữa.
+  const staticPath = (filename) => `/api/static-playlist/${filename}`;
 
   return (
     <div className="space-y-2">
@@ -169,7 +174,7 @@ function PlaylistLink() {
         onClick={() => setShowStatic((v) => !v)}
         className="text-xs text-muted-foreground underline-offset-2 hover:text-foreground hover:underline"
       >
-        {showStatic ? '▾ Ẩn link playlist tĩnh (cập nhật mỗi 5 phút)' : '▸ Link playlist tĩnh (cập nhật mỗi 5 phút)'}
+        {showStatic ? '▾ Ẩn link playlist tĩnh (cập nhật mỗi 2 phút)' : '▸ Link playlist tĩnh (cập nhật mỗi 2 phút)'}
       </button>
 
       {showStatic && (
@@ -191,14 +196,14 @@ function PlaylistLink() {
 }
 
 // Thời điểm GitHub Actions kiểm tra kế tiếp
-// (.github/workflows/validate-and-generate.yml, cron "*/5 * * * *" — chạy
-// theo giờ UTC, tức mỗi khi phút UTC chạm mốc chia hết cho 5). Đây là lịch
+// (.github/workflows/validate-and-generate.yml, cron "*/2 * * * *" — chạy
+// theo giờ UTC, tức mỗi khi phút UTC chạm mốc chia hết cho 2). Đây là lịch
 // KIỂM TRA cố định, không phải lịch làm mới thật — script bên trong tự
 // quyết định có làm mới thật hay không: đang có trận live thì làm mới đúng
-// 5 phút/lần, không có trận live thì tự giãn ra dần (tối đa 2 tiếng) để
+// 2 phút/lần, không có trận live thì tự giãn ra dần (tối đa 2 tiếng) để
 // đỡ tốn tài nguyên, nên thời gian làm mới thật có thể lâu hơn số hiện ở
 // đây.
-function nextCronRunUtc(intervalMinutes = 5) {
+function nextCronRunUtc(intervalMinutes = 2) {
   const next = new Date();
   next.setUTCSeconds(0, 0);
   const utcMinutes = next.getUTCMinutes();
@@ -212,7 +217,7 @@ function AutoGenerateNote() {
 
   useEffect(() => {
     function update() {
-      const next = nextCronRunUtc(5);
+      const next = nextCronRunUtc(2);
       const diffMin = Math.max(0, Math.ceil((next.getTime() - Date.now()) / 60000));
       setLabel(diffMin <= 1 ? '~1 phút nữa' : `~${diffMin} phút nữa`);
     }
@@ -223,7 +228,7 @@ function AutoGenerateNote() {
 
   return (
     <p className="px-1 text-xs text-muted-foreground">
-      File playlist tĩnh (<code className="font-mono">public/playlists/</code>) được GitHub Actions kiểm tra mỗi 5
+      File playlist tĩnh (<code className="font-mono">public/playlists/</code>) được GitHub Actions kiểm tra mỗi 2
       phút — lần kiểm tra kế tiếp {label || '…'} (giờ UTC, có thể trễ vài phút do hàng đợi của GitHub). Đang có trận
       live thì làm mới đúng chu kỳ đó; im ắng thì tự giãn ra dần (tối đa 2 tiếng) để đỡ tốn tài nguyên.
     </p>
