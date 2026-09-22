@@ -1,37 +1,19 @@
 #EXTM3U
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (3 trận), Khán Đài (7 trận), Chuối Chiên (6 trận), Phá Làng (1 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (1 trận), Khán Đài (5 trận), Chuối Chiên (4 trận), Phá Làng (1 trận) =====
 
 # ----- Ngày 2026-09-22 -----
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/hMQTrXVg-Cfuwb3yH.png" group-title="Gio Vang TV" , 22-09 08:00 [LIVE Đang diễn ra] Kazakhstan vs Việt Nam (Giovang 1) [hls]
-https://eqr2hdarxfliv.vcdn.cloud/1790016751_hd/1790016751_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_hdpF9Rm.jpg" group-title="Khan Dai TV" , 22-09 08:00 [LIVE LIVE] Việt Nam vs Kazakhstan (Tày) [hls]
-https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_144823_bce84ab8.png" group-title="Chuoi Chien TV" , 22-09 08:00 [LIVE LIVE] Kazakhstan W vs Vietnam W (Chuối Tây (HD)) [hls]
-https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/9749f17f2a26c0ee6558c42029e739d8.png!w80" group-title="Pha Lang TV" , 22-09 08:00 [LIVE LIVE] Kyrgyzstan Women - Việt Nam (LÝ LÊN LỬA (Server 1)) [hls]
-https://pull.digitalcdn.net/live/739896ad88434e3ba08f7f001aae93af/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/YoRguSGG-251yRjVj.png" group-title="Gio Vang TV" , 22-09 11:00 Đài Bắc Trung Hoa vs Indonesia (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-dai-bac-trung-hoa-vs-indonesia-22-09-5xauagnbckxn
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_the_Republic_of_China.svg.webp" group-title="Khan Dai TV" , 22-09 11:00 Đài Loan vs Indonesia (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/dai-loan-vs-indonesia
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250627_220721_a791691e.png" group-title="Chuoi Chien TV" , 22-09 11:00 Chinese Taipei vs Indonesia (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://live05.chuoichientv.me/live/993592/chinese-taipei-vs-indonesia
-
-#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/aEBU_ri8U6F06oTqWmKY5g_96x96.png" group-title="Gio Vang TV" , 22-09 14:00 Thái Lan vs Hàn Quốc (Chưa có link — chờ cập nhật) [sắp diễn ra]
+#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/aEBU_ri8U6F06oTqWmKY5g_96x96.png" group-title="Gio Vang TV" , 22-09 14:00 [LIVE Đang diễn ra] Thái Lan vs Hàn Quốc (Chưa có link — chờ cập nhật) [hls]
 https://giovang.city/truc-tiep-thai-lan-vs-han-quoc-22-09-vedm2ujz6e90
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_South_Korea.svg.webp" group-title="Khan Dai TV" , 22-09 14:00 Hàn Quốc vs Thái Lan (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/han-quoc-vs-thai-lan
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_South_Korea.svg.webp" group-title="Khan Dai TV" , 22-09 14:00 [LIVE LIVE] Hàn Quốc vs Thái Lan (KaKa) [hls]
+https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Chuoi Chien TV" , 22-09 14:00 South Korea vs Thailand (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://live05.chuoichientv.me/live/998047/south-korea-vs-thailand
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Chuoi Chien TV" , 22-09 14:00 [LIVE LIVE] South Korea vs Thailand (Chuối Kem (HD)) [hls]
+https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/604a26fb4f696d522d464fc2ff0919de.png!w80" group-title="Pha Lang TV" , 22-09 14:00 [LIVE LIVE] Hàn Quốc Nữ - Thái Lan Nữ (LÝ LIỀU LĨNH (Server 1)) [hls]
+https://pull.digitalcdn.net/live/919c83b079644b369738bcfb41214cc2/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_y52YJOU.jpg" group-title="Khan Dai TV" , 22-09 17:00 Hong Kong vs Philippines (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/hong-kong-vs-philippines

@@ -3,20 +3,14 @@
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (18 trận) =====
 
 # ----- Ngày 2026-09-22 -----
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_hdpF9Rm.jpg" group-title="Khan Dai TV" , 22-09 08:00 [LIVE LIVE] Việt Nam vs Kazakhstan (Tày) [hls]
-https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/448549e606ea37761de7ce9cdc77acdc.webp" group-title="Khan Dai TV" , 22-09 12:00 [LIVE 90+] Vietnam U23 vs Uzbekistan U23 (Lee Sin) [hls]
+https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_the_Republic_of_China.svg.webp" group-title="Khan Dai TV" , 22-09 11:00 Đài Loan vs Indonesia (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/dai-loan-vs-indonesia
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_10368.jpg" group-title="Khan Dai TV" , 22-09 12:00 [LIVE 90+] Philippines U23 vs Kuwait U23 (Enzo) [hls]
+https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_10368.jpg" group-title="Khan Dai TV" , 22-09 12:00 Philippines U23 vs Kuwait U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/philippines-u23-vs-kuwait-u23-22-09-2026-856652
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/448549e606ea37761de7ce9cdc77acdc.webp" group-title="Khan Dai TV" , 22-09 12:00 Vietnam U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/vietnam-u23-vs-uzbekistan-ol-22-09-2026-856653
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_South_Korea.svg.webp" group-title="Khan Dai TV" , 22-09 14:00 Hàn Quốc vs Thái Lan (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/han-quoc-vs-thai-lan
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_South_Korea.svg.webp" group-title="Khan Dai TV" , 22-09 14:00 [LIVE LIVE] Hàn Quốc vs Thái Lan (KaKa) [hls]
+https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9461.jpg" group-title="Khan Dai TV" , 22-09 17:00 South Korea U23 vs Saudi Arabia U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/south-korea-u23-vs-saudi-arabia-u23-22-09-2026-856654
@@ -57,3 +51,9 @@ https://khandai3.link/truc-tiep/juventus-w-vs-sl-benfica-w-23-09-2026-855203
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_486.jpg" group-title="Khan Dai TV" , 23-09 02:00 Real Madrid W vs PSG W (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/real-madrid-w-vs-psg-w-23-09-2026-855224
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9462.jpg" group-title="Khan Dai TV" , 23-09 12:30 China U23 vs United Arab Emirates U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/china-u23-vs-united-arab-emirates-u23-23-09-2026-856655
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_xjljaQl_V05QL8g.jpg" group-title="Khan Dai TV" , 23-09 12:30 Iran U23 vs North Korea U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/iran-u23-vs-north-korea-u23-23-09-2026-856656
