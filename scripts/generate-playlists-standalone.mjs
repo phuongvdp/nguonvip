@@ -51,6 +51,7 @@
 // kiểm chứng chạy sạch sau khi thêm --external, không còn lỗi.
 import fs from 'fs';
 import path from 'path';
+import { execSync } from 'child_process';
 import { buildAggregatedMatches } from '@/src/services/playlistBuilder.service';
 import { filterBySportTab, filterBySource, getSourceKey, getSourceLabel, SOURCE_GROUP_ORDER } from '@/src/utils/playerGet';
 import { matchesToPlaylistEntries, buildM3uPlaylist } from '@/src/utils/m3uPlaylist';
@@ -78,11 +79,120 @@ const SOURCE_KEYS = SOURCE_GROUP_ORDER;
 const OUTPUT_DIR = path.join(__dirname, 'public', 'playlists');
 const STATE_PATH = path.join(OUTPUT_DIR, '.refresh-state.json');
 
-const BASE_INTERVAL_MIN = 2; // khớp lịch cron */2 trong .github/workflows/validate-and-generate.yml — dùng cho `--watch` chạy local, không còn dùng để giãn chu kỳ
+const BASE_INTERVAL_MIN = 2; // 1 job GitHub Actions "watch" liên tục cách nhau 2 phút/chu kỳ (xem FIX 22/09/2026 bên dưới) — khi chạy `--watch` ở local cũng dùng chu kỳ này.
 const WATCH_INTERVAL_MS = BASE_INTERVAL_MIN * 60 * 1000;
+
+// FIX (22/09/2026 — "cần cron chạy đều 2 phút LIÊN TỤC nhưng GitHub Actions
+// không cho lịch `schedule` mịn hơn ~5 phút và job tối đa chỉ 6 tiếng"):
+// TRƯỚC ĐÂY workflow dùng `schedule: '*/2 * * * *'` gọi 1 job MỚI mỗi 2
+// phút, chạy generateOnce() 1 lần rồi thoát — nhưng GitHub KHÔNG đảm bảo
+// lịch */2 chạy đúng giờ (hàng đợi runner có thể trễ vài phút, thậm chí bỏ
+// lượt khi tải cao). Cách chắc chắn "2 phút liên tục" hơn: dùng 1 job DUY
+// NHẤT, tự lặp bên trong bằng `--watch` (đã có sẵn khung này từ trước) —
+// mỗi chu kỳ tự generateOnce() + tự commit/push luôn (xem commitAndPush()),
+// rồi `sleep` 2 phút, lặp lại — không phụ thuộc runner nhận lịch mới mỗi
+// lần. Vì 1 job GitHub Actions có giới hạn cứng 6 tiếng (360 phút), vòng
+// lặp tự dừng trước mốc đó (xem MAX_RUNTIME_MS) rồi tự gọi API
+// `workflow_dispatch` kích hoạt lại chính workflow này (xem
+// triggerSelfRestart()) để có 1 job MỚI tiếp tục ngay, không gián đoạn.
+// Lịch `schedule` trong workflow vẫn giữ lại nhưng chỉ còn vai trò DỰ
+// PHÒNG (giãn ra vài tiếng/lần) — phòng khi triggerSelfRestart() thất bại
+// (hết hạn token, lỗi mạng, v.v.) thì vẫn có người bắt lại, không "chết"
+// hẳn dây chuyền.
+const MAX_RUNTIME_MIN = Number(process.env.MAX_RUNTIME_MINUTES || 345); // để dư ~15 phút đệm trước giới hạn 360 phút/job của GitHub Actions (cho commit/push + gọi API cuối cùng kịp hoàn tất)
+const MAX_RUNTIME_MS = MAX_RUNTIME_MIN * 60 * 1000;
+
+// Chỉ bật commit/push tự động bên trong vòng lặp khi chạy trong job GitHub
+// Actions thật (workflow tự set biến này ở bước "Generate playlists") —
+// tránh việc lỡ tay chạy `--watch` ở máy local rồi tự commit/push nhầm vào
+// repo của người dùng.
+const AUTO_COMMIT = process.env.GENERATE_AUTO_COMMIT === '1';
 
 function isWatchMode() {
   return process.argv.includes('--watch');
+}
+
+function ensureGitIdentity() {
+  if (!AUTO_COMMIT) return;
+  try {
+    execSync('git config user.email "actions@github.com"');
+    execSync('git config user.name "GitHub Actions"');
+  } catch (err) {
+    console.warn('[generate-playlists] Không set được git identity:', err.message);
+  }
+}
+
+// Commit + push ngay sau MỖI chu kỳ (không đợi tới lúc job kết thúc) — đây
+// là điểm mấu chốt để "2 phút/lần" là thật: nếu chỉ commit 1 lần lúc job
+// thoát (sau ~5h45) thì người xem sẽ chỉ thấy playlist mới mỗi ~6 tiếng chứ
+// không phải mỗi 2 phút, dù script vẫn quét đúng chu kỳ bên trong.
+function commitAndPush() {
+  if (!AUTO_COMMIT) return;
+  try {
+    execSync('git add public/playlists/', { stdio: 'inherit' });
+    const hasChanges = execSync('git status --porcelain -- public/playlists/').toString().trim().length > 0;
+    if (!hasChanges) {
+      console.log('[generate-playlists] Không có thay đổi mới — bỏ qua commit chu kỳ này.');
+      return;
+    }
+    execSync('git commit -m "Generate playlists (auto, watch loop)"', { stdio: 'inherit' });
+    execSync('git push', { stdio: 'inherit' });
+    console.log('[generate-playlists] Đã commit & push playlist mới.');
+  } catch (err) {
+    console.error('[generate-playlists] Lỗi khi commit/push:', err.message);
+  }
+}
+
+// Tự gọi REST API của GitHub để kích hoạt lại CHÍNH workflow này
+// (workflow_dispatch) ngay trước khi job hiện tại thoát vì sắp chạm giới
+// hạn 6 tiếng — nhờ vậy job kế tiếp bắt đầu gần như ngay lập tức, không
+// phải chờ tới lượt `schedule` dự phòng (vốn đã giãn ra vài tiếng/lần).
+// Dùng thẳng GITHUB_TOKEN mặc định của job (secrets.GITHUB_TOKEN, workflow
+// đã truyền vào qua biến môi trường) — token này ĐƯỢC PHÉP kích hoạt
+// workflow_dispatch/repository_dispatch dù các sự kiện khác (push,...) do
+// chính GITHUB_TOKEN tạo ra thường bị GitHub chặn không cho khởi chạy
+// workflow mới (chống đệ quy vô hạn) — 2 loại sự kiện dispatch này là
+// ngoại lệ được GitHub tài liệu hoá rõ, nên không cần Personal Access
+// Token riêng.
+async function triggerSelfRestart() {
+  const token = process.env.GITHUB_TOKEN;
+  const repo = process.env.GITHUB_REPOSITORY; // dạng "owner/repo", GitHub tự tiêm sẵn
+  const ref = process.env.GITHUB_REF_NAME || 'main';
+  const workflowFile = 'validate-and-generate.yml';
+
+  if (!token || !repo) {
+    console.warn(
+      '[generate-playlists] Thiếu GITHUB_TOKEN/GITHUB_REPOSITORY (không chạy trong GitHub Actions?) — ' +
+      'bỏ qua bước tự kích hoạt lại, đành chờ lịch schedule dự phòng bắt lại.'
+    );
+    return;
+  }
+
+  try {
+    const res = await fetch(
+      `https://api.github.com/repos/${repo}/actions/workflows/${workflowFile}/dispatches`,
+      {
+        method: 'POST',
+        headers: {
+          Authorization: `Bearer ${token}`,
+          Accept: 'application/vnd.github+json',
+          'X-GitHub-Api-Version': '2022-11-28',
+        },
+        body: JSON.stringify({ ref }),
+      }
+    );
+
+    if (res.ok || res.status === 204) {
+      console.log('[generate-playlists] Đã tự gọi API kích hoạt job kế tiếp — sẽ tiếp tục ngay, không chờ schedule dự phòng.');
+    } else {
+      const body = await res.text();
+      console.error(`[generate-playlists] Gọi API tự kích hoạt lại thất bại (HTTP ${res.status}): ${body}`);
+      console.error('[generate-playlists] Không sao — lịch schedule dự phòng trong workflow sẽ bắt lại sau.');
+    }
+  } catch (err) {
+    console.error('[generate-playlists] Lỗi khi gọi API tự kích hoạt lại:', err.message);
+    console.error('[generate-playlists] Không sao — lịch schedule dự phòng trong workflow sẽ bắt lại sau.');
+  }
 }
 
 function writeState(state) {
@@ -197,6 +307,8 @@ async function runCycle() {
     liveMatchCount,
   });
 
+  commitAndPush(); // commit/push NGAY sau chu kỳ này, không đợi job kết thúc — xem giải thích ở AUTO_COMMIT phía trên.
+
   console.log(
     `[generate-playlists] Hoàn tất — ${liveMatchCount} trận live. ` +
     `Chạy lại đều đặn sau ${BASE_INTERVAL_MIN} phút (không giãn cách).`
@@ -207,12 +319,29 @@ async function runCycle() {
 
 async function main() {
   if (isWatchMode()) {
-    console.log(`[generate-playlists] Chế độ watch (local) — chạy đều mỗi ${WATCH_INTERVAL_MS / 60000} phút, liên tục, không giãn cách. Ctrl+C để dừng.`);
+    ensureGitIdentity();
+    const startedAt = Date.now();
+    console.log(
+      `[generate-playlists] Chế độ watch — chạy đều mỗi ${WATCH_INTERVAL_MS / 60000} phút, liên tục, không giãn cách. ` +
+      `Tự dừng sau tối đa ${MAX_RUNTIME_MIN} phút/job rồi tự kích hoạt job kế tiếp. Ctrl+C để dừng khi chạy local.`
+    );
     // eslint-disable-next-line no-constant-condition
     while (true) {
       await runCycle();
+
+      const elapsedMs = Date.now() - startedAt;
+      if (elapsedMs >= MAX_RUNTIME_MS) {
+        console.log(
+          `[generate-playlists] Đã chạy ${Math.round(elapsedMs / 60000)} phút — dừng vòng lặp trong job này ` +
+          `để tránh chạm giới hạn 6 tiếng/job của GitHub Actions.`
+        );
+        await triggerSelfRestart();
+        break;
+      }
+
       await new Promise((resolve) => setTimeout(resolve, WATCH_INTERVAL_MS));
     }
+    process.exit(0); // luôn thoát 0 — job "hết giờ" theo kế hoạch không phải là lỗi.
   }
 
   const ok = await runCycle();
