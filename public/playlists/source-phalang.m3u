@@ -1,16 +1,19 @@
 #EXTM3U
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (5 trận) =====
 
 # ----- Ngày 2026-09-22 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b0840e627bd6883501e0ef0522b10539.png" group-title="Pha Lang TV" , 22-09 12:00 [LIVE LIVE] Philippines U23 - Kuwait U23 (Server 1) [hls]
-https://lilive1.eu.cc/live/b585ecc4d64e526b39052bc3927c4eef/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/9b107316d2e5e5fc3011e6c62bb2b121.png!w80" group-title="Pha Lang TV" , 22-09 17:20 [LIVE LIVE] Nhật Bản Nữ - Trung Quốc Nữ (LÝ LIỀU LĨNH (Server 1)) [hls]
+https://pull.digitalcdn.net/live/12d55701362e4a7a9a69e75769b86401/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Pha Lang TV" , 22-09 12:00 [LIVE LIVE] Vietnam U23 - Uzbekistan U23 (LÝ LA LÀNG) [hls]
-https://lilive1.eu.cc/live/b37b5453edb0a03b45cbf32215f369fe/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0822416345e2d8d33a657df506467eea.png" group-title="Pha Lang TV" , 22-09 17:30 [LIVE LIVE] MEG - SC Bengaluru (Server 1) [hls]
+https://lilive1.eu.cc/live/9708838cad5c431f6db7d285a4e06b62/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/dcb11155a9184338a8b2f7c090ead5bf.png" group-title="Pha Lang TV" , 22-09 12:30 [LIVE LIVE] Chongqing Youth Training U15 - Pingyao No. 1 Middle School U15 (Server 1) [hls]
-https://lilive1.eu.cc/live/9977eccdec00429b12ba4e3b09ab97c4/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c4958354eae05d5e126c22453ef39a63.png" group-title="Pha Lang TV" , 22-09 18:00 [LIVE LIVE] FarDU - Bukhara State University (Server 1) [hls]
+https://lilive1.eu.cc/live/bd3f576fc3dcc0d72ace739aab8ce1e9/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/604a26fb4f696d522d464fc2ff0919de.png!w80" group-title="Pha Lang TV" , 22-09 14:00 [LIVE LIVE] Hàn Quốc Nữ - Thái Lan Nữ (LÝ LIỀU LĨNH (Server 1)) [hls]
-https://pull.digitalcdn.net/live/919c83b079644b369738bcfb41214cc2/index.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e7f496f594add2954bb58b2132e1e788.png" group-title="Pha Lang TV" , 22-09 18:00 [LIVE LIVE] Santa Clara U23 - Portimonense U23 (LÝ LINH LỰC) [hls]
+https://lilive1.eu.cc/live/ccf653eeae684494e0bcbdc7bf491a64/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d764dd4b7db966672b35de808751b9f0.png" group-title="Pha Lang TV" , 22-09 19:00 [LIVE LIVE] Charlton Athletic U21 - Sheffield United U21 (Server 1) [hls]
+https://lilive1.eu.cc/live/ce89d48b160a9ad274089373b3b23ca5/playlist.m3u8
