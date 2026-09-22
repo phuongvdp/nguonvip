@@ -10,16 +10,35 @@ on:
     paths:
       - 'data/sources.json'
   schedule:
-    # FIX (22/09/2026): chay that DEU DAN moi 2 phut, LIEN TUC, khong con
-    # giai doan tu gian cach khi it/khong co tran live nua (xem FIX cung
-    # ngay trong scripts/generate-playlists-standalone.mjs).
-    - cron: '*/2 * * * *'  # chay that moi 2 phut, khong bo qua lan nao
+    # FIX (22/09/2026 - "GitHub khong dam bao lich */2 chay dung gio, hang
+    # doi runner co the tre/bo lan"): TRUOC DAY dung lich nay de tao 1 JOB
+    # MOI moi 2 phut (chay 1 lan roi thoat) - doi khi bi tre hoac bo lan luc
+    # tai cao. GIO chuyen sang mo hinh 1 JOB DUY NHAT tu lap ben trong moi 2
+    # phut bang che do "--watch" (xem buoc "Generate playlists" ben duoi va
+    # FIX cung ngay trong scripts/generate-playlists-standalone.mjs) - job
+    # do tu chay lien tuc toi gan gioi han 6 tieng roi tu goi API kich hoat
+    # lai chinh no (workflow_dispatch), nen KHONG con phu thuoc lich cron
+    # moi 2 phut nua. Lich cron o day gio chi con la LUOI DU PHONG (giao ~6
+    # tieng/lan, khop voi MAX_RUNTIME_MINUTES ben duoi) - phong khi buoc tu
+    # kich hoat lai bi loi (het han token, loi mang,...) thi van co nguoi
+    # bat lai, khong de dut han day chuyen.
+    - cron: '0 */6 * * *'  # luoi du phong, giao ~6 tieng/lan - vong lap that nam trong tung job (xem env MAX_RUNTIME_MINUTES)
+
+# Dam bao chi 1 job dang chay tai 1 thoi diem: neu luoi du phong (schedule)
+# vo tinh kich hoat trong luc job vong-lap hien tai van dang chay, job moi
+# se XEP HANG cho tan job cu (khong huy job cu - cancel-in-progress: false)
+# - tranh 2 vong lap chay song song cung ghi/commit playlist.
+concurrency:
+  group: generate-playlists-loop
+  cancel-in-progress: false
 
 jobs:
   generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 355 # deem an toan duoi gioi han cung 360 phut/job cua GitHub Actions - xem them MAX_RUNTIME_MINUTES o buoc "Generate playlists"
     permissions:
       contents: write
+      actions: write # can quyen nay de buoc "Generate playlists" tu goi API workflow_dispatch kich hoat lai chinh workflow nay
 
     steps:
       - name: Checkout code
@@ -70,15 +89,32 @@ jobs:
           echo "Duong dan Chrome: $CHROME_PATH"
           echo "path=$CHROME_PATH" >> "$GITHUB_OUTPUT"
 
-      - name: Generate playlists (khong can server nao dang chay)
-        run: node .generate-playlists-standalone.cjs
+      # FIX (22/09/2026 - "can 1 job tu lap moi 2 phut, khong phai 1 job/lan"):
+      # them "--watch" (khung nay da co san trong file .mjs, chi la truoc day
+      # khong duoc dung toi) - script se tu lap generateOnce() + tu
+      # commit/push (xem GENERATE_AUTO_COMMIT ben duoi) moi 2 phut LIEN TUC
+      # ngay trong 1 tien trinh node duy nhat, khong can GitHub tao job moi
+      # moi lan. Sau toi da MAX_RUNTIME_MINUTES phut (de dem duoi gioi han
+      # cung 360 phut/job), script tu dung vong lap va tu goi API
+      # workflow_dispatch (can GITHUB_TOKEN + quyen "actions: write" o tren)
+      # de kich hoat 1 job MOI tiep tuc ngay, khong dut quang.
+      - name: Generate playlists (vong lap 2 phut/lan, tu commit tung chu ky)
+        run: node .generate-playlists-standalone.cjs --watch
         env:
           CHROME_EXECUTABLE_PATH: ${{ steps.chrome.outputs.path }}
+          GENERATE_AUTO_COMMIT: '1' # bat cong tac tu commit/push moi chu ky ben trong script (xem AUTO_COMMIT trong generate-playlists-standalone.mjs)
+          MAX_RUNTIME_MINUTES: '345' # 5h45 - de du ~15 phut cho commit/push + goi API cuoi cung truoc khi cham gioi han 360 phut/job
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # dung de tu goi API workflow_dispatch kich hoat lai chinh workflow nay
 
-      - name: Commit and push
+      # Luoi an toan cuoi cung: vong lap ben tren da tu commit/push sau MOI
+      # chu ky roi (xem GENERATE_AUTO_COMMIT), nen thong thuong buoc nay
+      # khong con gi de commit ("|| true" xu ly truong hop do). Giu lai
+      # phong khi chu ky cuoi cung (ngay truoc luc job tu dung) co thay doi
+      # chua kip push vi ly do gi do.
+      - name: Commit and push (du phong)
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
           git add public/playlists/
           git commit -m "Generate playlists" || true
-          git push
+          git push || true
