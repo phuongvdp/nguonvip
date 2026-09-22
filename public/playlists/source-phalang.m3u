@@ -1,28 +1,31 @@
 #EXTM3U
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (8 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (9 trận) =====
 
 # ----- Ngày 2026-09-22 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/efc9bcc3e2c1493997bb7ba1d5291a6c.png" group-title="Pha Lang TV" , 22-09 04:45 [LIVE LIVE] Atlante W - Queretaro Women (Server 1) [hls]
-https://lilive1.eu.cc/live/0feaf6dc4d8d5951593723e2e76e8f49/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/680f427a2bc69ae676240a60d8aa2bdb.png" group-title="Pha Lang TV" , 22-09 07:00 [LIVE LIVE] Toluca Women - Tigres Women (Server 1) [hls]
+https://lilive1.eu.cc/live/78653bdf259b0dc6a670241907b7923e/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b8ff3b78b8ff52dbca3b7eb27fb1c1fb.png" group-title="Pha Lang TV" , 22-09 05:00 [LIVE LIVE] CA Barracas Central - Independiente Rivadavia (Server 1) [hls]
-https://lilive1.eu.cc/live/18385e100c4e5678ac85d4ae7309bab1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/caff6f729db9dc68b1938f6533b0fa14.png" group-title="Pha Lang TV" , 22-09 07:15 [LIVE LIVE] Club Atlético Lanús - Estudiantes La Plata (Server 1) [hls]
+https://lilive1.eu.cc/live/2c37faa95374d7c606bef3e15c272b9e/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d390f3b4be2499face8eb4af0e73140e.png" group-title="Pha Lang TV" , 22-09 05:00 [LIVE LIVE] Club Guabira - San Antonio Bulo Bulo (Server 1) [hls]
-https://lilive1.eu.cc/live/145b61382bbe0f4e0b48879271215263/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/043a70a1b54a7fcc970fbe3053996fa0.png" group-title="Pha Lang TV" , 22-09 07:30 [LIVE LIVE] Real Cartagena - Envigado FC (Server 1) [hls]
+https://lilive1.eu.cc/live/7fb55f83a96e61589ad526b874916ec4/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/50fbe18e0f3a8bba0049607f8780eed0.png" group-title="Pha Lang TV" , 22-09 05:00 [LIVE LIVE] Real Soacha Cundinamarca - Deportes Quindio (Server 1) [hls]
-https://lilive1.eu.cc/live/85a20f7cb5422f54c21cc80ac006a07b/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a9e3f5956f84947cbd6503823dcffbb0.png" group-title="Pha Lang TV" , 22-09 07:30 [LIVE LIVE] Cuiaba - Nautico (PE) (Server 1) [hls]
+https://lilive1.eu.cc/live/3d9d91941beba71b495a830a57472a03/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6b4a5eb452bf0ce6bcbeed86685ca363.png" group-title="Pha Lang TV" , 22-09 05:00 [LIVE LIVE] Nueva Chicago - Patronato Parana (Server 1) [hls]
-https://lilive1.eu.cc/live/a6e00f8e6dabb156678d10ca962f47d6/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/9749f17f2a26c0ee6558c42029e739d8.png!w80" group-title="Pha Lang TV" , 22-09 08:00 [LIVE LIVE] Kyrgyzstan Women - Việt Nam (LÝ LÊN LỬA (Server 1)) [hls]
+https://pull.digitalcdn.net/live/739896ad88434e3ba08f7f001aae93af/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aa5c4ca51cfa4274339610158b7f2244.png" group-title="Pha Lang TV" , 22-09 05:05 [LIVE LIVE] Humble Lions - Waterhouse FC (Server 1) [hls]
-https://lilive1.eu.cc/live/b566fb15b3b646ef777142f635cb7155/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/41911226032029e7bd96545594ded0fe.png" group-title="Pha Lang TV" , 22-09 08:00 [LIVE LIVE] Pitbulls - AD Cariari Pococi (Server 1) [hls]
+https://lilive1.eu.cc/live/b6eacd70eb6cd3de4d1d8b3faeb3bf10/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7387c2c385ae09a16c7d0f96e5e86c94.png" group-title="Pha Lang TV" , 22-09 05:30 [LIVE LIVE] Central Espanol - Montevideo City Torque (Server 1) [hls]
-https://lilive1.eu.cc/live/892a8024a5dd4249c47ad43b27439704/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/04d998a10ab2fd063aff16bfaa7aeb50.png" group-title="Pha Lang TV" , 22-09 08:00 [LIVE LIVE] Arnett Gardens - Dunbeholden FC (Server 1) [hls]
+https://lilive1.eu.cc/live/b7295e518dc578bd16b32ece2fe4d613/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/800183891d5c018ba4bff9e039b06eee.png" group-title="Pha Lang TV" , 22-09 06:00 [LIVE LIVE] Leon Women - Juarez FC Women (Server 1) [hls]
-https://lilive1.eu.cc/live/b0c89aa4af06b10e01bec95106f42039/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/018ffc6f0b8298870a01ad4da5f86e7f.png" group-title="Pha Lang TV" , 22-09 08:05 [LIVE LIVE] Santos Laguna Women - Cruz Azul Women(w) (Server 1) [hls]
+https://lilive1.eu.cc/live/001e81fbaab4116b591a96df70489c47/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c16e5c62dcdb45f6b05f4c947cd4a7ef.png" group-title="Pha Lang TV" , 22-09 08:30 [LIVE LIVE] Henan Experimental U15 - Zhengzhou NO.2 Jonior High School U15 (Server 1) [hls]
+https://lilive1.eu.cc/live/e4fc09b79479d26dd7d9de73e0a4ab38/playlist.m3u8

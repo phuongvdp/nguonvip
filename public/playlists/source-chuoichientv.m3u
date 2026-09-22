@@ -1,13 +1,65 @@
 #EXTM3U
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (3 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (20 trận) =====
 
 # ----- Ngày 2026-09-22 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132721_5487ae5f.png" group-title="Chuoi Chien TV" , 22-09 07:15 Lanus vs Estudiantes L.P. (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://live05.chuoichientv.me/live/1493144/lanus-vs-estudiantes-l-p
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132721_5487ae5f.png" group-title="Chuoi Chien TV" , 22-09 07:15 [LIVE LIVE] Lanus vs Estudiantes L.P. (Chuối Chao (HD)) [hls]
+https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_144823_bce84ab8.png" group-title="Chuoi Chien TV" , 22-09 08:00 Kazakhstan W vs Vietnam W (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://live05.chuoichientv.me/live/999676/kazakhstan-w-vs-vietnam-w
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_144823_bce84ab8.png" group-title="Chuoi Chien TV" , 22-09 08:00 [LIVE LIVE] Kazakhstan W vs Vietnam W (Chuối Tây (HD)) [hls]
+https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250916_004011_bb3475cd.png" group-title="Chuoi Chien TV" , 22-09 08:06 Santos Laguna W vs Cruz Azul W (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://live05.chuoichientv.me/live/1603371/santos-laguna-w-vs-cruz-azul-w
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250916_004011_bb3475cd.png" group-title="Chuoi Chien TV" , 22-09 08:06 [LIVE LIVE] Santos Laguna W vs Cruz Azul W (Chuối To (HD)) [hls]
+https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250627_220721_a791691e.png" group-title="Chuoi Chien TV" , 22-09 11:00 Chinese Taipei vs Indonesia (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/993592/chinese-taipei-vs-indonesia
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190503_cfcedb98.png" group-title="Chuoi Chien TV" , 22-09 12:00 U23 Vietnam  vs Uzbekistan U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1639460/u23-vietnam-vs-uzbekistan-u23
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_144421_16b1f665.png" group-title="Chuoi Chien TV" , 22-09 12:00 Philippines U23 vs Kuwait U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1639461/philippines-u23-vs-kuwait-u23
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Chuoi Chien TV" , 22-09 14:00 South Korea vs Thailand (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/998047/south-korea-vs-thailand
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Chuoi Chien TV" , 22-09 17:00 U23 Hàn Quốc  vs Saudi Arabia U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1639468/u23-han-quoc-vs-saudi-arabia-u23
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Chuoi Chien TV" , 22-09 17:20 Japan vs China (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/996965/japan-vs-china
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142728_72f0bbb2.png" group-title="Chuoi Chien TV" , 22-09 18:00 Santa Clara U23 vs Portimonense U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1598700/santa-clara-u23-vs-portimonense-u23
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125447_e304fc82.png" group-title="Chuoi Chien TV" , 22-09 20:00 France vs Romania (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/999888/france-vs-romania
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142529_72f0bbb2.png" group-title="Chuoi Chien TV" , 22-09 20:00 Namibia U20 vs Seychelles U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1640457/namibia-u20-vs-seychelles-u20
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_130841_4ec1da59.png" group-title="Chuoi Chien TV" , 22-09 22:00 Al Bidda SC vs Al Shamal (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1639136/al-bidda-sc-vs-al-shamal
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125454_fc9cbefe.png" group-title="Chuoi Chien TV" , 22-09 23:00 Poland vs Germany (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/994073/poland-vs-germany
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133734_909d7704.png" group-title="Chuoi Chien TV" , 22-09 23:45 Bayern Munich W vs Manchester City W (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1638300/bayern-munich-w-vs-manchester-city-w
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133743_9c285531.png" group-title="Chuoi Chien TV" , 22-09 23:45 Inter Milano W vs Häcken (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1638309/inter-milano-w-vs-hacken
+
+# ----- Ngày 2026-09-23 -----
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/2590.png" group-title="Chuoi Chien TV" , 23-09 00:00 ASA Targu Mures vs CS Dinamo București (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1602489/asa-targu-mures-vs-cs-dinamo-bucuresti
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_130840_301542f2.png" group-title="Chuoi Chien TV" , 23-09 00:15 Muaither SC vs Al-Khor (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1639138/muaither-sc-vs-al-khor
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133728_10ca77e6.png" group-title="Chuoi Chien TV" , 23-09 02:00 Arsenal W vs Køge (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1638288/arsenal-w-vs-k-ge
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133740_c11c4866.png" group-title="Chuoi Chien TV" , 23-09 02:00 Juventus W vs SL Benfica (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1638310/juventus-w-vs-sl-benfica
