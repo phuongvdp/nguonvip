@@ -10,7 +10,10 @@ on:
     paths:
       - 'data/sources.json'
   schedule:
-    - cron: '*/2 * * * *'  # kiem tra moi 2 phut; script tu gian ra khi khong co tran live
+    # FIX (22/09/2026): chay that DEU DAN moi 2 phut, LIEN TUC, khong con
+    # giai doan tu gian cach khi it/khong co tran live nua (xem FIX cung
+    # ngay trong scripts/generate-playlists-standalone.mjs).
+    - cron: '*/2 * * * *'  # chay that moi 2 phut, khong bo qua lan nao
 
 jobs:
   generate:
