@@ -1,11 +1,9 @@
 #EXTM3U
+# Cập nhật lần cuối: 21:01:34 22/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (10 trận), Chuối Chiên (18 trận), Phá Làng (4 trận) =====
 
 # ----- Ngày 2026-09-22 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d764dd4b7db966672b35de808751b9f0.png" group-title="Pha Lang TV" , 22-09 19:00 [LIVE LIVE] Charlton Athletic U21 - Sheffield United U21 (Server 1) [hls]
-https://lilive1.eu.cc/live/ce89d48b160a9ad274089373b3b23ca5/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142529_72f0bbb2.png" group-title="Chuoi Chien TV" , 22-09 20:00 [LIVE LIVE] Namibia U20 vs Seychelles U20 (Trốc Tru (HD)) [hls]
 https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
 
@@ -20,6 +18,9 @@ https://lilive1.eu.cc/live/4b906df0da69176a95fb5161d256d3ba/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/noDiKGCa-W2CZaars.png" group-title="Gio Vang TV" , 22-09 21:00 [LIVE Đang diễn ra] TerDU vs Gazalkent (Giovang 1) [hls]
 https://eqr2hdarxfliv.vcdn.cloud/1790053333_hd/1790053333_hd@720p.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/93a1f3c0f21911f243bb18729f8f8c9a.png" group-title="Pha Lang TV" , 22-09 21:00 [LIVE LIVE] PFC Terdu - FK Gazalkent (Server 1) [hls]
+https://lilive1.eu.cc/live/9ca67928d05d8240e7ac126bd35c1a73/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133923_619d029e.png" group-title="Chuoi Chien TV" , 22-09 21:30 Dumbrăviţa vs CSM Reşiţa (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1602487/dumbravita-vs-csm-resita

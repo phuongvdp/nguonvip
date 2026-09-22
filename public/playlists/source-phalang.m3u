@@ -1,11 +1,9 @@
 #EXTM3U
+# Cập nhật lần cuối: 21:01:34 22/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (6 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (5 trận) =====
 
 # ----- Ngày 2026-09-22 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d764dd4b7db966672b35de808751b9f0.png" group-title="Pha Lang TV" , 22-09 19:00 [LIVE LIVE] Charlton Athletic U21 - Sheffield United U21 (Server 1) [hls]
-https://lilive1.eu.cc/live/ce89d48b160a9ad274089373b3b23ca5/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/dce5a27563d4b195fa02eceff158c7ec.png" group-title="Pha Lang TV" , 22-09 20:00 [LIVE LIVE] Mozambique U20 - Mauritius U20 (Server 1) [hls]
 https://lilive1.eu.cc/live/1e5fd8b2f92b7f61d27065703c97097e/playlist.m3u8
 
@@ -18,5 +16,5 @@ https://pull.digitalcdn.net/live/55153bf35e754f2d9eca1ad4ddbc0fa3/index.m3u8
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/54d16ff323ac041a7ae0d9c53b340ac9.png" group-title="Pha Lang TV" , 22-09 20:00 [LIVE LIVE] FC Sevastopol - Rubin Yalta (Server 1) [hls]
 https://lilive1.eu.cc/live/4b906df0da69176a95fb5161d256d3ba/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/2fe3dacd8ef0883c8d995fac5b72b97a.png!w80" group-title="Pha Lang TV" , 22-09 20:30 [LIVE LIVE] Eczacibasi Nữ - Besiktas Nữ (LÝ LINH LỰC (Server 1)) [hls]
-https://pull.digitalcdn.net/live/b7f5a4cfe20541fd952d55d38570787a/index.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/93a1f3c0f21911f243bb18729f8f8c9a.png" group-title="Pha Lang TV" , 22-09 21:00 [LIVE LIVE] PFC Terdu - FK Gazalkent (Server 1) [hls]
+https://lilive1.eu.cc/live/9ca67928d05d8240e7ac126bd35c1a73/playlist.m3u8

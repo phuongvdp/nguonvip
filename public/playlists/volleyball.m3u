@@ -1,6 +1,7 @@
 #EXTM3U
+# Cập nhật lần cuối: 21:01:34 22/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (1 trận), Khán Đài (4 trận), Chuối Chiên (2 trận), Phá Làng (2 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (1 trận), Khán Đài (4 trận), Chuối Chiên (2 trận), Phá Làng (1 trận) =====
 
 # ----- Ngày 2026-09-22 -----
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/z3JEQB3coEAGLCJBEUzQ2A_96x96.png" group-title="Gio Vang TV" , 22-09 20:00 [LIVE Đang diễn ra] Pháp vs Romania (Giovang 1) [hls]
@@ -17,9 +18,6 @@ https://pull.digitalcdn.net/live/55153bf35e754f2d9eca1ad4ddbc0fa3/index.m3u8
 
 #EXTINF:-1 group-title="Khan Dai TV" , 22-09 20:30 [LIVE LIVE] Eczacibasi W vs Besiktas W (KaKa) [hls]
 https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/2fe3dacd8ef0883c8d995fac5b72b97a.png!w80" group-title="Pha Lang TV" , 22-09 20:30 [LIVE LIVE] Eczacibasi Nữ - Besiktas Nữ (LÝ LINH LỰC (Server 1)) [hls]
-https://pull.digitalcdn.net/live/b7f5a4cfe20541fd952d55d38570787a/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_uiH5uS2.jpg" group-title="Khan Dai TV" , 22-09 23:00 Ba Lan vs Đức (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/ba-lan-vs-duc
