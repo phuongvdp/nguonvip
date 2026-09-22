@@ -1,19 +1,22 @@
 #EXTM3U
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (15 trận) =====
 
 # ----- Ngày 2026-09-22 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Khan Dai TV" , 22-09 17:20 [LIVE LIVE] Nhật Bản vs Trung Quốc (KaKa) [hls]
 https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4kCzOp7.jpg" group-title="Khan Dai TV" , 22-09 20:00 Pháp vs Romania (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/phap-vs-romania
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4kCzOp7.jpg" group-title="Khan Dai TV" , 22-09 20:00 [LIVE LIVE] Pháp vs Romania (Chim Nhỏ) [hls]
+https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_8589.jpg" group-title="Khan Dai TV" , 22-09 22:00 Al Bidda vs Shamal (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/al-bidda-vs-shamal-22-09-2026-856114
+#EXTINF:-1 group-title="Khan Dai TV" , 22-09 20:30 Eczacibasi W vs Besiktas W (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/eczacibasi-w-vs-besiktas-w
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_uiH5uS2.jpg" group-title="Khan Dai TV" , 22-09 23:00 Ba Lan vs Đức (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/ba-lan-vs-duc
+
+#EXTINF:-1 group-title="Khan Dai TV" , 22-09 23:00 Aras Kargo W vs Vakifbank W (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/aras-kargo-w-vs-vakifbank-w
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_31.jpg" group-title="Khan Dai TV" , 22-09 23:45 Bayern Munich W vs Manchester City W (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/bayern-munich-w-vs-manchester-city-w-22-09-2026-855193
@@ -22,12 +25,6 @@ https://khandai3.link/truc-tiep/bayern-munich-w-vs-manchester-city-w-22-09-2026-
 https://khandai3.link/truc-tiep/inter-w-vs-hacken-w-22-09-2026-855202
 
 # ----- Ngày 2026-09-23 -----
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_8588.jpg" group-title="Khan Dai TV" , 23-09 00:15 Al Mesaimeer vs Al-Waab (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/al-mesaimeer-vs-al-waab-23-09-2026-856115
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_8586.jpg" group-title="Khan Dai TV" , 23-09 00:15 Muaither SC vs Al Khor (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/muaither-sc-vs-al-khor-23-09-2026-856116
-
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_11085.jpg" group-title="Khan Dai TV" , 23-09 02:00 Arsenal W vs Koge W (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/arsenal-w-vs-koge-w-23-09-2026-855181
 

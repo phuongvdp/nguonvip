@@ -1,11 +1,8 @@
 #EXTM3U
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (13 trận), Chuối Chiên (18 trận), Phá Làng (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (10 trận), Chuối Chiên (18 trận), Phá Làng (3 trận) =====
 
 # ----- Ngày 2026-09-22 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0822416345e2d8d33a657df506467eea.png" group-title="Pha Lang TV" , 22-09 17:30 [LIVE LIVE] MEG - SC Bengaluru (Server 1) [hls]
-https://lilive1.eu.cc/live/9708838cad5c431f6db7d285a4e06b62/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/hMMEC3jl-jNuQsmNA.png" group-title="Gio Vang TV" , 22-09 18:00 [LIVE Đang diễn ra] FarDU vs BuxDU (Giovang 1) [hls]
 https://eqr2hdarxfliv.vcdn.cloud/1790053284_hd/1790053284_hd@720p.m3u8
 
@@ -33,9 +30,6 @@ https://giovang.city/truc-tiep-al-hamriyah-vs-al-thaid-22-09-b1gqp5b8qxf7
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/2iE3O0Yg-2JG9UkI7.png" group-title="Gio Vang TV" , 22-09 21:40 Al Urooba vs Dubai City (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-al-urooba-vs-dubai-city-22-09-euqek9i7ql2i
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_8589.jpg" group-title="Khan Dai TV" , 22-09 22:00 Al Bidda vs Shamal (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/al-bidda-vs-shamal-22-09-2026-856114
-
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/bayern-munchen-w.png" group-title="Gio Vang TV" , 22-09 23:45 Nữ Bayern Munich vs Nữ Manchester City (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-nu-bayern-munich-vs-nu-manchester-city-22-09-6aadd18745163e9e3e085d3d
 
@@ -57,12 +51,6 @@ https://live05.chuoichientv.me/live/1638309/inter-milano-w-vs-hacken
 # ----- Ngày 2026-09-23 -----
 #EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/2590.png" group-title="Chuoi Chien TV" , 23-09 00:00 ASA Targu Mures vs CS Dinamo București (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1602489/asa-targu-mures-vs-cs-dinamo-bucuresti
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_8588.jpg" group-title="Khan Dai TV" , 23-09 00:15 Al Mesaimeer vs Al-Waab (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/al-mesaimeer-vs-al-waab-23-09-2026-856115
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_8586.jpg" group-title="Khan Dai TV" , 23-09 00:15 Muaither SC vs Al Khor (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/muaither-sc-vs-al-khor-23-09-2026-856116
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_130840_301542f2.png" group-title="Chuoi Chien TV" , 23-09 00:15 Muaither SC vs Al-Khor (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1639138/muaither-sc-vs-al-khor
@@ -108,6 +96,9 @@ https://giovang.city/truc-tiep-audax-italiano-vs-colo-colo-23-09-fqth3yd4kyqa
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRTJUTCaWW-p8M7QMKgjh5ZP-nANZ_Q4YncR1_Z6L_Aw&s" group-title="Gio Vang TV" , 23-09 06:30 Cobreloa vs Coquimbo (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-cobreloa-vs-coquimbo-23-09-yusd5a86q7d2
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/independiente-santa-fe.png" group-title="Gio Vang TV" , 23-09 08:00 Independiente Santa Fe vs Deportivo Cali (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-independiente-santa-fe-vs-deportivo-cali-23-09-6aac7f5024d46db87036af70
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133536_ca511a27.png" group-title="Chuoi Chien TV" , 23-09 08:00 Santa Fe vs Deportivo Cali (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1549802/santa-fe-vs-deportivo-cali

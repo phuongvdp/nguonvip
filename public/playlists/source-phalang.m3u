@@ -6,9 +6,6 @@
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/9b107316d2e5e5fc3011e6c62bb2b121.png!w80" group-title="Pha Lang TV" , 22-09 17:20 [LIVE LIVE] Nhật Bản Nữ - Trung Quốc Nữ (LÝ LIỀU LĨNH (Server 1)) [hls]
 https://pull.digitalcdn.net/live/12d55701362e4a7a9a69e75769b86401/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0822416345e2d8d33a657df506467eea.png" group-title="Pha Lang TV" , 22-09 17:30 [LIVE LIVE] MEG - SC Bengaluru (Server 1) [hls]
-https://lilive1.eu.cc/live/9708838cad5c431f6db7d285a4e06b62/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c4958354eae05d5e126c22453ef39a63.png" group-title="Pha Lang TV" , 22-09 18:00 [LIVE LIVE] FarDU - Bukhara State University (Server 1) [hls]
 https://lilive1.eu.cc/live/bd3f576fc3dcc0d72ace739aab8ce1e9/playlist.m3u8
 
@@ -17,3 +14,6 @@ https://lilive1.eu.cc/live/ccf653eeae684494e0bcbdc7bf491a64/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d764dd4b7db966672b35de808751b9f0.png" group-title="Pha Lang TV" , 22-09 19:00 [LIVE LIVE] Charlton Athletic U21 - Sheffield United U21 (Server 1) [hls]
 https://lilive1.eu.cc/live/ce89d48b160a9ad274089373b3b23ca5/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/1b9d35a79766c74c5b437184864e1e81.png!w80" group-title="Pha Lang TV" , 22-09 20:00 [LIVE LIVE] Pháp - Romania (LÝ LÊN LỬA (Server 1)) [hls]
+https://pull.digitalcdn.net/live/55153bf35e754f2d9eca1ad4ddbc0fa3/index.m3u8
