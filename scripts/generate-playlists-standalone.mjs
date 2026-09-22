@@ -246,6 +246,26 @@ function logSourceSummary(matches) {
   }
 }
 
+// FIX (22/09/2026 — "all.m3u không tự đổi theo cron 2 phút/lần"): nguyên
+// nhân là buildM3uPlaylist() CỐ Ý không in số phút thi đấu vào tên kênh
+// (xem getLiveBadge() trong playerGet.js — tránh phá thứ tự sort theo tên),
+// nên khi giữa 2 lần quét (2 phút) không có trận nào lên live/kết
+// thúc/đổi giờ, nội dung .m3u ra Y HỆT lần trước — commitAndPush() ở dưới
+// chỉ commit khi `git status` thấy khác, nên KHÔNG commit gì cả -> nhìn
+// giống như file "đứng yên", dễ hiểu lầm là cron chết. Chèn 1 dòng comment
+// giờ-quét-gần-nhất (giờ VN) ngay sau "#EXTM3U" — dòng bắt đầu bằng "#" nên
+// mọi player IPTV (VLC/TiviMate/...) đều tự bỏ qua khi parse, không ảnh
+// hưởng phát sóng — nhưng khiến nội dung file LUÔN khác giữa 2 lần chạy,
+// nên git LUÔN có gì để commit, phản ánh đúng thật là cron 2 phút vẫn chạy.
+function stampGeneratedAt(content) {
+  const vnTime = new Date().toLocaleString('vi-VN', {
+    timeZone: 'Asia/Ho_Chi_Minh',
+    hour12: false
+  });
+  const stamp = `# Cập nhật lần cuối: ${vnTime} (giờ VN) — tự làm mới mỗi 2 phút`;
+  return content.replace(/^#EXTM3U\n/, `#EXTM3U\n${stamp}\n`);
+}
+
 /** @returns {Promise<{ ok: boolean, liveMatchCount: number }>} */
 async function generateOnce() {
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
@@ -263,7 +283,7 @@ async function generateOnce() {
     try {
       const bySport = filterBySportTab(matches, sport);
       const entries = await matchesToPlaylistEntries(bySport, { baseUrl: '' }); // baseUrl rỗng — không có server để trỏ link resolver, xem FIX 20/09/2026 trong m3uPlaylist.js
-      const content = buildM3uPlaylist(entries);
+      const content = stampGeneratedAt(buildM3uPlaylist(entries)); // FIX 22/09/2026 — xem stampGeneratedAt() phía trên
       const filename = `${sport}.m3u`;
       fs.writeFileSync(path.join(OUTPUT_DIR, filename), content, 'utf8');
       const matchCount = (content.match(/^#EXTINF/gm) || []).length;
@@ -280,7 +300,7 @@ async function generateOnce() {
     try {
       const bySource = filterBySource(allSports, source);
       const entries = await matchesToPlaylistEntries(bySource, { baseUrl: '' });
-      const content = buildM3uPlaylist(entries);
+      const content = stampGeneratedAt(buildM3uPlaylist(entries)); // FIX 22/09/2026 — xem stampGeneratedAt() phía trên
       const filename = `source-${source}.m3u`;
       fs.writeFileSync(path.join(OUTPUT_DIR, filename), content, 'utf8');
       const matchCount = (content.match(/^#EXTINF/gm) || []).length;
