@@ -1,14 +1,8 @@
 #EXTM3U
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (6 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (14 trận), Chuối Chiên (20 trận), Phá Làng (6 trận) =====
 
 # ----- Ngày 2026-09-22 -----
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Khan Dai TV" , 22-09 17:20 [LIVE LIVE] Nhật Bản vs Trung Quốc (KaKa) [hls]
-https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/hMMEC3jl-jNuQsmNA.png" group-title="Gio Vang TV" , 22-09 18:00 [LIVE Đang diễn ra] FarDU vs BuxDU (Giovang 1) [hls]
-https://eqr2hdarxfliv.vcdn.cloud/1790053284_hd/1790053284_hd@720p.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d764dd4b7db966672b35de808751b9f0.png" group-title="Pha Lang TV" , 22-09 19:00 [LIVE LIVE] Charlton Athletic U21 - Sheffield United U21 (Server 1) [hls]
 https://lilive1.eu.cc/live/ce89d48b160a9ad274089373b3b23ca5/playlist.m3u8
 
@@ -36,14 +30,14 @@ https://pull.digitalcdn.net/live/55153bf35e754f2d9eca1ad4ddbc0fa3/index.m3u8
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/54d16ff323ac041a7ae0d9c53b340ac9.png" group-title="Pha Lang TV" , 22-09 20:00 [LIVE LIVE] FC Sevastopol - Rubin Yalta (Server 1) [hls]
 https://lilive1.eu.cc/live/4b906df0da69176a95fb5161d256d3ba/playlist.m3u8
 
+#EXTINF:-1 group-title="Khan Dai TV" , 22-09 20:30 [LIVE LIVE] Eczacibasi W vs Besiktas W (KaKa) [hls]
+https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/2fe3dacd8ef0883c8d995fac5b72b97a.png!w80" group-title="Pha Lang TV" , 22-09 20:30 [LIVE LIVE] Eczacibasi Nữ - Besiktas Nữ (LÝ LINH LỰC (Server 1)) [hls]
 https://pull.digitalcdn.net/live/b7f5a4cfe20541fd952d55d38570787a/index.m3u8
 
-#EXTINF:-1 group-title="Khan Dai TV" , 22-09 20:30 Eczacibasi W vs Besiktas W (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/eczacibasi-w-vs-besiktas-w
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/noDiKGCa-W2CZaars.png" group-title="Gio Vang TV" , 22-09 21:00 TerDU vs Gazalkent (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-terdu-vs-gazalkent-22-09-4bmp1oxjmc76
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/noDiKGCa-W2CZaars.png" group-title="Gio Vang TV" , 22-09 21:00 [LIVE Đang diễn ra] TerDU vs Gazalkent (Giovang 1) [hls]
+https://eqr2hdarxfliv.vcdn.cloud/1790053333_hd/1790053333_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133923_619d029e.png" group-title="Chuoi Chien TV" , 22-09 21:30 Dumbrăviţa vs CSM Reşiţa (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1602487/dumbravita-vs-csm-resita
