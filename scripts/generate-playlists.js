@@ -14,17 +14,17 @@
 // nhất: tái dùng đúng 100% logic thật, không lặp code, không cần cài thêm
 // gì trong CI ngoài Node.
 //
-// TỰ GIÃN/THU CHU KỲ LÀM MỚI:
-// GitHub Actions cron không tự đổi lịch được (chỉ khai báo tĩnh trong file
-// .yml) — nên cron vẫn "gõ cửa" đều mỗi 2 phút như bình thường, nhưng bản
-// thân script tự quyết định có LÀM THẬT hay không dựa vào trạng thái lưu ở
-// public/playlists/.refresh-state.json (được commit lại cùng playlist, nên
-// nhớ được giữa các lần chạy):
-//   - Có trận live -> lần chạy tiếp theo giữ nguyên 5 phút.
-//   - Không có trận live -> giãn dần chu kỳ ra (x2 mỗi lần, tối đa 2 tiếng)
-//     để đỡ tốn phút chạy CI + đỡ tạo commit rỗng khi chẳng có gì thay đổi.
-//   - Chưa tới giờ hẹn -> bỏ qua lần chạy này (không gọi mạng, không ghi
-//     file gì cả).
+// FIX (22/09/2026 — "cron phải chạy đều 2 phút/lần liên tục, không giãn
+// cách khi ít/không có trận"): TRƯỚC ĐÂY script tự "giãn" chu kỳ làm mới ra
+// (x2 mỗi lần, tối đa 2 tiếng) mỗi khi không thấy trận live nào, và các lần
+// cron "gõ cửa" trong lúc chưa tới giờ hẹn sẽ bị BỎ QUA hoàn toàn (không gọi
+// mạng, không ghi file gì cả). Theo yêu cầu mới: bỏ hẳn phần giãn/bỏ-qua đó
+// — mọi lần cron gọi tới (đều đặn mỗi 2 phút, khớp
+// `.github/workflows/validate-and-generate.yml`) đều CHẠY THẬT
+// (generateOnce()) 100%, bất kể đang có bao nhiêu trận live. File
+// public/playlists/.refresh-state.json vẫn được ghi lại nhưng CHỈ để
+// log/tham khảo (lastRunAt, liveMatchCount) — không còn trường
+// nextCheckAt/intervalMin nào được dùng để quyết định bỏ qua lần chạy nữa.
 
 const fs = require('fs');
 const path = require('path');
@@ -61,20 +61,11 @@ const SITE_URL = (process.env.SITE_URL || process.env.NEXT_PUBLIC_SITE_URL || 'h
 const OUTPUT_DIR = path.join(__dirname, '..', 'public', 'playlists');
 const STATE_PATH = path.join(OUTPUT_DIR, '.refresh-state.json');
 
-const BASE_INTERVAL_MIN = 2; // chu kỳ chuẩn khi đang có trận live (khớp lịch cron */2 trong .github/workflows/validate-and-generate.yml)
-const MAX_INTERVAL_MIN = 120; // trần giãn tối đa (2 tiếng) khi im ắng kéo dài
+const BASE_INTERVAL_MIN = 2; // khớp lịch cron */2 trong .github/workflows/validate-and-generate.yml
 const WATCH_INTERVAL_MS = BASE_INTERVAL_MIN * 60 * 1000; // dùng cho `--watch` chạy local
 
 function isWatchMode() {
   return process.argv.includes('--watch');
-}
-
-function readState() {
-  try {
-    return JSON.parse(fs.readFileSync(STATE_PATH, 'utf8'));
-  } catch {
-    return null; // chưa có state (lần đầu chạy) — coi như tới giờ luôn
-  }
 }
 
 function writeState(state) {
@@ -132,37 +123,22 @@ async function generateOnce() {
   return { ok: !hasError, liveMatchCount };
 }
 
-async function runAdaptiveCycle() {
+async function runCycle() {
   const now = Date.now();
-  const state = readState();
-
-  if (state?.nextCheckAt && now < state.nextCheckAt) {
-    const remainMin = Math.ceil((state.nextCheckAt - now) / 60000);
-    console.log(
-      `[generate-playlists] Bỏ qua lần này — đang giãn chu kỳ vì không có trận live ` +
-      `(còn ~${remainMin} phút nữa mới tới giờ hẹn, chu kỳ hiện tại: ${state.intervalMin} phút).`
-    );
-    return true;
-  }
 
   const { ok, liveMatchCount } = await generateOnce();
 
-  const prevInterval = state?.intervalMin || BASE_INTERVAL_MIN;
-  const nextInterval = liveMatchCount > 0
-    ? BASE_INTERVAL_MIN
-    : Math.min(prevInterval * 2, MAX_INTERVAL_MIN);
-
+  // Chỉ ghi lại để log/tham khảo — không còn nextCheckAt/intervalMin nào
+  // được đọc lại để quyết định bỏ qua lần chạy kế tiếp (xem FIX 22/09/2026
+  // ở đầu file).
   writeState({
     lastRunAt: new Date(now).toISOString(),
     liveMatchCount,
-    intervalMin: nextInterval,
-    nextCheckAt: now + nextInterval * 60 * 1000,
   });
 
   console.log(
-    liveMatchCount > 0
-      ? `[generate-playlists] Đang có ${liveMatchCount} trận live — giữ chu kỳ ${BASE_INTERVAL_MIN} phút.`
-      : `[generate-playlists] Không có trận live — giãn chu kỳ lần tới ra ${nextInterval} phút.`
+    `[generate-playlists] Hoàn tất — ${liveMatchCount} trận live. ` +
+    `Chạy lại đều đặn sau ${BASE_INTERVAL_MIN} phút (không giãn cách).`
   );
 
   return ok;
@@ -172,15 +148,15 @@ async function main() {
   console.log(`[generate-playlists] Dùng SITE_URL: ${SITE_URL}`);
 
   if (isWatchMode()) {
-    console.log(`[generate-playlists] Chế độ watch (local) — kiểm tra mỗi ${WATCH_INTERVAL_MS / 60000} phút, tự giãn khi im ắng. Ctrl+C để dừng.`);
+    console.log(`[generate-playlists] Chế độ watch (local) — chạy đều mỗi ${WATCH_INTERVAL_MS / 60000} phút, liên tục, không giãn cách. Ctrl+C để dừng.`);
     // eslint-disable-next-line no-constant-condition
     while (true) {
-      await runAdaptiveCycle();
+      await runCycle();
       await new Promise((resolve) => setTimeout(resolve, WATCH_INTERVAL_MS));
     }
   }
 
-  const ok = await runAdaptiveCycle();
+  const ok = await runCycle();
   process.exit(ok ? 0 : 1);
 }
 

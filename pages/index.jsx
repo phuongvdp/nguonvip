@@ -195,14 +195,13 @@ function PlaylistLink() {
   );
 }
 
-// Thời điểm GitHub Actions kiểm tra kế tiếp
+// Thời điểm GitHub Actions chạy làm mới kế tiếp
 // (.github/workflows/validate-and-generate.yml, cron "*/2 * * * *" — chạy
-// theo giờ UTC, tức mỗi khi phút UTC chạm mốc chia hết cho 2). Đây là lịch
-// KIỂM TRA cố định, không phải lịch làm mới thật — script bên trong tự
-// quyết định có làm mới thật hay không: đang có trận live thì làm mới đúng
-// 2 phút/lần, không có trận live thì tự giãn ra dần (tối đa 2 tiếng) để
-// đỡ tốn tài nguyên, nên thời gian làm mới thật có thể lâu hơn số hiện ở
-// đây.
+// theo giờ UTC, tức mỗi khi phút UTC chạm mốc chia hết cho 2).
+// FIX (22/09/2026): trước đây đây chỉ là lịch KIỂM TRA — script bên trong
+// có thể tự giãn ra (tối đa 2 tiếng) và bỏ qua lần chạy khi không có trận
+// live. Giờ script LUÔN làm mới thật ở đúng mỗi lần cron này, không còn
+// giãn cách nữa, nên thời gian hiện ở đây chính là thời gian làm mới thật.
 function nextCronRunUtc(intervalMinutes = 2) {
   const next = new Date();
   next.setUTCSeconds(0, 0);
@@ -228,9 +227,9 @@ function AutoGenerateNote() {
 
   return (
     <p className="px-1 text-xs text-muted-foreground">
-      File playlist tĩnh (<code className="font-mono">public/playlists/</code>) được GitHub Actions kiểm tra mỗi 2
-      phút — lần kiểm tra kế tiếp {label || '…'} (giờ UTC, có thể trễ vài phút do hàng đợi của GitHub). Đang có trận
-      live thì làm mới đúng chu kỳ đó; im ắng thì tự giãn ra dần (tối đa 2 tiếng) để đỡ tốn tài nguyên.
+      File playlist tĩnh (<code className="font-mono">public/playlists/</code>) được GitHub Actions làm mới đều đặn
+      mỗi 2 phút, liên tục, không giãn cách kể cả khi ít/không có trận live — lần làm mới kế tiếp {label || '…'} (giờ
+      UTC, có thể trễ vài phút do hàng đợi của GitHub).
     </p>
   );
 }
