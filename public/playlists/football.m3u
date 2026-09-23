@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:29:10 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:31:14 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (10 trận), Chuối Chiên (15 trận), Phá Làng (9 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (10 trận), Chuối Chiên (15 trận), Phá Làng (11 trận) =====
 
 # ----- Ngày 2026-09-23 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/359d0b2402aac384dd4f406fc0d01811.png" group-title="Pha Lang TV" , 23-09 18:30 [LIVE LIVE] Jiangsu Changjin - Guangzhou Zhicheng (Server 1) [hls]
@@ -34,20 +34,26 @@ https://lilive1.eu.cc/live/f3a64d4e94ab0a21e5d32e56f6286ae4/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/fd6c69a7552ec2718dbf441b0c8144ea/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cfcdaeb6ea510af09a8adbdbf8cce06e.png" group-title="Pha Lang TV" , 23-09 19:30 FC Tzeirey Tamra - Hapoel Beit She'any (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#3glrw7hndknyqdy
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f1b2c0c73d436718ad5daa736ad87c8b.png" group-title="Pha Lang TV" , 23-09 19:30 Johor Darul Takzim III FC U20 - Kedah U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#pxwrxlhlpe9kryk
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/df8803d8f47a4514e545bac694cb1989.png" group-title="Pha Lang TV" , 23-09 19:30 Ascent Academy (W) - Rumphi Sisters (W) (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#vjxm8ghkv9der6o
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134342_baf3c99f.png" group-title="Chuoi Chien TV" , 23-09 20:00 Malawi U20 vs Comoros U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1640460/malawi-u20-vs-comoros-u20
 
 #EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/28365.png" group-title="Chuoi Chien TV" , 23-09 20:00 Italy U20 W vs Spain U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1640769/italy-u20-w-vs-spain-u20
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cc6b5e5081fad4f44ce01101b646dcd8.png" group-title="Pha Lang TV" , 23-09 20:00 Zambia U20 - Botswana U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#1l4rjnh9vv0vm7v
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b3d5ef54810a690bbee2739ca871b9f3.png" group-title="Pha Lang TV" , 23-09 20:00 Acassuso Reserves - Los Andes Reserves (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#2y8m4zhv0n9gql0
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9577ec2254446633e2bd4617ad8253b0.png" group-title="Pha Lang TV" , 23-09 20:00 Paraguay Women U20 - Uruguay Women U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#318q66h8zneoqo9
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0da5f35d4b62c0806238d95a0a5edd36.png" group-title="Pha Lang TV" , 23-09 20:00 KMKM - Zimamoto SC (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#3glrw7h4k6jxqdy
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/53e9904bbe9d059e7d34aa6644ad054f.png" group-title="Pha Lang TV" , 23-09 20:00 Japan U18 - Ukraine U18 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#4jwq2ghgo0kjm0v
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/WC0rrzAr-hQzHXowj.png" group-title="Gio Vang TV" , 23-09 21:00 PAOK vs Spartak Myjava (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-paok-vs-spartak-myjava-23-09-xgpbe5galp31
