@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 02:50:00 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 02:52:04 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (17 trận), Chuối Chiên (8 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (17 trận), Chuối Chiên (7 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_647.jpg" group-title="Khan Dai TV" , 24-09 01:00 [LIVE LIVE] Saudi Arabia vs Kuwait (Chim Nhỏ) [hls]
@@ -48,11 +48,6 @@ https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790129883_hd/1790129883_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135223_4c71fb98.png" group-title="Chuoi Chien TV" , 24-09 03:00 [LIVE LIVE] Bahamas vs Saint Martin (A Ngao (HD)) [hls]
-#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/UV7TtYEa-E3uvveio.png" group-title="Gio Vang TV" , 24-09 04:00 Curico Unido vs D. Concepcion (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-curico-unido-vs-d-concepcion-24-09-8sbcogkje8dd
