@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:28:35 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:30:43 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (37 trận) =====
 
 # ----- Ngày 2026-09-23 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9797959a20ca90fb6901b819293bb1bd.png" group-title="Pha Lang TV" , 23-09 12:30 [LIVE LIVE] Parikrma FC - Real Bengaluru (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/4f69d4d0d13204338fdeee49a684b984/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/19ba34d167be9b01eb848a0a777932ac.png" group-title="Pha Lang TV" , 23-09 13:55 [LIVE LIVE] Seoul Amazones Women - Hwacheon KSPO WFC (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -30,6 +25,9 @@ https://phalang.live/trang-chu#318q66hxl1kzqo9
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/90ca524b1b1c17911b1bf8e425c8d96d.png" group-title="Pha Lang TV" , 23-09 15:00 Kashima Antlers - Ventforet Kofu (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#965mkyhkpwn6r1g
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a27b1ca722c3b66a8cf5572d16f44239.png" group-title="Pha Lang TV" , 23-09 15:00 NAPSA Stars - Nkwazi (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#dj2ryoh7v5wdq1z
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d272859d78eb8ca7a14753f4293fbf45.png" group-title="Pha Lang TV" , 23-09 15:00 Kashiwa Reysol - FC Imabari (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#l7oqdehg7x1lr51
