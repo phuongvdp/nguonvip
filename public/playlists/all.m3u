@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:51:25 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:53:37 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận), Khán Đài (13 trận), Chuối Chiên (19 trận), Phá Làng (27 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận), Khán Đài (13 trận), Chuối Chiên (19 trận), Phá Làng (26 trận) =====
 
 # ----- Ngày 2026-09-23 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/zcqIEsil-6uZPCvr9.png" group-title="Gio Vang TV" , 23-09 15:00 [LIVE Đang diễn ra] Machida vs Tochigi City (Giovang 1) [hls]
@@ -38,11 +38,6 @@ https://lilive1.eu.cc/live/cc5a4e5f443060645729783cb926fa49/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/db3f08dc5033976e9438dd2a9d56696e/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/90ca524b1b1c17911b1bf8e425c8d96d.png" group-title="Pha Lang TV" , 23-09 15:00 [LIVE LIVE] Kashima Antlers - Ventforet Kofu (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/1e366a673a917a7e327d0b86d5432836/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d85cce27ab583e5b3cead155f02b098a.png" group-title="Pha Lang TV" , 23-09 15:00 [LIVE LIVE] Vissel Kobe - Sagan Tosu (LÝ LINH LỰC) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
