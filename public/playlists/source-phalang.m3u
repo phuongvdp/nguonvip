@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:58:25 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:00:30 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (44 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (40 trận) =====
 
 # ----- Ngày 2026-09-23 -----
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260920/dd4ea6cb3b2cb897c20d92b2436497ba.png" group-title="Pha Lang TV" , 23-09 12:30 [LIVE LIVE] Iran U23 - North Korea U23 (LÝ LÊN LỬA) [hls]
@@ -28,18 +28,6 @@ https://lilive1.eu.cc/live/4f69d4d0d13204338fdeee49a684b984/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/d52af8317a6c3b94f31e6d6384f4fb2b/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/46453d24ed3673b774bf0d13271bd60a.png" group-title="Pha Lang TV" , 23-09 14:00 RB Omiya Ardija Ventus - Mynavi Sendai Ladies (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#4wyrn4h6gn68q86
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9a0821eac483f99d3f578be0b384beb7.png" group-title="Pha Lang TV" , 23-09 14:00 JEF United Ichihara Chiba Ladies - INAC Kobe Leonessa (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#dn1m1ghl6zlvmoe
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6c1b75505526d9880a79788587648649.png" group-title="Pha Lang TV" , 23-09 14:00 Urawa Red Diamonds Ladies - AC Nagano Parceiro Ladies (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#l5ergph4g643r8k
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3f0615a1b43ba75b2f73de29ed78fa1a.png" group-title="Pha Lang TV" , 23-09 14:00 Fiji Women - Solomon Islands (w) Soccer (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#zp5rzgh3y27dq82
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/adc9a8d697f1b5a2e9ea74962caef4d1.png" group-title="Pha Lang TV" , 23-09 15:00 Bangalore Dream United FC - Stride (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#1l4rjnhny20nm7v
