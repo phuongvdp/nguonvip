@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:05:35 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:08:29 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận) =====
 
@@ -15,8 +15,10 @@ https://eqr2hdarxfliv.vcdn.cloud/1790129381_hd/1790129381_hd@720p.m3u8
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/2ebRtpBr-zVZIA7Nc.png" group-title="Gio Vang TV" , 23-09 23:59 [LIVE Đang diễn ra] Feyenoord W vs Vålerenga W (Chưa có link — chờ cập nhật) [hls]
 https://giovang.city/truc-tiep-feyenoord-w-vs-valerenga-w-23-09-vj98l99bcnuz
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/M7BywQyS-U9pKctKr.png" group-title="Gio Vang TV" , 23-09 23:59 [LIVE Đang diễn ra] Hammarby W vs Rangers LFC W (Chưa có link — chờ cập nhật) [hls]
-https://giovang.city/truc-tiep-hammarby-w-vs-rangers-lfc-w-23-09-q16bh2a4febv
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/M7BywQyS-U9pKctKr.png" group-title="Gio Vang TV" , 23-09 23:59 [LIVE Đang diễn ra] Hammarby W vs Rangers LFC W (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790129531_hd/1790129531_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/0W1C1myS-Myi417I9.png" group-title="Gio Vang TV" , 23-09 23:59 [LIVE Đang diễn ra] PSV W vs Fortuna W (Chưa có link — chờ cập nhật) [hls]
 https://giovang.city/truc-tiep-psv-w-vs-fortuna-w-23-09-yov3a1slfhxv
