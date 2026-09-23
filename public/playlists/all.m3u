@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:53:37 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:55:42 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận), Khán Đài (13 trận), Chuối Chiên (19 trận), Phá Làng (26 trận) =====
 
@@ -119,6 +119,11 @@ https://phalang.live/trang-chu#y0or5jh9x34xqwz
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d70895a7fed9c3a5038522fb44c85812.png" group-title="Pha Lang TV" , 23-09 17:00 FC Shakhtar Donetsk U19 - Veres Rivne U19 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#zp5rzgh3yp7zq82
 
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260920/a352d553dc30cb397853ca59e29136f7.png" group-title="Pha Lang TV" , 23-09 17:30 [LIVE LIVE] Japan U23 - Thailand U23 (LÝ LA LÀNG) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/e83de733a69587b78ee5b5da5f7db559/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/tlRg5VFG-COd4S2x5.png" group-title="Gio Vang TV" , 23-09 17:30 U23 Kyrgyzstan vs U23 Hồng Kông (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-u23-kyrgyzstan-vs-u23-hong-kong-23-09-rpxn595b20aw
 
@@ -139,9 +144,6 @@ https://live05.chuoichientv.me/live/1639464/kyrgyz-republic-u23-vs-u23-hong-kong
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c8883c8cf4c8e8afda5ebf7b33302161.png" group-title="Pha Lang TV" , 23-09 17:30 Bengaluru B - FC Agniputhra (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#4jwq2ghgo6jwm0v
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260920/a352d553dc30cb397853ca59e29136f7.png" group-title="Pha Lang TV" , 23-09 17:30 Japan U23 - Thailand U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#l7oqdehgpekpr51
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/21d6c63e6ec9b00c5a459a709e2f618d.png" group-title="Pha Lang TV" , 23-09 17:30 Kyrgyzstan U23 - Hong Kong U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#pxwrxlhy428gryk
