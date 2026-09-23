@@ -1,2 +1,20 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:59:40 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:01:48 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (3 trận) =====
+
+# ----- Ngày 2026-09-23 -----
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cab6aa286095d5a1a50657fc1b5c7293.png" group-title="Pha Lang TV" , 23-09 23:30 [LIVE LIVE] North Korea U20 Women - Colombia U20 Women (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/f3db5a115ec52fbc78143f487dd31a86/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/be5c66e50a48d9ae3c4132aa1a3b3a32.png" group-title="Pha Lang TV" , 23-09 23:45 [LIVE LIVE] Servette Women - OL Lyonnes Women (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/7727200831605d370ccc3c90e19cddb7/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/4a6f0dec2089b275a6c6ddd854072fbf.png" group-title="Pha Lang TV" , 23-09 23:45 [LIVE LIVE] Oud Heverlee Leuven Women - AS Roma Women (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/9325452489cb730213baf62baa534117/playlist.m3u8
