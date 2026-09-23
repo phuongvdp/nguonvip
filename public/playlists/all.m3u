@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 11:31:25 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 11:33:32 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (33 trận), Khán Đài (15 trận), Chuối Chiên (20 trận) =====
 
@@ -19,8 +19,10 @@ https://giovang.city/truc-tiep-los-angeles-dodgers-vs-san-diego-padres-23-09-aap
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/CA3yhoGG-KMidKLjl.png" group-title="Gio Vang TV" , 23-09 12:30 U23 Iran vs U23 Triều Tiên (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-u23-iran-vs-u23-trieu-tien-23-09-zcqd6mggoore
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/CA3yhoGG-KMidKLjl.png" group-title="Gio Vang TV" , 23-09 12:30 [LIVE Đang diễn ra] U23 Iran vs U23 Triều Tiên (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790081010_hd/1790081010_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/china-u17.png" group-title="Gio Vang TV" , 23-09 12:30 U23 Trung Quốc vs U23 UAE (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-u23-trung-quoc-vs-u23-uae-23-09-nikl30by99k3
