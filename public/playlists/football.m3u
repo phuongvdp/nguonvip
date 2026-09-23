@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:56:19 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:58:24 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (11 trận), Chuối Chiên (19 trận), Phá Làng (44 trận) =====
 
@@ -52,6 +52,11 @@ https://lilive1.eu.cc/live/5f5cbed1eac7d3af8a7673a1e18982cf/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/4f69d4d0d13204338fdeee49a684b984/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/19ba34d167be9b01eb848a0a777932ac.png" group-title="Pha Lang TV" , 23-09 14:00 [LIVE LIVE] Seoul Amazones Women - Hwacheon KSPO WFC (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/d52af8317a6c3b94f31e6d6384f4fb2b/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/46453d24ed3673b774bf0d13271bd60a.png" group-title="Pha Lang TV" , 23-09 14:00 RB Omiya Ardija Ventus - Mynavi Sendai Ladies (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#4wyrn4h6gn68q86
 
@@ -60,9 +65,6 @@ https://phalang.live/trang-chu#dn1m1ghl6zlvmoe
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6c1b75505526d9880a79788587648649.png" group-title="Pha Lang TV" , 23-09 14:00 Urawa Red Diamonds Ladies - AC Nagano Parceiro Ladies (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#l5ergph4g643r8k
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/19ba34d167be9b01eb848a0a777932ac.png" group-title="Pha Lang TV" , 23-09 14:00 Seoul Amazones Women - Hwacheon KSPO WFC (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#l7oqdehgjj4er51
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3f0615a1b43ba75b2f73de29ed78fa1a.png" group-title="Pha Lang TV" , 23-09 14:00 Fiji Women - Solomon Islands (w) Soccer (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#zp5rzgh3y27dq82
