@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:27:26 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:29:32 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (7 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (6 trận) =====
 
 # ----- Ngày 2026-09-23 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1adb029996810ee88286f3170d2e539b.png" group-title="Pha Lang TV" , 23-09 18:30 [LIVE LIVE] Wuhan Lianzhen - Guangdong Wuchuan Youth (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/0f860e5ad7e5c79c0eb3cdd2b53c28e0/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aea8a03f2b6847bc9df4cf83bdccdc10.png" group-title="Pha Lang TV" , 23-09 19:00 [LIVE LIVE] Metalurh Zaporozhya U19 - Obolon Brovar Kiev U19 (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
