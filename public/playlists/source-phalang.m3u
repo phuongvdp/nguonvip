@@ -1,2 +1,15 @@
 #EXTM3U
-# Cập nhật lần cuối: 11:44:17 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 11:46:25 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (2 trận) =====
+
+# ----- Ngày 2026-09-23 -----
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260920/dd4ea6cb3b2cb897c20d92b2436497ba.png" group-title="Pha Lang TV" , 23-09 12:30 [LIVE LIVE] Iran U23 - North Korea U23 (LÝ LÊN LỬA) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/416b6f9a43e98d82f7ba9d901a5d9e4b/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260920/6f2599c118c0cd921966a229fe95904a.png" group-title="Pha Lang TV" , 23-09 12:30 [LIVE LIVE] China U23 - United Arab Emirates U23 (LÝ LIỀU LĨNH) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/5f5cbed1eac7d3af8a7673a1e18982cf/playlist.m3u8
