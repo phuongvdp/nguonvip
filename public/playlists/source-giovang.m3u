@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:36:03 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:38:08 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận) =====
 
@@ -29,8 +29,10 @@ https://eqr2hdarxfliv.vcdn.cloud/1790099672_hd/1790099672_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790100002_hd/1790100002_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/690d69ad99fc8d3bd6fe4a7131521421.png" group-title="Gio Vang TV" , 23-09 16:30 Cairns Taipans vs Tasmania JackJumpers (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-cairns-taipans-vs-tasmania-jackjumpers-23-09-28122272
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/690d69ad99fc8d3bd6fe4a7131521421.png" group-title="Gio Vang TV" , 23-09 16:30 [LIVE Đang diễn ra] Cairns Taipans vs Tasmania JackJumpers (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790098760_hd/1790098760_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/fPcgMcAr-0l1B8pB3.png" group-title="Gio Vang TV" , 23-09 17:00 Minsk vs Fenerbahçe Istanbul (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-minsk-vs-fenerbahce-istanbul-23-09-r36yvmgiucup

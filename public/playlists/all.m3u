@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:36:03 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:38:08 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận), Khán Đài (12 trận), Chuối Chiên (19 trận), Phá Làng (29 trận) =====
 
@@ -91,8 +91,10 @@ https://phalang.live/trang-chu#l5ergphk02dgr8k
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/95ef5a50677bb521f6fdff4168928c44.png" group-title="Pha Lang TV" , 23-09 16:00 Abahani Limited Dhaka - Chattogram City FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#y39mp1hdvy3jmoj
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/690d69ad99fc8d3bd6fe4a7131521421.png" group-title="Gio Vang TV" , 23-09 16:30 Cairns Taipans vs Tasmania JackJumpers (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-cairns-taipans-vs-tasmania-jackjumpers-23-09-28122272
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/690d69ad99fc8d3bd6fe4a7131521421.png" group-title="Gio Vang TV" , 23-09 16:30 [LIVE Đang diễn ra] Cairns Taipans vs Tasmania JackJumpers (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790098760_hd/1790098760_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b60b5176fafd20eb5bc5998a5d572387.png" group-title="Pha Lang TV" , 23-09 16:30 Rangdajied United - Nongkseh SCC (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#dn1m1gh9vkxwmoe
