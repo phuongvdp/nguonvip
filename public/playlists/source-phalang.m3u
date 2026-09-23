@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:13:48 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:15:52 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (15 trận) =====
 
@@ -18,9 +18,6 @@ https://lilive1.eu.cc/live/fce8562caddd47045875fd004fa2edf8/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/5f700ed83fd727909c664ff87da03a9d/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6d4cc77f57f9dddf6862cb7168a08d2f.png" group-title="Pha Lang TV" , 24-09 06:15 Auto Esporte Clube PB - Cruzeiro PB (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#y0or5jh9xjdoqwz
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c57dd461eb278005d2f1efc2c0cb720f.png" group-title="Pha Lang TV" , 24-09 06:30 Municipal Iquique - CSD Antofagasta (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#ednm9whw142yryo
@@ -54,3 +51,6 @@ https://phalang.live/trang-chu#ednm9whwnx7wryo
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a06adf5f9b5ff3bb149aca5435e04913.png" group-title="Pha Lang TV" , 24-09 08:30 Parrillas One - Deportes Savio (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#dj2ryoh7v4g3q1z
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cef1725baaf3f3be0cb7215c5f39d162.png" group-title="Pha Lang TV" , 24-09 08:30 Seattle Sounders - Real Salt Lake (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#ednm9whw0o60ryo
