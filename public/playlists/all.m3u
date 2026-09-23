@@ -1,15 +1,10 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:35:55 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:38:07 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (14 trận), Chuối Chiên (11 trận), Phá Làng (2 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (14 trận), Chuối Chiên (10 trận), Phá Làng (1 trận) =====
 
 # ----- Ngày 2026-09-23 -----
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/servette-w.png" group-title="Gio Vang TV" , 23-09 23:45 [LIVE Đang diễn ra] Servette (W) vs Nữ Lyonnais (Giovang 1) [hls]
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790129381_hd/1790129381_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_52.jpg" group-title="Khan Dai TV" , 23-09 23:45 [LIVE 90+] Servette Geneve FC W vs Lyon W (Enzo) [hls]
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_52.jpg" group-title="Khan Dai TV" , 23-09 23:45 [LIVE FT] Servette Geneve FC W vs Lyon W (Enzo) [hls]
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa
@@ -18,16 +13,6 @@ https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfc
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_140515_377a5a77.png" group-title="Chuoi Chien TV" , 23-09 23:45 [LIVE LIVE] Servette Chênois W vs Lyon W (Chuối Nhỏ (HD)) [hls]
-#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/be5c66e50a48d9ae3c4132aa1a3b3a32.png" group-title="Pha Lang TV" , 23-09 23:45 [LIVE LIVE] Servette Women - OL Lyonnes Women (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/7727200831605d370ccc3c90e19cddb7/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/4a6f0dec2089b275a6c6ddd854072fbf.png" group-title="Pha Lang TV" , 23-09 23:45 [LIVE LIVE] Oud Heverlee Leuven Women - AS Roma Women (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
@@ -60,13 +45,20 @@ https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790129803_hd/1790129803_hd@720p.m3u8
 
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/chelsea-fc-w.png" group-title="Gio Vang TV" , 24-09 02:00 [LIVE Đang diễn ra] Nữ Chelsea FC vs Austria Wien (W) (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790129832_hd/1790129832_hd@720p.m3u8
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_25.jpg" group-title="Khan Dai TV" , 24-09 02:00 [LIVE LIVE] Barcelona W vs Paris FC W (Tày) [hls]
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/chelsea-fc-w.png" group-title="Gio Vang TV" , 24-09 02:00 Nữ Chelsea FC vs Austria Wien (W) (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-nu-chelsea-fc-vs-austria-wien-w-24-09-6aadd18745163e9e3e085d40
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133728_b5b0ed02.png" group-title="Chuoi Chien TV" , 24-09 02:00 [LIVE LIVE] Chelsea W vs Austria Wien W (Trốc Tru (HD)) [hls]
+#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_27.jpg" group-title="Khan Dai TV" , 24-09 02:00 Chelsea W vs Austria Vienna W (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/chelsea-w-vs-austria-vienna-w-24-09-2026-855196
@@ -76,9 +68,6 @@ https://khandai3.link/truc-tiep/phan-lan-vs-italy
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133757_0a8041d4.png" group-title="Chuoi Chien TV" , 24-09 02:00 Barcelona W vs Paris FC W (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1638296/barcelona-w-vs-paris-fc-w
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133728_b5b0ed02.png" group-title="Chuoi Chien TV" , 24-09 02:00 Chelsea W vs Austria Wien W (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://live05.chuoichientv.me/live/1638303/chelsea-w-vs-austria-wien-w
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125457_13158a72.png" group-title="Chuoi Chien TV" , 24-09 02:00 Italy vs Finland (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/992280/italy-vs-finland
