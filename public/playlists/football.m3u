@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:44:37 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:46:47 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (10 trận), Chuối Chiên (14 trận), Phá Làng (5 trận) =====
 
@@ -39,8 +39,10 @@ https://lilive1.eu.cc/live/06e9d47bdec72b3fed001bfa6a2fb54e/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790102300_hd/1790102300_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_141313_ae6f7405.png" group-title="Chuoi Chien TV" , 23-09 21:00 Kladno vs Baník Ostrava (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://live05.chuoichientv.me/live/1636726/kladno-vs-banik-ostrava
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_141313_ae6f7405.png" group-title="Chuoi Chien TV" , 23-09 21:00 [LIVE LIVE] Kladno vs Baník Ostrava (Chuối Tây (HD)) [hls]
+#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/CbiRFhYA-4EsvakLH.png" group-title="Gio Vang TV" , 23-09 21:30 Iraq vs Oman (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-iraq-vs-oman-23-09-fjiyiotmsplw
