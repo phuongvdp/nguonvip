@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:04:19 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:06:36 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (11 trận), Chuối Chiên (14 trận), Phá Làng (3 trận) =====
 
@@ -29,8 +29,10 @@ https://lilive1.eu.cc/live/06e9d47bdec72b3fed001bfa6a2fb54e/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790102587_hd/1790102587_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_642.jpg" group-title="Khan Dai TV" , 23-09 21:30 Iraq vs Oman (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/iraq-vs-oman-23-09-2026-857449
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_642.jpg" group-title="Khan Dai TV" , 23-09 21:30 [LIVE LIVE] Iraq vs Oman (Pháo Thủ) [hls]
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133415_bcc211e2.png" group-title="Chuoi Chien TV" , 23-09 21:30 Iraq vs Oman (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1637928/iraq-vs-oman
@@ -102,8 +104,8 @@ https://live05.chuoichientv.me/live/1638303/chelsea-w-vs-austria-wien-w
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135223_f51cd917.png" group-title="Chuoi Chien TV" , 24-09 02:00 Turks and Caicos Islands vs Montserrat (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1639930/turks-and-caicos-islands-vs-montserrat
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/bPQqD3yB-za3FNdZi.png" group-title="Gio Vang TV" , 24-09 03:00 Bahamas vs Saint Martin (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-bahamas-vs-saint-martin-24-09-vs7xm5dybc9h
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/bahamas.png" group-title="Gio Vang TV" , 24-09 03:00 Bahamas vs French Saint-Martin (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-bahamas-vs-french-saint-martin-24-09-6aadd0cc45163e9e3e085d2f
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135223_4c71fb98.png" group-title="Chuoi Chien TV" , 24-09 03:00 Bahamas vs Saint Martin (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1639931/bahamas-vs-saint-martin
