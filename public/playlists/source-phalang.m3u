@@ -1,18 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:53:25 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:55:33 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (7 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (6 trận) =====
 
 # ----- Ngày 2026-09-23 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aea8a03f2b6847bc9df4cf83bdccdc10.png" group-title="Pha Lang TV" , 23-09 19:00 [LIVE LIVE] Metalurh Zaporozhya U19 - Obolon Brovar Kiev U19 (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/7995be780a7de97df1d7f8a518591b01/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8acddad40e9ac62aa4bdab20008e9aa3.png" group-title="Pha Lang TV" , 23-09 19:00 [LIVE LIVE] Rubin Kazan Reserves - FK Krasnodar Youth (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/f3a64d4e94ab0a21e5d32e56f6286ae4/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/25399874c890dd346ebde00e3c2bcb7b.png" group-title="Pha Lang TV" , 23-09 19:00 [LIVE LIVE] Thimphu City - Transport United FC (LÝ LONG) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live

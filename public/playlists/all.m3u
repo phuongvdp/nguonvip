@@ -1,18 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:53:23 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:55:32 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (14 trận), Chuối Chiên (15 trận), Phá Làng (7 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (14 trận), Chuối Chiên (15 trận), Phá Làng (6 trận) =====
 
 # ----- Ngày 2026-09-23 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aea8a03f2b6847bc9df4cf83bdccdc10.png" group-title="Pha Lang TV" , 23-09 19:00 [LIVE LIVE] Metalurh Zaporozhya U19 - Obolon Brovar Kiev U19 (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/7995be780a7de97df1d7f8a518591b01/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8acddad40e9ac62aa4bdab20008e9aa3.png" group-title="Pha Lang TV" , 23-09 19:00 [LIVE LIVE] Rubin Kazan Reserves - FK Krasnodar Youth (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/f3a64d4e94ab0a21e5d32e56f6286ae4/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/25399874c890dd346ebde00e3c2bcb7b.png" group-title="Pha Lang TV" , 23-09 19:00 [LIVE LIVE] Thimphu City - Transport United FC (LÝ LONG) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
@@ -64,11 +59,6 @@ https://eqr2hdarxfliv.vcdn.cloud/1790102421_hd/1790102421_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_141313_ae6f7405.png" group-title="Chuoi Chien TV" , 23-09 21:00 [LIVE LIVE] Kladno vs Baník Ostrava (Chuối Tây (HD)) [hls]
-#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125446_7256014f.png" group-title="Chuoi Chien TV" , 23-09 21:00 [LIVE LIVE] Belgium vs Slovenia (Chuối Kem (HD)) [hls]
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -79,6 +69,9 @@ https://giovang.city/truc-tiep-iraq-vs-oman-23-09-fjiyiotmsplw
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_642.jpg" group-title="Khan Dai TV" , 23-09 21:30 Iraq vs Oman (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/iraq-vs-oman-23-09-2026-857449
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133415_bcc211e2.png" group-title="Chuoi Chien TV" , 23-09 21:30 Iraq vs Oman (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1637928/iraq-vs-oman
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/A5k0v6GG-jNN4J2US.png" group-title="Gio Vang TV" , 23-09 21:40 Gulf United vs Al Fujairah (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-gulf-united-vs-al-fujairah-23-09-59srht7hpes1
