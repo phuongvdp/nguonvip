@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:09:33 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 09:11:37 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (2 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (2 trận) =====
 
 # ----- Ngày 2026-09-23 -----
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9_0Lyr2S2koF-Bs9cC_IOduDV7COArCgCCAEqH0vNEw&s=10" group-title="Gio Vang TV" , 23-09 06:05 [LIVE Đang diễn ra] New York Yankees vs Tampa Bay Rays (Giovang 1) [hls]
@@ -38,9 +38,6 @@ https://eqr2hdarxfliv.vcdn.cloud/1790081239_hd/1790081239_hd@720p.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790081289_hd/1790081289_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/58MDezoOT1DAkMexRNiW3w_96x96.png" group-title="Gio Vang TV" , 23-09 09:10 Los Angeles Dodgers vs San Diego Padres (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-los-angeles-dodgers-vs-san-diego-padres-23-09-aapc2xt62zym
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/CA3yhoGG-KMidKLjl.png" group-title="Gio Vang TV" , 23-09 12:30 U23 Iran vs U23 Triều Tiên (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-u23-iran-vs-u23-trieu-tien-23-09-zcqd6mggoore
@@ -138,11 +135,17 @@ https://giovang.city/truc-tiep-gulf-united-vs-al-fujairah-23-09-59srht7hpes1
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/bD4FNedM-E1zOfYsJ.png" group-title="Gio Vang TV" , 23-09 22:00 Slovan Liberec vs Rosenborg (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-slovan-liberec-vs-rosenborg-23-09-8hiarfs72gg5
 
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/xUCbW5yB-Sd4Wk8zD.png" group-title="Gio Vang TV" , 23-09 23:00 Brondby IF vs Sporting (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-brondby-if-vs-sporting-23-09-9xpjejc182u6
+
 #EXTINF:-1 group-title="Khan Dai TV" , 23-09 23:00 Aras Kargo W vs Eczacibasi W (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/aras-kargo-w-vs-eczacibasi-w
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_144728_67f4ff9c.png" group-title="Chuoi Chien TV" , 23-09 23:30 Korea DPR U20 vs Colombia U20 W (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1641075/korea-dpr-u20-vs-colombia-u20-w
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/servette-w.png" group-title="Gio Vang TV" , 23-09 23:45 Servette (W) vs Nữ Lyonnais (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-servette-w-vs-nu-lyonnais-23-09-6aadd0aa24d46db870f2461b
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_52.jpg" group-title="Khan Dai TV" , 23-09 23:45 Servette Geneve FC W vs Lyon W (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/servette-geneve-fc-w-vs-lyon-w-23-09-2026-855227
