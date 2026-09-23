@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:59:54 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:01:59 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (9 trận), Chuối Chiên (17 trận), Phá Làng (21 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (9 trận), Chuối Chiên (17 trận), Phá Làng (18 trận) =====
 
 # ----- Ngày 2026-09-23 -----
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/zcqIEsil-6uZPCvr9.png" group-title="Gio Vang TV" , 23-09 15:00 [LIVE Đang diễn ra] Machida vs Tochigi City (Giovang 1) [hls]
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790098934_hd/1790098934_hd@720p.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a09e094b96d5bb05863646710d868c7a.png" group-title="Pha Lang TV" , 23-09 15:30 [LIVE LIVE] Preah Sihanouk - Kep Province (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -69,25 +64,20 @@ https://lilive1.eu.cc/live/f9f95127e8a3028e6730bda9aae5f7c3/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/2e4d230eb59925b8d338c52600ec9a53/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/17ae2031591d0a39db8e293df3f217dc.png" group-title="Pha Lang TV" , 23-09 17:00 Prisons Ladies FC (W) - Dreamz (W) (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#4jwq2ghgo6z9m0v
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/tlRg5VFG-COd4S2x5.png" group-title="Gio Vang TV" , 23-09 17:30 [LIVE Đang diễn ra] U23 Kyrgyzstan vs U23 Hồng Kông (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790100829_hd/1790100829_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1b92d6404e108da0994bee9e7cd4fca0.png" group-title="Pha Lang TV" , 23-09 17:00 Metalist 1925 Women - SCU Torreense Women (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#965mkyhkp94er1g
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5e754f0f66a62ae8806a63677b45caa4.png" group-title="Pha Lang TV" , 23-09 17:00 Real Madrid U19 - Getafe U19 (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#l5ergphk02l6r8k
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/S49ci8h5-YqrtLoTa.png" group-title="Gio Vang TV" , 23-09 17:30 [LIVE Đang diễn ra] U23 Nhật Bản vs U23 Thái Lan (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790101152_hd/1790101152_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260920/a352d553dc30cb397853ca59e29136f7.png" group-title="Pha Lang TV" , 23-09 17:30 [LIVE LIVE] Japan U23 - Thailand U23 (LÝ LA LÀNG) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/e83de733a69587b78ee5b5da5f7db559/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/tlRg5VFG-COd4S2x5.png" group-title="Gio Vang TV" , 23-09 17:30 U23 Kyrgyzstan vs U23 Hồng Kông (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-u23-kyrgyzstan-vs-u23-hong-kong-23-09-rpxn595b20aw
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/S49ci8h5-YqrtLoTa.png" group-title="Gio Vang TV" , 23-09 17:30 U23 Nhật Bản vs U23 Thái Lan (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-u23-nhat-ban-vs-u23-thai-lan-23-09-o1bs56uv19kl
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_540_ADbfOw0.png" group-title="Khan Dai TV" , 23-09 17:30 Japan U23 vs Thailand U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/japan-ol-vs-thailand-u23-23-09-2026-856657
