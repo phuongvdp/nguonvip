@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:59:04 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 02:01:09 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (17 trận), Chuối Chiên (8 trận), Phá Làng (1 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (17 trận), Chuối Chiên (8 trận) =====
 
 # ----- Ngày 2026-09-23 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/0W1C1myS-Myi417I9.png" group-title="Gio Vang TV" , 23-09 23:59 [LIVE Đang diễn ra] PSV W vs Fortuna W (Giovang 1) [hls]
@@ -10,11 +10,6 @@
 https://eqr2hdarxfliv.vcdn.cloud/1790129578_hd/1790129578_hd@720p.m3u8
 
 # ----- Ngày 2026-09-24 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f594ee1972418e23bf381484a9dd06fc.png" group-title="Pha Lang TV" , 24-09 00:00 [LIVE LIVE] France U18 - Austria U18 (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/62f23729680a92c54d27f5bb3de45dce/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_647.jpg" group-title="Khan Dai TV" , 24-09 01:00 [LIVE HT] Saudi Arabia vs Kuwait (Chim Nhỏ) [hls]
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
