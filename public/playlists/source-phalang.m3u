@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:08:13 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:10:23 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (13 trận) =====
 
 # ----- Ngày 2026-09-23 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a09e094b96d5bb05863646710d868c7a.png" group-title="Pha Lang TV" , 23-09 15:30 [LIVE LIVE] Preah Sihanouk - Kep Province (Server 1) [hls]
@@ -29,36 +29,6 @@ https://lilive1.eu.cc/live/dbe14545de6ec7822768b7a348214c48/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/d417c2d3754ec7132b5aa742b1c6e381/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/93968e3c1135a1583d06ce85fc9afbe4.png" group-title="Pha Lang TV" , 23-09 17:00 [LIVE LIVE] FC Livyi Bereh U19 - Rukh Vynnyky U19 (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/9fbfd91ddbb6cd42f67ef7854344d432/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aa21ba50f56d4f0eb3b274e5dd100ef1.png" group-title="Pha Lang TV" , 23-09 17:00 [LIVE LIVE] Polissya Zhytomyr U19 - Kolos Kovalyovka U19 (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/e0c846d3c8f7d93b413572dffd0302bb/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8c8474f2f940cb31ae117d521ec55281.png" group-title="Pha Lang TV" , 23-09 17:00 [LIVE LIVE] Lesotho U20 - Angola U20 (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/8be1c1cce3ce9bb211ed3d9919b297bb/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ce66f591c89ea4946647e00d6e976659.png" group-title="Pha Lang TV" , 23-09 17:00 [LIVE LIVE] South Africa U20 - Eswatini U20 (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/8d17dc626be474b399b73070ae958448/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a8bc722114f556fc57962258558533af.png" group-title="Pha Lang TV" , 23-09 17:00 [LIVE LIVE] Dinamo Kyiv U19 - FC Kharkiv U19 (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/f9f95127e8a3028e6730bda9aae5f7c3/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d70895a7fed9c3a5038522fb44c85812.png" group-title="Pha Lang TV" , 23-09 17:00 [LIVE LIVE] FC Shakhtar Donetsk U19 - Veres Rivne U19 (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/2e4d230eb59925b8d338c52600ec9a53/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260920/a352d553dc30cb397853ca59e29136f7.png" group-title="Pha Lang TV" , 23-09 17:30 [LIVE LIVE] Japan U23 - Thailand U23 (LÝ LA LÀNG) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -81,3 +51,6 @@ https://phalang.live/trang-chu#2y8m4zhv0n2nql0
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9ba451304d68845e529644753aefe199.png" group-title="Pha Lang TV" , 23-09 18:00 Chanthaburi FC - Chiangmai FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#4jwq2ghgo6wwm0v
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6cc89f047baae7e8a28b6956014475ae.png" group-title="Pha Lang TV" , 23-09 18:00 Khonkaen United - Royal Thai Navy FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#6ypq3nhk6gv6md7
