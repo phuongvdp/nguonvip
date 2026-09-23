@@ -127,11 +127,26 @@ async function resolveIptvReferer(url, source) {
       return referer;
     }
   }
-  // Không ứng viên nào qua được (hiếm — có thể do chặn IP máy chủ CI, xem
-  // chú thích ở catch() trong probeReferer) -> không nhớ lại (để lần sau
-  // vẫn thử lại, phòng khi chỉ là trục trặc tạm thời), và không gắn Referer
-  // nào cho lần này.
-  return null;
+  // FIX (23/09/2026 — "nguồn Chuối Chiến không có #EXTVLCOPT như các nguồn
+  // khác nên không xem được"): dò THẤT BẠI với CẢ 3 ứng viên (kể cả "không
+  // Referer") không có nghĩa CDN thật sự không cần Referer — CHÍNH pages/
+  // api/proxy/hls.js trước đây đã ghi nhận đúng hiện tượng này với CDN
+  // hdplaylink.com của Chuối Chiến: dù thử "không gửi Referer/Origin" vẫn
+  // bị chặn y hệt -> kết luận nhiều khả năng CDN chặn theo IP máy chủ
+  // trung tâm dữ liệu (Vercel/GitHub Actions), KHÔNG liên quan Referer.
+  // Máy chủ CI ở đây cũng là IP trung tâm dữ liệu -> dò từ đây với CDN kiểu
+  // này LUÔN thất bại bất kể Referer, cho kết quả giả (false negative) —
+  // trong khi máy thật của người xem (IP nhà mạng bình thường) thì Referer
+  // đúng vẫn phát được tốt. Vì vậy: KHÔNG bỏ trắng khi dò thất bại toàn bộ —
+  // quay về dùng ứng viên ĐẦU TIÊN (best-guess đã biết là hay đúng nhất,
+  // xem REFERER_CANDIDATES_BY_SOURCE) thay vì không ghi gì — có Referer
+  // (dù chưa chắc 100%) vẫn tốt hơn hẳn để trần không Referer, vì phần lớn
+  // trường hợp CDN các nguồn này THẬT SỰ cần đúng Referer mới phát được
+  // (đã xác nhận qua thực tế người dùng test — thêm Referer sửa được đa số
+  // trận). Không nhớ lại (workingRefererByHost) cho trường hợp này, để lần
+  // dò sau (2 phút kế) vẫn thử lại từ đầu, phòng khi CDN chỉ chặn tạm thời.
+  const bestGuess = candidates.find((c) => c);
+  return bestGuess || null;
 }
 
 /**
