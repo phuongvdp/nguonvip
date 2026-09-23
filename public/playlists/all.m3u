@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:29:50 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:31:54 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận), Khán Đài (12 trận), Chuối Chiên (19 trận), Phá Làng (33 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận), Khán Đài (12 trận), Chuối Chiên (19 trận), Phá Làng (29 trận) =====
 
 # ----- Ngày 2026-09-23 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/19ba34d167be9b01eb848a0a777932ac.png" group-title="Pha Lang TV" , 23-09 13:55 [LIVE LIVE] Seoul Amazones Women - Hwacheon KSPO WFC (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/d52af8317a6c3b94f31e6d6384f4fb2b/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Gio Vang TV" , 23-09 14:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -59,20 +54,15 @@ https://lilive1.eu.cc/live/1e366a673a917a7e327d0b86d5432836/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/f1814dec170e606cc6b91e84685ca268/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c5e7419289b8bc2a577e14e9aff11b59.png" group-title="Pha Lang TV" , 23-09 15:30 Bangsaen FC Saensuk - Phichit FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#23xmvkhyvw28qg8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7d6fa50ea67cde7d66612a8189897ba5.png" group-title="Pha Lang TV" , 23-09 15:00 [LIVE LIVE] Kyoto Sanga - Fujieda MYFC (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/38f83e7f8893057632a29246cc985970/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2619491f80cce895a11b561e8f804e32.png" group-title="Pha Lang TV" , 23-09 15:30 NS See Khwae City - Kamphaengphet FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#8yomo4hye93nq0j
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1f514643f83d7eebaec7fc873ca82370.png" group-title="Pha Lang TV" , 23-09 15:30 Samui United - Chainat Hornbill FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#n54qllh4593pqvy
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a09e094b96d5bb05863646710d868c7a.png" group-title="Pha Lang TV" , 23-09 15:30 Preah Sihanouk - Kep Province (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#pxwrxlhlp7ovryk
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/769dd02c7ae3383e4c7b02be9093e268.png" group-title="Pha Lang TV" , 23-09 15:30 FC Yala - Ayutthaya FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#zp5rzgh3y0ogq82
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png" group-title="Pha Lang TV" , 23-09 15:00 [LIVE LIVE] Machida Zelvia - Tochigi City (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/c1f7304aef9bd15ea63cf4755aa11cf9/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/03da2bdab2f899d26e624c8887e4600a.png" group-title="Pha Lang TV" , 23-09 15:45 Terengganu U20 - Sabah U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#n54qllh4596pqvy
