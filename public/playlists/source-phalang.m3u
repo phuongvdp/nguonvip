@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:58:59 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:01:03 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (28 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (23 trận) =====
 
 # ----- Ngày 2026-09-23 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/adc9a8d697f1b5a2e9ea74962caef4d1.png" group-title="Pha Lang TV" , 23-09 15:00 [LIVE LIVE] Bangalore Dream United FC - Stride (Server 1) [hls]
@@ -38,27 +38,6 @@ https://lilive1.eu.cc/live/c1f7304aef9bd15ea63cf4755aa11cf9/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/5a2f9e35278b82a6b39ba2ca3e845360/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/be84af38387d37ccd9dc560084074019.png" group-title="Pha Lang TV" , 23-09 16:00 Wales U17 - Switzerland U17 (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#1l4rjnhny31pm7v
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e714f2810fb2f6facc906ae72ae57ff9.png" group-title="Pha Lang TV" , 23-09 16:00 Brescia Women - Venezia W (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#23xmvkhyvwz8qg8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/107bc7299ece4772953eee8b4c9b2022.png" group-title="Pha Lang TV" , 23-09 16:00 Anushilani - Police AC (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#3glrw7h4k05lqdy
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/971d8ffad95cbdfb0e3d54245656a603.png" group-title="Pha Lang TV" , 23-09 16:00 Brothers Union - Rahmatgonj MFS (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#965mkyh8le74r1g
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e3eeed340658b68dc6b1cc2997997954.png" group-title="Pha Lang TV" , 23-09 16:00 Cerezo Osaka Sakai - Sanfrecce Hiroshima Regina (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#jw2r09hk8vkxrz8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/efbbc1aeb47870e3cdf493e005e8cdd3.png" group-title="Pha Lang TV" , 23-09 16:00 Yadanarbon FC U20 - Myawady FC U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#l5ergphk02dgr8k
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/95ef5a50677bb521f6fdff4168928c44.png" group-title="Pha Lang TV" , 23-09 16:00 Abahani Limited Dhaka - Chattogram City FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#y39mp1hdvy3jmoj
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b60b5176fafd20eb5bc5998a5d572387.png" group-title="Pha Lang TV" , 23-09 16:30 Rangdajied United - Nongkseh SCC (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#dn1m1gh9vkxwmoe
@@ -101,3 +80,9 @@ https://phalang.live/trang-chu#zp5rzgh3yp7zq82
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c8883c8cf4c8e8afda5ebf7b33302161.png" group-title="Pha Lang TV" , 23-09 17:30 Bengaluru B - FC Agniputhra (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#4jwq2ghgo6jwm0v
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260920/a352d553dc30cb397853ca59e29136f7.png" group-title="Pha Lang TV" , 23-09 17:30 Japan U23 - Thailand U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#l7oqdehgpekpr51
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/21d6c63e6ec9b00c5a459a709e2f618d.png" group-title="Pha Lang TV" , 23-09 17:30 Kyrgyzstan U23 - Hong Kong U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#pxwrxlhy428gryk
