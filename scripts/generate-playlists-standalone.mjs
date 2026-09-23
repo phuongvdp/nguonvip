@@ -126,6 +126,25 @@ function ensureGitIdentity() {
 // là điểm mấu chốt để "2 phút/lần" là thật: nếu chỉ commit 1 lần lúc job
 // thoát (sau ~5h45) thì người xem sẽ chỉ thấy playlist mới mỗi ~6 tiếng chứ
 // không phải mỗi 2 phút, dù script vẫn quét đúng chu kỳ bên trong.
+//
+// FIX (23/09/2026 — "cron chạy 2 phút liên tục nhưng không tạo/cập nhật
+// file trên GitHub"): TRƯỚC ĐÂY `git push` gọi thẳng, không hề `pull`/
+// `rebase` trước. Nếu CÓ AI (kể cả chính người dùng) sửa/đổi tên file trực
+// tiếp trên GitHub trong lúc job vòng-lặp này đang chạy (đã tự xác minh qua
+// ảnh chụp thật của người dùng — commit gần nhất là người dùng, không phải
+// bot), nhánh local của job liền bị "lùi sau" nhánh `main` trên GitHub ->
+// MỌI `git push` kể từ đó bị GitHub từ chối (non-fast-forward / "fetch
+// first"). Lỗi đó rơi vào catch() bên dưới -> chỉ log ra, KHÔNG dừng vòng
+// lặp -> script vẫn "chạy đều 2 phút/lần" đúng như log thể hiện (không nói
+// dối), nhưng không commit/push được gì lên GitHub nữa cho tới khi job này
+// tự thoát (tối đa 5h45) và job kế tiếp checkout lại từ đầu — nhìn từ ngoài
+// giống như "cron chết" dù thực ra nó vẫn sống, chỉ là bị khoá cứng khỏi
+// remote. SỬA: fetch + rebase lên `origin/<branch>` mới nhất TRƯỚC khi
+// push mỗi chu kỳ. Nếu rebase bị conflict thật (hiếm — chỉ xảy ra khi có
+// người sửa tay ĐÚNG file bot đang ghi), huỷ rebase và đồng bộ cứng theo
+// `origin` (`reset --hard`) — chấp nhận mất đúng 1 chu kỳ (2 phút) thay vì
+// kẹt cứng nhiều giờ; chu kỳ kế tiếp sẽ tự sinh lại nội dung mới và commit
+// bình thường trên nền đã đồng bộ.
 function commitAndPush() {
   if (!AUTO_COMMIT) return;
   try {
@@ -136,10 +155,48 @@ function commitAndPush() {
       return;
     }
     execSync('git commit -m "Generate playlists (auto, watch loop)"', { stdio: 'inherit' });
+  } catch (err) {
+    console.error('[generate-playlists] Lỗi khi commit:', err.message);
+    return;
+  }
+
+  try {
     execSync('git push', { stdio: 'inherit' });
     console.log('[generate-playlists] Đã commit & push playlist mới.');
+    return;
   } catch (err) {
-    console.error('[generate-playlists] Lỗi khi commit/push:', err.message);
+    console.warn(
+      '[generate-playlists] Push bị từ chối (nhánh local lùi sau remote — có thay đổi mới trên GitHub) — ' +
+      'thử fetch + rebase rồi push lại:', err.message
+    );
+  }
+
+  try {
+    const branch = execSync('git rev-parse --abbrev-ref HEAD').toString().trim();
+    execSync('git fetch origin', { stdio: 'inherit' });
+    try {
+      execSync(`git rebase origin/${branch}`, { stdio: 'inherit' });
+    } catch (rebaseErr) {
+      console.warn(
+        '[generate-playlists] Rebase bị conflict thật (có ai sửa tay đúng file bot đang ghi) — ' +
+        'huỷ rebase, đồng bộ cứng theo bản mới nhất trên GitHub, bỏ qua commit chu kỳ này:', rebaseErr.message
+      );
+      try {
+        execSync('git rebase --abort', { stdio: 'inherit' });
+      } catch {
+        // rebase có thể đã tự huỷ một phần — bỏ qua, reset --hard bên dưới vẫn đưa nhánh về trạng thái sạch.
+      }
+      execSync(`git reset --hard origin/${branch}`, { stdio: 'inherit' });
+      console.log('[generate-playlists] Đã đồng bộ lại theo GitHub — chu kỳ sau sẽ tự sinh & commit lại từ đầu.');
+      return;
+    }
+    execSync('git push', { stdio: 'inherit' });
+    console.log('[generate-playlists] Đã rebase + commit & push playlist mới.');
+  } catch (err) {
+    console.error(
+      '[generate-playlists] Vẫn lỗi khi fetch/rebase/push — bỏ qua chu kỳ này, thử lại ở chu kỳ kế tiếp (2 phút sau):',
+      err.message
+    );
   }
 }
 
