@@ -1,43 +1,23 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:37:16 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:39:53 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận), Khán Đài (16 trận), Chuối Chiên (14 trận), Phá Làng (5 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (16 trận), Chuối Chiên (13 trận), Phá Làng (4 trận) =====
 
 # ----- Ngày 2026-09-23 -----
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/CbiRFhYA-4EsvakLH.png" group-title="Gio Vang TV" , 23-09 21:30 [LIVE Đang diễn ra] Iraq vs Oman (Giovang 1) [hls]
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790102587_hd/1790102587_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_642.jpg" group-title="Khan Dai TV" , 23-09 21:30 [LIVE 90+] Iraq vs Oman (Pháo Thủ) [hls]
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_642.jpg" group-title="Khan Dai TV" , 23-09 21:30 [LIVE FT] Iraq vs Oman (Pháo Thủ) [hls]
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133415_bcc211e2.png" group-title="Chuoi Chien TV" , 23-09 21:30 [LIVE LIVE] Iraq vs Oman (Chuối Tây (HD)) [hls]
-#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260920/57615b445a615a2d42380826a180aee5.png" group-title="Pha Lang TV" , 23-09 21:30 [LIVE LIVE] Iraq - Oman (LÝ LÀNG LÁ) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/dd9d777413cd02be608546b36e9f5d06/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/A5k0v6GG-jNN4J2US.png" group-title="Gio Vang TV" , 23-09 21:40 [LIVE Đang diễn ra] Gulf United vs Al Fujairah (Giovang 1) [hls]
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790102713_hd/1790102713_hd@720p.m3u8
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125823_b6a048f9.png" group-title="Chuoi Chien TV" , 23-09 21:40 [LIVE LIVE] Al Arabi vs Emirates Club (Chuối To (HD)) [hls]
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/44a360ab3a69a834f2d5732c5b338a18.png" group-title="Pha Lang TV" , 23-09 21:40 [LIVE LIVE] Al-Jazira Al-Hamra - Forte Virtus (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/9756e2cb8e9763ac87fb862c4bbcd62c/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/85e4815a287ffb7dae9cb3235c13de47.png" group-title="Pha Lang TV" , 23-09 21:40 [LIVE LIVE] Al Arabi(UAE) - Emirates Club (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
@@ -54,14 +34,6 @@ https://lilive1.eu.cc/live/e02aaecc81ab64c33d15ba371f961a46/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/e2bdc984caba610208c891995507b5ca/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/bD4FNedM-E1zOfYsJ.png" group-title="Gio Vang TV" , 23-09 22:00 [LIVE Đang diễn ra] Slovan Liberec vs Rosenborg (Chưa có link — chờ cập nhật) [hls]
-https://giovang.city/truc-tiep-slovan-liberec-vs-rosenborg-23-09-8hiarfs72gg5
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/xUCbW5yB-Sd4Wk8zD.png" group-title="Gio Vang TV" , 23-09 23:00 [LIVE Đang diễn ra] Brondby IF vs Sporting (Giovang 1) [hls]
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790129301_hd/1790129301_hd@720p.m3u8
-
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/big_1784530297PMG2o.webp" group-title="Khan Dai TV" , 23-09 23:00 [LIVE LIVE] Aras Kargo W vs Eczacibasi W (Tày) [hls]
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -71,11 +43,6 @@ https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/servette-w.png" group-title="Gio Vang TV" , 23-09 23:45 [LIVE Đang diễn ra] Servette (W) vs Nữ Lyonnais (Giovang 1) [hls]
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790129381_hd/1790129381_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_52.jpg" group-title="Khan Dai TV" , 23-09 23:45 [LIVE LIVE] Servette Geneve FC W vs Lyon W (Enzo) [hls]
 #EXTVLCOPT:http-referrer=https://khandai3.link
@@ -91,21 +58,6 @@ https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/2ebRtpBr-zVZIA7Nc.png" group-title="Gio Vang TV" , 23-09 23:59 [LIVE Đang diễn ra] Feyenoord W vs Vålerenga W (Giovang 1) [hls]
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790129425_hd/1790129425_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/M7BywQyS-U9pKctKr.png" group-title="Gio Vang TV" , 23-09 23:59 [LIVE Đang diễn ra] Hammarby W vs Rangers LFC W (Giovang 1) [hls]
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790129531_hd/1790129531_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/0W1C1myS-Myi417I9.png" group-title="Gio Vang TV" , 23-09 23:59 [LIVE Đang diễn ra] PSV W vs Fortuna W (Giovang 1) [hls]
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790129578_hd/1790129578_hd@720p.m3u8
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/E9dIygWg-YJMM9EqO.png" group-title="Gio Vang TV" , 24-09 01:00 Itabirito vs Cruzeiro (Chưa có link — chờ cập nhật) [sắp diễn ra]
