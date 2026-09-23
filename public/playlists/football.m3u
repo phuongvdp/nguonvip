@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:03:22 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:05:26 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (14 trận), Chuối Chiên (4 trận), Phá Làng (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (14 trận), Chuối Chiên (4 trận), Phá Làng (18 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/153c33e0873409158f3e6b93cc32126a.png" group-title="Pha Lang TV" , 24-09 04:30 [LIVE LIVE] Club Fernando de la Mora - Club Libertad Asunción (Server 1) [hls]
@@ -99,6 +99,9 @@ https://giovang.city/truc-tiep-seattle-sounders-vs-real-salt-lake-24-09-69d1a65d
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131433_5265d61a.png" group-title="Chuoi Chien TV" , 24-09 08:30 Seattle Sounders vs Real Salt Lake (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1490209/seattle-sounders-vs-real-salt-lake
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a06adf5f9b5ff3bb149aca5435e04913.png" group-title="Pha Lang TV" , 24-09 08:30 Parrillas One - Deportes Savio (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#dj2ryoh7v4g3q1z
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/vancouver-whitecaps.png" group-title="Gio Vang TV" , 24-09 09:00 Vancouver vs Inter Toronto (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-vancouver-vs-inter-toronto-24-09-6aadd0c024d46db870f28975
 
@@ -107,6 +110,9 @@ https://live05.chuoichientv.me/live/1517352/vancouver-fc-vs-york-united
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/vqLkKVYA-IJIsQ3zG.png" group-title="Gio Vang TV" , 24-09 11:00 Solomon Islands vs Vanuatu (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-solomon-islands-vs-vanuatu-24-09-6aaf23424e725bdee905b83b
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/QqFRYqe5-fmpRzHfB.png" group-title="Gio Vang TV" , 24-09 14:00 Papua New Guinea vs New Caledonia (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-papua-new-guinea-vs-new-caledonia-24-09-6ab3e97b24d46db870b262d1
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_344.jpg" group-title="Khan Dai TV" , 24-09 16:00 Laos vs Brunei (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/laos-vs-brunei
