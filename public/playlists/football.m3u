@@ -1,24 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:38:07 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:40:13 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (12 trận), Chuối Chiên (9 trận), Phá Làng (1 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (11 trận), Chuối Chiên (8 trận), Phá Làng (1 trận) =====
 
 # ----- Ngày 2026-09-23 -----
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_52.jpg" group-title="Khan Dai TV" , 23-09 23:45 [LIVE FT] Servette Geneve FC W vs Lyon W (Enzo) [hls]
-#EXTVLCOPT:http-referrer=https://khandai3.link
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133714_e956ebcb.png" group-title="Chuoi Chien TV" , 23-09 23:45 [LIVE LIVE] OH Leuven W vs Roma W (Trốc Tru (HD)) [hls]
-#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/4a6f0dec2089b275a6c6ddd854072fbf.png" group-title="Pha Lang TV" , 23-09 23:45 [LIVE LIVE] Oud Heverlee Leuven Women - AS Roma Women (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/9325452489cb730213baf62baa534117/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/M7BywQyS-U9pKctKr.png" group-title="Gio Vang TV" , 23-09 23:59 [LIVE Đang diễn ra] Hammarby W vs Rangers LFC W (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -30,6 +15,11 @@ https://eqr2hdarxfliv.vcdn.cloud/1790129531_hd/1790129531_hd@720p.m3u8
 https://eqr2hdarxfliv.vcdn.cloud/1790129578_hd/1790129578_hd@720p.m3u8
 
 # ----- Ngày 2026-09-24 -----
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f594ee1972418e23bf381484a9dd06fc.png" group-title="Pha Lang TV" , 24-09 00:00 [LIVE LIVE] France U18 - Austria U18 (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/62f23729680a92c54d27f5bb3de45dce/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_647.jpg" group-title="Khan Dai TV" , 24-09 01:00 [LIVE LIVE] Saudi Arabia vs Kuwait (Chim Nhỏ) [hls]
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -55,16 +45,20 @@ https://eqr2hdarxfliv.vcdn.cloud/1790129832_hd/1790129832_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_27.jpg" group-title="Khan Dai TV" , 24-09 02:00 [LIVE LIVE] Chelsea W vs Austria Vienna W (Kền Kền) [hls]
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133757_0a8041d4.png" group-title="Chuoi Chien TV" , 24-09 02:00 [LIVE LIVE] Barcelona W vs Paris FC W (Chuối Chao (HD)) [hls]
+#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133728_b5b0ed02.png" group-title="Chuoi Chien TV" , 24-09 02:00 [LIVE LIVE] Chelsea W vs Austria Wien W (Trốc Tru (HD)) [hls]
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_27.jpg" group-title="Khan Dai TV" , 24-09 02:00 Chelsea W vs Austria Vienna W (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/chelsea-w-vs-austria-vienna-w-24-09-2026-855196
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133757_0a8041d4.png" group-title="Chuoi Chien TV" , 24-09 02:00 Barcelona W vs Paris FC W (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://live05.chuoichientv.me/live/1638296/barcelona-w-vs-paris-fc-w
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/bahamas.png" group-title="Gio Vang TV" , 24-09 03:00 Bahamas vs French Saint-Martin (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-bahamas-vs-french-saint-martin-24-09-6aadd0cc45163e9e3e085d2f
