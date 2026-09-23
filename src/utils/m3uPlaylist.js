@@ -301,7 +301,14 @@ export async function matchesToPlaylistEntries(matches = [], { baseUrl = '' } = 
     // stream" (rơi xuống nhánh chưa live ở dưới) để không hiện link chắc
     // chắn không xem được.
     const playableStreams = matchStreams.filter((s) => s?.m3u8Url || s?.flvUrl || s?.playUrl);
-    const stream = playableStreams.find((s) => s?.cdn !== 'EDGEMAX');
+    // FIX 2 (23/09/2026 — BLV khác dùng CDN `HDPLAYLINK`, VẪN bị chặn dù
+    // test từ trình duyệt/IP thật của người dùng, không phải máy chủ CI —
+    // loại bỏ luôn khả năng "chặn IP máy chủ" từng nghi cho CDN này ở
+    // pages/api/proxy/hls.js): mở rộng danh sách CDN đã xác nhận chặn cứng
+    // (không sửa được bằng Referer) sang cả HDPLAYLINK, không riêng EDGEMAX
+    // nữa.
+    const BROKEN_CHUOICHIENTV_CDNS = new Set(['EDGEMAX', 'HDPLAYLINK']);
+    const stream = playableStreams.find((s) => !BROKEN_CHUOICHIENTV_CDNS.has(s?.cdn));
     if (stream) {
       const entry = { match, stream };
       entries.push(entry);
