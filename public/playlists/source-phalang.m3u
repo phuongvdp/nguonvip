@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:23:37 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:25:41 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (33 trận) =====
 
@@ -24,10 +24,10 @@ https://lilive1.eu.cc/live/db3f08dc5033976e9438dd2a9d56696e/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/1e366a673a917a7e327d0b86d5432836/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d85cce27ab583e5b3cead155f02b098a.png" group-title="Pha Lang TV" , 23-09 15:00 [LIVE LIVE] Vissel Kobe - Sagan Tosu (LÝ LINH LỰC (Server 1)) [hls]
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d85cce27ab583e5b3cead155f02b098a.png" group-title="Pha Lang TV" , 23-09 15:00 [LIVE LIVE] Vissel Kobe - Sagan Tosu (LÝ LINH LỰC) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://pull.digitalcdn.net/live/421f82e2cccf4a7083e81b3a3d992b06/index.m3u8
+https://lilive1.eu.cc/live/f1814dec170e606cc6b91e84685ca268/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c5e7419289b8bc2a577e14e9aff11b59.png" group-title="Pha Lang TV" , 23-09 15:30 Bangsaen FC Saensuk - Phichit FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#23xmvkhyvw28qg8
