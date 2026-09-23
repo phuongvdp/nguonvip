@@ -1,23 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:20:22 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:22:29 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (10 trận), Chuối Chiên (14 trận), Phá Làng (9 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (10 trận), Chuối Chiên (14 trận), Phá Làng (7 trận) =====
 
 # ----- Ngày 2026-09-23 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/359d0b2402aac384dd4f406fc0d01811.png" group-title="Pha Lang TV" , 23-09 18:30 [LIVE LIVE] Jiangsu Changjin - Guangzhou Zhicheng (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/f025c1fbc9c5a82d043a047e004ba21d/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1adb029996810ee88286f3170d2e539b.png" group-title="Pha Lang TV" , 23-09 18:30 [LIVE LIVE] Wuhan Lianzhen - Guangdong Wuchuan Youth (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/0f860e5ad7e5c79c0eb3cdd2b53c28e0/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1157661246871c8c285bbfe60388caf7.png" group-title="Pha Lang TV" , 23-09 18:30 [LIVE LIVE] Qingdao Fuli - Dalian Juxing Shengheng (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/14a0b5ecc81b001d3a54230447e4053e/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aea8a03f2b6847bc9df4cf83bdccdc10.png" group-title="Pha Lang TV" , 23-09 19:00 [LIVE LIVE] Metalurh Zaporozhya U19 - Obolon Brovar Kiev U19 (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
