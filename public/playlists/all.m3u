@@ -1,44 +1,73 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:08:36 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:11:21 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (2 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (3 trận) =====
 
 # ----- Ngày 2026-09-23 -----
 #EXTINF:-1 tvg-logo="https://worldinsport.com/wp-content/uploads/2026/08/dwcs-season-10-night-3-results-1200x630.webp" group-title="Gio Vang TV" , 23-09 06:00 [LIVE Đang diễn ra] Dana White's Contender Series: Season 10, Week 7 vs Dana White's Contender Series: Season 10, Week 7 (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1789368641_hd/1789368641_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9_0Lyr2S2koF-Bs9cC_IOduDV7COArCgCCAEqH0vNEw&s=10" group-title="Gio Vang TV" , 23-09 06:05 [LIVE Đang diễn ra] New York Yankees vs Tampa Bay Rays (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790089758_hd/1790089758_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/e4fdbc941d11c2927bafb5b8978e8ea6.png" group-title="Gio Vang TV" , 23-09 06:30 [LIVE Đang diễn ra] Washington Mystics vs Connecticut Sun (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790119265_hd/1790119265_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Ai3rwOsWpJRxb3MjVrnA0hND7Nnp_LhymiFO5ayP4w&s" group-title="Gio Vang TV" , 23-09 06:30 [LIVE Đang diễn ra] Audax Italiano vs Colo-Colo (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1789914487_hd/1789914487_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRTJUTCaWW-p8M7QMKgjh5ZP-nANZ_Q4YncR1_Z6L_Aw&s" group-title="Gio Vang TV" , 23-09 06:30 [LIVE Đang diễn ra] Cobreloa vs Coquimbo (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1789914588_hd/1789914588_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/dfef59103668b52788e357e8ac07e9ef.png" group-title="Pha Lang TV" , 23-09 06:30 [LIVE LIVE] Cobreloa - Coquimbo Unido (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/5c730d2650e55e3a454126ea51b59911/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7a8bb950293508aeb3199de3c45dd418.png" group-title="Pha Lang TV" , 23-09 06:30 [LIVE LIVE] Audax Italiano - Colo Colo (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/aac2aba03dff3eb6fc61e1f5dafac290/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Gio Vang TV" , 23-09 07:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/0a570e6f3972fccc8370091d6ffdef5e.png" group-title="Gio Vang TV" , 23-09 07:00 [LIVE Đang diễn ra] Chicago Sky vs Toronto Tempo (Chưa có link — chờ cập nhật) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://giovang.city/truc-tiep-chicago-sky-vs-toronto-tempo-23-09-10525079
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/2672748dfcca12a59823b97a08ffb22d.png" group-title="Gio Vang TV" , 23-09 07:00 [LIVE Đang diễn ra] Indiana Fever vs Minnesota Lynx (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790081200_hd/1790081200_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/independiente-santa-fe.png" group-title="Gio Vang TV" , 23-09 08:00 [LIVE Đang diễn ra] Independiente Santa Fe vs Deportivo Cali (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790080846_hd/1790080846_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133536_ca511a27.png" group-title="Chuoi Chien TV" , 23-09 08:00 [LIVE LIVE] Santa Fe vs Deportivo Cali (Chuối Chao (HD)) [hls]
+#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ff980aa75cad49aaa1a39389e41d0a0a.png" group-title="Pha Lang TV" , 23-09 08:00 [LIVE LIVE] Independiente Santa Fe - Deportivo Cali (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/54b317320786527c92e15d1cbd6931e2/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/cbf9424df17d6e06d655dca78651d329.png" group-title="Gio Vang TV" , 23-09 09:00 Las Vegas Aces vs Los Angeles Sparks (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-las-vegas-aces-vs-los-angeles-sparks-23-09-22525071

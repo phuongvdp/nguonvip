@@ -1,11 +1,20 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:08:36 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:11:21 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (2 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (3 trận) =====
 
 # ----- Ngày 2026-09-23 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/dfef59103668b52788e357e8ac07e9ef.png" group-title="Pha Lang TV" , 23-09 06:30 [LIVE LIVE] Cobreloa - Coquimbo Unido (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/5c730d2650e55e3a454126ea51b59911/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7a8bb950293508aeb3199de3c45dd418.png" group-title="Pha Lang TV" , 23-09 06:30 [LIVE LIVE] Audax Italiano - Colo Colo (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/aac2aba03dff3eb6fc61e1f5dafac290/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ff980aa75cad49aaa1a39389e41d0a0a.png" group-title="Pha Lang TV" , 23-09 08:00 [LIVE LIVE] Independiente Santa Fe - Deportivo Cali (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/54b317320786527c92e15d1cbd6931e2/playlist.m3u8
