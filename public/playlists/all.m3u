@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:19:49 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:21:55 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận), Khán Đài (13 trận), Chuối Chiên (19 trận), Phá Làng (25 trận) =====
 
@@ -79,6 +79,11 @@ https://lilive1.eu.cc/live/5a2f9e35278b82a6b39ba2ca3e845360/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/9b875a7598a941ab2f71bc3c68a17932/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/28f54c536bed8af5a40c69529d221b87.png" group-title="Pha Lang TV" , 23-09 16:05 [LIVE LIVE] LNZ Cherkasy U19 - Karpaty U19 (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/dbe14545de6ec7822768b7a348214c48/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/690d69ad99fc8d3bd6fe4a7131521421.png" group-title="Gio Vang TV" , 23-09 16:30 [LIVE Đang diễn ra] Cairns Taipans vs Tasmania JackJumpers (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -107,9 +112,6 @@ https://phalang.live/trang-chu#965mkyhkp94er1g
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5e754f0f66a62ae8806a63677b45caa4.png" group-title="Pha Lang TV" , 23-09 17:00 Real Madrid U19 - Getafe U19 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#l5ergphk02l6r8k
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/28f54c536bed8af5a40c69529d221b87.png" group-title="Pha Lang TV" , 23-09 17:00 LNZ Cherkasy U19 - Karpaty U19 (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#n54qllh458e2qvy
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aa21ba50f56d4f0eb3b274e5dd100ef1.png" group-title="Pha Lang TV" , 23-09 17:00 Polissya Zhytomyr U19 - Kolos Kovalyovka U19 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#pxwrxlhlpzz1ryk
