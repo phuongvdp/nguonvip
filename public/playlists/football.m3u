@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:38:08 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:40:15 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (11 trận), Chuối Chiên (17 trận), Phá Làng (9 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (11 trận), Chuối Chiên (17 trận), Phá Làng (11 trận) =====
 
 # ----- Ngày 2026-09-23 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/abe008bced5f410795a36f87e53f91b5.png" group-title="Pha Lang TV" , 23-09 17:00 [LIVE LIVE] Lviv U19 - Oleksandria U19 (Server 1) [hls]
@@ -23,6 +23,11 @@ https://lilive1.eu.cc/live/8be1c1cce3ce9bb211ed3d9919b297bb/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/8d17dc626be474b399b73070ae958448/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a8bc722114f556fc57962258558533af.png" group-title="Pha Lang TV" , 23-09 17:15 [LIVE LIVE] Dinamo Kyiv U19 - FC Kharkiv U19 (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/f9f95127e8a3028e6730bda9aae5f7c3/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/S49ci8h5-YqrtLoTa.png" group-title="Gio Vang TV" , 23-09 17:30 [LIVE Đang diễn ra] U23 Nhật Bản vs U23 Thái Lan (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
@@ -78,6 +83,9 @@ https://lilive1.eu.cc/live/0f860e5ad7e5c79c0eb3cdd2b53c28e0/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/14a0b5ecc81b001d3a54230447e4053e/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/84aae22436a0ba09f84c2fae796e8419.png" group-title="Pha Lang TV" , 23-09 19:00 Deportivo Metalurgico U20 - Defensores de Glew U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#1l4rjnhnyep3m7v
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134342_baf3c99f.png" group-title="Chuoi Chien TV" , 23-09 20:00 Malawi U20 vs Comoros U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1640460/malawi-u20-vs-comoros-u20
