@@ -287,7 +287,21 @@ export async function matchesToPlaylistEntries(matches = [], { baseUrl = '' } = 
   const safeMatches = Array.isArray(matches) ? matches : [];
   for (const match of safeMatches) {
     const matchStreams = Array.isArray(match?.streams) ? match.streams : [];
-    const stream = matchStreams.find((s) => s?.m3u8Url || s?.flvUrl || s?.playUrl);
+    // FIX (23/09/2026 — "nguồn Chuối Chiến: BLV 'Chuối Tây'/'Chuối Chao'
+    // (CDN edgemaxcdn.org) không xem được dù đã thử đủ Referer"): đã xác
+    // nhận qua thực tế (VLC desktop, IP nhà mạng thật — không phải do IP
+    // máy chủ CI — đã thử 4 Referer khác nhau) rằng CDN `EDGEMAX` này chặn
+    // CỨNG bất kể Referer, nhiều khả năng cần cookie/token phiên riêng mà
+    // 1 file .m3u tĩnh không thể giả lập được — KHÔNG có cách nào phát
+    // được từ playlist tĩnh này. Không lọc theo TÊN BLV (tên có thể đổi/
+    // thêm BLV mới dùng lại đúng CDN này) — lọc theo chính field `cdn` mà
+    // detectCdn() trong chuoichientv.service.js đã tự phân loại. Nếu trận
+    // đó có BLV khác (CDN khác: HDPLAYLINK/CLOUDFLARE) thì dùng BLV đó
+    // thay thế; nếu TẤT CẢ BLV của trận đều là EDGEMAX, coi như "chưa có
+    // stream" (rơi xuống nhánh chưa live ở dưới) để không hiện link chắc
+    // chắn không xem được.
+    const playableStreams = matchStreams.filter((s) => s?.m3u8Url || s?.flvUrl || s?.playUrl);
+    const stream = playableStreams.find((s) => s?.cdn !== 'EDGEMAX');
     if (stream) {
       const entry = { match, stream };
       entries.push(entry);
