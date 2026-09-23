@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:20:10 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:22:18 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (31 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (39 trận) =====
 
@@ -54,6 +54,11 @@ https://lilive1.eu.cc/live/d52af8317a6c3b94f31e6d6384f4fb2b/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d85cce27ab583e5b3cead155f02b098a.png" group-title="Pha Lang TV" , 23-09 15:00 [LIVE LIVE] Vissel Kobe - Sagan Tosu (LÝ LINH LỰC (Server 1)) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://pull.digitalcdn.net/live/421f82e2cccf4a7083e81b3a3d992b06/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/zcqIEsil-6uZPCvr9.png" group-title="Gio Vang TV" , 23-09 15:00 Machida vs Tochigi City (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-machida-vs-tochigi-city-23-09-x2qvjtbnhoma
 
@@ -83,9 +88,6 @@ https://phalang.live/trang-chu#318q66hxl1kzqo9
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/90ca524b1b1c17911b1bf8e425c8d96d.png" group-title="Pha Lang TV" , 23-09 15:00 Kashima Antlers - Ventforet Kofu (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#965mkyhkpwn6r1g
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d85cce27ab583e5b3cead155f02b098a.png" group-title="Pha Lang TV" , 23-09 15:00 Vissel Kobe - Sagan Tosu (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#l5ergph4gdpvr8k
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d272859d78eb8ca7a14753f4293fbf45.png" group-title="Pha Lang TV" , 23-09 15:00 Kashiwa Reysol - FC Imabari (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#l7oqdehg7x1lr51
