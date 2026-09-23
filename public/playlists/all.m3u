@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:22:57 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:25:05 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (14 trận), Chuối Chiên (18 trận), Phá Làng (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (14 trận), Chuối Chiên (18 trận), Phá Làng (14 trận) =====
 
 # ----- Ngày 2026-09-23 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a09e094b96d5bb05863646710d868c7a.png" group-title="Pha Lang TV" , 23-09 15:30 [LIVE LIVE] Preah Sihanouk - Kep Province (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/67a84fe45ea574a112a4f91606aca0e3/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/debc2bdbde1b8df61a4dfbe59eff794c.png" group-title="Pha Lang TV" , 23-09 16:00 [LIVE LIVE] Xinjiang Jindun - Xingtai Wanshuai (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
