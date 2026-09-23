@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:45:57 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:48:50 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (13 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (12 trận) =====
 
 # ----- Ngày 2026-09-23 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125823_b6a048f9.png" group-title="Chuoi Chien TV" , 23-09 21:40 [LIVE LIVE] Al Arabi vs Emirates Club (Chuối To (HD)) [hls]
-#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_144728_67f4ff9c.png" group-title="Chuoi Chien TV" , 23-09 23:30 [LIVE LIVE] Korea DPR U20 vs Colombia U20 W (A Ngao (HD)) [hls]
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
