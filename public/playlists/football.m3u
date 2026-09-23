@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:09:36 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:11:41 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (14 trận), Chuối Chiên (4 trận), Phá Làng (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (14 trận), Chuối Chiên (4 trận), Phá Làng (15 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/153c33e0873409158f3e6b93cc32126a.png" group-title="Pha Lang TV" , 24-09 04:30 [LIVE LIVE] Club Fernando de la Mora - Club Libertad Asunción (Server 1) [hls]
@@ -23,21 +23,6 @@ https://lilive1.eu.cc/live/5f700ed83fd727909c664ff87da03a9d/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/08ba7292cb615ed5b17fa7636854c43a.png" group-title="Pha Lang TV" , 24-09 06:00 [LIVE LIVE] Montevideo Wanderers FC - CS Cerrito (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/16012744f82f2b486f607ba2cb8bab0d/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9d355b3a644fe111bdb762f90ee02f13.png" group-title="Pha Lang TV" , 24-09 06:00 [LIVE LIVE] Aruba - Antigua and Barbuda (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/801fc8426c798821c12013b1a31b31e5/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/327368d0bd89e670a231bf92bb790675.png" group-title="Pha Lang TV" , 24-09 06:00 [LIVE LIVE] Cerro Montevideo - Deportivo Maldonado (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/ab58d1ccdfddc0c85b99ad208037d7e3/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6d4cc77f57f9dddf6862cb7168a08d2f.png" group-title="Pha Lang TV" , 24-09 06:15 Auto Esporte Clube PB - Cruzeiro PB (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#y0or5jh9xjdoqwz
