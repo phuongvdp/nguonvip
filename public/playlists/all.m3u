@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:10:46 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:13:22 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (14 trận), Chuối Chiên (16 trận), Phá Làng (9 trận) =====
 
@@ -59,8 +59,10 @@ https://lilive1.eu.cc/live/18cfa17fc2b5a1277c4a81c3be06d83f/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/06e9d47bdec72b3fed001bfa6a2fb54e/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images_RHi333C.jpg" group-title="Khan Dai TV" , 23-09 20:30 Vakifbank W vs Besiktas W (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/vakifbank-w-vs-besiktas-w
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images_RHi333C.jpg" group-title="Khan Dai TV" , 23-09 20:30 [LIVE LIVE] Vakifbank W vs Besiktas W (Tày) [hls]
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/WC0rrzAr-hQzHXowj.png" group-title="Gio Vang TV" , 23-09 21:00 PAOK vs Spartak Myjava (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-paok-vs-spartak-myjava-23-09-xgpbe5galp31
