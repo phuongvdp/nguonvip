@@ -1,15 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:51:34 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:53:44 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (2 trận) =====
 
 # ----- Ngày 2026-09-23 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6eef3985d6a6d69a6e5374e27b13b35f.png" group-title="Pha Lang TV" , 23-09 06:00 [LIVE LIVE] Dep.Independiente Medellin - Jaguares de Cordoba (Server 1) [hls]
-https://lilive1.eu.cc/live/fd74e1cc728946f21740e15212c2d943/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/16bffb304008e389871037fd87b6adf4.png" group-title="Pha Lang TV" , 23-09 06:00 [LIVE LIVE] Nacional Potosi - Real Potosi (Server 1) [hls]
-https://lilive1.eu.cc/live/d5f25fa13009cd9022db413c859371ac/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/dfef59103668b52788e357e8ac07e9ef.png" group-title="Pha Lang TV" , 23-09 06:30 [LIVE LIVE] Cobreloa - Coquimbo Unido (Server 1) [hls]
 https://lilive1.eu.cc/live/5c730d2650e55e3a454126ea51b59911/playlist.m3u8
 
