@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:08:39 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:11:03 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (2 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (1 trận) =====
 
 # ----- Ngày 2026-09-23 -----
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/30c146391ed01570c94d91039480d18d.png!w80" group-title="Pha Lang TV" , 23-09 21:00 [LIVE LIVE] Bỉ - Slovenia (LÝ LÊN LỬA (Server 1)) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://pull.digitalcdn.net/live/fca969c13dce41e2946be82ee82423e4/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260920/57615b445a615a2d42380826a180aee5.png" group-title="Pha Lang TV" , 23-09 21:30 [LIVE LIVE] Iraq - Oman (LÝ LÀNG LÁ) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
