@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:57:30 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:59:35 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (32 trận), Khán Đài (15 trận), Chuối Chiên (4 trận), Phá Làng (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (32 trận), Khán Đài (15 trận), Chuối Chiên (4 trận), Phá Làng (16 trận) =====
 
 # ----- Ngày 2026-09-24 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7e7023e03117d0dd2584c016991ef65b.png" group-title="Pha Lang TV" , 24-09 05:00 [LIVE LIVE] Atletico Vega Real - Jarabacoa FC (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/fce8562caddd47045875fd004fa2edf8/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134322_afd6712d.png" group-title="Chuoi Chien TV" , 24-09 06:00 [LIVE LIVE] Aruba vs Antigua and Barbuda (Trốc Tru (HD)) [hls]
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -64,8 +59,10 @@ https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790204618_hd/1790204618_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1067f238e084e5e278d4e34dfdd1e891.png" group-title="Pha Lang TV" , 24-09 07:00 Independiente Santa Fe (W) - Deportivo Cali Women (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#dj2ryoh7v59yq1z
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1067f238e084e5e278d4e34dfdd1e891.png" group-title="Pha Lang TV" , 24-09 07:00 [LIVE LIVE] Independiente Santa Fe (W) - Deportivo Cali Women (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/feab640840c469fed18739a7aac1f7f7/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1d94d22d0f35c2f40d43948eab0e4324.png" group-title="Pha Lang TV" , 24-09 07:00 Goianesia GO - Rio Verde GO (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#n54qllh459ypqvy
