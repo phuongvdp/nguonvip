@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:15:24 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:17:32 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận) =====
 
 # ----- Ngày 2026-09-23 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/6kfviue5-6ys9CWQj.png" group-title="Gio Vang TV" , 23-09 21:00 [LIVE Đang diễn ra] Bỉ vs Slovenia (Giovang 1) [hls]
@@ -14,8 +14,10 @@ https://eqr2hdarxfliv.vcdn.cloud/1790102421_hd/1790102421_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790102587_hd/1790102587_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/A5k0v6GG-jNN4J2US.png" group-title="Gio Vang TV" , 23-09 21:40 Gulf United vs Al Fujairah (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-gulf-united-vs-al-fujairah-23-09-59srht7hpes1
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/A5k0v6GG-jNN4J2US.png" group-title="Gio Vang TV" , 23-09 21:40 [LIVE Đang diễn ra] Gulf United vs Al Fujairah (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790102713_hd/1790102713_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/bD4FNedM-E1zOfYsJ.png" group-title="Gio Vang TV" , 23-09 22:00 Slovan Liberec vs Rosenborg (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-slovan-liberec-vs-rosenborg-23-09-8hiarfs72gg5
@@ -65,3 +67,6 @@ https://giovang.city/truc-tiep-deportes-iquique-vs-antofagasta-24-09-z2unrybnjaz
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/AJdiRXkl-0p3SjwUb.png" group-title="Gio Vang TV" , 24-09 06:30 Union La Calera vs U. Catolica (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-union-la-calera-vs-u-catolica-24-09-4h09m1g527by
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/n9kmqce5-2NbwlzJD.png" group-title="Gio Vang TV" , 24-09 06:30 Iquique vs Antofagasta (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-iquique-vs-antofagasta-24-09-nq365xccpl0f
