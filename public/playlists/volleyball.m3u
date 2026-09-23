@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:53:44 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:55:50 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (1 trận), Khán Đài (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (1 trận), Khán Đài (4 trận), Chuối Chiên (1 trận) =====
 
 # ----- Ngày 2026-09-23 -----
 #EXTINF:-1 group-title="Khan Dai TV" , 23-09 20:30 Vakifbank W vs Besiktas W (Chưa có link — chờ cập nhật) [sắp diễn ra]
@@ -12,6 +12,9 @@ https://giovang.city/truc-tiep-bi-vs-slovenia-23-09-zmpjuvorm221
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP.jpg" group-title="Khan Dai TV" , 23-09 21:00 Bỉ vs Slovenia (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/bi-vs-slovenia
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125457_13158a72.png" group-title="Chuoi Chien TV" , 23-09 21:00 Italy vs Finland (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/998734/italy-vs-finland
 
 #EXTINF:-1 group-title="Khan Dai TV" , 23-09 23:00 Aras Kargo W vs Eczacibasi W (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/aras-kargo-w-vs-eczacibasi-w

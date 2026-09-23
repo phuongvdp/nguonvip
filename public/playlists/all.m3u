@@ -1,14 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:53:44 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:55:50 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (2 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (15 trận), Chuối Chiên (19 trận), Phá Làng (2 trận) =====
 
 # ----- Ngày 2026-09-23 -----
 #EXTINF:-1 tvg-logo="https://worldinsport.com/wp-content/uploads/2026/08/dwcs-season-10-night-3-results-1200x630.webp" group-title="Gio Vang TV" , 23-09 06:00 [LIVE Đang diễn ra] Dana White's Contender Series: Season 10, Week 7 vs Dana White's Contender Series: Season 10, Week 7 (Giovang 1) [hls]
 https://eqr2hdarxfliv.vcdn.cloud/1789368641_hd/1789368641_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260917_012723_b0cd7a48.png" group-title="Chuoi Chien TV" , 23-09 06:00 [LIVE LIVE] Atlético Nacional vs Jaguares (Trốc Tru (HD)) [hls]
-https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9_0Lyr2S2koF-Bs9cC_IOduDV7COArCgCCAEqH0vNEw&s=10" group-title="Gio Vang TV" , 23-09 06:05 [LIVE Đang diễn ra] New York Yankees vs Tampa Bay Rays (Giovang 1) [hls]
 https://eqr2hdarxfliv.vcdn.cloud/1790089758_hd/1790089758_hd@720p.m3u8
@@ -133,6 +130,9 @@ https://khandai3.link/truc-tiep/bi-vs-slovenia
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_141313_ae6f7405.png" group-title="Chuoi Chien TV" , 23-09 21:00 Kladno vs Baník Ostrava (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1636726/kladno-vs-banik-ostrava
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125457_13158a72.png" group-title="Chuoi Chien TV" , 23-09 21:00 Italy vs Finland (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/998734/italy-vs-finland
+
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/CbiRFhYA-4EsvakLH.png" group-title="Gio Vang TV" , 23-09 21:30 Iraq vs Oman (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-iraq-vs-oman-23-09-fjiyiotmsplw
 
@@ -193,6 +193,3 @@ https://live05.chuoichientv.me/live/1639931/bahamas-vs-saint-martin
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134322_afd6712d.png" group-title="Chuoi Chien TV" , 24-09 06:00 Aruba vs Antigua and Barbuda (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1639932/aruba-vs-antigua-and-barbuda
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133535_5cc2515d.png" group-title="Chuoi Chien TV" , 24-09 07:30 America de Cali vs Rionegro Aguilas (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://live05.chuoichientv.me/live/1549793/america-de-cali-vs-rionegro-aguilas
