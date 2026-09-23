@@ -1,15 +1,15 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:16:09 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:18:40 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (15 trận) =====
 
 # ----- Ngày 2026-09-23 -----
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_540_ADbfOw0.png" group-title="Khan Dai TV" , 23-09 17:30 [LIVE LIVE] Japan U23 vs Thailand U23 (Tày) [hls]
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_540_ADbfOw0.png" group-title="Khan Dai TV" , 23-09 17:30 [LIVE HT] Japan U23 vs Thailand U23 (Tày) [hls]
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9473.jpg" group-title="Khan Dai TV" , 23-09 17:30 [LIVE LIVE] Kyrgyzstan U23 vs Hong Kong U23 (Lee Sin) [hls]
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9473.jpg" group-title="Khan Dai TV" , 23-09 17:30 [LIVE HT] Kyrgyzstan U23 vs Hong Kong U23 (Lee Sin) [hls]
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
