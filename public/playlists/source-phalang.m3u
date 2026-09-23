@@ -1,9 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:38:08 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:40:13 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (29 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (30 trận) =====
 
 # ----- Ngày 2026-09-23 -----
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/19ba34d167be9b01eb848a0a777932ac.png" group-title="Pha Lang TV" , 23-09 13:55 [LIVE LIVE] Seoul Amazones Women - Hwacheon KSPO WFC (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/d52af8317a6c3b94f31e6d6384f4fb2b/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/adc9a8d697f1b5a2e9ea74962caef4d1.png" group-title="Pha Lang TV" , 23-09 15:00 [LIVE LIVE] Bangalore Dream United FC - Stride (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
