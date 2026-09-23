@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 05:44:39 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 05:46:44 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (14 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ecf98fe0ded24137ee350b11f20a390c.png" group-title="Pha Lang TV" , 24-09 04:00 [LIVE LIVE] Curico Unido - D. Concepcion (Server 1) [hls]
@@ -23,3 +23,33 @@ https://lilive1.eu.cc/live/fce8562caddd47045875fd004fa2edf8/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/5f700ed83fd727909c664ff87da03a9d/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/495620a22b98c44729dbf780f7de1d09.png" group-title="Pha Lang TV" , 24-09 06:00 Brasil de Farroupilha - GE Bage (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#2y8m4zhv08jdql0
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/08ba7292cb615ed5b17fa7636854c43a.png" group-title="Pha Lang TV" , 24-09 06:00 Montevideo Wanderers FC - CS Cerrito (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#318q66hx91zkqo9
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9d355b3a644fe111bdb762f90ee02f13.png" group-title="Pha Lang TV" , 24-09 06:00 Aruba - Antigua and Barbuda (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#8yomo4h1np2vq0j
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1cd995bdc2b652d31129d027afb27ed8.png" group-title="Pha Lang TV" , 24-09 06:00 Club Atlético Morelia - Leon U21 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#jw2r09h547y4rz8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/327368d0bd89e670a231bf92bb790675.png" group-title="Pha Lang TV" , 24-09 06:00 Cerro Montevideo - Deportivo Maldonado (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#k82rekhg5ez3rep
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6d4cc77f57f9dddf6862cb7168a08d2f.png" group-title="Pha Lang TV" , 24-09 06:15 Auto Esporte Clube PB - Cruzeiro PB (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#y0or5jh9xjdoqwz
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c57dd461eb278005d2f1efc2c0cb720f.png" group-title="Pha Lang TV" , 24-09 06:30 Municipal Iquique - CSD Antofagasta (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#ednm9whw142yryo
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5e2db890ff3abaf6db387f1e324a25af.png" group-title="Pha Lang TV" , 24-09 06:30 Union La Calera - Univ Catolica (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#y39mp1h67n02moj
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1067f238e084e5e278d4e34dfdd1e891.png" group-title="Pha Lang TV" , 24-09 07:00 Independiente Santa Fe (W) - Deportivo Cali Women (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#dj2ryoh7v59yq1z
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1d94d22d0f35c2f40d43948eab0e4324.png" group-title="Pha Lang TV" , 24-09 07:00 Goianesia GO - Rio Verde GO (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#n54qllh459ypqvy
