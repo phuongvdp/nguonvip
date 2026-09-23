@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:40:18 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:42:28 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (14 trận), Chuối Chiên (15 trận), Phá Làng (6 trận) =====
 
@@ -44,16 +44,20 @@ https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pull.digitalcdn.net/live/2e1b2ce6bdc045658b96eea2664ac141/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/6kfviue5-6ys9CWQj.png" group-title="Gio Vang TV" , 23-09 21:00 [LIVE Đang diễn ra] Bỉ vs Slovenia (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790102421_hd/1790102421_hd@720p.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/WC0rrzAr-hQzHXowj.png" group-title="Gio Vang TV" , 23-09 21:00 [LIVE Đang diễn ra] PAOK vs Spartak Myjava (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790102300_hd/1790102300_hd@720p.m3u8
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP.jpg" group-title="Khan Dai TV" , 23-09 21:00 [LIVE LIVE] Bỉ vs Slovenia (Lee Sin) [hls]
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/WC0rrzAr-hQzHXowj.png" group-title="Gio Vang TV" , 23-09 21:00 PAOK vs Spartak Myjava (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-paok-vs-spartak-myjava-23-09-xgpbe5galp31
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/6kfviue5-6ys9CWQj.png" group-title="Gio Vang TV" , 23-09 21:00 Bỉ vs Slovenia (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-bi-vs-slovenia-23-09-zmpjuvorm221
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_141313_ae6f7405.png" group-title="Chuoi Chien TV" , 23-09 21:00 Kladno vs Baník Ostrava (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1636726/kladno-vs-banik-ostrava
