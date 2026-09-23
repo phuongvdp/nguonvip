@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:05:24 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 09:07:27 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (2 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (2 trận) =====
 
 # ----- Ngày 2026-09-23 -----
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9_0Lyr2S2koF-Bs9cC_IOduDV7COArCgCCAEqH0vNEw&s=10" group-title="Gio Vang TV" , 23-09 06:05 [LIVE Đang diễn ra] New York Yankees vs Tampa Bay Rays (Giovang 1) [hls]
@@ -13,11 +13,6 @@ https://eqr2hdarxfliv.vcdn.cloud/1790089758_hd/1790089758_hd@720p.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/2672748dfcca12a59823b97a08ffb22d.png" group-title="Gio Vang TV" , 23-09 07:00 [LIVE Đang diễn ra] Indiana Fever vs Minnesota Lynx (Giovang 1) [hls]
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790081200_hd/1790081200_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133536_ca511a27.png" group-title="Chuoi Chien TV" , 23-09 08:00 [LIVE LIVE] Santa Fe vs Deportivo Cali (Chuối Chao (HD)) [hls]
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
@@ -38,6 +33,11 @@ https://lilive1.eu.cc/live/2837652e0eab8f30005615c1232f03fb/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790081239_hd/1790081239_hd@720p.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/687f4fda7efc61afefa80ee3591a56f2.png" group-title="Gio Vang TV" , 23-09 09:00 [LIVE Đang diễn ra] Portland Fire vs Golden State Valkyries (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790081289_hd/1790081289_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/58MDezoOT1DAkMexRNiW3w_96x96.png" group-title="Gio Vang TV" , 23-09 09:10 Los Angeles Dodgers vs San Diego Padres (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-los-angeles-dodgers-vs-san-diego-padres-23-09-aapc2xt62zym
@@ -186,6 +186,9 @@ https://live05.chuoichientv.me/live/1639931/bahamas-vs-saint-martin
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134322_afd6712d.png" group-title="Chuoi Chien TV" , 24-09 06:00 Aruba vs Antigua and Barbuda (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1639932/aruba-vs-antigua-and-barbuda
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png" group-title="Gio Vang TV" , 24-09 06:05 New York Yankees vs Tampa Bay Rays (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-new-york-yankees-vs-tampa-bay-rays-24-09-m0sxzadlr0oa
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133535_5cc2515d.png" group-title="Chuoi Chien TV" , 24-09 07:30 America de Cali vs Rionegro Aguilas (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1549793/america-de-cali-vs-rionegro-aguilas
