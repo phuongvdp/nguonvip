@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:38:25 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:40:30 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (11 trận), Chuối Chiên (19 trận), Phá Làng (3 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (11 trận), Chuối Chiên (19 trận), Phá Làng (4 trận) =====
 
 # ----- Ngày 2026-09-23 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Gio Vang TV" , 23-09 11:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
@@ -48,6 +48,11 @@ https://lilive1.eu.cc/live/5ef7c69f8a8c27ce115335870c06982f/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/5f5cbed1eac7d3af8a7673a1e18982cf/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9797959a20ca90fb6901b819293bb1bd.png" group-title="Pha Lang TV" , 23-09 12:30 [LIVE LIVE] Parikrma FC - Real Bengaluru (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/4f69d4d0d13204338fdeee49a684b984/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/zcqIEsil-6uZPCvr9.png" group-title="Gio Vang TV" , 23-09 15:00 Machida vs Tochigi City (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-machida-vs-tochigi-city-23-09-x2qvjtbnhoma
