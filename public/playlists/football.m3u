@@ -1,18 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:57:41 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:59:47 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (11 trận), Chuối Chiên (17 trận), Phá Làng (9 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (11 trận), Chuối Chiên (17 trận), Phá Làng (8 trận) =====
 
 # ----- Ngày 2026-09-23 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/abe008bced5f410795a36f87e53f91b5.png" group-title="Pha Lang TV" , 23-09 17:00 [LIVE LIVE] Lviv U19 - Oleksandria U19 (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/d417c2d3754ec7132b5aa742b1c6e381/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ce66f591c89ea4946647e00d6e976659.png" group-title="Pha Lang TV" , 23-09 17:00 [LIVE LIVE] South Africa U20 - Eswatini U20 (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/8d17dc626be474b399b73070ae958448/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a8bc722114f556fc57962258558533af.png" group-title="Pha Lang TV" , 23-09 17:15 [LIVE LIVE] Dinamo Kyiv U19 - FC Kharkiv U19 (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
