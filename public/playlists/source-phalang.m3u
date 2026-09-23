@@ -1,20 +1,17 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:01:34 22/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:47:21 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (5 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (4 trận) =====
 
-# ----- Ngày 2026-09-22 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/dce5a27563d4b195fa02eceff158c7ec.png" group-title="Pha Lang TV" , 22-09 20:00 [LIVE LIVE] Mozambique U20 - Mauritius U20 (Server 1) [hls]
-https://lilive1.eu.cc/live/1e5fd8b2f92b7f61d27065703c97097e/playlist.m3u8
+# ----- Ngày 2026-09-23 -----
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6eef3985d6a6d69a6e5374e27b13b35f.png" group-title="Pha Lang TV" , 23-09 06:00 [LIVE LIVE] Dep.Independiente Medellin - Jaguares de Cordoba (Server 1) [hls]
+https://lilive1.eu.cc/live/fd74e1cc728946f21740e15212c2d943/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ee10593b86a3b4de49f2d15b22ad7d44.png" group-title="Pha Lang TV" , 22-09 20:00 [LIVE LIVE] Namibia U20 - Seychelles U20 (Server 1) [hls]
-https://lilive1.eu.cc/live/ae59db24d024a99762263959236a0be1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/16bffb304008e389871037fd87b6adf4.png" group-title="Pha Lang TV" , 23-09 06:00 [LIVE LIVE] Nacional Potosi - Real Potosi (Server 1) [hls]
+https://lilive1.eu.cc/live/d5f25fa13009cd9022db413c859371ac/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/1b9d35a79766c74c5b437184864e1e81.png!w80" group-title="Pha Lang TV" , 22-09 20:00 [LIVE LIVE] Pháp - Romania (LÝ LÊN LỬA (Server 1)) [hls]
-https://pull.digitalcdn.net/live/55153bf35e754f2d9eca1ad4ddbc0fa3/index.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/dfef59103668b52788e357e8ac07e9ef.png" group-title="Pha Lang TV" , 23-09 06:30 [LIVE LIVE] Cobreloa - Coquimbo Unido (Server 1) [hls]
+https://lilive1.eu.cc/live/5c730d2650e55e3a454126ea51b59911/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/54d16ff323ac041a7ae0d9c53b340ac9.png" group-title="Pha Lang TV" , 22-09 20:00 [LIVE LIVE] FC Sevastopol - Rubin Yalta (Server 1) [hls]
-https://lilive1.eu.cc/live/4b906df0da69176a95fb5161d256d3ba/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/93a1f3c0f21911f243bb18729f8f8c9a.png" group-title="Pha Lang TV" , 22-09 21:00 [LIVE LIVE] PFC Terdu - FK Gazalkent (Server 1) [hls]
-https://lilive1.eu.cc/live/9ca67928d05d8240e7ac126bd35c1a73/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7a8bb950293508aeb3199de3c45dd418.png" group-title="Pha Lang TV" , 23-09 06:30 [LIVE LIVE] Audax Italiano - Colo Colo (Server 1) [hls]
+https://lilive1.eu.cc/live/aac2aba03dff3eb6fc61e1f5dafac290/playlist.m3u8

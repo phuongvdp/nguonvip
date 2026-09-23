@@ -1,37 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:01:34 22/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:47:21 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (14 trận) =====
-
-# ----- Ngày 2026-09-22 -----
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4kCzOp7.jpg" group-title="Khan Dai TV" , 22-09 20:00 [LIVE LIVE] Pháp vs Romania (Chim Nhỏ) [hls]
-https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d
-
-#EXTINF:-1 group-title="Khan Dai TV" , 22-09 20:30 [LIVE LIVE] Eczacibasi W vs Besiktas W (KaKa) [hls]
-https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_uiH5uS2.jpg" group-title="Khan Dai TV" , 22-09 23:00 Ba Lan vs Đức (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/ba-lan-vs-duc
-
-#EXTINF:-1 group-title="Khan Dai TV" , 22-09 23:00 Aras Kargo W vs Vakifbank W (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/aras-kargo-w-vs-vakifbank-w
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_31.jpg" group-title="Khan Dai TV" , 22-09 23:45 Bayern Munich W vs Manchester City W (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/bayern-munich-w-vs-manchester-city-w-22-09-2026-855193
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_334.jpg" group-title="Khan Dai TV" , 22-09 23:45 Inter W vs Hacken W (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/inter-w-vs-hacken-w-22-09-2026-855202
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (15 trận) =====
 
 # ----- Ngày 2026-09-23 -----
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_11085.jpg" group-title="Khan Dai TV" , 23-09 02:00 Arsenal W vs Koge W (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/arsenal-w-vs-koge-w-23-09-2026-855181
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_44.jpg" group-title="Khan Dai TV" , 23-09 02:00 Juventus W vs SL Benfica W (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/juventus-w-vs-sl-benfica-w-23-09-2026-855203
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_486.jpg" group-title="Khan Dai TV" , 23-09 02:00 Real Madrid W vs PSG W (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/real-madrid-w-vs-psg-w-23-09-2026-855224
-
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9462.jpg" group-title="Khan Dai TV" , 23-09 12:30 China U23 vs United Arab Emirates U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/china-u23-vs-united-arab-emirates-u23-23-09-2026-856655
 
@@ -46,3 +18,34 @@ https://khandai3.link/truc-tiep/japan-ol-vs-thailand-u23-23-09-2026-856657
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9473.jpg" group-title="Khan Dai TV" , 23-09 17:30 Kyrgyzstan U23 vs Hong Kong U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/kyrgyzstan-u23-vs-hong-kong-u23-23-09-2026-856658
+
+#EXTINF:-1 group-title="Khan Dai TV" , 23-09 20:30 Vakifbank W vs Besiktas W (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/vakifbank-w-vs-besiktas-w
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP.jpg" group-title="Khan Dai TV" , 23-09 21:00 Bỉ vs Slovenia (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/bi-vs-slovenia
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_642.jpg" group-title="Khan Dai TV" , 23-09 21:30 Iraq vs Oman (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/iraq-vs-oman-23-09-2026-857449
+
+#EXTINF:-1 group-title="Khan Dai TV" , 23-09 23:00 Aras Kargo W vs Eczacibasi W (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/aras-kargo-w-vs-eczacibasi-w
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_52.jpg" group-title="Khan Dai TV" , 23-09 23:45 Servette Geneve FC W vs Lyon W (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/servette-geneve-fc-w-vs-lyon-w-23-09-2026-855227
+
+# ----- Ngày 2026-09-24 -----
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_11084.jpg" group-title="Khan Dai TV" , 24-09 01:00 Manchester Utd W vs Sheffield Utd W (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/manchester-utd-w-vs-sheffield-utd-w-24-09-2026-836672
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_647.jpg" group-title="Khan Dai TV" , 24-09 01:00 Saudi Arabia vs Kuwait (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/saudi-arabia-vs-kuwait-24-09-2026-857450
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_25.jpg" group-title="Khan Dai TV" , 24-09 02:00 Barcelona W vs Paris FC W (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/barcelona-w-vs-paris-fc-w-24-09-2026-855189
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_27.jpg" group-title="Khan Dai TV" , 24-09 02:00 Chelsea W vs Austria Vienna W (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/chelsea-w-vs-austria-vienna-w-24-09-2026-855196
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/pngtree-finland-flag-pin-badge-png-image_6333890.png" group-title="Khan Dai TV" , 24-09 02:00 Phần Lan vs Italy (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/phan-lan-vs-italy
