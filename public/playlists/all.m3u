@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:11:37 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 09:13:46 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (2 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (2 trận) =====
 
 # ----- Ngày 2026-09-23 -----
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9_0Lyr2S2koF-Bs9cC_IOduDV7COArCgCCAEqH0vNEw&s=10" group-title="Gio Vang TV" , 23-09 06:05 [LIVE Đang diễn ra] New York Yankees vs Tampa Bay Rays (Giovang 1) [hls]
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790089758_hd/1790089758_hd@720p.m3u8
-
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Gio Vang TV" , 23-09 07:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -38,6 +33,11 @@ https://eqr2hdarxfliv.vcdn.cloud/1790081239_hd/1790081239_hd@720p.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790081289_hd/1790081289_hd@720p.m3u8
+
+#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/58MDezoOT1DAkMexRNiW3w_96x96.png" group-title="Gio Vang TV" , 23-09 09:10 [LIVE Đang diễn ra] Los Angeles Dodgers vs San Diego Padres (Chưa có link — chờ cập nhật) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://giovang.city/truc-tiep-los-angeles-dodgers-vs-san-diego-padres-23-09-aapc2xt62zym
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/CA3yhoGG-KMidKLjl.png" group-title="Gio Vang TV" , 23-09 12:30 U23 Iran vs U23 Triều Tiên (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-u23-iran-vs-u23-trieu-tien-23-09-zcqd6mggoore
@@ -155,6 +155,12 @@ https://live05.chuoichientv.me/live/1638317/oh-leuven-w-vs-roma-w
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_140515_377a5a77.png" group-title="Chuoi Chien TV" , 23-09 23:45 Servette Chênois W vs Lyon W (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1638334/servette-chenois-w-vs-lyon-w
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/2ebRtpBr-zVZIA7Nc.png" group-title="Gio Vang TV" , 23-09 23:59 Feyenoord W vs Vålerenga W (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-feyenoord-w-vs-valerenga-w-23-09-vj98l99bcnuz
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/M7BywQyS-U9pKctKr.png" group-title="Gio Vang TV" , 23-09 23:59 Hammarby W vs Rangers LFC W (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-hammarby-w-vs-rangers-lfc-w-23-09-q16bh2a4febv
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_11084.jpg" group-title="Khan Dai TV" , 24-09 01:00 Manchester Utd W vs Sheffield Utd W (Chưa có link — chờ cập nhật) [sắp diễn ra]
