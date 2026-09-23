@@ -14,6 +14,30 @@ import {
   mapPool
 } from '@/src/utils/playerGet';
 
+// FIX (23/09/2026 — "nguồn Chuối Chiến trong all.m3u add trên app IPTV
+// không xem được, dù link .m3u8 y hệt trên web vẫn phát bình thường"):
+// CDN của Chuối Chiến (edgemaxcdn.org) — và tương tự các nguồn khác dùng
+// CDN riêng — chặn hotlink theo Referer (xem REFERER_CANDIDATES_BY_SOURCE
+// trong pages/api/proxy/hls.js, đã tự dò và xác nhận cần đúng Referer mới
+// cho phát). Trang web tự gửi đúng Referer của chính nó nên phát được;
+// nhưng app IPTV (VLC/TiviMate/Perfect Player/...) mở THẲNG link trong file
+// .m3u tĩnh này thì KHÔNG gửi Referer nào — bị CDN từ chối. File .m3u này
+// chạy hoàn toàn tĩnh trên GitHub (không có server để bọc qua
+// /api/proxy/hls như bên web), nên phải nhúng Referer/User-Agent NGAY
+// TRONG file .m3u bằng cú pháp #EXTVLCOPT — được VLC/TiviMate/Perfect
+// Player/IPTV Smarters/... hỗ trợ sẵn để tự đính kèm header khi phát, không
+// cần proxy. Referer dùng đúng domain "trang phụ" nơi player thật chạy của
+// từng nguồn (khớp REFERER_BY_SOURCE trong pages/api/proxy/hls.js) — không
+// đoán thêm domain khác ở đây để tránh lệch giữa 2 nơi.
+const IPTV_HEADER_UA =
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
+const REFERER_BY_SOURCE_FOR_IPTV = {
+  chuoichientv: 'https://live05.chuoichientv.me/',
+  giovang: process.env.GIOVANG_DOMAIN || 'https://giovang.city',
+  khandaitv: process.env.KHANDAITV_DOMAIN || process.env.KHANDAITV_BASE_URL || 'https://khandai3.link',
+  phalang: 'https://phalang.live'
+};
+
 /**
  * Thử nâng 1 link FLV lên bản HLS song song (nhiều CDN lộ cùng 1 stream ra
  * cả 2 đuôi .flv/.m3u8) — xác minh (HEAD ngắn) bản đoán đó CÒN PHÁT ĐƯỢC
@@ -116,6 +140,17 @@ export function buildM3uPlaylist(entries = []) {
     attrs.push(`group-title="${group}"`);
 
     lines.push(`${attrs.join(' ')} , ${displayName}`);
+    // FIX 23/09/2026 (xem chú thích REFERER_BY_SOURCE_FOR_IPTV phía trên):
+    // chèn Referer/User-Agent qua #EXTVLCOPT ngay trước link thật, chỉ khi
+    // nguồn đó có CDN cần Referer VÀ đây là link phát thật (không phải link
+    // trang gốc/resolver tạm của trận chưa đấu — gắn header cho link đó
+    // cũng không có ý nghĩa gì, link tạm không phải link CDN cần Referer).
+    const sourceKey = getSourceKey(match);
+    const referer = !entry.upcoming ? REFERER_BY_SOURCE_FOR_IPTV[sourceKey] : null;
+    if (referer) {
+      lines.push(`#EXTVLCOPT:http-referrer=${referer}`);
+      lines.push(`#EXTVLCOPT:http-user-agent=${IPTV_HEADER_UA}`);
+    }
     lines.push(url);
     lines.push('');
   }
