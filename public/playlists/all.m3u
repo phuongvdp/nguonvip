@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:58:46 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:00:51 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (14 trận), Chuối Chiên (18 trận), Phá Làng (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (15 trận), Chuối Chiên (18 trận), Phá Làng (10 trận) =====
 
 # ----- Ngày 2026-09-23 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/debc2bdbde1b8df61a4dfbe59eff794c.png" group-title="Pha Lang TV" , 23-09 16:00 [LIVE LIVE] Xinjiang Jindun - Xingtai Wanshuai (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/5a2f9e35278b82a6b39ba2ca3e845360/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/690d69ad99fc8d3bd6fe4a7131521421.png" group-title="Gio Vang TV" , 23-09 16:30 [LIVE Đang diễn ra] Cairns Taipans vs Tasmania JackJumpers (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -79,29 +74,19 @@ https://lilive1.eu.cc/live/e83de733a69587b78ee5b5da5f7db559/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/802a00008b928671104473e5f809aa53/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5095a615993e45eb2b1d60e1f0813e0d.png" group-title="Pha Lang TV" , 23-09 18:00 Chachoengsao Hi-Tek - Bangkok (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#1l4rjnhny2gnm7v
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aa21ba50f56d4f0eb3b274e5dd100ef1.png" group-title="Pha Lang TV" , 23-09 18:00 [LIVE LIVE] Polissya Zhytomyr U19 - Kolos Kovalyovka U19 (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/e0c846d3c8f7d93b413572dffd0302bb/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ce1411de8b5b1cf410e075de87d6311a.png" group-title="Pha Lang TV" , 23-09 18:00 Pogon Szczecin II - Swit Szczecin (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#23xmvkhyvwj8qg8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/359d0b2402aac384dd4f406fc0d01811.png" group-title="Pha Lang TV" , 23-09 18:30 Jiangsu Changjin - Guangzhou Zhicheng (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#965mkyhkvv89r1g
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a34700d9826e8ba4c89cda785c282dc9.png" group-title="Pha Lang TV" , 23-09 18:00 Zanaco - Green Buffaloes (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#2y8m4zhv0n2nql0
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1adb029996810ee88286f3170d2e539b.png" group-title="Pha Lang TV" , 23-09 18:30 Wuhan Lianzhen - Guangdong Wuchuan Youth (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#ednm9whwnn5pryo
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9ba451304d68845e529644753aefe199.png" group-title="Pha Lang TV" , 23-09 18:00 Chanthaburi FC - Chiangmai FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#4jwq2ghgo6wwm0v
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6cc89f047baae7e8a28b6956014475ae.png" group-title="Pha Lang TV" , 23-09 18:00 Khonkaen United - Royal Thai Navy FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#6ypq3nhk6gv6md7
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d70c3ec1d7cdcb4cbfe0eb7a04e7e4a5.png" group-title="Pha Lang TV" , 23-09 18:00 Nara United - Chiangmai United FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#ednm9wh586opryo
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/31ba784b2d2ecce3b21c0c2013eace4e.png" group-title="Pha Lang TV" , 23-09 18:00 Kanchanaburi Power U21 - Rasi Salai United U21 (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#jw2r09h547zwrz8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3062df8edd1481dcc7744fa259724754.png" group-title="Pha Lang TV" , 23-09 18:00 Nakhon Si United FC - Kasetsart FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#pxwrxlhlp7ygryk
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1157661246871c8c285bbfe60388caf7.png" group-title="Pha Lang TV" , 23-09 18:30 Qingdao Fuli - Dalian Juxing Shengheng (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#n54qllhn004pqvy
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134342_baf3c99f.png" group-title="Chuoi Chien TV" , 23-09 20:00 Malawi U20 vs Comoros U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1640460/malawi-u20-vs-comoros-u20
@@ -247,3 +232,6 @@ https://khandai3.link/truc-tiep/laos-vs-brunei
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_540.jpg" group-title="Khan Dai TV" , 24-09 17:05 Japan vs Uruguay (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/japan-vs-uruguay-24-09-2026-841680
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_651.jpg" group-title="Khan Dai TV" , 24-09 18:00 South Korea vs Ecuador (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/south-korea-vs-ecuador-24-09-2026-841679
