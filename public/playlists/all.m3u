@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:28:23 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:30:27 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (15 trận), Chuối Chiên (4 trận), Phá Làng (14 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (32 trận), Khán Đài (15 trận), Chuối Chiên (4 trận), Phá Làng (14 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7e7023e03117d0dd2584c016991ef65b.png" group-title="Pha Lang TV" , 24-09 05:00 [LIVE LIVE] Atletico Vega Real - Jarabacoa FC (Server 1) [hls]
@@ -38,9 +38,6 @@ https://eqr2hdarxfliv.vcdn.cloud/1790172281_hd/1790172281_hd@720p.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/cfbcd80950bc23533dbfe3e94cfbcdf5/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c57dd461eb278005d2f1efc2c0cb720f.png" group-title="Pha Lang TV" , 24-09 06:30 Municipal Iquique - CSD Antofagasta (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#ednm9whw142yryo
 
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Gio Vang TV" , 24-09 07:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
@@ -100,6 +97,9 @@ https://giovang.city/truc-tiep-seattle-storm-vs-dallas-wings-24-09-25525074
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133850_6dd47f22.png" group-title="Chuoi Chien TV" , 24-09 09:00 Vancouver FC vs York United (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1517352/vancouver-fc-vs-york-united
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6857f457777f1e59180fc0a6c86f41d8.png" group-title="Pha Lang TV" , 24-09 09:00 Gimnastico de Tegucigalpa - Real Tegus (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#2y8m4zhv0x89ql0
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/YPyyksFG-CrchK1NQ.png" group-title="Gio Vang TV" , 24-09 09:10 Seattle Mariners vs Houston Astros (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-seattle-mariners-vs-houston-astros-24-09-zz0xpvse026o
@@ -209,3 +209,9 @@ https://khandai3.link/truc-tiep/serbia-vs-greece-25-09-2026-790875
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/691f1fbb808378a5c4cb07fa320d017d.png" group-title="Gio Vang TV" , 25-09 06:00 Connecticut Sun vs Toronto Tempo (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-connecticut-sun-vs-toronto-tempo-25-09-26525075
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/17/Everton_De_Vi%C3%B1a_Del_Mar.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="Gio Vang TV" , 25-09 06:30 Everton vs U. De Chile (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-everton-vs-u-de-chile-25-09-y928lsnp1gck
+
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/e4fdbc941d11c2927bafb5b8978e8ea6.png" group-title="Gio Vang TV" , 25-09 06:30 Washington Mystics vs Chicago Sky (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-washington-mystics-vs-chicago-sky-25-09-27525076

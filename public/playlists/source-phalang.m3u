@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:28:23 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:30:28 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (14 trận) =====
 
@@ -18,9 +18,6 @@ https://lilive1.eu.cc/live/801fc8426c798821c12013b1a31b31e5/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/cfbcd80950bc23533dbfe3e94cfbcdf5/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c57dd461eb278005d2f1efc2c0cb720f.png" group-title="Pha Lang TV" , 24-09 06:30 Municipal Iquique - CSD Antofagasta (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#ednm9whw142yryo
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1067f238e084e5e278d4e34dfdd1e891.png" group-title="Pha Lang TV" , 24-09 07:00 Independiente Santa Fe (W) - Deportivo Cali Women (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#dj2ryoh7v59yq1z
@@ -51,3 +48,6 @@ https://phalang.live/trang-chu#dj2ryoh7v4g3q1z
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cef1725baaf3f3be0cb7215c5f39d162.png" group-title="Pha Lang TV" , 24-09 08:30 Seattle Sounders - Real Salt Lake (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#ednm9whw0o60ryo
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6857f457777f1e59180fc0a6c86f41d8.png" group-title="Pha Lang TV" , 24-09 09:00 Gimnastico de Tegucigalpa - Real Tegus (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#2y8m4zhv0x89ql0
