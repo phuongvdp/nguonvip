@@ -1,13 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:57:03 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:59:41 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (12 trận), Chuối Chiên (11 trận) =====
 
 # ----- Ngày 2026-09-23 -----
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/xUCbW5yB-Sd4Wk8zD.png" group-title="Gio Vang TV" , 23-09 23:00 [LIVE Đang diễn ra] Brondby IF vs Sporting (Giovang 1) [hls]
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790129301_hd/1790129301_hd@720p.m3u8
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/xUCbW5yB-Sd4Wk8zD.png" group-title="Gio Vang TV" , 23-09 23:00 [LIVE Đang diễn ra] Brondby IF vs Sporting (Chưa có link — chờ cập nhật) [hls]
+https://giovang.city/truc-tiep-brondby-if-vs-sporting-23-09-9xpjejc182u6
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_144728_67f4ff9c.png" group-title="Chuoi Chien TV" , 23-09 23:30 [LIVE LIVE] Korea DPR U20 vs Colombia U20 W (A Ngao (HD)) [hls]
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
@@ -34,14 +32,20 @@ https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/2ebRtpBr-zVZIA7Nc.png" group-title="Gio Vang TV" , 23-09 23:59 [LIVE Đang diễn ra] Feyenoord W vs Vålerenga W (Chưa có link — chờ cập nhật) [hls]
-https://giovang.city/truc-tiep-feyenoord-w-vs-valerenga-w-23-09-vj98l99bcnuz
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/2ebRtpBr-zVZIA7Nc.png" group-title="Gio Vang TV" , 23-09 23:59 [LIVE Đang diễn ra] Feyenoord W vs Vålerenga W (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790129425_hd/1790129425_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/M7BywQyS-U9pKctKr.png" group-title="Gio Vang TV" , 23-09 23:59 [LIVE Đang diễn ra] Hammarby W vs Rangers LFC W (Chưa có link — chờ cập nhật) [hls]
-https://giovang.city/truc-tiep-hammarby-w-vs-rangers-lfc-w-23-09-q16bh2a4febv
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/M7BywQyS-U9pKctKr.png" group-title="Gio Vang TV" , 23-09 23:59 [LIVE Đang diễn ra] Hammarby W vs Rangers LFC W (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790129531_hd/1790129531_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/0W1C1myS-Myi417I9.png" group-title="Gio Vang TV" , 23-09 23:59 [LIVE Đang diễn ra] PSV W vs Fortuna W (Chưa có link — chờ cập nhật) [hls]
-https://giovang.city/truc-tiep-psv-w-vs-fortuna-w-23-09-yov3a1slfhxv
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/0W1C1myS-Myi417I9.png" group-title="Gio Vang TV" , 23-09 23:59 [LIVE Đang diễn ra] PSV W vs Fortuna W (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790129578_hd/1790129578_hd@720p.m3u8
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/E9dIygWg-YJMM9EqO.png" group-title="Gio Vang TV" , 24-09 01:00 Itabirito vs Cruzeiro (Chưa có link — chờ cập nhật) [sắp diễn ra]
