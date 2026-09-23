@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:56:46 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:58:51 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (10 trận), Chuối Chiên (15 trận), Phá Làng (12 trận) =====
 
@@ -44,8 +44,10 @@ https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cc6b5e5081fad4f44ce01101b646dcd8.png" group-title="Pha Lang TV" , 23-09 20:00 Zambia U20 - Botswana U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#1l4rjnh9vv0vm7v
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cc6b5e5081fad4f44ce01101b646dcd8.png" group-title="Pha Lang TV" , 23-09 20:00 [LIVE LIVE] Zambia U20 - Botswana U20 (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/a7d87b3d3ab273d682af5395ca500fee/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b3d5ef54810a690bbee2739ca871b9f3.png" group-title="Pha Lang TV" , 23-09 20:00 Acassuso Reserves - Los Andes Reserves (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#2y8m4zhv0n9gql0
