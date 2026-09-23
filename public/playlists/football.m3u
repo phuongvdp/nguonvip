@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:48:05 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:50:10 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (10 trận), Chuối Chiên (17 trận), Phá Làng (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (10 trận), Chuối Chiên (17 trận), Phá Làng (15 trận) =====
 
 # ----- Ngày 2026-09-23 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/debc2bdbde1b8df61a4dfbe59eff794c.png" group-title="Pha Lang TV" , 23-09 16:00 [LIVE LIVE] Xinjiang Jindun - Xingtai Wanshuai (Server 1) [hls]
@@ -13,11 +13,6 @@ https://lilive1.eu.cc/live/5a2f9e35278b82a6b39ba2ca3e845360/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/9b875a7598a941ab2f71bc3c68a17932/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/28f54c536bed8af5a40c69529d221b87.png" group-title="Pha Lang TV" , 23-09 16:05 [LIVE LIVE] LNZ Cherkasy U19 - Karpaty U19 (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/dbe14545de6ec7822768b7a348214c48/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Gio Vang TV" , 23-09 17:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
