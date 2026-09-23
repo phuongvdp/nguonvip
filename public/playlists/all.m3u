@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:27:24 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:29:37 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (15 trận), Chuối Chiên (18 trận), Phá Làng (8 trận) =====
 
@@ -64,14 +64,20 @@ https://lilive1.eu.cc/live/e83de733a69587b78ee5b5da5f7db559/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/802a00008b928671104473e5f809aa53/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/359d0b2402aac384dd4f406fc0d01811.png" group-title="Pha Lang TV" , 23-09 18:30 Jiangsu Changjin - Guangzhou Zhicheng (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#965mkyhkvv89r1g
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/359d0b2402aac384dd4f406fc0d01811.png" group-title="Pha Lang TV" , 23-09 18:30 [LIVE LIVE] Jiangsu Changjin - Guangzhou Zhicheng (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/f025c1fbc9c5a82d043a047e004ba21d/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1adb029996810ee88286f3170d2e539b.png" group-title="Pha Lang TV" , 23-09 18:30 Wuhan Lianzhen - Guangdong Wuchuan Youth (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#ednm9whwnn5pryo
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1adb029996810ee88286f3170d2e539b.png" group-title="Pha Lang TV" , 23-09 18:30 [LIVE LIVE] Wuhan Lianzhen - Guangdong Wuchuan Youth (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/0f860e5ad7e5c79c0eb3cdd2b53c28e0/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1157661246871c8c285bbfe60388caf7.png" group-title="Pha Lang TV" , 23-09 18:30 Qingdao Fuli - Dalian Juxing Shengheng (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#n54qllhn004pqvy
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1157661246871c8c285bbfe60388caf7.png" group-title="Pha Lang TV" , 23-09 18:30 [LIVE LIVE] Qingdao Fuli - Dalian Juxing Shengheng (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/14a0b5ecc81b001d3a54230447e4053e/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134342_baf3c99f.png" group-title="Chuoi Chien TV" , 23-09 20:00 Malawi U20 vs Comoros U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1640460/malawi-u20-vs-comoros-u20
