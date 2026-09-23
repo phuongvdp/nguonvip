@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 12:14:05 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 12:16:10 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (31 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (2 trận) =====
 
@@ -14,6 +14,11 @@ https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790081010_hd/1790081010_hd@720p.m3u8
 
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/china-u17.png" group-title="Gio Vang TV" , 23-09 12:30 [LIVE Đang diễn ra] U23 Trung Quốc vs U23 UAE (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790081074_hd/1790081074_hd@720p.m3u8
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9462.jpg" group-title="Khan Dai TV" , 23-09 12:30 [LIVE LIVE] China U23 vs United Arab Emirates U23 (Enzo) [hls]
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -24,6 +29,16 @@ https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134337_d547f1b2.png" group-title="Chuoi Chien TV" , 23-09 12:30 [LIVE LIVE] China PR U23 vs UAE U23 (Chuối Tây (HD)) [hls]
+#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190814_12d2f8a6.png" group-title="Chuoi Chien TV" , 23-09 12:30 [LIVE LIVE] U23 Iran  vs Korea DPR U23 (Chuối Nhỏ (HD1)) [hls]
+#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260920/dd4ea6cb3b2cb897c20d92b2436497ba.png" group-title="Pha Lang TV" , 23-09 12:30 [LIVE LIVE] Iran U23 - North Korea U23 (LÝ LÊN LỬA) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -33,15 +48,6 @@ https://lilive1.eu.cc/live/416b6f9a43e98d82f7ba9d901a5d9e4b/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/5f5cbed1eac7d3af8a7673a1e18982cf/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/china-u17.png" group-title="Gio Vang TV" , 23-09 12:30 U23 Trung Quốc vs U23 UAE (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-u23-trung-quoc-vs-u23-uae-23-09-nikl30by99k3
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134337_d547f1b2.png" group-title="Chuoi Chien TV" , 23-09 12:30 China PR U23 vs UAE U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://live05.chuoichientv.me/live/1639462/china-pr-u23-vs-uae-u23
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190814_12d2f8a6.png" group-title="Chuoi Chien TV" , 23-09 12:30 U23 Iran  vs Korea DPR U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://live05.chuoichientv.me/live/1639469/u23-iran-vs-korea-dpr-u23
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/zcqIEsil-6uZPCvr9.png" group-title="Gio Vang TV" , 23-09 15:00 Machida vs Tochigi City (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-machida-vs-tochigi-city-23-09-x2qvjtbnhoma
