@@ -26,17 +26,113 @@ import {
 // /api/proxy/hls như bên web), nên phải nhúng Referer/User-Agent NGAY
 // TRONG file .m3u bằng cú pháp #EXTVLCOPT — được VLC/TiviMate/Perfect
 // Player/IPTV Smarters/... hỗ trợ sẵn để tự đính kèm header khi phát, không
-// cần proxy. Referer dùng đúng domain "trang phụ" nơi player thật chạy của
-// từng nguồn (khớp REFERER_BY_SOURCE trong pages/api/proxy/hls.js) — không
-// đoán thêm domain khác ở đây để tránh lệch giữa 2 nơi.
+// cần proxy.
+//
+// FIX 2 (23/09/2026 — "1 số trận Phá Làng/Chuối Chiến VẪN không xem được
+// dù đã có #EXTVLCOPT"): bản đầu GÁN CỨNG 1 Referer/nguồn — sai với đúng
+// bài học mà chính /api/proxy/hls.js đã rút ra trước đây (xem
+// REFERER_CANDIDATES_BY_SOURCE bên đó): nhiều CDN không nhất quán — có CDN
+// (vd link "Server 1" trơn của Phá Làng, lấy trực tiếp từ source_live) TỰ
+// PHÁT ĐƯỢC KHÔNG CẦN REFERER, gán thêm Referer sai vào có thể càng khiến
+// CDN từ chối; có CDN khác (vd pull.digitalcdn.net của Phá Làng khi có
+// BLV, hoặc 1 số endpoint edgemaxcdn.org của Chuối Chiến) lại đòi ĐÚNG 1
+// domain cụ thể mới cho qua, sai domain là bị 401/403/451 ngay — và không
+// đoán trước được chính xác domain nào cho từng link cụ thể, vì cùng 1
+// nguồn có thể trả về nhiều loại CDN con khác nhau tuỳ trận. KHÔNG đoán mù
+// 1 giá trị tĩnh nữa — DÒ THẬT bằng 1 request thử (Range 0-0, tải rất ít
+// dữ liệu) tới ĐÚNG link CDN của trận đó, thử lần lượt các ứng viên
+// (giống hệt danh sách REFERER_CANDIDATES_BY_SOURCE trong
+// pages/api/proxy/hls.js — giữ đồng bộ 2 nơi), ứng viên nào không bị CDN
+// trả 401/403/451 thì dùng đúng ứng viên đó (kể cả khi ứng viên thắng là
+// "không gửi Referer nào cả" — lúc đó KHÔNG ghi dòng #EXTVLCOPT nào, đúng
+// như trường hợp "Server 1" trơn). Nhớ lại theo HOSTNAME CDN (không phải
+// theo từng link riêng — link .m3u8 mỗi trận khác nhau nhưng cùng 1 CDN
+// thường cùng 1 chính sách) để các trận sau CÙNG 1 tiến trình (`--watch`)
+// không phải dò lại từ đầu mỗi 2 phút, đỡ tốn thời gian + tránh dội quá
+// nhiều request thử vào CDN nguồn.
 const IPTV_HEADER_UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
-const REFERER_BY_SOURCE_FOR_IPTV = {
-  chuoichientv: 'https://live05.chuoichientv.me/',
-  giovang: process.env.GIOVANG_DOMAIN || 'https://giovang.city',
-  khandaitv: process.env.KHANDAITV_DOMAIN || process.env.KHANDAITV_BASE_URL || 'https://khandai3.link',
-  phalang: 'https://phalang.live'
+
+// Giữ ĐỒNG BỘ danh sách ứng viên với REFERER_CANDIDATES_BY_SOURCE trong
+// pages/api/proxy/hls.js — sửa 1 nơi thì nhớ sửa nơi kia theo, tránh lệch.
+const REFERER_CANDIDATES_BY_SOURCE = {
+  chuoichientv: ['https://live05.chuoichientv.me/', 'https://chuoichientv.link/', null],
+  giovang: [process.env.GIOVANG_DOMAIN || 'https://giovang.city', null],
+  khandaitv: [process.env.KHANDAITV_DOMAIN || process.env.KHANDAITV_BASE_URL || 'https://khandai3.link', null],
+  phalang: ['https://phalang.live', 'https://phalang.live/', null]
 };
+
+const IPTV_REFERER_PROBE_TIMEOUT_MS = 4000;
+// null nằm trong danh sách nghĩa là "không gửi Referer nào" — luôn xếp
+// CUỐI khi không nhớ được lựa chọn thắng trước đó (xem workingRefererByHost),
+// vì đa số CDN thật sự cần Referer đúng, chỉ 1 số ít không cần.
+const workingRefererByHost = new Map();
+
+function isHotlinkBlockStatus(status) {
+  return status === 401 || status === 403 || status === 451;
+}
+
+async function probeReferer(url, referer) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), IPTV_REFERER_PROBE_TIMEOUT_MS);
+  try {
+    const headers = { 'User-Agent': IPTV_HEADER_UA, Range: 'bytes=0-0' };
+    if (referer) {
+      headers.Referer = referer;
+      try {
+        headers.Origin = new URL(referer).origin;
+      } catch {
+        // referer không phải URL hợp lệ (không nên xảy ra với danh sách cố định trên) -> bỏ qua Origin
+      }
+    }
+    const res = await fetch(url, { headers, signal: controller.signal });
+    return !isHotlinkBlockStatus(res.status);
+  } catch {
+    // Lỗi mạng/timeout khi DÒ THỬ không có nghĩa link chết — có thể do
+    // chính máy chủ GitHub Actions bị CDN chặn IP (khác hẳn máy người dùng
+    // thật sẽ mở link), nên KHÔNG loại bỏ ứng viên vì lý do này, tránh gán
+    // nhầm "không cần Referer" chỉ vì lần dò từ CI bị chặn IP. Coi như dò
+    // thất bại (không dùng ứng viên này) nhưng vẫn thử ứng viên tiếp theo.
+    return false;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+/**
+ * Dò xem CDN của link `url` (nguồn `source`) chấp nhận Referer nào — trả về
+ * chuỗi Referer thắng, hoặc `null` nếu CDN không cần Referer / không dò
+ * được ứng viên nào (khi đó KHÔNG ghi #EXTVLCOPT, để link ở dạng trần —
+ * an toàn hơn là gán 1 Referer chưa xác minh có thể làm CDN càng chặn).
+ */
+async function resolveIptvReferer(url, source) {
+  const candidates = REFERER_CANDIDATES_BY_SOURCE[source];
+  if (!candidates) return null;
+
+  let host = '';
+  try {
+    host = new URL(url).hostname;
+  } catch {
+    return null;
+  }
+
+  const remembered = workingRefererByHost.get(host);
+  if (remembered !== undefined) return remembered;
+
+  for (const referer of candidates) {
+    // eslint-disable-next-line no-await-in-loop
+    const ok = await probeReferer(url, referer);
+    if (ok) {
+      workingRefererByHost.set(host, referer);
+      return referer;
+    }
+  }
+  // Không ứng viên nào qua được (hiếm — có thể do chặn IP máy chủ CI, xem
+  // chú thích ở catch() trong probeReferer) -> không nhớ lại (để lần sau
+  // vẫn thử lại, phòng khi chỉ là trục trặc tạm thời), và không gắn Referer
+  // nào cho lần này.
+  return null;
+}
 
 /**
  * Thử nâng 1 link FLV lên bản HLS song song (nhiều CDN lộ cùng 1 stream ra
@@ -140,15 +236,13 @@ export function buildM3uPlaylist(entries = []) {
     attrs.push(`group-title="${group}"`);
 
     lines.push(`${attrs.join(' ')} , ${displayName}`);
-    // FIX 23/09/2026 (xem chú thích REFERER_BY_SOURCE_FOR_IPTV phía trên):
-    // chèn Referer/User-Agent qua #EXTVLCOPT ngay trước link thật, chỉ khi
-    // nguồn đó có CDN cần Referer VÀ đây là link phát thật (không phải link
-    // trang gốc/resolver tạm của trận chưa đấu — gắn header cho link đó
-    // cũng không có ý nghĩa gì, link tạm không phải link CDN cần Referer).
-    const sourceKey = getSourceKey(match);
-    const referer = !entry.upcoming ? REFERER_BY_SOURCE_FOR_IPTV[sourceKey] : null;
-    if (referer) {
-      lines.push(`#EXTVLCOPT:http-referrer=${referer}`);
+    // FIX 23/09/2026 (xem resolveIptvReferer() phía trên): referer đã được
+    // DÒ THỬ THẬT và gắn sẵn vào entry.iptvReferer trong
+    // matchesToPlaylistEntries() — ở đây chỉ đọc lại, không đoán/dò gì
+    // thêm. entry.iptvReferer === null nghĩa là CDN không cần Referer
+    // (hoặc dò thất bại) -> không ghi #EXTVLCOPT nào, để link trần.
+    if (entry.iptvReferer) {
+      lines.push(`#EXTVLCOPT:http-referrer=${entry.iptvReferer}`);
       lines.push(`#EXTVLCOPT:http-user-agent=${IPTV_HEADER_UA}`);
     }
     lines.push(url);
@@ -238,6 +332,14 @@ export async function matchesToPlaylistEntries(matches = [], { baseUrl = '' } = 
   // tổng thời gian, vẫn tránh dội quá nhiều request cùng lúc vào CDN nguồn.
   await mapPool(pendingUpgrades, 8, async (entry) => {
     entry.stream = await preferHlsForIptv(entry.stream);
+    // FIX 23/09/2026 (xem resolveIptvReferer() đầu file): dò Referer THẬT
+    // cho đúng link CDN cuối cùng (sau khi đã nâng FLV->HLS nếu có) — phải
+    // làm SAU preferHlsForIptv() vì link có thể vừa đổi. entry.upcoming
+    // không tồn tại ở nhánh này (chỉ trận có stream sẵn mới vào
+    // pendingUpgrades) nên luôn dò, không cần điều kiện thêm.
+    const finalUrl = entry.stream?.playUrl || entry.stream?.m3u8Url || entry.stream?.flvUrl || '';
+    const sourceKey = getSourceKey(entry.match);
+    entry.iptvReferer = finalUrl ? await resolveIptvReferer(finalUrl, sourceKey) : null;
   });
 
   return entries;
