@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:49:00 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:51:08 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (12 trận), Chuối Chiên (11 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (11 trận), Chuối Chiên (11 trận) =====
 
 # ----- Ngày 2026-09-23 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/xUCbW5yB-Sd4Wk8zD.png" group-title="Gio Vang TV" , 23-09 23:00 [LIVE Đang diễn ra] Brondby IF vs Sporting (Giovang 1) [hls]
@@ -19,7 +19,7 @@ https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790129381_hd/1790129381_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_52.jpg" group-title="Khan Dai TV" , 23-09 23:45 [LIVE HT] Servette Geneve FC W vs Lyon W (Enzo) [hls]
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_52.jpg" group-title="Khan Dai TV" , 23-09 23:45 [LIVE LIVE] Servette Geneve FC W vs Lyon W (Enzo) [hls]
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa
@@ -57,9 +57,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/E9dIygWg-YJMM9EqO.png" group-title="Gio Vang TV" , 24-09 01:00 Itabirito vs Cruzeiro (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-itabirito-vs-cruzeiro-24-09-q05jbjzmejir
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_11084.jpg" group-title="Khan Dai TV" , 24-09 01:00 Manchester Utd W vs Sheffield Utd W (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/manchester-utd-w-vs-sheffield-utd-w-24-09-2026-836672
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/barcelona-w.png" group-title="Gio Vang TV" , 24-09 02:00 Nữ FC Barcelona vs Nữ Paris FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-nu-fc-barcelona-vs-nu-paris-fc-24-09-6aadd18745163e9e3e085d3f
