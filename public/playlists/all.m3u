@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 02:31:14 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 02:33:19 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (19 trận), Chuối Chiên (9 trận) =====
 
@@ -54,8 +54,10 @@ https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/bahamas.png" group-title="Gio Vang TV" , 24-09 03:00 Bahamas vs French Saint-Martin (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-bahamas-vs-french-saint-martin-24-09-6aadd0cc45163e9e3e085d2f
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/bahamas.png" group-title="Gio Vang TV" , 24-09 03:00 [LIVE Đang diễn ra] Bahamas vs French Saint-Martin (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790129883_hd/1790129883_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135223_4c71fb98.png" group-title="Chuoi Chien TV" , 24-09 03:00 Bahamas vs Saint Martin (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1639931/bahamas-vs-saint-martin
