@@ -125,7 +125,19 @@ class PhalangService {
       commentators: m.source_live
         ? [{ id: `${m.id}_0`, name: m.blv || 'Server 1', avatar: '', streamUrl: m.source_live, isLive: true, cdn: this.detectCdn(m.source_live) }]
         : [],
-      stream: { liveUrl: '', streamerName: m.blv || null, streamerAvatar: null },
+      // FIX (23/09/2026 — "nguồn Phá Làng: trận chưa thi đấu không xuất
+      // hiện trong all.m3u"): trước đây liveUrl luôn để '' (rỗng). Ở chế độ
+      // build tĩnh (không server, xem FIX 20/09/2026 trong m3uPlaylist.js),
+      // matchesToPlaylistEntries() dùng đúng field này làm giá trị TẠM cho
+      // trận chưa có link phát — rỗng thì bị coi là "không có gì để ghi" và
+      // BỎ QUA hẳn (continue), nên mọi trận Phá Làng chưa live (gần như
+      // luôn thiếu source_live) biến mất khỏi playlist, dù có giờ đá rõ
+      // ràng. Phá Làng không trả về link trang riêng cho từng trận trong
+      // /matches/graph, nên dùng tạm trang chủ (không phải link phát thật —
+      // chỉ cần KHÁC RỖNG để không bị continue; đúng như comment ở
+      // matchesToPlaylistEntries: giá trị này chỉ để hiển thị/tham khảo cho
+      // tới khi trận live thật và có source_live).
+      stream: { liveUrl: `${PHALANG_SITE_ORIGIN}/trang-chu#${m.id}`, streamerName: m.blv || null, streamerAvatar: null },
       odds: null
     };
   }
