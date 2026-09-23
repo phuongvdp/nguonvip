@@ -1,28 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:55:42 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:57:48 23/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (26 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (23 trận) =====
 
 # ----- Ngày 2026-09-23 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/adc9a8d697f1b5a2e9ea74962caef4d1.png" group-title="Pha Lang TV" , 23-09 15:00 [LIVE LIVE] Bangalore Dream United FC - Stride (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/cc5a4e5f443060645729783cb926fa49/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/91008a96b5de8c75376d17057f89890e.png" group-title="Pha Lang TV" , 23-09 15:00 [LIVE LIVE] Gamba Osaka - Tokushima Vortis (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/db3f08dc5033976e9438dd2a9d56696e/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d85cce27ab583e5b3cead155f02b098a.png" group-title="Pha Lang TV" , 23-09 15:00 [LIVE LIVE] Vissel Kobe - Sagan Tosu (LÝ LINH LỰC) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/f1814dec170e606cc6b91e84685ca268/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7d6fa50ea67cde7d66612a8189897ba5.png" group-title="Pha Lang TV" , 23-09 15:00 [LIVE LIVE] Kyoto Sanga - Fujieda MYFC (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/38f83e7f8893057632a29246cc985970/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png" group-title="Pha Lang TV" , 23-09 15:00 [LIVE LIVE] Machida Zelvia - Tochigi City (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
