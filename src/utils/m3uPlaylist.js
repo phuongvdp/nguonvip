@@ -287,28 +287,19 @@ export async function matchesToPlaylistEntries(matches = [], { baseUrl = '' } = 
   const safeMatches = Array.isArray(matches) ? matches : [];
   for (const match of safeMatches) {
     const matchStreams = Array.isArray(match?.streams) ? match.streams : [];
-    // FIX (23/09/2026 — "nguồn Chuối Chiến: BLV 'Chuối Tây'/'Chuối Chao'
-    // (CDN edgemaxcdn.org) không xem được dù đã thử đủ Referer"): đã xác
-    // nhận qua thực tế (VLC desktop, IP nhà mạng thật — không phải do IP
-    // máy chủ CI — đã thử 4 Referer khác nhau) rằng CDN `EDGEMAX` này chặn
-    // CỨNG bất kể Referer, nhiều khả năng cần cookie/token phiên riêng mà
-    // 1 file .m3u tĩnh không thể giả lập được — KHÔNG có cách nào phát
-    // được từ playlist tĩnh này. Không lọc theo TÊN BLV (tên có thể đổi/
-    // thêm BLV mới dùng lại đúng CDN này) — lọc theo chính field `cdn` mà
-    // detectCdn() trong chuoichientv.service.js đã tự phân loại. Nếu trận
-    // đó có BLV khác (CDN khác: HDPLAYLINK/CLOUDFLARE) thì dùng BLV đó
-    // thay thế; nếu TẤT CẢ BLV của trận đều là EDGEMAX, coi như "chưa có
-    // stream" (rơi xuống nhánh chưa live ở dưới) để không hiện link chắc
-    // chắn không xem được.
-    const playableStreams = matchStreams.filter((s) => s?.m3u8Url || s?.flvUrl || s?.playUrl);
-    // FIX 2 (23/09/2026 — BLV khác dùng CDN `HDPLAYLINK`, VẪN bị chặn dù
-    // test từ trình duyệt/IP thật của người dùng, không phải máy chủ CI —
-    // loại bỏ luôn khả năng "chặn IP máy chủ" từng nghi cho CDN này ở
-    // pages/api/proxy/hls.js): mở rộng danh sách CDN đã xác nhận chặn cứng
-    // (không sửa được bằng Referer) sang cả HDPLAYLINK, không riêng EDGEMAX
-    // nữa.
-    const BROKEN_CHUOICHIENTV_CDNS = new Set(['EDGEMAX', 'HDPLAYLINK']);
-    const stream = playableStreams.find((s) => !BROKEN_CHUOICHIENTV_CDNS.has(s?.cdn));
+    // HOÀN TÁC (23/09/2026 — "hôm qua Chuối Chiến vẫn xem bình thường,
+    // từ lúc [tôi] đổi mới bị vậy"): 2 lần "FIX" trước đó (loại CDN EDGEMAX
+    // rồi HDPLAYLINK) dựa trên vài lần test 403 cụ thể, nhưng người dùng
+    // xác nhận NGAY BẢN ĐẦU TIÊN (chỉ gán 1 Referer tĩnh, KHÔNG lọc CDN gì
+    // cả) đã xem được — tức là 403 lúc test rất có thể do đúng lúc đó
+    // trận/link vừa hết giờ live hoặc CDN tạm trục trặc, KHÔNG PHẢI CDN
+    // luôn luôn chặn. Loại bỏ nhầm 1 CDN vẫn hoạt động tốt gây hại nhiều
+    // hơn lợi (mất kênh oan). Quay lại đúng cách chọn ban đầu: lấy stream
+    // ĐẦU TIÊN có link phát được, không lọc theo `cdn` nữa. Nếu sau này có
+    // bằng chứng CHẮC CHẮN 1 CDN cụ thể luôn luôn chặn (nhiều lần test vào
+    // NHIỀU thời điểm/trận khác nhau, không chỉ 1-2 lần trùng lúc trận vừa
+    // kết thúc) thì mới nên loại lại.
+    const stream = matchStreams.find((s) => s?.m3u8Url || s?.flvUrl || s?.playUrl);
     if (stream) {
       const entry = { match, stream };
       entries.push(entry);
