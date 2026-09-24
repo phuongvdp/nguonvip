@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:47:16 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:50:04 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (18 trận), Chuối Chiên (19 trận), Gà Vàng (17 trận), Sao Kê (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (18 trận), Chuối Chiên (19 trận), Gà Vàng (17 trận), Sao Kê (20 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 24-09 13:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
@@ -29,6 +29,11 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisay/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/69ef10b47146e04fbe6d4363.m3u8
 
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5891.png" group-title="Sao Kê" , 24-09 16:00 [LIVE LIVE] Laos vs Brunei (Quang Huy) [hls]
+#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/e5c63f30ad74c5c5159f1e7695173ae5.png" group-title="Giờ Vàng" , 24-09 16:30 [LIVE Đang diễn ra] South East Melbourne Phoenix vs Melbourne United (Chưa có link — chờ cập nhật) [hls]
 https://giovang.city/truc-tiep-south-east-melbourne-phoenix-vs-melbourne-united-24-09-29122273
 
@@ -51,6 +56,11 @@ https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6715.png" group-title="Sao Kê" , 24-09 17:05 [LIVE LIVE] Japan vs Uruguay (Ricky) [hls]
+#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f9ce800b0fd64b339c2bcf8ec7d9ec0e.png" group-title="Gà Vàng" , 24-09 17:05 Japan vs Uruguay (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/truc-tiep/japan-vs-uruguay-ngay-24-09-2026/
