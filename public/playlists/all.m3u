@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 12:59:46 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:02:16 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (15 trận), Chuối Chiên (19 trận), Phá Làng (45 trận), Gà Vàng (24 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (15 trận), Chuối Chiên (19 trận), Phá Làng (44 trận), Gà Vàng (19 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Gio Vang TV" , 24-09 10:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
@@ -14,34 +14,18 @@ https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790204718_hd/1790204718_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS89aV1mbuxvQhVaHfuBSqobyXOzCH2mqlw6A&s" group-title="Gio Vang TV" , 24-09 12:00 [LIVE Đang diễn ra] Wonju DB vs Seoul Thunders (Chưa có link — chờ cập nhật) [hls]
-https://giovang.city/truc-tiep-wonju-db-vs-seoul-thunders-24-09-mr6zetxewdx5
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS89aV1mbuxvQhVaHfuBSqobyXOzCH2mqlw6A&s" group-title="Gio Vang TV" , 24-09 12:00 [LIVE Đang diễn ra] Wonju DB vs Seoul Thunders (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790204843_hd/1790204843_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cedefb834d84c29f26ebdf2384b381a4.png" group-title="Pha Lang TV" , 24-09 12:30 [LIVE LIVE] Hal FC - Karnataka (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/eab6ccdbf782a73b9bfe44339b8e85e4/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/958faecb22c8732da07958cde902764a.png" group-title="Pha Lang TV" , 24-09 13:00 Australia U16 - Vietnam U16 (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#4wyrn4h6jlk6q86
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/82c12c7e06889afe3ca9e7d6f01de211.png" group-title="Pha Lang TV" , 24-09 13:00 Offshots FC - Skorost (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#4wyrn4hyz0jdq86
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/2d8fe42de2f833581faa077f788329fa.png" group-title="Ga Vang TV" , 24-09 13:00 Australia U16 vs Vietnam U16 (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://gavanglinkp.tv/truc-tiep/australia-u16-vs-vietnam-u16-ngay-24-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/c0df06830e5f3bf4ff90e0eed210c975.png" group-title="Ga Vang TV" , 24-09 13:00 Offshots FC vs Skorost (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://gavanglinkp.tv/truc-tiep/offshots-fc-vs-skorost-ngay-24-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/7372c41e738b7e55c532c8ffc7baa30c.png" group-title="Ga Vang TV" , 24-09 13:00 Chien Hsin University of Science and Technology vs National Taiwan University of Arts (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://gavanglinkp.tv/
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/55641b8546bd16655daa918b657af6dd.png" group-title="Pha Lang TV" , 24-09 13:45 Mawtawar SC - Nongthymai SC (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#l7oqdehjydv1r51
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/55641b8546bd16655daa918b657af6dd.png" group-title="Ga Vang TV" , 24-09 13:45 Mawtawar SC vs Nongthymai SC (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://gavanglinkp.tv/truc-tiep/mawtawar-sc-vs-nongthymai-sc-ngay-24-09-2026/
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/QqFRYqe5-fmpRzHfB.png" group-title="Gio Vang TV" , 24-09 14:00 Papua New Guinea vs New Caledonia (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-papua-new-guinea-vs-new-caledonia-24-09-6ab3e97b24d46db870b262d1
@@ -51,9 +35,6 @@ https://giovang.city/truc-tiep-chinese-taipei-w-vs-philippines-w-24-09-36580470
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8d6bb1a0e30092066499b89487620122.png" group-title="Pha Lang TV" , 24-09 14:00 Papua New Guinea - New Caledonia (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#318q66h8zzzgqo9
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/12a959b89767dddb0f8b65b80f7d5b93.png" group-title="Ga Vang TV" , 24-09 14:00 Papua New Guinea vs New Caledonia (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://gavanglinkp.tv/truc-tiep/papua-new-guinea-vs-new-caledonia-ngay-24-09-2026/
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/64/Goyang_Sono_Skygunners.png" group-title="Gio Vang TV" , 24-09 14:30 Goyang Sono vs Seoul Knights (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-goyang-sono-vs-seoul-knights-24-09-aiuhlj5sja6b
@@ -232,6 +213,9 @@ https://phalang.live/trang-chu#3glrw7h4k6lxqdy
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5db95690bfe0fa492a593ae56589cb6c.png" group-title="Pha Lang TV" , 24-09 20:00 Bugesera FC - Al-Hilal Omdurman (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#dj2ryohl8lj0q1z
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2d442e2046833a95e2a05954dfbab693.png" group-title="Pha Lang TV" , 24-09 20:00 SV Lippstadt - ASC 09 Dortmund (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#ednm9wh58ee4ryo
+
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/247c0a953f3a082b83443b3dfccedffb.png" group-title="Ga Vang TV" , 24-09 20:00 Namibia vs Congo (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/truc-tiep/namibia-vs-republic-of-the-congo-ngay-24-09-2026/
 
@@ -305,10 +289,10 @@ https://gavanglinkp.tv/
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/66a3b6f332d172f2d12f116cdbca063c.png" group-title="Ga Vang TV" , 25-09 01:15 Panathinaikos AKTOR B.C. vs Paris (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/bf44e2bb47f8a0dfd3929ff1c4ac8b16.png" group-title="Ga Vang TV" , 25-09 01:30 Baskonia Vitoria vs Olympiacos Piraeus B.C. (Chưa có link — chờ cập nhật) [sắp diễn ra]
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/n7e9e5b4c9fbc6ab69533b742a1219257.png" group-title="Ga Vang TV" , 25-09 01:30 Barcelona vs Anadolu Efes Istanbul (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/n7e9e5b4c9fbc6ab69533b742a1219257.png" group-title="Ga Vang TV" , 25-09 01:30 Barcelona vs Anadolu Efes Istanbul (Chưa có link — chờ cập nhật) [sắp diễn ra]
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/bf44e2bb47f8a0dfd3929ff1c4ac8b16.png" group-title="Ga Vang TV" , 25-09 01:30 Baskonia Vitoria vs Olympiacos Piraeus B.C. (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/liechtenstein.png" group-title="Gio Vang TV" , 25-09 01:45 Liechtenstein vs Lithuania (Chưa có link — chờ cập nhật) [sắp diễn ra]
