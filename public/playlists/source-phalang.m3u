@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:58:42 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:00:49 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (33 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (37 trận) =====
 
 # ----- Ngày 2026-09-24 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e6541c73ce2605793bd7c91c0e02e800.png" group-title="Pha Lang TV" , 24-09 08:00 [LIVE LIVE] Luis Angel Firpo - CD Cacahuatique (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/1fcf5da5dd88356caf4e4ebec44e07c0/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a06adf5f9b5ff3bb149aca5435e04913.png" group-title="Pha Lang TV" , 24-09 08:30 [LIVE LIVE] Parrillas One - Deportes Savio (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -112,3 +107,18 @@ https://phalang.live/trang-chu#318q66h8z4poqo9
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d574a61b5e8eb37ca0c037a100e78423.png" group-title="Pha Lang TV" , 24-09 17:30 Rebels FC - Bengaluru Roots FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#zp5rzgh3y41pq82
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/052d1fe7182d98f32b235c6024996665.png" group-title="Pha Lang TV" , 24-09 18:00 Chongqing Handa - Shenzhen Jixiang (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#1l4rjnh977nnm7v
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260921/14396ad8c05c228c1194d8b5e9a4c48e.png" group-title="Pha Lang TV" , 24-09 18:00 South Korea - Ecuador (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#2y8m4zhv0177ql0
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/df5e92ce4493d63214e8036ad15c1915.png" group-title="Pha Lang TV" , 24-09 18:00 Tai Po - Kitchee (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#3glrw7h4kzojqdy
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0efb29cabdd04639b8be894c89b334f8.png" group-title="Pha Lang TV" , 24-09 18:00 Viborg U19 - Brondby IF U19 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#4wyrn4h6ky1yq86
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bed0efa86de27f33e662b52ff3cfc4e3.png" group-title="Pha Lang TV" , 24-09 18:00 Hapoel Bnei Jadeidi - Ihud Bnei Avtin (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#dn1m1gh9vkdwmoe
