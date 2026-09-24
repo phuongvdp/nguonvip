@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:35:55 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:38:24 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (19 trận), Chuối Chiên (20 trận), Phá Làng (22 trận), Gà Vàng (14 trận), Sao Kê (23 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (20 trận), Chuối Chiên (20 trận), Phá Làng (22 trận), Gà Vàng (14 trận), Sao Kê (23 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/247c0a953f3a082b83443b3dfccedffb.png" group-title="Gà Vàng" , 24/09 20:00 🟢 ⚽ Namibia vs Congo (cố tư nghiêm)
@@ -314,6 +314,9 @@ https://khandai3.link/truc-tiep/uzbekistan-u23-vs-saudi-arabia-u23-25-09-2026-85
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131446_7bd3d526.png" group-title="Chuối Chiên" , 25/09 12:00 ⚽ Uzbekistan U23 vs Saudi Arabia U23 (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641614/uzbekistan-u23-vs-saudi-arabia-u23
 
+#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IUYV_ZAMxDdabQPzSpTJtg_96x96.png" group-title="Giờ Vàng" , 25/09 13:00 ⚽ ĐT nữ Việt Nam vs ĐT nữ Trung Quốc (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-dt-nu-viet-nam-vs-dt-nu-trung-quoc-25-09-a41t5fzzfbcn
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_599.jpg" group-title="Khán Đài" , 25/09 13:00 ⚽ China W vs Vietnam W (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/china-w-vs-vietnam-w-25-09-2026-858233
 
@@ -385,3 +388,6 @@ https://khandai3.link/truc-tiep/indonesia-vs-singapore
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6329.png" group-title="Sao Kê" , 25/09 21:00 ⚽ India vs Panama (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/india-vs-panama-6ab53656552ae1acb6b64687.html
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_oeLkAjM.jpg" group-title="Khán Đài" , 25/09 22:00 🏐 Slovenia vs Ba Lan (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/slovenia-vs-ba-lan
