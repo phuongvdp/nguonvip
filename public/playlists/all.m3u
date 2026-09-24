@@ -1,9 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:28:39 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:31:16 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (19 trận), Chuối Chiên (19 trận), Phá Làng (61 trận), Gà Vàng (16 trận), Sao Kê (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (22 trận), Chuối Chiên (19 trận), Phá Làng (64 trận), Gà Vàng (16 trận), Sao Kê (20 trận) =====
 
 # ----- Ngày 2026-09-24 -----
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 24-09 13:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
+
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/d0gwvLCr-QHeKqeWC.png" group-title="Giờ Vàng" , 24-09 16:00 [LIVE Đang diễn ra] Laos vs Brunei (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -72,6 +77,11 @@ https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790234241_hd/1790234241_hd@720p.m3u8
 
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260921/14396ad8c05c228c1194d8b5e9a4c48e.png" group-title="Phá Làng" , 24-09 18:00 [LIVE LIVE] South Korea - Ecuador (LÝ LÀNG LÁ) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/e77391695a6ab6c3aaa561d44db263bf/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea.png" group-title="Giờ Vàng" , 24-09 18:00 Hàn Quốc vs Ecuador (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-han-quoc-vs-ecuador-24-09-6aadd1c645163e9e3e085d6a
 
@@ -83,9 +93,6 @@ https://live05.chuoichientv.me/live/1628994/south-korea-vs-ecuador
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/052d1fe7182d98f32b235c6024996665.png" group-title="Phá Làng" , 24-09 18:00 Chongqing Handa - Shenzhen Jixiang (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#1l4rjnh977nnm7v
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260921/14396ad8c05c228c1194d8b5e9a4c48e.png" group-title="Phá Làng" , 24-09 18:00 South Korea - Ecuador (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#2y8m4zhv0177ql0
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7418466766e09d37bed6032187221734.png" group-title="Phá Làng" , 24-09 18:00 Netherlands U19 - Belgium U19 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#jw2r09h54pwxrz8
@@ -504,3 +511,21 @@ https://phalang.live/trang-chu#3glrw7h4k60jqdy
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ae584981eb352bb9c5151af25428c39f.png" group-title="Phá Làng" , 25-09 17:00 Ho Chi Minh City - Van Hien University (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#965mkyhkpwg4r1g
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_Japan_K75eDYE.svg.webp" group-title="Khán Đài" , 25-09 17:30 Japan W vs Philippines W (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/japan-w-vs-philippines-w-25-09-2026-858235
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_607.jpg" group-title="Khán Đài" , 25-09 17:30 South Korea W vs Uzbekistan W (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/south-korea-w-vs-uzbekistan-w-25-09-2026-858236
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images_8kF19fZ.jpg" group-title="Khán Đài" , 25-09 17:30 South Korea U23 vs Vietnam U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://khandai3.link/truc-tiep/south-korea-u23-vs-vietnam-u23-25-09-2026-858281
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/41fcd04dcd049309ad05bca33ea46883.png" group-title="Phá Làng" , 25-09 17:30 Japan Women - Philippines Women (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#4wyrn4hyz7y5q86
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3fcd619b384dbbd8b4c3af19f622fc7f.png" group-title="Phá Làng" , 25-09 17:30 FC Zurich - Neuchatel Xamax (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#965mkyh8l50pr1g
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/6662e3d4dd66b366296f78fb89f6f778.png" group-title="Phá Làng" , 25-09 17:30 South Korea U23 - Vietnam U23 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#jw2r09h547g4rz8
