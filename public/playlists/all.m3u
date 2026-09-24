@@ -1,7 +1,20 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:01:56 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:04:19 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (15 trận), Chuối Chiên (19 trận), Phá Làng (44 trận), Gà Vàng (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (15 trận), Chuối Chiên (19 trận), Phá Làng (44 trận), Gà Vàng (19 trận), Sao Kê (4 trận) =====
+
+# ----- Ngày 2026-09-10 -----
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Sao Ke Live TV" , 10-09 17:30 [LIVE LIVE] South Korea vs China (Cà Rốt) [hls]
+https://wtyi0525.edgemaxcdn.org/live/x10-hd-1111/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/743070.png" group-title="Sao Ke Live TV" , 10-09 19:15 [LIVE LIVE] Viettel vs Công An Hà Nội (Ricky) [hls]
+https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125454_fc9cbefe.png" group-title="Sao Ke Live TV" , 10-09 20:00 [LIVE LIVE] Poland vs Portugal (Cà Rốt) [hls]
+https://wtyi0525.edgemaxcdn.org/live/x10-hd-1111/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1459878.png" group-title="Sao Ke Live TV" , 10-09 20:00 [LIVE LIVE] Spain U20 (W) vs New Caledonia U20 (W) (Mơ) [hls]
+https://wtyi0525.edgemaxcdn.org/live/x68-hd-1111/playlist.m3u8
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cedefb834d84c29f26ebdf2384b381a4.png" group-title="Pha Lang TV" , 24-09 12:30 [LIVE LIVE] Hal FC - Karnataka (Server 1) [hls]
