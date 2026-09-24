@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:32:06 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:34:24 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (24 trận), Chuối Chiên (20 trận), Phá Làng (20 trận), Gà Vàng (14 trận), Sao Kê (27 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (24 trận), Chuối Chiên (20 trận), Phá Làng (20 trận), Gà Vàng (23 trận), Sao Kê (27 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/efa8ac06cc6747b1835520f01650a0ab.png" group-title="Gà Vàng" , 25/09 01:00 🟢 ⚽ Qatar vs Bahrain (THICHDUTHU)
@@ -114,6 +114,41 @@ https://lilive1.eu.cc/live/4e65cdbe37d9769793b5f9aa9f3697f2/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/49627856a39b6fdcb15fd7cd42c909e7/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/c9847eeba0c64358960425bb19adbac0.png" group-title="Gà Vàng" , 25/09 01:45 🟢 ⚽ Portugal vs Wales (CRIS)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a48ca99e1c924c90a9a1d2a95841df1c.png" group-title="Gà Vàng" , 25/09 01:45 🟢 ⚽ Netherlands vs Germany (SAITAMA)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/227d43878fa14347902532126d29b10c.png" group-title="Gà Vàng" , 25/09 01:45 🟢 ⚽ Norway vs Denmark (GIàng A Dân)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a5b13ceb36a14387baeddaa.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/059bbd8df7767d3bc7829e3735c221e2.png" group-title="Gà Vàng" , 25/09 01:45 🟢 ⚽ Serbia vs Greece (NGƯỜI KIẾN)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a439a7fb89dded67b208b87.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/6010ce94e8e042a687207a7dceb06658.png" group-title="Gà Vàng" , 25/09 01:45 🟢 ⚽ Austria vs Israel (Lữ Bố.vip)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a9776215126529dede9bf51.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/4c93e18166419da61b1ca433c866d9e5.png" group-title="Gà Vàng" , 25/09 01:45 🟢 ⚽ Kosovo vs Ireland (SÚP LƠ)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a9a5525864ea536c2577392.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a7ce4026f43a4491f1284bb38d96f440.png" group-title="Gà Vàng" , 25/09 01:45 🟢 ⚽ Liechtenstein vs Lithuania (Cá MậP)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a0c7c4b1ae4d6db02433c48.m3u8
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8361.png" group-title="Sao Kê" , 25/09 01:45 🟢 ⚽ Portugal vs Wales (Ricky)
 #EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -164,6 +199,16 @@ https://lilive1.eu.cc/live/ee2a99dfc250484ad513327dce25c62f/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/c8542c4e58a445645b85bb9cd66bac7e/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/e2ce14e81dba66dbff9cbc35ecfdb704.png" group-title="Gà Vàng" , 25/09 02:00 🟢 ⚽ Cameroon vs Comoros (khang hi)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a7c0d8f65997681f18cacc4.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/17962554eedf40e0af9df1fc346ce09e.png" group-title="Gà Vàng" , 25/09 02:00 🟢 ⚽ Cote d'Ivoire vs Ghana (RIO)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a01a2511e8555d7a3685f5c.m3u8
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6709.png" group-title="Sao Kê" , 25/09 02:00 🟢 ⚽ Ivory Coast vs Ghana (Quang Huy)
 #EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -177,8 +222,8 @@ https://wtyi0525.edgemaxcdn.org/live/x68-hd-1111/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/x8bRMNZA-AJxZzB1j.png" group-title="Giờ Vàng" , 25/09 04:00 🟡 ⚽ O'Higgins vs CD Santa Cruz (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-o-higgins-vs-cd-santa-cruz-25-09-y928lsnp1gck
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133545_13e6cdb1.png" group-title="Chuối Chiên" , 25/09 04:30 🟡 ⚽ Deportivo Recoleta vs Guairena FC (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1639170/deportivo-recoleta-vs-guairena-fc
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260730_134118_919b6f6c.png" group-title="Chuối Chiên" , 25/09 04:00 🟡 ⚽ O'Higgins vs Deportes Santa Cruz (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1638386/o-higgins-vs-deportes-santa-cruz
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/e00c06cf1e9c40eaa19c365129d0d14c.png" group-title="Gà Vàng" , 25/09 05:00 🏀 Araraquara U20 vs Mogi das Cruzes U20 (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
