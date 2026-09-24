@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:09:39 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:11:54 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (19 trận), Chuối Chiên (14 trận), Phá Làng (24 trận), Gà Vàng (12 trận), Sao Kê (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (19 trận), Chuối Chiên (14 trận), Phá Làng (24 trận), Gà Vàng (17 trận), Sao Kê (15 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/8zTp1yeTn2hlV2y0TYHS9A_96x96.png" group-title="Giờ Vàng" , 24-09 20:00 [LIVE Đang diễn ra] Namibia vs Congo (Giovang 1) [hls]
@@ -68,7 +68,13 @@ https://phalang.live/trang-chu#k82rekh2zndprep
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/37bd2b84378dec1c6307f4c6d5dd02b3.png" group-title="Phá Làng" , 24-09 22:00 Koprivnica - NK Uskok (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#x7lm7phxg8ngm2w
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/d18cb51110f622610b4cc205c9bed35a.png" group-title="Gà Vàng" , 24-09 22:00 Costa Do Sol vs Maputo Railway (Chưa có link — chờ cập nhật) [sắp diễn ra]
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/373941d77727831c4469506563f9165d.png" group-title="Gà Vàng" , 24-09 22:00 Beroe Women vs Universitario De Ferrol Women (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/07dd291c5063057056734a9b6d2ae3a1.png" group-title="Gà Vàng" , 24-09 22:00 Tundja Yambol vs Spartak Pleven (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/94131bcefb591f459f8986b49bb1a04a.png" group-title="Gà Vàng" , 24-09 22:00 Th3 Swish Women vs Strathmore Women (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133415_27f7a7df.png" group-title="Chuối Chiên" , 24-09 22:55 United Arab Emirates vs Yemen (Chưa có link — chờ cập nhật) [sắp diễn ra]
@@ -236,6 +242,15 @@ https://phalang.live/trang-chu#y39mp1h6dgw9moj
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/541cd9c8c6c7359a2e8431a1d6ee0bab.png" group-title="Phá Làng" , 25-09 01:45 Portugal - Wales (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#zp5rzghg3v4jq82
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/c9847eeba0c64358960425bb19adbac0.png" group-title="Gà Vàng" , 25-09 01:45 Portugal vs Wales (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://gavanglinkp.tv/truc-tiep/portugal-vs-wales-ngay-25-09-2026/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a48ca99e1c924c90a9a1d2a95841df1c.png" group-title="Gà Vàng" , 25-09 01:45 Netherlands vs Germany (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://gavanglinkp.tv/truc-tiep/netherlands-vs-germany-ngay-25-09-2026/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/227d43878fa14347902532126d29b10c.png" group-title="Gà Vàng" , 25-09 01:45 Norway vs Denmark (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://gavanglinkp.tv/truc-tiep/norway-vs-denmark-ngay-25-09-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/4660d3b4854deac4eadf6c9212f18f34.png" group-title="Gà Vàng" , 25-09 01:45 Lyon-Villeurbanne vs Maccabi Tel Aviv (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/
