@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:38:42 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:40:46 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (16 trận), Gà Vàng (23 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (17 trận), Gà Vàng (23 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Gio Vang TV" , 24-09 07:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
@@ -141,6 +141,9 @@ https://live05.chuoichientv.me/live/1641700/laos-vs-brunei
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d70c71164ff5939b6b27b4cbcd0c1fb5.png" group-title="Pha Lang TV" , 24-09 16:00 Ivory Coast U18 - Spain U18 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#318q66h8z74lqo9
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8a7bdfeb50db4b3b7b574453673d58f7.png" group-title="Pha Lang TV" , 24-09 16:00 Slovenia U17 - Romania U17 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#6ypq3nhk6e49md7
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ac3f493742d14eee1e4e4ae00f2704f6.png" group-title="Ga Vang TV" , 24-09 16:00 Laos vs Brunei Darussalam (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/truc-tiep/laos-vs-brunei-darussalam-ngay-24-09-2026/
