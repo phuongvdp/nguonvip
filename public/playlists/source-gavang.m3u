@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:56:51 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:01:24 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (14 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (15 trận) =====
 
 # ----- Ngày 2026-09-24 -----
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/247c0a953f3a082b83443b3dfccedffb.png" group-title="Gà Vàng" , 24/09 20:00 🟢 ⚽ Namibia vs Congo (cố tư nghiêm)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69a1aaa7230584579e2d5ce1.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/3016a701d47246f082016705f2f7267c.png" group-title="Gà Vàng" , 24/09 21:00 🟢 ⚽ Uzbekistan vs Iran (ĐOÀN DỰ)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -24,6 +19,12 @@ https://gavanglinkp.tv/truc-tiep/democratic-republic-of-the-congo-vs-equatorial-
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/ca224b11d94be0f26e2043aa8584db09.png" group-title="Gà Vàng" , 24/09 23:00 🟡 🏀 Hapoel Tel Aviv vs Bayern Munchen (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/6da772ee3b321396ede879b5b5963270.png" group-title="Gà Vàng" , 24/09 23:00 🟡 🏀 Tartu Ulikool vs BC Kalev Cramo (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/3635d6a026fe7fa11a67378bb5085fcd.png" group-title="Gà Vàng" , 24/09 23:00 🟡 🏀 Gyor Women vs BEAC Women (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
 # ----- Ngày 2026-09-25 -----
