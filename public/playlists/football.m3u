@@ -1,18 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:32:12 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:34:22 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (14 trận), Chuối Chiên (20 trận), Phá Làng (39 trận), Gà Vàng (13 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (14 trận), Chuối Chiên (19 trận), Phá Làng (39 trận), Gà Vàng (13 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/seattle-sounders.png" group-title="Gio Vang TV" , 24-09 08:30 [LIVE Đang diễn ra] Seattle Sounders vs Real Salt Lake (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790204094_hd/1790204094_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131433_5265d61a.png" group-title="Chuoi Chien TV" , 24-09 08:30 [LIVE LIVE] Seattle Sounders vs Real Salt Lake (Chuối Chao (HD)) [hls]
-#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/cef1725baaf3f3be0cb7215c5f39d162.png" group-title="Ga Vang TV" , 24-09 08:40 [LIVE LIVE] Seattle Sounders vs Real Salt Lake (KAYTI) [hls]
 https://playback.livetl002.com/live/69b8e6f43bcf2231c35d5144.m3u8
