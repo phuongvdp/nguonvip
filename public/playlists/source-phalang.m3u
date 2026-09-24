@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:19:36 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:21:43 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (38 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (39 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a06adf5f9b5ff3bb149aca5435e04913.png" group-title="Pha Lang TV" , 24-09 08:30 [LIVE LIVE] Parrillas One - Deportes Savio (Server 1) [hls]
@@ -18,6 +18,11 @@ https://lilive1.eu.cc/live/f1e590a6816616ba1e930fa1e4bd2538/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/24221af02ab6b65883c47e5cf52a2481/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6857f457777f1e59180fc0a6c86f41d8.png" group-title="Pha Lang TV" , 24-09 09:10 [LIVE LIVE] Gimnastico de Tegucigalpa - Real Tegus (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/51e48aef2bb1ff3d805f0a248ae0b34a/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2be300dfaf22aea36b0f57a2832859ae.png" group-title="Pha Lang TV" , 24-09 09:10 [LIVE LIVE] Vancouver FC - Inter Toronto FC (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
