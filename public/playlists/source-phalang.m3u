@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:00:05 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:02:23 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (19 trận) =====
 
@@ -8,11 +8,6 @@
 #EXTVLCOPT:http-referrer=https://phalang.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/0a9faf2cc3cb2f2171169d875d9f82ff/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7f5e0cd419a4b7509e13399efb75056a.png" group-title="Phá Làng" , 24/09 23:00 🟢 ⚽ Democratic Republic of the Congo - Equatorial Guinea (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/0321947aed6a97c71842e85e80bccb4a/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/2fe3dacd8ef0883c8d995fac5b72b97a.png!w80" group-title="Phá Làng" , 24/09 23:00 🟢 🏐 Eczacibasi Nữ - Vakifbank Nữ (LÝ LÊN LỬA (Server 1))
 #EXTVLCOPT:http-referrer=https://phalang.live
@@ -71,3 +66,6 @@ https://phalang.live/trang-chu#318q66hxl1vzqo9
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ae584981eb352bb9c5151af25428c39f.png" group-title="Phá Làng" , 25/09 16:00 ⚽ Ho Chi Minh City - Van Hien University (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#965mkyhkpwg4r1g
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/873f655c74783dbb85de6cacc8f503c0.png" group-title="Phá Làng" , 25/09 16:00 ⚽ Oakleigh Cannons - Melbourne City (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#jw2r09h549v1rz8
