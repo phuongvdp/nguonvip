@@ -31,13 +31,26 @@ const PHALANG_API_BASE = process.env.PHALANG_API_BASE || 'https://api.plapi20262
 const PHALANG_SITE_ORIGIN = 'https://phalang.live';
 const PHALANG_LIST_PAGE_SIZE = 200;
 // FIX (24/09/2026 — "bị mất các trận International Friendly, UEFA Nations
-// League... có trên trang chủ Phá Làng mà danh sách nguồn không có"): trần cũ
-// 5 trang x 200 = 1000 trận. API trả TOÀN BỘ trận sắp theo start_date TĂNG
-// DẦN (cả trận cũ đã đá xong), nên khi tổng > 1000 thì phần CUỐI danh sách —
-// chính là các trận hôm nay/sắp đá — bị cắt mất. Nâng trần lên 25 trang (5000
-// trận); vòng lặp vẫn dừng sớm ngay khi hết dữ liệu nên không tốn thêm request
-// khi tổng nhỏ. Có log cảnh báo nếu vẫn bị cắt (xem fetchList()).
-const PHALANG_LIST_MAX_PAGES = 25;
+// League... có trên trang chủ Phá Làng mà danh sách nguồn không có"): log thật
+// từ GitHub Actions cho thấy: API báo total=4925 nhưng CHỈ TRẢ 50 trận/trang
+// (bỏ qua limit=200 mình gửi lên). Vòng lặp cũ dừng ngay khi "batch <
+// PHALANG_LIST_PAGE_SIZE" (50 < 200) nên chỉ lấy đúng 1 trang đầu = 50 trận
+// sớm nhất -> mất gần hết trận còn lại. Cách sửa (xem fetchList()):
+//   - Dùng số trận/trang THỰC TẾ API trả (không giả định = limit đã gửi).
+//   - Danh sách sắp theo start_date TĂNG DẦN và rất dài (~4900 trận, ~100
+//     trang) -> KHÔNG kéo hết; tìm nhị phân trang bắt đầu của "cửa sổ thời
+//     gian" [bây giờ - 12h, bây giờ + 48h] rồi chỉ kéo các trang trong cửa sổ.
+//   - Gộp 2 lần gọi live/upcoming trong cùng 1 lượt quét dùng chung 1 lần lấy.
+const PHALANG_WINDOW_PAST_MS = 12 * 60 * 60 * 1000; // trận đang live có thể đã bắt đầu tới ~12h trước (tennis/bóng rổ...)
+const PHALANG_WINDOW_FUTURE_MS = 48 * 60 * 60 * 1000; // playlist chỉ dùng 24h tới, dư ra để an toàn
+const PHALANG_FULL_FETCH_MAX_PAGES = 10; // tổng nhỏ (<= 10 trang) thì kéo hết, khỏi tìm nhị phân
+const PHALANG_WINDOW_MAX_PAGES = 40; // trần an toàn số trang kéo trong cửa sổ
+const PHALANG_LIST_CACHE_MS = 30 * 1000;
+
+function phalangStartMs(m) {
+  const t = m?.start_date ? Date.parse(`${m.start_date}Z`) : NaN; // start_date là UTC không kèm 'Z' (xem normalizeMatch)
+  return Number.isFinite(t) ? t : NaN;
+}
 
 const SPORT_INFO = {
   football: { name: 'BÓNG ĐÁ', icon: 'fa-futbol' },
@@ -259,26 +272,98 @@ class PhalangService {
     };
   }
 
-  async fetchList() {
-    try {
-      const all = [];
-      let total = Infinity;
+  async fetchPage(page) {
+    const { data } = await this.client.post(
+      '/matches/graph',
+      this.buildListBody(page),
+      { params: { _t: Date.now() } }
+    );
+    const batch = Array.isArray(data?.data) ? data.data : [];
+    const total = Number.isFinite(data?.total) ? data.total : batch.length;
+    return { batch, total };
+  }
 
-      for (let page = 1; page <= PHALANG_LIST_MAX_PAGES && all.length < total; page++) {
-        const { data } = await this.client.post(
-          '/matches/graph',
-          this.buildListBody(page),
-          { params: { _t: Date.now() } }
-        );
-        const batch = Array.isArray(data?.data) ? data.data : [];
-        total = Number.isFinite(data?.total) ? data.total : batch.length;
-        all.push(...batch);
-        // Trang cuối trả về ít hơn page size -> không còn dữ liệu, dừng sớm.
-        if (batch.length < PHALANG_LIST_PAGE_SIZE) break;
+  /** Lấy danh sách trận (dùng chung 30s giữa các lần gọi live/upcoming trong 1 lượt quét). */
+  fetchList() {
+    const now = Date.now();
+    if (this._listCache && now - this._listCache.at < PHALANG_LIST_CACHE_MS) return this._listCache.promise;
+    const promise = this.fetchListUncached().then((list) => {
+      if (!list.length) this._listCache = null; // lỗi/rỗng -> không cache, lần sau thử lại
+      return list;
+    });
+    this._listCache = { at: now, promise };
+    return promise;
+  }
+
+  async fetchListUncached() {
+    try {
+      const pages = new Map(); // cache trang đã kéo trong lần này (tránh gọi lại khi tìm nhị phân)
+      let requests = 0;
+      const getPage = async (n) => {
+        if (!pages.has(n)) {
+          requests += 1;
+          pages.set(n, await this.fetchPage(n));
+        }
+        return pages.get(n);
+      };
+
+      const first = await getPage(1);
+      const total = first.total;
+      const pageSize = first.batch.length; // số trận/trang THỰC TẾ (API có thể bỏ qua limit đã gửi)
+      if (!pageSize) return [];
+      const totalPages = Math.max(1, Math.ceil(total / pageSize));
+
+      // Tổng nhỏ -> kéo hết như cũ.
+      if (totalPages <= PHALANG_FULL_FETCH_MAX_PAGES) {
+        const all = [...first.batch];
+        for (let n = 2; n <= totalPages; n++) all.push(...(await getPage(n)).batch);
+        console.log(`[phalang] API total=${total}, ${pageSize} trận/trang -> kéo hết ${all.length} trận (${requests} request)`);
+        return all;
       }
 
-      if (Number.isFinite(total) && all.length < total) {
-        console.warn(`[phalang] CẢNH BÁO: API báo total=${total} nhưng chỉ lấy được ${all.length} trận (chạm trần ${PHALANG_LIST_MAX_PAGES} trang) — có thể mất trận mới nhất.`);
+      const lastTimeOf = (page) => phalangStartMs(page.batch[page.batch.length - 1]);
+      const firstTimeOf = (page) => phalangStartMs(page.batch[0]);
+      const nowMs = Date.now();
+      const lo = nowMs - PHALANG_WINDOW_PAST_MS;
+      const hi = nowMs + PHALANG_WINDOW_FUTURE_MS;
+
+      // Kiểm tra danh sách có thật sự sắp TĂNG DẦN theo giờ (trang đầu <= trang cuối).
+      const lastPage = await getPage(totalPages);
+      const ascending = firstTimeOf(first) <= lastTimeOf(lastPage);
+
+      let startPage = 1;
+      if (ascending) {
+        // Tìm nhị phân trang NHỎ NHẤT có trận cuối >= lo (mọi trang trước đó toàn trận cũ hơn cửa sổ).
+        let left = 1;
+        let right = totalPages;
+        while (left < right) {
+          const mid = Math.floor((left + right) / 2);
+          const t = lastTimeOf(await getPage(mid));
+          if (Number.isFinite(t) && t < lo) left = mid + 1;
+          else right = mid;
+        }
+        startPage = left;
+      } else {
+        console.warn('[phalang] CẢNH BÁO: danh sách API không sắp tăng dần theo giờ — kéo tuần tự từ trang 1, có thể sót trận.');
+      }
+
+      const all = [];
+      let n = startPage;
+      for (; n <= totalPages && n < startPage + PHALANG_WINDOW_MAX_PAGES; n++) {
+        const page = await getPage(n);
+        all.push(...page.batch);
+        if (ascending) {
+          const t = lastTimeOf(page);
+          if (Number.isFinite(t) && t > hi) { n += 1; break; } // đã vượt cửa sổ tương lai
+        }
+      }
+      const truncated = n <= totalPages && !(all.length && ascending && lastTimeOf({ batch: [all[all.length - 1]] }) > hi);
+      console.log(
+        `[phalang] API total=${total}, ${pageSize} trận/trang, ${totalPages} trang -> lấy trang ${startPage}-${n - 1} ` +
+        `(${all.length} trận trong cửa sổ, ${requests} request)`
+      );
+      if (truncated) {
+        console.warn(`[phalang] CẢNH BÁO: chạm trần ${PHALANG_WINDOW_MAX_PAGES} trang trong cửa sổ — có thể sót trận sắp đá.`);
       }
       return all;
     } catch (error) {
