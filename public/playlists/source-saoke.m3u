@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:40:28 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:42:40 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (18 trận) =====
 
@@ -19,8 +19,10 @@ https://wtyi0525.edgemaxcdn.org/live/x2-hd-1111/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5802.png" group-title="Sao Kê" , 24-09 20:00 Namibia vs Congo (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://vip3.saoketv40.xyz/namibia-vs-congo-6ab47b441c8a389f4b1012d8.html
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5802.png" group-title="Sao Kê" , 24-09 20:00 [LIVE LIVE] Namibia vs Congo (Quang Huy) [hls]
+#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8700.png" group-title="Sao Kê" , 24-09 21:00 Uzbekistan vs Iran (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://vip3.saoketv40.xyz/uzbekistan-vs-iran-6ab47b441c8a389f4b1012e1.html
