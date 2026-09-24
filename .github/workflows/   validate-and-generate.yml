@@ -4,11 +4,16 @@ on:
   # Cho phep bam tay "Run workflow" tren tab Actions de test ngay, khong
   # can doi lich cron 2 phut.
   workflow_dispatch:
+  # FIX (24/09/2026 - "khi thay doi file muon dung workflow ngay de chay lai
+  # lan moi"): truoc day chi push sua data/sources.json moi kich hoat. Gio
+  # push vao main o BAT KY file nao (tru public/playlists/** - do chinh bot
+  # ghi moi 2 phut, tranh kich hoat vo ich) deu chay workflow moi, va workflow
+  # moi se HUY job cu dang chay (xem concurrency ben duoi).
   push:
     branches:
       - main
-    paths:
-      - 'data/sources.json'
+    paths-ignore:
+      - 'public/playlists/**'
   schedule:
     # FIX (22/09/2026 - "GitHub khong dam bao lich */2 chay dung gio, hang
     # doi runner co the tre/bo lan"): TRUOC DAY dung lich nay de tao 1 JOB
@@ -24,13 +29,16 @@ on:
     # bat lai, khong de dut han day chuyen.
     - cron: '0 */6 * * *'  # luoi du phong, giao ~6 tieng/lan - vong lap that nam trong tung job (xem env MAX_RUNTIME_MINUTES)
 
-# Dam bao chi 1 job dang chay tai 1 thoi diem: neu luoi du phong (schedule)
-# vo tinh kich hoat trong luc job vong-lap hien tai van dang chay, job moi
-# se XEP HANG cho tan job cu (khong huy job cu - cancel-in-progress: false)
-# - tranh 2 vong lap chay song song cung ghi/commit playlist.
+# Dam bao chi 1 job dang chay tai 1 thoi diem. FIX (24/09/2026 - "khi thay doi
+# file muon dung workflow ngay de chay lai lan moi"): cancel-in-progress: true
+# -> run moi (push / bam tay / lich du phong / tu kich hoat lai) se HUY NGAY run
+# cu dang chay roi chay thay the, khong xep hang cho run cu xong nhu truoc
+# (truoc day phai bam Cancel nhieu lan). Moi chu ky 2 phut deu da commit/push
+# xong truoc khi sang chu ky sau nen huy giua chung chi mat toi da 1 chu ky
+# dang do.
 concurrency:
   group: generate-playlists-loop
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   generate:
