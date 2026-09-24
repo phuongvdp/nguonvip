@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:36:40 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:39:00 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (18 trận), Chuối Chiên (20 trận), Phá Làng (17 trận), Gà Vàng (17 trận), Sao Kê (21 trận) =====
 
@@ -183,6 +183,11 @@ https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6709.png" group-title="Sao Kê" , 25/09 02:00 🟢 ⚽ Ivory Coast vs Ghana (Quang Huy)
+#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6629.png" group-title="Sao Kê" , 25/09 02:00 🟢 ⚽ Cameroon vs Comoros (Mơ)
 #EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -205,9 +210,6 @@ https://gavanglinkp.tv/truc-tiep/cameroon-vs-comoros-ngay-25-09-2026/
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/17962554eedf40e0af9df1fc346ce09e.png" group-title="Gà Vàng" , 25/09 02:00 🟡 ⚽ Cote d'Ivoire vs Ghana (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/truc-tiep/cote-divoire-vs-ghana-ngay-25-09-2026/
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6709.png" group-title="Sao Kê" , 25/09 02:00 🟡 ⚽ Ivory Coast vs Ghana (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/ivory-coast-vs-ghana-6ab47b441c8a389f4b1012d5.html
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/x8bRMNZA-AJxZzB1j.png" group-title="Giờ Vàng" , 25/09 04:00 ⚽ O'Higgins vs CD Santa Cruz (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-o-higgins-vs-cd-santa-cruz-25-09-y928lsnp1gck
