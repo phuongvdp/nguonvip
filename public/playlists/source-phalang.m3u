@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:10:00 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:12:06 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (21 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (19 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/08ba7292cb615ed5b17fa7636854c43a.png" group-title="Pha Lang TV" , 24-09 06:00 [LIVE LIVE] Montevideo Wanderers FC - CS Cerrito (Server 1) [hls]
@@ -19,20 +19,10 @@ https://lilive1.eu.cc/live/801fc8426c798821c12013b1a31b31e5/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/ab58d1ccdfddc0c85b99ad208037d7e3/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c57dd461eb278005d2f1efc2c0cb720f.png" group-title="Pha Lang TV" , 24-09 06:30 [LIVE LIVE] Municipal Iquique - CSD Antofagasta (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/402ab7b481789b20df6600bafe422a51/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5e2db890ff3abaf6db387f1e324a25af.png" group-title="Pha Lang TV" , 24-09 06:30 [LIVE LIVE] Union La Calera - Univ Catolica (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/cfbcd80950bc23533dbfe3e94cfbcdf5/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1067f238e084e5e278d4e34dfdd1e891.png" group-title="Pha Lang TV" , 24-09 07:00 [LIVE LIVE] Independiente Santa Fe (W) - Deportivo Cali Women (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/feab640840c469fed18739a7aac1f7f7/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ed6ae7fa894cb5bdbccfd605d1d6ad04.png" group-title="Pha Lang TV" , 24-09 07:30 America de Cali - Aguilas Doradas (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#4jwq2ghnld70m0v

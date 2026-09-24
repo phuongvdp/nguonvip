@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:10:00 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:12:06 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (14 trận), Chuối Chiên (4 trận), Phá Làng (21 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (14 trận), Chuối Chiên (4 trận), Phá Làng (19 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134322_afd6712d.png" group-title="Chuoi Chien TV" , 24-09 06:00 [LIVE LIVE] Aruba vs Antigua and Barbuda (Trốc Tru (HD)) [hls]
@@ -39,11 +39,6 @@ https://eqr2hdarxfliv.vcdn.cloud/1790130450_hd/1790130450_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790172281_hd/1790172281_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c57dd461eb278005d2f1efc2c0cb720f.png" group-title="Pha Lang TV" , 24-09 06:30 [LIVE LIVE] Municipal Iquique - CSD Antofagasta (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/402ab7b481789b20df6600bafe422a51/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5e2db890ff3abaf6db387f1e324a25af.png" group-title="Pha Lang TV" , 24-09 06:30 [LIVE LIVE] Union La Calera - Univ Catolica (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -53,11 +48,6 @@ https://lilive1.eu.cc/live/cfbcd80950bc23533dbfe3e94cfbcdf5/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1067f238e084e5e278d4e34dfdd1e891.png" group-title="Pha Lang TV" , 24-09 07:00 [LIVE LIVE] Independiente Santa Fe (W) - Deportivo Cali Women (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/feab640840c469fed18739a7aac1f7f7/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/america-de-cali.png" group-title="Gio Vang TV" , 24-09 07:30 [LIVE Đang diễn ra] America de Cali vs Aguilas Doradas (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
