@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:07:30 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:09:41 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (18 trận) =====
 
 # ----- Ngày 2026-09-24 -----
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f9ce800b0fd64b339c2bcf8ec7d9ec0e.png" group-title="Gà Vàng" , 24-09 17:05 [LIVE 90' +] Japan vs Uruguay (SAITAMA) [hls]
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a3f9a9a7e81748828ce092f0dd488479.png" group-title="Gà Vàng" , 24-09 18:00 [LIVE HT] South Korea vs Ecuador (ĐOÀN DỰ) [hls]
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -18,6 +13,11 @@ https://playback.livetl002.com/live/6a5df755b89dded67b39b8bc.m3u8
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/69cf6331585c5992182f4160.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/7a2ca0a9a53ae410965c536014cbe3ba.png" group-title="Gà Vàng" , 24-09 19:00 [LIVE LIVE] Myanmar vs Timor Leste (A Long) [hls]
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69ef10b47146e04fbe6d4363.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/fb1060fc304744d0b50e6a180fbc98c2.png" group-title="Gà Vàng" , 24-09 19:30 Xigong heat vs Hanoi buffalo (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/
@@ -34,7 +34,7 @@ https://gavanglinkp.tv/truc-tiep/uzbekistan-vs-ir-iran-ngay-24-09-2026/
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/60237916d16e7b1a2e39ab596b479ad2.png" group-title="Gà Vàng" , 24-09 21:00 CSM Targoviste Women vs Sportul Bucuresti Women (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/373941d77727831c4469506563f9165d.png" group-title="Gà Vàng" , 24-09 22:00 Beroe Women vs Universitario De Ferrol Women (Chưa có link — chờ cập nhật) [sắp diễn ra]
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/94131bcefb591f459f8986b49bb1a04a.png" group-title="Gà Vàng" , 24-09 22:00 Th3 Swish Women vs Strathmore Women (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/15fa1fad1fc582dd65403f6f950b1e21.png" group-title="Gà Vàng" , 24-09 23:00 Andorra vs Malta (Chưa có link — chờ cập nhật) [sắp diễn ra]
