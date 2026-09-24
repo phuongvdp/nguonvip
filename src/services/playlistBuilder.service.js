@@ -23,6 +23,15 @@ import {
 // Trận "sắp đá" chỉ lấy trong khoảng này để biết lịch thi đấu sắp tới —
 // xa hơn thì lịch hay thay đổi (đổi giờ, hủy...), không đáng tin.
 const UPCOMING_WINDOW_HOURS = 24;
+// FIX (24/09/2026 — "cập nhật các trận đấu trong vòng 15h thôi cho đỡ bị nhiều
+// trận"): riêng Phá Làng có rất nhiều trận (141/240 trận trong playlist) nên chỉ
+// lấy trận SẮP ĐÁ trong 15h tới; trận đang live vẫn lấy đủ. Các nguồn khác giữ
+// 24h. Đổi số giờ bằng biến môi trường PHALANG_UPCOMING_HOURS (vd 12, 15, 24).
+const PHALANG_UPCOMING_WINDOW_HOURS = (() => {
+  const n = Number(process.env.PHALANG_UPCOMING_HOURS);
+  return Number.isFinite(n) && n > 0 ? n : 15;
+})();
+const UPCOMING_WINDOW_HOURS_BY_SOURCE = { phalang: PHALANG_UPCOMING_WINDOW_HOURS };
 // Do not let a slow streamer detail page delay the complete match list.
 // FIX (20/09/2026 — "Giờ Vàng đều bị 'chưa có link'"): mốc 4500ms này ban
 // đầu hợp lý cho những nguồn gọi thẳng 1 API JSON (chuoichientv, phalang).
@@ -181,12 +190,12 @@ async function fetchUpcomingLists() {
   const tagged = [];
   const seen = new Set();
 
-  const withinWindow = (m) => isWithinNextHours(m, UPCOMING_WINDOW_HOURS);
+  const withinWindow = (m, source) => isWithinNextHours(m, UPCOMING_WINDOW_HOURS_BY_SOURCE[source] || UPCOMING_WINDOW_HOURS);
 
   const pushListNoFilter = (list, source) => {
     for (const m of normalize(list)) {
       if (isExcludedSport(m)) continue;
-      if (!withinWindow(m)) continue;
+      if (!withinWindow(m, source)) continue;
       const key = m.matchId || m.stream?.liveUrl;
       if (!key || seen.has(`${source}:${key}`)) continue;
       seen.add(`${source}:${key}`);

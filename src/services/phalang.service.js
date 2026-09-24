@@ -108,7 +108,7 @@ const MINOR_LEAGUE_RE = new RegExp([
 // Chế độ "block" (PHALANG_FILTER_MODE=block) = hành vi cũ: giữ hết, chỉ loại giải nhỏ.
 const MAJOR_LEAGUE_RE = new RegExp([
   // Anh
-  'ngoai hang anh', 'cup c1', 'cup c2', '^(english |england )?premier league$', '^(english |england )?(efl )?championship$', '\\bfa cup\\b', 'efl cup', 'carabao', 'league cup', 'community shield',
+  'women.?s super league', '\\bwsl\\b', '\\bnwsl\\b', 'liga f\\b', 'ngoai hang anh', 'cup c1', 'cup c2', '^(english |england )?premier league$', '^(english |england )?(efl )?championship$', '\\bfa cup\\b', 'efl cup', 'carabao', 'league cup', 'community shield',
   // Tây Ban Nha / Ý / Đức / Pháp
   'la ?liga', 'copa del rey', 'supercopa', 'serie a', 'coppa italia', 'supercoppa', 'bundesliga', 'dfb', 'ligue 1', 'coupe de france', 'trophee des champions',
   // châu Âu / thế giới / châu lục
@@ -149,21 +149,45 @@ function envKeywordsRe(name) {
 const KEEP_LEAGUES_RE = envKeywordsRe('PHALANG_KEEP_LEAGUES') || envKeywordsRe('PHALANG_MAJOR_LEAGUES'); // MAJOR: tên biến cũ, giữ để tương thích
 const BLOCK_LEAGUES_RE = envKeywordsRe('PHALANG_BLOCK_LEAGUES');
 
+// FIX (24/09/2026 — "nguồn Phá Làng vẫn còn nhiều trận giải cỏ: U15, U17, U19...
+// nữ giải cỏ"): trước đây luật GIỮ (is_hot, giao hữu, Việt Nam, tên giải rỗng)
+// chạy TRƯỚC luật loại nên giải trẻ lọt qua (vd "International Friendly U19",
+// trận is_hot, hoặc tên giải rỗng mà U19 nằm ở tiêu đề). Giờ luật loại giải
+// trẻ (U10-U20, youth, reserve...), bóng đá ảo và bóng đá NỮ nhỏ chạy TRƯỚC,
+// kể cả trận is_hot/giao hữu. Chỉ trận liên quan Việt Nam được miễn luật trẻ.
+const YOUTH_RE = new RegExp([
+  '\\bu-?(1\\d|20)\\b', '\\bunder ?(1\\d|20)\\b', 'youth', 'junior', 'juvenil', 'primavera', 'reserve', 'academy', '\\bdu bi\\b', '\\btre\\b'
+].join('|'));
+
+const VIRTUAL_RE = /esoccer|e-?soccer|e-?football|efootball|cyber|virtual|simulated|fifa ?2\d|fc ?2\d|battle/;
+
+const WOMEN_RE = /women|woman|femin|femenin|frauen|damallsvenskan|ladies|girls|\bnu\b|\(w\)|\bnwsl\b/;
+// Bóng đá nữ chỉ giữ khi là giải lớn / đội tuyển / giao hữu (hoặc is_hot, Việt Nam).
+const WOMEN_KEEP_RE = /uefa|fifa|world cup|olympic|asian cup|\bafc\b|champions league|nations league|\beuro\b|copa america|concacaf|gold cup|qualif|\bwsl\b|\bnwsl\b|women.?s super league|liga f\b/;
+
 function isNotableMatch(match) {
   if (match?.sport !== 'football') return true; // chỉ lọc bóng đá
-  if (match?.isHot) return true;
 
   const league = stripDiacritics(match?.competition?.name || '');
   const text = `${league} | ${stripDiacritics(match?.title || '')}`;
+  const vietnam = VIETNAM_RE.test(text);
 
+  // 1) LUẬT LOẠI chạy trước mọi luật giữ (trừ Việt Nam với giải trẻ).
+  if (VIRTUAL_RE.test(text)) return false;
+  if (YOUTH_RE.test(text) && !vietnam) return false;
+  if (WOMEN_RE.test(text) && !match?.isHot && !vietnam && !WOMEN_KEEP_RE.test(text) && !FRIENDLY_RE.test(text)) return false;
+
+  // 2) LUẬT GIỮ.
+  if (match?.isHot) return true;
   if (!league) return true; // API không trả tên giải -> không đủ cơ sở để loại, giữ lại
   if (FRIENDLY_RE.test(text)) return true;
-  if (VIETNAM_RE.test(text)) return true;
+  if (vietnam) return true;
   if (KEEP_LEAGUES_RE && KEEP_LEAGUES_RE.test(league)) return true;
 
+  // 3) Còn lại: giải trẻ U21-U23, hạng thấp, nghiệp dư... (MINOR) -> loại; rồi tới chế độ.
   if (MINOR_LEAGUE_RE.test(text)) return false;
   if (BLOCK_LEAGUES_RE && BLOCK_LEAGUES_RE.test(league)) return false;
-  if (FILTER_MODE === 'block') return true; // chế độ cũ: giữ hết, chỉ loại giải nhỏ rõ ràng
+  if (FILTER_MODE === 'block') return true; // chế độ nhẹ: giữ hết, chỉ loại giải nhỏ rõ ràng
   return MAJOR_LEAGUE_RE.test(league); // chế độ mặc định 'major': chỉ giữ giải nổi bật
 }
 
@@ -413,6 +437,10 @@ class PhalangService {
       const bySport = {};
       for (const m of all) bySport[m.sport] = (bySport[m.sport] || 0) + 1;
       console.log(`[phalang] sau lọc, theo môn: ${Object.entries(bySport).map(([k, v]) => `${k}=${v}`).join(', ')}`);
+      const byLeague = {};
+      for (const m of all) if (m.sport === 'football') byLeague[m.competition?.name || '(không rõ giải)'] = (byLeague[m.competition?.name || '(không rõ giải)'] || 0) + 1;
+      const keptTop = Object.entries(byLeague).sort((x, y) => y[1] - x[1]).slice(0, 40).map(([k, v]) => `${k}(${v})`);
+      if (keptTop.length) console.log(`[phalang] bóng đá được GIỮ, theo giải: ${keptTop.join(' | ')}`);
     }
     if (dropped.length) {
       const leagues = [...new Set(dropped.map((m) => m.competition?.name || '(không rõ giải)'))].slice(0, 40);
