@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 11:01:36 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 11:03:43 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (14 trận), Chuối Chiên (20 trận), Phá Làng (41 trận), Gà Vàng (12 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (14 trận), Chuối Chiên (20 trận), Phá Làng (41 trận), Gà Vàng (12 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/vancouver-whitecaps.png" group-title="Gio Vang TV" , 24-09 09:00 [LIVE Đang diễn ra] Vancouver vs Inter Toronto (Giovang 1) [hls]
@@ -36,11 +36,6 @@ https://playback.livetl002.com/live/6a2a59b347bbddd62a8dc4e4.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/vqLkKVYA-IJIsQ3zG.png" group-title="Gio Vang TV" , 24-09 11:00 [LIVE Đang diễn ra] Solomon Islands vs Vanuatu (Giovang 1) [hls]
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790204241_hd/1790204241_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cedefb834d84c29f26ebdf2384b381a4.png" group-title="Pha Lang TV" , 24-09 12:30 Hal FC - Karnataka (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#965mkyh8l16jr1g
