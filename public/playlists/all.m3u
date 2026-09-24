@@ -1,9 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:40:45 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:43:35 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (21 trận), Chuối Chiên (20 trận), Phá Làng (22 trận), Gà Vàng (10 trận), Sao Kê (24 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (21 trận), Chuối Chiên (20 trận), Phá Làng (22 trận), Gà Vàng (9 trận), Sao Kê (24 trận) =====
 
 # ----- Ngày 2026-09-24 -----
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/3016a701d47246f082016705f2f7267c.png" group-title="Gà Vàng" , 24/09 21:00 🟢 ⚽ Uzbekistan vs Iran (ĐOÀN DỰ)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a5df755b89dded67b39b8bc.m3u8
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_650.jpg" group-title="Khán Đài" , 24/09 22:55 🟢 ⚽ United Arab Emirates vs Yemen (Chim Nhỏ)
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -93,16 +98,6 @@ https://pull.digitalcdn.net/live/15fce01d8d3d4492aaab6cad92ddcb11/index.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/d3eb8619d6826f89f90988a4d0296377/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/15fa1fad1fc582dd65403f6f950b1e21.png" group-title="Gà Vàng" , 24/09 23:00 🟢 ⚽ Andorra vs Malta (SAITAMA)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ce991ab3a9bd4859bdb6cf6e9b623a35.png" group-title="Gà Vàng" , 24/09 23:00 🟢 ⚽ DR Congo vs Equatorial Guinea (MáN NúI)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69cf6331585c5992182f4160.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10045.png" group-title="Sao Kê" , 24/09 23:00 🟢 ⚽ Andorra vs Malta (Teppy)
 #EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/

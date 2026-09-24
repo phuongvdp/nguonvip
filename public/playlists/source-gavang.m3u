@@ -1,18 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:40:48 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:43:38 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (10 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (9 trận) =====
 
 # ----- Ngày 2026-09-24 -----
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/15fa1fad1fc582dd65403f6f950b1e21.png" group-title="Gà Vàng" , 24/09 23:00 🟢 ⚽ Andorra vs Malta (SAITAMA)
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/3016a701d47246f082016705f2f7267c.png" group-title="Gà Vàng" , 24/09 21:00 🟢 ⚽ Uzbekistan vs Iran (ĐOÀN DỰ)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ce991ab3a9bd4859bdb6cf6e9b623a35.png" group-title="Gà Vàng" , 24/09 23:00 🟢 ⚽ DR Congo vs Equatorial Guinea (MáN NúI)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69cf6331585c5992182f4160.m3u8
+https://playback.livetl002.com/live/6a5df755b89dded67b39b8bc.m3u8
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/c39da666a430eeb95c2dd0838b267d77.jpg" group-title="Gà Vàng" , 25/09 01:00 🏀 Crvena Zvezda Belgrade vs Zalgiris Kaunas (Chưa có link — chờ cập nhật)
