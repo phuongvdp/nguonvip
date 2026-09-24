@@ -48,36 +48,38 @@ function mapSport(desc) {
 
 // FIX (24/09/2026 — "nguồn Phá Làng nhiều trận giải bé, giải cỏ quá, các nguồn
 // khác OK rồi"): /matches/graph trả TOÀN BỘ trận (kể cả giải trẻ/dự bị/hạng
-// thấp/giải địa phương), trong khi các nguồn khác đã tự lọc sẵn. Chỉ lọc BÓNG
-// ĐÁ (các môn khác giữ nguyên). Trận bóng đá được giữ nếu:
+// thấp/ảo), trong khi các nguồn khác đã tự lọc sẵn.
+// ĐỔI HƯỚNG (24/09/2026 — "muốn hướng 2"): bản đầu dùng danh sách giải LỚN
+// (allowlist) nên liên tục loại nhầm giải thật (Nations League, Gulf Cup...).
+// Giờ ngược lại: GIỮ TẤT CẢ, chỉ LOẠI trận bóng đá thuộc giải nhỏ rõ ràng
+// (blocklist MINOR_LEAGUE_RE: giải trẻ U15-U23/youth, dự bị/reserve, hạng 3+,
+// giải nghiệp dư/khu vực/hạng dưới Đức, bóng đá ảo/esoccer...). Các môn khác
+// giữ nguyên. Một trận bóng đá luôn được GIỮ nếu:
 //   1) API đánh dấu is_hot, HOẶC
-//   2) tên giải thuộc danh sách giải lớn (MAJOR) và KHÔNG phải giải trẻ/dự bị
-//      (MINOR: U15-U23, youth, reserve, dự bị, hạng 3+...), HOẶC
-//   3) liên quan Việt Nam (đội tuyển/SEA Games/AFF...) — giữ cả U23/hạng dưới
-//      vì người xem Việt Nam quan tâm.
-// Còn lại coi là giải cỏ -> bỏ. Tinh chỉnh:
-//   - PHALANG_LEAGUE_FILTER=off        -> tắt lọc, lấy hết như cũ
-//   - PHALANG_MAJOR_LEAGUES=a,b,c      -> thêm từ khoá giải muốn GIỮ (không dấu, chữ thường)
-// Mỗi lần quét in log số trận bị bỏ + tên các giải bị bỏ để dễ bổ sung từ khoá.
-const MINOR_LEAGUE_RE = /\bu-?(1[5-9]|2[0-3])\b|youth|junior|reserve|academy|amateur|regional|\bdu bi\b|\btre\b|\bhang (3|4|5|ba|tu|nam)\b|\bdivision [3-9]\b|\bleague (two|2)\b|\bpremier league 2\b/;
-
-const MAJOR_LEAGUE_RE = new RegExp([
-  'premier league', 'ngoai hang anh', '\\bepl\\b', 'fa cup', 'carabao', 'efl cup', 'league cup', 'community shield',
-  'la ?liga', 'tay ban nha', 'copa del rey', 'supercopa',
-  'serie a', 'coppa italia', 'supercoppa',
-  'bundesliga', 'dfb', 'ligue 1', 'coupe de france',
-  'champions league', '\\bc[12]\\b', 'europa', 'conference league', 'uefa', 'nations league', '\\beuro\\b', 'euro 20',
-  'world cup', 'wcq', 'vong loai', 'asian cup', '\\bafc\\b', 'fifa', 'conmebol', 'concacaf', 'copa america', 'libertadores', 'sudamericana', 'olympic',
-  'eredivisie', 'primeira liga', 'liga portugal', 'super lig', 'saudi', 'pro league',
-  'j-?league', '\\bj1\\b', 'k-?league', '\\bmls\\b'
+//   2) là giao hữu (kiểm tra cả tên giải + tiêu đề), HOẶC
+//   3) liên quan Việt Nam (đội tuyển/SEA Games/AFF/V-League...) — giữ cả U23/hạng dưới, HOẶC
+//   4) tên giải chứa từ khoá trong PHALANG_KEEP_LEAGUES.
+// Tinh chỉnh (đều dùng từ khoá KHÔNG DẤU, chữ thường, cách nhau bằng dấu phẩy):
+//   - PHALANG_LEAGUE_FILTER=off      -> tắt lọc, lấy hết như cũ
+//   - PHALANG_BLOCK_LEAGUES=a,b      -> thêm từ khoá giải muốn LOẠI
+//   - PHALANG_KEEP_LEAGUES=a,b       -> thêm từ khoá giải luôn GIỮ (ưu tiên hơn blocklist)
+// Mỗi lần quét in log số trận bị bỏ + tên các giải bị bỏ để dễ tinh chỉnh.
+const MINOR_LEAGUE_RE = new RegExp([
+  // giải trẻ / dự bị
+  '\\bu-?(1\\d|2[0-3])\\b', '\\bunder ?(1\\d|2[0-3])\\b', 'youth', 'junior', 'juvenil', 'primavera', 'reserve', 'academy', '\\bdu bi\\b', '\\btre\\b',
+  'premier league 2', 'development league',
+  // nghiệp dư / hạng thấp / khu vực
+  'amateur', 'regional', 'oberliga', 'landesliga', 'kreisliga', 'verbandsliga', 'serie d',
+  '\\bhang (3|4|5|ba|tu|nam)\\b', '\\bdivision [3-9]\\b', '\\bleague (two|2)\\b',
+  // bóng đá ảo / giải giả lập
+  'esoccer', 'e-?soccer', 'e-?football', 'efootball', 'cyber', 'virtual', 'simulated', 'fifa ?2\\d', 'fc ?2\\d', 'battle'
 ].join('|'));
 
-const VIETNAM_RE = /viet ?nam|sea games|\baff\b|asean|v-?league/;
-// FIX (24/09/2026 — "bị mất các trận giao hữu"): trận giao hữu luôn được giữ,
-// kiểm tra trên CẢ tên giải lẫn tiêu đề trận (nhiều trận giao hữu không ghi
-// "giao hữu" ở tên giải mà chỉ ghi ở tiêu đề, hoặc tên giải kiểu "Club
-// Friendlies"/"Quốc tế"), và bỏ qua luật loại giải trẻ/hạng thấp.
+// Trận giao hữu luôn được giữ, kiểm tra trên CẢ tên giải lẫn tiêu đề trận và
+// bỏ qua luật loại giải trẻ (xem FIX "bị mất các trận giao hữu").
 const FRIENDLY_RE = /giao huu|giao luu|friendl|\bclub friendly\b|\bint(?:ernational)? ?cf\b|quoc te|international/;
+
+const VIETNAM_RE = /viet ?nam|sea games|\baff\b|asean|v-?league/;
 
 function stripDiacritics(text) {
   return String(text || '')
@@ -87,27 +89,32 @@ function stripDiacritics(text) {
     .toLowerCase();
 }
 
-const EXTRA_MAJOR_RE = (() => {
-  const words = String(process.env.PHALANG_MAJOR_LEAGUES || '')
+function envKeywordsRe(name) {
+  const words = String(process.env[name] || '')
     .split(',')
     .map((w) => stripDiacritics(w).trim())
     .filter(Boolean)
     .map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
   return words.length ? new RegExp(words.join('|')) : null;
-})();
+}
+
+const KEEP_LEAGUES_RE = envKeywordsRe('PHALANG_KEEP_LEAGUES') || envKeywordsRe('PHALANG_MAJOR_LEAGUES'); // MAJOR: tên biến cũ, giữ để tương thích
+const BLOCK_LEAGUES_RE = envKeywordsRe('PHALANG_BLOCK_LEAGUES');
 
 function isNotableMatch(match) {
   if (match?.sport !== 'football') return true; // chỉ lọc bóng đá
   if (match?.isHot) return true;
 
-  const text = stripDiacritics(`${match?.competition?.name || ''} | ${match?.title || ''}`);
   const league = stripDiacritics(match?.competition?.name || '');
+  const text = `${league} | ${stripDiacritics(match?.title || '')}`;
 
-  if (!league) return true; // API không trả tên giải -> không đủ cơ sở để loại, giữ lại
   if (FRIENDLY_RE.test(text)) return true;
   if (VIETNAM_RE.test(text)) return true;
-  if (EXTRA_MAJOR_RE && EXTRA_MAJOR_RE.test(league)) return true;
-  return MAJOR_LEAGUE_RE.test(league) && !MINOR_LEAGUE_RE.test(text);
+  if (KEEP_LEAGUES_RE && KEEP_LEAGUES_RE.test(league)) return true;
+
+  if (MINOR_LEAGUE_RE.test(text)) return false;
+  if (BLOCK_LEAGUES_RE && BLOCK_LEAGUES_RE.test(league)) return false;
+  return true; // mặc định GIỮ — chỉ loại khi khớp rõ giải nhỏ
 }
 
 export function filterPhalangMatches(matches = []) {
