@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:23:15 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:25:26 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (19 trận), Chuối Chiên (14 trận), Phá Làng (24 trận), Gà Vàng (17 trận), Sao Kê (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (19 trận), Chuối Chiên (20 trận), Phá Làng (24 trận), Gà Vàng (17 trận), Sao Kê (15 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/8zTp1yeTn2hlV2y0TYHS9A_96x96.png" group-title="Giờ Vàng" , 🟢 20:00 24/09 ⚽ Namibia vs Congo (Giovang 1)
@@ -321,14 +321,29 @@ https://vip3.saoketv40.xyz/costa-rica-vs-curacao-6ab47b441c8a389f4b1012d4.html
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646.png" group-title="Khán Đài" , 12:00 25/09 ⚽ Uzbekistan U23 vs Saudi Arabia U23 (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/uzbekistan-u23-vs-saudi-arabia-u23-25-09-2026-858280
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131446_7bd3d526.png" group-title="Chuối Chiên" , 12:00 25/09 ⚽ Uzbekistan U23 vs Saudi Arabia U23 (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1641614/uzbekistan-u23-vs-saudi-arabia-u23
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_599.jpg" group-title="Khán Đài" , 13:00 25/09 ⚽ China W vs Vietnam W (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/china-w-vs-vietnam-w-25-09-2026-858233
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142845_d31bb816.png" group-title="Chuối Chiên" , 13:00 25/09 ⚽ China W vs Vietnam W (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1641131/china-w-vs-vietnam-w
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_37951.gif" group-title="Khán Đài" , 16:00 25/09 ⚽ Bangladesh vs Malaysia (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/bangladesh-vs-malaysia
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134314_49a46639.png" group-title="Chuối Chiên" , 16:00 25/09 ⚽ Bangladesh vs Malaysia (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1641702/bangladesh-vs-malaysia
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_529.jpg" group-title="Khán Đài" , 17:00 25/09 ⚽ Australia vs Brazil (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/australia-vs-brazil-25-09-2026-770716
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134250_2a12c2b6.png" group-title="Chuối Chiên" , 17:00 25/09 ⚽ Australia vs Brazil (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1583655/australia-vs-brazil
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260417_091125_e069e829.png" group-title="Chuối Chiên" , 17:00 25/09 ⚽ TP. Hồ Chí Minh vs Văn Hiến (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1634969/tp-ho-chi-minh-vs-van-hien
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_Japan_K75eDYE.svg.webp" group-title="Khán Đài" , 17:30 25/09 ⚽ Japan W vs Philippines W (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/japan-w-vs-philippines-w-25-09-2026-858235
@@ -338,6 +353,9 @@ https://khandai3.link/truc-tiep/south-korea-w-vs-uzbekistan-w-25-09-2026-858236
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images_8kF19fZ.jpg" group-title="Khán Đài" , 17:30 25/09 ⚽ South Korea U23 vs Vietnam U23 (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/south-korea-u23-vs-vietnam-u23-25-09-2026-858281
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133018_f7c8e720.png" group-title="Chuối Chiên" , 17:30 25/09 ⚽ Japan W vs Philippines W (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1641133/japan-w-vs-philippines-w
 
 #EXTINF:-1 tvg-logo="https://api.beyondkick.com/uploads/HR_Ne_UC_Wg_AAH_8w_Z_fc313fd7d3.webp" group-title="Giờ Vàng" , 18:30 25/09 ⚽ ONE Friday Fights 172 vs The Inner Circle 32 (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-one-friday-fights-172-vs-the-inner-circle-32-25-09-t81vplztkyiu
