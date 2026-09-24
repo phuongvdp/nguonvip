@@ -1,13 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:57:48 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:00:04 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (20 trận) =====
-
-# ----- Ngày 2026-09-24 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133415_27f7a7df.png" group-title="Chuối Chiên" , 24/09 22:55 🟢 ⚽ United Arab Emirates vs Yemen (Chuối Nhỏ (HD))
-#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (19 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133416_04ec5812.png" group-title="Chuối Chiên" , 25/09 01:00 🟢 ⚽ Qatar vs Bahrain (Chuối Tây (HD))
@@ -24,10 +18,10 @@ https://live05.chuoichientv.me/live/1528864/portugal-vs-wales
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250715_194710_e484b2d5.png" group-title="Chuối Chiên" , 25/09 01:45 🟡 ⚽ Norway vs Denmark (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1528865/norway-vs-denmark
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132805_572f7fa8.png" group-title="Chuối Chiên" , 25/09 02:00 ⚽ Cameroon vs Comoros (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132805_572f7fa8.png" group-title="Chuối Chiên" , 25/09 02:00 🟡 ⚽ Cameroon vs Comoros (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1545816/cameroon-vs-comoros
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132759_08d32594.png" group-title="Chuối Chiên" , 25/09 02:00 ⚽ Ivory Coast vs Ghana (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132759_08d32594.png" group-title="Chuối Chiên" , 25/09 02:00 🟡 ⚽ Ivory Coast vs Ghana (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1545820/ivory-coast-vs-ghana
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133545_13e6cdb1.png" group-title="Chuối Chiên" , 25/09 04:30 ⚽ Deportivo Recoleta vs Guairena FC (Chưa có link — chờ cập nhật)
