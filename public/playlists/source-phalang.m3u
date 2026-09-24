@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:15:22 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:17:29 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (43 trận) =====
 
@@ -17,6 +17,11 @@ https://phalang.live/trang-chu#8yomo4hye9ovq0j
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/03979746f6af6b473503d915a38b8335.png" group-title="Phá Làng" , 24-09 15:45 Negeri Sembilan U20 - Penang U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#k82rekh2zn5zrep
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260921/73eec1fd974a87af6c92080521bd05b2.png" group-title="Phá Làng" , 24-09 16:00 [LIVE LIVE] Laos - Brunei Darussalam (LÝ LINH LỰC) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/f3550abbcb225f59fb5778e999b01261/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d70c71164ff5939b6b27b4cbcd0c1fb5.png" group-title="Phá Làng" , 24-09 16:00 Ivory Coast U18 - Spain U18 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#318q66h8z74lqo9
@@ -44,9 +49,6 @@ https://phalang.live/trang-chu#pxwrxlhlpe2kryk
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cac919d4e209d0d4b842cd60c6057f31.png" group-title="Phá Làng" , 24-09 16:00 Mahar United U20 - Chinland FC U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#y0or5jh9x63lqwz
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260921/73eec1fd974a87af6c92080521bd05b2.png" group-title="Phá Làng" , 24-09 16:00 Laos - Brunei Darussalam (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#y39mp1h67o5xmoj
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/eeee6474d5000bbd5709b0b37718d42d.png" group-title="Phá Làng" , 24-09 16:30 Egypt U18 - Korea Republic U18 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#dn1m1gh9vo8vmoe
