@@ -1,7 +1,7 @@
 import {
-  formatKickoffTime,
+  formatKickoffHourFirst,
+  toMatchTimeMs,
   formatUpcomingBadge,
-  getLiveBadge,
   getMatchTitle,
   getSourceKey,
   getSourceShortLabel,
@@ -49,6 +49,37 @@ import {
 // thường cùng 1 chính sách) để các trận sau CÙNG 1 tiến trình (`--watch`)
 // không phải dò lại từ đầu mỗi 2 phút, đỡ tốn thời gian + tránh dội quá
 // nhiều request thử vào CDN nguồn.
+// FIX (24/09/2026 — theo yêu cầu "đổi tên các trận của các nguồn theo form
+// như ảnh 8"): tên kênh .m3u theo mẫu Ola TV:
+//   "🟢 18:35 24/09 ⚽ China vs Maldives (Dương Kiên)"
+//   - Chấm trạng thái: 🟢 đang live, 🟡 sắp đá (trong vòng
+//     UPCOMING_SOON_MINUTES phút tới, hoặc đã quá giờ đá nhưng chưa live),
+//     không có chấm nếu còn lâu mới đá.
+//   - Giờ đá "HH:mm dd/MM", rồi icon môn thể thao, tên trận, (BLV/server).
+//   - Bỏ các nhãn [LIVE]/[hls]/[flv]/[sắp diễn ra] cũ. Tên nguồn nằm ở
+//     group-title (app tự hiện dưới tên trận).
+const UPCOMING_SOON_MINUTES = 60;
+
+function getStatusDot(match) {
+  const status = match?.status || {};
+  if (status.isLive) return '🟢';
+  if (status.isFinished) return '';
+  const ms = toMatchTimeMs(match?.matchTimeTimestamp || match?.matchTime);
+  if (!ms) return '';
+  const diffMin = (ms - Date.now()) / 60000;
+  return diffMin <= UPCOMING_SOON_MINUTES ? '🟡' : '';
+}
+
+function getSportIcon(match) {
+  const raw = `${match?.sport || ''} ${match?.sportCategory || ''}`.toLowerCase();
+  if (/basket|bong-ro|bóng rổ/.test(raw)) return '🏀';
+  if (/volley|chuyen|chuyền/.test(raw)) return '🏐';
+  if (/badminton|cau-long|cầu lông/.test(raw)) return '🏸';
+  if (/tennis/.test(raw)) return '🎾';
+  if (/f1|motor|dua-xe|đua xe/.test(raw)) return '🏎️';
+  return '⚽';
+}
+
 const IPTV_HEADER_UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 
@@ -241,21 +272,11 @@ export function buildM3uPlaylist(entries = []) {
     // dùng nhãn có dấu (Giờ Vàng, Khán Đài, Chuối Chiên, Phá Làng, Gà Vàng, Sao Kê)
     // thay vì nhãn không dấu (Gio Vang TV...) — chỉ đổi ở file .m3u, giao diện web giữ nguyên.
     const group = getSourceShortLabel(match);
-    // LUÔN dùng ngày-giờ đá thật làm phần đầu tên kênh (không phải nhãn
-    // LIVE/phút thi đấu) — bắt buộc để mọi app IPTV tự sort danh sách
-    // kênh theo TÊN vẫn ra đúng thứ tự thời gian, bất kể trận đó đang
-    // live hay chưa đá. Nhãn LIVE/phút thi đấu (nếu có) gắn thêm ngay
-    // sau, dạng "[LIVE 18']", để vẫn thấy trận nào đang live mà không
-    // phá thứ tự sort.
-    const time = formatKickoffTime(match) || match?.timeFormatted || '';
-    const liveBadge = getLiveBadge(match);
-    const liveTag = liveBadge ? `[LIVE ${liveBadge}]` : '';
+    // Tên kênh theo mẫu Ola TV: "🟢 18:35 24/09 ⚽ Home vs Away (BLV)" — xem getStatusDot()/getSportIcon().
+    const time = formatKickoffHourFirst(match) || match?.timeFormatted || '';
     const title = getMatchTitle(match);
     const streamer = stream.streamerName || stream.name || 'Server';
-    const fmt = entry.upcoming
-      ? '[sắp diễn ra]'
-      : (stream.format === 'flv' || /\.flv(\?|$)/i.test(url) ? '[flv]' : '[hls]');
-    const nameParts = [time, liveTag, title, `(${streamer})`, fmt].filter(Boolean);
+    const nameParts = [getStatusDot(match), time, getSportIcon(match), title, `(${streamer})`].filter(Boolean);
     const displayName = nameParts.join(' ');
 
     // Dòng phân cách khi sang ngày mới (giờ Việt Nam) — chỉ để dễ đọc

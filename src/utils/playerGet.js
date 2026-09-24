@@ -519,6 +519,26 @@ export function formatKickoffTime(match) {
   return `${dateStr} ${timeStr}`;
 }
 
+/** Giờ đá dạng "18:35 24/09" (giờ trước, ngày sau) — dùng cho tên kênh .m3u
+ *  theo mẫu Ola TV (xem buildM3uPlaylist() trong m3uPlaylist.js). */
+export function formatKickoffHourFirst(match) {
+  const ts = match?.matchTimeTimestamp || match?.matchTime;
+  if (!ts) return '';
+  const date = new Date(toMatchTimeMs(ts));
+  // Dùng formatToParts để luôn ra đúng "HH:mm dd/MM", không phụ thuộc
+  // locale/ICU của máy chạy (Node trên CI có thể ra "24-09" thay vì "24/09").
+  const parts = new Intl.DateTimeFormat('en-GB', {
+    hour: '2-digit',
+    minute: '2-digit',
+    day: '2-digit',
+    month: '2-digit',
+    hourCycle: 'h23',
+    timeZone: 'Asia/Ho_Chi_Minh'
+  }).formatToParts(date);
+  const get = (t) => parts.find((p) => p.type === t)?.value || '';
+  return `${get('hour')}:${get('minute')} ${get('day')}/${get('month')}`;
+}
+
 /** Nhãn LIVE ngắn gọn ("18'", "HT", "LIVE"...) dùng để GẮN THÊM cạnh
  *  ngày-giờ trong tên kênh .m3u (xem getPlaylistLabel() trong
  *  m3uPlaylist.js) — không thay thế ngày-giờ như formatMatchTime(). Trả
