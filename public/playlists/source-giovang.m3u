@@ -1,30 +1,26 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:52:30 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:56:36 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận) =====
 
 # ----- Ngày 2026-09-24 -----
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/E9xGHfcM-vehtS5P1.png" group-title="Gio Vang TV" , 24-09 12:00 [LIVE Đang diễn ra] KogGas vs Mobis Phoebus (Giovang 1) [hls]
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Gio Vang TV" , 24-09 13:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790204718_hd/1790204718_hd@720p.m3u8
+https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS89aV1mbuxvQhVaHfuBSqobyXOzCH2mqlw6A&s" group-title="Gio Vang TV" , 24-09 12:00 [LIVE Đang diễn ra] Wonju DB vs Seoul Thunders (Giovang 1) [hls]
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/C8F9Hph5-4Ma57DtA.png" group-title="Gio Vang TV" , 24-09 14:00 [LIVE Đang diễn ra] Chinese Taipei (W) vs Philippines (W) (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790204843_hd/1790204843_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Gio Vang TV" , 24-09 13:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Chưa có link — chờ cập nhật) [hls]
-https://giovang.city/truc-tiep-asiad-2026-vs-asiad-2026-24-09-asooi3g7yvxg
+https://eqr2hdarxfliv.vcdn.cloud/1790204912_hd/1790204912_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/QqFRYqe5-fmpRzHfB.png" group-title="Gio Vang TV" , 24-09 14:00 Papua New Guinea vs New Caledonia (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-papua-new-guinea-vs-new-caledonia-24-09-6ab3e97b24d46db870b262d1
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/C8F9Hph5-4Ma57DtA.png" group-title="Gio Vang TV" , 24-09 14:00 Chinese Taipei (W) vs Philippines (W) (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-chinese-taipei-w-vs-philippines-w-24-09-36580470
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/64/Goyang_Sono_Skygunners.png" group-title="Gio Vang TV" , 24-09 14:30 Goyang Sono vs Seoul Knights (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-goyang-sono-vs-seoul-knights-24-09-aiuhlj5sja6b
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/64/Goyang_Sono_Skygunners.png" group-title="Gio Vang TV" , 24-09 14:30 [LIVE Đang diễn ra] Goyang Sono vs Seoul Knights (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790204978_hd/1790204978_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/d0gwvLCr-QHeKqeWC.png" group-title="Gio Vang TV" , 24-09 16:00 Laos vs Brunei (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-laos-vs-brunei-24-09-gkenh3bval11
