@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:24:38 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:27:01 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (20 trận), Chuối Chiên (16 trận), Phá Làng (62 trận), Gà Vàng (16 trận), Sao Kê (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (20 trận), Chuối Chiên (16 trận), Phá Làng (62 trận), Gà Vàng (16 trận), Sao Kê (17 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 24-09 13:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
@@ -93,6 +93,11 @@ https://lilive1.eu.cc/live/ae00fe5f05da642d5fe8a0a79d223deb/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/uzbekistan.png" group-title="Giờ Vàng" , 24-09 21:00 [LIVE Đang diễn ra] Uzbekistan vs Iran (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790256292_hd/1790256292_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/e3254af2b05f7327e76133d892cf20ad.png" group-title="Phá Làng" , 24-09 21:00 [LIVE LIVE] Uzbekistan - IR Iran (LÝ LA LÀNG) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
