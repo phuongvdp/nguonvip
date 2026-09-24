@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:58:12 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:01:36 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (18 trận), Chuối Chiên (20 trận), Phá Làng (23 trận), Gà Vàng (7 trận), Sao Kê (24 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (17 trận), Chuối Chiên (20 trận), Phá Làng (22 trận), Gà Vàng (7 trận), Sao Kê (24 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/8zTp1yeTn2hlV2y0TYHS9A_96x96.png" group-title="Giờ Vàng" , 24/09 20:00 🟢 ⚽ Namibia vs Congo (Giovang 1)
@@ -57,15 +57,6 @@ https://playback.livetl002.com/live/6a5df755b89dded67b39b8bc.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ce13c4a0131f5e09ada54a4f3eb90e18.png" group-title="Phá Làng" , 24/09 22:00 🟡 ⚽ Al Qadisiya SC - Al Fahaheel SC (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#k82rekh2zndprep
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/37bd2b84378dec1c6307f4c6d5dd02b3.png" group-title="Phá Làng" , 24/09 22:00 🟡 ⚽ Koprivnica - NK Uskok (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#x7lm7phxg8ngm2w
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_650.jpg" group-title="Khán Đài" , 24/09 22:55 🟡 ⚽ United Arab Emirates vs Yemen (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/united-arab-emirates-vs-yemen-24-09-2026-857451
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133415_27f7a7df.png" group-title="Chuối Chiên" , 24/09 22:55 🟡 ⚽ United Arab Emirates vs Yemen (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1637930/united-arab-emirates-vs-yemen
 
@@ -75,49 +66,49 @@ https://phalang.live/trang-chu#3glrw7hnxpvxqdy
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5789.png" group-title="Sao Kê" , 24/09 22:55 🟡 ⚽ UAE vs Yemen (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/uae-vs-yemen-6ab47b441c8a389f4b1012d9.html
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/democratic-rep-congo.png" group-title="Giờ Vàng" , 24/09 23:00 ⚽ D.R. Congo vs Equatorial Guinea (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/democratic-rep-congo.png" group-title="Giờ Vàng" , 24/09 23:00 🟡 ⚽ D.R. Congo vs Equatorial Guinea (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-d-r-congo-vs-equatorial-guinea-24-09-r0x9mk8xu31h
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/libya.png" group-title="Giờ Vàng" , 24/09 23:00 ⚽ Libya vs Botswana (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/libya.png" group-title="Giờ Vàng" , 24/09 23:00 🟡 ⚽ Libya vs Botswana (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-libya-vs-botswana-24-09-f0vydjpos64j
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/96/National_Seal_of_Mauritania.svg" group-title="Giờ Vàng" , 24/09 23:00 ⚽ Mauritania vs Central Africa (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/96/National_Seal_of_Mauritania.svg" group-title="Giờ Vàng" , 24/09 23:00 🟡 ⚽ Mauritania vs Central Africa (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-mauritania-vs-central-africa-24-09-meh5n2haey46
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/andorra.png" group-title="Giờ Vàng" , 24/09 23:00 ⚽ Andorra vs Malta (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/andorra.png" group-title="Giờ Vàng" , 24/09 23:00 🟡 ⚽ Andorra vs Malta (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-andorra-vs-malta-24-09-69f544134f51b3673a069156
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_700.jpg" group-title="Khán Đài" , 24/09 23:00 ⚽ Andorra vs Malta (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_700.jpg" group-title="Khán Đài" , 24/09 23:00 🟡 ⚽ Andorra vs Malta (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/andorra-vs-malta-24-09-2026-790812
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134300_f374ede9.png" group-title="Chuối Chiên" , 24/09 23:00 ⚽ Andorra vs Malta (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134300_f374ede9.png" group-title="Chuối Chiên" , 24/09 23:00 🟡 ⚽ Andorra vs Malta (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1545601/andorra-vs-malta
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134303_62a9fc07.png" group-title="Chuối Chiên" , 24/09 23:00 ⚽ Mauritania vs Central African Republic (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134303_62a9fc07.png" group-title="Chuối Chiên" , 24/09 23:00 🟡 ⚽ Mauritania vs Central African Republic (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1545825/mauritania-vs-central-african-republic
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2dfdbd485122a079a38985b286ba3ef2.png" group-title="Phá Làng" , 24/09 23:00 ⚽ Libya - Botswana (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2dfdbd485122a079a38985b286ba3ef2.png" group-title="Phá Làng" , 24/09 23:00 🟡 ⚽ Libya - Botswana (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#1l4rjnh9v7xom7v
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7f5e0cd419a4b7509e13399efb75056a.png" group-title="Phá Làng" , 24/09 23:00 ⚽ Democratic Republic of the Congo - Equatorial Guinea (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7f5e0cd419a4b7509e13399efb75056a.png" group-title="Phá Làng" , 24/09 23:00 🟡 ⚽ Democratic Republic of the Congo - Equatorial Guinea (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkh675kzqg8
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260921/fd5edd4af82d9f55eb1b81c1b83fad7a.png" group-title="Phá Làng" , 24/09 23:00 ⚽ Andorra - Malta (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260921/fd5edd4af82d9f55eb1b81c1b83fad7a.png" group-title="Phá Làng" , 24/09 23:00 🟡 ⚽ Andorra - Malta (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66hx8y2nqo9
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/92b02db5c7055f19215ec5d07813ea79.png" group-title="Phá Làng" , 24/09 23:00 ⚽ Mauritania - Central African Republic (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/92b02db5c7055f19215ec5d07813ea79.png" group-title="Phá Làng" , 24/09 23:00 🟡 ⚽ Mauritania - Central African Republic (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#zp5rzghg8kp9q82
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/15fa1fad1fc582dd65403f6f950b1e21.png" group-title="Gà Vàng" , 24/09 23:00 ⚽ Andorra vs Malta (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/15fa1fad1fc582dd65403f6f950b1e21.png" group-title="Gà Vàng" , 24/09 23:00 🟡 ⚽ Andorra vs Malta (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/truc-tiep/andorra-vs-malta-ngay-24-09-2026/
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ce991ab3a9bd4859bdb6cf6e9b623a35.png" group-title="Gà Vàng" , 24/09 23:00 ⚽ DR Congo vs Equatorial Guinea (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ce991ab3a9bd4859bdb6cf6e9b623a35.png" group-title="Gà Vàng" , 24/09 23:00 🟡 ⚽ DR Congo vs Equatorial Guinea (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/truc-tiep/democratic-republic-of-the-congo-vs-equatorial-guinea-ngay-24-09-2026/
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10045.png" group-title="Sao Kê" , 24/09 23:00 ⚽ Andorra vs Malta (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10045.png" group-title="Sao Kê" , 24/09 23:00 🟡 ⚽ Andorra vs Malta (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/andorra-vs-malta-6ab47b441c8a389f4b1012d2.html
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/68374.png" group-title="Sao Kê" , 24/09 23:00 ⚽ Mauritania vs Central African Republic (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/68374.png" group-title="Sao Kê" , 24/09 23:00 🟡 ⚽ Mauritania vs Central African Republic (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/mauritania-vs-central-african-republic-6ab47b441c8a389f4b1012d6.html
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fbc3e86a73f05d8ea22028a091e30479.png" group-title="Phá Làng" , 24/09 23:30 ⚽ Siegen Sportfreunde - Borussia Monchengladbach (Chưa có link — chờ cập nhật)
@@ -279,6 +270,9 @@ https://khandai3.link/truc-tiep/china-w-vs-vietnam-w-25-09-2026-858233
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142845_d31bb816.png" group-title="Chuối Chiên" , 25/09 13:00 ⚽ China W vs Vietnam W (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641131/china-w-vs-vietnam-w
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/654baedfc71d1f2d9fa0c348d9ff8f6b.png" group-title="Phá Làng" , 25/09 13:00 ⚽ China Women - Vietnam Women (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#l5ergphk05kjr8k
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/dYBFA1me-nNtI3CTL.png" group-title="Sao Kê" , 25/09 13:00 ⚽ China W vs Vietnam W (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/china-w-vs-vietnam-w-6ab536d922d091f455707fb9.html
