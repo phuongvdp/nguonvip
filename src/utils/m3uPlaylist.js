@@ -59,7 +59,16 @@ const REFERER_CANDIDATES_BY_SOURCE = {
   chuoichientv: ['https://live05.chuoichientv.me/', 'https://chuoichientv.link/', null],
   giovang: [process.env.GIOVANG_DOMAIN || 'https://giovang.city', null],
   khandaitv: [process.env.KHANDAITV_DOMAIN || process.env.KHANDAITV_BASE_URL || 'https://khandai3.link', null],
-  phalang: ['https://phalang.live', 'https://phalang.live/', null]
+  phalang: ['https://phalang.live', 'https://phalang.live/', null],
+  // FIX (24/09/2026 — theo yêu cầu "tiện thêm #EXTVLCOPT vào luôn" cho 2
+  // nguồn mới Gà Vàng + Sao Kê, trước đó bị bỏ sót khỏi danh sách này nên
+  // chưa từng có Referer nào được gắn):
+  gavang: [process.env.GAVANG_DOMAIN || 'https://gavanglinkp.tv/', null],
+  // Sao Kê dùng CHUNG 2 CDN với Chuối Chiến (stream.hdplaylink.com,
+  // edgemaxcdn.org — xem cảnh báo trong saoke.service.js) nên ưu tiên thử
+  // lại đúng các Referer đã biết của Chuối Chiến trước, thêm domain thật
+  // của chính Sao Kê (siteUrl trong config) làm ứng viên bổ sung.
+  saoke: ['https://live05.chuoichientv.me/', 'https://chuoichientv.link/', process.env.SAOKE_DOMAIN || 'https://vip3.saoketv40.xyz/', null]
 };
 
 const IPTV_REFERER_PROBE_TIMEOUT_MS = 4000;

@@ -14,9 +14,13 @@ const client = createHttpClient(
       Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
       'Accept-Language': 'vi,en-US;q=0.9,en;q=0.8'
     },
-    timeout: 8000
+    // FIX (24/09/2026 — "timeout of 8000ms exceeded" khi chạy trên GitHub
+    // Actions): domain này có lúc phản hồi chậm hơn 8s từ máy chủ CI (khác
+    // hẳn tốc độ khi mở bằng tay từ trình duyệt thật) — tăng timeout + số
+    // lần thử lại cho đỡ bị coi là lỗi chỉ vì chậm tạm thời.
+    timeout: 15000
   },
-  { maxAttempts: 2 }
+  { maxAttempts: 3, retryDelayMs: 1000 }
 );
 
 // ---------------------------------------------------------------------------
