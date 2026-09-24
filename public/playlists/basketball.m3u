@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:00:39 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:04:09 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (7 trận), Gà Vàng (8 trận) =====
 
@@ -7,8 +7,10 @@
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/e5c63f30ad74c5c5159f1e7695173ae5.png" group-title="Giờ Vàng" , 24-09 16:30 [LIVE Đang diễn ra] South East Melbourne Phoenix vs Melbourne United (Chưa có link — chờ cập nhật) [hls]
 https://giovang.city/truc-tiep-south-east-melbourne-phoenix-vs-melbourne-united-24-09-29122273
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/d3fc6c75b5a81c1d4e35a0ec94c9b031.png" group-title="Giờ Vàng" , 24-09 17:20 Japan (W) vs Thailand (W) (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-japan-w-vs-thailand-w-24-09-37580471
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/d3fc6c75b5a81c1d4e35a0ec94c9b031.png" group-title="Giờ Vàng" , 24-09 17:20 [LIVE Đang diễn ra] Japan (W) vs Thailand (W) (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790234241_hd/1790234241_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/d6e217ac051f3258b82d74a932d11ada.png" group-title="Giờ Vàng" , 24-09 18:30 Perth Wildcats vs Adelaide 36ers (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-perth-wildcats-vs-adelaide-36ers-24-09-10222275
