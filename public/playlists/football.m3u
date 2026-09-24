@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:44:59 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:47:26 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (14 trận), Chuối Chiên (19 trận), Phá Làng (46 trận), Gà Vàng (12 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (14 trận), Chuối Chiên (19 trận), Phá Làng (45 trận), Gà Vàng (11 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cedefb834d84c29f26ebdf2384b381a4.png" group-title="Pha Lang TV" , 24-09 12:30 [LIVE LIVE] Hal FC - Karnataka (Server 1) [hls]
@@ -13,12 +13,6 @@ https://lilive1.eu.cc/live/eab6ccdbf782a73b9bfe44339b8e85e4/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/55641b8546bd16655daa918b657af6dd.png" group-title="Pha Lang TV" , 24-09 13:45 Mawtawar SC - Nongthymai SC (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#l7oqdehjydv1r51
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/55641b8546bd16655daa918b657af6dd.png" group-title="Ga Vang TV" , 24-09 13:45 Mawtawar SC vs Nongthymai SC (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://gavanglinkp.tv/truc-tiep/mawtawar-sc-vs-nongthymai-sc-ngay-24-09-2026/
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/QqFRYqe5-fmpRzHfB.png" group-title="Gio Vang TV" , 24-09 14:00 Papua New Guinea vs New Caledonia (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-papua-new-guinea-vs-new-caledonia-24-09-6ab3e97b24d46db870b262d1
