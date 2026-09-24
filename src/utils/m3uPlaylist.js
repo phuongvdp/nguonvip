@@ -107,7 +107,17 @@ const REFERER_CANDIDATES_BY_SOURCE = {
   // edgemaxcdn.org — xem cảnh báo trong saoke.service.js) nên ưu tiên thử
   // lại đúng các Referer đã biết của Chuối Chiến trước, thêm domain thật
   // của chính Sao Kê (siteUrl trong config) làm ứng viên bổ sung.
-  saoke: ['https://live05.chuoichientv.me/', 'https://chuoichientv.link/', process.env.SAOKE_DOMAIN || 'https://vip3.saoketv40.xyz/', null]
+  // FIX (24/09/2026 — "Sao Kê các trận lỗi không xem được", link ra kèm
+  // Referer chuoichientv): Referer đúng của Sao Kê là CHÍNH DOMAIN của nó
+  // (trang Sao Kê tự phát bằng Referer đó) -> đặt LÊN ĐẦU; Referer Chuối
+  // Chiến chỉ còn dự phòng. Quan trọng vì khi dò thất bại (IP CI bị CDN
+  // chặn) code dùng ứng viên ĐẦU TIÊN làm best-guess.
+  saoke: [
+    `${String(process.env.SAOKE_DOMAIN || process.env.SAOKE_BASE_URL || 'https://vip3.saoketv40.xyz').replace(/\/+$/, '')}/`,
+    'https://live05.chuoichientv.me/',
+    'https://chuoichientv.link/',
+    null
+  ]
 };
 
 const IPTV_REFERER_PROBE_TIMEOUT_MS = 4000;
@@ -164,14 +174,18 @@ async function resolveIptvReferer(url, source) {
     return null;
   }
 
-  const remembered = workingRefererByHost.get(host);
+  // FIX (24/09/2026): khoá nhớ theo CẢ nguồn + host — Sao Kê và Chuối Chiến
+  // dùng chung CDN edgemaxcdn.org, nếu chỉ nhớ theo host thì Referer của nguồn
+  // này bị áp nhầm sang nguồn kia.
+  const cacheKey = `${source}|${host}`;
+  const remembered = workingRefererByHost.get(cacheKey);
   if (remembered !== undefined) return remembered;
 
   for (const referer of candidates) {
     // eslint-disable-next-line no-await-in-loop
     const ok = await probeReferer(url, referer);
     if (ok) {
-      workingRefererByHost.set(host, referer);
+      workingRefererByHost.set(cacheKey, referer);
       return referer;
     }
   }

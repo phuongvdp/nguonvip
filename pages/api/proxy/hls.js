@@ -51,8 +51,8 @@ const GAVANG_MAIN = String(process.env.GAVANG_DOMAIN || process.env.GAVANG_BASE_
 const GAVANG_ORIGINS = [...new Set([GAVANG_MAIN, 'https://gavanglinkp.tv', 'https://gavangtv.tv', 'https://gavangtvv.cc'])].map((d) => `${d}/`);
 
 // Sao Kê dùng CHUNG 2 CDN với Chuối Chiến (hdplaylink.com, edgemaxcdn.org — xem
-// saoke.service.js) nên thử Referer của Chuối Chiến trước, rồi tới domain thật
-// của Sao Kê (SAOKE_DOMAIN). GIỮ ĐỒNG BỘ với REFERER_CANDIDATES_BY_SOURCE.saoke
+// saoke.service.js) nên thử domain thật của Sao Kê (SAOKE_DOMAIN) TRƯỚC, rồi mới tới
+// Referer của Chuối Chiến. GIỮ ĐỒNG BỘ với REFERER_CANDIDATES_BY_SOURCE.saoke
 // trong src/utils/m3uPlaylist.js.
 const SAOKE_SITE = String(process.env.SAOKE_DOMAIN || process.env.SAOKE_BASE_URL || 'https://vip3.saoketv40.xyz').replace(/\/+$/, '');
 
@@ -127,7 +127,11 @@ const REFERER_CANDIDATES_BY_SOURCE = {
   // chứng mới, tránh lặp lại vòng dò mù đã từng tốn công ở Chuối Chiên.
   phalang: [REFERER_BY_SOURCE.phalang, `${REFERER_BY_SOURCE.phalang}/`, null],
   gavang: [...GAVANG_ORIGINS, null],
-  saoke: ['https://live05.chuoichientv.me/', 'https://chuoichientv.link/', `${SAOKE_SITE}/`, null]
+  // FIX (24/09/2026 — "Sao Kê các trận lỗi không xem được" dù link .m3u8 có
+  // #EXTVLCOPT Referer chuoichientv): trang Sao Kê tự phát bằng Referer LÀ
+  // CHÍNH DOMAIN CỦA NÓ, nên Referer đúng phải là SAOKE_SITE — đặt LÊN ĐẦU.
+  // Referer Chuối Chiến chỉ còn là ứng viên dự phòng.
+  saoke: [`${SAOKE_SITE}/`, 'https://live05.chuoichientv.me/', 'https://chuoichientv.link/', null]
 };
 
 // Nhớ lại (trong bộ nhớ container, theo hostname CDN) ứng viên Referer nào
