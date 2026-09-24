@@ -1,13 +1,21 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:24:52 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:28:02 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (20 trận) =====
 
 # ----- Ngày 2026-09-24 -----
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ac3f493742d14eee1e4e4ae00f2704f6.png" group-title="Gà Vàng" , 24-09 16:00 [LIVE LIVE] Laos vs Brunei Darussalam (A Long) [hls]
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69ef10b47146e04fbe6d4363.m3u8
+
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/72fb22982ac69857cb2432f13589836e.png" group-title="Gà Vàng" , 24-09 16:30 Palestine vs New Zealand (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/truc-tiep/palestine-vs-new-zealand-ngay-24-09-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/fb957ad093d309e8c337aeb83ebe7857.png" group-title="Gà Vàng" , 24-09 16:30 South East Melbourne Phoenix vs Melbourne United (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/93709f353756351288025d64f4ef9821.png" group-title="Gà Vàng" , 24-09 16:40 National Formasa University vs National Taiwan Sport University (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f9ce800b0fd64b339c2bcf8ec7d9ec0e.png" group-title="Gà Vàng" , 24-09 17:05 Japan vs Uruguay (Chưa có link — chờ cập nhật) [sắp diễn ra]
