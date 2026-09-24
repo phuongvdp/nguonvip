@@ -1,13 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:23:01 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:25:15 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (1 trận), Phá Làng (1 trận) =====
-
-# ----- Ngày 2026-09-24 -----
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/2fe3dacd8ef0883c8d995fac5b72b97a.png!w80" group-title="Phá Làng" , 24/09 23:00 🟢 🏐 Eczacibasi Nữ - Vakifbank Nữ (LÝ LÊN LỬA (Server 1))
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://pull.digitalcdn.net/live/15fce01d8d3d4492aaab6cad92ddcb11/index.m3u8
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (1 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_oeLkAjM.jpg" group-title="Khán Đài" , 25/09 22:00 🏐 Slovenia vs Ba Lan (Chưa có link — chờ cập nhật)

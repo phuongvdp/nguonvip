@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:23:01 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:25:15 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (18 trận) =====
 
@@ -14,6 +14,11 @@ https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_23.jpg" group-title="Khán Đài" , 25/09 01:45 🟢 ⚽ Portugal vs Wales (Lee Sin)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_675.jpg" group-title="Khán Đài" , 25/09 01:45 🟢 ⚽ Serbia vs Greece (Kền Kền)
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -27,9 +32,6 @@ https://khandai3.link/truc-tiep/kosovo-vs-ireland-25-09-2026-790825
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_10.jpg" group-title="Khán Đài" , 25/09 01:45 🟡 ⚽ Netherlands vs Germany (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/netherlands-vs-germany-25-09-2026-790872
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_23.jpg" group-title="Khán Đài" , 25/09 01:45 🟡 ⚽ Portugal vs Wales (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/portugal-vs-wales-25-09-2026-790874
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646.png" group-title="Khán Đài" , 25/09 12:00 ⚽ Uzbekistan U23 vs Saudi Arabia U23 (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/uzbekistan-u23-vs-saudi-arabia-u23-25-09-2026-858280
