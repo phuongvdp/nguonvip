@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 02:29:42 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 02:31:59 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (18 trận) =====
 
@@ -44,25 +44,10 @@ https://lilive1.eu.cc/live/4e65cdbe37d9769793b5f9aa9f3697f2/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/49627856a39b6fdcb15fd7cd42c909e7/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5de585a438634b088e5734dde6783ffd.png" group-title="Phá Làng" , 25/09 02:00 🟢 ⚽ Tunisia - Uganda (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/e2eea1cfc43c46161a8910576990896d/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d9b9e86f423a14e7507e8de603f02f3b.png" group-title="Phá Làng" , 25/09 02:00 🟢 ⚽ Sierra Leone - Zimbabwe (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/c4a2fbac6ace039058e5f682c36daca7/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7c3811819608f6a4ec34b52cbeb68965.png" group-title="Phá Làng" , 25/09 02:00 🟢 ⚽ Cameroon - Comoros (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/ee2a99dfc250484ad513327dce25c62f/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/db5f54482ae28e132611f4c928b6f672.png" group-title="Phá Làng" , 25/09 02:00 🟢 ⚽ Cote d'Ivoire - Ghana (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/c8542c4e58a445645b85bb9cd66bac7e/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/654baedfc71d1f2d9fa0c348d9ff8f6b.png" group-title="Phá Làng" , 25/09 13:00 ⚽ China Women - Vietnam Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l5ergphk05kjr8k
@@ -81,3 +66,12 @@ https://phalang.live/trang-chu#k82rekh2zn02rep
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/ca3770cad8bb96638f9ecec7819b2c9c.png" group-title="Phá Làng" , 25/09 17:00 ⚽ Australia - Brazil (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkh6j4p8qg8
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/41fcd04dcd049309ad05bca33ea46883.png" group-title="Phá Làng" , 25/09 17:30 ⚽ Japan Women - Philippines Women (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#4wyrn4hyz7y5q86
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3fcd619b384dbbd8b4c3af19f622fc7f.png" group-title="Phá Làng" , 25/09 17:30 ⚽ FC Zurich - Neuchatel Xamax (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#965mkyh8l50pr1g
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/6662e3d4dd66b366296f78fb89f6f778.png" group-title="Phá Làng" , 25/09 17:30 ⚽ South Korea U23 - Vietnam U23 (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#jw2r09h547g4rz8
