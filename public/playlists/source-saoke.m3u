@@ -1,55 +1,55 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:18:38 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:21:03 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (15 trận) =====
 
 # ----- Ngày 2026-09-24 -----
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5802.png" group-title="Sao Kê" , 24-09 20:00 [LIVE LIVE] Namibia vs Congo (Quang Huy) [hls]
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5802.png" group-title="Sao Kê" , 🟢 20:00 24/09 ⚽ Namibia vs Congo (Quang Huy)
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8700.png" group-title="Sao Kê" , 24-09 21:00 [LIVE LIVE] Uzbekistan vs Iran (Teppy) [hls]
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8700.png" group-title="Sao Kê" , 🟢 21:00 24/09 ⚽ Uzbekistan vs Iran (Teppy)
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5789.png" group-title="Sao Kê" , 24-09 22:55 UAE vs Yemen (Chưa có link — chờ cập nhật) [sắp diễn ra]
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5789.png" group-title="Sao Kê" , 22:55 24/09 ⚽ UAE vs Yemen (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/uae-vs-yemen-6ab47b441c8a389f4b1012d9.html
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10045.png" group-title="Sao Kê" , 24-09 23:00 Andorra vs Malta (Chưa có link — chờ cập nhật) [sắp diễn ra]
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10045.png" group-title="Sao Kê" , 23:00 24/09 ⚽ Andorra vs Malta (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/andorra-vs-malta-6ab47b441c8a389f4b1012d2.html
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/68374.png" group-title="Sao Kê" , 24-09 23:00 Mauritania vs Central African Republic (Chưa có link — chờ cập nhật) [sắp diễn ra]
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/68374.png" group-title="Sao Kê" , 23:00 24/09 ⚽ Mauritania vs Central African Republic (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/mauritania-vs-central-african-republic-6ab47b441c8a389f4b1012d6.html
 
 # ----- Ngày 2026-09-25 -----
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5902.png" group-title="Sao Kê" , 25-09 01:00 Qatar vs Bahrain (Chưa có link — chờ cập nhật) [sắp diễn ra]
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5902.png" group-title="Sao Kê" , 01:00 25/09 ⚽ Qatar vs Bahrain (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/qatar-vs-bahrain-6ab47b441c8a389f4b1012da.html
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6708.png" group-title="Sao Kê" , 25-09 01:45 Netherlands vs Germany (Chưa có link — chờ cập nhật) [sắp diễn ra]
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6708.png" group-title="Sao Kê" , 01:45 25/09 ⚽ Netherlands vs Germany (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/netherlands-vs-germany-6ab47b441c8a389f4b1012ce.html
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8205.png" group-title="Sao Kê" , 25-09 01:45 Serbia vs Greece (Chưa có link — chờ cập nhật) [sắp diễn ra]
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8205.png" group-title="Sao Kê" , 01:45 25/09 ⚽ Serbia vs Greece (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/serbia-vs-greece-6ab47b441c8a389f4b1012cf.html
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8492.png" group-title="Sao Kê" , 25-09 01:45 Norway vs Denmark (Chưa có link — chờ cập nhật) [sắp diễn ra]
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8492.png" group-title="Sao Kê" , 01:45 25/09 ⚽ Norway vs Denmark (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/norway-vs-denmark-6ab47b441c8a389f4b1012d0.html
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8361.png" group-title="Sao Kê" , 25-09 01:45 Portugal vs Wales (Chưa có link — chờ cập nhật) [sắp diễn ra]
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8361.png" group-title="Sao Kê" , 01:45 25/09 ⚽ Portugal vs Wales (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/portugal-vs-wales-6ab47b441c8a389f4b1012d1.html
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6709.png" group-title="Sao Kê" , 25-09 02:00 Ivory Coast vs Ghana (Chưa có link — chờ cập nhật) [sắp diễn ra]
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6709.png" group-title="Sao Kê" , 02:00 25/09 ⚽ Ivory Coast vs Ghana (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/ivory-coast-vs-ghana-6ab47b441c8a389f4b1012d5.html
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6629.png" group-title="Sao Kê" , 25-09 02:00 Cameroon vs Comoros (Chưa có link — chờ cập nhật) [sắp diễn ra]
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6629.png" group-title="Sao Kê" , 02:00 25/09 ⚽ Cameroon vs Comoros (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/cameroon-vs-comoros-6ab47b441c8a389f4b1012d7.html
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6368.png" group-title="Sao Kê" , 25-09 07:30 Atlético Nacional vs Millonarios (Chưa có link — chờ cập nhật) [sắp diễn ra]
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6368.png" group-title="Sao Kê" , 07:30 25/09 ⚽ Atlético Nacional vs Millonarios (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/atletico-nacional-vs-millonarios-6ab47b441c8a389f4b1012cd.html
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/452823.png" group-title="Sao Kê" , 25-09 08:00 Alebrijes Oaxaca vs Atlético La Paz (Chưa có link — chờ cập nhật) [sắp diễn ra]
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/452823.png" group-title="Sao Kê" , 08:00 25/09 ⚽ Alebrijes Oaxaca vs Atlético La Paz (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/alebrijes-oaxaca-vs-atletico-la-paz-6ab47b441c8a389f4b1012d3.html
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6705.png" group-title="Sao Kê" , 25-09 09:00 Costa Rica vs Curacao (Chưa có link — chờ cập nhật) [sắp diễn ra]
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6705.png" group-title="Sao Kê" , 09:00 25/09 ⚽ Costa Rica vs Curacao (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/costa-rica-vs-curacao-6ab47b441c8a389f4b1012d4.html
