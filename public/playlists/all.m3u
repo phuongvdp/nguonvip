@@ -1,18 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:34:24 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:36:41 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (24 trận), Chuối Chiên (20 trận), Phá Làng (20 trận), Gà Vàng (23 trận), Sao Kê (27 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (24 trận), Chuối Chiên (20 trận), Phá Làng (19 trận), Gà Vàng (24 trận), Sao Kê (27 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/efa8ac06cc6747b1835520f01650a0ab.png" group-title="Gà Vàng" , 25/09 01:00 🟢 ⚽ Qatar vs Bahrain (THICHDUTHU)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a704ad865997681f18c2160.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/c98a3d8df4a10628be76ab5e38a4d65c.png" group-title="Giờ Vàng" , 25/09 01:30 🟢 🏀 FC Barcelona vs Efes Pilsen (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790260025_hd/1790260025_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/netherlands.png" group-title="Giờ Vàng" , 25/09 01:45 🟢 ⚽ Hà Lan vs Đức (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
@@ -98,11 +93,6 @@ https://lilive1.eu.cc/live/7314e04ad2f0d011f1c67e7c8c658241/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/20c183129474010d9b3ffcac1d64629f/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/39d41afb2568dfec156deacac35899dc.png" group-title="Phá Làng" , 25/09 01:45 🟢 ⚽ Liechtenstein - Lithuania (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/3b3a555d496ca38314ff68d5649ae72c/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bbea012d53f21d784f380f3f33892f09.png" group-title="Phá Làng" , 25/09 01:45 🟢 ⚽ Kosovo - Ireland (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang.live/
@@ -237,6 +227,9 @@ https://gavanglinkp.tv/
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/691f1fbb808378a5c4cb07fa320d017d.png" group-title="Giờ Vàng" , 25/09 06:00 🏀 Connecticut Sun vs Toronto Tempo (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-connecticut-sun-vs-toronto-tempo-25-09-26525075
 
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/4f8ab1cca77a4214895224deba4560fb.png" group-title="Gà Vàng" , 25/09 06:00 🏀 Sao Jose vs Capiata Bulls (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/281785f0c0c2ba8aec9aee97af2dff20.png" group-title="Gà Vàng" , 25/09 06:00 🏀 Deportes Castro vs Colo Colo (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
@@ -244,9 +237,6 @@ https://gavanglinkp.tv/
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/077bf35869447b9520b7b4ff6e1be381.png" group-title="Gà Vàng" , 25/09 06:00 🏀 Ancud vs Puerto Montt (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/4f8ab1cca77a4214895224deba4560fb.png" group-title="Gà Vàng" , 25/09 06:00 🏀 Sao Jose vs Capiata Bulls (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/35a5be36dd8ecfe7e2ab950a6098ddf0.png" group-title="Gà Vàng" , 25/09 06:15 🏀 Sayago vs Trouville (Chưa có link — chờ cập nhật)
@@ -259,6 +249,9 @@ https://giovang.city/truc-tiep-washington-mystics-vs-chicago-sky-25-09-27525076
 https://gavanglinkp.tv/truc-tiep/everton-cd-vs-universidad-de-chile-ngay-25-09-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/5705d9383eee879ac93b32996f817700.png" group-title="Gà Vàng" , 25/09 06:30 🏀 Las Animas vs CD Espanol Talca LNB2 (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/f619a41699e34ed5b9c8047ecb688ca3.png" group-title="Gà Vàng" , 25/09 06:30 🏀 Washington Mystics vs Chicago Sky (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/lxrfbgcM-raJr9r28.png" group-title="Giờ Vàng" , 25/09 07:00 ⚽ Dominican Republic vs Nicaragua (Chưa có link — chờ cập nhật)
