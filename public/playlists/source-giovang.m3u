@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:43:36 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:45:55 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/250px-FC_Barcelona_%28crest%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 25/09 01:30 🟢 🏀 Barca vs Anadolu Efes (Giovang 1)
@@ -28,9 +28,6 @@ https://eqr2hdarxfliv.vcdn.cloud/1790144469_hd/1790144469_hd@720p.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790144350_hd/1790144350_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/austria.png" group-title="Giờ Vàng" , 25/09 01:45 🟡 ⚽ Áo vs Israel (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-ao-vs-israel-25-09-69f7e7425c39b5554409bf57
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/x8bRMNZA-AJxZzB1j.png" group-title="Giờ Vàng" , 25/09 04:00 ⚽ O'Higgins vs CD Santa Cruz (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-o-higgins-vs-cd-santa-cruz-25-09-y928lsnp1gck
@@ -74,3 +71,18 @@ https://giovang.city/truc-tiep-besiktas-vs-valencia-25-09-z3q66e66p0tm
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/england-u21.png" group-title="Giờ Vàng" , 26/09 01:30 ⚽ U21 Anh vs U21 Kazakhstan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-u21-anh-vs-u21-kazakhstan-26-09-683e3b421f892a5e5c0902f8
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/hungary.png" group-title="Giờ Vàng" , 26/09 01:45 ⚽ Hungary vs Ukraine (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-hungary-vs-ukraine-26-09-69f3f2b74bff4a0c310bf778
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/poland.png" group-title="Giờ Vàng" , 26/09 01:45 ⚽ Ba Lan vs Bosnia & Herzegovina (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-ba-lan-vs-bosnia-herzegovina-26-09-69f7e7425c39b5554409bf5e
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/sweden.png" group-title="Giờ Vàng" , 26/09 01:45 ⚽ Thụy Điển vs Romania (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-thuy-dien-vs-romania-26-09-69f695d673ba0b335e0f2ed1
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/italy.png" group-title="Giờ Vàng" , 26/09 01:45 ⚽ Ý vs Bỉ (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-y-vs-bi-26-09-69f2a1a2bb398665fd0908d8
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/turkey.png" group-title="Giờ Vàng" , 26/09 01:45 ⚽ Thổ Nhĩ Kỳ vs Pháp (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-tho-nhi-ky-vs-phap-26-09-69f2a1a2bb398665fd0908d9
