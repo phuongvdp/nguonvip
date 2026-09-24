@@ -69,10 +69,15 @@ const MAJOR_LEAGUE_RE = new RegExp([
   'champions league', '\\bc[12]\\b', 'europa', 'conference league', 'uefa', 'nations league', '\\beuro\\b', 'euro 20',
   'world cup', 'wcq', 'vong loai', 'asian cup', '\\bafc\\b', 'fifa', 'conmebol', 'concacaf', 'copa america', 'libertadores', 'sudamericana', 'olympic',
   'eredivisie', 'primeira liga', 'liga portugal', 'super lig', 'saudi', 'pro league',
-  'j-?league', '\\bj1\\b', 'k-?league', '\\bmls\\b', 'giao huu', 'friendl'
+  'j-?league', '\\bj1\\b', 'k-?league', '\\bmls\\b'
 ].join('|'));
 
 const VIETNAM_RE = /viet ?nam|sea games|\baff\b|asean|v-?league/;
+// FIX (24/09/2026 — "bị mất các trận giao hữu"): trận giao hữu luôn được giữ,
+// kiểm tra trên CẢ tên giải lẫn tiêu đề trận (nhiều trận giao hữu không ghi
+// "giao hữu" ở tên giải mà chỉ ghi ở tiêu đề, hoặc tên giải kiểu "Club
+// Friendlies"/"Quốc tế"), và bỏ qua luật loại giải trẻ/hạng thấp.
+const FRIENDLY_RE = /giao huu|giao luu|friendl|\bclub friendly\b|\bint(?:ernational)? ?cf\b|quoc te|international/;
 
 function stripDiacritics(text) {
   return String(text || '')
@@ -99,6 +104,7 @@ function isNotableMatch(match) {
   const league = stripDiacritics(match?.competition?.name || '');
 
   if (!league) return true; // API không trả tên giải -> không đủ cơ sở để loại, giữ lại
+  if (FRIENDLY_RE.test(text)) return true;
   if (VIETNAM_RE.test(text)) return true;
   if (EXTRA_MAJOR_RE && EXTRA_MAJOR_RE.test(league)) return true;
   return MAJOR_LEAGUE_RE.test(league) && !MINOR_LEAGUE_RE.test(text);
