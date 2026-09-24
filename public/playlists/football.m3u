@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:55:39 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:58:51 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (19 trận), Chuối Chiên (20 trận), Phá Làng (21 trận), Gà Vàng (4 trận), Sao Kê (23 trận) =====
 
@@ -34,10 +34,8 @@ https://eqr2hdarxfliv.vcdn.cloud/1790144037_hd/1790144037_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790144181_hd/1790144181_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/96/National_Seal_of_Mauritania.svg" group-title="Giờ Vàng" , 24/09 23:00 🟢 ⚽ Mauritania vs Central Africa (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790263255_hd/1790263255_hd@720p.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/96/National_Seal_of_Mauritania.svg" group-title="Giờ Vàng" , 24/09 23:00 🟢 ⚽ Mauritania vs Central Africa (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-mauritania-vs-central-africa-24-09-meh5n2haey46
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_700.jpg" group-title="Khán Đài" , 24/09 23:00 🟢 ⚽ Andorra vs Malta (Tiểu Mây)
 #EXTVLCOPT:http-referrer=https://khandai3.link
