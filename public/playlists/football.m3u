@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:04:12 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:06:44 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (11 trận), Khán Đài (17 trận), Chuối Chiên (19 trận), Phá Làng (21 trận), Gà Vàng (7 trận), Sao Kê (24 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (11 trận), Khán Đài (17 trận), Chuối Chiên (20 trận), Phá Làng (21 trận), Gà Vàng (7 trận), Sao Kê (24 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/247c0a953f3a082b83443b3dfccedffb.png" group-title="Gà Vàng" , 24/09 20:00 🟢 ⚽ Namibia vs Congo (cố tư nghiêm)
@@ -297,6 +297,9 @@ https://khandai3.link/truc-tiep/south-korea-u23-vs-vietnam-u23-25-09-2026-858281
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133018_f7c8e720.png" group-title="Chuối Chiên" , 25/09 17:30 ⚽ Japan W vs Philippines W (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641133/japan-w-vs-philippines-w
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Chuối Chiên" , 25/09 17:30 ⚽ U23 Hàn Quốc  vs U23 Vietnam  (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1641615/u23-han-quoc-vs-u23-vietnam
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/hhLSZO76-h05QSROl.png" group-title="Sao Kê" , 25/09 17:30 ⚽ South Korea W vs Uzbekistan W (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/south-korea-w-vs-uzbekistan-w-6ab536d922d091f455707fba.html
