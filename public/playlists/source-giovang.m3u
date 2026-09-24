@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:05:18 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:07:29 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 24-09 13:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
@@ -13,11 +13,6 @@ https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790231951_hd/1790231951_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/d3fc6c75b5a81c1d4e35a0ec94c9b031.png" group-title="Giờ Vàng" , 24-09 17:20 [LIVE Đang diễn ra] Japan (W) vs Thailand (W) (Giovang 1) [hls]
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790234241_hd/1790234241_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea.png" group-title="Giờ Vàng" , 24-09 18:00 [LIVE Đang diễn ra] Hàn Quốc vs Ecuador (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
