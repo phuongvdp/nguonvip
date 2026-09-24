@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:57:01 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:59:33 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (20 trận), Chuối Chiên (18 trận), Phá Làng (63 trận), Gà Vàng (9 trận), Sao Kê (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (20 trận), Chuối Chiên (18 trận), Phá Làng (62 trận), Gà Vàng (9 trận), Sao Kê (19 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 24-09 13:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
@@ -9,20 +9,10 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260921/73eec1fd974a87af6c92080521bd05b2.png" group-title="Phá Làng" , 24-09 16:00 [LIVE LIVE] Laos - Brunei Darussalam (LÝ LINH LỰC) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/f3550abbcb225f59fb5778e999b01261/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ac3f493742d14eee1e4e4ae00f2704f6.png" group-title="Gà Vàng" , 24-09 16:00 [LIVE HT] Laos vs Brunei Darussalam (A Long) [hls]
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/69ef10b47146e04fbe6d4363.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5891.png" group-title="Sao Kê" , 24-09 16:00 [LIVE LIVE] Laos vs Brunei (Quang Huy) [hls]
-#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/72fb22982ac69857cb2432f13589836e.png" group-title="Gà Vàng" , 24-09 16:30 [LIVE LIVE] Palestine vs New Zealand (MeoMeo) [hls]
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
@@ -39,7 +29,7 @@ https://eqr2hdarxfliv.vcdn.cloud/1790242429_hd/1790242429_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790231951_hd/1790231951_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_540.jpg" group-title="Khán Đài" , 24-09 17:05 [LIVE LIVE] Japan vs Uruguay (Lee Sin) [hls]
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_540.jpg" group-title="Khán Đài" , 24-09 17:05 [LIVE HT] Japan vs Uruguay (Lee Sin) [hls]
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
