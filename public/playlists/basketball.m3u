@@ -1,11 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:29:48 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:32:31 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (5 trận), Gà Vàng (5 trận) =====
 
 # ----- Ngày 2026-09-24 -----
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/38e7f6ed6a1053e25c1f5d60fbf563b2.png" group-title="Giờ Vàng" , 24/09 23:00 🟢 🏀 Dubai vs Real Madrid Teka (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-dubai-vs-real-madrid-teka-24-09-28092278
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/38e7f6ed6a1053e25c1f5d60fbf563b2.png" group-title="Giờ Vàng" , 24/09 23:00 🟢 🏀 Dubai vs Real Madrid Teka (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790144579_hd/1790144579_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/3cf0f296f43dd0a1184d339fd24c97af.png" group-title="Giờ Vàng" , 24/09 23:00 🟢 🏀 Hapoel Tel-Aviv vs FC Bayern Munchen (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
