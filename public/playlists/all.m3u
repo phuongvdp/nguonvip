@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:34:22 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:36:40 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (18 trận), Chuối Chiên (20 trận), Phá Làng (17 trận), Gà Vàng (17 trận), Sao Kê (21 trận) =====
 
@@ -63,6 +63,11 @@ https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfc
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_10.jpg" group-title="Khán Đài" , 25/09 01:45 🟢 ⚽ Netherlands vs Germany (Chim Nhỏ)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_692.jpg" group-title="Khán Đài" , 25/09 01:45 🟢 ⚽ Norway vs Denmark (Tày)
 #EXTVLCOPT:http-referrer=https://khandai3.link
@@ -131,9 +136,6 @@ https://wtyi0525.edgemaxcdn.org/live/x10-hd-1111/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/austria.png" group-title="Giờ Vàng" , 25/09 01:45 🟡 ⚽ Áo vs Israel (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-ao-vs-israel-25-09-69f7e7425c39b5554409bf57
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_10.jpg" group-title="Khán Đài" , 25/09 01:45 🟡 ⚽ Netherlands vs Germany (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/netherlands-vs-germany-25-09-2026-790872
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/91f136909a553eb3427a280cb21f17ca.png" group-title="Phá Làng" , 25/09 01:45 🟡 ⚽ Serbia - Greece (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4jwq2ghngypvm0v
