@@ -1,13 +1,18 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:08:14 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 09:10:21 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (10 trận), Gà Vàng (9 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (11 trận), Gà Vàng (9 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/7a41b2cf98e8350722b096134858af8e.png" group-title="Gio Vang TV" , 24-09 07:00 [LIVE Đang diễn ra] New York Liberty vs Atlanta Dream (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790204618_hd/1790204618_hd@720p.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/f9c0c5ff8557d6be9b17f1ab94781948.png" group-title="Gio Vang TV" , 24-09 09:00 [LIVE Đang diễn ra] Seattle Storm vs Dallas Wings (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790204643_hd/1790204643_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/66a4c6ed1029c0338a50ad413bfaf118.jpg" group-title="Gio Vang TV" , 24-09 11:00 Mongolia (W) vs China (w) (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-mongolia-w-vs-china-w-24-09-25580479
