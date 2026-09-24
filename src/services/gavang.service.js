@@ -271,11 +271,23 @@ class GaVangService {
       const liveMatches = filtered.filter((m) => m.status.isLive);
       if (liveMatches.length) {
         const commentatorsList = await mapPool(liveMatches, concurrency, (m) => fetchCommentatorsForMatch(m));
+        const withStreams = new Set();
         liveMatches.forEach((m, i) => {
-          const updated = applyCommentators(m, commentatorsList[i] || []);
-          const idx = filtered.indexOf(m);
-          if (idx !== -1) filtered[idx] = updated;
+          const commentators = commentatorsList[i] || [];
+          if (commentators.length) {
+            const updated = applyCommentators(m, commentators);
+            const idx = filtered.indexOf(m);
+            if (idx !== -1) filtered[idx] = updated;
+            withStreams.add(m.matchId);
+          }
         });
+        // FIX (24/09/2026 — theo yêu cầu "chỉ lấy các trận có bình luận
+        // viên thôi"): trận đang live nhưng CHƯA có BLV nào gán (trang chi
+        // tiết trống, #commentators-grid rỗng — thường là trận nhỏ, ít
+        // người xem, nguồn chưa phân công ai) trước đây vẫn hiện trong
+        // playlist kèm dòng "Chưa có link — chờ cập nhật", giờ BỎ HẲN khỏi
+        // danh sách luôn thay vì hiện placeholder không xem được.
+        filtered = filtered.filter((m) => !m.status.isLive || withStreams.has(m.matchId));
       }
 
       return { matches: filtered, hasMore: false, totalCount: filtered.length };
