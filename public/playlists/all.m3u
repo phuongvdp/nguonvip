@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:33:51 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:36:13 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (22 trận), Chuối Chiên (19 trận), Phá Làng (64 trận), Gà Vàng (16 trận), Sao Kê (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (22 trận), Chuối Chiên (19 trận), Phá Làng (64 trận), Gà Vàng (17 trận), Sao Kê (20 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 24-09 13:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
@@ -29,7 +29,7 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisay/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/f3550abbcb225f59fb5778e999b01261/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ac3f493742d14eee1e4e4ae00f2704f6.png" group-title="Gà Vàng" , 24-09 16:00 [LIVE LIVE] Laos vs Brunei Darussalam (A Long) [hls]
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ac3f493742d14eee1e4e4ae00f2704f6.png" group-title="Gà Vàng" , 24-09 16:00 [LIVE HT] Laos vs Brunei Darussalam (A Long) [hls]
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/69ef10b47146e04fbe6d4363.m3u8
@@ -41,6 +41,11 @@ https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/e5c63f30ad74c5c5159f1e7695173ae5.png" group-title="Giờ Vàng" , 24-09 16:30 [LIVE Đang diễn ra] South East Melbourne Phoenix vs Melbourne United (Chưa có link — chờ cập nhật) [hls]
 https://giovang.city/truc-tiep-south-east-melbourne-phoenix-vs-melbourne-united-24-09-29122273
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/72fb22982ac69857cb2432f13589836e.png" group-title="Gà Vàng" , 24-09 16:30 [LIVE LIVE] Palestine vs New Zealand (MeoMeo) [hls]
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69be75e0a0a45974afb67776.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/CGOQ3kjl-0QI3KGta.png" group-title="Giờ Vàng" , 24-09 17:00 [LIVE Đang diễn ra] Eternal Fire vs JijieHao (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
@@ -77,6 +82,11 @@ https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790234241_hd/1790234241_hd@720p.m3u8
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_651.jpg" group-title="Khán Đài" , 24-09 18:00 [LIVE LIVE] South Korea vs Ecuador (Tày) [hls]
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260921/14396ad8c05c228c1194d8b5e9a4c48e.png" group-title="Phá Làng" , 24-09 18:00 [LIVE LIVE] South Korea - Ecuador (LÝ LÀNG LÁ) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -84,9 +94,6 @@ https://lilive1.eu.cc/live/e77391695a6ab6c3aaa561d44db263bf/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea.png" group-title="Giờ Vàng" , 24-09 18:00 Hàn Quốc vs Ecuador (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-han-quoc-vs-ecuador-24-09-6aadd1c645163e9e3e085d6a
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_651.jpg" group-title="Khán Đài" , 24-09 18:00 South Korea vs Ecuador (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/south-korea-vs-ecuador-24-09-2026-841679
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Chuối Chiên" , 24-09 18:00 South Korea vs Ecuador (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1628994/south-korea-vs-ecuador
