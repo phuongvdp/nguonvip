@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:13:17 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:15:22 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (26 trận), Khán Đài (15 trận), Chuối Chiên (19 trận), Phá Làng (44 trận), Gà Vàng (19 trận), Sao Kê (21 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (26 trận), Khán Đài (15 trận), Chuối Chiên (19 trận), Phá Làng (43 trận), Gà Vàng (19 trận), Sao Kê (21 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 24-09 13:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
@@ -23,9 +23,6 @@ https://eqr2hdarxfliv.vcdn.cloud/1790204978_hd/1790204978_hd@720p.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/caeb76437110c8be07d88110485639a4/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7459af0794441b509c721bf4e463fd58.png" group-title="Phá Làng" , 24-09 15:15 Kuching City U20 - Touch Electronics U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#y39mp1hdvp27moj
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5009222fbdc9871d7f7a1b91642e82ef.png" group-title="Phá Làng" , 24-09 15:30 Turkmenistan - New Zealand (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#23xmvkh6e5gkqg8
