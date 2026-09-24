@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:43:39 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:45:54 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (20 trận) =====
 
 # ----- Ngày 2026-09-25 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125507_424d6db0.png" group-title="Chuối Chiên" , 25/09 01:45 🟢 ⚽ Netherlands vs Germany (Chuối Nhỏ (HD))
-#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132805_572f7fa8.png" group-title="Chuối Chiên" , 25/09 02:00 🟢 ⚽ Cameroon vs Comoros (Chuối To (HD))
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -18,9 +13,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260730_134118_919b6f6c.png" group-title="Chuối Chiên" , 25/09 04:00 🟡 ⚽ O'Higgins vs Deportes Santa Cruz (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1638386/o-higgins-vs-deportes-santa-cruz
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133535_bc746ccd.png" group-title="Chuối Chiên" , 25/09 07:30 ⚽ Atletico Nacional vs Millonarios (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1549794/atletico-nacional-vs-millonarios
@@ -70,3 +62,9 @@ https://live05.chuoichientv.me/live/1528882/turkiye-vs-france
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125457_13158a72.png" group-title="Chuối Chiên" , 26/09 01:45 ⚽ Italy vs Belgium (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1528883/italy-vs-belgium
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125458_a2e2b5c9.png" group-title="Chuối Chiên" , 26/09 01:45 ⚽ Hungary vs Ukraine (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1528884/hungary-vs-ukraine
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125454_fc9cbefe.png" group-title="Chuối Chiên" , 26/09 01:45 ⚽ Poland vs Bosnia & Herzegovina (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1528885/poland-vs-bosnia-herzegovina
