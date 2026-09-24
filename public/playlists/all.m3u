@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:26:29 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:28:47 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (19 trận), Chuối Chiên (20 trận), Phá Làng (22 trận), Gà Vàng (14 trận), Sao Kê (23 trận) =====
 
@@ -60,6 +60,11 @@ https://vip3.saoketv40.xyz/uae-vs-yemen-6ab47b441c8a389f4b1012d9.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134303_62a9fc07.png" group-title="Chuối Chiên" , 24/09 23:00 🟢 ⚽ Mauritania vs Central African Republic (Chuối Lá (HD))
+#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260921/fd5edd4af82d9f55eb1b81c1b83fad7a.png" group-title="Phá Làng" , 24/09 23:00 🟢 ⚽ Andorra - Malta (LÝ LINH LỰC)
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -93,9 +98,6 @@ https://khandai3.link/truc-tiep/andorra-vs-malta-24-09-2026-790812
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images_RHi333C.jpg" group-title="Khán Đài" , 24/09 23:00 🟡 🏐 Vakifbank W vs Eczacibasi W (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/vakifbank-w-vs-eczacibasi-w
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134303_62a9fc07.png" group-title="Chuối Chiên" , 24/09 23:00 🟡 ⚽ Mauritania vs Central African Republic (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1545825/mauritania-vs-central-african-republic
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2dfdbd485122a079a38985b286ba3ef2.png" group-title="Phá Làng" , 24/09 23:00 🟡 ⚽ Libya - Botswana (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#1l4rjnh9v7xom7v
