@@ -1,16 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:35:36 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 09:37:42 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (30 trận), Gà Vàng (21 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (30 trận), Gà Vàng (23 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Gio Vang TV" , 24-09 07:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/ed6ae7fa894cb5bdbccfd605d1d6ad04.png" group-title="Ga Vang TV" , 24-09 07:30 [LIVE LIVE] America de Cali vs Aguilas Doradas (cố tư nghiêm) [hls]
-https://playback.livetl002.com/live/69a1aaa7230584579e2d5ce1.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/seattle-sounders.png" group-title="Gio Vang TV" , 24-09 08:30 [LIVE Đang diễn ra] Seattle Sounders vs Real Salt Lake (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
@@ -26,6 +23,9 @@ https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/f1e590a6816616ba1e930fa1e4bd2538/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/cef1725baaf3f3be0cb7215c5f39d162.png" group-title="Ga Vang TV" , 24-09 08:40 [LIVE HT] Seattle Sounders vs Real Salt Lake (KAYTI) [hls]
+https://playback.livetl002.com/live/69b8e6f43bcf2231c35d5144.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/vancouver-whitecaps.png" group-title="Gio Vang TV" , 24-09 09:00 [LIVE Đang diễn ra] Vancouver vs Inter Toronto (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
@@ -47,6 +47,9 @@ https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/9098be6c404447d283648905734b1199/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/2be300dfaf22aea36b0f57a2832859ae.png" group-title="Ga Vang TV" , 24-09 09:00 [LIVE LIVE] Vancouver FC vs York United FC (SiêU QuậY) [hls]
+https://playback.livetl002.com/live/6a2a59b347bbddd62a8dc4e4.m3u8
+
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/YPyyksFG-CrchK1NQ.png" group-title="Gio Vang TV" , 24-09 09:10 [LIVE Đang diễn ra] Seattle Mariners vs Houston Astros (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -56,6 +59,9 @@ https://eqr2hdarxfliv.vcdn.cloud/1790205055_hd/1790205055_hd@720p.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790205150_hd/1790205150_hd@720p.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/a3895a326deb5672fc55000a60d13817.png" group-title="Ga Vang TV" , 24-09 09:40 Huaqiao University vs Lee-Ming Institute of Technology (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/vqLkKVYA-IJIsQ3zG.png" group-title="Gio Vang TV" , 24-09 11:00 Solomon Islands vs Vanuatu (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-solomon-islands-vs-vanuatu-24-09-6aaf23424e725bdee905b83b
