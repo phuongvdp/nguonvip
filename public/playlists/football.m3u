@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:35:51 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:38:13 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (18 trận), Chuối Chiên (20 trận), Phá Làng (23 trận), Gà Vàng (4 trận), Sao Kê (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (18 trận), Chuối Chiên (20 trận), Phá Làng (23 trận), Gà Vàng (7 trận), Sao Kê (18 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/8zTp1yeTn2hlV2y0TYHS9A_96x96.png" group-title="Giờ Vàng" , 🟢 20:00 24/09 ⚽ Namibia vs Congo (Giovang 1)
@@ -204,6 +204,15 @@ https://phalang.live/trang-chu#y39mp1h6dgw9moj
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/541cd9c8c6c7359a2e8431a1d6ee0bab.png" group-title="Phá Làng" , 01:45 25/09 ⚽ Portugal - Wales (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#zp5rzghg3v4jq82
 
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/c9847eeba0c64358960425bb19adbac0.png" group-title="Gà Vàng" , 01:45 25/09 ⚽ Portugal vs Wales (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/truc-tiep/portugal-vs-wales-ngay-25-09-2026/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a48ca99e1c924c90a9a1d2a95841df1c.png" group-title="Gà Vàng" , 01:45 25/09 ⚽ Netherlands vs Germany (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/truc-tiep/netherlands-vs-germany-ngay-25-09-2026/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/227d43878fa14347902532126d29b10c.png" group-title="Gà Vàng" , 01:45 25/09 ⚽ Norway vs Denmark (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/truc-tiep/norway-vs-denmark-ngay-25-09-2026/
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6708.png" group-title="Sao Kê" , 01:45 25/09 ⚽ Netherlands vs Germany (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/netherlands-vs-germany-6ab47b441c8a389f4b1012ce.html
 
@@ -302,6 +311,9 @@ https://khandai3.link/truc-tiep/south-korea-u23-vs-vietnam-u23-25-09-2026-858281
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133018_f7c8e720.png" group-title="Chuối Chiên" , 17:30 25/09 ⚽ Japan W vs Philippines W (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641133/japan-w-vs-philippines-w
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/300702.png" group-title="Sao Kê" , 18:30 25/09 ⚽ South Korea U23 vs Vietnam U23 (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/south-korea-u23-vs-vietnam-u23-6ab5355700d3cb8a450c6c67.html
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_484.jpg" group-title="Khán Đài" , 20:00 25/09 ⚽ Indonesia vs Singapore (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/indonesia-vs-singapore
