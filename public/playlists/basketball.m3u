@@ -1,16 +1,49 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:30:54 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:33:12 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (11 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (11 trận), Gà Vàng (20 trận) =====
 
 # ----- Ngày 2026-09-24 -----
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/3ea62eaa9b219524769ce3c321217dd5.png" group-title="Ga Vang TV" , 24-09 06:00 [LIVE Q4] Santo Andre U20 vs Rio Claro U20 (Chưa có link — chờ cập nhật) [hls]
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/6393b141f2d94e7daaa0a848bceb2e36.png" group-title="Ga Vang TV" , 24-09 06:00 [LIVE Q2 Ended] Botafogo vs Flamengo (Chưa có link — chờ cập nhật) [hls]
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/1c1ff4e13d3e4f0884af9cf1c779850a.png" group-title="Ga Vang TV" , 24-09 06:00 [LIVE Q2 Ended] Corinthians vs Mogi das Cruzes (Chưa có link — chờ cập nhật) [hls]
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/c8ba5ab8e6d17d2c81f568df0bbe001b.png" group-title="Ga Vang TV" , 24-09 06:00 [LIVE Q3] Apagebask/Guarulhos Women vs Santo Andre Women (Chưa có link — chờ cập nhật) [hls]
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/456cabf6783e072b51212547b27e72c0.png" group-title="Ga Vang TV" , 24-09 06:00 [LIVE Q3 Ended] APAB/Blumenau vs AJAB/Secel (Chưa có link — chờ cập nhật) [hls]
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/02b76dcfb80b65a58a3bd8d12937149a.png" group-title="Ga Vang TV" , 24-09 06:45 [LIVE Q2] Club Atletico Yale vs Ateneo Piriapolis (Chưa có link — chờ cập nhật) [hls]
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/8dcad09a73fb4107a6689f81d52bf42f.png" group-title="Ga Vang TV" , 24-09 06:45 [LIVE Q1 Ended] Capurro vs 25 de agosto (Chưa có link — chờ cập nhật) [hls]
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/9dbc18f6ecb8000380cf87677e86ca4c.png" group-title="Ga Vang TV" , 24-09 06:45 [LIVE Q2] Sportivo Capitol vs Defensores de Maronas (Chưa có link — chờ cập nhật) [hls]
+https://gavanglinkp.tv/
+
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/7a41b2cf98e8350722b096134858af8e.png" group-title="Gio Vang TV" , 24-09 07:00 [LIVE Đang diễn ra] New York Liberty vs Atlanta Dream (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790204618_hd/1790204618_hd@720p.m3u8
 
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/67001380315ffe2f35fb82d3870526a8.png" group-title="Ga Vang TV" , 24-09 07:00 [LIVE Q1] Ganaderas de Hatillo vs Politias de Isabela Women (Chưa có link — chờ cập nhật) [hls]
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/e4e047923495423999a92ea858f8366b.png" group-title="Ga Vang TV" , 24-09 07:00 [LIVE Q1] Criollos de Caguas (W) vs Explosivas de Moca Women (Chưa có link — chờ cập nhật) [hls]
+https://gavanglinkp.tv/
+
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/f9c0c5ff8557d6be9b17f1ab94781948.png" group-title="Gio Vang TV" , 24-09 09:00 Seattle Storm vs Dallas Wings (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-seattle-storm-vs-dallas-wings-24-09-25525074
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/21275a59516956d98aedc00b97faadc4.png" group-title="Ga Vang TV" , 24-09 09:00 Seattle Storm vs Dallas Wings (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/66a4c6ed1029c0338a50ad413bfaf118.jpg" group-title="Gio Vang TV" , 24-09 11:00 Mongolia (W) vs China (w) (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-mongolia-w-vs-china-w-24-09-25580479
@@ -27,13 +60,40 @@ https://giovang.city/truc-tiep-chinese-taipei-w-vs-philippines-w-24-09-36580470
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/64/Goyang_Sono_Skygunners.png" group-title="Gio Vang TV" , 24-09 14:30 Goyang Sono vs Seoul Knights (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-goyang-sono-vs-seoul-knights-24-09-aiuhlj5sja6b
 
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/fb957ad093d309e8c337aeb83ebe7857.png" group-title="Ga Vang TV" , 24-09 16:30 South East Melbourne Phoenix vs Melbourne United (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/fb1060fc304744d0b50e6a180fbc98c2.png" group-title="Ga Vang TV" , 24-09 19:30 Xigong heat vs Hanoi buffalo (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://gavanglinkp.tv/
+
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/38e7f6ed6a1053e25c1f5d60fbf563b2.png" group-title="Gio Vang TV" , 24-09 23:00 Dubai vs Real Madrid Teka (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-dubai-vs-real-madrid-teka-24-09-28092278
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/3cf0f296f43dd0a1184d339fd24c97af.png" group-title="Gio Vang TV" , 24-09 23:00 Hapoel Tel-Aviv vs FC Bayern Munchen (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-hapoel-tel-aviv-vs-fc-bayern-munchen-24-09-29092279
 
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/b7ceee3b48fa0f0bcf1a705348539cbb.png" group-title="Ga Vang TV" , 24-09 23:00 Dubai vs Real Madrid (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/ca224b11d94be0f26e2043aa8584db09.png" group-title="Ga Vang TV" , 24-09 23:00 Hapoel Tel Aviv vs Bayern Munchen (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://gavanglinkp.tv/
+
 # ----- Ngày 2026-09-25 -----
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/c39da666a430eeb95c2dd0838b267d77.jpg" group-title="Ga Vang TV" , 25-09 01:00 Crvena Zvezda Belgrade vs Zalgiris Kaunas (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/66a3b6f332d172f2d12f116cdbca063c.png" group-title="Ga Vang TV" , 25-09 01:15 Panathinaikos AKTOR B.C. vs Paris (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/bf44e2bb47f8a0dfd3929ff1c4ac8b16.png" group-title="Ga Vang TV" , 25-09 01:30 Baskonia Vitoria vs Olympiacos Piraeus B.C. (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/n7e9e5b4c9fbc6ab69533b742a1219257.png" group-title="Ga Vang TV" , 25-09 01:30 Barcelona vs Anadolu Efes Istanbul (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/4660d3b4854deac4eadf6c9212f18f34.png" group-title="Ga Vang TV" , 25-09 01:45 Lyon-Villeurbanne vs Maccabi Tel Aviv (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://gavanglinkp.tv/
+
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/691f1fbb808378a5c4cb07fa320d017d.png" group-title="Gio Vang TV" , 25-09 06:00 Connecticut Sun vs Toronto Tempo (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-connecticut-sun-vs-toronto-tempo-25-09-26525075
 
