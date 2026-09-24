@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:53:36 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:56:49 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (18 trận), Chuối Chiên (20 trận), Phá Làng (21 trận), Gà Vàng (7 trận), Sao Kê (23 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (18 trận), Chuối Chiên (20 trận), Phá Làng (21 trận), Gà Vàng (7 trận), Sao Kê (19 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/247c0a953f3a082b83443b3dfccedffb.png" group-title="Gà Vàng" , 24/09 20:00 🟢 ⚽ Namibia vs Congo (cố tư nghiêm)
@@ -34,11 +34,6 @@ https://lilive1.eu.cc/live/041f424faca764f7bdf37df77b763f02/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a5df755b89dded67b39b8bc.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8700.png" group-title="Sao Kê" , 24/09 21:00 🟢 ⚽ Uzbekistan vs Iran (Teppy)
-#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_650.jpg" group-title="Khán Đài" , 24/09 22:55 🟢 ⚽ United Arab Emirates vs Yemen (Chim Nhỏ)
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -53,11 +48,6 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/9a5476119770b5b6d9b51b778a4455a0/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5789.png" group-title="Sao Kê" , 24/09 22:55 🟢 ⚽ UAE vs Yemen (Cà Rốt)
-#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://wtyi0525.edgemaxcdn.org/live/x10-hd-1111/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/democratic-rep-congo.png" group-title="Giờ Vàng" , 24/09 23:00 🟢 ⚽ D.R. Congo vs Equatorial Guinea (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-d-r-congo-vs-equatorial-guinea-24-09-r0x9mk8xu31h
@@ -96,16 +86,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/824e7a0a5f0bbd3c9036b3f836eb2132/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10045.png" group-title="Sao Kê" , 24/09 23:00 🟢 ⚽ Andorra vs Malta (Teppy)
-#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/68374.png" group-title="Sao Kê" , 24/09 23:00 🟢 ⚽ Mauritania vs Central African Republic (Kai)
-#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2dfdbd485122a079a38985b286ba3ef2.png" group-title="Phá Làng" , 24/09 23:00 🟡 ⚽ Libya - Botswana (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#1l4rjnh9v7xom7v
