@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:07:26 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:09:50 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận) =====
 
@@ -19,8 +19,10 @@ https://eqr2hdarxfliv.vcdn.cloud/1790204978_hd/1790204978_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790231280_hd/1790231280_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/new-zealand.png" group-title="Giờ Vàng" , 24-09 16:30 [LIVE Đang diễn ra] New Zealand vs Palestine (Chưa có link — chờ cập nhật) [hls]
-https://giovang.city/truc-tiep-new-zealand-vs-palestine-24-09-6aaf23424e725bdee905b82d
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/new-zealand.png" group-title="Giờ Vàng" , 24-09 16:30 [LIVE Đang diễn ra] New Zealand vs Palestine (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790231720_hd/1790231720_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/e5c63f30ad74c5c5159f1e7695173ae5.png" group-title="Giờ Vàng" , 24-09 16:30 [LIVE Đang diễn ra] South East Melbourne Phoenix vs Melbourne United (Chưa có link — chờ cập nhật) [hls]
 https://giovang.city/truc-tiep-south-east-melbourne-phoenix-vs-melbourne-united-24-09-29122273
