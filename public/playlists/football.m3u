@@ -1,11 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:38:47 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:41:19 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (14 trận), Chuối Chiên (19 trận), Phá Làng (29 trận), Gà Vàng (10 trận), Sao Kê (21 trận) =====
 
 # ----- Ngày 2026-09-24 -----
-#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 24-09 13:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Chưa có link — chờ cập nhật) [hls]
-https://giovang.city/truc-tiep-asiad-2026-vs-asiad-2026-24-09-asooi3g7yvxg
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 24-09 13:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/15f6890f73ff4f23a4b0fb1bd0f00eb8.png" group-title="Phá Làng" , 24-09 15:00 [LIVE LIVE] South United - Asc And Center FC (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
@@ -17,13 +19,15 @@ https://lilive1.eu.cc/live/caeb76437110c8be07d88110485639a4/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790231280_hd/1790231280_hd@720p.m3u8
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_344.jpg" group-title="Khán Đài" , 24-09 16:00 [LIVE LIVE] Laos vs Brunei (Enzo) [hls]
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260921/73eec1fd974a87af6c92080521bd05b2.png" group-title="Phá Làng" , 24-09 16:00 [LIVE LIVE] Laos - Brunei Darussalam (LÝ LINH LỰC) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/f3550abbcb225f59fb5778e999b01261/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_344.jpg" group-title="Khán Đài" , 24-09 16:00 Laos vs Brunei (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/laos-vs-brunei
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_ddeb005f.png" group-title="Chuối Chiên" , 24-09 16:00 Laos vs Brunei (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1641700/laos-vs-brunei
