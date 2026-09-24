@@ -1,24 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:28:02 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:30:07 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (32 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận) =====
 
 # ----- Ngày 2026-09-24 -----
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/n9kmqce5-2NbwlzJD.png" group-title="Gio Vang TV" , 24-09 06:30 [LIVE Đang diễn ra] Deportes Iquique vs Antofagasta (Giovang 1) [hls]
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790130409_hd/1790130409_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/AJdiRXkl-0p3SjwUb.png" group-title="Gio Vang TV" , 24-09 06:30 [LIVE Đang diễn ra] Union La Calera vs U. Catolica (Giovang 1) [hls]
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790130450_hd/1790130450_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/n9kmqce5-2NbwlzJD.png" group-title="Gio Vang TV" , 24-09 06:30 [LIVE Đang diễn ra] Iquique vs Antofagasta (Giovang 1) [hls]
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790172281_hd/1790172281_hd@720p.m3u8
-
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Gio Vang TV" , 24-09 07:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -34,8 +19,10 @@ https://eqr2hdarxfliv.vcdn.cloud/1790204618_hd/1790204618_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790203942_hd/1790203942_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/seattle-sounders.png" group-title="Gio Vang TV" , 24-09 08:30 Seattle Sounders vs Real Salt Lake (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-seattle-sounders-vs-real-salt-lake-24-09-69d1a65d24d46db8708cb9c5
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/seattle-sounders.png" group-title="Gio Vang TV" , 24-09 08:30 [LIVE Đang diễn ra] Seattle Sounders vs Real Salt Lake (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790204094_hd/1790204094_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/vancouver-whitecaps.png" group-title="Gio Vang TV" , 24-09 09:00 Vancouver vs Inter Toronto (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-vancouver-vs-inter-toronto-24-09-6aadd0c024d46db870f28975
@@ -43,8 +30,10 @@ https://giovang.city/truc-tiep-vancouver-vs-inter-toronto-24-09-6aadd0c024d46db8
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/f9c0c5ff8557d6be9b17f1ab94781948.png" group-title="Gio Vang TV" , 24-09 09:00 Seattle Storm vs Dallas Wings (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-seattle-storm-vs-dallas-wings-24-09-25525074
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/YPyyksFG-CrchK1NQ.png" group-title="Gio Vang TV" , 24-09 09:10 Seattle Mariners vs Houston Astros (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-seattle-mariners-vs-houston-astros-24-09-zz0xpvse026o
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/YPyyksFG-CrchK1NQ.png" group-title="Gio Vang TV" , 24-09 09:10 [LIVE Đang diễn ra] Seattle Mariners vs Houston Astros (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790205055_hd/1790205055_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/58MDezoOT1DAkMexRNiW3w_96x96.png" group-title="Gio Vang TV" , 24-09 09:10 Los Angeles Dodgers vs San Diego Padres (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-los-angeles-dodgers-vs-san-diego-padres-24-09-fthb3xyl5okb
