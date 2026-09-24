@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:39:03 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:41:22 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (20 trận) =====
 
@@ -8,11 +8,6 @@
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125456_dde261ec.png" group-title="Chuối Chiên" , 25/09 01:45 🟢 ⚽ Portugal vs Wales (Chuối Ngao (HD))
-#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/angao/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250715_194710_e484b2d5.png" group-title="Chuối Chiên" , 25/09 01:45 🟢 ⚽ Norway vs Denmark (Chuối Chao (HD))
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
@@ -73,3 +68,7 @@ https://live05.chuoichientv.me/live/1528881/georgia-vs-northern-ireland
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134254_e0b3eb39.png" group-title="Chuối Chiên" , 25/09 23:00 ⚽ Armenia vs Latvia (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1545602/armenia-vs-latvia
+
+# ----- Ngày 2026-09-26 -----
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125503_f5da35f2.png" group-title="Chuối Chiên" , 26/09 01:45 ⚽ Türkiye vs France (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1528882/turkiye-vs-france
