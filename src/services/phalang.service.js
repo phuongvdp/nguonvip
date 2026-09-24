@@ -46,6 +46,74 @@ function mapSport(desc) {
   return String(desc || 'football').toLowerCase();
 }
 
+// FIX (24/09/2026 — "nguồn Phá Làng nhiều trận giải bé, giải cỏ quá, các nguồn
+// khác OK rồi"): /matches/graph trả TOÀN BỘ trận (kể cả giải trẻ/dự bị/hạng
+// thấp/giải địa phương), trong khi các nguồn khác đã tự lọc sẵn. Chỉ lọc BÓNG
+// ĐÁ (các môn khác giữ nguyên). Trận bóng đá được giữ nếu:
+//   1) API đánh dấu is_hot, HOẶC
+//   2) tên giải thuộc danh sách giải lớn (MAJOR) và KHÔNG phải giải trẻ/dự bị
+//      (MINOR: U15-U23, youth, reserve, dự bị, hạng 3+...), HOẶC
+//   3) liên quan Việt Nam (đội tuyển/SEA Games/AFF...) — giữ cả U23/hạng dưới
+//      vì người xem Việt Nam quan tâm.
+// Còn lại coi là giải cỏ -> bỏ. Tinh chỉnh:
+//   - PHALANG_LEAGUE_FILTER=off        -> tắt lọc, lấy hết như cũ
+//   - PHALANG_MAJOR_LEAGUES=a,b,c      -> thêm từ khoá giải muốn GIỮ (không dấu, chữ thường)
+// Mỗi lần quét in log số trận bị bỏ + tên các giải bị bỏ để dễ bổ sung từ khoá.
+const MINOR_LEAGUE_RE = /\bu-?(1[5-9]|2[0-3])\b|youth|junior|reserve|academy|amateur|regional|\bdu bi\b|\btre\b|\bhang (3|4|5|ba|tu|nam)\b|\bdivision [3-9]\b|\bleague (two|2)\b|\bpremier league 2\b/;
+
+const MAJOR_LEAGUE_RE = new RegExp([
+  'premier league', 'ngoai hang anh', '\\bepl\\b', 'fa cup', 'carabao', 'efl cup', 'league cup', 'community shield',
+  'la ?liga', 'tay ban nha', 'copa del rey', 'supercopa',
+  'serie a', 'coppa italia', 'supercoppa',
+  'bundesliga', 'dfb', 'ligue 1', 'coupe de france',
+  'champions league', '\\bc[12]\\b', 'europa', 'conference league', 'uefa', 'nations league', '\\beuro\\b', 'euro 20',
+  'world cup', 'wcq', 'vong loai', 'asian cup', '\\bafc\\b', 'fifa', 'conmebol', 'concacaf', 'copa america', 'libertadores', 'sudamericana', 'olympic',
+  'eredivisie', 'primeira liga', 'liga portugal', 'super lig', 'saudi', 'pro league',
+  'j-?league', '\\bj1\\b', 'k-?league', '\\bmls\\b', 'giao huu', 'friendl'
+].join('|'));
+
+const VIETNAM_RE = /viet ?nam|sea games|\baff\b|asean|v-?league/;
+
+function stripDiacritics(text) {
+  return String(text || '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/đ/gi, 'd')
+    .toLowerCase();
+}
+
+const EXTRA_MAJOR_RE = (() => {
+  const words = String(process.env.PHALANG_MAJOR_LEAGUES || '')
+    .split(',')
+    .map((w) => stripDiacritics(w).trim())
+    .filter(Boolean)
+    .map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+  return words.length ? new RegExp(words.join('|')) : null;
+})();
+
+function isNotableMatch(match) {
+  if (match?.sport !== 'football') return true; // chỉ lọc bóng đá
+  if (match?.isHot) return true;
+
+  const text = stripDiacritics(`${match?.competition?.name || ''} | ${match?.title || ''}`);
+  const league = stripDiacritics(match?.competition?.name || '');
+
+  if (!league) return true; // API không trả tên giải -> không đủ cơ sở để loại, giữ lại
+  if (VIETNAM_RE.test(text)) return true;
+  if (EXTRA_MAJOR_RE && EXTRA_MAJOR_RE.test(league)) return true;
+  return MAJOR_LEAGUE_RE.test(league) && !MINOR_LEAGUE_RE.test(text);
+}
+
+export function filterPhalangMatches(matches = []) {
+  if (String(process.env.PHALANG_LEAGUE_FILTER || '').toLowerCase() === 'off') {
+    return { kept: matches, dropped: [] };
+  }
+  const kept = [];
+  const dropped = [];
+  for (const m of matches) (isNotableMatch(m) ? kept : dropped).push(m);
+  return { kept, dropped };
+}
+
 class PhalangService {
   constructor() {
     this.client = createHttpClient({
@@ -199,7 +267,13 @@ class PhalangService {
   /** Interface giống các nguồn khác: gộp mọi type thành 1 danh sách, tự lọc theo tab ở code. */
   async getAllMatchesByTab(tab) {
     const raw = await this.fetchList();
-    const all = raw.map((m) => this.normalizeMatch(m));
+    const normalized = raw.map((m) => this.normalizeMatch(m));
+    // Lọc giải bé/giải cỏ (bóng đá) — xem filterPhalangMatches() phía trên.
+    const { kept: all, dropped } = filterPhalangMatches(normalized);
+    if (dropped.length) {
+      const leagues = [...new Set(dropped.map((m) => m.competition?.name || '(không rõ giải)'))].slice(0, 15);
+      console.log(`[phalang] tab=${tab}: bỏ ${dropped.length}/${normalized.length} trận giải bé — ${leagues.join(' | ')}`);
+    }
 
     let matches = all;
     if (tab === 'live') matches = all.filter((m) => m.status.isLive);
