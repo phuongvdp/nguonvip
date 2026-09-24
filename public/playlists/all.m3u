@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 11:28:44 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 11:30:48 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (15 trận), Chuối Chiên (19 trận), Phá Làng (38 trận), Gà Vàng (21 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (15 trận), Chuối Chiên (19 trận), Phá Làng (41 trận), Gà Vàng (21 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/YPyyksFG-CrchK1NQ.png" group-title="Gio Vang TV" , 24-09 09:10 [LIVE Đang diễn ra] Seattle Mariners vs Houston Astros (Giovang 1) [hls]
@@ -127,6 +127,9 @@ https://phalang.live/trang-chu#dn1m1gh9vo8vmoe
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ac96e83ce1fae4a1251863bea34248db.png" group-title="Pha Lang TV" , 24-09 16:30 Palestine - New Zealand (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#k82rekh2z955rep
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/80981ea0778649b50ae9a53413215bda.png" group-title="Pha Lang TV" , 24-09 16:30 Uganda U20 - Burundi U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#vjxm8ghkv91er6o
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ee10653328bc3aca4cdce538825872ef.png" group-title="Pha Lang TV" , 24-09 16:30 Shillong Lajong Reserves - Laitkor SC (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#vjxm8ghkv9zer6o
 
@@ -181,9 +184,6 @@ https://phalang.live/trang-chu#jw2r09h54pwxrz8
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cded7b7cce01069ad7d13ebf14a03723.png" group-title="Pha Lang TV" , 24-09 18:00 AS FAR Rabat - Raja Club Athletic (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#jw2r09hk8x4yrz8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/80981ea0778649b50ae9a53413215bda.png" group-title="Pha Lang TV" , 24-09 18:00 Uganda U20 - Burundi U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#vjxm8ghkv91er6o
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2b9851faa17eb83e725e0b666d9dba9d.png" group-title="Pha Lang TV" , 24-09 18:00 Vejle Reserve - Odense BK Reserve (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#zp5rzghgnwx0q82
 
@@ -199,14 +199,23 @@ https://live05.chuoichientv.me/live/1640057/china-vs-maldives
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cf82ff425ec97af2c4c0c2f517f2a631.png" group-title="Pha Lang TV" , 24-09 18:35 China - Maldives (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#318q66h8z09lqo9
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d3bdf2d48c6e18ed4256d1adb30203d3.png" group-title="Pha Lang TV" , 24-09 18:35 China U16 - Kyrgyzstan U16 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#jw2r09hke0o3rz8
+
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/445ef89e5620a875f7c2eaddd033e39d.png" group-title="Ga Vang TV" , 24-09 18:35 China vs Maldives (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/truc-tiep/china-vs-maldives-ngay-24-09-2026/
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b79b48dd646ef0af02646b332a92d855.jpg" group-title="Pha Lang TV" , 24-09 18:45 Maccabi Ironi Kiryat Ata Bialik Fc - Hapoel Ihud Bnei Jatt (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#x7lm7phj4gjkm2w
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_345.jpg" group-title="Khan Dai TV" , 24-09 19:00 Myanmar vs Timor-Leste (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/myanmar-vs-timor-leste
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_48e9fd27.png" group-title="Chuoi Chien TV" , 24-09 19:00 Myanmar vs Timor-Leste (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1641701/myanmar-vs-timor-leste
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260921/3ab19e2019a8e3ad82edd0b9b5d2c62f.png" group-title="Pha Lang TV" , 24-09 19:00 Myanmar - Timor Leste (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#k82rekhgle9lrep
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/7a2ca0a9a53ae410965c536014cbe3ba.png" group-title="Ga Vang TV" , 24-09 19:00 Myanmar vs Timor Leste (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/truc-tiep/myanmar-vs-timor-leste-ngay-24-09-2026/
