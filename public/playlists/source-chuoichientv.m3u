@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:54:40 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:56:45 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (3 trận) =====
 
 # ----- Ngày 2026-09-24 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134322_afd6712d.png" group-title="Chuoi Chien TV" , 24-09 06:00 [LIVE LIVE] Aruba vs Antigua and Barbuda (Trốc Tru (HD)) [hls]
-#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133535_5cc2515d.png" group-title="Chuoi Chien TV" , 24-09 07:30 [LIVE LIVE] America de Cali vs Rionegro Aguilas (Chuối Kem (HD)) [hls]
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
