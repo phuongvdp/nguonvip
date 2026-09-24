@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:39:16 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:41:34 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (21 trận) =====
 
@@ -20,8 +20,10 @@ https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1
 https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
 # ----- Ngày 2026-09-25 -----
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_538.jpg" group-title="Khán Đài" , 25/09 01:00 🟡 ⚽ Qatar vs Bahrain (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/qatar-vs-bahrain-25-09-2026-857452
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_538.jpg" group-title="Khán Đài" , 25/09 01:00 🟢 ⚽ Qatar vs Bahrain (Pháo Thủ)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9.jpg" group-title="Khán Đài" , 25/09 01:45 ⚽ Austria vs Israel (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/austria-vs-israel-25-09-2026-790824

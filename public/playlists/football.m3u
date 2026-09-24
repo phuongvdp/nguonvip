@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:39:15 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:41:33 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (19 trận), Chuối Chiên (20 trận), Phá Làng (19 trận), Gà Vàng (3 trận), Sao Kê (23 trận) =====
 
@@ -85,13 +85,15 @@ https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8
 https://lilive1.eu.cc/live/c6d36461037aff5094cdb5129e40bfec/playlist.m3u8
 
 # ----- Ngày 2026-09-25 -----
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_538.jpg" group-title="Khán Đài" , 25/09 01:00 🟢 ⚽ Qatar vs Bahrain (Pháo Thủ)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a61d3f41d78a6df8bf3a367ed8e6f5a1.png" group-title="Phá Làng" , 25/09 01:00 🟢 ⚽ Qatar - Bahrain (LÝ LIỀU LĨNH)
 #EXTVLCOPT:http-referrer=https://phalang.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/3cd88551f019c2d189ee906566a6c379/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_538.jpg" group-title="Khán Đài" , 25/09 01:00 🟡 ⚽ Qatar vs Bahrain (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/qatar-vs-bahrain-25-09-2026-857452
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133416_04ec5812.png" group-title="Chuối Chiên" , 25/09 01:00 🟡 ⚽ Qatar vs Bahrain (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1637931/qatar-vs-bahrain
