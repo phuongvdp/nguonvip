@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:26:54 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:29:50 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (22 trận) =====
 
@@ -34,8 +34,10 @@ https://pull.digitalcdn.net/live/15fce01d8d3d4492aaab6cad92ddcb11/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/d3eb8619d6826f89f90988a4d0296377/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fbc3e86a73f05d8ea22028a091e30479.png" group-title="Phá Làng" , 24/09 23:30 🟡 ⚽ Siegen Sportfreunde - Borussia Monchengladbach (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#x7lm7phxgne8m2w
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fbc3e86a73f05d8ea22028a091e30479.png" group-title="Phá Làng" , 24/09 23:30 🟢 ⚽ Siegen Sportfreunde - Borussia Monchengladbach (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/c6d36461037aff5094cdb5129e40bfec/playlist.m3u8
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8cf0e89825ba3fc8a342f58adc56c1e2.png" group-title="Phá Làng" , 25/09 00:00 🟡 ⚽ Rot-Weiss Oberhausen - Schalke 04 (Chưa có link — chờ cập nhật)

@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:26:52 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:29:48 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (19 trận), Chuối Chiên (20 trận), Phá Làng (21 trận), Gà Vàng (5 trận), Sao Kê (24 trận) =====
 
@@ -24,16 +24,18 @@ https://lilive1.eu.cc/live/9a5476119770b5b6d9b51b778a4455a0/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://wtyi0525.edgemaxcdn.org/live/x10-hd-1111/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/democratic-rep-congo.png" group-title="Giờ Vàng" , 24/09 23:00 🟢 ⚽ D.R. Congo vs Equatorial Guinea (Giovang 1)
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/democratic-rep-congo.png" group-title="Giờ Vàng" , 24/09 23:00 🟢 ⚽ D.R. Congo vs Equatorial Guinea (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-d-r-congo-vs-equatorial-guinea-24-09-r0x9mk8xu31h
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/libya.png" group-title="Giờ Vàng" , 24/09 23:00 🟢 ⚽ Libya vs Botswana (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790144037_hd/1790144037_hd@720p.m3u8
+https://eqr2hdarxfliv.vcdn.cloud/1790144181_hd/1790144181_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/libya.png" group-title="Giờ Vàng" , 24/09 23:00 🟢 ⚽ Libya vs Botswana (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-libya-vs-botswana-24-09-f0vydjpos64j
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/96/National_Seal_of_Mauritania.svg" group-title="Giờ Vàng" , 24/09 23:00 🟢 ⚽ Mauritania vs Central Africa (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-mauritania-vs-central-africa-24-09-meh5n2haey46
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/96/National_Seal_of_Mauritania.svg" group-title="Giờ Vàng" , 24/09 23:00 🟢 ⚽ Mauritania vs Central Africa (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790263255_hd/1790263255_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_700.jpg" group-title="Khán Đài" , 24/09 23:00 🟢 ⚽ Andorra vs Malta (Tiểu Mây)
 #EXTVLCOPT:http-referrer=https://khandai3.link
@@ -90,8 +92,10 @@ https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fbc3e86a73f05d8ea22028a091e30479.png" group-title="Phá Làng" , 24/09 23:30 🟡 ⚽ Siegen Sportfreunde - Borussia Monchengladbach (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#x7lm7phxgne8m2w
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fbc3e86a73f05d8ea22028a091e30479.png" group-title="Phá Làng" , 24/09 23:30 🟢 ⚽ Siegen Sportfreunde - Borussia Monchengladbach (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/c6d36461037aff5094cdb5129e40bfec/playlist.m3u8
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8cf0e89825ba3fc8a342f58adc56c1e2.png" group-title="Phá Làng" , 25/09 00:00 🟡 ⚽ Rot-Weiss Oberhausen - Schalke 04 (Chưa có link — chờ cập nhật)
