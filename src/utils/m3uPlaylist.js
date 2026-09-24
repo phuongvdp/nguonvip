@@ -51,7 +51,7 @@ import {
 // nhiều request thử vào CDN nguồn.
 // FIX (24/09/2026 — theo yêu cầu "đổi tên các trận của các nguồn theo form
 // như ảnh 8"): tên kênh .m3u theo mẫu Ola TV:
-//   "🟢 18:35 24/09 ⚽ China vs Maldives (Dương Kiên)"
+//   "24/09 18:35 🟢 ⚽ China vs Maldives (Dương Kiên)"
 //   - Chấm trạng thái: 🟢 đang live, 🟡 sắp đá (trong vòng
 //     UPCOMING_SOON_MINUTES phút tới, hoặc đã quá giờ đá nhưng chưa live),
 //     không có chấm nếu còn lâu mới đá.
@@ -293,11 +293,14 @@ export function buildM3uPlaylist(entries = []) {
     // dùng nhãn có dấu (Giờ Vàng, Khán Đài, Chuối Chiên, Phá Làng, Gà Vàng, Sao Kê)
     // thay vì nhãn không dấu (Gio Vang TV...) — chỉ đổi ở file .m3u, giao diện web giữ nguyên.
     const group = getSourceShortLabel(match);
-    // Tên kênh theo mẫu Ola TV: "🟢 18:35 24/09 ⚽ Home vs Away (BLV)" — xem getStatusDot()/getSportIcon().
+    // Tên kênh: "24/09 18:35 🟢 ⚽ Home vs Away (BLV)" — xem getStatusDot()/getSportIcon().
+    // FIX (24/09/2026 — "vẫn bị sắp xếp sai", app sort theo TÊN): chấm 🟢/🟡 đặt
+    // SAU ngày giờ, không đứng đầu tên — emoji có mã ký tự lớn hơn chữ số nên
+    // đứng đầu sẽ bị đẩy xuống cuối danh sách, sau cả các trận ngày hôm sau.
     const time = formatKickoffHourFirst(match, { dateFirst: KICKOFF_DATE_FIRST }) || match?.timeFormatted || '';
     const title = getMatchTitle(match);
     const streamer = stream.streamerName || stream.name || 'Server';
-    const nameParts = [getStatusDot(match), time, getSportIcon(match), title, `(${streamer})`].filter(Boolean);
+    const nameParts = [time, getStatusDot(match), getSportIcon(match), title, `(${streamer})`].filter(Boolean);
     const displayName = nameParts.join(' ');
 
     // Dòng phân cách khi sang ngày mới (giờ Việt Nam) — chỉ để dễ đọc
