@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:29:21 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 09:31:26 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (14 trận), Chuối Chiên (19 trận), Phá Làng (28 trận), Gà Vàng (12 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (14 trận), Chuối Chiên (20 trận), Phá Làng (30 trận), Gà Vàng (12 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Gio Vang TV" , 24-09 07:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
@@ -37,12 +37,7 @@ https://eqr2hdarxfliv.vcdn.cloud/1790204126_hd/1790204126_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b0ec985cd57cba37048de614c46660e5.png" group-title="Pha Lang TV" , 24-09 09:00 [LIVE LIVE] Xelaju MC - Antigua GFC (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/24221af02ab6b65883c47e5cf52a2481/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2be300dfaf22aea36b0f57a2832859ae.png" group-title="Pha Lang TV" , 24-09 09:10 [LIVE LIVE] Vancouver FC - Inter Toronto FC (Server 1) [hls]
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2be300dfaf22aea36b0f57a2832859ae.png" group-title="Pha Lang TV" , 24-09 09:00 [LIVE LIVE] Vancouver FC - Inter Toronto FC (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/9098be6c404447d283648905734b1199/playlist.m3u8
@@ -143,14 +138,23 @@ https://phalang.live/trang-chu#vjxm8ghkv9zer6o
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/72fb22982ac69857cb2432f13589836e.png" group-title="Ga Vang TV" , 24-09 16:30 Palestine vs New Zealand (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/truc-tiep/palestine-vs-new-zealand-ngay-24-09-2026/
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f28274214803ea52caac7ad00f662b95.png" group-title="Pha Lang TV" , 24-09 17:00 Brommapojkarna U21 - Norrkoping IFK U21 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#6ypq3nhvklk1md7
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_540.jpg" group-title="Khan Dai TV" , 24-09 17:05 Japan vs Uruguay (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/japan-vs-uruguay-24-09-2026-841680
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Chuoi Chien TV" , 24-09 17:05 Japan vs Uruguay (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1628995/japan-vs-uruguay
 
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260921/a9f141343fbf86cf5c06365f517efb01.png" group-title="Pha Lang TV" , 24-09 17:05 Japan - Uruguay (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#318q66h8z4poqo9
+
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f9ce800b0fd64b339c2bcf8ec7d9ec0e.png" group-title="Ga Vang TV" , 24-09 17:05 Japan vs Uruguay (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/truc-tiep/japan-vs-uruguay-ngay-24-09-2026/
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d574a61b5e8eb37ca0c037a100e78423.png" group-title="Pha Lang TV" , 24-09 17:30 Rebels FC - Bengaluru Roots FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#zp5rzgh3y41pq82
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_651.jpg" group-title="Khan Dai TV" , 24-09 18:00 South Korea vs Ecuador (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://khandai3.link/truc-tiep/south-korea-vs-ecuador-24-09-2026-841679
@@ -284,3 +288,6 @@ https://live05.chuoichientv.me/live/1639170/deportivo-recoleta-vs-guairena-fc
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/17/Everton_De_Vi%C3%B1a_Del_Mar.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="Gio Vang TV" , 25-09 06:30 Everton vs U. De Chile (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-everton-vs-u-de-chile-25-09-y928lsnp1gck
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133535_bc746ccd.png" group-title="Chuoi Chien TV" , 25-09 07:30 Atletico Nacional vs Millonarios (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://live05.chuoichientv.me/live/1549794/atletico-nacional-vs-millonarios

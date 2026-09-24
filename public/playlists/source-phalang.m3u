@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:29:21 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 09:31:26 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (28 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (30 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cef1725baaf3f3be0cb7215c5f39d162.png" group-title="Pha Lang TV" , 24-09 08:40 [LIVE LIVE] Seattle Sounders - Real Salt Lake (Server 1) [hls]
@@ -9,12 +9,7 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/f1e590a6816616ba1e930fa1e4bd2538/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b0ec985cd57cba37048de614c46660e5.png" group-title="Pha Lang TV" , 24-09 09:00 [LIVE LIVE] Xelaju MC - Antigua GFC (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/24221af02ab6b65883c47e5cf52a2481/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2be300dfaf22aea36b0f57a2832859ae.png" group-title="Pha Lang TV" , 24-09 09:10 [LIVE LIVE] Vancouver FC - Inter Toronto FC (Server 1) [hls]
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2be300dfaf22aea36b0f57a2832859ae.png" group-title="Pha Lang TV" , 24-09 09:00 [LIVE LIVE] Vancouver FC - Inter Toronto FC (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/9098be6c404447d283648905734b1199/playlist.m3u8
@@ -93,3 +88,12 @@ https://phalang.live/trang-chu#k82rekh2z955rep
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ee10653328bc3aca4cdce538825872ef.png" group-title="Pha Lang TV" , 24-09 16:30 Shillong Lajong Reserves - Laitkor SC (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#vjxm8ghkv9zer6o
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f28274214803ea52caac7ad00f662b95.png" group-title="Pha Lang TV" , 24-09 17:00 Brommapojkarna U21 - Norrkoping IFK U21 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#6ypq3nhvklk1md7
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260921/a9f141343fbf86cf5c06365f517efb01.png" group-title="Pha Lang TV" , 24-09 17:05 Japan - Uruguay (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#318q66h8z4poqo9
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d574a61b5e8eb37ca0c037a100e78423.png" group-title="Pha Lang TV" , 24-09 17:30 Rebels FC - Bengaluru Roots FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#zp5rzgh3y41pq82
