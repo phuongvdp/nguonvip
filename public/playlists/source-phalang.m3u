@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:21:47 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:24:13 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (22 trận) =====
 
@@ -9,20 +9,26 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/041f424faca764f7bdf37df77b763f02/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260921/2bc8ea9d3c0de09e13fd9a36ea142ddc.png" group-title="Phá Làng" , 24/09 22:55 🟡 ⚽ United Arab Emirates - Yemen (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#3glrw7hnxpvxqdy
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260921/2bc8ea9d3c0de09e13fd9a36ea142ddc.png" group-title="Phá Làng" , 24/09 22:55 🟢 ⚽ United Arab Emirates - Yemen (LÝ LÀNG LÁ)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/9a5476119770b5b6d9b51b778a4455a0/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260921/fd5edd4af82d9f55eb1b81c1b83fad7a.png" group-title="Phá Làng" , 24/09 23:00 🟢 ⚽ Andorra - Malta (LÝ LINH LỰC)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/824e7a0a5f0bbd3c9036b3f836eb2132/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/2fe3dacd8ef0883c8d995fac5b72b97a.png!w80" group-title="Phá Làng" , 24/09 23:00 🟢 🏐 Eczacibasi Nữ - Vakifbank Nữ (LÝ LÊN LỬA (Server 1))
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://pull.digitalcdn.net/live/15fce01d8d3d4492aaab6cad92ddcb11/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2dfdbd485122a079a38985b286ba3ef2.png" group-title="Phá Làng" , 24/09 23:00 🟡 ⚽ Libya - Botswana (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#1l4rjnh9v7xom7v
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7f5e0cd419a4b7509e13399efb75056a.png" group-title="Phá Làng" , 24/09 23:00 🟡 ⚽ Democratic Republic of the Congo - Equatorial Guinea (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkh675kzqg8
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260921/fd5edd4af82d9f55eb1b81c1b83fad7a.png" group-title="Phá Làng" , 24/09 23:00 🟡 ⚽ Andorra - Malta (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#318q66hx8y2nqo9
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/2fe3dacd8ef0883c8d995fac5b72b97a.png!w80" group-title="Phá Làng" , 24/09 23:00 🟡 🏐 Eczacibasi Nữ - Vakifbank Nữ (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#bbc6b1b46dad4ae9831e8798f79ab3b4
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/92b02db5c7055f19215ec5d07813ea79.png" group-title="Phá Làng" , 24/09 23:00 🟡 ⚽ Mauritania - Central African Republic (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#zp5rzghg8kp9q82
