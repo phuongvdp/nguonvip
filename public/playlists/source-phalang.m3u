@@ -1,9 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:09:08 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:11:14 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (43 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (44 trận) =====
 
 # ----- Ngày 2026-09-24 -----
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/15f6890f73ff4f23a4b0fb1bd0f00eb8.png" group-title="Phá Làng" , 24-09 15:00 [LIVE LIVE] South United - Asc And Center FC (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/caeb76437110c8be07d88110485639a4/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7459af0794441b509c721bf4e463fd58.png" group-title="Phá Làng" , 24-09 15:15 Kuching City U20 - Touch Electronics U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#y39mp1hdvp27moj
 
