@@ -81,6 +81,7 @@ function mapSport(desc) {
 //   4) tên giải chứa từ khoá trong PHALANG_KEEP_LEAGUES.
 // Tinh chỉnh (đều dùng từ khoá KHÔNG DẤU, chữ thường, cách nhau bằng dấu phẩy):
 //   - PHALANG_LEAGUE_FILTER=off      -> tắt lọc, lấy hết như cũ
+//   - PHALANG_FILTER_MODE=block     -> chế độ nhẹ: giữ hết, chỉ loại giải nhỏ (mặc định 'major': chỉ giữ giải nổi bật)
 //   - PHALANG_BLOCK_LEAGUES=a,b      -> thêm từ khoá giải muốn LOẠI
 //   - PHALANG_KEEP_LEAGUES=a,b       -> thêm từ khoá giải luôn GIỮ (ưu tiên hơn blocklist)
 // Mỗi lần quét in log số trận bị bỏ + tên các giải bị bỏ để dễ tinh chỉnh.
@@ -94,6 +95,33 @@ const MINOR_LEAGUE_RE = new RegExp([
   // bóng đá ảo / giải giả lập
   'esoccer', 'e-?soccer', 'e-?football', 'efootball', 'cyber', 'virtual', 'simulated', 'fifa ?2\\d', 'fc ?2\\d', 'battle'
 ].join('|'));
+
+// CHẾ ĐỘ MẶC ĐỊNH "major" (24/09/2026 — "nguồn Phá Làng nhiều trận quá", log thật:
+// 141/240 trận trong playlist là Phá Làng, đa số giải cỏ kiểu Bhutan Premier
+// League, Malaysian President Cup, Finnish Kolmonen...). Sau khi sửa lỗi phân
+// trang (chỉ lấy 50/4925 trận), lượng trận thật lộ ra rất lớn nên chỉ loại giải
+// trẻ là KHÔNG đủ. Vì vậy quay lại danh sách giải nổi bật (MAJOR) nhưng dùng
+// TÊN CÓ QUỐC GIA như Phá Làng trả về (vd "English Premier League" — khác với
+// "Bhutan Premier League"), cộng với các luật GIỮ: is_hot, giao hữu, liên quan
+// Việt Nam, PHALANG_KEEP_LEAGUES. Lỗi mất International Friendly / Nations
+// League trước đó là do phân trang, KHÔNG phải do bộ lọc — 2 giải này vẫn giữ.
+// Chế độ "block" (PHALANG_FILTER_MODE=block) = hành vi cũ: giữ hết, chỉ loại giải nhỏ.
+const MAJOR_LEAGUE_RE = new RegExp([
+  // Anh
+  'ngoai hang anh', 'cup c1', 'cup c2', '^(english |england )?premier league$', '^(english |england )?(efl )?championship$', '\\bfa cup\\b', 'efl cup', 'carabao', 'league cup', 'community shield',
+  // Tây Ban Nha / Ý / Đức / Pháp
+  'la ?liga', 'copa del rey', 'supercopa', 'serie a', 'coppa italia', 'supercoppa', 'bundesliga', 'dfb', 'ligue 1', 'coupe de france', 'trophee des champions',
+  // châu Âu / thế giới / châu lục
+  'champions league', 'europa', 'conference league', 'uefa', 'nations league', '\\beuro\\b', 'euro 20', 'world cup', 'wcq', 'qualif', 'vong loai',
+  'asian cup', '\\bafc\\b', 'fifa', 'conmebol', 'concacaf', 'copa america', 'libertadores', 'sudamericana', 'olympic', 'super cup',
+  'gulf cup', 'waff', 'arab cup', 'cup of nations', 'afcon', 'cecafa', 'cosafa', 'baltic', 'kirin', 'gold cup', 'intercontinental',
+  // VĐQG lớn khác
+  'eredivisie', 'primeira liga', 'liga portugal', 'super lig', 'saudi pro league', 'saudi professional', '\\bj[-. ]?[123]? ?league', '\\bj1\\b', 'k ?league 1', '^k ?league$',
+  '\\bmls\\b', 'major league soccer', 'a-league', 'liga mx', 'brasileir', 'liga profesional', 'scottish premiership', 'jupiler', 'belgian pro league',
+  'russian premier league', 'chinese super league', 'china super league', 'thai league 1', 'greek super league', 'swiss super league', 'ukrainian premier league'
+].join('|'));
+
+const FILTER_MODE = String(process.env.PHALANG_FILTER_MODE || 'major').toLowerCase();
 
 // Trận giao hữu luôn được giữ, kiểm tra trên CẢ tên giải lẫn tiêu đề trận và
 // bỏ qua luật loại giải trẻ (xem FIX "bị mất các trận giao hữu").
@@ -128,13 +156,15 @@ function isNotableMatch(match) {
   const league = stripDiacritics(match?.competition?.name || '');
   const text = `${league} | ${stripDiacritics(match?.title || '')}`;
 
+  if (!league) return true; // API không trả tên giải -> không đủ cơ sở để loại, giữ lại
   if (FRIENDLY_RE.test(text)) return true;
   if (VIETNAM_RE.test(text)) return true;
   if (KEEP_LEAGUES_RE && KEEP_LEAGUES_RE.test(league)) return true;
 
   if (MINOR_LEAGUE_RE.test(text)) return false;
   if (BLOCK_LEAGUES_RE && BLOCK_LEAGUES_RE.test(league)) return false;
-  return true; // mặc định GIỮ — chỉ loại khi khớp rõ giải nhỏ
+  if (FILTER_MODE === 'block') return true; // chế độ cũ: giữ hết, chỉ loại giải nhỏ rõ ràng
+  return MAJOR_LEAGUE_RE.test(league); // chế độ mặc định 'major': chỉ giữ giải nổi bật
 }
 
 export function filterPhalangMatches(matches = []) {
@@ -379,8 +409,13 @@ class PhalangService {
     // Lọc giải bé/giải cỏ (bóng đá) — xem filterPhalangMatches() phía trên.
     const { kept: all, dropped } = filterPhalangMatches(normalized);
     console.log(`[phalang] tab=${tab}: API trả ${raw.length} trận, sau lọc giải bé còn ${all.length}`);
+    if (tab === 'live') {
+      const bySport = {};
+      for (const m of all) bySport[m.sport] = (bySport[m.sport] || 0) + 1;
+      console.log(`[phalang] sau lọc, theo môn: ${Object.entries(bySport).map(([k, v]) => `${k}=${v}`).join(', ')}`);
+    }
     if (dropped.length) {
-      const leagues = [...new Set(dropped.map((m) => m.competition?.name || '(không rõ giải)'))].slice(0, 15);
+      const leagues = [...new Set(dropped.map((m) => m.competition?.name || '(không rõ giải)'))].slice(0, 40);
       console.log(`[phalang] tab=${tab}: bỏ ${dropped.length}/${normalized.length} trận giải bé — ${leagues.join(' | ')}`);
     }
 
