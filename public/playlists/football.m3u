@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:43:30 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:46:11 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (14 trận), Chuối Chiên (19 trận), Phá Làng (29 trận), Gà Vàng (10 trận), Sao Kê (21 trận) =====
 
@@ -24,13 +24,20 @@ https://eqr2hdarxfliv.vcdn.cloud/1790231280_hd/1790231280_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_ddeb005f.png" group-title="Chuối Chiên" , 24-09 16:00 [LIVE LIVE] Laos vs Brunei (Chuối Sấy (HD)) [hls]
+#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisay/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260921/73eec1fd974a87af6c92080521bd05b2.png" group-title="Phá Làng" , 24-09 16:00 [LIVE LIVE] Laos - Brunei Darussalam (LÝ LINH LỰC) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/f3550abbcb225f59fb5778e999b01261/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_ddeb005f.png" group-title="Chuối Chiên" , 24-09 16:00 Laos vs Brunei (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://live05.chuoichientv.me/live/1641700/laos-vs-brunei
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5891.png" group-title="Sao Kê" , 24-09 16:00 [LIVE LIVE] Laos vs Brunei (Quang Huy) [hls]
+#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d70c71164ff5939b6b27b4cbcd0c1fb5.png" group-title="Phá Làng" , 24-09 16:00 Ivory Coast U18 - Spain U18 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#318q66h8z74lqo9
@@ -52,9 +59,6 @@ https://phalang.live/trang-chu#pxwrxlhlpe2kryk
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ac3f493742d14eee1e4e4ae00f2704f6.png" group-title="Gà Vàng" , 24-09 16:00 Laos vs Brunei Darussalam (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/truc-tiep/laos-vs-brunei-darussalam-ngay-24-09-2026/
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5891.png" group-title="Sao Kê" , 24-09 16:00 Laos vs Brunei (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://vip3.saoketv40.xyz/laos-vs-brunei-6ab47b441c8a389f4b1012db.html
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/new-zealand.png" group-title="Giờ Vàng" , 24-09 16:30 New Zealand vs Palestine (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-new-zealand-vs-palestine-24-09-6aaf23424e725bdee905b82d
