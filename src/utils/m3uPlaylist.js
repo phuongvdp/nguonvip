@@ -62,7 +62,16 @@ const REFERER_CANDIDATES_BY_SOURCE = {
   // FIX (24/09/2026 — theo yêu cầu "tiện thêm #EXTVLCOPT vào luôn" cho 2
   // nguồn mới Gà Vàng + Sao Kê, trước đó bị bỏ sót khỏi danh sách này nên
   // chưa từng có Referer nào được gắn):
-  gavang: [process.env.GAVANG_DOMAIN || 'https://gavanglinkp.tv/', null],
+  // FIX (24/09/2026): đồng bộ với pages/api/proxy/hls.js — domain chính
+  // (GAVANG_DOMAIN) trước, kèm 2 mirror dự phòng, cuối cùng là không Referer.
+  gavang: [
+    ...new Set([
+      String(process.env.GAVANG_DOMAIN || process.env.GAVANG_BASE_URL || 'https://gavanglinkp.tv').replace(/\/+$/, ''),
+      'https://gavanglinkp.tv',
+      'https://gavangtv.tv',
+      'https://gavangtvv.cc'
+    ])
+  ].map((d) => `${d}/`).concat([null]),
   // Sao Kê dùng CHUNG 2 CDN với Chuối Chiến (stream.hdplaylink.com,
   // edgemaxcdn.org — xem cảnh báo trong saoke.service.js) nên ưu tiên thử
   // lại đúng các Referer đã biết của Chuối Chiến trước, thêm domain thật

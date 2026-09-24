@@ -43,6 +43,19 @@ const DEFAULT_UA =
 // theo `source` (truyền từ buildProxyStreamUrl -> VideoPlayer -> đây) —
 // vẫn giữ Pháo Hoa làm mặc định để không phá vỡ link cũ/link không rõ
 // nguồn (playlist .m3u tĩnh tải về từ trước, v.v).
+// Gà Vàng có nhiều domain mirror cùng thương hiệu (xem chú thích đầu file
+// src/services/gavang.service.js) — domain chính lấy từ GAVANG_DOMAIN (giống
+// service), các mirror còn lại chỉ là ứng viên dự phòng cho CDN kiểm tra
+// Referer theo domain khác. GIỮ ĐỒNG BỘ với m3uPlaylist.js.
+const GAVANG_MAIN = String(process.env.GAVANG_DOMAIN || process.env.GAVANG_BASE_URL || 'https://gavanglinkp.tv').replace(/\/+$/, '');
+const GAVANG_ORIGINS = [...new Set([GAVANG_MAIN, 'https://gavanglinkp.tv', 'https://gavangtv.tv', 'https://gavangtvv.cc'])].map((d) => `${d}/`);
+
+// Sao Kê dùng CHUNG 2 CDN với Chuối Chiến (hdplaylink.com, edgemaxcdn.org — xem
+// saoke.service.js) nên thử Referer của Chuối Chiến trước, rồi tới domain thật
+// của Sao Kê (SAOKE_DOMAIN). GIỮ ĐỒNG BỘ với REFERER_CANDIDATES_BY_SOURCE.saoke
+// trong src/utils/m3uPlaylist.js.
+const SAOKE_SITE = String(process.env.SAOKE_DOMAIN || process.env.SAOKE_BASE_URL || 'https://vip3.saoketv40.xyz').replace(/\/+$/, '');
+
 const REFERER_BY_SOURCE = {
   phaohoa: process.env.PHAOHOA_DOMAIN || process.env.PHAOHOA_BASE_URL || 'https://phaohoa1.live',
   giovang: process.env.GIOVANG_DOMAIN || 'https://giovang.city',
@@ -56,7 +69,18 @@ const REFERER_BY_SOURCE = {
   // hotlink. Trận "Server 1" trơn lấy link thẳng từ source_live có sẵn
   // trong danh sách (CDN khác, không kiểm tra Referer) nên vẫn phát được dù
   // Referer sai — không liên quan gì tới việc thiếu entry này.
-  phalang: 'https://phalang.live'
+  phalang: 'https://phalang.live',
+  // FIX (24/09/2026 — "nguồn Gà Vàng có trận xem được, có trận lỗi không xem
+  // được"): thiếu hẳn entry 'gavang' ở đây (chỉ được thêm vào bản sao
+  // REFERER_CANDIDATES_BY_SOURCE trong m3uPlaylist.js) nên mọi link Gà Vàng
+  // phát qua web/proxy rơi vào REFERER_FALLBACK (domain Pháo Hoa, SAI). Trận
+  // nào nằm trên CDN không kiểm tra Referer thì vẫn xem được, trận nào nằm
+  // trên CDN chống hotlink (Tencent/Alibaba...) thì bị 403 -> đúng triệu
+  // chứng "trận được trận không" — cùng bệnh với Phá Làng ngày 18/09/2026.
+  gavang: GAVANG_ORIGINS[0],
+  // FIX (24/09/2026): thiếu entry 'saoke' -> rơi vào REFERER_FALLBACK (Pháo
+  // Hoa, SAI) khi phát qua web/proxy, cùng lỗi với Gà Vàng/Phá Làng.
+  saoke: SAOKE_SITE
 };
 const REFERER_FALLBACK = REFERER_BY_SOURCE.phaohoa;
 
@@ -101,7 +125,9 @@ const REFERER_CANDIDATES_BY_SOURCE = {
   // việc này (cần đổi hẳn IP gọi ra, ví dụ qua proxy IP dân dụng — ngoài
   // phạm vi route này) — KHÔNG đoán thêm Referer khác nữa nếu chưa có bằng
   // chứng mới, tránh lặp lại vòng dò mù đã từng tốn công ở Chuối Chiên.
-  phalang: [REFERER_BY_SOURCE.phalang, `${REFERER_BY_SOURCE.phalang}/`, null]
+  phalang: [REFERER_BY_SOURCE.phalang, `${REFERER_BY_SOURCE.phalang}/`, null],
+  gavang: [...GAVANG_ORIGINS, null],
+  saoke: ['https://live05.chuoichientv.me/', 'https://chuoichientv.link/', `${SAOKE_SITE}/`, null]
 };
 
 // Nhớ lại (trong bộ nhớ container, theo hostname CDN) ứng viên Referer nào

@@ -165,6 +165,47 @@ const WOMEN_RE = /women|woman|femin|femenin|frauen|damallsvenskan|ladies|girls|\
 // Bóng đá nữ chỉ giữ khi là giải lớn / đội tuyển / giao hữu (hoặc is_hot, Việt Nam).
 const WOMEN_KEEP_RE = /uefa|fifa|world cup|olympic|asian cup|\bafc\b|champions league|nations league|\beuro\b|copa america|concacaf|gold cup|qualif|\bwsl\b|\bnwsl\b|women.?s super league|liga f\b/;
 
+// DANH SÁCH GIẢI BỊ LOẠI HẲN (24/09/2026 — "lọc bỏ các giải nguồn Phá Làng"):
+// so khớp CHÍNH XÁC theo tên giải Phá Làng trả về (không phân biệt hoa/thường,
+// dấu, khoảng trắng) nên KHÔNG ảnh hưởng giải cùng họ (vd giữ German Bundesliga,
+// Japanese J1 League, UEFA Champions League...). Chạy TRƯỚC mọi luật giữ
+// (is_hot, giao hữu, Việt Nam, PHALANG_KEEP_LEAGUES) và không bị PHALANG_LEAGUE_FILTER=off tắt.
+// Muốn loại thêm giải: thêm vào mảng dưới, hoặc đặt env PHALANG_EXCLUDE_LEAGUES=a,b
+// (khớp chứa từ khoá, không dấu, chữ thường).
+const EXCLUDED_LEAGUE_NAMES = [
+  'German Bundesliga 5',
+  'CONCACAF Nations League',
+  'Japanese J3 League',
+  'Japanese J2 League',
+  'Northern Ireland Women\'s Super League',
+  'Belgian Women\'s Super League',
+  'Mexico Liga MX',
+  'Greek Women\'s Super League',
+  'Turkish Women\'s Super League',
+  'CFA Member Champions League',
+  'CFA Team China International Tournament',
+  'Guatemala Liga Nacional',
+  'UEFA European U21 Championship qualification',
+  'Japanese Nadeshiko League 2',
+  'Chinese Hong Kong League Cup',
+  'English FA Women\'s Super League'
+];
+
+function normalizeLeagueName(name) {
+  return stripDiacritics(name).replace(/[\u2018\u2019`]/g, "'").replace(/\s+/g, ' ').trim();
+}
+
+const EXCLUDED_LEAGUE_SET = new Set(EXCLUDED_LEAGUE_NAMES.map(normalizeLeagueName));
+const EXCLUDE_LEAGUES_RE = envKeywordsRe('PHALANG_EXCLUDE_LEAGUES');
+
+function isExcludedLeague(match) {
+  if (match?.sport !== 'football') return false;
+  const league = normalizeLeagueName(match?.competition?.name || '');
+  if (!league) return false;
+  if (EXCLUDED_LEAGUE_SET.has(league)) return true;
+  return !!(EXCLUDE_LEAGUES_RE && EXCLUDE_LEAGUES_RE.test(league));
+}
+
 function isNotableMatch(match) {
   if (match?.sport !== 'football') return true; // chỉ lọc bóng đá
 
@@ -192,12 +233,15 @@ function isNotableMatch(match) {
 }
 
 export function filterPhalangMatches(matches = []) {
-  if (String(process.env.PHALANG_LEAGUE_FILTER || '').toLowerCase() === 'off') {
-    return { kept: matches, dropped: [] };
-  }
+  const filterOff = String(process.env.PHALANG_LEAGUE_FILTER || '').toLowerCase() === 'off';
   const kept = [];
   const dropped = [];
-  for (const m of matches) (isNotableMatch(m) ? kept : dropped).push(m);
+  for (const m of matches) {
+    // Giải nằm trong danh sách loại hẳn -> bỏ, kể cả khi tắt bộ lọc chung.
+    if (isExcludedLeague(m)) { dropped.push(m); continue; }
+    if (filterOff || isNotableMatch(m)) kept.push(m);
+    else dropped.push(m);
+  }
   return { kept, dropped };
 }
 

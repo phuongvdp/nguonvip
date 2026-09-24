@@ -1,6 +1,6 @@
 import { load } from 'cheerio';
 import { createHttpClient } from '@/src/utils/httpClient';
-import { mapPool } from '@/src/utils/playerGet';
+import { mapPool, isStaleLiveMatch } from '@/src/utils/playerGet';
 
 // Domain nguồn lậu này cũng đổi thường xuyên (đã thấy nhiều domain mirror
 // cùng thương hiệu: gavangtv.tv, gavangtvv.cc, gavanglinkp.tv...) — override
@@ -200,7 +200,17 @@ async function fetchCommentatorsForMatch(match) {
         cdn: detectCdn(streamUrl || flvUrl, $c.attr('data-cdn'))
       });
     });
-    return commentators;
+    // FIX (24/09/2026 — "có trận xem được, có trận lỗi"): mỗi trận có nhiều
+    // BLV, mỗi BLV 1 link riêng; playlist chỉ lấy link ĐẦU TIÊN. Trước đây
+    // giữ nguyên thứ tự trên trang nên nhiều trận bị dồn vào link FLV (hoặc
+    // link không phải HLS) dù trận đó có sẵn link HLS — app IPTV/player web
+    // xử lý FLV kém hơn hẳn HLS. Xếp link HLS (.m3u8) lên trước, FLV/khác
+    // xuống sau (sort ổn định — giữ nguyên thứ tự BLV trong cùng nhóm).
+    const rank = (c) => (/\.m3u8(\?|$)/i.test(c.streamUrl) ? 0 : (/\.flv(\?|$)/i.test(c.streamUrl) ? 2 : 1));
+    return commentators
+      .map((c, i) => ({ c, i }))
+      .sort((a, b) => rank(a.c) - rank(b.c) || a.i - b.i)
+      .map(({ c }) => c);
   } catch (error) {
     console.error(`Error fetching GaVang match detail (${match.slug}):`, error.message);
     return [];
@@ -268,6 +278,17 @@ class GaVangService {
 
       // Chỉ trận LIVE mới cần gọi thêm trang chi tiết để lấy link stream
       // thật — trận sắp đá chưa có gì để lấy (xem fetchCommentatorsForMatch).
+      // FIX (24/09/2026 — "có trận lỗi không xem được"): Gà Vàng hay quên
+      // cập nhật trạng thái — trận đã đá xong từ lâu vẫn mang class
+      // bals-live-match, link stream của nó đã chết -> bấm vào là lỗi.
+      // isStaleLiveMatch() (playerGet.js) đã có sẵn nhưng chưa nơi nào gọi:
+      // bỏ các trận "live" đã quá thời lượng hợp lý so với giờ bóng lăn.
+      const staleLive = filtered.filter((m) => m.status.isLive && isStaleLiveMatch(m));
+      if (staleLive.length) {
+        console.log(`[gavang] bỏ ${staleLive.length} trận "live" đã quá giờ (nguồn chưa cập nhật trạng thái): ${staleLive.map((m) => m.slug || m.matchId).join(', ')}`);
+        filtered = filtered.filter((m) => !staleLive.includes(m));
+      }
+
       const liveMatches = filtered.filter((m) => m.status.isLive);
       if (liveMatches.length) {
         const commentatorsList = await mapPool(liveMatches, concurrency, (m) => fetchCommentatorsForMatch(m));
