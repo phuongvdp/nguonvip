@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 05:20:17 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 05:22:29 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận) =====
 
@@ -9,11 +9,15 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790144493_hd/1790144493_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/691f1fbb808378a5c4cb07fa320d017d.png" group-title="Giờ Vàng" , 25/09 06:00 🟡 🏀 Connecticut Sun vs Toronto Tempo (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-connecticut-sun-vs-toronto-tempo-25-09-26525075
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/691f1fbb808378a5c4cb07fa320d017d.png" group-title="Giờ Vàng" , 25/09 06:00 🟢 🏀 Connecticut Sun vs Toronto Tempo (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790144678_hd/1790144678_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/e4fdbc941d11c2927bafb5b8978e8ea6.png" group-title="Giờ Vàng" , 25/09 06:30 🏀 Washington Mystics vs Chicago Sky (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-washington-mystics-vs-chicago-sky-25-09-27525076
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/e4fdbc941d11c2927bafb5b8978e8ea6.png" group-title="Giờ Vàng" , 25/09 06:30 🟢 🏀 Washington Mystics vs Chicago Sky (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790144706_hd/1790144706_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/lxrfbgcM-raJr9r28.png" group-title="Giờ Vàng" , 25/09 07:00 ⚽ Dominican Republic vs Nicaragua (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-dominican-republic-vs-nicaragua-25-09-3xwkuzr9saev
