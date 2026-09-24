@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:27:44 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:31:00 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (15 trận), Chuối Chiên (19 trận), Phá Làng (58 trận), Gà Vàng (20 trận), Sao Kê (21 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (15 trận), Chuối Chiên (19 trận), Phá Làng (57 trận), Gà Vàng (18 trận), Sao Kê (21 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 24-09 13:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
@@ -51,18 +51,6 @@ https://giovang.city/truc-tiep-south-east-melbourne-phoenix-vs-melbourne-united-
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://wtyi0525.edgemaxcdn.org/live/x68-hd-1111/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/eeee6474d5000bbd5709b0b37718d42d.png" group-title="Phá Làng" , 24-09 16:30 Egypt U18 - Korea Republic U18 (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#dn1m1gh9vo8vmoe
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ac96e83ce1fae4a1251863bea34248db.png" group-title="Phá Làng" , 24-09 16:30 Palestine - New Zealand (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#k82rekh2z955rep
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/72fb22982ac69857cb2432f13589836e.png" group-title="Gà Vàng" , 24-09 16:30 Palestine vs New Zealand (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://gavanglinkp.tv/truc-tiep/palestine-vs-new-zealand-ngay-24-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/fb957ad093d309e8c337aeb83ebe7857.png" group-title="Gà Vàng" , 24-09 16:30 South East Melbourne Phoenix vs Melbourne United (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/93709f353756351288025d64f4ef9821.png" group-title="Gà Vàng" , 24-09 16:40 National Formasa University vs National Taiwan Sport University (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/
@@ -161,9 +149,6 @@ https://phalang.live/trang-chu#3glrw7h4k6lxqdy
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2d442e2046833a95e2a05954dfbab693.png" group-title="Phá Làng" , 24-09 20:00 SV Lippstadt - ASC 09 Dortmund (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#ednm9wh58ee4ryo
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a261990c8ba568a176fbac7ad0f01c12.png" group-title="Phá Làng" , 24-09 20:00 TSV Hartberg - Kapfenberg SV 1919 (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#l5ergphk0y40r8k
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6490b1bd9d8483432e23bdccdd4e8a6a.png" group-title="Phá Làng" , 24-09 20:00 Brazil U18 - Canada U18 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#l7oqdehjyel0r51
@@ -495,3 +480,9 @@ https://phalang.live/trang-chu#pxwrxlhlpe71ryk
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/88f86953c3b7e4a27b30923f804cd2b3.png" group-title="Phá Làng" , 25-09 16:00 Sweden U17 - Wales U17 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#y0or5jh9x6jlqwz
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/729b7d93db45eb5fbd3a82d6767af23f.png" group-title="Phá Làng" , 25-09 16:30 Poland U19 - Switzerland U19 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#3glrw7h4k0x7qdy
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/07668fe49f8fec6832919e14449eb340.png" group-title="Phá Làng" , 25-09 16:30 Mohammedan SC - Minerva Punjab (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#k82rekh2zn02rep
