@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:49:08 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:51:44 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (22 trận), Chuối Chiên (19 trận), Phá Làng (64 trận), Gà Vàng (17 trận), Sao Kê (20 trận) =====
 
@@ -82,6 +82,11 @@ https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790234241_hd/1790234241_hd@720p.m3u8
 
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea.png" group-title="Giờ Vàng" , 24-09 18:00 [LIVE Đang diễn ra] Hàn Quốc vs Ecuador (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790233329_hd/1790233329_hd@720p.m3u8
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_651.jpg" group-title="Khán Đài" , 24-09 18:00 [LIVE LIVE] South Korea vs Ecuador (Tày) [hls]
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -102,9 +107,6 @@ https://lilive1.eu.cc/live/e77391695a6ab6c3aaa561d44db263bf/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea.png" group-title="Giờ Vàng" , 24-09 18:00 Hàn Quốc vs Ecuador (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-han-quoc-vs-ecuador-24-09-6aadd1c645163e9e3e085d6a
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/052d1fe7182d98f32b235c6024996665.png" group-title="Phá Làng" , 24-09 18:00 Chongqing Handa - Shenzhen Jixiang (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#1l4rjnh977nnm7v
 
@@ -114,8 +116,10 @@ https://phalang.live/trang-chu#jw2r09h54pwxrz8
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a3f9a9a7e81748828ce092f0dd488479.png" group-title="Gà Vàng" , 24-09 18:00 South Korea vs Ecuador (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/truc-tiep/south-korea-vs-ecuador-ngay-24-09-2026/
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/d6e217ac051f3258b82d74a932d11ada.png" group-title="Giờ Vàng" , 24-09 18:30 Perth Wildcats vs Adelaide 36ers (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-perth-wildcats-vs-adelaide-36ers-24-09-10222275
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/d6e217ac051f3258b82d74a932d11ada.png" group-title="Giờ Vàng" , 24-09 18:30 [LIVE Đang diễn ra] Perth Wildcats vs Adelaide 36ers (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790234282_hd/1790234282_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Chuối Chiên" , 24-09 18:35 China vs Maldives (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1640057/china-vs-maldives

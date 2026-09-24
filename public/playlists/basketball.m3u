@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:49:16 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:51:52 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (7 trận), Gà Vàng (8 trận) =====
 
@@ -12,8 +12,10 @@ https://giovang.city/truc-tiep-south-east-melbourne-phoenix-vs-melbourne-united-
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790234241_hd/1790234241_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/d6e217ac051f3258b82d74a932d11ada.png" group-title="Giờ Vàng" , 24-09 18:30 Perth Wildcats vs Adelaide 36ers (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://giovang.city/truc-tiep-perth-wildcats-vs-adelaide-36ers-24-09-10222275
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/d6e217ac051f3258b82d74a932d11ada.png" group-title="Giờ Vàng" , 24-09 18:30 [LIVE Đang diễn ra] Perth Wildcats vs Adelaide 36ers (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790234282_hd/1790234282_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/fb1060fc304744d0b50e6a180fbc98c2.png" group-title="Gà Vàng" , 24-09 19:30 Xigong heat vs Hanoi buffalo (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/
