@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:59:35 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:01:40 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (14 trận), Chuối Chiên (4 trận), Phá Làng (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (14 trận), Chuối Chiên (4 trận), Phá Làng (21 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134322_afd6712d.png" group-title="Chuoi Chien TV" , 24-09 06:00 [LIVE LIVE] Aruba vs Antigua and Barbuda (Trốc Tru (HD)) [hls]
@@ -59,12 +59,6 @@ https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/feab640840c469fed18739a7aac1f7f7/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1d94d22d0f35c2f40d43948eab0e4324.png" group-title="Pha Lang TV" , 24-09 07:00 Goianesia GO - Rio Verde GO (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#n54qllh459ypqvy
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5efd8fd279da59db0b05331b17484323.png" group-title="Pha Lang TV" , 24-09 07:00 Rivadavia Venado Tuerto - Los Andes Alcorta (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#y0or5jh9x6epqwz
-
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/america-de-cali.png" group-title="Gio Vang TV" , 24-09 07:30 America de Cali vs Aguilas Doradas (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-america-de-cali-vs-aguilas-doradas-24-09-6aac7f5424d46db87036bb30
 
@@ -107,8 +101,29 @@ https://live05.chuoichientv.me/live/1517352/vancouver-fc-vs-york-united
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6857f457777f1e59180fc0a6c86f41d8.png" group-title="Pha Lang TV" , 24-09 09:00 Gimnastico de Tegucigalpa - Real Tegus (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#2y8m4zhv0x89ql0
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2be300dfaf22aea36b0f57a2832859ae.png" group-title="Pha Lang TV" , 24-09 09:00 Vancouver FC - Inter Toronto FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#dn1m1ghl26nwmoe
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b0ec985cd57cba37048de614c46660e5.png" group-title="Pha Lang TV" , 24-09 09:00 Xelaju MC - Antigua GFC (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#k82rekhg4d6lrep
+
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/vqLkKVYA-IJIsQ3zG.png" group-title="Gio Vang TV" , 24-09 11:00 Solomon Islands vs Vanuatu (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-solomon-islands-vs-vanuatu-24-09-6aaf23424e725bdee905b83b
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fe7a0e897d5cc10b81a7f3ee2b7dd46c.png" group-title="Pha Lang TV" , 24-09 11:00 Solomon Islands - Vanuatu (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#k82rekh2zzz6rep
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cedefb834d84c29f26ebdf2384b381a4.png" group-title="Pha Lang TV" , 24-09 12:30 Hal FC - Karnataka (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#965mkyh8l16jr1g
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/958faecb22c8732da07958cde902764a.png" group-title="Pha Lang TV" , 24-09 13:00 Australia U16 - Vietnam U16 (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#4wyrn4h6jlk6q86
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/82c12c7e06889afe3ca9e7d6f01de211.png" group-title="Pha Lang TV" , 24-09 13:00 Offshots FC - Skorost (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#4wyrn4hyz0jdq86
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/55641b8546bd16655daa918b657af6dd.png" group-title="Pha Lang TV" , 24-09 13:45 Mawtawar SC - Nongthymai SC (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#l7oqdehjydv1r51
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/QqFRYqe5-fmpRzHfB.png" group-title="Gio Vang TV" , 24-09 14:00 Papua New Guinea vs New Caledonia (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-papua-new-guinea-vs-new-caledonia-24-09-6ab3e97b24d46db870b262d1
