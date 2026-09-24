@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:50:30 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:52:35 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (14 trận), Chuối Chiên (4 trận), Phá Làng (17 trận), Gà Vàng (14 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (14 trận), Chuối Chiên (4 trận), Phá Làng (16 trận), Gà Vàng (14 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134322_afd6712d.png" group-title="Chuoi Chien TV" , 24-09 06:00 [LIVE LIVE] Aruba vs Antigua and Barbuda (Trốc Tru (HD)) [hls]
@@ -18,11 +18,6 @@ https://lilive1.eu.cc/live/16012744f82f2b486f607ba2cb8bab0d/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/801fc8426c798821c12013b1a31b31e5/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/327368d0bd89e670a231bf92bb790675.png" group-title="Pha Lang TV" , 24-09 06:00 [LIVE LIVE] Cerro Montevideo - Deportivo Maldonado (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/ab58d1ccdfddc0c85b99ad208037d7e3/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/n9kmqce5-2NbwlzJD.png" group-title="Gio Vang TV" , 24-09 06:30 [LIVE Đang diễn ra] Deportes Iquique vs Antofagasta (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
