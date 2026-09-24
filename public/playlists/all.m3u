@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:37:31 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:40:03 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (20 trận), Chuối Chiên (15 trận), Phá Làng (31 trận), Gà Vàng (16 trận), Sao Kê (17 trận) =====
 
@@ -89,13 +89,15 @@ https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790256292_hd/1790256292_hd@720p.m3u8
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646.jpg" group-title="Khán Đài" , 24-09 21:00 [LIVE LIVE] Uzbekistan vs Iran (Enzo) [hls]
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/e3254af2b05f7327e76133d892cf20ad.png" group-title="Phá Làng" , 24-09 21:00 [LIVE LIVE] Uzbekistan - IR Iran (LÝ LA LÀNG) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/041f424faca764f7bdf37df77b763f02/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646.jpg" group-title="Khán Đài" , 24-09 21:00 Uzbekistan vs Iran (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://khandai3.link/truc-tiep/uzbekistan-vs-iran-24-09-2026-854696
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_7ff7b895.png" group-title="Chuối Chiên" , 24-09 21:00 Uzbekistan vs Iran (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://live05.chuoichientv.me/live/1638591/uzbekistan-vs-iran
