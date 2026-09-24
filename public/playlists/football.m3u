@@ -1,15 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:40:00 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:42:09 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (14 trận), Chuối Chiên (4 trận), Phá Làng (18 trận), Gà Vàng (26 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (14 trận), Chuối Chiên (4 trận), Phá Làng (17 trận), Gà Vàng (14 trận) =====
 
 # ----- Ngày 2026-09-24 -----
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a617c09fe515d345e95499d0478bcf51.png" group-title="Ga Vang TV" , 24-09 05:30 [LIVE LIVE] Uniao Frederiquense RS vs Aimore RS (Chưa có link — chờ cập nhật) [hls]
-https://gavanglinkp.tv/truc-tiep/uniao-frederiquense-rs-vs-aimore-rs-ngay-24-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/779abd3b5f8cef0a308ec6519595a8f4.png" group-title="Ga Vang TV" , 24-09 05:30 [LIVE LIVE] Goiania vs Morrinhos FC (Chưa có link — chờ cập nhật) [hls]
-https://gavanglinkp.tv/truc-tiep/goiania-vs-morrinhos-fc-ngay-24-09-2026/
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134322_afd6712d.png" group-title="Chuoi Chien TV" , 24-09 06:00 [LIVE LIVE] Aruba vs Antigua and Barbuda (Trốc Tru (HD)) [hls]
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -29,24 +23,6 @@ https://lilive1.eu.cc/live/801fc8426c798821c12013b1a31b31e5/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/ab58d1ccdfddc0c85b99ad208037d7e3/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/327368d0bd89e670a231bf92bb790675.png" group-title="Ga Vang TV" , 24-09 06:00 [LIVE LIVE] Cerro Montevideo vs Deportivo Maldonado (Chưa có link — chờ cập nhật) [hls]
-https://gavanglinkp.tv/truc-tiep/cerro-montevideo-vs-deportivo-maldonado-ngay-24-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/08ba7292cb615ed5b17fa7636854c43a.png" group-title="Ga Vang TV" , 24-09 06:00 [LIVE LIVE] Montevideo Wanderers FC vs CS Cerrito (Chưa có link — chờ cập nhật) [hls]
-https://gavanglinkp.tv/truc-tiep/montevideo-wanderers-fc-vs-cs-cerrito-ngay-24-09-2026/
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/cff843c1f724a378bd0ae42d842ef807.png" group-title="Ga Vang TV" , 24-09 06:00 [LIVE LIVE] Aruba vs Antigua and Barbuda (Chưa có link — chờ cập nhật) [hls]
-https://gavanglinkp.tv/truc-tiep/aruba-vs-antigua-and-barbuda-ngay-24-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/495620a22b98c44729dbf780f7de1d09.png" group-title="Ga Vang TV" , 24-09 06:00 [LIVE LIVE] Farroupilha vs GE Bage (Chưa có link — chờ cập nhật) [hls]
-https://gavanglinkp.tv/truc-tiep/brasil-de-farroupilha-vs-ge-bage-ngay-24-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/1cd995bdc2b652d31129d027afb27ed8.png" group-title="Ga Vang TV" , 24-09 06:00 [LIVE HT] Monarcas Morelia vs Leon U21 (Chưa có link — chờ cập nhật) [hls]
-https://gavanglinkp.tv/truc-tiep/club-atletico-morelia-vs-leon-u21-ngay-24-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/6d4cc77f57f9dddf6862cb7168a08d2f.png" group-title="Ga Vang TV" , 24-09 06:15 [LIVE HT] Auto Esporte Clube PB vs Cruzeiro PB (Chưa có link — chờ cập nhật) [hls]
-https://gavanglinkp.tv/truc-tiep/auto-esporte-clube-pb-vs-cruzeiro-pb-ngay-24-09-2026/
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/n9kmqce5-2NbwlzJD.png" group-title="Gio Vang TV" , 24-09 06:30 [LIVE Đang diễn ra] Deportes Iquique vs Antofagasta (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
@@ -68,25 +44,10 @@ https://eqr2hdarxfliv.vcdn.cloud/1790172281_hd/1790172281_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/cfbcd80950bc23533dbfe3e94cfbcdf5/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/f9b2e922f6ca83c14def96049ccbfe42.png" group-title="Ga Vang TV" , 24-09 06:30 [LIVE LIVE] Union La Calera vs Univ Catolica (Chưa có link — chờ cập nhật) [hls]
-https://gavanglinkp.tv/truc-tiep/union-la-calera-vs-univ-catolica-ngay-24-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/c57dd461eb278005d2f1efc2c0cb720f.png" group-title="Ga Vang TV" , 24-09 06:30 [LIVE LIVE] Municipal Iquique vs CD Antofagasta (Chưa có link — chờ cập nhật) [hls]
-https://gavanglinkp.tv/truc-tiep/municipal-iquique-vs-csd-antofagasta-ngay-24-09-2026/
-
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Gio Vang TV" , 24-09 07:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/1067f238e084e5e278d4e34dfdd1e891.png" group-title="Ga Vang TV" , 24-09 07:00 [LIVE LIVE] Independiente Santa Fe(w) vs Deportivo Cali(w) (Chưa có link — chờ cập nhật) [hls]
-https://gavanglinkp.tv/truc-tiep/independiente-santa-fe-w-vs-deportivo-cali-women-ngay-24-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/1d94d22d0f35c2f40d43948eab0e4324.png" group-title="Ga Vang TV" , 24-09 07:00 [LIVE LIVE] Goianesia GO vs Rio Verde GO (Chưa có link — chờ cập nhật) [hls]
-https://gavanglinkp.tv/truc-tiep/goianesia-go-vs-rio-verde-go-ngay-24-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5efd8fd279da59db0b05331b17484323.png" group-title="Ga Vang TV" , 24-09 07:00 [LIVE LIVE] Rivadavia Venado Tuerto vs Los Andes Alcorta (Chưa có link — chờ cập nhật) [hls]
-https://gavanglinkp.tv/truc-tiep/rivadavia-venado-tuerto-vs-los-andes-alcorta-ngay-24-09-2026/
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/america-de-cali.png" group-title="Gio Vang TV" , 24-09 07:30 [LIVE Đang diễn ra] America de Cali vs Aguilas Doradas (Giovang 1) [hls]
 #EXTVLCOPT:http-referrer=https://giovang.city
@@ -98,10 +59,8 @@ https://eqr2hdarxfliv.vcdn.cloud/1790203942_hd/1790203942_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ed6ae7fa894cb5bdbccfd605d1d6ad04.png" group-title="Pha Lang TV" , 24-09 07:30 [LIVE LIVE] America de Cali - Aguilas Doradas (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/8fcf87f953302eca604896ac205c3a4b/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/ed6ae7fa894cb5bdbccfd605d1d6ad04.png" group-title="Ga Vang TV" , 24-09 07:30 [LIVE LIVE] America de Cali vs Aguilas Doradas (cố tư nghiêm) [hls]
+https://playback.livetl002.com/live/69a1aaa7230584579e2d5ce1.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e6541c73ce2605793bd7c91c0e02e800.png" group-title="Pha Lang TV" , 24-09 08:00 Luis Angel Firpo - CD Cacahuatique (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#1l4rjnh9754jm7v
