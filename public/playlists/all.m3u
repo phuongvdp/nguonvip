@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:50:22 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:53:51 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (19 trận), Chuối Chiên (20 trận), Phá Làng (13 trận), Gà Vàng (24 trận), Sao Kê (23 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (19 trận), Chuối Chiên (20 trận), Phá Làng (12 trận), Gà Vàng (23 trận), Sao Kê (23 trận) =====
 
 # ----- Ngày 2026-09-25 -----
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/efa8ac06cc6747b1835520f01650a0ab.png" group-title="Gà Vàng" , 25/09 01:00 🟢 ⚽ Qatar vs Bahrain (THICHDUTHU)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/6a704ad865997681f18c2160.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/c9847eeba0c64358960425bb19adbac0.png" group-title="Gà Vàng" , 25/09 01:45 🟢 ⚽ Portugal vs Wales (CRIS)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -24,6 +19,11 @@ https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a5b13ceb36a14387baeddaa.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/4c93e18166419da61b1ca433c866d9e5.png" group-title="Gà Vàng" , 25/09 01:45 🟢 ⚽ Kosovo vs Ireland (SÚP LƠ)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a9a5525864ea536c2577392.m3u8
+
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/059bbd8df7767d3bc7829e3735c221e2.png" group-title="Gà Vàng" , 25/09 01:45 🟢 ⚽ Serbia vs Greece (NGƯỜI KIẾN)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -33,11 +33,6 @@ https://playback.livetl002.com/live/6a439a7fb89dded67b208b87.m3u8
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a9776215126529dede9bf51.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/4c93e18166419da61b1ca433c866d9e5.png" group-title="Gà Vàng" , 25/09 01:45 🟢 ⚽ Kosovo vs Ireland (SÚP LƠ)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/6a9a5525864ea536c2577392.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a7ce4026f43a4491f1284bb38d96f440.png" group-title="Gà Vàng" , 25/09 01:45 🟢 ⚽ Liechtenstein vs Lithuania (Cá MậP)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
@@ -55,22 +50,17 @@ https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5de585a438634b088e5734dde6783ffd.png" group-title="Phá Làng" , 25/09 02:00 🟢 ⚽ Tunisia - Uganda (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/
+#EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/e2eea1cfc43c46161a8910576990896d/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d9b9e86f423a14e7507e8de603f02f3b.png" group-title="Phá Làng" , 25/09 02:00 🟢 ⚽ Sierra Leone - Zimbabwe (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/c4a2fbac6ace039058e5f682c36daca7/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7c3811819608f6a4ec34b52cbeb68965.png" group-title="Phá Làng" , 25/09 02:00 🟢 ⚽ Cameroon - Comoros (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/
+#EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/ee2a99dfc250484ad513327dce25c62f/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/db5f54482ae28e132611f4c928b6f672.png" group-title="Phá Làng" , 25/09 02:00 🟢 ⚽ Cote d'Ivoire - Ghana (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/
+#EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/c8542c4e58a445645b85bb9cd66bac7e/playlist.m3u8
 
