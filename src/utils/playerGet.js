@@ -54,7 +54,8 @@ const SOURCE_LABELS = {
   khandaitv: 'Khan Dai TV',
   chuoichientv: 'Chuoi Chien TV',
   phalang: 'Pha Lang TV',
-  gavang: 'Ga Vang TV'
+  gavang: 'Ga Vang TV',
+  saoke: 'Sao Ke Live TV'
 };
 
 const SOURCE_SHORT = {
@@ -62,14 +63,15 @@ const SOURCE_SHORT = {
   khandaitv: 'Khán Đài',
   chuoichientv: 'Chuối Chiên',
   phalang: 'Phá Làng',
-  gavang: 'Gà Vàng'
+  gavang: 'Gà Vàng',
+  saoke: 'Sao Kê'
 };
 
 // Thứ tự nhóm theo nguồn dùng chung cho danh sách trên trang quét lẫn file
 // playlist .m3u, để cả hai nơi hiển thị nhất quán.
-// FIX (23/09/2026 — theo yêu cầu, thêm nguồn Gà Vàng TV): xem
-// gavang.service.js + playlistBuilder.service.js.
-export const SOURCE_GROUP_ORDER = ['giovang', 'khandaitv', 'chuoichientv', 'phalang', 'gavang'];
+// FIX (23-24/09/2026 — theo yêu cầu, thêm nguồn Gà Vàng TV và Sao Kê Live
+// TV): xem gavang.service.js, saoke.service.js + playlistBuilder.service.js.
+export const SOURCE_GROUP_ORDER = ['giovang', 'khandaitv', 'chuoichientv', 'phalang', 'gavang', 'saoke'];
 
 // Danh sách nguồn dùng để vẽ công tắc bật/tắt trên giao diện. Giữ đồng bộ
 // với SOURCE_GROUP_ORDER — mỗi nguồn 1 công tắc, người dùng tự chọn nguồn
@@ -368,7 +370,7 @@ export function streamsFromMatchCard(match) {
     return list.length ? list : null;
   }
 
-  if (match?.source !== 'phaohoa' && match?.source !== 'chuoichientv' && match?.source !== 'phalang' && match?.source !== 'gavang') return null;
+  if (match?.source !== 'phaohoa' && match?.source !== 'chuoichientv' && match?.source !== 'phalang' && match?.source !== 'gavang' && match?.source !== 'saoke') return null;
 
   const fromCommentators = (match.commentators || match.streamers || [])
     .filter((c) => c.streamUrl || c.link || c.m3u8Url)
