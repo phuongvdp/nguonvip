@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:26:17 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:28:49 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (15 trận), Chuối Chiên (19 trận), Phá Làng (44 trận), Gà Vàng (19 trận), Sao Kê (21 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (15 trận), Chuối Chiên (19 trận), Phá Làng (44 trận), Gà Vàng (20 trận), Sao Kê (21 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cedefb834d84c29f26ebdf2384b381a4.png" group-title="Pha Lang TV" , 24-09 12:30 [LIVE LIVE] Hal FC - Karnataka (Server 1) [hls]
@@ -9,17 +9,11 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/eab6ccdbf782a73b9bfe44339b8e85e4/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Gio Vang TV" , 24-09 13:00 [LIVE Đang diễn ra] ASIAD 2026 vs ASIAD 2026 (Chưa có link — chờ cập nhật) [hls]
-https://giovang.city/truc-tiep-asiad-2026-vs-asiad-2026-24-09-asooi3g7yvxg
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/C8F9Hph5-4Ma57DtA.png" group-title="Gio Vang TV" , 24-09 14:00 [LIVE Đang diễn ra] Chinese Taipei (W) vs Philippines (W) (Chưa có link — chờ cập nhật) [hls]
-https://giovang.city/truc-tiep-chinese-taipei-w-vs-philippines-w-24-09-36580470
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/64/Goyang_Sono_Skygunners.png" group-title="Gio Vang TV" , 24-09 14:30 [LIVE Đang diễn ra] Goyang Sono vs Seoul Knights (Chưa có link — chờ cập nhật) [hls]
-https://giovang.city/truc-tiep-goyang-sono-vs-seoul-knights-24-09-aiuhlj5sja6b
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/15f6890f73ff4f23a4b0fb1bd0f00eb8.png" group-title="Pha Lang TV" , 24-09 15:00 South United - Asc And Center FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#x7lm7phxg8wgm2w
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/15f6890f73ff4f23a4b0fb1bd0f00eb8.png" group-title="Ga Vang TV" , 24-09 15:00 South United vs Asc And Center FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://gavanglinkp.tv/truc-tiep/south-united-vs-asc-and-center-fc-ngay-24-09-2026/
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7459af0794441b509c721bf4e463fd58.png" group-title="Pha Lang TV" , 24-09 15:15 Kuching City U20 - Touch Electronics U20 (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#y39mp1hdvp27moj
@@ -126,6 +120,9 @@ https://gavanglinkp.tv/truc-tiep/japan-vs-uruguay-ngay-24-09-2026/
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6715.png" group-title="Sao Ke Live TV" , 24-09 17:05 Japan vs Uruguay (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://vip3.saoketv40.xyz/japan-vs-uruguay-6ab47b441c8a389f4b1012de.html
 
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/d3fc6c75b5a81c1d4e35a0ec94c9b031.png" group-title="Gio Vang TV" , 24-09 17:20 Japan (W) vs Thailand (W) (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-japan-w-vs-thailand-w-24-09-37580471
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d574a61b5e8eb37ca0c037a100e78423.png" group-title="Pha Lang TV" , 24-09 17:30 Rebels FC - Bengaluru Roots FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#zp5rzgh3y41pq82
 
@@ -167,6 +164,9 @@ https://gavanglinkp.tv/truc-tiep/south-korea-vs-ecuador-ngay-24-09-2026/
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/7804.png" group-title="Sao Ke Live TV" , 24-09 18:00 South Korea vs Ecuador (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://vip3.saoketv40.xyz/south-korea-vs-ecuador-6ab47b441c8a389f4b1012df.html
+
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/d6e217ac051f3258b82d74a932d11ada.png" group-title="Gio Vang TV" , 24-09 18:30 Perth Wildcats vs Adelaide 36ers (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://giovang.city/truc-tiep-perth-wildcats-vs-adelaide-36ers-24-09-10222275
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0d039c4f5c867387202103cbfd5b6b55.png" group-title="Pha Lang TV" , 24-09 18:30 Hapoel Bnei Ein Mahel - Bnei Maghar (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#4wyrn4hyz01jq86
