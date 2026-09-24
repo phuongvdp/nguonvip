@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:55:28 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:57:46 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (21 trận), Chuối Chiên (18 trận), Phá Làng (18 trận), Gà Vàng (26 trận), Sao Kê (23 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (21 trận), Chuối Chiên (20 trận), Phá Làng (18 trận), Gà Vàng (26 trận), Sao Kê (21 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_650.jpg" group-title="Khán Đài" , 24/09 22:55 🟢 ⚽ United Arab Emirates vs Yemen (Chim Nhỏ)
@@ -78,16 +78,6 @@ https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/69cf6331585c5992182f4160.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10045.png" group-title="Sao Kê" , 24/09 23:00 🟢 ⚽ Andorra vs Malta (Teppy)
-#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/68374.png" group-title="Sao Kê" , 24/09 23:00 🟢 ⚽ Mauritania vs Central African Republic (Kai)
-#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fbc3e86a73f05d8ea22028a091e30479.png" group-title="Phá Làng" , 24/09 23:30 🟢 ⚽ Siegen Sportfreunde - Borussia Monchengladbach (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang.live/
@@ -408,6 +398,12 @@ https://khandai3.link/truc-tiep/indonesia-vs-singapore
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 25/09 20:00 ⚽ Indonesia vs Singapore (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641703/indonesia-vs-singapore
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132758_7ab1a2cb.png" group-title="Chuối Chiên" , 25/09 20:00 ⚽ Tanzania vs Guinea-Bissau (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1545835/tanzania-vs-guinea-bissau
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Chuối Chiên" , 25/09 21:00 ⚽ India vs Panama (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1637600/india-vs-panama
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6329.png" group-title="Sao Kê" , 25/09 21:00 ⚽ India vs Panama (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/india-vs-panama-6ab53656552ae1acb6b64687.html

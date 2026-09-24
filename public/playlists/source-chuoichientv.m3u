@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:55:30 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:57:48 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (20 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133415_27f7a7df.png" group-title="Chuối Chiên" , 24/09 22:55 🟢 ⚽ United Arab Emirates vs Yemen (Chuối Nhỏ (HD))
@@ -62,3 +62,9 @@ https://live05.chuoichientv.me/live/1641615/u23-han-quoc-vs-u23-vietnam
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 25/09 20:00 ⚽ Indonesia vs Singapore (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641703/indonesia-vs-singapore
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132758_7ab1a2cb.png" group-title="Chuối Chiên" , 25/09 20:00 ⚽ Tanzania vs Guinea-Bissau (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1545835/tanzania-vs-guinea-bissau
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Chuối Chiên" , 25/09 21:00 ⚽ India vs Panama (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1637600/india-vs-panama
