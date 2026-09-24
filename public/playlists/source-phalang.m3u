@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:53:07 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:55:30 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (18 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260921/2bc8ea9d3c0de09e13fd9a36ea142ddc.png" group-title="Phá Làng" , 24/09 22:55 🟢 ⚽ United Arab Emirates - Yemen (LÝ LÀNG LÁ)
@@ -19,20 +19,10 @@ https://lilive1.eu.cc/live/0a9faf2cc3cb2f2171169d875d9f82ff/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/0321947aed6a97c71842e85e80bccb4a/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260921/fd5edd4af82d9f55eb1b81c1b83fad7a.png" group-title="Phá Làng" , 24/09 23:00 🟢 ⚽ Andorra - Malta (LÝ LINH LỰC)
-#EXTVLCOPT:http-referrer=https://phalang.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/824e7a0a5f0bbd3c9036b3f836eb2132/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/2fe3dacd8ef0883c8d995fac5b72b97a.png!w80" group-title="Phá Làng" , 24/09 23:00 🟢 🏐 Eczacibasi Nữ - Vakifbank Nữ (LÝ LÊN LỬA (Server 1))
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pull.digitalcdn.net/live/15fce01d8d3d4492aaab6cad92ddcb11/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/92b02db5c7055f19215ec5d07813ea79.png" group-title="Phá Làng" , 24/09 23:00 🟢 ⚽ Mauritania - Central African Republic (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/d3eb8619d6826f89f90988a4d0296377/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fbc3e86a73f05d8ea22028a091e30479.png" group-title="Phá Làng" , 24/09 23:30 🟢 ⚽ Siegen Sportfreunde - Borussia Monchengladbach (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang.live/
