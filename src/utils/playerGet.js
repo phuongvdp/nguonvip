@@ -521,7 +521,7 @@ export function formatKickoffTime(match) {
 
 /** Giờ đá dạng "18:35 24/09" (giờ trước, ngày sau) — dùng cho tên kênh .m3u
  *  theo mẫu Ola TV (xem buildM3uPlaylist() trong m3uPlaylist.js). */
-export function formatKickoffHourFirst(match) {
+export function formatKickoffHourFirst(match, { dateFirst = false } = {}) {
   const ts = match?.matchTimeTimestamp || match?.matchTime;
   if (!ts) return '';
   const date = new Date(toMatchTimeMs(ts));
@@ -536,7 +536,9 @@ export function formatKickoffHourFirst(match) {
     timeZone: 'Asia/Ho_Chi_Minh'
   }).formatToParts(date);
   const get = (t) => parts.find((p) => p.type === t)?.value || '';
-  return `${get('hour')}:${get('minute')} ${get('day')}/${get('month')}`;
+  const hm = `${get('hour')}:${get('minute')}`;
+  const dm = `${get('day')}/${get('month')}`;
+  return dateFirst ? `${dm} ${hm}` : `${hm} ${dm}`;
 }
 
 /** Nhãn LIVE ngắn gọn ("18'", "HT", "LIVE"...) dùng để GẮN THÊM cạnh

@@ -60,6 +60,13 @@ import {
 //     group-title (app tự hiện dưới tên trận).
 const UPCOMING_SOON_MINUTES = 60;
 
+// FIX (24/09/2026 — "trận 01:00 25/09 bị xếp trên trận 21:00 24/09"): app
+// IPTV (Ola TV...) tự sort danh sách theo TÊN kênh. Để giờ đứng trước ngày
+// ("21:00 24/09") thì sort theo tên xếp "01:00 25/09" lên trên "21:00 24/09".
+// Đặt NGÀY trước, GIỜ sau ("24/09 21:00") thì sort theo tên ra đúng thứ tự
+// thời gian. Đổi thành false nếu muốn giờ trước ngày (giống ảnh mẫu).
+const KICKOFF_DATE_FIRST = true;
+
 function getStatusDot(match) {
   const status = match?.status || {};
   if (status.isLive) return '🟢';
@@ -287,7 +294,7 @@ export function buildM3uPlaylist(entries = []) {
     // thay vì nhãn không dấu (Gio Vang TV...) — chỉ đổi ở file .m3u, giao diện web giữ nguyên.
     const group = getSourceShortLabel(match);
     // Tên kênh theo mẫu Ola TV: "🟢 18:35 24/09 ⚽ Home vs Away (BLV)" — xem getStatusDot()/getSportIcon().
-    const time = formatKickoffHourFirst(match) || match?.timeFormatted || '';
+    const time = formatKickoffHourFirst(match, { dateFirst: KICKOFF_DATE_FIRST }) || match?.timeFormatted || '';
     const title = getMatchTitle(match);
     const streamer = stream.streamerName || stream.name || 'Server';
     const nameParts = [getStatusDot(match), time, getSportIcon(match), title, `(${streamer})`].filter(Boolean);
