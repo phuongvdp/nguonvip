@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:25:07 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 09:27:15 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (29 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (28 trận) =====
 
 # ----- Ngày 2026-09-24 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ed6ae7fa894cb5bdbccfd605d1d6ad04.png" group-title="Pha Lang TV" , 24-09 07:30 [LIVE LIVE] America de Cali - Aguilas Doradas (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/8fcf87f953302eca604896ac205c3a4b/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cef1725baaf3f3be0cb7215c5f39d162.png" group-title="Pha Lang TV" , 24-09 08:40 [LIVE LIVE] Seattle Sounders - Real Salt Lake (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
