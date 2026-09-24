@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:58:19 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 04:00:33 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (17 trận), Chuối Chiên (19 trận), Phá Làng (10 trận), Gà Vàng (13 trận), Sao Kê (23 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (17 trận), Chuối Chiên (21 trận), Phá Làng (9 trận), Gà Vàng (13 trận), Sao Kê (21 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/c9847eeba0c64358960425bb19adbac0.png" group-title="Gà Vàng" , 25/09 01:45 🟢 ⚽ Portugal vs Wales (CRIS)
@@ -44,11 +44,6 @@ https://playback.livetl002.com/live/6a0c7c4b1ae4d6db02433c48.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7c3811819608f6a4ec34b52cbeb68965.png" group-title="Phá Làng" , 25/09 02:00 🟢 ⚽ Cameroon - Comoros (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/ee2a99dfc250484ad513327dce25c62f/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/e2ce14e81dba66dbff9cbc35ecfdb704.png" group-title="Gà Vàng" , 25/09 02:00 🟢 ⚽ Cameroon vs Comoros (khang hi)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -58,16 +53,6 @@ https://playback.livetl002.com/live/6a7c0d8f65997681f18cacc4.m3u8
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a01a2511e8555d7a3685f5c.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6709.png" group-title="Sao Kê" , 25/09 02:00 🟢 ⚽ Ivory Coast vs Ghana (Quang Huy)
-#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6629.png" group-title="Sao Kê" , 25/09 02:00 🟢 ⚽ Cameroon vs Comoros (Mơ)
-#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://wtyi0525.edgemaxcdn.org/live/x68-hd-1111/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/x8bRMNZA-AJxZzB1j.png" group-title="Giờ Vàng" , 25/09 04:00 🟢 ⚽ O'Higgins vs CD Santa Cruz (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
@@ -297,6 +282,9 @@ https://live05.chuoichientv.me/live/1528884/hungary-vs-ukraine
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125454_fc9cbefe.png" group-title="Chuối Chiên" , 26/09 01:45 ⚽ Poland vs Bosnia & Herzegovina (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1528885/poland-vs-bosnia-herzegovina
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250825_180323_118bdf95.png" group-title="Chuối Chiên" , 26/09 01:45 ⚽ Sweden vs Romania (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1528886/sweden-vs-romania
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8204.png" group-title="Sao Kê" , 26/09 01:45 ⚽ Italy vs Belgium (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/italy-vs-belgium-6ab53656552ae1acb6b6467a.html
 
@@ -317,6 +305,9 @@ https://khandai3.link/truc-tiep/egypt-vs-angola-26-09-2026-786850
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_717.jpg" group-title="Khán Đài" , 26/09 02:00 ⚽ Morocco vs Gabon (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/morocco-vs-gabon-26-09-2026-786858
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132758_5916abfa.png" group-title="Chuối Chiên" , 26/09 02:00 ⚽ Egypt vs Angola (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1545818/egypt-vs-angola
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6262.png" group-title="Sao Kê" , 26/09 02:00 ⚽ Morocco vs Gabon (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/morocco-vs-gabon-6ab53656552ae1acb6b64684.html
