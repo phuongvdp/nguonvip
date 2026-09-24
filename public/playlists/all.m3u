@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:41:18 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:43:35 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (18 trận), Chuối Chiên (20 trận), Phá Làng (17 trận), Gà Vàng (25 trận), Sao Kê (21 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (18 trận), Chuối Chiên (20 trận), Phá Làng (17 trận), Gà Vàng (18 trận), Sao Kê (21 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/15fa1fad1fc582dd65403f6f950b1e21.png" group-title="Gà Vàng" , 24/09 23:00 🟢 ⚽ Andorra vs Malta (SAITAMA)
@@ -110,10 +110,30 @@ https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/30c7b1212ebb410e06c37895aa3d739e/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/91f136909a553eb3427a280cb21f17ca.png" group-title="Phá Làng" , 25/09 01:45 🟢 ⚽ Serbia - Greece (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/893fc5baad076824f1b0ae8524e2c32b/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/be70130b180875a576e98a5a33c8238a.png" group-title="Phá Làng" , 25/09 01:45 🟢 ⚽ Austria - Israel (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/7314e04ad2f0d011f1c67e7c8c658241/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/ab2f72a7da69b9ec0c512f684076abee.png" group-title="Phá Làng" , 25/09 01:45 🟢 ⚽ Norway - Denmark (LÝ LONG)
 #EXTVLCOPT:http-referrer=https://phalang.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/20c183129474010d9b3ffcac1d64629f/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/39d41afb2568dfec156deacac35899dc.png" group-title="Phá Làng" , 25/09 01:45 🟢 ⚽ Liechtenstein - Lithuania (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/3b3a555d496ca38314ff68d5649ae72c/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bbea012d53f21d784f380f3f33892f09.png" group-title="Phá Làng" , 25/09 01:45 🟢 ⚽ Kosovo - Ireland (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/4e65cdbe37d9769793b5f9aa9f3697f2/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/541cd9c8c6c7359a2e8431a1d6ee0bab.png" group-title="Phá Làng" , 25/09 01:45 🟢 ⚽ Portugal - Wales (LÝ LA LÀNG)
 #EXTVLCOPT:http-referrer=https://phalang.live/
@@ -142,18 +162,6 @@ https://wtyi0525.edgemaxcdn.org/live/x10-hd-1111/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/austria.png" group-title="Giờ Vàng" , 25/09 01:45 🟡 ⚽ Áo vs Israel (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-ao-vs-israel-25-09-69f7e7425c39b5554409bf57
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/91f136909a553eb3427a280cb21f17ca.png" group-title="Phá Làng" , 25/09 01:45 🟡 ⚽ Serbia - Greece (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#4jwq2ghngypvm0v
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/be70130b180875a576e98a5a33c8238a.png" group-title="Phá Làng" , 25/09 01:45 🟡 ⚽ Austria - Israel (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#965mkyhk8d5nr1g
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/39d41afb2568dfec156deacac35899dc.png" group-title="Phá Làng" , 25/09 01:45 🟡 ⚽ Liechtenstein - Lithuania (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#k82rekhg2p68rep
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bbea012d53f21d784f380f3f33892f09.png" group-title="Phá Làng" , 25/09 01:45 🟡 ⚽ Kosovo - Ireland (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#y39mp1h6dgw9moj
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/c9847eeba0c64358960425bb19adbac0.png" group-title="Gà Vàng" , 25/09 01:45 🟡 ⚽ Portugal vs Wales (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/truc-tiep/portugal-vs-wales-ngay-25-09-2026/
@@ -229,35 +237,14 @@ https://gavanglinkp.tv/
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/8d7e1db8b61840659885ce6f9e3d1ed9.png" group-title="Gà Vàng" , 25/09 05:30 🏀 Bohemios vs Reducto (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/32078990936778c771e911a0dd16a710.png" group-title="Gà Vàng" , 25/09 05:30 🏀 Colonias Gold vs San Alfonso (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/691f1fbb808378a5c4cb07fa320d017d.png" group-title="Giờ Vàng" , 25/09 06:00 🏀 Connecticut Sun vs Toronto Tempo (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-connecticut-sun-vs-toronto-tempo-25-09-26525075
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/281785f0c0c2ba8aec9aee97af2dff20.png" group-title="Gà Vàng" , 25/09 06:00 🏀 Deportes Castro vs Colo Colo (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/616c37f8e35a1c33a4766dbc86c0ca3a.png" group-title="Gà Vàng" , 25/09 06:00 🏀 Connecticut Sun vs Toronto Tempo (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/077bf35869447b9520b7b4ff6e1be381.png" group-title="Gà Vàng" , 25/09 06:00 🏀 Ancud vs Puerto Montt (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/4f8ab1cca77a4214895224deba4560fb.png" group-title="Gà Vàng" , 25/09 06:00 🏀 Sao Jose vs Capiata Bulls (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/35a5be36dd8ecfe7e2ab950a6098ddf0.png" group-title="Gà Vàng" , 25/09 06:15 🏀 Sayago vs Trouville (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/e4fdbc941d11c2927bafb5b8978e8ea6.png" group-title="Giờ Vàng" , 25/09 06:30 🏀 Washington Mystics vs Chicago Sky (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-washington-mystics-vs-chicago-sky-25-09-27525076
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a15d3c8133c8468043cc3ba9ad2dd4e9.png" group-title="Gà Vàng" , 25/09 06:30 ⚽ Everton CD vs Universidad de Chile (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/truc-tiep/everton-cd-vs-universidad-de-chile-ngay-25-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/5705d9383eee879ac93b32996f817700.png" group-title="Gà Vàng" , 25/09 06:30 🏀 Las Animas vs CD Espanol Talca LNB2 (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/lxrfbgcM-raJr9r28.png" group-title="Giờ Vàng" , 25/09 07:00 ⚽ Dominican Republic vs Nicaragua (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-dominican-republic-vs-nicaragua-25-09-3xwkuzr9saev
