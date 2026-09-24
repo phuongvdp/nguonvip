@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:20:43 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:23:02 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (17 trận) =====
 
@@ -15,8 +15,20 @@ https://pull.digitalcdn.net/live/15fce01d8d3d4492aaab6cad92ddcb11/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/3cd88551f019c2d189ee906566a6c379/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/d3b76ca5e44ae5c3b15057f195d51d5f.png" group-title="Phá Làng" , 25/09 01:45 🟡 ⚽ Netherlands - Germany (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#1l4rjnh9no51m7v
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/d3b76ca5e44ae5c3b15057f195d51d5f.png" group-title="Phá Làng" , 25/09 01:45 🟢 ⚽ Netherlands - Germany (LÝ LÀNG LÁ)
+#EXTVLCOPT:http-referrer=https://phalang.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/30c7b1212ebb410e06c37895aa3d739e/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/ab2f72a7da69b9ec0c512f684076abee.png" group-title="Phá Làng" , 25/09 01:45 🟢 ⚽ Norway - Denmark (LÝ LONG)
+#EXTVLCOPT:http-referrer=https://phalang.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/20c183129474010d9b3ffcac1d64629f/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/541cd9c8c6c7359a2e8431a1d6ee0bab.png" group-title="Phá Làng" , 25/09 01:45 🟢 ⚽ Portugal - Wales (LÝ LA LÀNG)
+#EXTVLCOPT:http-referrer=https://phalang.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/49627856a39b6fdcb15fd7cd42c909e7/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/91f136909a553eb3427a280cb21f17ca.png" group-title="Phá Làng" , 25/09 01:45 🟡 ⚽ Serbia - Greece (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4jwq2ghngypvm0v
@@ -24,17 +36,11 @@ https://phalang.live/trang-chu#4jwq2ghngypvm0v
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/be70130b180875a576e98a5a33c8238a.png" group-title="Phá Làng" , 25/09 01:45 🟡 ⚽ Austria - Israel (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#965mkyhk8d5nr1g
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/ab2f72a7da69b9ec0c512f684076abee.png" group-title="Phá Làng" , 25/09 01:45 🟡 ⚽ Norway - Denmark (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#ednm9whw5yxvryo
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/39d41afb2568dfec156deacac35899dc.png" group-title="Phá Làng" , 25/09 01:45 🟡 ⚽ Liechtenstein - Lithuania (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#k82rekhg2p68rep
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bbea012d53f21d784f380f3f33892f09.png" group-title="Phá Làng" , 25/09 01:45 🟡 ⚽ Kosovo - Ireland (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y39mp1h6dgw9moj
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/541cd9c8c6c7359a2e8431a1d6ee0bab.png" group-title="Phá Làng" , 25/09 01:45 🟡 ⚽ Portugal - Wales (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#zp5rzghg3v4jq82
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5de585a438634b088e5734dde6783ffd.png" group-title="Phá Làng" , 25/09 02:00 🟡 ⚽ Tunisia - Uganda (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4jwq2ghnl2x2m0v
