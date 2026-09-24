@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 12:24:59 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 12:27:20 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (9 trận), Gà Vàng (9 trận) =====
 
@@ -9,11 +9,15 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790204669_hd/1790204669_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/E9xGHfcM-vehtS5P1.png" group-title="Gio Vang TV" , 24-09 12:00 [LIVE Đang diễn ra] KogGas vs Mobis Phoebus (Chưa có link — chờ cập nhật) [hls]
-https://giovang.city/truc-tiep-koggas-vs-mobis-phoebus-24-09-s8vet3num59t
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/E9xGHfcM-vehtS5P1.png" group-title="Gio Vang TV" , 24-09 12:00 [LIVE Đang diễn ra] KogGas vs Mobis Phoebus (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790204718_hd/1790204718_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS89aV1mbuxvQhVaHfuBSqobyXOzCH2mqlw6A&s" group-title="Gio Vang TV" , 24-09 12:00 [LIVE Đang diễn ra] Wonju DB vs Seoul Thunders (Chưa có link — chờ cập nhật) [hls]
-https://giovang.city/truc-tiep-wonju-db-vs-seoul-thunders-24-09-mr6zetxewdx5
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS89aV1mbuxvQhVaHfuBSqobyXOzCH2mqlw6A&s" group-title="Gio Vang TV" , 24-09 12:00 [LIVE Đang diễn ra] Wonju DB vs Seoul Thunders (Giovang 1) [hls]
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790204843_hd/1790204843_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/C8F9Hph5-4Ma57DtA.png" group-title="Gio Vang TV" , 24-09 14:00 Chinese Taipei (W) vs Philippines (W) (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-chinese-taipei-w-vs-philippines-w-24-09-36580470
@@ -46,10 +50,10 @@ https://gavanglinkp.tv/
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/66a3b6f332d172f2d12f116cdbca063c.png" group-title="Ga Vang TV" , 25-09 01:15 Panathinaikos AKTOR B.C. vs Paris (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/bf44e2bb47f8a0dfd3929ff1c4ac8b16.png" group-title="Ga Vang TV" , 25-09 01:30 Baskonia Vitoria vs Olympiacos Piraeus B.C. (Chưa có link — chờ cập nhật) [sắp diễn ra]
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/n7e9e5b4c9fbc6ab69533b742a1219257.png" group-title="Ga Vang TV" , 25-09 01:30 Barcelona vs Anadolu Efes Istanbul (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/n7e9e5b4c9fbc6ab69533b742a1219257.png" group-title="Ga Vang TV" , 25-09 01:30 Barcelona vs Anadolu Efes Istanbul (Chưa có link — chờ cập nhật) [sắp diễn ra]
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/bf44e2bb47f8a0dfd3929ff1c4ac8b16.png" group-title="Ga Vang TV" , 25-09 01:30 Baskonia Vitoria vs Olympiacos Piraeus B.C. (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/4660d3b4854deac4eadf6c9212f18f34.png" group-title="Ga Vang TV" , 25-09 01:45 Lyon-Villeurbanne vs Maccabi Tel Aviv (Chưa có link — chờ cập nhật) [sắp diễn ra]
