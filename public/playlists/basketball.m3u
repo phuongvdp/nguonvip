@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:24:04 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:26:18 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Gà Vàng (2 trận) =====
 
@@ -20,8 +20,10 @@ https://gavanglinkp.tv/
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/5705d9383eee879ac93b32996f817700.png" group-title="Gà Vàng" , 25/09 06:30 🟡 🏀 Las Animas vs CD Espanol Talca LNB2 (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/df5084b6a0e471356f94c0d460105072.png" group-title="Giờ Vàng" , 25/09 07:00 🟡 🏀 Minnesota Lynx vs Indiana Fever (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-minnesota-lynx-vs-indiana-fever-25-09-28525077
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/df5084b6a0e471356f94c0d460105072.png" group-title="Giờ Vàng" , 25/09 07:00 🟢 🏀 Minnesota Lynx vs Indiana Fever (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790290944_hd/1790290944_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/GdTU14e5-U9rBY3Yf.png" group-title="Giờ Vàng" , 25/09 23:59 🏀 Besiktas vs Valencia (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-besiktas-vs-valencia-25-09-z3q66e66p0tm
