@@ -1,24 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:01:36 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:04:12 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (18 trận), Chuối Chiên (20 trận), Phá Làng (23 trận), Gà Vàng (14 trận), Sao Kê (24 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (18 trận), Chuối Chiên (19 trận), Phá Làng (22 trận), Gà Vàng (14 trận), Sao Kê (24 trận) =====
 
 # ----- Ngày 2026-09-24 -----
-#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/8zTp1yeTn2hlV2y0TYHS9A_96x96.png" group-title="Giờ Vàng" , 24/09 20:00 🟢 ⚽ Namibia vs Congo (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790234031_hd/1790234031_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134303_b3f7dbb4.png" group-title="Chuối Chiên" , 24/09 20:00 🟢 ⚽ Namibia vs Congo (Chuối To (HD))
-#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6af589f5ace66292a7899626b285d8eb.png" group-title="Phá Làng" , 24/09 20:00 🟢 ⚽ Namibia - Republic of the Congo (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/ae00fe5f05da642d5fe8a0a79d223deb/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/247c0a953f3a082b83443b3dfccedffb.png" group-title="Gà Vàng" , 24/09 20:00 🟢 ⚽ Namibia vs Congo (cố tư nghiêm)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
