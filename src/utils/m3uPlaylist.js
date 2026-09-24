@@ -264,9 +264,18 @@ export function buildM3uPlaylist(entries = []) {
     // DÒ THỬ THẬT và gắn sẵn vào entry.iptvReferer trong
     // matchesToPlaylistEntries() — ở đây chỉ đọc lại, không đoán/dò gì
     // thêm. entry.iptvReferer === null nghĩa là CDN không cần Referer
-    // (hoặc dò thất bại) -> không ghi #EXTVLCOPT nào, để link trần.
-    if (entry.iptvReferer) {
-      lines.push(`#EXTVLCOPT:http-referrer=${entry.iptvReferer}`);
+    // (hoặc dò thất bại) -> không ghi dòng http-referrer (xem FIX bên dưới).
+    // FIX (24/09/2026 — theo yêu cầu "thêm EXTVLCOPT cho các file m3u của các
+    // nguồn và all.m3u"): trước đây CDN dò ra "không cần Referer" (iptvReferer
+    // === null) thì KHÔNG ghi #EXTVLCOPT nào -> link trần, app IPTV dùng
+    // User-Agent mặc định của player (VLC/LibVLC...) dễ bị 1 số CDN từ chối.
+    // Giờ MỌI link phát thật (iptvReferer !== undefined, tức đã qua bước dò
+    // trong matchesToPlaylistEntries) đều có #EXTVLCOPT http-user-agent; dòng
+    // http-referrer chỉ ghi khi có Referer đã dò/chọn (không ép Referer sai
+    // cho CDN không cần). Entry placeholder (trận chưa đá / chưa có link,
+    // iptvReferer === undefined) không phải link phát -> không ghi.
+    if (entry.iptvReferer !== undefined) {
+      if (entry.iptvReferer) lines.push(`#EXTVLCOPT:http-referrer=${entry.iptvReferer}`);
       lines.push(`#EXTVLCOPT:http-user-agent=${IPTV_HEADER_UA}`);
     }
     lines.push(url);
