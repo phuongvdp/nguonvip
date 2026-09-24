@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:28:48 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:30:54 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (18 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/08ba7292cb615ed5b17fa7636854c43a.png" group-title="Pha Lang TV" , 24-09 06:00 [LIVE LIVE] Montevideo Wanderers FC - CS Cerrito (Server 1) [hls]
@@ -28,12 +28,6 @@ https://lilive1.eu.cc/live/cfbcd80950bc23533dbfe3e94cfbcdf5/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/8fcf87f953302eca604896ac205c3a4b/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2d9be227ed9359ccde33e424db856488.png" group-title="Pha Lang TV" , 24-09 07:30 DS Edusoccer - Ponce FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#vjxm8ghkv38yr6o
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/836b5fd8731e11b84bec15b601dddff6.png" group-title="Pha Lang TV" , 24-09 07:30 Academia Quintana - Puerto Rico Surf SC (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#y0or5jh9xjwoqwz
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e6541c73ce2605793bd7c91c0e02e800.png" group-title="Pha Lang TV" , 24-09 08:00 Luis Angel Firpo - CD Cacahuatique (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#1l4rjnh9754jm7v
@@ -70,3 +64,6 @@ https://phalang.live/trang-chu#4wyrn4hyz0jdq86
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/55641b8546bd16655daa918b657af6dd.png" group-title="Pha Lang TV" , 24-09 13:45 Mawtawar SC - Nongthymai SC (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#l7oqdehjydv1r51
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8d6bb1a0e30092066499b89487620122.png" group-title="Pha Lang TV" , 24-09 14:00 Papua New Guinea - New Caledonia (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#318q66h8zzzgqo9

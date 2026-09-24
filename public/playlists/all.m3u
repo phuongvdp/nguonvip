@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:28:48 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:30:54 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (32 trận), Khán Đài (15 trận), Chuối Chiên (4 trận), Phá Làng (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (32 trận), Khán Đài (15 trận), Chuối Chiên (4 trận), Phá Làng (18 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134322_afd6712d.png" group-title="Chuoi Chien TV" , 24-09 06:00 [LIVE LIVE] Aruba vs Antigua and Barbuda (Trốc Tru (HD)) [hls]
@@ -68,12 +68,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/8fcf87f953302eca604896ac205c3a4b/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2d9be227ed9359ccde33e424db856488.png" group-title="Pha Lang TV" , 24-09 07:30 DS Edusoccer - Ponce FC (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#vjxm8ghkv38yr6o
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/836b5fd8731e11b84bec15b601dddff6.png" group-title="Pha Lang TV" , 24-09 07:30 Academia Quintana - Puerto Rico Surf SC (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#y0or5jh9xjwoqwz
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e6541c73ce2605793bd7c91c0e02e800.png" group-title="Pha Lang TV" , 24-09 08:00 Luis Angel Firpo - CD Cacahuatique (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#1l4rjnh9754jm7v
@@ -149,6 +143,9 @@ https://giovang.city/truc-tiep-papua-new-guinea-vs-new-caledonia-24-09-6ab3e97b2
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/C8F9Hph5-4Ma57DtA.png" group-title="Gio Vang TV" , 24-09 14:00 Chinese Taipei (W) vs Philippines (W) (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-chinese-taipei-w-vs-philippines-w-24-09-36580470
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8d6bb1a0e30092066499b89487620122.png" group-title="Pha Lang TV" , 24-09 14:00 Papua New Guinea - New Caledonia (Chưa có link — chờ cập nhật) [sắp diễn ra]
+https://phalang.live/trang-chu#318q66h8zzzgqo9
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/64/Goyang_Sono_Skygunners.png" group-title="Gio Vang TV" , 24-09 14:30 Goyang Sono vs Seoul Knights (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://giovang.city/truc-tiep-goyang-sono-vs-seoul-knights-24-09-aiuhlj5sja6b
