@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:59:34 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:02:09 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (63 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (61 trận) =====
 
 # ----- Ngày 2026-09-24 -----
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260921/a9f141343fbf86cf5c06365f517efb01.png" group-title="Phá Làng" , 24-09 17:05 [LIVE LIVE] Japan - Uruguay (LÝ LA LÀNG) [hls]
@@ -13,12 +13,6 @@ https://lilive1.eu.cc/live/aadbf8114dccebd7f9418f9f4442d455/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/e77391695a6ab6c3aaa561d44db263bf/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/052d1fe7182d98f32b235c6024996665.png" group-title="Phá Làng" , 24-09 18:00 Chongqing Handa - Shenzhen Jixiang (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#1l4rjnh977nnm7v
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7418466766e09d37bed6032187221734.png" group-title="Phá Làng" , 24-09 18:00 Netherlands U19 - Belgium U19 (Chưa có link — chờ cập nhật) [sắp diễn ra]
-https://phalang.live/trang-chu#jw2r09h54pwxrz8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cf82ff425ec97af2c4c0c2f517f2a631.png" group-title="Phá Làng" , 24-09 18:35 China - Maldives (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#318q66h8z09lqo9
