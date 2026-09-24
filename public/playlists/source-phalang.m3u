@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:09:11 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:11:16 24/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (37 trận) =====
 
@@ -14,15 +14,15 @@ https://lilive1.eu.cc/live/68b99ceb35dfb4b032c8fda7b671e18c/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/f1e590a6816616ba1e930fa1e4bd2538/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2be300dfaf22aea36b0f57a2832859ae.png" group-title="Pha Lang TV" , 24-09 09:00 [LIVE LIVE] Vancouver FC - Inter Toronto FC (Server 1) [hls]
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/9098be6c404447d283648905734b1199/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b0ec985cd57cba37048de614c46660e5.png" group-title="Pha Lang TV" , 24-09 09:00 [LIVE LIVE] Xelaju MC - Antigua GFC (Server 1) [hls]
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/24221af02ab6b65883c47e5cf52a2481/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2be300dfaf22aea36b0f57a2832859ae.png" group-title="Pha Lang TV" , 24-09 09:10 [LIVE LIVE] Vancouver FC - Inter Toronto FC (Server 1) [hls]
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/9098be6c404447d283648905734b1199/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fe7a0e897d5cc10b81a7f3ee2b7dd46c.png" group-title="Pha Lang TV" , 24-09 11:00 Solomon Islands - Vanuatu (Chưa có link — chờ cập nhật) [sắp diễn ra]
 https://phalang.live/trang-chu#k82rekh2zzz6rep
