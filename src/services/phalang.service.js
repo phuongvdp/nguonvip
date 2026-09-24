@@ -30,7 +30,14 @@ import { createHttpClient } from '@/src/utils/httpClient';
 const PHALANG_API_BASE = process.env.PHALANG_API_BASE || 'https://api.plapi202624081158.com';
 const PHALANG_SITE_ORIGIN = 'https://phalang.live';
 const PHALANG_LIST_PAGE_SIZE = 200;
-const PHALANG_LIST_MAX_PAGES = 5;
+// FIX (24/09/2026 — "bị mất các trận International Friendly, UEFA Nations
+// League... có trên trang chủ Phá Làng mà danh sách nguồn không có"): trần cũ
+// 5 trang x 200 = 1000 trận. API trả TOÀN BỘ trận sắp theo start_date TĂNG
+// DẦN (cả trận cũ đã đá xong), nên khi tổng > 1000 thì phần CUỐI danh sách —
+// chính là các trận hôm nay/sắp đá — bị cắt mất. Nâng trần lên 25 trang (5000
+// trận); vòng lặp vẫn dừng sớm ngay khi hết dữ liệu nên không tốn thêm request
+// khi tổng nhỏ. Có log cảnh báo nếu vẫn bị cắt (xem fetchList()).
+const PHALANG_LIST_MAX_PAGES = 25;
 
 const SPORT_INFO = {
   football: { name: 'BÓNG ĐÁ', icon: 'fa-futbol' },
@@ -270,6 +277,9 @@ class PhalangService {
         if (batch.length < PHALANG_LIST_PAGE_SIZE) break;
       }
 
+      if (Number.isFinite(total) && all.length < total) {
+        console.warn(`[phalang] CẢNH BÁO: API báo total=${total} nhưng chỉ lấy được ${all.length} trận (chạm trần ${PHALANG_LIST_MAX_PAGES} trang) — có thể mất trận mới nhất.`);
+      }
       return all;
     } catch (error) {
       console.error('Error fetching Phalang list:', error.message);
@@ -283,6 +293,7 @@ class PhalangService {
     const normalized = raw.map((m) => this.normalizeMatch(m));
     // Lọc giải bé/giải cỏ (bóng đá) — xem filterPhalangMatches() phía trên.
     const { kept: all, dropped } = filterPhalangMatches(normalized);
+    console.log(`[phalang] tab=${tab}: API trả ${raw.length} trận, sau lọc giải bé còn ${all.length}`);
     if (dropped.length) {
       const leagues = [...new Set(dropped.map((m) => m.competition?.name || '(không rõ giải)'))].slice(0, 15);
       console.log(`[phalang] tab=${tab}: bỏ ${dropped.length}/${normalized.length} trận giải bé — ${leagues.join(' | ')}`);
