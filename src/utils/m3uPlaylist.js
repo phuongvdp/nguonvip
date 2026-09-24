@@ -4,7 +4,6 @@ import {
   getLiveBadge,
   getMatchTitle,
   getSourceKey,
-  getSourceLabel,
   getSourceShortLabel,
   SOURCE_GROUP_ORDER,
   isFlvUrl,
@@ -229,7 +228,10 @@ export function buildM3uPlaylist(entries = []) {
     const url = stream?.playUrl || stream?.m3u8Url || stream?.flvUrl || '';
 
     const logo = match?.homeTeam?.logo || match?.competition?.logo || '';
-    const group = getSourceLabel(match);
+    // FIX (24/09/2026 — theo yêu cầu "tên group các nguồn thành tiếng Việt"):
+    // dùng nhãn có dấu (Giờ Vàng, Khán Đài, Chuối Chiên, Phá Làng, Gà Vàng, Sao Kê)
+    // thay vì nhãn không dấu (Gio Vang TV...) — chỉ đổi ở file .m3u, giao diện web giữ nguyên.
+    const group = getSourceShortLabel(match);
     // LUÔN dùng ngày-giờ đá thật làm phần đầu tên kênh (không phải nhãn
     // LIVE/phút thi đấu) — bắt buộc để mọi app IPTV tự sort danh sách
     // kênh theo TÊN vẫn ra đúng thứ tự thời gian, bất kể trận đó đang
