@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:57:48 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:00:05 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (17 trận), Chuối Chiên (19 trận), Phá Làng (23 trận), Gà Vàng (2 trận), Sao Kê (22 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (17 trận), Chuối Chiên (19 trận), Phá Làng (25 trận), Gà Vàng (2 trận), Sao Kê (22 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c9de7e2ddf47fcbe9572a133bab5599b.png" group-title="Phá Làng" , 25/09 22:00 🟢 ⚽ Niger - Lesotho (Server 1)
@@ -92,7 +92,7 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/mo/playlist.m3u8
 https://stm6dad62063600.stream.hdplaylink.com/sklive/kai/playlist.m3u8
 
 # ----- Ngày 2026-09-26 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c009d759e6bbfbbf59f1fd87d06cfd4f.png" group-title="Phá Làng" , 26/09 01:00 ⚽ Penafiel - RC Deportivo (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c009d759e6bbfbbf59f1fd87d06cfd4f.png" group-title="Phá Làng" , 26/09 01:00 🟡 ⚽ Penafiel - RC Deportivo (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#x7lm7phxg839m2w
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/england-u21.png" group-title="Giờ Vàng" , 26/09 01:30 ⚽ U21 Anh vs U21 Kazakhstan (Chưa có link — chờ cập nhật)
@@ -274,6 +274,12 @@ https://phalang.live/trang-chu#y0or5jh9xj25qwz
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/317240.png" group-title="Sao Kê" , 26/09 13:00 ⚽ China U23 vs Thailand U23 (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/china-u23-vs-thailand-u23-6ab5c810a98792e63a6feb0d.html
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/dda72c92fb0464e77807b12a5db4994d.png" group-title="Phá Làng" , 26/09 15:00 ⚽ Sepsi OSK Sfantul Gheorghe - A.C.F. Gloria Bistrita (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#l7oqdehjy2ker51
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/11195709883b36ac5758a1fcca882fe1.png" group-title="Phá Làng" , 26/09 15:00 ⚽ CSA Steaua Bucuresti - Lindab Stefanesti (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#pxwrxlhlpe6wryk
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images_t97Qc0H.png" group-title="Khán Đài" , 26/09 16:00 ⚽ Pakistan vs Thái Lan (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/pakistan-vs-thai-lan
