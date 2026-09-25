@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:43:52 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:46:12 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (17 trận), Chuối Chiên (20 trận), Phá Làng (25 trận), Gà Vàng (18 trận), Sao Kê (25 trận) =====
 
@@ -39,14 +39,18 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/cucai/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790263527_hd/1790263527_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132739_80ee8c4e.png" group-title="Chuối Chiên" , 25/09 09:00 🟡 ⚽ Costa Rica vs Curaçao (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1639937/costa-rica-vs-curacao
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132739_80ee8c4e.png" group-title="Chuối Chiên" , 25/09 09:00 🟢 ⚽ Costa Rica vs Curaçao (Chuối Kem (HD))
+#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6705.png" group-title="Sao Kê" , 25/09 09:00 🟢 ⚽ Costa Rica vs Curacao (Quang Huy)
+#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://stm6dad62063600.stream.hdplaylink.com/sklive/quanghuy/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/2d7f3f6e23f7cb31f2209ab8cc8f47a4.png" group-title="Gà Vàng" , 25/09 09:00 🟡 ⚽ Costa Rica vs Curacao (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/truc-tiep/costa-rica-vs-curacao-ngay-25-09-2026/
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6705.png" group-title="Sao Kê" , 25/09 09:00 🟡 ⚽ Costa Rica vs Curacao (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/costa-rica-vs-curacao-6ab47b441c8a389f4b1012d4.html
 
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/9-A8iDJhj09K55En7WPQBg_96x96.png" group-title="Giờ Vàng" , 25/09 12:00 ⚽ U23 Uzbekistan vs U23 Ả Rập Saudi (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-u23-uzbekistan-vs-u23-a-rap-saudi-25-09-ywz94s073cw4

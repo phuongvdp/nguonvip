@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:43:52 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:46:12 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận) =====
 
@@ -34,8 +34,10 @@ https://eqr2hdarxfliv.vcdn.cloud/1790295684_hd/1790295684_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790295713_hd/1790295713_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/58MDezoOT1DAkMexRNiW3w_96x96.png" group-title="Giờ Vàng" , 25/09 09:10 🟡 ⚽ Los Angeles Dodgers vs San Diego Padres (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-los-angeles-dodgers-vs-san-diego-padres-25-09-d0udh1wycx7u
+#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/58MDezoOT1DAkMexRNiW3w_96x96.png" group-title="Giờ Vàng" , 25/09 09:10 🟢 ⚽ Los Angeles Dodgers vs San Diego Padres (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790295973_hd/1790295973_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/9-A8iDJhj09K55En7WPQBg_96x96.png" group-title="Giờ Vàng" , 25/09 12:00 ⚽ U23 Uzbekistan vs U23 Ả Rập Saudi (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-u23-uzbekistan-vs-u23-a-rap-saudi-25-09-ywz94s073cw4
