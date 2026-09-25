@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:00:20 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:02:35 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (26 trận), Gà Vàng (19 trận), Sao Kê (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (28 trận), Gà Vàng (19 trận), Sao Kê (18 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Chuối Chiên" , 26/09 02:00 🟢 🏐 Finland vs France (Chuối Kem (HD))
@@ -125,6 +125,12 @@ https://khandai3.link/truc-tiep/pakistan-vs-thai-lan
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135226_b632be79.png" group-title="Chuối Chiên" , 26/09 16:00 ⚽ Pakistan vs Thailand (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641704/pakistan-vs-thailand
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3091777d4e5cf166b1039ac3fffe05ae.png" group-title="Phá Làng" , 26/09 16:00 ⚽ Farul Constanta - Gloria Popesti-Leordeni (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#23xmvkhyv9e7qg8
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/3e0f32098666dc42dec09abd4fece6d5.png" group-title="Phá Làng" , 26/09 16:00 ⚽ Pakistan - Thailand (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#4wyrn4h6gwdeq86
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/573572e4e9a8486a02fbc7eeeaffba7b.png" group-title="Gà Vàng" , 26/09 16:00 ⚽ Pakistan vs Thailand (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/pakistan-vs-thailand-ngay-26-09-2026/
