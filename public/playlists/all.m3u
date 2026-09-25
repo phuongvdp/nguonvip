@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:03:54 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:06:16 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (16 trận), Chuối Chiên (20 trận), Phá Làng (26 trận), Gà Vàng (18 trận), Sao Kê (21 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (16 trận), Chuối Chiên (20 trận), Phá Làng (26 trận), Gà Vàng (18 trận), Sao Kê (21 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://cdn.onefc.com/wp-content/uploads/2026/09/PanpayakJitmuangnon-LamnamoonlekTorfunfarm-Faceoff-TheInnerCircle32-768x512.jpg" group-title="Giờ Vàng" , 25/09 18:30 🟢 ⚽ ONE Friday Fights 172 vs The Inner Circle 32 (Giovang 1)
@@ -49,11 +49,6 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/quanghuy/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/0c36b672f3d6e238e0f12f2082ae0f70/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/slovakia-u19.png" group-title="Giờ Vàng" , 25/09 22:00 🟢 ⚽ U19 Slovakia vs U19 Kazakhstan (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790327903_hd/1790327903_hd@720p.m3u8
-
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/WnW15DfM-6ys9CWQj.png" group-title="Giờ Vàng" , 25/09 22:00 🟢 🏐 Ba Lan vs Slovenia (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -79,11 +74,15 @@ https://pull.digitalcdn.net/live/42301df996014512b0e02b36ce1ecda2/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/5b63c645b05a0dee8ff88466d1515127/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/finland-u21.png" group-title="Giờ Vàng" , 25/09 22:30 🟡 ⚽ U21 Phần Lan vs U21 Tây Ban Nha (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-u21-phan-lan-vs-u21-tay-ban-nha-25-09-683b98524bc32556c6027421
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/finland-u21.png" group-title="Giờ Vàng" , 25/09 22:30 🟢 ⚽ U21 Phần Lan vs U21 Tây Ban Nha (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790319058_hd/1790319058_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/bulgaria-u21.png" group-title="Giờ Vàng" , 25/09 22:30 🟡 ⚽ U21 Bulgaria vs U21 Bồ Đào Nha (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-u21-bulgaria-vs-u21-bo-dao-nha-25-09-683a46dc772f6c92aa0792a7
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/bulgaria-u21.png" group-title="Giờ Vàng" , 25/09 22:30 🟢 ⚽ U21 Bulgaria vs U21 Bồ Đào Nha (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790319132_hd/1790319132_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/8cb20ccb4136279d11c5a40c3015a561.png" group-title="Gà Vàng" , 25/09 22:30 🟡 ⚽ KTP Kotka vs Mikkelin Palloilijat (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/ktp-kotka-vs-mikkelin-palloilijat-ngay-25-09-2026/
