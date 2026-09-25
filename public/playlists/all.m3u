@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:10:33 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:12:53 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (22 trận), Chuối Chiên (20 trận), Phá Làng (23 trận), Gà Vàng (9 trận), Sao Kê (24 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (22 trận), Chuối Chiên (20 trận), Phá Làng (23 trận), Gà Vàng (22 trận), Sao Kê (24 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/hungary.png" group-title="Giờ Vàng" , 26/09 01:45 🟢 ⚽ Hungary vs Ukraine (Giovang 1)
@@ -183,6 +183,18 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/mo/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790340073_hd/1790340073_hd@720p.m3u8
 
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/416b90d09f91fc3208bd6375503a3337.png" group-title="Gà Vàng" , 26/09 04:00 🟡 🏀 Rio Claro U20 vs Pinheiros LDB U20 (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/1c1ff4e13d3e4f0884af9cf1c779850a.png" group-title="Gà Vàng" , 26/09 04:00 🟡 🏀 Corinthians vs Mogi das Cruzes (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/2eab077a83f142aebc260a031f562b99.png" group-title="Gà Vàng" , 26/09 05:00 🏀 UDLAP Women vs Modelo University Women's Basketball (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/c6d0ea0134d62433d210b0a00220ee13.png" group-title="Gà Vàng" , 26/09 05:00 🏀 Universidad Autonoma De Ciudad Juirez vs Soles Mexicali (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/87668a20b488fbb0e1fcb9210165cfd8.png" group-title="Gà Vàng" , 26/09 05:30 ⚽ Gremio Novorizontino vs Sao Bernardo (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/gremio-novorizontino-vs-sao-bernardo-ngay-26-09-2026/
 
@@ -357,14 +369,35 @@ https://vip3.saoketv40.xyz/south-africa-vs-guinea-6ab5c810a98792e63a6feb09.html
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134032_70ccce36.png" group-title="Chuối Chiên" , 26/09 21:00 ⚽ Järfälla vs AFC Eskilstuna (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1505279/jarfalla-vs-afc-eskilstuna
 
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/9021bc99528ac0b36ad69602cd3bdf69.png" group-title="Gà Vàng" , 26/09 21:00 🏀 BK Ogre vs VEF Riga Juniors (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/6bcf841b7ade1b3efbecaaba49bc104b.png" group-title="Gà Vàng" , 26/09 21:00 🏀 AZS UMCS Lublin Women vs Jelenia Gora Women (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1225382.png" group-title="Sao Kê" , 26/09 21:00 ⚽ FC Järfälla vs AFC Eskilstuna (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/fc-jarfalla-vs-afc-eskilstuna-6ab5c810a98792e63a6feb00.html
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/24cba276880b49388d3bd24a3a3c738b.png" group-title="Gà Vàng" , 26/09 21:30 🏀 SK Legia Warszawa vs Especially in Sopot (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/7fc7f8abf95e4d3d969fbb95c601a7c5.png" group-title="Gà Vàng" , 26/09 21:45 🏀 Al Riyadi Beirut vs Indian Railways (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/aaa53ddd85d05f1e7fb16f861b15fec0.png" group-title="Gà Vàng" , 26/09 21:45 🏀 Al Ittihad Saudi Arabia vs Kuwait SC (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/download_ky44Uf7.png" group-title="Khán Đài" , 26/09 22:00 ⚽ Kuwait vs Iraq (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/kuwait-vs-iraq-26-09-2026-857453
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_143111_f0cb8ab0.png" group-title="Chuối Chiên" , 26/09 22:00 🏐 Slovakia W vs Poland (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/998947/slovakia-w-vs-poland
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/56c0276997d093341dd3843c96238e6c.png" group-title="Gà Vàng" , 26/09 22:00 🏀 Wisla Can-Pack Women vs Wroclaw Women's (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/67fba759f6d16664c4f4e0428522eaef.png" group-title="Gà Vàng" , 26/09 22:30 🏀 Helios Domzale vs Hopsi Polzela (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_683.jpg" group-title="Khán Đài" , 26/09 23:00 ⚽ Bulgaria vs Luxembourg (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/bulgaria-vs-luxembourg-26-09-2026-790922
@@ -377,6 +410,12 @@ https://khandai3.link/truc-tiep/san-marino-vs-finland-26-09-2026-790925
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134301_6c3d41f1.png" group-title="Chuối Chiên" , 26/09 23:00 ⚽ San Marino vs Finland (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1528888/san-marino-vs-finland
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/075c6d74fd41e1a2d1cc7cc0cde5f25d.png" group-title="Gà Vàng" , 26/09 23:00 🏀 Sosnowiec Women vs Bochnia (W) (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/2ad9613346e54adc87faf94777de7682.png" group-title="Gà Vàng" , 26/09 23:00 🏀 Zlatorog Lasko vs Triglav Kranj (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6035.png" group-title="Sao Kê" , 26/09 23:00 ⚽ San Marino vs Finland (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/san-marino-vs-finland-6ab5c810a98792e63a6feb05.html
