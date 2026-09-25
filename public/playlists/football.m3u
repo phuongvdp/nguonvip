@@ -1,13 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:58:13 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 02:00:32 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (21 trận), Chuối Chiên (18 trận), Phá Làng (15 trận), Gà Vàng (11 trận), Sao Kê (24 trận) =====
-
-# ----- Ngày 2026-09-25 -----
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/c5b86fa907b96e38e377ddfe82802cc6.png" group-title="Gà Vàng" , 25/09 23:00 🟢 ⚽ Georgia vs Northern Ireland (SAITAMA)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (21 trận), Chuối Chiên (18 trận), Phá Làng (20 trận), Gà Vàng (8 trận), Sao Kê (24 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/hungary.png" group-title="Giờ Vàng" , 26/09 01:45 🟢 ⚽ Hungary vs Ukraine (Giovang 1)
@@ -75,6 +69,18 @@ https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2ac182a9d4f41b9cc59c7c4c8977528e.png" group-title="Phá Làng" , 26/09 01:45 🟢 ⚽ Sweden - Romania (Server 1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/98d9e01eeeebf3f85e4422984c4b25ed/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ed926a88822863fabdab5b1a2d7ffd97.png" group-title="Phá Làng" , 26/09 01:45 🟢 ⚽ Montenegro - Cyprus (Server 1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/e189843f24d1649379b7ad58e8fb35e1/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/45dc54dd4ca5afda59e020f40920cf84.png" group-title="Phá Làng" , 26/09 01:45 🟢 ⚽ Poland - Bosnia and Herzegovina (Server 1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/3ed315d171e73cf5f0fd2df4fdecc61c/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/a632c22f39e478770e15f81d5d73d55f.png" group-title="Phá Làng" , 26/09 01:45 🟢 ⚽ Turkiye - France (LÝ LONG)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/325b13dad128baf99902ec526a8907d9/playlist.m3u8
@@ -127,6 +133,26 @@ https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8cb80a922c22b0865fc66c3bf3612cd8.png" group-title="Phá Làng" , 26/09 02:00 🟢 ⚽ Morocco - Gabon (Server 1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/08c47b0520ab3cecbc4ce8075e18d967/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d2d5f2ebbbee1568d330bc53b02aa0e5.png" group-title="Phá Làng" , 26/09 02:00 🟢 ⚽ Algeria - Zambia (Server 1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/c1bda1253c4e720a072a3c4a936c3851/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f430088f4b4e68c28f0043ac07ab93b3.png" group-title="Phá Làng" , 26/09 02:00 🟢 ⚽ Burkina Faso - Benin (Server 1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/cda52f394a806401c32541369e49ef01/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/04af5581fd20db49cb24499cec830e1a.png" group-title="Phá Làng" , 26/09 02:00 🟢 ⚽ Mali - Cabo Verde (Server 1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/af98f58b9bf20f8ed2b529b2a1961480/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f31ddd679d7c453f8438244437b8f51f.png" group-title="Phá Làng" , 26/09 02:00 🟢 ⚽ Egypt - Angola (Server 1)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/901e6964926f989424265ae021037cfd/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6262.png" group-title="Sao Kê" , 26/09 02:00 🟢 ⚽ Morocco vs Gabon (Quang Huy)
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -136,27 +162,6 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/quanghuy/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/mo/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8cb80a922c22b0865fc66c3bf3612cd8.png" group-title="Phá Làng" , 26/09 02:00 🟡 ⚽ Morocco - Gabon (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#3glrw7hnd8z7qdy
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d2d5f2ebbbee1568d330bc53b02aa0e5.png" group-title="Phá Làng" , 26/09 02:00 🟡 ⚽ Algeria - Zambia (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#6ypq3nhvx9lnmd7
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f430088f4b4e68c28f0043ac07ab93b3.png" group-title="Phá Làng" , 26/09 02:00 🟡 ⚽ Burkina Faso - Benin (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#8yomo4h1np0xq0j
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/04af5581fd20db49cb24499cec830e1a.png" group-title="Phá Làng" , 26/09 02:00 🟡 ⚽ Mali - Cabo Verde (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#pxwrxlhyd4zxryk
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f31ddd679d7c453f8438244437b8f51f.png" group-title="Phá Làng" , 26/09 02:00 🟡 ⚽ Egypt - Angola (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#vjxm8ghey1per6o
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/42ddc6d9645829e67371e6433c0c45c2.png" group-title="Gà Vàng" , 26/09 02:00 🟡 ⚽ Dordrecht vs Almere City FC (Chưa có link — chờ cập nhật)
-https://gavanglinkq.tv/truc-tiep/dordrecht-vs-almere-city-fc-ngay-26-09-2026/
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/85a768d7c6a14d51b24bcb19c280b4c6.png" group-title="Gà Vàng" , 26/09 02:00 🟡 ⚽ Morocco vs Gabon (Chưa có link — chờ cập nhật)
-https://gavanglinkq.tv/truc-tiep/morocco-vs-gabon-ngay-26-09-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/87668a20b488fbb0e1fcb9210165cfd8.png" group-title="Gà Vàng" , 26/09 05:30 ⚽ Gremio Novorizontino vs Sao Bernardo (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/gremio-novorizontino-vs-sao-bernardo-ngay-26-09-2026/
@@ -268,6 +273,12 @@ https://vip3.saoketv40.xyz/pakistan-vs-thailand-6ab5c810a98792e63a6feb0b.html
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ac0943dbb5e9a5b3efa8fe762e23330e.png" group-title="Phá Làng" , 26/09 16:30 ⚽ Sreenidi Deccan - Northeast United FC (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y39mp1hdvp06moj
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6356dcedfefdbc98de34cce75214de28.png" group-title="Phá Làng" , 26/09 17:00 ⚽ Cherno More Varna - FC Dunav Ruse (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#318q66h8z2l7qo9
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/18ccab720cfda6be0c39fef579c13c5a.png" group-title="Phá Làng" , 26/09 17:00 ⚽ Monza - Cremonese (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#3glrw7h4k6x5qdy
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131443_f7c8e720.png" group-title="Chuối Chiên" , 26/09 17:30 ⚽ Japan U23 vs Korea DPR U23 (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641727/japan-u23-vs-korea-dpr-u23
