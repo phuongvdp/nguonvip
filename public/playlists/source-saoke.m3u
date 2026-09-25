@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 11:58:55 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 12:01:13 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (23 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (24 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/613636.png" group-title="Sao Kê" , 25/09 12:00 🟢 ⚽ Uzbekistan U23 vs Saudi Arabia U23 (Tít)
@@ -9,7 +9,7 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/tit/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/dYBFA1me-nNtI3CTL.png" group-title="Sao Kê" , 25/09 13:00 ⚽ China W vs Vietnam W (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/dYBFA1me-nNtI3CTL.png" group-title="Sao Kê" , 25/09 13:00 🟡 ⚽ China W vs Vietnam W (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/china-w-vs-vietnam-w-6ab536d922d091f455707fb9.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/95797.png" group-title="Sao Kê" , 25/09 15:00 ⚽ Bangladesh vs Malaysia (Chưa có link — chờ cập nhật)
@@ -75,3 +75,6 @@ https://vip3.saoketv40.xyz/atlante-vs-monterrey-6ab53656552ae1acb6b64678.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/162418.png" group-title="Sao Kê" , 26/09 10:00 ⚽ Tijuana vs Atlas (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/tijuana-vs-atlas-6ab53656552ae1acb6b64679.html
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/614556.png" group-title="Sao Kê" , 26/09 12:00 ⚽ Renofa Yamaguchi vs SC Sagamihara (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/renofa-yamaguchi-vs-sc-sagamihara-6ab5c810a98792e63a6feb07.html
