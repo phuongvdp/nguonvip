@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:45:09 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:47:29 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (16 trận), Chuối Chiên (20 trận), Phá Làng (28 trận), Gà Vàng (21 trận), Sao Kê (22 trận) =====
 
@@ -99,13 +99,15 @@ https://eqr2hdarxfliv.vcdn.cloud/1790327540_hd/1790327540_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_143111_f0cb8ab0.png" group-title="Chuối Chiên" , 25/09 22:00 🟢 🏐 Slovakia W vs Poland (Chuối Kem (HD))
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/6196b217c74313ed212d0aaa350dd6d1.png!w80" group-title="Phá Làng" , 25/09 22:00 🟢 🏐 Slovenia - Ba Lan (LÝ LIỀU LĨNH (Server 1))
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pull.digitalcdn.net/live/42301df996014512b0e02b36ce1ecda2/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_143111_f0cb8ab0.png" group-title="Chuối Chiên" , 25/09 22:00 🟡 🏐 Slovakia W vs Poland (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/998383/slovakia-w-vs-poland
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c9de7e2ddf47fcbe9572a133bab5599b.png" group-title="Phá Làng" , 25/09 22:00 🟡 ⚽ Niger - Lesotho (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4wyrn4h6g3vdq86
