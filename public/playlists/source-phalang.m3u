@@ -1,18 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:58:47 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 04:01:03 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (13 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (14 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f430088f4b4e68c28f0043ac07ab93b3.png" group-title="Phá Làng" , 26/09 02:00 🟢 ⚽ Burkina Faso - Benin (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/cda52f394a806401c32541369e49ef01/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/04af5581fd20db49cb24499cec830e1a.png" group-title="Phá Làng" , 26/09 02:00 🟢 ⚽ Mali - Cabo Verde (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/af98f58b9bf20f8ed2b529b2a1961480/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9054259e823c101ccfe523cd527c2e5b.png" group-title="Phá Làng" , 26/09 12:00 ⚽ Western Sydney Wanderers FC - Central Coast Mariners (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6ypq3nhk6e2pmd7
@@ -46,3 +41,9 @@ https://phalang.live/trang-chu#n54qllh459owqvy
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/120f24dadbb90aea10ca5c0c0cde76b4.png" group-title="Phá Làng" , 26/09 18:00 ⚽ FK Panevezys - BFA Vilnius (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#dj2ryoh7v405q1z
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e003a3144349b595ee8b30c92d8124b5.png" group-title="Phá Làng" , 26/09 19:00 ⚽ Zaglebie Sosnowiec - Legia Warszawa (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#jw2r09h547w9rz8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2cfa60bf56219aa500c51c8cb28e7777.png" group-title="Phá Làng" , 26/09 19:00 ⚽ Widzew lodz - Gornik Leczna (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#x7lm7phxg89gm2w
