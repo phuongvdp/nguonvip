@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:52:55 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:55:10 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (16 trận), Chuối Chiên (18 trận), Phá Làng (35 trận), Gà Vàng (15 trận), Sao Kê (24 trận) =====
 
@@ -83,6 +83,11 @@ https://gavanglinkq.tv/truc-tiep/ho-chi-minh-city-vs-van-hien-university-ngay-25
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790321036_hd/1790321036_hd@720p.m3u8
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Chuối Chiên" , 25/09 17:30 🟢 ⚽ U23 Hàn Quốc  vs U23 Vietnam  (Chuối Ngao (HD))
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://gckc0525.edgemaxcdn.org/live/chuoingao/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/41fcd04dcd049309ad05bca33ea46883.png" group-title="Phá Làng" , 25/09 17:30 🟢 ⚽ Japan Women - Philippines Women (LÝ LÀNG LÁ)
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -110,9 +115,6 @@ https://khandai3.link/truc-tiep/south-korea-u23-vs-vietnam-u23-25-09-2026-858281
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133018_f7c8e720.png" group-title="Chuối Chiên" , 25/09 17:30 🟡 ⚽ Japan W vs Philippines W (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641133/japan-w-vs-philippines-w
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Chuối Chiên" , 25/09 17:30 🟡 ⚽ U23 Hàn Quốc  vs U23 Vietnam  (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1641615/u23-han-quoc-vs-u23-vietnam
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3fcd619b384dbbd8b4c3af19f622fc7f.png" group-title="Phá Làng" , 25/09 17:30 🟡 ⚽ FC Zurich - Neuchatel Xamax (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#965mkyh8l50pr1g
