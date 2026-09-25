@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:01:56 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:04:14 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (3 trận), Gà Vàng (14 trận) =====
 
@@ -21,8 +21,10 @@ https://gavanglinkp.tv/
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/29f80ba7947910cdcebb747a145ec440.png" group-title="Gà Vàng" , 25/09 17:05 🟡 🏀 TryHoop Okayama vs Koshigaya Alphas (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/b86166676d101a3bcea1c2899eac8ab4.png" group-title="Giờ Vàng" , 25/09 17:20 🟡 🏀 Chinese Taipei (W) vs Japan (W) (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-chinese-taipei-w-vs-japan-w-25-09-37990476
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/b86166676d101a3bcea1c2899eac8ab4.png" group-title="Giờ Vàng" , 25/09 17:20 🟢 🏀 Chinese Taipei (W) vs Japan (W) (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790318608_hd/1790318608_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/58daf23f06bd54cb577a106fba19b140.png" group-title="Gà Vàng" , 25/09 17:20 🟡 🏀 Chinese Taipei Women vs Japan Women (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/

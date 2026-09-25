@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:01:56 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:04:14 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (16 trận), Chuối Chiên (18 trận), Phá Làng (35 trận), Gà Vàng (13 trận), Sao Kê (24 trận) =====
 
@@ -79,6 +79,16 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/kai/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790321036_hd/1790321036_hd@720p.m3u8
 
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/japan-w.png" group-title="Giờ Vàng" , 25/09 17:30 🟢 ⚽ Nữ Nhật Bản vs Nữ Philippines (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790321441_hd/1790321441_hd@720p.m3u8
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea-w.png" group-title="Giờ Vàng" , 25/09 17:30 🟢 ⚽ Nữ Hàn Quốc vs Uzbekistan Nữ (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790321580_hd/1790321580_hd@720p.m3u8
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Chuối Chiên" , 25/09 17:30 🟢 ⚽ U23 Hàn Quốc  vs U23 Vietnam  (Chuối Ngao (HD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -93,12 +103,6 @@ https://lilive1.eu.cc/live/5daf13231d99bb47d1441da088ea2b69/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/82e4345d1a0a71052863befa2426e154/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/japan-w.png" group-title="Giờ Vàng" , 25/09 17:30 🟡 ⚽ Nữ Nhật Bản vs Nữ Philippines (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-nu-nhat-ban-vs-nu-philippines-25-09-6ab3177020160d3860005951
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea-w.png" group-title="Giờ Vàng" , 25/09 17:30 🟡 ⚽ Nữ Hàn Quốc vs Uzbekistan Nữ (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-nu-han-quoc-vs-uzbekistan-nu-25-09-6ab3177020160d3860005952
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_Japan_K75eDYE.svg.webp" group-title="Khán Đài" , 25/09 17:30 🟡 ⚽ Japan W vs Philippines W (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/japan-w-vs-philippines-w-25-09-2026-858235
