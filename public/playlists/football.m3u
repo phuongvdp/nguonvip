@@ -1,19 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:58:44 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:00:59 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (15 trận), Chuối Chiên (18 trận), Phá Làng (37 trận), Gà Vàng (15 trận), Sao Kê (24 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (15 trận), Chuối Chiên (18 trận), Phá Làng (36 trận), Gà Vàng (14 trận), Sao Kê (24 trận) =====
 
 # ----- Ngày 2026-09-25 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142845_d31bb816.png" group-title="Chuối Chiên" , 25/09 13:00 🟢 ⚽ China W vs Vietnam W (Chuối Tây (HD))
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/dYBFA1me-nNtI3CTL.png" group-title="Sao Kê" , 25/09 13:00 🟢 ⚽ China W vs Vietnam W (Ricky)
-#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://stm6dad62063600.stream.hdplaylink.com/sklive/ricky/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 25/09 15:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -44,40 +34,34 @@ https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/978b054489aaac1e5ed69472f08724b3/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/873f655c74783dbb85de6cacc8f503c0.png" group-title="Phá Làng" , 25/09 16:00 🟡 ⚽ Oakleigh Cannons - Melbourne City (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#jw2r09h549v1rz8
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f00b6379b82a515a9478b6e58b783de9.png" group-title="Gà Vàng" , 25/09 16:00 🟡 ⚽ Bangladesh vs Malaysia (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/truc-tiep/bangladesh-vs-malaysia-ngay-25-09-2026/
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/07668fe49f8fec6832919e14449eb340.png" group-title="Phá Làng" , 25/09 16:30 🟡 ⚽ Mohammedan SC - Minerva Punjab (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#k82rekh2zn02rep
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_529.jpg" group-title="Khán Đài" , 25/09 17:00 ⚽ Australia vs Brazil (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_529.jpg" group-title="Khán Đài" , 25/09 17:00 🟡 ⚽ Australia vs Brazil (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/australia-vs-brazil-25-09-2026-770716
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134250_2a12c2b6.png" group-title="Chuối Chiên" , 25/09 17:00 ⚽ Australia vs Brazil (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134250_2a12c2b6.png" group-title="Chuối Chiên" , 25/09 17:00 🟡 ⚽ Australia vs Brazil (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1583655/australia-vs-brazil
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260417_091125_e069e829.png" group-title="Chuối Chiên" , 25/09 17:00 ⚽ TP. Hồ Chí Minh vs Văn Hiến (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260417_091125_e069e829.png" group-title="Chuối Chiên" , 25/09 17:00 🟡 ⚽ TP. Hồ Chí Minh vs Văn Hiến (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1634969/tp-ho-chi-minh-vs-van-hien
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/ca3770cad8bb96638f9ecec7819b2c9c.png" group-title="Phá Làng" , 25/09 17:00 ⚽ Australia - Brazil (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/ca3770cad8bb96638f9ecec7819b2c9c.png" group-title="Phá Làng" , 25/09 17:00 🟡 ⚽ Australia - Brazil (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkh6j4p8qg8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ae584981eb352bb9c5151af25428c39f.png" group-title="Phá Làng" , 25/09 17:00 ⚽ Ho Chi Minh City - Van Hien University (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ae584981eb352bb9c5151af25428c39f.png" group-title="Phá Làng" , 25/09 17:00 🟡 ⚽ Ho Chi Minh City - Van Hien University (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#965mkyhkpwg4r1g
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/46901c88777c4076bcf2ea240223deed.png" group-title="Gà Vàng" , 25/09 17:00 ⚽ Australia vs Brazil (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/46901c88777c4076bcf2ea240223deed.png" group-title="Gà Vàng" , 25/09 17:00 🟡 ⚽ Australia vs Brazil (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/truc-tiep/australia-vs-brazil-ngay-25-09-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/3e84532fe72df7eb08df1f713dca9532.png" group-title="Gà Vàng" , 25/09 17:00 ⚽ Ba Ria Vung Tau FC vs Van Hien University (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/3e84532fe72df7eb08df1f713dca9532.png" group-title="Gà Vàng" , 25/09 17:00 🟡 ⚽ Ba Ria Vung Tau FC vs Van Hien University (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/truc-tiep/ho-chi-minh-city-vs-van-hien-university-ngay-25-09-2026/
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6716.png" group-title="Sao Kê" , 25/09 17:00 ⚽ Australia vs Brazil (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6716.png" group-title="Sao Kê" , 25/09 17:00 🟡 ⚽ Australia vs Brazil (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/australia-vs-brazil-6ab53656552ae1acb6b64682.html
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/0MtfS4jC-0QWdQxII.png" group-title="Sao Kê" , 25/09 17:00 ⚽ Ho Chi Minh City vs Van Hien (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/0MtfS4jC-0QWdQxII.png" group-title="Sao Kê" , 25/09 17:00 🟡 ⚽ Ho Chi Minh City vs Van Hien (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/ho-chi-minh-city-vs-van-hien-6ab5396ad32e08fd13f8e630.html
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea-u23.png" group-title="Giờ Vàng" , 25/09 17:30 ⚽ U23 Hàn Quốc vs U23 Việt Nam (Chưa có link — chờ cập nhật)
@@ -387,6 +371,9 @@ https://vip3.saoketv40.xyz/morocco-vs-gabon-6ab53656552ae1acb6b64684.html
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10255.png" group-title="Sao Kê" , 26/09 02:00 ⚽ Egypt vs Angola (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/egypt-vs-angola-6ab53656552ae1acb6b64685.html
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133533_eba6a872.png" group-title="Chuối Chiên" , 26/09 06:10 ⚽ Chico vs Deportivo Pasto (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1549795/chico-vs-deportivo-pasto
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6255.png" group-title="Sao Kê" , 26/09 06:10 ⚽ Chicó FC vs Deportivo Pasto (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/chico-fc-vs-deportivo-pasto-6ab53656552ae1acb6b64677.html
 
@@ -407,3 +394,6 @@ https://vip3.saoketv40.xyz/renofa-yamaguchi-vs-sc-sagamihara-6ab5c810a98792e63a6
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/317240.png" group-title="Sao Kê" , 26/09 13:00 ⚽ China U23 vs Thailand U23 (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/china-u23-vs-thailand-u23-6ab5c810a98792e63a6feb0d.html
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5910.png" group-title="Sao Kê" , 26/09 16:00 ⚽ Pakistan vs Thailand (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/pakistan-vs-thailand-6ab5c810a98792e63a6feb0b.html

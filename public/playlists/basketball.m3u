@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:58:44 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:00:59 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Gà Vàng (14 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Gà Vàng (12 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/viUBkizB-KtOrDRPL.png" group-title="Giờ Vàng" , 25/09 14:30 🟢 🏀 Anyang JungKwanJang vs Suwon KT (Giovang 1)
@@ -9,22 +9,16 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790296843_hd/1790296843_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/17da94d1bafbd7481a9b0582dd6adb9d.png" group-title="Gà Vàng" , 25/09 16:00 🟡 🏀 PFC Pelicans vs CSB trailblazer (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/a2ae506e0753505f2c10f84ca993c73d.png" group-title="Gà Vàng" , 25/09 16:00 🟡 🏀 Valenzuela Classic vs Quezon City Galeries Taipan (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/fd1ef26f7174d02a5a30dbe9e69b45f9.png" group-title="Giờ Vàng" , 25/09 16:30 🟡 🏀 Brisbane Bullets vs Illawarra Hawks (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-brisbane-bullets-vs-illawarra-hawks-25-09-11222276
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/a4fa72e714131415526de35f1cee3920.png" group-title="Gà Vàng" , 25/09 16:30 🟡 🏀 Brisbane Bullets vs lllawarra Hawks (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/4b1efe87c83a19479d072d7f0e50ae61.png" group-title="Gà Vàng" , 25/09 16:35 🟡 🏀 Viatin Mie vs Wolga Shonan (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/706def05df715f6e1a0c2e8e3cfcdc33.png" group-title="Gà Vàng" , 25/09 16:35 🟡 🏀 Kyoto Hannaryz vs Shiga Lakes (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/706def05df715f6e1a0c2e8e3cfcdc33.png" group-title="Gà Vàng" , 25/09 16:35 🟡 🏀 Kyoto Hannaryz vs Shiga Lakes (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/4b1efe87c83a19479d072d7f0e50ae61.png" group-title="Gà Vàng" , 25/09 16:35 🟡 🏀 Viatin Mie vs Wolga Shonan (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/4c8413136eb5016607ee093a802f90c3.png" group-title="Gà Vàng" , 25/09 16:45 🟡 🏀 Saga Ballooners vs Hiroshima Dragonflies (Chưa có link — chờ cập nhật)
