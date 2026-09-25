@@ -1,39 +1,31 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:47:52 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:52:01 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (16 trận) =====
 
 # ----- Ngày 2026-09-26 -----
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/a632c22f39e478770e15f81d5d73d55f.png" group-title="Phá Làng" , 26/09 01:45 🟢 ⚽ Turkiye - France (LÝ LONG)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/325b13dad128baf99902ec526a8907d9/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/fc93fc2dbe467f0d62cae689a18da028.png" group-title="Phá Làng" , 26/09 01:45 🟢 ⚽ Hungary - Ukraine (LÝ LIỀU LĨNH)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/d69e34f025e89c35b67a186d51f68467/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/89edbc2d87efa1b567cec6236bf337e7.png!w80" group-title="Phá Làng" , 26/09 02:00 🟢 🏐 Phần Lan - Pháp (LÝ LÊN LỬA (Server 1))
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://pull.digitalcdn.net/live/7f21d03837d74204a92cc16ff2fec73e/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8cb80a922c22b0865fc66c3bf3612cd8.png" group-title="Phá Làng" , 26/09 02:00 🟢 ⚽ Morocco - Gabon (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/08c47b0520ab3cecbc4ce8075e18d967/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d2d5f2ebbbee1568d330bc53b02aa0e5.png" group-title="Phá Làng" , 26/09 02:00 🟢 ⚽ Algeria - Zambia (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/c1bda1253c4e720a072a3c4a936c3851/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f430088f4b4e68c28f0043ac07ab93b3.png" group-title="Phá Làng" , 26/09 02:00 🟢 ⚽ Burkina Faso - Benin (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/cda52f394a806401c32541369e49ef01/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/04af5581fd20db49cb24499cec830e1a.png" group-title="Phá Làng" , 26/09 02:00 🟢 ⚽ Mali - Cabo Verde (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/af98f58b9bf20f8ed2b529b2a1961480/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f31ddd679d7c453f8438244437b8f51f.png" group-title="Phá Làng" , 26/09 02:00 🟢 ⚽ Egypt - Angola (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/901e6964926f989424265ae021037cfd/playlist.m3u8
 
