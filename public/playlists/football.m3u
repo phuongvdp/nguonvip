@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:32:26 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:34:42 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (13 trận), Chuối Chiên (18 trận), Phá Làng (29 trận), Gà Vàng (12 trận), Sao Kê (21 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (13 trận), Chuối Chiên (18 trận), Phá Làng (29 trận), Gà Vàng (12 trận), Sao Kê (21 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 25/09 15:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -13,21 +13,6 @@ https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a7c0d8f65997681f18cacc4.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea-u23.png" group-title="Giờ Vàng" , 25/09 17:30 🟢 ⚽ U23 Hàn Quốc vs U23 Việt Nam (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790321036_hd/1790321036_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/japan-w.png" group-title="Giờ Vàng" , 25/09 17:30 🟢 ⚽ Nữ Nhật Bản vs Nữ Philippines (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790321441_hd/1790321441_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea-w.png" group-title="Giờ Vàng" , 25/09 17:30 🟢 ⚽ Nữ Hàn Quốc vs Uzbekistan Nữ (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790321580_hd/1790321580_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/c44bc96860338d531a5b0a78d335d7a7.png" group-title="Gà Vàng" , 25/09 17:30 🟢 ⚽ South Korea(w) vs Uzbekistan(w) (cố tư nghiêm)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
@@ -59,6 +44,11 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/tit/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a5df755b89dded67b39b8bc.m3u8
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_484.jpg" group-title="Khán Đài" , 25/09 20:00 🟢 ⚽ Indonesia vs Singapore (Lee Sin)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/0c131dfdaef74b5d6b14cb281d11c608.png" group-title="Phá Làng" , 25/09 20:00 🟢 ⚽ Indonesia - Singapore (LÝ LONG)
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -74,9 +64,6 @@ https://giovang.city/truc-tiep-indonesia-vs-singapore-25-09-6aac7f5624d46db87036
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/8xZwopzB-YFbDUeTh.png" group-title="Giờ Vàng" , 25/09 20:00 🟡 ⚽ Tanzania vs Guinea Bissau (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-tanzania-vs-guinea-bissau-25-09-ha8569tc3von
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_484.jpg" group-title="Khán Đài" , 25/09 20:00 🟡 ⚽ Indonesia vs Singapore (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/indonesia-vs-singapore
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 25/09 20:00 🟡 ⚽ Indonesia vs Singapore (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641703/indonesia-vs-singapore
