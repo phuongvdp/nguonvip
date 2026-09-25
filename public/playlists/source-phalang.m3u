@@ -1,13 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:02:26 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:04:45 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (21 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (20 trận) =====
 
 # ----- Ngày 2026-09-25 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/87cc70b2721504955d3c83326635502f.png" group-title="Phá Làng" , 25/09 23:00 🟢 ⚽ Rwanda - Liberia (Server 1)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/2e0a7a4c3e2656c195274936690e6110/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/aa956d426f71b6b79e324b9eefb94286.png" group-title="Phá Làng" , 25/09 23:00 🟢 ⚽ Georgia - Northern Ireland (LÝ LÊN LỬA)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/5b145369d3df351b55af7bfd56335b72/playlist.m3u8
@@ -36,8 +32,10 @@ https://phalang.live/trang-chu#dj2ryohl7647q1z
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/1ab8dedddc8426a4c79a805374f111a3.png" group-title="Phá Làng" , 26/09 01:45 🟡 ⚽ Italy - Belgium (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l5ergph4kxylr8k
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/89edbc2d87efa1b567cec6236bf337e7.png!w80" group-title="Phá Làng" , 26/09 02:00 🟡 🏐 Phần Lan - Pháp (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#340590cd9ea24850928591d2fd541f87
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/89edbc2d87efa1b567cec6236bf337e7.png!w80" group-title="Phá Làng" , 26/09 02:00 🟢 🏐 Phần Lan - Pháp (LÝ LÊN LỬA (Server 1))
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://pull.digitalcdn.net/live/7f21d03837d74204a92cc16ff2fec73e/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8cb80a922c22b0865fc66c3bf3612cd8.png" group-title="Phá Làng" , 26/09 02:00 🟡 ⚽ Morocco - Gabon (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#3glrw7hnd8z7qdy
