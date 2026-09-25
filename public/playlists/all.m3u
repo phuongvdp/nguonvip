@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:38:11 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:40:31 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (16 trận), Chuối Chiên (20 trận), Phá Làng (26 trận), Gà Vàng (13 trận), Sao Kê (21 trận) =====
 
@@ -89,6 +89,16 @@ https://eqr2hdarxfliv.vcdn.cloud/1790263856_hd/1790263856_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790263892_hd/1790263892_hd@720p.m3u8
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_680.jpg" group-title="Khán Đài" , 25/09 23:00 🟢 ⚽ Georgia vs Northern Ireland (Enzo)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_703.jpg" group-title="Khán Đài" , 25/09 23:00 🟢 ⚽ Armenia vs Latvia (Kền Kền)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/aa956d426f71b6b79e324b9eefb94286.png" group-title="Phá Làng" , 25/09 23:00 🟢 ⚽ Georgia - Northern Ireland (LÝ LÊN LỬA)
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -96,12 +106,6 @@ https://lilive1.eu.cc/live/5b145369d3df351b55af7bfd56335b72/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/sudan.png" group-title="Giờ Vàng" , 25/09 23:00 🟡 ⚽ Sudan vs Ethiopia (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-sudan-vs-ethiopia-25-09-6a387d79153ee8455e05572b
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_680.jpg" group-title="Khán Đài" , 25/09 23:00 🟡 ⚽ Georgia vs Northern Ireland (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/georgia-vs-northern-ireland-25-09-2026-790826
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_703.jpg" group-title="Khán Đài" , 25/09 23:00 🟡 ⚽ Armenia vs Latvia (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/armenia-vs-latvia-25-09-2026-790920
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134254_e0b3eb39.png" group-title="Chuối Chiên" , 25/09 23:00 🟡 ⚽ Armenia vs Latvia (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1545602/armenia-vs-latvia
