@@ -1,18 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:00:37 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:03:25 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (16 trận) =====
 
 # ----- Ngày 2026-09-25 -----
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/0ebcdb06cf4d039f0d08b356c26bc466.png" group-title="Gà Vàng" , 25/09 20:00 🟢 ⚽ Tanzania vs Guinea Bissau (THICHDUTHU)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/509b91468e833ffe3fd9edd04f06ddee.png" group-title="Gà Vàng" , 25/09 18:00 🟢 ⚽ Wuxi Wugou vs Guangxi Hengchen FC (ĐOÀN DỰ)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/6a704ad865997681f18c2160.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/628f16b29939d1b060af49f66ae0f7f8.png" group-title="Gà Vàng" , 25/09 20:00 🟢 ⚽ Indonesia vs Singapore (Lữ Bố.vip)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/6a9776215126529dede9bf51.m3u8
+https://playback.livetl002.com/live/6a5df755b89dded67b39b8bc.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/38b512977bcbde666a4a924cce11d1df.png" group-title="Gà Vàng" , 25/09 21:15 🟡 🏀 AEK Larnaca vs Keravnos Strovolos (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
