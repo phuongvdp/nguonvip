@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:59:47 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:02:03 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (28 trận), Khán Đài (17 trận), Chuối Chiên (19 trận), Phá Làng (34 trận), Gà Vàng (19 trận), Sao Kê (24 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (28 trận), Khán Đài (17 trận), Chuối Chiên (19 trận), Phá Làng (34 trận), Gà Vàng (16 trận), Sao Kê (24 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 25/09 15:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -134,15 +134,6 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/mo/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/tit/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/509b91468e833ffe3fd9edd04f06ddee.png" group-title="Gà Vàng" , 25/09 18:00 🟡 ⚽ Wuxi Wugou vs Guangxi Hengchen FC (Chưa có link — chờ cập nhật)
-https://gavanglinkq.tv/truc-tiep/wuxi-wugo-vs-guangxi-hengchen-ngay-25-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/bf00306322e85ee7c3b72c7e1a8a82e0.png" group-title="Gà Vàng" , 25/09 18:00 🟡 🏀 Bataan Risers vs Pasig City (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/81d22bd3b658ae6ff77aceb191e9e468.jpg" group-title="Gà Vàng" , 25/09 18:00 🟡 🏀 Hapoel Jerusalem vs Bnei Herzliya (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
 #EXTINF:-1 tvg-logo="https://cdn.onefc.com/wp-content/uploads/2026/09/PanpayakJitmuangnon-LamnamoonlekTorfunfarm-Faceoff-TheInnerCircle32-768x512.jpg" group-title="Giờ Vàng" , 25/09 18:30 🟡 ⚽ ONE Friday Fights 172 vs The Inner Circle 32 (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-one-friday-fights-172-vs-the-inner-circle-32-25-09-v5aqoqhlfyno
 
@@ -155,10 +146,10 @@ https://gavanglinkp.tv/
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/4ceaf7f6c9a1bfe508116b74d8842999.png" group-title="Gà Vàng" , 25/09 18:30 🟡 🏀 Hangzhou vs Yuyao (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 25/09 19:00 ⚽ Indonesia vs Singapore (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 25/09 19:00 🟡 ⚽ Indonesia vs Singapore (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641703/indonesia-vs-singapore
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6324.png" group-title="Sao Kê" , 25/09 19:00 ⚽ Indonesia vs Singapore (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6324.png" group-title="Sao Kê" , 25/09 19:00 🟡 ⚽ Indonesia vs Singapore (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/indonesia-vs-singapore-6ab5352fc42f6f76b675b733.html
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/38b512977bcbde666a4a924cce11d1df.png" group-title="Gà Vàng" , 25/09 19:15 🏀 AEK Larnaca vs Keravnos Strovolos (Chưa có link — chờ cập nhật)
