@@ -31,6 +31,9 @@
  * route proxy này thay vì qua trang web).
  */
 
+const fs = require('fs');
+const path = require('path');
+
 const DEFAULT_UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 
@@ -55,6 +58,46 @@ const GAVANG_ORIGINS = [...new Set([GAVANG_MAIN, 'https://gavanglinkp.tv', 'http
 // Referer của Chuối Chiến. GIỮ ĐỒNG BỘ với REFERER_CANDIDATES_BY_SOURCE.saoke
 // trong src/utils/m3uPlaylist.js.
 const SAOKE_SITE = String(process.env.SAOKE_DOMAIN || process.env.SAOKE_BASE_URL || 'https://vip3.saoketv40.xyz').replace(/\/+$/, '');
+// FIX (24/09/2026): Referer/Origin THẬT mà trình duyệt gửi tới CDN là domain player nhúng
+// sk.mediastation.live (bắt từ DevTools), KHÔNG phải SAOKE_SITE.
+const SAOKE_PLAYER = String(process.env.SAOKE_PLAYER_DOMAIN || 'https://sk.mediastation.live').replace(/\/+$/, '');
+
+// FIX (25/09/2026 — "muốn proxy sống (hls.js) cũng hưởng Referer tự dò,
+// không chỉ playlist tĩnh"): saoke.service.js tự dò Referer THẬT bằng
+// trình duyệt headless (xem detectPlayerReferer() ở đó), nhưng route ĐÓ
+// chạy trong serverless function CỦA /api/playlist — KHÁC hẳn function của
+// route NÀY (hls.js) trên Vercel, không chia sẻ bộ nhớ (globalThis) với
+// nhau. Không thể gọi thẳng qua lại giữa 2 route.
+//
+// Cầu nối: scripts/generate-playlists.js (chạy mỗi 2 phút qua GitHub
+// Actions, xem .github/workflows/validate-and-generate.yml) đã gọi
+// /api/playlist để sinh public/playlists/source-saoke.m3u — nó ĐỌC LẠI
+// đúng dòng #EXTVLCOPT:http-referrer=... vừa được m3uPlaylist.js nhúng vào
+// (dùng chính Referer tự dò được đó, xem FIX 25/09/2026 trong
+// m3uPlaylist.js), rồi ghi RIÊNG ra public/playlists/saoke-referer.json.
+// File này được commit + deploy cùng repo như mọi file tĩnh khác trong
+// public/ — vì vậy ĐỌC ĐƯỢC (read-only) từ BẤT KỲ serverless function nào,
+// kể cả route này, dù chạy tách biệt. Không có file (lần deploy đầu, trước
+// khi CI chạy lần nào) hoặc đọc/parse lỗi -> coi như chưa có, rơi về
+// SAOKE_PLAYER hardcode bên trên như cũ, không throw.
+const SAOKE_REFERER_FILE = path.join(process.cwd(), 'public', 'playlists', 'saoke-referer.json');
+const SAOKE_REFERER_FILE_CACHE_MS = 60 * 1000; // đọc lại tối đa 1 lần/phút/instance — file do CI ghi mỗi 2 phút, không cần đọc lại mỗi request
+let saokeRefererFileCache = { value: null, readAt: 0 };
+
+function readDetectedSaokeReferer() {
+  if (Date.now() - saokeRefererFileCache.readAt < SAOKE_REFERER_FILE_CACHE_MS) {
+    return saokeRefererFileCache.value;
+  }
+  saokeRefererFileCache.readAt = Date.now();
+  try {
+    const raw = fs.readFileSync(SAOKE_REFERER_FILE, 'utf8');
+    const referer = JSON.parse(raw)?.referer;
+    saokeRefererFileCache.value = typeof referer === 'string' && referer ? referer : null;
+  } catch {
+    saokeRefererFileCache.value = null;
+  }
+  return saokeRefererFileCache.value;
+}
 
 const REFERER_BY_SOURCE = {
   phaohoa: process.env.PHAOHOA_DOMAIN || process.env.PHAOHOA_BASE_URL || 'https://phaohoa1.live',
@@ -80,7 +123,7 @@ const REFERER_BY_SOURCE = {
   gavang: GAVANG_ORIGINS[0],
   // FIX (24/09/2026): thiếu entry 'saoke' -> rơi vào REFERER_FALLBACK (Pháo
   // Hoa, SAI) khi phát qua web/proxy, cùng lỗi với Gà Vàng/Phá Làng.
-  saoke: SAOKE_SITE
+  saoke: SAOKE_PLAYER
 };
 const REFERER_FALLBACK = REFERER_BY_SOURCE.phaohoa;
 
@@ -131,7 +174,7 @@ const REFERER_CANDIDATES_BY_SOURCE = {
   // #EXTVLCOPT Referer chuoichientv): trang Sao Kê tự phát bằng Referer LÀ
   // CHÍNH DOMAIN CỦA NÓ, nên Referer đúng phải là SAOKE_SITE — đặt LÊN ĐẦU.
   // Referer Chuối Chiến chỉ còn là ứng viên dự phòng.
-  saoke: [`${SAOKE_SITE}/`, 'https://live05.chuoichientv.me/', 'https://chuoichientv.link/', null]
+  saoke: [`${SAOKE_PLAYER}/`, `${SAOKE_SITE}/`, 'https://live05.chuoichientv.me/', 'https://chuoichientv.link/', null]
 };
 
 // Nhớ lại (trong bộ nhớ container, theo hostname CDN) ứng viên Referer nào
@@ -140,7 +183,16 @@ const workingRefererByHost = new Map();
 
 function refererCandidatesFor(source, target) {
   const preset = REFERER_CANDIDATES_BY_SOURCE[source];
-  const list = preset && preset.length ? preset.slice() : [REFERER_BY_SOURCE[source] || REFERER_FALLBACK, null];
+  let list = preset && preset.length ? preset.slice() : [REFERER_BY_SOURCE[source] || REFERER_FALLBACK, null];
+
+  // FIX (25/09/2026): chèn Referer tự dò được (nếu có, xem
+  // readDetectedSaokeReferer() ở trên) lên ĐẦU danh sách — đáng tin hơn mọi
+  // ứng viên hardcode vì đây là Referer trình duyệt THẬT đã dùng để phát
+  // thành công, không phải đoán.
+  if (source === 'saoke') {
+    const detected = readDetectedSaokeReferer();
+    if (detected) list = [detected, ...list.filter((r) => r !== detected)];
+  }
 
   let host = '';
   try {

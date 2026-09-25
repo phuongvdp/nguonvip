@@ -329,4 +329,57 @@ async function fetchPageGlobal(url, opts = {}) {
   }
 }
 
-module.exports = { fetchRenderedHtml, fetchApiViaBrowser, fetchPageGlobal, getBrowser, ensureSharedLibsExtracted };
+/**
+ * Mở 1 trang bằng trình duyệt thật, bắt request ĐẦU TIÊN khớp `matchUrl`
+ * phát sinh trong lúc trang tự load (m3u8, XHR...) và trả về ĐÚNG URL +
+ * header mà chính trình duyệt đã gửi (Referer, Origin...).
+ *
+ * Dùng để TỰ DÒ Referer/Origin "chuẩn" mà 1 CDN chống hotlink chấp nhận,
+ * thay vì đoán tay/hardcode domain — vì domain player nhúng có thể đổi bất
+ * cứ lúc nào (xem FIX 25/09/2026 trong saoke.service.js, ca cụ thể đã gặp:
+ * đoán nhầm Referer là domain trang chính thay vì domain player thật).
+ *
+ * @param {string} url trang để mở (trang chi tiết trận đấu, hoặc trang có nhúng player)
+ * @param {string|RegExp} matchUrl phần URL cần bắt (vd: /\.m3u8(\?|$)/i)
+ * @param {{ timeoutMs?: number }} [opts]
+ * @returns {Promise<{url: string, headers: Record<string,string>}|null>} null nếu hết giờ mà không thấy request nào khớp
+ */
+async function fetchFirstRequestHeaders(url, matchUrl, opts = {}) {
+  const { timeoutMs = 20000 } = opts;
+  const browser = await getBrowser();
+  const page = await browser.newPage();
+  try {
+    return await new Promise((resolve) => {
+      let settled = false;
+      const finish = (value) => {
+        if (settled) return;
+        settled = true;
+        page.off('request', onRequest);
+        resolve(value);
+      };
+      const onRequest = (request) => {
+        try {
+          const reqUrl = request.url();
+          const isMatch = matchUrl instanceof RegExp ? matchUrl.test(reqUrl) : reqUrl.includes(matchUrl);
+          if (isMatch) finish({ url: reqUrl, headers: request.headers() });
+        } catch {
+          // bỏ qua request lỗi khi đọc, chờ request khác khớp
+        }
+      };
+      page.on('request', onRequest);
+      page.goto(url, { waitUntil: 'domcontentloaded', timeout: timeoutMs }).catch(() => {});
+      setTimeout(() => finish(null), timeoutMs);
+    });
+  } finally {
+    await page.close().catch(() => {});
+  }
+}
+
+module.exports = {
+  fetchRenderedHtml,
+  fetchApiViaBrowser,
+  fetchPageGlobal,
+  fetchFirstRequestHeaders,
+  getBrowser,
+  ensureSharedLibsExtracted
+};

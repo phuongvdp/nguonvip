@@ -382,7 +382,11 @@ export function streamsFromMatchCard(match) {
       streamerAvatar: c.avatar,
       link: c.streamUrl || c.link || c.m3u8Url,
       m3u8Url: c.streamUrl || c.link || c.m3u8Url,
-      cdn: c.cdn || ''
+      cdn: c.cdn || '',
+      // Referer THẬT tự dò được (hiện chỉ saoke.service.js gắn field này —
+      // xem detectPlayerReferer() ở đó) — các nguồn khác luôn undefined,
+      // m3uPlaylist.js tự rơi về danh sách ứng viên hardcode như cũ.
+      referer: c.referer || null
     }));
 
   if (fromCommentators.length) {

@@ -120,6 +120,8 @@ const REFERER_CANDIDATES_BY_SOURCE = {
   // Chiến chỉ còn dự phòng. Quan trọng vì khi dò thất bại (IP CI bị CDN
   // chặn) code dùng ứng viên ĐẦU TIÊN làm best-guess.
   saoke: [
+    // Referer/Origin thật của player (bắt từ DevTools 24/09/2026) — đặt LÊN ĐẦU.
+    `${String(process.env.SAOKE_PLAYER_DOMAIN || 'https://sk.mediastation.live').replace(/\/+$/, '')}/`,
     `${String(process.env.SAOKE_DOMAIN || process.env.SAOKE_BASE_URL || 'https://vip3.saoketv40.xyz').replace(/\/+$/, '')}/`,
     'https://live05.chuoichientv.me/',
     'https://chuoichientv.link/',
@@ -440,7 +442,18 @@ export async function matchesToPlaylistEntries(matches = [], { baseUrl = '' } = 
     // pendingUpgrades) nên luôn dò, không cần điều kiện thêm.
     const finalUrl = entry.stream?.playUrl || entry.stream?.m3u8Url || entry.stream?.flvUrl || '';
     const sourceKey = getSourceKey(entry.match);
-    entry.iptvReferer = finalUrl ? await resolveIptvReferer(finalUrl, sourceKey) : null;
+    // FIX (25/09/2026 — "bắt link chuẩn từ Sao Kê"): nếu chính service nguồn
+    // đã TỰ DÒ được Referer THẬT bằng trình duyệt headless (xem
+    // detectPlayerReferer() trong saoke.service.js, field `referer` gắn
+    // qua streamsFromMatchCard() trong playerGet.js), dùng thẳng giá trị đó
+    // — đáng tin hơn hẳn so với đoán/dò-bằng-HEAD-request ở resolveIptvReferer()
+    // bên dưới, vì đây là Referer trình duyệt THẬT đã dùng để phát thành công,
+    // không phải suy đoán từ 1 danh sách ứng viên cố định.
+    entry.iptvReferer = entry.stream?.referer
+      ? entry.stream.referer
+      : finalUrl
+        ? await resolveIptvReferer(finalUrl, sourceKey)
+        : null;
   });
 
   return entries;
