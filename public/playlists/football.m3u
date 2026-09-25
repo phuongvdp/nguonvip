@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:40:10 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:42:48 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (14 trận), Chuối Chiên (18 trận), Phá Làng (26 trận), Gà Vàng (7 trận), Sao Kê (22 trận) =====
 
@@ -79,8 +79,10 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/quanghuy/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/0c36b672f3d6e238e0f12f2082ae0f70/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/slovakia-u19.png" group-title="Giờ Vàng" , 25/09 22:00 🟡 ⚽ U19 Slovakia vs U19 Kazakhstan (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-u19-slovakia-vs-u19-kazakhstan-25-09-6aaf23424e725bdee905b841
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/slovakia-u19.png" group-title="Giờ Vàng" , 25/09 22:00 🟢 ⚽ U19 Slovakia vs U19 Kazakhstan (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790327903_hd/1790327903_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c9de7e2ddf47fcbe9572a133bab5599b.png" group-title="Phá Làng" , 25/09 22:00 🟡 ⚽ Niger - Lesotho (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4wyrn4h6g3vdq86
