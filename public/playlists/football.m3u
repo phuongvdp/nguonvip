@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 04:59:26 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 05:01:40 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (8 trận), Khán Đài (15 trận), Chuối Chiên (18 trận), Phá Làng (15 trận), Gà Vàng (17 trận), Sao Kê (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (8 trận), Khán Đài (15 trận), Chuối Chiên (18 trận), Phá Làng (20 trận), Gà Vàng (16 trận), Sao Kê (18 trận) =====
 
 # ----- Ngày 2026-09-26 -----
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/006ce259b33ef72dd5570cfa8dc39f38.png" group-title="Gà Vàng" , 26/09 01:30 🟢 ⚽ Girona vs Albacete (Cá MậP)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/6a0c7c4b1ae4d6db02433c48.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a175df50667b42ef97dcb52a9a8b1c1a.png" group-title="Gà Vàng" , 26/09 01:45 🟢 ⚽ Turkiye vs France (SAITAMA)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -210,6 +205,21 @@ https://live05.chuoichientv.me/live/1545658/slovenia-vs-scotland
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132805_2c5424f2.png" group-title="Chuối Chiên" , 26/09 20:00 ⚽ South Africa vs Guinea (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1545833/south-africa-vs-guinea
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5517b8865aa5280667bd899f6810d466.png" group-title="Phá Làng" , 26/09 20:00 ⚽ Lokomotiv Moscow - Arsenal Tula (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#2y8m4zhv0x9xql0
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/e9071cd9943c4f5450d5438b62ec319d.png" group-title="Phá Làng" , 26/09 20:00 ⚽ Slovenia - Scotland (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#6ypq3nhvkyedmd7
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/538d312c2512ebda3129f105db04e5e5.png" group-title="Phá Làng" , 26/09 20:00 ⚽ Borac Banja Luka - Radnik Bijeljina (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#8yomo4hyexo4q0j
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/35d66916de00f7765f6064e6aaf8bf50.png" group-title="Phá Làng" , 26/09 20:00 ⚽ South Africa - Guinea (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#x7lm7phj46wxm2w
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1519265433839cdba4d3a8235e36c5da.png" group-title="Phá Làng" , 26/09 20:00 ⚽ Kenya - Eritrea (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#y0or5jh87p35qwz
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5787.png" group-title="Sao Kê" , 26/09 20:00 ⚽ Slovenia vs Scotland (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/slovenia-vs-scotland-6ab5c810a98792e63a6feb01.html
