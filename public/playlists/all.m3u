@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:13:21 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:15:37 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (17 trận), Chuối Chiên (19 trận), Phá Làng (34 trận), Gà Vàng (16 trận), Sao Kê (24 trận) =====
 
@@ -129,11 +129,15 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/mo/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/tit/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.onefc.com/wp-content/uploads/2026/09/PanpayakJitmuangnon-LamnamoonlekTorfunfarm-Faceoff-TheInnerCircle32-768x512.jpg" group-title="Giờ Vàng" , 25/09 18:30 🟡 ⚽ ONE Friday Fights 172 vs The Inner Circle 32 (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-one-friday-fights-172-vs-the-inner-circle-32-25-09-v5aqoqhlfyno
+#EXTINF:-1 tvg-logo="https://cdn.onefc.com/wp-content/uploads/2026/09/PanpayakJitmuangnon-LamnamoonlekTorfunfarm-Faceoff-TheInnerCircle32-768x512.jpg" group-title="Giờ Vàng" , 25/09 18:30 🟢 ⚽ ONE Friday Fights 172 vs The Inner Circle 32 (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790325330_hd/1790325330_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://api.beyondkick.com/uploads/HR_Ne_UC_Wg_AAH_8w_Z_fc313fd7d3.webp" group-title="Giờ Vàng" , 25/09 18:30 🟡 ⚽ ONE Friday Fights 172 vs The Inner Circle 32 (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-one-friday-fights-172-vs-the-inner-circle-32-25-09-t81vplztkyiu
+#EXTINF:-1 tvg-logo="https://api.beyondkick.com/uploads/HR_Ne_UC_Wg_AAH_8w_Z_fc313fd7d3.webp" group-title="Giờ Vàng" , 25/09 18:30 🟢 ⚽ ONE Friday Fights 172 vs The Inner Circle 32 (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1789368699_hd/1789368699_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/3448170907a0916772bf7f56ffb96619.png" group-title="Gà Vàng" , 25/09 18:30 🟡 🏀 Putuo vs Anji (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
@@ -147,7 +151,7 @@ https://live05.chuoichientv.me/live/1641703/indonesia-vs-singapore
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6324.png" group-title="Sao Kê" , 25/09 19:00 🟡 ⚽ Indonesia vs Singapore (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/indonesia-vs-singapore-6ab5352fc42f6f76b675b733.html
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/38b512977bcbde666a4a924cce11d1df.png" group-title="Gà Vàng" , 25/09 19:15 🏀 AEK Larnaca vs Keravnos Strovolos (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/38b512977bcbde666a4a924cce11d1df.png" group-title="Gà Vàng" , 25/09 19:15 🟡 🏀 AEK Larnaca vs Keravnos Strovolos (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/indonesia.png" group-title="Giờ Vàng" , 25/09 20:00 ⚽ Indonesia vs Singapore (Chưa có link — chờ cập nhật)
