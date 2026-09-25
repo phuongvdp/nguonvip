@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 04:28:00 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 04:30:14 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (8 trận), Khán Đài (15 trận), Chuối Chiên (18 trận), Phá Làng (13 trận), Gà Vàng (17 trận), Sao Kê (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (8 trận), Khán Đài (15 trận), Chuối Chiên (18 trận), Phá Làng (15 trận), Gà Vàng (17 trận), Sao Kê (18 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/006ce259b33ef72dd5570cfa8dc39f38.png" group-title="Gà Vàng" , 26/09 01:30 🟢 ⚽ Girona vs Albacete (Cá MậP)
@@ -49,7 +49,7 @@ https://playback.livetl002.com/live/69cf6331585c5992182f4160.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/69ef10b47146e04fbe6d4363.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/87668a20b488fbb0e1fcb9210165cfd8.png" group-title="Gà Vàng" , 26/09 05:30 ⚽ Gremio Novorizontino vs Sao Bernardo (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/87668a20b488fbb0e1fcb9210165cfd8.png" group-title="Gà Vàng" , 26/09 05:30 🟡 ⚽ Gremio Novorizontino vs Sao Bernardo (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/gremio-novorizontino-vs-sao-bernardo-ngay-26-09-2026/
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133533_eba6a872.png" group-title="Chuối Chiên" , 26/09 06:10 ⚽ Chico vs Deportivo Pasto (Chưa có link — chờ cập nhật)
@@ -189,6 +189,12 @@ https://khandai3.link/truc-tiep/viet-nam-vs-philippines-26-09-2026-160544
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Chuối Chiên" , 26/09 19:30 ⚽ Việt Nam vs Philippines (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641705/viet-nam-vs-philippines
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/9cbe8e6a8c5fbf1577577a4603b40627.png" group-title="Phá Làng" , 26/09 19:30 ⚽ Vietnam - Philippines (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#l5ergph4gdvvr8k
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/dbb3d05a5cc27eed7b2735cf6de93114.png" group-title="Phá Làng" , 26/09 19:30 ⚽ Dalan - Wisla Krakow (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#y0or5jh9x6glqwz
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/14b75c2d38d88b747c19de8ea5509d16.png" group-title="Gà Vàng" , 26/09 19:30 ⚽ Vietnam vs Philippines (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/vietnam-vs-philippines-ngay-26-09-2026/
