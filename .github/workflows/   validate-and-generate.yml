@@ -113,6 +113,9 @@ jobs:
           GENERATE_AUTO_COMMIT: '1' # bat cong tac tu commit/push moi chu ky ben trong script (xem AUTO_COMMIT trong generate-playlists-standalone.mjs)
           MAX_RUNTIME_MINUTES: '345' # 5h45 - de du ~15 phut cho commit/push + goi API cuoi cung truoc khi cham gioi han 360 phut/job
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # dung de tu goi API workflow_dispatch kich hoat lai chinh workflow nay
+          # FIX (25/09/2026): Override referer cho Chuoi Chien (GitHub Actions IP bi CDN chcan)
+          CHUOICHIENTV_IPTV_REFERER: ${{ secrets.CHUOICHIENTV_IPTV_REFERER }}
+          CHUOICHIENTV_PLAYER_DOMAIN: ${{ secrets.CHUOICHIENTV_PLAYER_DOMAIN }}
 
       # Luoi an toan cuoi cung: vong lap ben tren da tu commit/push sau MOI
       # chu ky roi (xem GENERATE_AUTO_COMMIT), nen thong thuong buoc nay
