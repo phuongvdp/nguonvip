@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:39:12 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:41:28 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận) =====
 
@@ -14,11 +14,15 @@ https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790325330_hd/1790325330_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/indonesia.png" group-title="Giờ Vàng" , 25/09 20:00 🟡 ⚽ Indonesia vs Singapore (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-indonesia-vs-singapore-25-09-6aac7f5624d46db87036c172
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/indonesia.png" group-title="Giờ Vàng" , 25/09 20:00 🟢 ⚽ Indonesia vs Singapore (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790323080_hd/1790323080_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/8xZwopzB-YFbDUeTh.png" group-title="Giờ Vàng" , 25/09 20:00 🟡 ⚽ Tanzania vs Guinea Bissau (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-tanzania-vs-guinea-bissau-25-09-ha8569tc3von
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/8xZwopzB-YFbDUeTh.png" group-title="Giờ Vàng" , 25/09 20:00 🟢 ⚽ Tanzania vs Guinea Bissau (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790326608_hd/1790326608_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/india.png" group-title="Giờ Vàng" , 25/09 21:00 ⚽ Ấn Độ vs Panama (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-an-do-vs-panama-25-09-6aaf23424e725bdee905b840
