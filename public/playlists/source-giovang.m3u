@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:11:45 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:14:06 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận) =====
 
@@ -13,20 +13,30 @@ https://eqr2hdarxfliv.vcdn.cloud/1790263500_hd/1790263500_hd@720p.m3u8
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/england-u21.png" group-title="Giờ Vàng" , 26/09 01:30 🟡 ⚽ U21 Anh vs U21 Kazakhstan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-u21-anh-vs-u21-kazakhstan-26-09-683e3b421f892a5e5c0902f8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/hungary.png" group-title="Giờ Vàng" , 26/09 01:45 🟡 ⚽ Hungary vs Ukraine (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-hungary-vs-ukraine-26-09-69f3f2b74bff4a0c310bf778
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/hungary.png" group-title="Giờ Vàng" , 26/09 01:45 🟢 ⚽ Hungary vs Ukraine (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790264357_hd/1790264357_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/poland.png" group-title="Giờ Vàng" , 26/09 01:45 🟡 ⚽ Ba Lan vs Bosnia & Herzegovina (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-ba-lan-vs-bosnia-herzegovina-26-09-69f7e7425c39b5554409bf5e
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/poland.png" group-title="Giờ Vàng" , 26/09 01:45 🟢 ⚽ Ba Lan vs Bosnia & Herzegovina (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790264389_hd/1790264389_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/sweden.png" group-title="Giờ Vàng" , 26/09 01:45 🟡 ⚽ Thụy Điển vs Romania (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-thuy-dien-vs-romania-26-09-69f695d673ba0b335e0f2ed1
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/sweden.png" group-title="Giờ Vàng" , 26/09 01:45 🟢 ⚽ Thụy Điển vs Romania (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790264433_hd/1790264433_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/italy.png" group-title="Giờ Vàng" , 26/09 01:45 🟡 ⚽ Ý vs Bỉ (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-y-vs-bi-26-09-69f2a1a2bb398665fd0908d8
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/italy.png" group-title="Giờ Vàng" , 26/09 01:45 🟢 ⚽ Ý vs Bỉ (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790264461_hd/1790264461_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/turkey.png" group-title="Giờ Vàng" , 26/09 01:45 🟡 ⚽ Thổ Nhĩ Kỳ vs Pháp (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-tho-nhi-ky-vs-phap-26-09-69f2a1a2bb398665fd0908d9
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/turkey.png" group-title="Giờ Vàng" , 26/09 01:45 🟢 ⚽ Thổ Nhĩ Kỳ vs Pháp (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790264488_hd/1790264488_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png" group-title="Giờ Vàng" , 26/09 03:05 ⚽ New York Yankees vs Baltimore Orioles (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-new-york-yankees-vs-baltimore-orioles-26-09-zkp7b047zd8g
