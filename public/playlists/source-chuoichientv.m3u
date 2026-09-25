@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:38:31 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:40:52 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (20 trận) =====
 
@@ -8,11 +8,6 @@
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoingao/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125457_13158a72.png" group-title="Chuối Chiên" , 26/09 01:45 🟢 ⚽ Italy vs Belgium (Trốc Tru (HD))
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125458_a2e2b5c9.png" group-title="Chuối Chiên" , 26/09 01:45 🟢 ⚽ Hungary vs Ukraine (Chuối Chao (HD))
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv
@@ -75,3 +70,6 @@ https://live05.chuoichientv.me/live/998947/slovakia-w-vs-poland
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134301_6c3d41f1.png" group-title="Chuối Chiên" , 26/09 23:00 ⚽ San Marino vs Finland (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1528888/san-marino-vs-finland
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134250_a98f2608.png" group-title="Chuối Chiên" , 26/09 23:00 ⚽ Iceland vs Estonia (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1528890/iceland-vs-estonia
