@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:49:30 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:51:45 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận), Khán Đài (17 trận), Chuối Chiên (19 trận), Phá Làng (34 trận), Gà Vàng (14 trận), Sao Kê (23 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận), Khán Đài (17 trận), Chuối Chiên (20 trận), Phá Làng (34 trận), Gà Vàng (14 trận), Sao Kê (23 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 25/09 15:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -124,18 +124,13 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/tit/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790325330_hd/1790325330_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 25/09 19:00 🟢 ⚽ Indonesia vs Singapore (Chuối Kem (HD))
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/38b512977bcbde666a4a924cce11d1df.png" group-title="Gà Vàng" , 25/09 19:15 🟡 🏀 AEK Larnaca vs Keravnos Strovolos (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6324.png" group-title="Sao Kê" , 25/09 19:00 🟢 ⚽ Indonesia vs Singapore (Củ Cải)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6324.png" group-title="Sao Kê" , 25/09 20:00 🟢 ⚽ Indonesia vs Singapore (Củ Cải)
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/cucai/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/38b512977bcbde666a4a924cce11d1df.png" group-title="Gà Vàng" , 25/09 19:15 🟡 🏀 AEK Larnaca vs Keravnos Strovolos (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/indonesia.png" group-title="Giờ Vàng" , 25/09 20:00 ⚽ Indonesia vs Singapore (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-indonesia-vs-singapore-25-09-6aac7f5624d46db87036c172
@@ -145,6 +140,9 @@ https://giovang.city/truc-tiep-tanzania-vs-guinea-bissau-25-09-ha8569tc3von
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_484.jpg" group-title="Khán Đài" , 25/09 20:00 ⚽ Indonesia vs Singapore (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/indonesia-vs-singapore
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 25/09 20:00 ⚽ Indonesia vs Singapore (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1641703/indonesia-vs-singapore
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132758_7ab1a2cb.png" group-title="Chuối Chiên" , 25/09 20:00 ⚽ Tanzania vs Guinea-Bissau (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1545835/tanzania-vs-guinea-bissau
@@ -434,6 +432,9 @@ https://live05.chuoichientv.me/live/1639942/jamaica-vs-guatemala
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5806.png" group-title="Sao Kê" , 26/09 07:00 ⚽ Jamaica vs Guatemala (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/jamaica-vs-guatemala-6ab53656552ae1acb6b64683.html
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133843_6c2369a8.png" group-title="Chuối Chiên" , 26/09 08:00 ⚽ Atlante FC vs Monterrey (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1550975/atlante-fc-vs-monterrey
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1942.png" group-title="Sao Kê" , 26/09 08:00 ⚽ Atlante vs Monterrey (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/atlante-vs-monterrey-6ab53656552ae1acb6b64678.html
