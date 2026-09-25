@@ -1,11 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:01:44 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:04:00 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (20 trận) =====
 
 # ----- Ngày 2026-09-25 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133535_bc746ccd.png" group-title="Chuối Chiên" , 25/09 07:30 🟡 ⚽ Atletico Nacional vs Millonarios (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1549794/atletico-nacional-vs-millonarios
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133535_bc746ccd.png" group-title="Chuối Chiên" , 25/09 07:30 🟢 ⚽ Atletico Nacional vs Millonarios (Chuối Sấy (HD))
+#EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisay/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132739_80ee8c4e.png" group-title="Chuối Chiên" , 25/09 09:00 ⚽ Costa Rica vs Curaçao (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1639937/costa-rica-vs-curacao
