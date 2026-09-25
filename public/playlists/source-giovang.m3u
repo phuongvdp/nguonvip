@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:29:31 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:32:27 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận) =====
 
@@ -8,11 +8,6 @@
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/9-A8iDJhj09K55En7WPQBg_96x96.png" group-title="Giờ Vàng" , 25/09 12:00 🟢 ⚽ U23 Uzbekistan vs U23 Ả Rập Saudi (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790306911_hd/1790306911_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IUYV_ZAMxDdabQPzSpTJtg_96x96.png" group-title="Giờ Vàng" , 25/09 13:00 🟢 ⚽ ĐT nữ Việt Nam vs ĐT nữ Trung Quốc (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
@@ -42,6 +37,9 @@ https://giovang.city/truc-tiep-chinese-taipei-w-vs-japan-w-25-09-37990476
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea-u23.png" group-title="Giờ Vàng" , 25/09 17:30 ⚽ U23 Hàn Quốc vs U23 Việt Nam (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-u23-han-quoc-vs-u23-viet-nam-25-09-6ab468e0b057b828a8092bc3
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/japan-w.png" group-title="Giờ Vàng" , 25/09 17:30 ⚽ Nữ Nhật Bản vs Nữ Philippines (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-nu-nhat-ban-vs-nu-philippines-25-09-6ab3177020160d3860005951
 
 #EXTINF:-1 tvg-logo="https://api.beyondkick.com/uploads/HR_Ne_UC_Wg_AAH_8w_Z_fc313fd7d3.webp" group-title="Giờ Vàng" , 25/09 18:30 ⚽ ONE Friday Fights 172 vs The Inner Circle 32 (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-one-friday-fights-172-vs-the-inner-circle-32-25-09-t81vplztkyiu
