@@ -1,2 +1,71 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:21:14 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:24:14 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (20 trận) =====
+
+# ----- Ngày 2026-09-26 -----
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125458_a2e2b5c9.png" group-title="Chuối Chiên" , 26/09 01:45 🟢 ⚽ Hungary vs Ukraine (Chuối Chao (HD))
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125454_fc9cbefe.png" group-title="Chuối Chiên" , 26/09 01:45 🟢 ⚽ Poland vs Bosnia & Herzegovina (Chuối Lá (HD))
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250825_180323_118bdf95.png" group-title="Chuối Chiên" , 26/09 01:45 🟢 ⚽ Sweden vs Romania (Chuối Ngao (HD))
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoingao/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125503_f5da35f2.png" group-title="Chuối Chiên" , 26/09 01:45 🟡 ⚽ Türkiye vs France (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1528882/turkiye-vs-france
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125457_13158a72.png" group-title="Chuối Chiên" , 26/09 01:45 🟡 ⚽ Italy vs Belgium (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1528883/italy-vs-belgium
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132757_56274e6a.png" group-title="Chuối Chiên" , 26/09 02:00 🟡 ⚽ Morocco vs Gabon (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1545826/morocco-vs-gabon
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Chuối Chiên" , 26/09 02:00 🟡 🏐 Finland vs France (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/997848/finland-vs-france
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133533_eba6a872.png" group-title="Chuối Chiên" , 26/09 06:10 ⚽ Chico vs Deportivo Pasto (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1549795/chico-vs-deportivo-pasto
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132739_776293e4.png" group-title="Chuối Chiên" , 26/09 07:00 ⚽ Jamaica vs Guatemala (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1639942/jamaica-vs-guatemala
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133843_6c2369a8.png" group-title="Chuối Chiên" , 26/09 08:00 ⚽ Atlante FC vs Monterrey (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1550975/atlante-fc-vs-monterrey
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133837_c53709bd.png" group-title="Chuối Chiên" , 26/09 10:00 ⚽ Club Tijuana vs Atlas (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1550976/club-tijuana-vs-atlas
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132418_63241790.png" group-title="Chuối Chiên" , 26/09 12:00 ⚽ Renofa Yamaguchi vs Sagamihara (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1555718/renofa-yamaguchi-vs-sagamihara
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134337_d547f1b2.png" group-title="Chuối Chiên" , 26/09 13:00 ⚽ China PR U23 vs U23 Thailand  (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1641726/china-pr-u23-vs-u23-thailand
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135226_b632be79.png" group-title="Chuối Chiên" , 26/09 16:00 ⚽ Pakistan vs Thailand (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1641704/pakistan-vs-thailand
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131443_f7c8e720.png" group-title="Chuối Chiên" , 26/09 17:30 ⚽ Japan U23 vs Korea DPR U23 (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1641727/japan-u23-vs-korea-dpr-u23
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Chuối Chiên" , 26/09 19:30 ⚽ Việt Nam vs Philippines (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1641705/viet-nam-vs-philippines
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125505_e3391af2.png" group-title="Chuối Chiên" , 26/09 20:00 ⚽ Slovenia vs Scotland (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1545658/slovenia-vs-scotland
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132805_2c5424f2.png" group-title="Chuối Chiên" , 26/09 20:00 ⚽ South Africa vs Guinea (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1545833/south-africa-vs-guinea
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134032_70ccce36.png" group-title="Chuối Chiên" , 26/09 21:00 ⚽ Järfälla vs AFC Eskilstuna (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1505279/jarfalla-vs-afc-eskilstuna
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_143111_f0cb8ab0.png" group-title="Chuối Chiên" , 26/09 22:00 🏐 Slovakia W vs Poland (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/998947/slovakia-w-vs-poland
