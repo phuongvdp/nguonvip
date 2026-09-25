@@ -1,21 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:43:57 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:46:12 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Gà Vàng (10 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (3 trận), Gà Vàng (9 trận) =====
 
 # ----- Ngày 2026-09-25 -----
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/viUBkizB-KtOrDRPL.png" group-title="Giờ Vàng" , 25/09 14:30 🟢 🏀 Anyang JungKwanJang vs Suwon KT (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790296843_hd/1790296843_hd@720p.m3u8
-
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/fd1ef26f7174d02a5a30dbe9e69b45f9.png" group-title="Giờ Vàng" , 25/09 16:30 🟢 🏀 Brisbane Bullets vs Illawarra Hawks (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790322732_hd/1790322732_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/4c8413136eb5016607ee093a802f90c3.png" group-title="Gà Vàng" , 25/09 16:45 🟡 🏀 Saga Ballooners vs Hiroshima Dragonflies (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/0edf832bceb2f91200dbb544fc51e60a.png" group-title="Gà Vàng" , 25/09 17:05 🟡 🏀 Tokyo Sunrockers vs Chiba Jets (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
