@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 11:36:01 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 11:38:11 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (19 trận), Chuối Chiên (20 trận), Phá Làng (40 trận), Gà Vàng (31 trận), Sao Kê (23 trận) =====
 
 # ----- Ngày 2026-09-25 -----
-#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 25/09 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/2d7f3f6e23f7cb31f2209ab8cc8f47a4.png" group-title="Gà Vàng" , 25/09 09:00 🟢 ⚽ Costa Rica vs Curacao (SiêU QuậY)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -18,6 +13,11 @@ https://playback.livetl002.com/live/6a2a59b347bbddd62a8dc4e4.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790295973_hd/1790295973_hd@720p.m3u8
+
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 25/09 11:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/9-A8iDJhj09K55En7WPQBg_96x96.png" group-title="Giờ Vàng" , 25/09 12:00 🟢 ⚽ U23 Uzbekistan vs U23 Ả Rập Saudi (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
@@ -33,7 +33,7 @@ https://khandai3.link/truc-tiep/uzbekistan-u23-vs-saudi-arabia-u23-25-09-2026-85
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131446_7bd3d526.png" group-title="Chuối Chiên" , 25/09 12:00 🟡 ⚽ Uzbekistan U23 vs Saudi Arabia U23 (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641614/uzbekistan-u23-vs-saudi-arabia-u23
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/10e0e86adfdda4f49927db34cc5fda29.png" group-title="Phá Làng" , 25/09 12:00 🟡 ⚽ Uzbekistan U23 - Saudi Arabia U23 (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/1dd0de5130ea63107abb29665d15e9fb.png" group-title="Phá Làng" , 25/09 12:00 🟡 ⚽ Uzbekistan U23 - Saudi Arabia U23 (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l7oqdehjyd9nr51
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/4e7245e77764a6d4d68a69bd2f4c2035.png" group-title="Gà Vàng" , 25/09 12:00 🟡 ⚽ Uzbekistan U23 vs Saudi Arabia U23 (Chưa có link — chờ cập nhật)
