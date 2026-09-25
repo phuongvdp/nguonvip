@@ -144,6 +144,19 @@ const IPTV_REFERER_PROBE_TIMEOUT_MS = 4000;
 // vì đa số CDN thật sự cần Referer đúng, chỉ 1 số ít không cần.
 const workingRefererByHost = new Map();
 
+/**
+ * FIX (25/09/2026 — GitHub-only deploy): Kiểm tra env var override referer
+ */
+function getOverrideReferer(source) {
+  const envVar = `${source.toUpperCase()}_IPTV_REFERER`;
+  const override = process.env[envVar];
+  if (override) {
+    console.log(`[m3uPlaylist] Dùng override referer từ ${envVar}: ${override}`);
+    return override;
+  }
+  return null;
+}
+
 function isHotlinkBlockStatus(status) {
   return status === 401 || status === 403 || status === 451;
 }
@@ -182,6 +195,10 @@ async function probeReferer(url, referer) {
  * an toàn hơn là gán 1 Referer chưa xác minh có thể làm CDN càng chặn).
  */
 async function resolveIptvReferer(url, source) {
+  // FIX (25/09/2026): Kiểm tra override env var trước
+  const override = getOverrideReferer(source);
+  if (override) return override;
+
   const candidates = REFERER_CANDIDATES_BY_SOURCE[source];
   if (!candidates) return null;
 
@@ -226,6 +243,9 @@ async function resolveIptvReferer(url, source) {
   // trận). Không nhớ lại (workingRefererByHost) cho trường hợp này, để lần
   // dò sau (2 phút kế) vẫn thử lại từ đầu, phòng khi CDN chỉ chặn tạm thời.
   const bestGuess = candidates.find((c) => c);
+  if (bestGuess) {
+    console.warn(`[m3uPlaylist] Probe referer thất bại cho ${source} ${host} — fallback best-guess: ${bestGuess}`);
+  }
   return bestGuess || null;
 }
 
