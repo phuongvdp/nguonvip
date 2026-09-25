@@ -1,9 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:37:51 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:40:10 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (1 trận), Khán Đài (2 trận), Chuối Chiên (2 trận), Phá Làng (1 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (1 trận), Khán Đài (2 trận), Chuối Chiên (2 trận), Phá Làng (2 trận) =====
 
 # ----- Ngày 2026-09-25 -----
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/6196b217c74313ed212d0aaa350dd6d1.png!w80" group-title="Phá Làng" , 25/09 22:00 🟢 🏐 Slovenia - Ba Lan (LÝ LIỀU LĨNH (Server 1))
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://pull.digitalcdn.net/live/42301df996014512b0e02b36ce1ecda2/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/WnW15DfM-6ys9CWQj.png" group-title="Giờ Vàng" , 25/09 22:00 🟡 🏐 Ba Lan vs Slovenia (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-ba-lan-vs-slovenia-25-09-bswdfoxxtjg7
 
