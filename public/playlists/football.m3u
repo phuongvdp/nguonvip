@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:46:29 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:48:45 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (17 trận), Chuối Chiên (18 trận), Phá Làng (23 trận), Gà Vàng (2 trận), Sao Kê (22 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (17 trận), Chuối Chiên (19 trận), Phá Làng (23 trận), Gà Vàng (2 trận), Sao Kê (22 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c9de7e2ddf47fcbe9572a133bab5599b.png" group-title="Phá Làng" , 25/09 22:00 🟢 ⚽ Niger - Lesotho (Server 1)
@@ -313,6 +313,9 @@ https://vip3.saoketv40.xyz/slovenia-vs-scotland-6ab5c810a98792e63a6feb01.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6316.png" group-title="Sao Kê" , 26/09 20:00 ⚽ South Africa vs Guinea (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/south-africa-vs-guinea-6ab5c810a98792e63a6feb09.html
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134032_70ccce36.png" group-title="Chuối Chiên" , 26/09 21:00 ⚽ Järfälla vs AFC Eskilstuna (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1505279/jarfalla-vs-afc-eskilstuna
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1225382.png" group-title="Sao Kê" , 26/09 21:00 ⚽ FC Järfälla vs AFC Eskilstuna (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/fc-jarfalla-vs-afc-eskilstuna-6ab5c810a98792e63a6feb00.html
