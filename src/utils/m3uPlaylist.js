@@ -478,11 +478,25 @@ export async function matchesToPlaylistEntries(matches = [], { baseUrl = '' } = 
     // — đáng tin hơn hẳn so với đoán/dò-bằng-HEAD-request ở resolveIptvReferer()
     // bên dưới, vì đây là Referer trình duyệt THẬT đã dùng để phát thành công,
     // không phải suy đoán từ 1 danh sách ứng viên cố định.
-    entry.iptvReferer = entry.stream?.referer
-      ? entry.stream.referer
-      : finalUrl
-        ? await resolveIptvReferer(finalUrl, sourceKey)
-        : null;
+    //
+    // FIX (25/09/2026 — "đổi CHUOICHIENTV_IPTV_REFERER không có tác dụng"):
+    // nhánh trên đọc thẳng entry.stream.referer TRƯỚC khi gọi
+    // resolveIptvReferer() — mà getOverrideReferer() (đọc env var override)
+    // chỉ nằm BÊN TRONG resolveIptvReferer(). Với Chuối Chiên/Sao Kê, service
+    // LUÔN tự dò được referer bằng trình duyệt headless nên entry.stream.referer
+    // hầu như luôn có giá trị -> nhánh resolveIptvReferer() không bao giờ được
+    // gọi tới -> đổi biến môi trường override không có tác dụng gì, vẫn dùng
+    // đúng giá trị tự dò cũ. Phải kiểm tra override TRƯỚC, cho MỌI nguồn, để
+    // người dùng luôn ép được 1 Referer cụ thể bất kể service có tự dò được
+    // hay không.
+    const overrideReferer = getOverrideReferer(sourceKey);
+    entry.iptvReferer = overrideReferer
+      ? overrideReferer
+      : entry.stream?.referer
+        ? entry.stream.referer
+        : finalUrl
+          ? await resolveIptvReferer(finalUrl, sourceKey)
+          : null;
   });
 
   return entries;
