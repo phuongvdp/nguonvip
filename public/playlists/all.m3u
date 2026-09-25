@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:56:33 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:58:47 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (17 trận), Chuối Chiên (20 trận), Phá Làng (14 trận), Gà Vàng (31 trận), Sao Kê (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (15 trận), Chuối Chiên (19 trận), Phá Làng (13 trận), Gà Vàng (31 trận), Sao Kê (20 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/006ce259b33ef72dd5570cfa8dc39f38.png" group-title="Gà Vàng" , 26/09 01:30 🟢 ⚽ Girona vs Albacete (Cá MậP)
@@ -39,30 +39,10 @@ https://playback.livetl002.com/live/6a704ad865997681f18c2160.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a01a2511e8555d7a3685f5c.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_716.jpg" group-title="Khán Đài" , 26/09 02:00 🟢 ⚽ Egypt vs Angola (Tiểu Mây)
-#EXTVLCOPT:http-referrer=https://khandai3.link
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_717.jpg" group-title="Khán Đài" , 26/09 02:00 🟢 ⚽ Morocco vs Gabon (Kền Kền)
-#EXTVLCOPT:http-referrer=https://khandai3.link
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132757_56274e6a.png" group-title="Chuối Chiên" , 26/09 02:00 🟢 ⚽ Morocco vs Gabon (Chuối To (HD))
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Chuối Chiên" , 26/09 02:00 🟢 🏐 Finland vs France (Chuối Kem (HD))
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d2d5f2ebbbee1568d330bc53b02aa0e5.png" group-title="Phá Làng" , 26/09 02:00 🟢 ⚽ Algeria - Zambia (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/c1bda1253c4e720a072a3c4a936c3851/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f430088f4b4e68c28f0043ac07ab93b3.png" group-title="Phá Làng" , 26/09 02:00 🟢 ⚽ Burkina Faso - Benin (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang.live
