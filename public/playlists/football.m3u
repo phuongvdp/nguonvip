@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:58:28 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:00:37 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (14 trận), Chuối Chiên (18 trận), Phá Làng (27 trận), Gà Vàng (7 trận), Sao Kê (21 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (14 trận), Chuối Chiên (18 trận), Phá Làng (26 trận), Gà Vàng (7 trận), Sao Kê (22 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/indonesia.png" group-title="Giờ Vàng" , 25/09 20:00 🟢 ⚽ Indonesia vs Singapore (Giovang 1)
@@ -74,19 +74,16 @@ https://lilive1.eu.cc/live/e377ccb5f2d5ae556139713241c020e1/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/quanghuy/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b0216acd16efece434df680c379b5872.png" group-title="Phá Làng" , 25/09 21:00 🟡 ⚽ FK Gornji Rahic - Sarajevo (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#6ypq3nhk6ew9md7
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bfdd500484330d63a723cbc396df762c.png" group-title="Phá Làng" , 25/09 21:30 🟡 ⚽ VfB Stuttgart - 1. FC Heidenheim 1846 (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y0or5jh9xj3yqwz
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/slovakia-u19.png" group-title="Giờ Vàng" , 25/09 22:00 ⚽ U19 Slovakia vs U19 Kazakhstan (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/slovakia-u19.png" group-title="Giờ Vàng" , 25/09 22:00 🟡 ⚽ U19 Slovakia vs U19 Kazakhstan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-u19-slovakia-vs-u19-kazakhstan-25-09-6aaf23424e725bdee905b841
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c9de7e2ddf47fcbe9572a133bab5599b.png" group-title="Phá Làng" , 25/09 22:00 ⚽ Niger - Lesotho (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c9de7e2ddf47fcbe9572a133bab5599b.png" group-title="Phá Làng" , 25/09 22:00 🟡 ⚽ Niger - Lesotho (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4wyrn4h6g3vdq86
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/cd0ec9035e74c703a7e3128db75fdc65.png" group-title="Gà Vàng" , 25/09 22:00 ⚽ Niger vs Lesotho (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/cd0ec9035e74c703a7e3128db75fdc65.png" group-title="Gà Vàng" , 25/09 22:00 🟡 ⚽ Niger vs Lesotho (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/niger-vs-lesotho-ngay-25-09-2026/
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/finland-u21.png" group-title="Giờ Vàng" , 25/09 22:30 ⚽ U21 Phần Lan vs U21 Tây Ban Nha (Chưa có link — chờ cập nhật)
@@ -341,3 +338,6 @@ https://vip3.saoketv40.xyz/slovenia-vs-scotland-6ab5c810a98792e63a6feb01.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6316.png" group-title="Sao Kê" , 26/09 20:00 ⚽ South Africa vs Guinea (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/south-africa-vs-guinea-6ab5c810a98792e63a6feb09.html
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1225382.png" group-title="Sao Kê" , 26/09 21:00 ⚽ FC Järfälla vs AFC Eskilstuna (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/fc-jarfalla-vs-afc-eskilstuna-6ab5c810a98792e63a6feb00.html
