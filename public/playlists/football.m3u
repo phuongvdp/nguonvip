@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:27:54 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:30:11 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (11 trận), Chuối Chiên (17 trận), Phá Làng (30 trận), Gà Vàng (12 trận), Sao Kê (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (13 trận), Chuối Chiên (18 trận), Phá Làng (30 trận), Gà Vàng (12 trận), Sao Kê (21 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 25/09 15:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -362,3 +362,15 @@ https://vip3.saoketv40.xyz/pakistan-vs-thailand-6ab5c810a98792e63a6feb0b.html
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131443_f7c8e720.png" group-title="Chuối Chiên" , 26/09 17:30 ⚽ Japan U23 vs Korea DPR U23 (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641727/japan-u23-vs-korea-dpr-u23
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_479.jpg" group-title="Khán Đài" , 26/09 19:30 ⚽ Việt Nam vs Philippines (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/viet-nam-vs-philippines
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_479.jpg" group-title="Khán Đài" , 26/09 19:30 ⚽ Việt Nam vs Philippines (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/viet-nam-vs-philippines-26-09-2026-160544
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Chuối Chiên" , 26/09 19:30 ⚽ Việt Nam vs Philippines (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1641705/viet-nam-vs-philippines
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5894.png" group-title="Sao Kê" , 26/09 19:30 ⚽ Vietnam vs Philippines (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/vietnam-vs-philippines-6ab5c810a98792e63a6feb0c.html
