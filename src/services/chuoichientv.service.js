@@ -1,5 +1,7 @@
 import { createHttpClient } from '@/src/utils/httpClient';
 import { slugifyVi } from '@/src/utils/slug';
+import { fetchFirstRequestHeaders } from '@/src/utils/browserFetch';
+const axios = require('axios');
 
 // Chuối Chiên TV — domain chính chuoichientv.link, frontend thật chạy trên
 // live05.chuoichientv.me. API nằm trên domain RIÊNG (api-v2.chuoichientv.net)
@@ -19,6 +21,129 @@ const SPORT_INFO = {
 
 const NOT_STARTED_STATUSES = new Set(['scheduled', 'not_started', 'upcoming', 'pending', 'ns']);
 const FINISHED_STATUSES = new Set(['finished', 'ended', 'ft', 'full_time', 'cancelled', 'canceled', 'postponed', 'abandoned']);
+
+// ---- Tự dò Referer/Origin THẬT bằng trình duyệt headless -----------------
+// FIX (25/09/2026 — áp dụng lại cách đã sửa cho Sao Kê, nguồn này dùng
+// CHUNG 2 CDN hdplaylink.com/edgemaxcdn.org với Sao Kê nên cùng bệnh 403
+// chống hotlink): thay vì tiếp tục đoán tay giữa 2 domain
+// live05.chuoichientv.me/chuoichientv.link (xem REFERER_CANDIDATES_BY_SOURCE
+// trong m3uPlaylist.js + hls.js — đã đoán qua đoán lại nhiều lần, vẫn có
+// lúc sai), mở trang xem trực tiếp 1 trận ĐANG LIVE bằng Chromium headless
+// thật (hạ tầng có sẵn, xem src/utils/browserFetch — nguồn này trước đây
+// không cần dùng vì gọi API thẳng được, giờ dùng THÊM riêng cho bước dò
+// Referer, không ảnh hưởng cách lấy danh sách trận), bắt ĐÚNG request
+// .m3u8 mà trình duyệt tự gửi, đọc lại Referer nó dùng — hết phải đoán.
+//
+// LƯU Ý giống hệt Sao Kê: cache này chỉ có tác dụng trong CHÍNH tiến trình
+// đang gọi getAllMatches()/getAllMatchesByTab() (route /api/matches hoặc
+// /api/playlist) — KHÔNG chia sẻ được sang pages/api/proxy/hls.js (serverless
+// function khác). Muốn hls.js hưởng lợi, xem cầu nối qua
+// public/playlists/chuoichientv-referer.json trong scripts/generate-playlists.js
+// + hls.js (giống hệt cơ chế đã làm cho Sao Kê).
+const DETECT_REFERER_TIMEOUT_MS = 12000;
+const DETECT_REFERER_TTL_MS = 2 * 60 * 60 * 1000; // 2 tiếng
+const detectCache = globalThis.__chuoichientvRefererDetectCache || { value: null, detectedAt: 0, inFlight: null };
+globalThis.__chuoichientvRefererDetectCache = detectCache;
+
+async function detectPlayerReferer(sampleWatchUrl) {
+  if (!sampleWatchUrl) return detectCache.value;
+  if (detectCache.value && Date.now() - detectCache.detectedAt < DETECT_REFERER_TTL_MS) {
+    return detectCache.value;
+  }
+  if (detectCache.inFlight) return detectCache.inFlight;
+
+  detectCache.inFlight = (async () => {
+    try {
+      const found = await fetchFirstRequestHeaders(sampleWatchUrl, /\.m3u8(\?|$)/i, {
+        timeoutMs: DETECT_REFERER_TIMEOUT_MS
+      });
+      const referer = found?.headers?.referer || found?.headers?.Referer || null;
+      if (referer) {
+        detectCache.value = referer;
+        detectCache.detectedAt = Date.now();
+        console.log(`[chuoichientv] tự dò được Referer thật từ trình duyệt: ${referer}`);
+      } else {
+        console.error('[chuoichientv] mở trang bằng trình duyệt xong nhưng không bắt được request .m3u8 nào (site có thể đã đổi cấu trúc)');
+      }
+      return detectCache.value;
+    } catch (error) {
+      console.error('[chuoichientv] dò Referer bằng trình duyệt headless thất bại (dùng fallback hardcode):', error.message);
+      return detectCache.value;
+    } finally {
+      detectCache.inFlight = null;
+    }
+  })();
+
+  return detectCache.inFlight;
+}
+
+// ---- Tự dò domain "liveNN.chuoichientv.me" đang hoạt động ---------------
+// FIX (25/09/2026 — "domain chuyển sang domain mới rồi live07...", trước đó
+// hardcode "live05"): domain trang xem trực tiếp KHÔNG cố định — người dùng
+// vừa xác nhận nó đã đổi từ live05 sang live07. Hardcode 1 số cụ thể chắc
+// chắn sẽ hỏng lại lần sau. KHÔNG có field nào trong API trả về domain này
+// (đã kiểm tra normalizeMatch/raw response), nên không thể lấy "chuẩn" từ
+// API — phải TỰ DÒ: thử lần lượt liveNN từ 01 tới 15 bằng 1 request HTTP
+// GET rất nhẹ (không phải mở trình duyệt headless, chỉ cần biết domain nào
+// CÒN SỐNG, không cần nội dung), domain đầu tiên phản hồi được (không lỗi
+// kết nối/DNS) coi là đang hoạt động. Dùng domain đó để mở trang bằng
+// headless browser (xem detectPlayerReferer/watchUrl bên dưới) — CHỈ ảnh
+// hưởng tới bước TỰ DÒ Referer (self-healing), KHÔNG ảnh hưởng Referer
+// CHUẨN đã xác nhận bằng DevTools thật (fhd-01.cctvsignal.xyz, cố định,
+// xem REFERER_CANDIDATES_BY_SOURCE trong m3uPlaylist.js/hls.js) — 2 domain
+// này ĐỘC LẬP nhau (live0N.chuoichientv.me là domain trang xem, còn
+// fhd-01.cctvsignal.xyz là domain nhúng player/CDN referer).
+//
+// Đặt CHUOICHIENTV_WATCH_DOMAIN (vd: "https://live07.chuoichientv.me") nếu
+// muốn ép cứng, bỏ qua dò — dò lại ngay nếu domain đang cache không còn
+// phản hồi (không đợi hết TTL), giữ cache 30 phút khi vẫn sống.
+const WATCH_DOMAIN_PROBE_MAX = 15;
+const WATCH_DOMAIN_PROBE_TIMEOUT_MS = 2500;
+const WATCH_DOMAIN_TTL_MS = 30 * 60 * 1000;
+const watchDomainCache = globalThis.__chuoichientvWatchDomainCache || { value: null, resolvedAt: 0, inFlight: null };
+globalThis.__chuoichientvWatchDomainCache = watchDomainCache;
+
+async function probeDomainAlive(domain) {
+  try {
+    await axios.get(`${domain}/`, {
+      timeout: WATCH_DOMAIN_PROBE_TIMEOUT_MS,
+      validateStatus: () => true, // 404/403... vẫn tính là "domain sống", chỉ loại domain KHÔNG kết nối được
+      headers: { 'User-Agent': 'Mozilla/5.0' }
+    });
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function resolveWatchDomain() {
+  const forced = process.env.CHUOICHIENTV_WATCH_DOMAIN;
+  if (forced) return forced.replace(/\/+$/, '');
+
+  const fresh = watchDomainCache.value && Date.now() - watchDomainCache.resolvedAt < WATCH_DOMAIN_TTL_MS;
+  if (fresh && (await probeDomainAlive(watchDomainCache.value))) return watchDomainCache.value;
+  if (watchDomainCache.inFlight) return watchDomainCache.inFlight;
+
+  watchDomainCache.inFlight = (async () => {
+    try {
+      for (let n = 1; n <= WATCH_DOMAIN_PROBE_MAX; n++) {
+        const domain = `https://live${String(n).padStart(2, '0')}.chuoichientv.me`;
+        if (await probeDomainAlive(domain)) {
+          watchDomainCache.value = domain;
+          watchDomainCache.resolvedAt = Date.now();
+          console.log(`[chuoichientv] tự dò được domain trang xem đang sống: ${domain}`);
+          return domain;
+        }
+      }
+      console.error(`[chuoichientv] dò domain live01..live${WATCH_DOMAIN_PROBE_MAX} đều không phản hồi, dùng fallback live05`);
+      return watchDomainCache.value || 'https://live05.chuoichientv.me';
+    } finally {
+      watchDomainCache.inFlight = null;
+    }
+  })();
+
+  return watchDomainCache.inFlight;
+}
 
 class ChuoiChienTvService {
   constructor() {
@@ -51,7 +176,7 @@ class ChuoiChienTvService {
     return 'HLS';
   }
 
-  normalizeMatch(m) {
+  normalizeMatch(m, referer) {
     const rawStatus = String(m.status || '').toLowerCase();
     const isNotStarted = NOT_STARTED_STATUSES.has(rawStatus);
     const isFinished = FINISHED_STATUSES.has(rawStatus);
@@ -78,7 +203,11 @@ class ChuoiChienTvService {
       avatar: b.avatar || '',
       streamUrl: s.url,
       isLive: true,
-      cdn: this.detectCdn(s.url)
+      cdn: this.detectCdn(s.url),
+      // Referer THẬT tự dò được (nếu có) — xem detectPlayerReferer() ở
+      // trên. null nếu chưa dò được/dò lỗi, m3uPlaylist.js/hls.js tự rơi
+      // về danh sách ứng viên hardcode như cũ.
+      referer: referer || null
     }))).filter((c) => c.streamUrl);
 
     return {
@@ -172,7 +301,22 @@ class ChuoiChienTvService {
 
   async getAllMatches() {
     const raw = await this.fetchList('live');
-    return raw.map((m) => this.normalizeMatch(m));
+    const referer = await this.detectRefererFromRaw(raw);
+    return raw.map((m) => this.normalizeMatch(m, referer));
+  }
+
+  // Chỉ cần dò 1 lần cho MỌI trận (cùng site -> cùng domain player), lấy
+  // trận ĐANG LIVE đầu tiên có đủ externalId+slug để dựng URL trang xem.
+  async detectRefererFromRaw(rawLiveList) {
+    const sample = (rawLiveList || []).find((m) => (m.externalId || m._id) && (m.slug || m.teams?.home?.name));
+    if (!sample) return detectCache.value;
+    const externalId = sample.externalId || sample._id;
+    const homeName = sample.teams?.home?.name || 'Home';
+    const awayName = sample.teams?.away?.name || 'Away';
+    const slug = sample.slug || `${slugifyVi(homeName)}-vs-${slugifyVi(awayName)}`;
+    const watchDomain = await resolveWatchDomain();
+    const watchUrl = `${watchDomain}/live/${externalId}/${slug}`;
+    return detectPlayerReferer(watchUrl);
   }
 
   /** Interface giống các nguồn khác: gộp mọi type thành 1 danh sách, tự lọc theo tab ở code. */
@@ -181,6 +325,7 @@ class ChuoiChienTvService {
       this.fetchList('live'),
       this.fetchList('upcoming')
     ]);
+    const referer = await this.detectRefererFromRaw(liveRaw);
 
     const seen = new Set();
     const all = [];
@@ -188,7 +333,7 @@ class ChuoiChienTvService {
       const key = m.externalId || m._id;
       if (!key || seen.has(key)) continue;
       seen.add(key);
-      all.push(this.normalizeMatch(m));
+      all.push(this.normalizeMatch(m, referer));
     }
 
     let matches = all;
@@ -217,19 +362,19 @@ class ChuoiChienTvService {
   async getStreamLinks(matchId) {
     const raw = await this.findRawMatch(matchId);
     if (!raw) return [];
-    return this.mapStreams(this.normalizeMatch(raw));
+    return this.mapStreams(this.normalizeMatch(raw, detectCache.value));
   }
 
   async getMatchDetail(matchId) {
     const raw = await this.findRawMatch(matchId);
     if (!raw) return null;
-    const match = this.normalizeMatch(raw);
+    const match = this.normalizeMatch(raw, detectCache.value);
     return { match, streams: this.mapStreams(match), matchId: match.matchId };
   }
 
   async getMatchLiveSnapshot(matchId) {
     const raw = await this.findRawMatch(matchId);
-    return raw ? this.normalizeMatch(raw) : null;
+    return raw ? this.normalizeMatch(raw, detectCache.value) : null;
   }
 }
 

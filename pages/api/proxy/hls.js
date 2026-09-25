@@ -74,36 +74,45 @@ const SAOKE_PLAYER = String(process.env.SAOKE_PLAYER_DOMAIN || 'https://sk.media
 // /api/playlist để sinh public/playlists/source-saoke.m3u — nó ĐỌC LẠI
 // đúng dòng #EXTVLCOPT:http-referrer=... vừa được m3uPlaylist.js nhúng vào
 // (dùng chính Referer tự dò được đó, xem FIX 25/09/2026 trong
-// m3uPlaylist.js), rồi ghi RIÊNG ra public/playlists/saoke-referer.json.
+// m3uPlaylist.js), rồi ghi RIÊNG ra public/playlists/<nguồn>-referer.json.
 // File này được commit + deploy cùng repo như mọi file tĩnh khác trong
 // public/ — vì vậy ĐỌC ĐƯỢC (read-only) từ BẤT KỲ serverless function nào,
 // kể cả route này, dù chạy tách biệt. Không có file (lần deploy đầu, trước
-// khi CI chạy lần nào) hoặc đọc/parse lỗi -> coi như chưa có, rơi về
-// SAOKE_PLAYER hardcode bên trên như cũ, không throw.
-const SAOKE_REFERER_FILE = path.join(process.cwd(), 'public', 'playlists', 'saoke-referer.json');
-const SAOKE_REFERER_FILE_CACHE_MS = 60 * 1000; // đọc lại tối đa 1 lần/phút/instance — file do CI ghi mỗi 2 phút, không cần đọc lại mỗi request
-let saokeRefererFileCache = { value: null, readAt: 0 };
+// khi CI chạy lần nào, hoặc site đó chưa từng có trận live lúc CI chạy) hoặc
+// đọc/parse lỗi -> coi như chưa có, rơi về danh sách hardcode như cũ, không
+// throw. Áp dụng chung cho MỌI nguồn có bật tự dò (hiện tại: saoke,
+// chuoichientv — xem detectPlayerReferer() trong service tương ứng).
+const DETECTED_REFERER_FILE_CACHE_MS = 60 * 1000; // đọc lại tối đa 1 lần/phút/instance — file do CI ghi mỗi 2 phút, không cần đọc lại mỗi request
+const detectedRefererFileCache = new Map(); // source -> { value, readAt }
 
-function readDetectedSaokeReferer() {
-  if (Date.now() - saokeRefererFileCache.readAt < SAOKE_REFERER_FILE_CACHE_MS) {
-    return saokeRefererFileCache.value;
+function readDetectedReferer(source) {
+  const cached = detectedRefererFileCache.get(source);
+  if (cached && Date.now() - cached.readAt < DETECTED_REFERER_FILE_CACHE_MS) {
+    return cached.value;
   }
-  saokeRefererFileCache.readAt = Date.now();
+  let value = null;
   try {
-    const raw = fs.readFileSync(SAOKE_REFERER_FILE, 'utf8');
+    const filePath = path.join(process.cwd(), 'public', 'playlists', `${source}-referer.json`);
+    const raw = fs.readFileSync(filePath, 'utf8');
     const referer = JSON.parse(raw)?.referer;
-    saokeRefererFileCache.value = typeof referer === 'string' && referer ? referer : null;
+    value = typeof referer === 'string' && referer ? referer : null;
   } catch {
-    saokeRefererFileCache.value = null;
+    value = null;
   }
-  return saokeRefererFileCache.value;
+  detectedRefererFileCache.set(source, { value, readAt: Date.now() });
+  return value;
 }
 
 const REFERER_BY_SOURCE = {
   phaohoa: process.env.PHAOHOA_DOMAIN || process.env.PHAOHOA_BASE_URL || 'https://phaohoa1.live',
   giovang: process.env.GIOVANG_DOMAIN || 'https://giovang.city',
   khandaitv: process.env.KHANDAITV_DOMAIN || process.env.KHANDAITV_BASE_URL || 'https://khandai3.link',
-  chuoichientv: 'https://live05.chuoichientv.me',
+  // FIX (25/09/2026 — bắt được request THẬT từ DevTools, xem chú thích ở
+  // REFERER_CANDIDATES_BY_SOURCE bên dưới): domain player CHUẨN không phải
+  // live05.chuoichientv.me/chuoichientv.link như đoán trước đây, mà là
+  // fhd-01.cctvsignal.xyz — 1 domain nhúng player HOÀN TOÀN khác, y hệt
+  // kiểu Sao Kê dùng sk.mediastation.live thay vì domain trang chính.
+  chuoichientv: 'https://fhd-01.cctvsignal.xyz',
   // FIX (18/09/2026 — "trận có tên BLV kiểu '... (Server 1)' của Phá Làng
   // không xem được, còn trận 'Server 1' trơn thì xem được"): trận có tên
   // kèm BLV là trận lấy link qua getStreamLinks() (/match/{id}/live, CDN
@@ -146,7 +155,21 @@ const REFERER_FALLBACK = REFERER_BY_SOURCE.phaohoa;
 // .ts kế tiếp của CÙNG 1 trận, dồn dập hàng chục request/phút) dùng thẳng,
 // không phải thử lại từ đầu mỗi lần — tránh làm chậm phát video.
 const REFERER_CANDIDATES_BY_SOURCE = {
-  chuoichientv: ['https://live05.chuoichientv.me/', 'https://chuoichientv.link/', null],
+  // FIX (25/09/2026 — "làm giống Sao Kê, lấy link chuẩn từ domain gốc và
+  // Referer chuẩn, không đoán mò"): bắt được request THẬT bằng DevTools —
+  // domain player CHUẨN là fhd-01.cctvsignal.xyz (KHÔNG phải
+  // live05.chuoichientv.me/chuoichientv.link như FIX 17/09/2026 từng đoán,
+  // 2 domain đó giờ chỉ còn là ứng viên dự phòng). Link CDN thật đi qua 1
+  // lớp wrapper domain ngẫu nhiên trên 100ycdn.com, path chứa
+  // gckc0525.edgemaxcdn.org, kèm query ký session (wsSession/wsIPSercert/
+  // wsBindIP/wsserid) — CHÚ Ý: các tham số này trông giống bị RÀNG BUỘC
+  // theo phiên/IP người gọi (wsBindIP), khác hẳn Sao Kê (link không có
+  // token). Nếu link do server (route /api/matches, gọi API bằng IP máy
+  // chủ) lấy về rồi đưa thẳng cho VLC/app phát bằng IP người xem (KHÁC IP
+  // máy chủ) thì token có thể bị CDN từ chối dù Referer đã đúng — lúc đó
+  // phải phát qua CHÍNH route proxy này (hls.js gọi CDN bằng IP máy chủ,
+  // giống lúc lấy token) thay vì phát thẳng link .m3u8 trong app.
+  chuoichientv: ['https://fhd-01.cctvsignal.xyz/', 'https://live05.chuoichientv.me/', 'https://chuoichientv.link/', null],
   phaohoa: [REFERER_BY_SOURCE.phaohoa, null],
   giovang: [REFERER_BY_SOURCE.giovang, null],
   khandaitv: [REFERER_BY_SOURCE.khandaitv, null],
@@ -186,13 +209,11 @@ function refererCandidatesFor(source, target) {
   let list = preset && preset.length ? preset.slice() : [REFERER_BY_SOURCE[source] || REFERER_FALLBACK, null];
 
   // FIX (25/09/2026): chèn Referer tự dò được (nếu có, xem
-  // readDetectedSaokeReferer() ở trên) lên ĐẦU danh sách — đáng tin hơn mọi
+  // readDetectedReferer() ở trên) lên ĐẦU danh sách — đáng tin hơn mọi
   // ứng viên hardcode vì đây là Referer trình duyệt THẬT đã dùng để phát
-  // thành công, không phải đoán.
-  if (source === 'saoke') {
-    const detected = readDetectedSaokeReferer();
-    if (detected) list = [detected, ...list.filter((r) => r !== detected)];
-  }
+  // thành công, không phải đoán. Áp dụng cho mọi nguồn có file <nguồn>-referer.json.
+  const detected = readDetectedReferer(source);
+  if (detected) list = [detected, ...list.filter((r) => r !== detected)];
 
   let host = '';
   try {

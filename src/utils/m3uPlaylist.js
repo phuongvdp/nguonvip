@@ -93,7 +93,16 @@ const IPTV_HEADER_UA =
 // Giữ ĐỒNG BỘ danh sách ứng viên với REFERER_CANDIDATES_BY_SOURCE trong
 // pages/api/proxy/hls.js — sửa 1 nơi thì nhớ sửa nơi kia theo, tránh lệch.
 const REFERER_CANDIDATES_BY_SOURCE = {
-  chuoichientv: ['https://live05.chuoichientv.me/', 'https://chuoichientv.link/', null],
+  // FIX (25/09/2026 — bắt request THẬT bằng DevTools, xem chú thích tương
+  // ứng trong pages/api/proxy/hls.js): domain player CHUẨN là
+  // fhd-01.cctvsignal.xyz, KHÔNG phải live05.chuoichientv.me/chuoichientv.link
+  // như đoán trước đây — 2 domain đó giờ chỉ còn là ứng viên dự phòng.
+  chuoichientv: [
+    `${String(process.env.CHUOICHIENTV_PLAYER_DOMAIN || 'https://fhd-01.cctvsignal.xyz').replace(/\/+$/, '')}/`,
+    'https://live05.chuoichientv.me/',
+    'https://chuoichientv.link/',
+    null
+  ],
   giovang: [process.env.GIOVANG_DOMAIN || 'https://giovang.city', null],
   khandaitv: [process.env.KHANDAITV_DOMAIN || process.env.KHANDAITV_BASE_URL || 'https://khandai3.link', null],
   phalang: ['https://phalang.live', 'https://phalang.live/', null],
