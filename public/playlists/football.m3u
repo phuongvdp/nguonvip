@@ -1,9 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:12:53 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:15:12 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (21 trận), Chuối Chiên (18 trận), Phá Làng (22 trận), Gà Vàng (8 trận), Sao Kê (24 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (21 trận), Chuối Chiên (18 trận), Phá Làng (22 trận), Gà Vàng (17 trận), Sao Kê (24 trận) =====
 
 # ----- Ngày 2026-09-26 -----
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/006ce259b33ef72dd5570cfa8dc39f38.png" group-title="Gà Vàng" , 26/09 01:30 🟢 ⚽ Girona vs Albacete (Cá MậP)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a0c7c4b1ae4d6db02433c48.m3u8
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/hungary.png" group-title="Giờ Vàng" , 26/09 01:45 🟢 ⚽ Hungary vs Ukraine (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -93,6 +98,36 @@ https://lilive1.eu.cc/live/ea88aa68c0b1cb15f77d8ce9683c2091/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/d69e34f025e89c35b67a186d51f68467/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a175df50667b42ef97dcb52a9a8b1c1a.png" group-title="Gà Vàng" , 26/09 01:45 🟢 ⚽ Turkiye vs France (SAITAMA)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/775bc655c77d679c193f1982dac04668.png" group-title="Gà Vàng" , 26/09 01:45 🟢 ⚽ Italy vs Belgium (CRIS)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/9866b8a83d35abdd89ed76d565d71f75.png" group-title="Gà Vàng" , 26/09 01:45 🟢 ⚽ Montenegro vs Cyprus (khang hi)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a7c0d8f65997681f18cacc4.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/22b55de76e6a8c7258e4661e8343ff3e.png" group-title="Gà Vàng" , 26/09 01:45 🟢 ⚽ Hungary vs Ukraine (NGƯỜI KIẾN)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a439a7fb89dded67b208b87.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/1f47cef5e38c952f94c5d61726027439.png" group-title="Gà Vàng" , 26/09 01:45 🟢 ⚽ Poland vs Bosnia Herzegovina (THICHDUTHU)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a704ad865997681f18c2160.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/2c0b283b96174c34bff7445f22b00618.png" group-title="Gà Vàng" , 26/09 01:45 🟢 ⚽ Sweden vs Romania (RIO)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a01a2511e8555d7a3685f5c.m3u8
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8204.png" group-title="Sao Kê" , 26/09 01:45 🟢 ⚽ Italy vs Belgium (Cà Rốt)
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -152,6 +187,16 @@ https://lilive1.eu.cc/live/af98f58b9bf20f8ed2b529b2a1961480/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f31ddd679d7c453f8438244437b8f51f.png" group-title="Phá Làng" , 26/09 02:00 🟢 ⚽ Egypt - Angola (Server 1)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/901e6964926f989424265ae021037cfd/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/42ddc6d9645829e67371e6433c0c45c2.png" group-title="Gà Vàng" , 26/09 02:00 🟢 ⚽ Dordrecht vs Almere City FC (MáN NúI)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69cf6331585c5992182f4160.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/85a768d7c6a14d51b24bcb19c280b4c6.png" group-title="Gà Vàng" , 26/09 02:00 🟢 ⚽ Morocco vs Gabon (A Long)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69ef10b47146e04fbe6d4363.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6262.png" group-title="Sao Kê" , 26/09 02:00 🟢 ⚽ Morocco vs Gabon (Quang Huy)
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
