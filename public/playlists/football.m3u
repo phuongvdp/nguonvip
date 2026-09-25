@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:15:32 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:17:48 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (16 trận), Chuối Chiên (18 trận), Phá Làng (35 trận), Gà Vàng (13 trận), Sao Kê (24 trận) =====
 
@@ -89,20 +89,30 @@ https://eqr2hdarxfliv.vcdn.cloud/1790321441_hd/1790321441_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790321580_hd/1790321580_hd@720p.m3u8
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_Japan_K75eDYE.svg.webp" group-title="Khán Đài" , 25/09 17:30 🟢 ⚽ Japan W vs Philippines W (Pháo Thủ)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_607.jpg" group-title="Khán Đài" , 25/09 17:30 🟢 ⚽ South Korea W vs Uzbekistan W (Kền Kền)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images_8kF19fZ.jpg" group-title="Khán Đài" , 25/09 17:30 🟢 ⚽ South Korea U23 vs Vietnam U23 (Tày)
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Chuối Chiên" , 25/09 17:30 🟢 ⚽ U23 Hàn Quốc  vs U23 Vietnam  (Chuối Ngao (HD))
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoingao/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133018_f7c8e720.png" group-title="Chuối Chiên" , 25/09 17:30 🟢 ⚽ Japan W vs Philippines W (Chuối To (HD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Chuối Chiên" , 25/09 17:30 🟢 ⚽ U23 Hàn Quốc  vs U23 Vietnam  (Chuối Ngao (HD))
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://gckc0525.edgemaxcdn.org/live/chuoingao/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/41fcd04dcd049309ad05bca33ea46883.png" group-title="Phá Làng" , 25/09 17:30 🟢 ⚽ Japan Women - Philippines Women (LÝ LÀNG LÁ)
 #EXTVLCOPT:http-referrer=https://phalang.live
@@ -128,12 +138,6 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/tit/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/mo/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_Japan_K75eDYE.svg.webp" group-title="Khán Đài" , 25/09 17:30 🟡 ⚽ Japan W vs Philippines W (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/japan-w-vs-philippines-w-25-09-2026-858235
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_607.jpg" group-title="Khán Đài" , 25/09 17:30 🟡 ⚽ South Korea W vs Uzbekistan W (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/south-korea-w-vs-uzbekistan-w-25-09-2026-858236
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3fcd619b384dbbd8b4c3af19f622fc7f.png" group-title="Phá Làng" , 25/09 17:30 🟡 ⚽ FC Zurich - Neuchatel Xamax (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#965mkyh8l50pr1g
