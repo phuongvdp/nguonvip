@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 11:49:31 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 11:51:51 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (19 trận), Chuối Chiên (20 trận), Phá Làng (40 trận), Gà Vàng (31 trận), Sao Kê (23 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (19 trận), Chuối Chiên (20 trận), Phá Làng (40 trận), Gà Vàng (30 trận), Sao Kê (23 trận) =====
 
 # ----- Ngày 2026-09-25 -----
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/2d7f3f6e23f7cb31f2209ab8cc8f47a4.png" group-title="Gà Vàng" , 25/09 09:00 🟢 ⚽ Costa Rica vs Curacao (SiêU QuậY)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/6a2a59b347bbddd62a8dc4e4.m3u8
-
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/58MDezoOT1DAkMexRNiW3w_96x96.png" group-title="Giờ Vàng" , 25/09 09:10 🟢 ⚽ Los Angeles Dodgers vs San Diego Padres (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -29,6 +24,11 @@ https://eqr2hdarxfliv.vcdn.cloud/1790306911_hd/1790306911_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790295929_hd/1790295929_hd@720p.m3u8
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646.png" group-title="Khán Đài" , 25/09 12:00 🟢 ⚽ Uzbekistan U23 vs Saudi Arabia U23 (Tiểu Mây)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131446_7bd3d526.png" group-title="Chuối Chiên" , 25/09 12:00 🟢 ⚽ Uzbekistan U23 vs Saudi Arabia U23 (Chuối To (HD))
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -43,9 +43,6 @@ https://pull.digitalcdn.net/live/3da59b3d51d3456f875050b59ab14b65/index.m3u8
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/tit/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646.png" group-title="Khán Đài" , 25/09 12:00 🟡 ⚽ Uzbekistan U23 vs Saudi Arabia U23 (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/uzbekistan-u23-vs-saudi-arabia-u23-25-09-2026-858280
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/4e7245e77764a6d4d68a69bd2f4c2035.png" group-title="Gà Vàng" , 25/09 12:00 🟡 ⚽ Uzbekistan U23 vs Saudi Arabia U23 (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/truc-tiep/uzbekistan-u23-vs-saudi-arabia-u23-ngay-25-09-2026/
