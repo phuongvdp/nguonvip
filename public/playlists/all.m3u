@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:31:09 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:33:24 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (16 trận), Chuối Chiên (20 trận), Phá Làng (28 trận), Gà Vàng (23 trận), Sao Kê (21 trận) =====
 
@@ -74,13 +74,15 @@ https://lilive1.eu.cc/live/274caea8f4989d4818e3511cf5406934/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/cucai/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/india.png" group-title="Giờ Vàng" , 25/09 21:00 🟢 ⚽ Ấn Độ vs Panama (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790319240_hd/1790319240_hd@720p.m3u8
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/9fcc2914ac67968fa146000722f1d991.png" group-title="Phá Làng" , 25/09 21:00 🟢 ⚽ India - Panama (LÝ LINH LỰC)
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/e377ccb5f2d5ae556139713241c020e1/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/india.png" group-title="Giờ Vàng" , 25/09 21:00 🟡 ⚽ Ấn Độ vs Panama (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-an-do-vs-panama-25-09-6aaf23424e725bdee905b840
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Chuối Chiên" , 25/09 21:00 🟡 ⚽ India vs Panama (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1637600/india-vs-panama
