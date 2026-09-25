@@ -1,11 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 11:42:35 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 11:44:51 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (40 trận) =====
 
 # ----- Ngày 2026-09-25 -----
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/1dd0de5130ea63107abb29665d15e9fb.png" group-title="Phá Làng" , 25/09 12:00 🟡 ⚽ Uzbekistan U23 - Saudi Arabia U23 (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#l7oqdehjyd9nr51
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/1dd0de5130ea63107abb29665d15e9fb.png" group-title="Phá Làng" , 25/09 12:00 🟢 ⚽ Uzbekistan U23 - Saudi Arabia U23 (LÝ LONG (Server 1))
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://pull.digitalcdn.net/live/3da59b3d51d3456f875050b59ab14b65/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/654baedfc71d1f2d9fa0c348d9ff8f6b.png" group-title="Phá Làng" , 25/09 13:00 ⚽ China Women - Vietnam Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l5ergphk05kjr8k
