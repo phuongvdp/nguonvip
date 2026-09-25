@@ -1,19 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:09:46 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:13:19 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (6 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (4 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/cd0ec9035e74c703a7e3128db75fdc65.png" group-title="Gà Vàng" , 25/09 22:00 🟢 ⚽ Niger vs Lesotho (ĐOÀN DỰ)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a5df755b89dded67b39b8bc.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/3044b631b724ae9fd93312b6989ae9cc.png" group-title="Gà Vàng" , 25/09 23:30 🟡 🏀 SKB perodonzlin vs Vysoka Nad Labem (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/895c89e38f264b6cac701c87cd3e2319.png" group-title="Gà Vàng" , 25/09 23:30 🟡 🏀 Lokomotiva Trutnov Women vs Slovanka Women (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/89aedb476d2e17575a159bfdca4886e3.png" group-title="Gà Vàng" , 26/09 00:00 🟡 🏀 Besiktas GAIN vs Valencia (Chưa có link — chờ cập nhật)
