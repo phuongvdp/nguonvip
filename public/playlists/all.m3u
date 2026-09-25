@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:07:46 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:10:03 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (18 trận), Chuối Chiên (20 trận), Phá Làng (37 trận), Gà Vàng (26 trận), Sao Kê (24 trận) =====
 
@@ -39,11 +39,15 @@ https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/978b054489aaac1e5ed69472f08724b3/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/fd1ef26f7174d02a5a30dbe9e69b45f9.png" group-title="Giờ Vàng" , 25/09 16:30 🟡 🏀 Brisbane Bullets vs Illawarra Hawks (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-brisbane-bullets-vs-illawarra-hawks-25-09-11222276
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/fd1ef26f7174d02a5a30dbe9e69b45f9.png" group-title="Giờ Vàng" , 25/09 16:30 🟢 🏀 Brisbane Bullets vs Illawarra Hawks (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790322732_hd/1790322732_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/W2K5SGfM-h05QSROl.png" group-title="Giờ Vàng" , 25/09 16:30 🟡 ⚽ Hàn Quốc vs Nhật Bản (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-han-quoc-vs-nhat-ban-25-09-2u9kwtmoasr0
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/W2K5SGfM-h05QSROl.png" group-title="Giờ Vàng" , 25/09 16:30 🟢 ⚽ Hàn Quốc vs Nhật Bản (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790322895_hd/1790322895_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/07668fe49f8fec6832919e14449eb340.png" group-title="Phá Làng" , 25/09 16:30 🟡 ⚽ Mohammedan SC - Minerva Punjab (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#k82rekh2zn02rep
