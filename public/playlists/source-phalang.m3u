@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:49:51 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:52:11 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (28 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (27 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f68325b460e254099c207bd6622e14b1.png" group-title="Phá Làng" , 25/09 20:00 🟢 ⚽ Mozambique - Senegal (Server 1)
@@ -13,11 +13,6 @@ https://lilive1.eu.cc/live/2fbe70083f33938689c50274e0c39f23/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/b499e18bce2167fda8c226f4edf58288/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ce6bc7dedeb9857217dfc72e23edd797.png" group-title="Phá Làng" , 25/09 20:00 🟢 ⚽ Tanzania - Guinea Bissau (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/274caea8f4989d4818e3511cf5406934/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/9fcc2914ac67968fa146000722f1d991.png" group-title="Phá Làng" , 25/09 21:00 🟢 ⚽ India - Panama (LÝ LINH LỰC)
 #EXTVLCOPT:http-referrer=https://phalang.live
