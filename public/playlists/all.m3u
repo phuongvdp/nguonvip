@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:02:24 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 09:04:21 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (19 trận), Chuối Chiên (20 trận), Phá Làng (26 trận), Gà Vàng (23 trận), Sao Kê (25 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (19 trận), Chuối Chiên (20 trận), Phá Làng (26 trận), Gà Vàng (24 trận), Sao Kê (25 trận) =====
 
 # ----- Ngày 2026-09-25 -----
-#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 25/09 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
-
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/df5084b6a0e471356f94c0d460105072.png" group-title="Giờ Vàng" , 25/09 07:00 🟢 🏀 Minnesota Lynx vs Indiana Fever (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -28,6 +23,11 @@ https://playback.livetl002.com/live/69b8e6f43bcf2231c35d5144.m3u8
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/tit/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/96f56d32d59119eb9bf3cab69e9a19f8.png" group-title="Gà Vàng" , 25/09 08:00 🟢 ⚽ Alebrijes de Oaxaca vs Atletico La Paz (cố tư nghiêm)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69a1aaa7230584579e2d5ce1.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/452823.png" group-title="Sao Kê" , 25/09 08:00 🟢 ⚽ Alebrijes Oaxaca vs Atlético La Paz (Củ Cải)
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
