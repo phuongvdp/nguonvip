@@ -1,18 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:26:47 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:29:06 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (18 trận), Chuối Chiên (20 trận), Phá Làng (39 trận), Gà Vàng (27 trận), Sao Kê (24 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (17 trận), Chuối Chiên (20 trận), Phá Làng (39 trận), Gà Vàng (27 trận), Sao Kê (24 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IUYV_ZAMxDdabQPzSpTJtg_96x96.png" group-title="Giờ Vàng" , 25/09 13:00 🟢 ⚽ ĐT nữ Việt Nam vs ĐT nữ Trung Quốc (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790263925_hd/1790263925_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_599.jpg" group-title="Khán Đài" , 25/09 13:00 🟢 ⚽ China W vs Vietnam W (Tày)
-#EXTVLCOPT:http-referrer=https://khandai3.link
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142845_d31bb816.png" group-title="Chuối Chiên" , 25/09 13:00 🟢 ⚽ China W vs Vietnam W (Chuối Tây (HD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
