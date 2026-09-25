@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:59:13 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:01:34 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (16 trận), Chuối Chiên (20 trận), Phá Làng (27 trận), Gà Vàng (21 trận), Sao Kê (22 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (17 trận), Chuối Chiên (20 trận), Phá Làng (26 trận), Gà Vàng (18 trận), Sao Kê (21 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://cdn.onefc.com/wp-content/uploads/2026/09/PanpayakJitmuangnon-LamnamoonlekTorfunfarm-Faceoff-TheInnerCircle32-768x512.jpg" group-title="Giờ Vàng" , 25/09 18:30 🟢 ⚽ ONE Friday Fights 172 vs The Inner Circle 32 (Giovang 1)
@@ -19,21 +19,6 @@ https://eqr2hdarxfliv.vcdn.cloud/1790323080_hd/1790323080_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 25/09 20:00 🟢 ⚽ Indonesia vs Singapore (Trốc Tru (HD))
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f68325b460e254099c207bd6622e14b1.png" group-title="Phá Làng" , 25/09 20:00 🟢 ⚽ Mozambique - Senegal (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/2fbe70083f33938689c50274e0c39f23/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/0c131dfdaef74b5d6b14cb281d11c608.png" group-title="Phá Làng" , 25/09 20:00 🟢 ⚽ Indonesia - Singapore (LÝ LONG)
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/b499e18bce2167fda8c226f4edf58288/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/0ebcdb06cf4d039f0d08b356c26bc466.png" group-title="Gà Vàng" , 25/09 20:00 🟢 ⚽ Tanzania vs Guinea Bissau (THICHDUTHU)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -43,11 +28,6 @@ https://playback.livetl002.com/live/6a704ad865997681f18c2160.m3u8
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a9776215126529dede9bf51.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6324.png" group-title="Sao Kê" , 25/09 20:00 🟢 ⚽ Indonesia vs Singapore (Củ Cải)
-#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://stm6dad62063600.stream.hdplaylink.com/sklive/cucai/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/india.png" group-title="Giờ Vàng" , 25/09 21:00 🟢 ⚽ Ấn Độ vs Panama (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
@@ -104,15 +84,6 @@ https://pull.digitalcdn.net/live/42301df996014512b0e02b36ce1ecda2/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/5b63c645b05a0dee8ff88466d1515127/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/cd0ec9035e74c703a7e3128db75fdc65.png" group-title="Gà Vàng" , 25/09 22:00 🟡 ⚽ Niger vs Lesotho (Chưa có link — chờ cập nhật)
-https://gavanglinkq.tv/truc-tiep/niger-vs-lesotho-ngay-25-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/1aa2a0ecf0bcffe907171b69046b3ee7.png" group-title="Gà Vàng" , 25/09 22:00 🟡 🏀 Maputo Railway vs Costa Do Sol (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/b60374e3eb7d87f037978fb16b9b888d.png" group-title="Gà Vàng" , 25/09 22:00 🟡 🏀 BOTEV 2012 vs CSKA Sofia (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/finland-u21.png" group-title="Giờ Vàng" , 25/09 22:30 🟡 ⚽ U21 Phần Lan vs U21 Tây Ban Nha (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-u21-phan-lan-vs-u21-tay-ban-nha-25-09-683b98524bc32556c6027421
 
@@ -134,73 +105,73 @@ https://gavanglinkp.tv/
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/186649fdf2aeaae45ad350a0973a7588.png" group-title="Gà Vàng" , 25/09 22:30 🟡 🏀 Proteas EKA AEL vs Apollon Limassol B.C. (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/armenia.png" group-title="Giờ Vàng" , 25/09 23:00 ⚽ Armenia vs Latvia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/armenia.png" group-title="Giờ Vàng" , 25/09 23:00 🟡 ⚽ Armenia vs Latvia (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-armenia-vs-latvia-25-09-69f695d673ba0b335e0f2ed5
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/nigeria.png" group-title="Giờ Vàng" , 25/09 23:00 ⚽ Nigeria vs Madagascar (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/nigeria.png" group-title="Giờ Vàng" , 25/09 23:00 🟡 ⚽ Nigeria vs Madagascar (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-nigeria-vs-madagascar-25-09-6a387d79153ee8455e05573b
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/sudan.png" group-title="Giờ Vàng" , 25/09 23:00 ⚽ Sudan vs Ethiopia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/sudan.png" group-title="Giờ Vàng" , 25/09 23:00 🟡 ⚽ Sudan vs Ethiopia (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-sudan-vs-ethiopia-25-09-6a387d79153ee8455e05572b
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_680.jpg" group-title="Khán Đài" , 25/09 23:00 ⚽ Georgia vs Northern Ireland (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_680.jpg" group-title="Khán Đài" , 25/09 23:00 🟡 ⚽ Georgia vs Northern Ireland (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/georgia-vs-northern-ireland-25-09-2026-790826
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_703.jpg" group-title="Khán Đài" , 25/09 23:00 ⚽ Armenia vs Latvia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_703.jpg" group-title="Khán Đài" , 25/09 23:00 🟡 ⚽ Armenia vs Latvia (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/armenia-vs-latvia-25-09-2026-790920
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134254_e0b3eb39.png" group-title="Chuối Chiên" , 25/09 23:00 ⚽ Armenia vs Latvia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134254_e0b3eb39.png" group-title="Chuối Chiên" , 25/09 23:00 🟡 ⚽ Armenia vs Latvia (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1545602/armenia-vs-latvia
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/87cc70b2721504955d3c83326635502f.png" group-title="Phá Làng" , 25/09 23:00 ⚽ Rwanda - Liberia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/87cc70b2721504955d3c83326635502f.png" group-title="Phá Làng" , 25/09 23:00 🟡 ⚽ Rwanda - Liberia (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66hxlejoqo9
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f8eb0eb1367892b2327b6584f57a1516.png" group-title="Phá Làng" , 25/09 23:00 ⚽ Armenia - Latvia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f8eb0eb1367892b2327b6584f57a1516.png" group-title="Phá Làng" , 25/09 23:00 🟡 ⚽ Armenia - Latvia (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4wyrn4h6yp2lq86
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6c537f51c1fb74f1b452da4ed05ad48d.png" group-title="Phá Làng" , 25/09 23:00 ⚽ Nigeria - Madagascar (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6c537f51c1fb74f1b452da4ed05ad48d.png" group-title="Phá Làng" , 25/09 23:00 🟡 ⚽ Nigeria - Madagascar (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#dj2ryohl8ondq1z
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/aa956d426f71b6b79e324b9eefb94286.png" group-title="Phá Làng" , 25/09 23:00 ⚽ Georgia - Northern Ireland (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/aa956d426f71b6b79e324b9eefb94286.png" group-title="Phá Làng" , 25/09 23:00 🟡 ⚽ Georgia - Northern Ireland (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#dn1m1ghl9y77moe
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e744f91c29ec99f0e662c9177946c627.bmp" group-title="Phá Làng" , 25/09 23:00 ⚽ Malawi - South Sudan (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e744f91c29ec99f0e662c9177946c627.bmp" group-title="Phá Làng" , 25/09 23:00 🟡 ⚽ Malawi - South Sudan (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#jw2r09hk8zwwrz8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/959791ae0fc8306e4894ddc11dc11501.png" group-title="Phá Làng" , 25/09 23:00 ⚽ Gambia - Somalia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/959791ae0fc8306e4894ddc11dc11501.png" group-title="Phá Làng" , 25/09 23:00 🟡 ⚽ Gambia - Somalia (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l5ergph4g1ner8k
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6b7ef643dcd8ae9a880bc48924e0e4ba.png" group-title="Phá Làng" , 25/09 23:00 ⚽ Togo - Burundi (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6b7ef643dcd8ae9a880bc48924e0e4ba.png" group-title="Phá Làng" , 25/09 23:00 🟡 ⚽ Togo - Burundi (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l7oqdehg7pl1r51
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/c5b86fa907b96e38e377ddfe82802cc6.png" group-title="Gà Vàng" , 25/09 23:00 ⚽ Georgia vs Northern Ireland (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/c5b86fa907b96e38e377ddfe82802cc6.png" group-title="Gà Vàng" , 25/09 23:00 🟡 ⚽ Georgia vs Northern Ireland (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/georgia-vs-northern-ireland-ngay-25-09-2026/
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/13d8532225dea4fca8e0ebdfb27b83e4.png" group-title="Gà Vàng" , 25/09 23:00 ⚽ Armenia vs Latvia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/13d8532225dea4fca8e0ebdfb27b83e4.png" group-title="Gà Vàng" , 25/09 23:00 🟡 ⚽ Armenia vs Latvia (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/armenia-vs-latvia-ngay-25-09-2026/
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/7967d550a306a50276991b19ddb4d72e.png" group-title="Gà Vàng" , 25/09 23:00 ⚽ Nigeria vs Madagascar (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/7967d550a306a50276991b19ddb4d72e.png" group-title="Gà Vàng" , 25/09 23:00 🟡 ⚽ Nigeria vs Madagascar (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/nigeria-vs-madagascar-ngay-25-09-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/85aa862ac73010809837c0a70c45a672.png" group-title="Gà Vàng" , 25/09 23:00 🏀 Tofas Spor Kulübü vs Bordo BK (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/85aa862ac73010809837c0a70c45a672.png" group-title="Gà Vàng" , 25/09 23:00 🟡 🏀 Tofas Spor Kulübü vs Bordo BK (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/d64055c54b470c0a8208a1c41d478205.jpg" group-title="Gà Vàng" , 25/09 23:00 🏀 Valmiera vs BK Ventspils (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/d64055c54b470c0a8208a1c41d478205.jpg" group-title="Gà Vàng" , 25/09 23:00 🟡 🏀 Valmiera vs BK Ventspils (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/9fd500fcb7b33a0542f038f0d63d8f1a.png" group-title="Gà Vàng" , 25/09 23:00 🏀 Brandys nad Labem Women vs ZVVZ USK Prague Women (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/9fd500fcb7b33a0542f038f0d63d8f1a.png" group-title="Gà Vàng" , 25/09 23:00 🟡 🏀 Brandys nad Labem Women vs ZVVZ USK Prague Women (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/526f5f4d07a143e892b2f971d647a369.png" group-title="Gà Vàng" , 25/09 23:00 🏀 Siden Torun vs Asseco Arka Gdynia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/526f5f4d07a143e892b2f971d647a369.png" group-title="Gà Vàng" , 25/09 23:00 🟡 🏀 Siden Torun vs Asseco Arka Gdynia (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/05608ba62488c8f2d5d4f1fcb742c361.jpg" group-title="Gà Vàng" , 25/09 23:00 🏀 Kadrina Karud vs Hepa Rapla (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/05608ba62488c8f2d5d4f1fcb742c361.jpg" group-title="Gà Vàng" , 25/09 23:00 🟡 🏀 Kadrina Karud vs Hepa Rapla (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8268.png" group-title="Sao Kê" , 25/09 23:00 ⚽ Georgia vs Northern Ireland (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8268.png" group-title="Sao Kê" , 25/09 23:00 🟡 ⚽ Georgia vs Northern Ireland (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/georgia-vs-northern-ireland-6ab53656552ae1acb6b6467c.html
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6583.png" group-title="Sao Kê" , 25/09 23:00 ⚽ Armenia vs Latvia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6583.png" group-title="Sao Kê" , 25/09 23:00 🟡 ⚽ Armenia vs Latvia (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/armenia-vs-latvia-6ab53656552ae1acb6b64680.html
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/GdTU14e5-U9rBY3Yf.png" group-title="Giờ Vàng" , 25/09 23:59 🏀 Besiktas vs Valencia (Chưa có link — chờ cập nhật)
@@ -381,10 +352,13 @@ https://vip3.saoketv40.xyz/renofa-yamaguchi-vs-sc-sagamihara-6ab5c810a98792e63a6
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134337_d547f1b2.png" group-title="Chuối Chiên" , 26/09 13:00 ⚽ China PR U23 vs U23 Thailand  (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641726/china-pr-u23-vs-u23-thailand
 
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/bbbfae3d9a5920f2da3b716cd2f54f94.png" group-title="Phá Làng" , 26/09 13:00 ⚽ China U23 - Thailand U23 (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#y0or5jh9xj25qwz
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/317240.png" group-title="Sao Kê" , 26/09 13:00 ⚽ China U23 vs Thailand U23 (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/china-u23-vs-thailand-u23-6ab5c810a98792e63a6feb0d.html
 
-#EXTINF:-1 group-title="Khán Đài" , 26/09 16:00 ⚽ Pakistan vs Thái Lan (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images_t97Qc0H.png" group-title="Khán Đài" , 26/09 16:00 ⚽ Pakistan vs Thái Lan (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/pakistan-vs-thai-lan
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135226_b632be79.png" group-title="Chuối Chiên" , 26/09 16:00 ⚽ Pakistan vs Thailand (Chưa có link — chờ cập nhật)
@@ -411,6 +385,9 @@ https://vip3.saoketv40.xyz/vietnam-vs-philippines-6ab5c810a98792e63a6feb0c.html
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_696.jpg" group-title="Khán Đài" , 26/09 20:00 ⚽ Slovenia vs Scotland (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/slovenia-vs-scotland-26-09-2026-790830
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125505_e3391af2.png" group-title="Chuối Chiên" , 26/09 20:00 ⚽ Slovenia vs Scotland (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1545658/slovenia-vs-scotland
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5787.png" group-title="Sao Kê" , 26/09 20:00 ⚽ Slovenia vs Scotland (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/slovenia-vs-scotland-6ab5c810a98792e63a6feb01.html
 
@@ -419,3 +396,6 @@ https://vip3.saoketv40.xyz/south-africa-vs-guinea-6ab5c810a98792e63a6feb09.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1225382.png" group-title="Sao Kê" , 26/09 21:00 ⚽ FC Järfälla vs AFC Eskilstuna (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/fc-jarfalla-vs-afc-eskilstuna-6ab5c810a98792e63a6feb00.html
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/download_ky44Uf7.png" group-title="Khán Đài" , 26/09 22:00 ⚽ Kuwait vs Iraq (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/kuwait-vs-iraq-26-09-2026-857453
