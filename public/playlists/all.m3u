@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:13:42 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:16:01 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (26 trận), Khán Đài (19 trận), Chuối Chiên (20 trận), Phá Làng (25 trận), Gà Vàng (28 trận), Sao Kê (25 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (26 trận), Khán Đài (19 trận), Chuối Chiên (20 trận), Phá Làng (25 trận), Gà Vàng (26 trận), Sao Kê (25 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/e4fdbc941d11c2927bafb5b8978e8ea6.png" group-title="Giờ Vàng" , 25/09 06:30 🟢 🏀 Washington Mystics vs Chicago Sky (Giovang 1)
@@ -54,23 +54,19 @@ https://eqr2hdarxfliv.vcdn.cloud/1790296707_hd/1790296707_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/cucai/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/27571c52bd71cea816ee3d5111dca267.png" group-title="Gà Vàng" , 25/09 08:15 🟡 🏀 San Salvador BC vs Aguilar basketball team (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/f98516b0b37244c7ad087b47e96f33d9.png" group-title="Gà Vàng" , 25/09 08:15 🟡 🏀 Isidro Metapan vs Brujos Izalco (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/479290b679ce43f09b3efa8bb110522b.png" group-title="Gà Vàng" , 25/09 08:30 🟡 🏀 LM Monsenor Romero Women (Mayor) vs Ahuachapan Women (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/M72YWCeM-KfXjzrxU.png" group-title="Giờ Vàng" , 25/09 09:00 🟢 ⚽ Costa Rica vs Curacao (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790263527_hd/1790263527_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/f35ccb51f91cd187f149d4d55fc6be24.png" group-title="Giờ Vàng" , 25/09 09:00 🟡 🏀 Phoenix Mercury vs Las Vegas Aces (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-phoenix-mercury-vs-las-vegas-aces-25-09-20625070
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/32f21070cfd05affb7125a707c2b3b37.png" group-title="Giờ Vàng" , 25/09 09:00 🟡 🏀 Los Angeles Sparks vs Golden State Valkyries (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-los-angeles-sparks-vs-golden-state-valkyries-25-09-29525078
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/M72YWCeM-KfXjzrxU.png" group-title="Giờ Vàng" , 25/09 09:00 🟡 ⚽ Costa Rica vs Curacao (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-costa-rica-vs-curacao-25-09-8xpv9qjp25c1
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132739_80ee8c4e.png" group-title="Chuối Chiên" , 25/09 09:00 🟡 ⚽ Costa Rica vs Curaçao (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1639937/costa-rica-vs-curacao
