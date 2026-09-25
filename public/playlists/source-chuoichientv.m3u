@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:59:46 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:02:02 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (20 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142845_d31bb816.png" group-title="Chuối Chiên" , 25/09 13:00 🟢 ⚽ China W vs Vietnam W (Chuối Tây (HD))
@@ -9,7 +9,7 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134314_49a46639.png" group-title="Chuối Chiên" , 25/09 15:00 ⚽ Bangladesh vs Malaysia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134314_49a46639.png" group-title="Chuối Chiên" , 25/09 15:00 🟡 ⚽ Bangladesh vs Malaysia (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641702/bangladesh-vs-malaysia
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134250_2a12c2b6.png" group-title="Chuối Chiên" , 25/09 17:00 ⚽ Australia vs Brazil (Chưa có link — chờ cập nhật)
@@ -63,3 +63,6 @@ https://live05.chuoichientv.me/live/1545818/egypt-vs-angola
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132757_56274e6a.png" group-title="Chuối Chiên" , 26/09 02:00 ⚽ Morocco vs Gabon (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1545826/morocco-vs-gabon
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Chuối Chiên" , 26/09 02:00 🏐 Finland vs France (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/997848/finland-vs-france

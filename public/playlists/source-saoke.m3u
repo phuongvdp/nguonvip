@@ -1,20 +1,15 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:59:46 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:02:02 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (25 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (24 trận) =====
 
 # ----- Ngày 2026-09-25 -----
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/613636.png" group-title="Sao Kê" , 25/09 12:00 🟢 ⚽ Uzbekistan U23 vs Saudi Arabia U23 (Tít)
-#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://stm6dad62063600.stream.hdplaylink.com/sklive/tit/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/dYBFA1me-nNtI3CTL.png" group-title="Sao Kê" , 25/09 13:00 🟢 ⚽ China W vs Vietnam W (Ricky)
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/ricky/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/95797.png" group-title="Sao Kê" , 25/09 15:00 ⚽ Bangladesh vs Malaysia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/95797.png" group-title="Sao Kê" , 25/09 15:00 🟡 ⚽ Bangladesh vs Malaysia (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/bangladesh-vs-malaysia-6ab5352fc42f6f76b675b732.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6716.png" group-title="Sao Kê" , 25/09 17:00 ⚽ Australia vs Brazil (Chưa có link — chờ cập nhật)
