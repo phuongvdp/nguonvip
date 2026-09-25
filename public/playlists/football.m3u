@@ -1,19 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:08:27 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:10:43 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (17 trận), Chuối Chiên (20 trận), Phá Làng (27 trận), Gà Vàng (18 trận), Sao Kê (24 trận) =====
 
 # ----- Ngày 2026-09-25 -----
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/4ee24366d09a9239bb2c4207a5008111.png" group-title="Gà Vàng" , 25/09 07:30 🟢 ⚽ Atletico Nacional Medellin vs Millonarios (KAYTI)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69b8e6f43bcf2231c35d5144.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/96f56d32d59119eb9bf3cab69e9a19f8.png" group-title="Gà Vàng" , 25/09 08:00 🟢 ⚽ Alebrijes de Oaxaca vs Atletico La Paz (cố tư nghiêm)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69a1aaa7230584579e2d5ce1.m3u8
-
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/M72YWCeM-KfXjzrxU.png" group-title="Giờ Vàng" , 25/09 09:00 🟢 ⚽ Costa Rica vs Curacao (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -23,6 +13,11 @@ https://eqr2hdarxfliv.vcdn.cloud/1790263527_hd/1790263527_hd@720p.m3u8
 #EXTVLCOPT:http-referrer=https://live05.chuoichientv.me/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/2d7f3f6e23f7cb31f2209ab8cc8f47a4.png" group-title="Gà Vàng" , 25/09 09:00 🟢 ⚽ Costa Rica vs Curacao (SiêU QuậY)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a2a59b347bbddd62a8dc4e4.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6705.png" group-title="Sao Kê" , 25/09 09:00 🟢 ⚽ Costa Rica vs Curacao (Quang Huy)
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
@@ -136,6 +131,9 @@ https://phalang.live/trang-chu#jw2r09h547g4rz8
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/c44bc96860338d531a5b0a78d335d7a7.png" group-title="Gà Vàng" , 25/09 17:30 ⚽ South Korea(w) vs Uzbekistan(w) (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/truc-tiep/south-korea-women-vs-uzbekistan-women-ngay-25-09-2026/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/871d73474b2d6b307fe3862403e9c77d.png" group-title="Gà Vàng" , 25/09 17:30 ⚽ Japan(w) vs Philippines(w) (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/truc-tiep/japan-women-vs-philippines-women-ngay-25-09-2026/
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/6581bc34692022be4c21d98778e33df0.png" group-title="Gà Vàng" , 25/09 17:30 ⚽ Korea U23 vs Vietnam U23 (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/truc-tiep/south-korea-u23-vs-vietnam-u23-ngay-25-09-2026/
