@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:59:28 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:06:22 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (20 trận) =====
 
 # ----- Ngày 2026-09-25 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Chuối Chiên" , 25/09 21:00 🟢 ⚽ India vs Panama (Chuối Nhỏ (HD))
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_143111_f0cb8ab0.png" group-title="Chuối Chiên" , 25/09 22:00 🟢 🏐 Slovakia W vs Poland (Chuối Kem (HD))
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -70,3 +65,6 @@ https://live05.chuoichientv.me/live/1641705/viet-nam-vs-philippines
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125505_e3391af2.png" group-title="Chuối Chiên" , 26/09 20:00 ⚽ Slovenia vs Scotland (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1545658/slovenia-vs-scotland
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132805_2c5424f2.png" group-title="Chuối Chiên" , 26/09 20:00 ⚽ South Africa vs Guinea (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1545833/south-africa-vs-guinea
