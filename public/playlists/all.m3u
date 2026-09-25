@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:01:34 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:03:55 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (19 trận), Chuối Chiên (20 trận), Phá Làng (40 trận), Gà Vàng (29 trận), Sao Kê (25 trận) =====
 
@@ -33,6 +33,11 @@ https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/e74fd7409fb9a11abd73c2447bcd736f/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/4e7245e77764a6d4d68a69bd2f4c2035.png" group-title="Gà Vàng" , 25/09 12:00 🟢 ⚽ Uzbekistan U23 vs Saudi Arabia U23 (GIàng A Dân)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a5b13ceb36a14387baeddaa.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/613636.png" group-title="Sao Kê" , 25/09 12:00 🟢 ⚽ Uzbekistan U23 vs Saudi Arabia U23 (Tít)
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
@@ -72,10 +77,10 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/ricky/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/80f4ac7926dcf255ec6d32d271755d1a.png" group-title="Giờ Vàng" , 25/09 14:00 🟡 🏀 South Korea (W) vs China (w) (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-south-korea-w-vs-china-w-25-09-22490476
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/02dba767ce40ae7c6b9b7534c9d4898f.png" group-title="Gà Vàng" , 25/09 14:00 🟡 🏀 China Women vs South Korea Women (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/a71dfb203c8b4abf9731231a406a268e.png" group-title="Gà Vàng" , 25/09 14:00 🟡 🏀 Arellano University Chiefs vs UPHSD Altas (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/a71dfb203c8b4abf9731231a406a268e.png" group-title="Gà Vàng" , 25/09 14:00 🟡 🏀 Arellano University Chiefs vs UPHSD Altas (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/02dba767ce40ae7c6b9b7534c9d4898f.png" group-title="Gà Vàng" , 25/09 14:00 🟡 🏀 China Women vs South Korea Women (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/viUBkizB-KtOrDRPL.png" group-title="Giờ Vàng" , 25/09 14:30 🏀 Anyang JungKwanJang vs Suwon KT (Chưa có link — chờ cập nhật)
@@ -105,10 +110,10 @@ https://phalang.live/trang-chu#jw2r09h549v1rz8
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f00b6379b82a515a9478b6e58b783de9.png" group-title="Gà Vàng" , 25/09 16:00 ⚽ Bangladesh vs Malaysia (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/truc-tiep/bangladesh-vs-malaysia-ngay-25-09-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/17da94d1bafbd7481a9b0582dd6adb9d.png" group-title="Gà Vàng" , 25/09 16:00 🏀 PFC Pelicans vs CSB trailblazer (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/a2ae506e0753505f2c10f84ca993c73d.png" group-title="Gà Vàng" , 25/09 16:00 🏀 Valenzuela Classic vs Quezon City Galeries Taipan (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/a2ae506e0753505f2c10f84ca993c73d.png" group-title="Gà Vàng" , 25/09 16:00 🏀 Valenzuela Classic vs Quezon City Galeries Taipan (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/17da94d1bafbd7481a9b0582dd6adb9d.png" group-title="Gà Vàng" , 25/09 16:00 🏀 PFC Pelicans vs CSB trailblazer (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/07668fe49f8fec6832919e14449eb340.png" group-title="Phá Làng" , 25/09 16:30 ⚽ Mohammedan SC - Minerva Punjab (Chưa có link — chờ cập nhật)
@@ -117,13 +122,10 @@ https://phalang.live/trang-chu#k82rekh2zn02rep
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/a4fa72e714131415526de35f1cee3920.png" group-title="Gà Vàng" , 25/09 16:30 🏀 Brisbane Bullets vs lllawarra Hawks (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/4b1efe87c83a19479d072d7f0e50ae61.png" group-title="Gà Vàng" , 25/09 16:35 🏀 Viatin Mie vs Wolga Shonan (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/706def05df715f6e1a0c2e8e3cfcdc33.png" group-title="Gà Vàng" , 25/09 16:35 🏀 Kyoto Hannaryz vs Shiga Lakes (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/4c8413136eb5016607ee093a802f90c3.png" group-title="Gà Vàng" , 25/09 16:45 🏀 Saga Ballooners vs Hiroshima Dragonflies (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/4b1efe87c83a19479d072d7f0e50ae61.png" group-title="Gà Vàng" , 25/09 16:35 🏀 Viatin Mie vs Wolga Shonan (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_529.jpg" group-title="Khán Đài" , 25/09 17:00 ⚽ Australia vs Brazil (Chưa có link — chờ cập nhật)
