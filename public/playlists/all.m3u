@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 12:21:53 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 12:24:10 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (19 trận), Chuối Chiên (20 trận), Phá Làng (40 trận), Gà Vàng (31 trận), Sao Kê (24 trận) =====
 
@@ -39,6 +39,11 @@ https://lilive1.eu.cc/live/e74fd7409fb9a11abd73c2447bcd736f/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/tit/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/654baedfc71d1f2d9fa0c348d9ff8f6b.png" group-title="Phá Làng" , 25/09 13:00 🟢 ⚽ China Women - Vietnam Women (LÝ LÊN LỬA (Server 1))
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://pull.digitalcdn.net/live/5826a87fc21b4c1ca850ff2f7ad62db5/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IUYV_ZAMxDdabQPzSpTJtg_96x96.png" group-title="Giờ Vàng" , 25/09 13:00 🟡 ⚽ ĐT nữ Việt Nam vs ĐT nữ Trung Quốc (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-dt-nu-viet-nam-vs-dt-nu-trung-quoc-25-09-a41t5fzzfbcn
 
@@ -47,9 +52,6 @@ https://khandai3.link/truc-tiep/china-w-vs-vietnam-w-25-09-2026-858233
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142845_d31bb816.png" group-title="Chuối Chiên" , 25/09 13:00 🟡 ⚽ China W vs Vietnam W (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641131/china-w-vs-vietnam-w
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/654baedfc71d1f2d9fa0c348d9ff8f6b.png" group-title="Phá Làng" , 25/09 13:00 🟡 ⚽ China Women - Vietnam Women (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#l5ergphk05kjr8k
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/b6b90237b3ebd1e462a5d11dbc5c4dae.png" group-title="Gà Vàng" , 25/09 13:00 🟡 ⚽ Korea DPR(w) vs Chinese Taipei(w) (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/truc-tiep/north-korea-women-vs-chinese-taipei-women-ngay-25-09-2026/
