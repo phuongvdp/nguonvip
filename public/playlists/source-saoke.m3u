@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:29:45 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 09:32:02 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (25 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (24 trận) =====
 
 # ----- Ngày 2026-09-25 -----
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6368.png" group-title="Sao Kê" , 25/09 07:30 🟢 ⚽ Atlético Nacional vs Millonarios (Tít)
-#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://stm6dad62063600.stream.hdplaylink.com/sklive/tit/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/452823.png" group-title="Sao Kê" , 25/09 08:00 🟢 ⚽ Alebrijes Oaxaca vs Atlético La Paz (Củ Cải)
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -28,11 +23,11 @@ https://vip3.saoketv40.xyz/china-w-vs-vietnam-w-6ab536d922d091f455707fb9.html
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/95797.png" group-title="Sao Kê" , 25/09 15:00 ⚽ Bangladesh vs Malaysia (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/bangladesh-vs-malaysia-6ab5352fc42f6f76b675b732.html
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/0MtfS4jC-0QWdQxII.png" group-title="Sao Kê" , 25/09 17:00 ⚽ Ho Chi Minh City vs Van Hien (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/ho-chi-minh-city-vs-van-hien-6ab5396ad32e08fd13f8e630.html
-
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6716.png" group-title="Sao Kê" , 25/09 17:00 ⚽ Australia vs Brazil (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/australia-vs-brazil-6ab53656552ae1acb6b64682.html
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/0MtfS4jC-0QWdQxII.png" group-title="Sao Kê" , 25/09 17:00 ⚽ Ho Chi Minh City vs Van Hien (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/ho-chi-minh-city-vs-van-hien-6ab5396ad32e08fd13f8e630.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/300702.png" group-title="Sao Kê" , 25/09 17:30 ⚽ South Korea U23 vs Vietnam U23 (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/south-korea-u23-vs-vietnam-u23-6ab5355700d3cb8a450c6c67.html
@@ -56,9 +51,6 @@ https://vip3.saoketv40.xyz/georgia-vs-northern-ireland-6ab53656552ae1acb6b6467c.
 https://vip3.saoketv40.xyz/armenia-vs-latvia-6ab53656552ae1acb6b64680.html
 
 # ----- Ngày 2026-09-26 -----
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8204.png" group-title="Sao Kê" , 26/09 01:45 ⚽ Italy vs Belgium (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/italy-vs-belgium-6ab53656552ae1acb6b6467a.html
-
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6595.png" group-title="Sao Kê" , 26/09 01:45 ⚽ Turkiye vs France (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/turkiye-vs-france-6ab53656552ae1acb6b6467b.html
 
@@ -70,6 +62,9 @@ https://vip3.saoketv40.xyz/poland-vs-bosnia-and-herzegovina-6ab53656552ae1acb6b6
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8520.png" group-title="Sao Kê" , 26/09 01:45 ⚽ Sweden vs Romania (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/sweden-vs-romania-6ab53656552ae1acb6b6467f.html
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8204.png" group-title="Sao Kê" , 26/09 01:45 ⚽ Italy vs Belgium (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/italy-vs-belgium-6ab53656552ae1acb6b6467a.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6262.png" group-title="Sao Kê" , 26/09 02:00 ⚽ Morocco vs Gabon (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/morocco-vs-gabon-6ab53656552ae1acb6b64684.html
