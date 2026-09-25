@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:59:33 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:01:48 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (30 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (28 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f68325b460e254099c207bd6622e14b1.png" group-title="Phá Làng" , 25/09 20:00 🟢 ⚽ Mozambique - Senegal (Server 1)
@@ -19,16 +19,10 @@ https://lilive1.eu.cc/live/b499e18bce2167fda8c226f4edf58288/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/274caea8f4989d4818e3511cf5406934/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/57f8b2f1aba00e1ebe7b4d41ac6d4b11.png" group-title="Phá Làng" , 25/09 20:00 🟡 ⚽ Senegal - Mozambique (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#2y8m4zh5loznql0
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e3614789dadf4b97609b13667f6df7a3.png" group-title="Phá Làng" , 25/09 20:00 🟡 ⚽ Sudan - Ethiopia (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#dn1m1ghl6j8emoe
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b0216acd16efece434df680c379b5872.png" group-title="Phá Làng" , 25/09 21:00 ⚽ FK Gornji Rahic - Sarajevo (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b0216acd16efece434df680c379b5872.png" group-title="Phá Làng" , 25/09 21:00 🟡 ⚽ FK Gornji Rahic - Sarajevo (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6ypq3nhk6ew9md7
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/9fcc2914ac67968fa146000722f1d991.png" group-title="Phá Làng" , 25/09 21:00 ⚽ India - Panama (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/9fcc2914ac67968fa146000722f1d991.png" group-title="Phá Làng" , 25/09 21:00 🟡 ⚽ India - Panama (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#n54qllh459lwqvy
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bfdd500484330d63a723cbc396df762c.png" group-title="Phá Làng" , 25/09 21:30 ⚽ VfB Stuttgart - 1. FC Heidenheim 1846 (Chưa có link — chờ cập nhật)
