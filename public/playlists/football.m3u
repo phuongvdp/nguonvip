@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:29:07 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:31:23 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (16 trận), Chuối Chiên (18 trận), Phá Làng (35 trận), Gà Vàng (13 trận), Sao Kê (24 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (16 trận), Chuối Chiên (18 trận), Phá Làng (34 trận), Gà Vàng (10 trận), Sao Kê (24 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 25/09 15:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -109,10 +109,10 @@ https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Chuối Chiên" , 25/09 17:30 🟢 ⚽ U23 Hàn Quốc  vs U23 Vietnam  (Chuối Ngao (HD))
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Chuối Chiên" , 25/09 17:30 🟢 ⚽ U23 Hàn Quốc  vs U23 Vietnam  (Chuối To (HD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoingao/playlist.m3u8
+https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/41fcd04dcd049309ad05bca33ea46883.png" group-title="Phá Làng" , 25/09 17:30 🟢 ⚽ Japan Women - Philippines Women (LÝ LÀNG LÁ)
 #EXTVLCOPT:http-referrer=https://phalang.live
@@ -138,18 +138,6 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/tit/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/mo/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3fcd619b384dbbd8b4c3af19f622fc7f.png" group-title="Phá Làng" , 25/09 17:30 🟡 ⚽ FC Zurich - Neuchatel Xamax (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#965mkyh8l50pr1g
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/c44bc96860338d531a5b0a78d335d7a7.png" group-title="Gà Vàng" , 25/09 17:30 🟡 ⚽ South Korea(w) vs Uzbekistan(w) (Chưa có link — chờ cập nhật)
-https://gavanglinkq.tv/truc-tiep/south-korea-women-vs-uzbekistan-women-ngay-25-09-2026/
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/871d73474b2d6b307fe3862403e9c77d.png" group-title="Gà Vàng" , 25/09 17:30 🟡 ⚽ Japan(w) vs Philippines(w) (Chưa có link — chờ cập nhật)
-https://gavanglinkq.tv/truc-tiep/japan-women-vs-philippines-women-ngay-25-09-2026/
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/6581bc34692022be4c21d98778e33df0.png" group-title="Gà Vàng" , 25/09 17:30 🟡 ⚽ Korea U23 vs Vietnam U23 (Chưa có link — chờ cập nhật)
-https://gavanglinkq.tv/truc-tiep/south-korea-u23-vs-vietnam-u23-ngay-25-09-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/509b91468e833ffe3fd9edd04f06ddee.png" group-title="Gà Vàng" , 25/09 18:00 🟡 ⚽ Wuxi Wugou vs Guangxi Hengchen FC (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/wuxi-wugo-vs-guangxi-hengchen-ngay-25-09-2026/

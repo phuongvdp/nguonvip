@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:29:07 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:31:23 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (36 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (35 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/7e6a0d84ea85aaa89a08f039f3e9e237.png" group-title="Phá Làng" , 25/09 16:00 🟢 ⚽ Bangladesh - Malaysia (LÝ LINH LỰC)
@@ -28,9 +28,6 @@ https://lilive1.eu.cc/live/5daf13231d99bb47d1441da088ea2b69/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/82e4345d1a0a71052863befa2426e154/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3fcd619b384dbbd8b4c3af19f622fc7f.png" group-title="Phá Làng" , 25/09 17:30 🟡 ⚽ FC Zurich - Neuchatel Xamax (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#965mkyh8l50pr1g
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/57f8b2f1aba00e1ebe7b4d41ac6d4b11.png" group-title="Phá Làng" , 25/09 20:00 ⚽ Senegal - Mozambique (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#2y8m4zh5loznql0
