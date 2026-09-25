@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:27:15 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:30:13 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (19 trận) =====
 
 # ----- Ngày 2026-09-26 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8d44ba3c0bbe2a8f6535aa75e9867b38.png" group-title="Phá Làng" , 26/09 01:30 🟡 ⚽ GD Chaves - Vitoria Guimaraes (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#n54qllh451llqvy
-
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/a632c22f39e478770e15f81d5d73d55f.png" group-title="Phá Làng" , 26/09 01:45 🟢 ⚽ Turkiye - France (LÝ LONG)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/325b13dad128baf99902ec526a8907d9/playlist.m3u8
@@ -65,3 +62,6 @@ https://phalang.live/trang-chu#23xmvkhyv9e7qg8
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/3e0f32098666dc42dec09abd4fece6d5.png" group-title="Phá Làng" , 26/09 16:00 ⚽ Pakistan - Thailand (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4wyrn4h6gwdeq86
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ac0943dbb5e9a5b3efa8fe762e23330e.png" group-title="Phá Làng" , 26/09 16:30 ⚽ Sreenidi Deccan - Northeast United FC (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#y39mp1hdvp06moj

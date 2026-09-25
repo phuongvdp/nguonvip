@@ -1,9 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:27:14 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:30:13 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (17 trận) =====
 
 # ----- Ngày 2026-09-26 -----
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_24.jpg" group-title="Khán Đài" , 26/09 01:45 🟢 ⚽ Hungary vs Ukraine (Pháo Thủ)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_17.jpg" group-title="Khán Đài" , 26/09 01:45 🟢 ⚽ Sweden vs Romania (Tày)
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -14,14 +19,13 @@ https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_24.jpg" group-title="Khán Đài" , 26/09 01:45 🟡 ⚽ Hungary vs Ukraine (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/hungary-vs-ukraine-26-09-2026-790827
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_1.jpg" group-title="Khán Đài" , 26/09 01:45 🟢 ⚽ Turkey vs France (Chim Nhỏ)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_18.jpg" group-title="Khán Đài" , 26/09 01:45 🟡 ⚽ Poland vs Bosnia & Herzegovina (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/poland-vs-bosnia-herzegovina-26-09-2026-790828
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_1.jpg" group-title="Khán Đài" , 26/09 01:45 🟡 ⚽ Turkey vs France (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/turkey-vs-france-26-09-2026-790877
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_716.jpg" group-title="Khán Đài" , 26/09 02:00 🟡 ⚽ Egypt vs Angola (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/egypt-vs-angola-26-09-2026-786850
