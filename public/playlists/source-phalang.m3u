@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:57:25 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:59:40 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (36 trận) =====
 
@@ -14,8 +14,10 @@ https://lilive1.eu.cc/live/978b054489aaac1e5ed69472f08724b3/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/2cb4289a02632116fd6da6d08d3e303c/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ae584981eb352bb9c5151af25428c39f.png" group-title="Phá Làng" , 25/09 17:00 🟡 ⚽ Ho Chi Minh City - Van Hien University (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#965mkyhkpwg4r1g
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ae584981eb352bb9c5151af25428c39f.png" group-title="Phá Làng" , 25/09 17:00 🟢 ⚽ Ho Chi Minh City - Van Hien University (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/96fc767bf2c87f35ea91329ba4dd3260/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/41fcd04dcd049309ad05bca33ea46883.png" group-title="Phá Làng" , 25/09 17:30 🟢 ⚽ Japan Women - Philippines Women (LÝ LÀNG LÁ)
 #EXTVLCOPT:http-referrer=https://phalang.live
