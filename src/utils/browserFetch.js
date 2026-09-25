@@ -341,11 +341,11 @@ async function fetchPageGlobal(url, opts = {}) {
  *
  * @param {string} url trang để mở (trang chi tiết trận đấu, hoặc trang có nhúng player)
  * @param {string|RegExp} matchUrl phần URL cần bắt (vd: /\.m3u8(\?|$)/i)
- * @param {{ timeoutMs?: number }} [opts]
+ * @param {{ timeoutMs?: number, triggerClick?: string }} [opts] triggerClick: selector để click sau khi trang load (vd nút Play) — xem FIX 25/09/2026 dưới
  * @returns {Promise<{url: string, headers: Record<string,string>}|null>} null nếu hết giờ mà không thấy request nào khớp
  */
 async function fetchFirstRequestHeaders(url, matchUrl, opts = {}) {
-  const { timeoutMs = 20000 } = opts;
+  const { timeoutMs = 20000, triggerClick } = opts;
   const browser = await getBrowser();
   const page = await browser.newPage();
   try {
@@ -367,7 +367,42 @@ async function fetchFirstRequestHeaders(url, matchUrl, opts = {}) {
         }
       };
       page.on('request', onRequest);
-      page.goto(url, { waitUntil: 'domcontentloaded', timeout: timeoutMs }).catch(() => {});
+      page
+        .goto(url, { waitUntil: 'domcontentloaded', timeout: timeoutMs })
+        .then(async () => {
+          // FIX (25/09/2026 — "mở trang xong nhưng không bắt được request
+          // .m3u8 nào" ở Chuối Chiên): nhiều player KHÔNG tự phát ngay khi
+          // load trang (chính sách autoplay của trình duyệt chặn), chỉ gọi
+          // link .m3u8 SAU KHI người xem bấm Play. Chủ động thử bấm thay
+          // người dùng: ưu tiên `triggerClick` (selector cụ thể nếu có),
+          // sau đó thử gọi thẳng .play() trên MỌI thẻ <video>/<audio> kể cả
+          // trong iframe lồng bên trong (nhiều site nhúng player qua
+          // iframe), cuối cùng bấm thử vào giữa màn hình (nút Play dạng
+          // ảnh/overlay không phải thẻ <video> thật). Mọi bước đều
+          // best-effort, lỗi thì bỏ qua — không có bước nào bắt buộc phải
+          // thành công vì trang có thể tự phát sẵn (như Sao Kê) không cần
+          // bước này.
+          if (triggerClick) await page.click(triggerClick).catch(() => {});
+          await page
+            .evaluate(() => {
+              const tryPlayIn = (doc) => {
+                try {
+                  doc.querySelectorAll('video, audio').forEach((el) => el.play?.().catch(() => {}));
+                } catch {}
+              };
+              tryPlayIn(document);
+              document.querySelectorAll('iframe').forEach((f) => {
+                try {
+                  tryPlayIn(f.contentDocument);
+                } catch {}
+              });
+            })
+            .catch(() => {});
+          await page
+            .mouse.click(640, 360)
+            .catch(() => {});
+        })
+        .catch(() => {});
       setTimeout(() => finish(null), timeoutMs);
     });
   } finally {

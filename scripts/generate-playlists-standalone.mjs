@@ -362,6 +362,39 @@ async function generateOnce() {
       fs.writeFileSync(path.join(OUTPUT_DIR, filename), content, 'utf8');
       const matchCount = (content.match(/^#EXTINF/gm) || []).length;
       console.log(`[generate-playlists] ${filename}: ${matchCount} kênh`);
+
+      // FIX (25/09/2026 — "muốn proxy sống (hls.js) cũng hưởng Referer tự
+      // dò" + "không deploy VPS/Vercel nào cả, chỉ lên GitHub"): LÚC ĐẦU
+      // đoạn này được thêm nhầm vào scripts/generate-playlists.js (bản CŨ,
+      // gọi qua HTTP tới server đã deploy) — nhưng theo đúng mô hình thật
+      // của repo này (xem chú thích đầu file .mjs này + FIX 20/09/2026
+      // trong .github/workflows/validate-and-generate.yml), KHÔNG CÓ server
+      // nào chạy sống cả, script generate-playlists.js đó không còn được
+      // workflow gọi tới nữa — mọi thứ chạy NGAY TRONG tiến trình Node của
+      // CHÍNH file .mjs này (gọi thẳng buildAggregatedMatches() ở trên).
+      // Chuyển đúng đoạn ghi <nguồn>-referer.json vào đây.
+      //
+      // Vì hls.js (proxy sống) không có server nào để chạy trong mô hình
+      // này, file JSON này hiện KHÔNG có tác dụng thực tế nào (hls.js không
+      // được deploy ở đâu để đọc nó) — chỉ còn ý nghĩa nếu sau này bạn có
+      // deploy hls.js lên 1 server thật (VPS/Vercel/Render). Vẫn ghi lại vì
+      // rẻ (không tốn thêm lần quét nào, chỉ đọc lại chuỗi content đã có
+      // sẵn) và vô hại nếu không dùng tới.
+      if (source === 'saoke' || source === 'chuoichientv') {
+        const refererMatch = content.match(/^#EXTVLCOPT:http-referrer=(.+)$/m);
+        const referer = refererMatch ? refererMatch[1].trim() : null;
+        const jsonFilename = `${source}-referer.json`;
+        if (referer) {
+          fs.writeFileSync(
+            path.join(OUTPUT_DIR, jsonFilename),
+            JSON.stringify({ referer, detectedAt: new Date().toISOString() }, null, 2) + '\n',
+            'utf8'
+          );
+          console.log(`[generate-playlists] ${jsonFilename}: ${referer}`);
+        } else {
+          console.log(`[generate-playlists] ${jsonFilename}: không có trận live lúc này, giữ nguyên giá trị cũ`);
+        }
+      }
     } catch (err) {
       hasError = true;
       console.error(`[generate-playlists] Lỗi khi tạo playlist nguồn "${source}":`, err.message);

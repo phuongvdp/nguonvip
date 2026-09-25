@@ -114,44 +114,6 @@ async function generateOnce() {
       fs.writeFileSync(path.join(OUTPUT_DIR, filename), content, 'utf8');
       const matchCount = (content.match(/^#EXTINF/gm) || []).length;
       console.log(`[generate-playlists] ${filename}: ${matchCount} trận`);
-
-      // FIX (25/09/2026 — "muốn proxy sống (hls.js) cũng hưởng Referer tự
-      // dò, không chỉ playlist tĩnh"): m3uPlaylist.js đã nhúng sẵn Referer
-      // THẬT tự dò được (nếu dò thành công, xem detectPlayerReferer() trong
-      // saoke.service.js) vào dòng #EXTVLCOPT:http-referrer=... của mọi
-      // entry Sao Kê trong `content` vừa tải ở trên — đọc lại đúng dòng đó
-      // rồi ghi RIÊNG ra 1 file JSON nhỏ. pages/api/proxy/hls.js (chạy
-      // trong serverless function KHÁC, không chia sẻ bộ nhớ với route sinh
-      // ra `content`) đọc lại file tĩnh này ở mỗi request để lấy Referer
-      // đúng, xem readDetectedSaokeReferer() ở đó.
-      // FIX (25/09/2026 — ban đầu chỉ làm cho Sao Kê, giờ áp dụng thêm cho
-      // Chuối Chiên vì dùng CHUNG 2 CDN hay bị 403 chống hotlink): đọc lại
-      // Referer THẬT tự dò được (nếu dò thành công, xem detectPlayerReferer()
-      // trong saoke.service.js / chuoichientv.service.js) mà m3uPlaylist.js
-      // đã nhúng sẵn vào dòng #EXTVLCOPT:http-referrer=... của MỌI entry
-      // nguồn này, ghi RIÊNG ra 1 file JSON nhỏ theo tên nguồn.
-      // pages/api/proxy/hls.js (chạy trong serverless function KHÁC, không
-      // chia sẻ bộ nhớ) đọc lại file tĩnh này ở mỗi request để lấy Referer
-      // đúng, xem readDetectedReferer() ở đó.
-      if (source === 'saoke' || source === 'chuoichientv') {
-        const refererMatch = content.match(/^#EXTVLCOPT:http-referrer=(.+)$/m);
-        const referer = refererMatch ? refererMatch[1].trim() : null;
-        const jsonFilename = `${source}-referer.json`;
-        if (referer) {
-          fs.writeFileSync(
-            path.join(OUTPUT_DIR, jsonFilename),
-            JSON.stringify({ referer, detectedAt: new Date().toISOString() }, null, 2) + '\n',
-            'utf8'
-          );
-          console.log(`[generate-playlists] ${jsonFilename}: ${referer}`);
-        } else {
-          // Không có trận nào đang live lúc này (không có dòng #EXTVLCOPT
-          // nào để đọc) -> KHÔNG ghi đè file cũ bằng rỗng, giữ nguyên giá
-          // trị lần dò gần nhất (referer domain player không đổi theo từng
-          // trận, vẫn đúng cho tới lần dò kế tiếp).
-          console.log(`[generate-playlists] ${jsonFilename}: không có trận live lúc này, giữ nguyên giá trị cũ`);
-        }
-      }
     } catch (err) {
       hasError = true;
       console.error(`[generate-playlists] Lỗi khi tạo playlist nguồn "${source}":`, err.message);
