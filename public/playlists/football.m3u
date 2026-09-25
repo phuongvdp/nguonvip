@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:56:45 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:59:00 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (9 trận), Khán Đài (15 trận), Chuối Chiên (18 trận), Phá Làng (28 trận), Gà Vàng (5 trận), Sao Kê (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (9 trận), Khán Đài (15 trận), Chuối Chiên (19 trận), Phá Làng (28 trận), Gà Vàng (5 trận), Sao Kê (19 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133533_eba6a872.png" group-title="Chuối Chiên" , 26/09 06:10 🟢 ⚽ Chico vs Deportivo Pasto (Chuối Tây (HD))
@@ -294,6 +294,9 @@ https://vip3.saoketv40.xyz/czechia-vs-croatia-6ab5c810a98792e63a6feb03.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8491.png" group-title="Sao Kê" , 27/09 01:45 ⚽ England vs Spain (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/england-vs-spain-6ab5c810a98792e63a6feb04.html
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132739_e67768f5.png" group-title="Chuối Chiên" , 27/09 03:30 ⚽ USA vs Peru (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1628997/usa-vs-peru
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6713.png" group-title="Sao Kê" , 27/09 03:30 ⚽ USA vs Peru (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/usa-vs-peru-6ab5c810a98792e63a6feb08.html

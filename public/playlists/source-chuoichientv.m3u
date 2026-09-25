@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:56:45 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:59:00 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (20 trận) =====
 
 # ----- Ngày 2026-09-26 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Chuối Chiên" , 26/09 02:00 🟢 🏐 Finland vs France (Chuối Kem (HD))
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133533_eba6a872.png" group-title="Chuối Chiên" , 26/09 06:10 🟢 ⚽ Chico vs Deportivo Pasto (Chuối Tây (HD))
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -70,3 +65,6 @@ https://live05.chuoichientv.me/live/1528892/czech-republic-vs-croatia
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260531_193336_3393bc73.png" group-title="Chuối Chiên" , 27/09 01:45 ⚽ FYR Macedonia vs Switzerland (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1545656/fyr-macedonia-vs-switzerland
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132739_e67768f5.png" group-title="Chuối Chiên" , 27/09 03:30 ⚽ USA vs Peru (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1628997/usa-vs-peru
