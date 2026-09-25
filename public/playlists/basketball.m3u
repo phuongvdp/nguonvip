@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:49:28 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:52:51 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (9 trận), Gà Vàng (6 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (9 trận), Gà Vàng (10 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/691f1fbb808378a5c4cb07fa320d017d.png" group-title="Giờ Vàng" , 25/09 06:00 🟢 🏀 Connecticut Sun vs Toronto Tempo (Giovang 1)
@@ -24,35 +24,48 @@ https://eqr2hdarxfliv.vcdn.cloud/1790290944_hd/1790290944_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790296707_hd/1790296707_hd@720p.m3u8
 
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/27571c52bd71cea816ee3d5111dca267.png" group-title="Gà Vàng" , 25/09 08:15 🟡 🏀 San Salvador BC vs Aguilar basketball team (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/f98516b0b37244c7ad087b47e96f33d9.png" group-title="Gà Vàng" , 25/09 08:15 🟡 🏀 Isidro Metapan vs Brujos Izalco (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/479290b679ce43f09b3efa8bb110522b.png" group-title="Gà Vàng" , 25/09 08:30 🟡 🏀 LM Monsenor Romero Women (Mayor) vs Ahuachapan Women (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/f35ccb51f91cd187f149d4d55fc6be24.png" group-title="Giờ Vàng" , 25/09 09:00 🏀 Phoenix Mercury vs Las Vegas Aces (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-phoenix-mercury-vs-las-vegas-aces-25-09-20625070
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/32f21070cfd05affb7125a707c2b3b37.png" group-title="Giờ Vàng" , 25/09 09:00 🏀 Los Angeles Sparks vs Golden State Valkyries (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-los-angeles-sparks-vs-golden-state-valkyries-25-09-29525078
 
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/b48443679dd0356cc64abce373f763e1.png" group-title="Gà Vàng" , 25/09 09:00 🏀 Phoenix Mercury vs Las Vegas Aces (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/6akehaEa-QVr2kiM7.png" group-title="Giờ Vàng" , 25/09 12:00 🏀 KCC Egis vs LG Sakers (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-kcc-egis-vs-lg-sakers-25-09-2nzi0lvb0fiz
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/0add24fc964de3ea25e83417aa301f81.png" group-title="Gà Vàng" , 25/09 12:00 🏀 Busan KCC Egis vs Changwon LG Sakers (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/viUBkizB-KtOrDRPL.png" group-title="Giờ Vàng" , 25/09 14:30 🏀 Anyang JungKwanJang vs Suwon KT (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-anyang-jungkwanjang-vs-suwon-kt-25-09-sxb3dnukga00
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/a2ae506e0753505f2c10f84ca993c73d.png" group-title="Gà Vàng" , 25/09 16:00 🏀 Valenzuela Classic vs Quezon City Galeries Taipan (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/30683c359531664a5b97f129c047fcdc.png" group-title="Gà Vàng" , 25/09 14:30 🏀 Anyang JungKwanJang Red Boosters vs Suwon KT Sonicboom (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/bf00306322e85ee7c3b72c7e1a8a82e0.png" group-title="Gà Vàng" , 25/09 18:00 🏀 Bataan Risers vs Pasig City (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/81d22bd3b658ae6ff77aceb191e9e468.jpg" group-title="Gà Vàng" , 25/09 18:00 🏀 Hapoel Jerusalem vs Bnei Herzliya (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/422765233e7793014bd00ab6e920663a.png" group-title="Gà Vàng" , 25/09 23:00 🏀 KK Buducnost vs Cibona Zagreb (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/c95c18b3a4ec5144964ef52e438bd0a0.png" group-title="Gà Vàng" , 25/09 23:00 🏀 SC Derby vs Subotica Spartak (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/275832817676b5363da455a442bb7068.png" group-title="Gà Vàng" , 25/09 23:30 🏀 KK Zadar vs KK Bosna ASA BH TELECOM (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/0edf832bceb2f91200dbb544fc51e60a.png" group-title="Gà Vàng" , 25/09 17:05 🏀 Tokyo Sunrockers vs Chiba Jets (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/GdTU14e5-U9rBY3Yf.png" group-title="Giờ Vàng" , 25/09 23:59 🏀 Besiktas vs Valencia (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-besiktas-vs-valencia-25-09-z3q66e66p0tm
+
+# ----- Ngày 2026-09-26 -----
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/89aedb476d2e17575a159bfdca4886e3.png" group-title="Gà Vàng" , 26/09 00:00 🏀 Besiktas GAIN vs Valencia (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/db53bc0d4afbe09232f7e9372f56ff27.png" group-title="Gà Vàng" , 26/09 00:45 🏀 Fenerbahçe Beko Istanbul vs Virtus Bologna (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/e7c33e40d998426eef7ab3afc3382768.png" group-title="Gà Vàng" , 26/09 01:45 🏀 Partizan Mozzart Bet Beograd vs Olimpia Milano (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
