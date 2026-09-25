@@ -1,18 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:18:51 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:21:06 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (32 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (31 trận) =====
 
 # ----- Ngày 2026-09-25 -----
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/41fcd04dcd049309ad05bca33ea46883.png" group-title="Phá Làng" , 25/09 17:30 🟢 ⚽ Japan Women - Philippines Women (LÝ LÀNG LÁ)
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/5daf13231d99bb47d1441da088ea2b69/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/6662e3d4dd66b366296f78fb89f6f778.png" group-title="Phá Làng" , 25/09 17:30 🟢 ⚽ South Korea U23 - Vietnam U23 (LÝ LA LÀNG)
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/82e4345d1a0a71052863befa2426e154/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/0c131dfdaef74b5d6b14cb281d11c608.png" group-title="Phá Làng" , 25/09 20:00 🟢 ⚽ Indonesia - Singapore (LÝ LONG)
 #EXTVLCOPT:http-referrer=https://phalang.live
