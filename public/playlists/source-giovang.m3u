@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:34:36 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:36:57 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận) =====
 
 # ----- Ngày 2026-09-25 -----
-#EXTINF:-1 tvg-logo="https://cdn.onefc.com/wp-content/uploads/2026/09/PanpayakJitmuangnon-LamnamoonlekTorfunfarm-Faceoff-TheInnerCircle32-768x512.jpg" group-title="Giờ Vàng" , 25/09 18:30 🟢 ⚽ ONE Friday Fights 172 vs The Inner Circle 32 (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790325330_hd/1790325330_hd@720p.m3u8
-
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/WnW15DfM-6ys9CWQj.png" group-title="Giờ Vàng" , 25/09 22:00 🟢 🏐 Ba Lan vs Slovenia (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -34,8 +29,10 @@ https://eqr2hdarxfliv.vcdn.cloud/1790263856_hd/1790263856_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790263892_hd/1790263892_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/GdTU14e5-U9rBY3Yf.png" group-title="Giờ Vàng" , 25/09 23:59 🟡 🏀 Besiktas vs Valencia (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-besiktas-vs-valencia-25-09-z3q66e66p0tm
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/GdTU14e5-U9rBY3Yf.png" group-title="Giờ Vàng" , 25/09 23:59 🟢 🏀 Besiktas vs Valencia (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790263500_hd/1790263500_hd@720p.m3u8
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/england-u21.png" group-title="Giờ Vàng" , 26/09 01:30 ⚽ U21 Anh vs U21 Kazakhstan (Chưa có link — chờ cập nhật)
@@ -74,6 +71,9 @@ https://giovang.city/truc-tiep-cavalry-vs-supra-du-quebec-26-09-6ab5ba5b09ca9ecd
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/cf-atlante.png" group-title="Giờ Vàng" , 26/09 08:00 ⚽ CF Atlante vs Monterrey (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-cf-atlante-vs-monterrey-26-09-6aac7f5924d46db87036c9db
 
+#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/58MDezoOT1DAkMexRNiW3w_96x96.png" group-title="Giờ Vàng" , 26/09 09:15 ⚽ Los Angeles Dodgers vs San Francisco Giants (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-los-angeles-dodgers-vs-san-francisco-giants-26-09-xpvewqum40sh
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/el-salvador.png" group-title="Giờ Vàng" , 26/09 10:00 ⚽ El Salvador vs Martinique (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-el-salvador-vs-martinique-26-09-6aadd0af24d46db870f2570a
 
@@ -88,3 +88,6 @@ https://giovang.city/truc-tiep-u23-trung-quoc-vs-u23-thai-lan-26-09-6ab468e0b057
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc8xggt88QDEI2jKI05T84yLgVlTUmYpYJNzKYJMdjUw&s=10" group-title="Giờ Vàng" , 26/09 14:00 🏀 Chinese Taipei W vs China W (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-chinese-taipei-w-vs-china-w-26-09-j4yobshzor84
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/93/Ulsan_Hyundai_Mobis_Phoebus.svg" group-title="Giờ Vàng" , 26/09 14:30 🏀 Mobis Phoebus vs LG Sakers (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-mobis-phoebus-vs-lg-sakers-26-09-w570xi3ru16c
