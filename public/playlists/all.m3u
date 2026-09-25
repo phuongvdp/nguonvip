@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:56:51 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:59:13 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (16 trận), Chuối Chiên (20 trận), Phá Làng (27 trận), Gà Vàng (21 trận), Sao Kê (22 trận) =====
 
@@ -99,8 +99,10 @@ https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pull.digitalcdn.net/live/42301df996014512b0e02b36ce1ecda2/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c9de7e2ddf47fcbe9572a133bab5599b.png" group-title="Phá Làng" , 25/09 22:00 🟡 ⚽ Niger - Lesotho (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#4wyrn4h6g3vdq86
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c9de7e2ddf47fcbe9572a133bab5599b.png" group-title="Phá Làng" , 25/09 22:00 🟢 ⚽ Niger - Lesotho (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/5b63c645b05a0dee8ff88466d1515127/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/cd0ec9035e74c703a7e3128db75fdc65.png" group-title="Gà Vàng" , 25/09 22:00 🟡 ⚽ Niger vs Lesotho (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/niger-vs-lesotho-ngay-25-09-2026/
