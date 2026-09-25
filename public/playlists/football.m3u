@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:29:06 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:31:27 25/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (15 trận), Chuối Chiên (18 trận), Phá Làng (38 trận), Gà Vàng (17 trận), Sao Kê (24 trận) =====
 
@@ -49,6 +49,11 @@ https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/cucai/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_37951.gif" group-title="Khán Đài" , 25/09 16:00 🟢 ⚽ Bangladesh vs Malaysia (Chim Nhỏ)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260922/7e6a0d84ea85aaa89a08f039f3e9e237.png" group-title="Phá Làng" , 25/09 16:00 🟢 ⚽ Bangladesh - Malaysia (LÝ LINH LỰC (Server 1))
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -57,16 +62,13 @@ https://pull.digitalcdn.net/live/098bfecd1059454c89a375f33bde0c68/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/bangladesh.png" group-title="Giờ Vàng" , 25/09 16:00 🟡 ⚽ Bangladesh vs Malaysia (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-bangladesh-vs-malaysia-25-09-6aac7f5624d46db87036c0c5
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_37951.gif" group-title="Khán Đài" , 25/09 16:00 🟡 ⚽ Bangladesh vs Malaysia (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/bangladesh-vs-malaysia
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/873f655c74783dbb85de6cacc8f503c0.png" group-title="Phá Làng" , 25/09 16:00 🟡 ⚽ Oakleigh Cannons - Melbourne City (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#jw2r09h549v1rz8
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f00b6379b82a515a9478b6e58b783de9.png" group-title="Gà Vàng" , 25/09 16:00 🟡 ⚽ Bangladesh vs Malaysia (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/truc-tiep/bangladesh-vs-malaysia-ngay-25-09-2026/
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/07668fe49f8fec6832919e14449eb340.png" group-title="Phá Làng" , 25/09 16:30 ⚽ Mohammedan SC - Minerva Punjab (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/07668fe49f8fec6832919e14449eb340.png" group-title="Phá Làng" , 25/09 16:30 🟡 ⚽ Mohammedan SC - Minerva Punjab (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#k82rekh2zn02rep
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_529.jpg" group-title="Khán Đài" , 25/09 17:00 ⚽ Australia vs Brazil (Chưa có link — chờ cập nhật)
