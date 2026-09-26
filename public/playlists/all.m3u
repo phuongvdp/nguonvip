@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:42:49 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:45:09 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (24 trận), Chuối Chiên (20 trận), Phá Làng (66 trận), Gà Vàng (13 trận), Sao Kê (26 trận) =====
 
@@ -64,6 +64,11 @@ https://pull.digitalcdn.net/live/72e408299ff44dcc89cb50d9c1e5fb1f/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/ricky/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/slovenia.png" group-title="Giờ Vàng" , 26/09 20:00 🟢 ⚽ Slovenia vs Scotland (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790415318_hd/1790415318_hd@720p.m3u8
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_696.jpg" group-title="Khán Đài" , 26/09 20:00 🟢 ⚽ Slovenia vs Scotland (Pháo Thủ)
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -79,8 +84,10 @@ https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/2df1a42683a2306a290f840719d82607/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/slovenia.png" group-title="Giờ Vàng" , 26/09 20:00 🟡 ⚽ Slovenia vs Scotland (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-slovenia-vs-scotland-26-09-69f695d673ba0b335e0f2ec9
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5787.png" group-title="Sao Kê" , 26/09 20:00 🟢 ⚽ Slovenia vs Scotland (Kai)
+#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://stm6dad62063600.stream.hdplaylink.com/sklive/kai/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132805_2c5424f2.png" group-title="Chuối Chiên" , 26/09 20:00 🟡 ⚽ South Africa vs Guinea (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1545833/south-africa-vs-guinea
@@ -102,9 +109,6 @@ https://phalang.live/trang-chu#y0or5jh87p35qwz
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/e4ba31fba036a999321d5460f7f2d1d1.png" group-title="Gà Vàng" , 26/09 20:00 🟡 ⚽ Slovenia vs Scotland (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/slovenia-vs-scotland-ngay-26-09-2026/
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5787.png" group-title="Sao Kê" , 26/09 20:00 🟡 ⚽ Slovenia vs Scotland (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/slovenia-vs-scotland-6ab5c810a98792e63a6feb01.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6316.png" group-title="Sao Kê" , 26/09 20:00 🟡 ⚽ South Africa vs Guinea (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/south-africa-vs-guinea-6ab5c810a98792e63a6feb09.html
