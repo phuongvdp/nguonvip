@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:56:49 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:59:07 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (66 trận) =====
 
@@ -13,6 +13,12 @@ https://pull.digitalcdn.net/live/72e408299ff44dcc89cb50d9c1e5fb1f/index.m3u8|Use
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/e9071cd9943c4f5450d5438b62ec319d.png" group-title="Phá Làng" , 26/09 20:00 🟢 ⚽ Slovenia - Scotland (LÝ LONG)
 https://lilive1.eu.cc/live/2df1a42683a2306a290f840719d82607/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/35d66916de00f7765f6064e6aaf8bf50.png" group-title="Phá Làng" , 26/09 20:00 🟢 ⚽ South Africa - Guinea (Server 1)
+https://lilive1.eu.cc/live/e64409f9f40392f9c66b4940685ffe38/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1519265433839cdba4d3a8235e36c5da.png" group-title="Phá Làng" , 26/09 20:00 🟢 ⚽ Kenya - Eritrea (Server 1)
+https://lilive1.eu.cc/live/dffb365c11cd17291d6bb61dd3eb334a/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5517b8865aa5280667bd899f6810d466.png" group-title="Phá Làng" , 26/09 20:00 🟡 ⚽ Lokomotiv Moscow - Arsenal Tula (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#2y8m4zhv0x9xql0
 
@@ -21,12 +27,6 @@ https://phalang.live/trang-chu#318q66h8zg69qo9
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/538d312c2512ebda3129f105db04e5e5.png" group-title="Phá Làng" , 26/09 20:00 🟡 ⚽ Borac Banja Luka - Radnik Bijeljina (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#8yomo4hyexo4q0j
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/35d66916de00f7765f6064e6aaf8bf50.png" group-title="Phá Làng" , 26/09 20:00 🟡 ⚽ South Africa - Guinea (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#x7lm7phj46wxm2w
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1519265433839cdba4d3a8235e36c5da.png" group-title="Phá Làng" , 26/09 20:00 🟡 ⚽ Kenya - Eritrea (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#y0or5jh87p35qwz
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ad3b9f3bd0ae60961e1cd9d7a797f9b0.png" group-title="Phá Làng" , 26/09 20:30 🟡 ⚽ PAOP Neas Amisou - Orfeas Eleftheroupoli (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6ypq3nhk6n5jmd7
