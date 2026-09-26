@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:59:00 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:01:15 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (1 trận), Chuối Chiên (2 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (1 trận), Chuối Chiên (3 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/OR16mUDJv-0yTyh-jxlaKQ_96x96.png" group-title="Giờ Vàng" , 26/09 22:00 🏐 Phần Lan vs Slovenia (Chưa có link — chờ cập nhật)
@@ -13,3 +13,6 @@ https://live05.chuoichientv.me/live/998947/slovakia-w-vs-poland
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134251_b96e660a.png" group-title="Chuối Chiên" , 27/09 08:00 🏐 Iran vs Kyrgyzstan (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/997091/iran-vs-kyrgyzstan
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Chuối Chiên" , 27/09 11:00 🏐 South Korea vs Philippines (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/998910/south-korea-vs-philippines
