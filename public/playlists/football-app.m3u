@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:57:53 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:00:10 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (6 trận), Khán Đài (15 trận), Chuối Chiên (19 trận), Phá Làng (52 trận), Gà Vàng (19 trận), Sao Kê (21 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (5 trận), Khán Đài (15 trận), Chuối Chiên (19 trận), Phá Làng (54 trận), Gà Vàng (18 trận), Sao Kê (21 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/honduras.png" group-title="Giờ Vàng" , 26/09 08:00 🟢 ⚽ Honduras vs Suriname (Giovang 1)
@@ -34,16 +34,10 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisay/playlist.m3u8|Us
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/162418.png" group-title="Sao Kê" , 26/09 10:00 🟢 ⚽ Tijuana vs Atlas (Củ Cải)
 https://stm6dad62063600.stream.hdplaylink.com/sklive/cucai/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/club-tijuana.png" group-title="Giờ Vàng" , 26/09 10:00 🟡 ⚽ Club Tijuana vs Atlas (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-club-tijuana-vs-atlas-26-09-6aac7f5924d46db87036ca5a
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/6090f28bfc40d2169607b23256e5a151.png" group-title="Gà Vàng" , 26/09 10:00 🟡 ⚽ Club Tijuana vs Atlas (Chưa có link — chờ cập nhật)
-https://gavanglinkq.tv/truc-tiep/club-tijuana-vs-atlas-ngay-26-09-2026/
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f3f2e9c5843d2acfa65bc79088902d53.png" group-title="Phá Làng" , 26/09 11:00 ⚽ Papua New Guinea Women - Vanuatu Women (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f3f2e9c5843d2acfa65bc79088902d53.png" group-title="Phá Làng" , 26/09 11:00 🟡 ⚽ Papua New Guinea Women - Vanuatu Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#1l4rjnhnylkjm7v
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3459c6f198408abfea9d4a69273d6dcc.png" group-title="Phá Làng" , 26/09 11:00 ⚽ New Caledonia Women - Solomon Islands (w) Soccer (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3459c6f198408abfea9d4a69273d6dcc.png" group-title="Phá Làng" , 26/09 11:00 🟡 ⚽ New Caledonia Women - Solomon Islands (w) Soccer (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#zp5rzgh3ywpxq82
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132418_63241790.png" group-title="Chuối Chiên" , 26/09 12:00 ⚽ Renofa Yamaguchi vs Sagamihara (Chưa có link — chờ cập nhật)
@@ -337,6 +331,12 @@ https://khandai3.link/truc-tiep/oman-vs-saudi-arabia-27-09-2026-857454
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133414_d27d52bf.png" group-title="Chuối Chiên" , 27/09 01:00 ⚽ Oman vs Saudi Arabia (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1637933/oman-vs-saudi-arabia
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/3c1271a9437d31009c4fe465d81cd3cf.png" group-title="Phá Làng" , 27/09 01:00 ⚽ Oman - Saudi Arabia (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#y0or5jh8vovlqwz
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ad471f230297d355466e07cd82408d24.png" group-title="Phá Làng" , 27/09 01:00 ⚽ Pinatar CF - Atletico Melilla (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#y39mp1h67xn2moj
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5824.png" group-title="Sao Kê" , 27/09 01:00 ⚽ Oman vs Saudi Arabia (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/oman-vs-saudi-arabia-6ab5c810a98792e63a6feb0a.html
