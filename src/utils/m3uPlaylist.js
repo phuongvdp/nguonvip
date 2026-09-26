@@ -285,7 +285,18 @@ export async function preferHlsForIptv(stream) {
  * @param {Array<{ match: object, stream: object }>} entries
  * @returns {string}
  */
-export function buildM3uPlaylist(entries = []) {
+export function buildM3uPlaylist(entries = [], options = {}) {
+  // FIX (26/09/2026 — "VLC xem được nhưng app IPTV trên điện thoại thì
+  // không"): #EXTVLCOPT là cú pháp RIÊNG của VLC/libVLC — hầu hết app IPTV
+  // Android (TiviMate, IPTV Smarters, GSE, Perfect Player mặc định...) chạy
+  // engine ExoPlayer, KHÔNG đọc #EXTVLCOPT nên bỏ qua hoàn toàn Referer/
+  // User-Agent đã set -> phát bằng header mặc định -> bị CDN chặn hotlink.
+  // ExoPlayer/đa số app đó lại hiểu 1 quy ước khác: gắn thẳng header vào
+  // URL bằng dấu "|", vd "https://...m3u8|Referer=xxx&User-Agent=yyy".
+  // options.format === 'app' bật quy ước này (dùng CHUNG URL thay vì
+  // #EXTVLCOPT) — giữ format mặc định (VLC) KHÔNG đổi để không phá vỡ
+  // playlist đang chạy tốt trên VLC/PC.
+  const useAppHeaderStyle = options.format === 'app';
   const lines = ['#EXTM3U', ''];
   entries = Array.isArray(entries) ? entries : [];
 
@@ -367,10 +378,23 @@ export function buildM3uPlaylist(entries = []) {
     // cho CDN không cần). Entry placeholder (trận chưa đá / chưa có link,
     // iptvReferer === undefined) không phải link phát -> không ghi.
     if (entry.iptvReferer !== undefined) {
-      if (entry.iptvReferer) lines.push(`#EXTVLCOPT:http-referrer=${entry.iptvReferer}`);
-      lines.push(`#EXTVLCOPT:http-user-agent=${IPTV_HEADER_UA}`);
+      if (useAppHeaderStyle) {
+        // Không ghi #EXTVLCOPT ở format này — gắn thẳng header vào URL bên
+        // dưới (xem đoạn push(url) phía sau) để app IPTV dùng ExoPlayer đọc
+        // được, VLC không hiểu quy ước "|" này nên KHÔNG dùng file format
+        // "app" trên VLC.
+      } else {
+        if (entry.iptvReferer) lines.push(`#EXTVLCOPT:http-referrer=${entry.iptvReferer}`);
+        lines.push(`#EXTVLCOPT:http-user-agent=${IPTV_HEADER_UA}`);
+      }
     }
-    lines.push(url);
+    let outUrl = url;
+    if (useAppHeaderStyle && entry.iptvReferer !== undefined) {
+      const headerParts = [`User-Agent=${IPTV_HEADER_UA}`];
+      if (entry.iptvReferer) headerParts.push(`Referer=${entry.iptvReferer}`);
+      outUrl = `${url}|${headerParts.join('&')}`;
+    }
+    lines.push(outUrl);
     lines.push('');
   }
 

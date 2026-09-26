@@ -170,6 +170,26 @@ class ChuoiChienTvService {
     return 'HLS';
   }
 
+  // FIX (17/09/2026, khôi phục 26/09/2026 — bị THIẾU trong bản zip
+  // "nguonvip-fixed" người dùng gửi lại, dù đã ghi nhận là đã sửa trước đó):
+  // 1 số BLV trả link trần trên CDN edgemaxcdn.org/hdplaylink.com KHÔNG kèm
+  // query string (không có token ký phiên kiểu wsSession/wsIPSercert/
+  // wsBindIP/wsserid — so sánh với link CÙNG CDN nhưng phát được, luôn có
+  // các query này) — CHẮC CHẮN lỗi (thiếu token, không phải do Referer sai)
+  // dù Referer set đúng cỡ nào. Loại các BLV này khỏi danh sách ngay từ lúc
+  // dựng match để không đưa kênh chắc chắn lỗi vào playlist/danh sách chọn
+  // BLV, tránh người xem chọn nhầm rồi báo lỗi Referer trong khi bệnh thật
+  // là thiếu token.
+  hasLikelyPlayToken(url) {
+    const cdn = this.detectCdn(url);
+    if (cdn !== 'EDGEMAX' && cdn !== 'HDPLAYLINK') return true; // CDN khác không biết quy luật, không chặn mù
+    try {
+      return new URL(url).search.length > 1; // có ít nhất 1 query param
+    } catch {
+      return false; // URL không hợp lệ -> coi như thiếu token, loại luôn
+    }
+  }
+
   normalizeMatch(m, referer) {
     const rawStatus = String(m.status || '').toLowerCase();
     const isNotStarted = NOT_STARTED_STATUSES.has(rawStatus);
@@ -202,7 +222,7 @@ class ChuoiChienTvService {
       // trên. null nếu chưa dò được/dò lỗi, m3uPlaylist.js/hls.js tự rơi
       // về danh sách ứng viên hardcode như cũ.
       referer: referer || null
-    }))).filter((c) => c.streamUrl);
+    }))).filter((c) => c.streamUrl && this.hasLikelyPlayToken(c.streamUrl));
 
     return {
       matchId: `cct_${externalId}`,

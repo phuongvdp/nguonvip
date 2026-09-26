@@ -74,13 +74,16 @@ export default async function handler(req, res) {
     const bySport = filterBySportTab(matches, sportTab);
     const playable = filterBySource(bySport, sourceKey);
     const entries = await matchesToPlaylistEntries(playable, { baseUrl });
-    const playlist = buildM3uPlaylist(entries);
+    // ?format=app — xem chú thích trong buildM3uPlaylist(): dùng cho app
+    // IPTV Android (ExoPlayer) thay vì VLC.
+    const format = String(req.query.format || 'vlc') === 'app' ? 'app' : 'vlc';
+    const playlist = buildM3uPlaylist(entries, { format });
 
     const ageSec = generatedAt ? Math.max(0, Math.round((Date.now() - generatedAt) / 1000)) : 0;
     // Tên file phản ánh cả nguồn lẫn môn thể thao khi có lọc, ví dụ
     // "live-phaohoa-football.m3u" — giúp phân biệt khi tải nhiều playlist
     // khác nhau về cùng 1 máy/app IPTV.
-    const fileSlug = sourceKey === 'all' ? sportTab : `${sourceKey}-${sportTab}`;
+    const fileSlug = (sourceKey === 'all' ? sportTab : `${sourceKey}-${sportTab}`) + (format === 'app' ? '-app' : '');
 
     res.setHeader('Content-Type', 'audio/x-mpegurl');
     res.setHeader(

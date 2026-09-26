@@ -73,9 +73,10 @@ function writeState(state) {
   fs.writeFileSync(STATE_PATH, JSON.stringify(state, null, 2) + '\n', 'utf8');
 }
 
-async function fetchPlaylist(sport, source) {
+async function fetchPlaylist(sport, source, format) {
   const params = new URLSearchParams({ sport });
   if (source) params.set('source', source);
+  if (format) params.set('format', format);
   const url = `${SITE_URL}/api/playlist?${params.toString()}`;
   const res = await fetch(url, { headers: { 'User-Agent': 'generate-playlists-ci' } });
   if (!res.ok) {
@@ -98,6 +99,16 @@ async function generateOnce() {
       const matchCount = (content.match(/^#EXTINF/gm) || []).length;
       if (sport === 'all') liveMatchCount = matchCount; // playlist "all" = mọi trận đang live có stream, dùng làm chỉ số quyết định giãn/thu chu kỳ
       console.log(`[generate-playlists] ${filename}: ${matchCount} trận`);
+
+      // FIX (26/09/2026 — "VLC được, app IPTV điện thoại không xem được"):
+      // sinh thêm bản "-app.m3u" dùng cú pháp header kiểu "|Referer=..."
+      // cho app IPTV Android (ExoPlayer, không hiểu #EXTVLCOPT) — xem
+      // buildM3uPlaylist() trong m3uPlaylist.js. File .m3u gốc (VLC) GIỮ
+      // NGUYÊN không đổi.
+      const appContent = await fetchPlaylist(sport, null, 'app');
+      const appFilename = `${sport}-app.m3u`;
+      fs.writeFileSync(path.join(OUTPUT_DIR, appFilename), appContent, 'utf8');
+      console.log(`[generate-playlists] ${appFilename}: ${(appContent.match(/^#EXTINF/gm) || []).length} trận`);
     } catch (err) {
       hasError = true;
       console.error(`[generate-playlists] Lỗi khi tạo playlist "${sport}":`, err.message);
@@ -114,6 +125,11 @@ async function generateOnce() {
       fs.writeFileSync(path.join(OUTPUT_DIR, filename), content, 'utf8');
       const matchCount = (content.match(/^#EXTINF/gm) || []).length;
       console.log(`[generate-playlists] ${filename}: ${matchCount} trận`);
+
+      const appContent = await fetchPlaylist('all', source, 'app');
+      const appFilename = `source-${source}-app.m3u`;
+      fs.writeFileSync(path.join(OUTPUT_DIR, appFilename), appContent, 'utf8');
+      console.log(`[generate-playlists] ${appFilename}: ${(appContent.match(/^#EXTINF/gm) || []).length} trận`);
     } catch (err) {
       hasError = true;
       console.error(`[generate-playlists] Lỗi khi tạo playlist nguồn "${source}":`, err.message);
