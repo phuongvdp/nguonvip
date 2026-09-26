@@ -1,14 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:38:37 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:40:50 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (24 trận), Chuối Chiên (20 trận), Phá Làng (67 trận), Gà Vàng (17 trận), Sao Kê (23 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (11 trận), Khán Đài (24 trận), Chuối Chiên (20 trận), Phá Làng (67 trận), Gà Vàng (17 trận), Sao Kê (23 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 26/09 13:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
 https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/93/Ulsan_Hyundai_Mobis_Phoebus.svg" group-title="Giờ Vàng" , 26/09 14:30 🟢 🏀 Mobis Phoebus vs LG Sakers (Giovang 1)
-https://eqr2hdarxfliv.vcdn.cloud/1790354009_hd/1790354009_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/11195709883b36ac5758a1fcca882fe1.png" group-title="Phá Làng" , 26/09 15:00 🟢 ⚽ CSA Steaua Bucuresti - Lindab Stefanesti (Server 1)
 https://lilive1.eu.cc/live/e37187c9364575ca2fb901d028f0179c/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
@@ -36,9 +33,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8|User-Agent=Mozilla/5.
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/3e0f32098666dc42dec09abd4fece6d5.png" group-title="Phá Làng" , 26/09 16:00 🟢 ⚽ Pakistan - Thailand (LÝ LONG)
 https://lilive1.eu.cc/live/17949cb4e9f951a7dce758a43f0cd1ff/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
-
-#EXTINF:-1 group-title="Khán Đài" , 26/09 17:00 🟡 ⚽ Hong Kong vs Laos (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/hong-kong-vs-laos
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6356dcedfefdbc98de34cce75214de28.png" group-title="Phá Làng" , 26/09 17:00 🟡 ⚽ Cherno More Varna - FC Dunav Ruse (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66h8z2l7qo9
@@ -481,6 +475,9 @@ https://vip3.saoketv40.xyz/south-korea-vs-philippines-6ab5c90e5f2e6310e08c7f46.h
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_hdpF9Rm.jpg" group-title="Khán Đài" , 27/09 14:00 🏐 Việt Nam vs Ấn Độ (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/viet-nam-vs-an-do
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_WqmhllM.jpg" group-title="Khán Đài" , 27/09 14:00 🏐 Indonesia vs Thái Lan (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/indonesia-vs-thai-lan
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 27/09 14:00 🏐 Indonesia vs Thailand (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/992509/indonesia-vs-thailand
