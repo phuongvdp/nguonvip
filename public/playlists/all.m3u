@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:49:28 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:51:43 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (18 trận), Chuối Chiên (20 trận), Phá Làng (38 trận), Gà Vàng (9 trận), Sao Kê (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (18 trận), Chuối Chiên (20 trận), Phá Làng (42 trận), Gà Vàng (9 trận), Sao Kê (20 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_uiH5uS2.jpg" group-title="Khán Đài" , 27/09 02:00 🟢 🏐 Ba Lan vs Pháp (KaKa)
@@ -43,6 +43,26 @@ https://lilive1.eu.cc/live/b8365574dee534f85194bc3b4c14708d/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/butchi/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5c01731e3c513a3797c85b95c436e0d9.png" group-title="Phá Làng" , 27/09 06:40 🟢 ⚽ Charlotte FC - Chicago Fire (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/1ee6941eaf2c86a5dc888c8c575677d1/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/574f1ee560e8835e605176cac36a87db.png" group-title="Phá Làng" , 27/09 06:40 🟢 ⚽ Philadelphia Union - Orlando City (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/952683dd96fd302855a0a936340048ef/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/dcb67dd58619e29d84853ac2e4ac5e27.png" group-title="Phá Làng" , 27/09 06:40 🟢 ⚽ Atlanta United - New York City Football Club (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/b6dcca7e6bfa08fcf1fce4e3a15bbce8/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/abd87a03b9befd43df6c45c9b17e9a79.png" group-title="Phá Làng" , 27/09 06:40 🟢 ⚽ Montreal Impact - FC Cincinnati (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/ab7cc89b3225defadcd909ad8aa5a932/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/nashville-sc.png" group-title="Giờ Vàng" , 27/09 07:30 🟡 ⚽ Nashville SC vs Toronto FC (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-nashville-sc-vs-toronto-fc-27-09-6aadd0bf24d46db870f287af
