@@ -1,22 +1,16 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:58:01 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:00:23 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (18 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Chuối Chiên" , 26/09 19:30 🟢 ⚽ Việt Nam vs Philippines (Chuối Ngao (HD))
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoingao/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132805_2c5424f2.png" group-title="Chuối Chiên" , 26/09 20:00 🟢 ⚽ South Africa vs Guinea (Chuối Chao (HD))
-https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Chuối Chiên" , 26/09 22:00 🟡 🏐 Finland vs Slovenia (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/993757/finland-vs-slovenia
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134301_6c3d41f1.png" group-title="Chuối Chiên" , 26/09 23:00 ⚽ San Marino vs Finland (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134301_6c3d41f1.png" group-title="Chuối Chiên" , 26/09 23:00 🟡 ⚽ San Marino vs Finland (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1528888/san-marino-vs-finland
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134250_a98f2608.png" group-title="Chuối Chiên" , 26/09 23:00 ⚽ Iceland vs Estonia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134250_a98f2608.png" group-title="Chuối Chiên" , 26/09 23:00 🟡 ⚽ Iceland vs Estonia (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1528890/iceland-vs-estonia
 
 # ----- Ngày 2026-09-27 -----
@@ -61,3 +55,6 @@ https://live05.chuoichientv.me/live/1641706/hong-kong-vs-laos
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135806_f9a41cc0.png" group-title="Chuối Chiên" , 27/09 16:00 ⚽ Đồng Tháp vs Thai Nguyen (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1634973/dong-thap-vs-thai-nguyen
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Chuối Chiên" , 27/09 17:00 🏐 China vs Chinese Taipei (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/993780/china-vs-chinese-taipei

@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:58:01 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:00:23 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (2 trận), Khán Đài (10 trận), Chuối Chiên (6 trận), Phá Làng (3 trận) =====
 
@@ -18,9 +18,6 @@ https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pull.digitalcdn.net/live/f89aa01792304bd4b9b5c7fda38a9a87/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Chuối Chiên" , 26/09 22:00 🟡 🏐 Finland vs Slovenia (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/993757/finland-vs-slovenia
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/channels4_profile.jpg" group-title="Khán Đài" , 26/09 23:15 🏐 Milano vs Scandicci (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/milano-vs-scandicci
@@ -72,6 +69,9 @@ https://live05.chuoichientv.me/live/995852/india-vs-viet-nam
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_OOrZwnR.jpg" group-title="Khán Đài" , 27/09 17:00 🏐 Trung Quốc vs Đài Loan (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/trung-quoc-vs-dai-loan
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Chuối Chiên" , 27/09 17:00 🏐 China vs Chinese Taipei (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/993780/china-vs-chinese-taipei
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Khán Đài" , 27/09 17:20 🏐 Nhật Bản vs Uzbekistan (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/nhat-ban-vs-uzbekistan
