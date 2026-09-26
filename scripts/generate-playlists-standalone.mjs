@@ -108,6 +108,19 @@ const MAX_RUNTIME_MS = MAX_RUNTIME_MIN * 60 * 1000;
 // repo của người dùng.
 const AUTO_COMMIT = process.env.GENERATE_AUTO_COMMIT === '1';
 
+// FIX (26/09/2026 — lưới an toàn cuối cùng, xem chú thích try/catch trong
+// vòng lặp while ở main()): phòng trường hợp cực hiếm 1 lỗi ném ra từ 1
+// Promise KHÔNG được await đúng cách (unhandledRejection) hoặc lỗi đồng bộ
+// lọt ra ngoài mọi try/catch (uncaughtException) — mặc định Node sẽ crash
+// cả tiến trình ngay lập tức. Chỉ LOG rồi cho tiến trình sống tiếp, để
+// job không bị dừng oan giữa chừng vì 1 lỗi lẻ tẻ.
+process.on('unhandledRejection', (err) => {
+  console.error('[generate-playlists] unhandledRejection (đã chặn, không crash job):', err);
+});
+process.on('uncaughtException', (err) => {
+  console.error('[generate-playlists] uncaughtException (đã chặn, không crash job):', err);
+});
+
 function isWatchMode() {
   return process.argv.includes('--watch');
 }
@@ -453,7 +466,26 @@ async function main() {
     );
     // eslint-disable-next-line no-constant-condition
     while (true) {
-      await runCycle();
+      // FIX (26/09/2026 — "chạy hết 1 chu kỳ thì dừng hẳn, không tự chạy
+      // chu kỳ mới"): trước đây KHÔNG có try/catch nào bọc quanh
+      // runCycle()/buildAggregatedMatches() ở đây — chỉ cần 1 lần lỗi
+      // mạng/parse bất ngờ (không phải lỗi trong từng vòng for đã có
+      // try/catch riêng ở generateOnce(), mà là lỗi ngay từ chính bước
+      // buildAggregatedMatches() gộp dữ liệu) là ném exception CHƯA BẮT lên
+      // tới đây, làm literally crash cả tiến trình Node -> GitHub Actions
+      // coi cả JOB là thất bại -> dừng hẳn, không bao giờ chạm tới nhánh
+      // triggerSelfRestart() lẫn vòng lặp kế tiếp. Bọc try/catch NGAY VÒNG
+      // LẶP để 1 chu kỳ lỗi chỉ bị bỏ qua (giống hệt cách runCycle() đã tự
+      // bảo vệ commitAndPush()), tiến trình vẫn sống tiếp tới chu kỳ sau.
+      try {
+        await runCycle();
+      } catch (err) {
+        console.error(
+          '[generate-playlists] Lỗi KHÔNG lường trước ở cả chu kỳ (không phải lỗi riêng 1 nguồn) — ' +
+          'bỏ qua, thử lại ở chu kỳ kế tiếp (2 phút sau), KHÔNG dừng job:',
+          err && err.stack ? err.stack : err
+        );
+      }
 
       const elapsedMs = Date.now() - startedAt;
       if (elapsedMs >= MAX_RUNTIME_MS) {
