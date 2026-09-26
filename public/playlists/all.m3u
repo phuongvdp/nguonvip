@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 12:40:55 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 12:43:47 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (59 trận), Gà Vàng (19 trận), Sao Kê (21 trận) =====
 
@@ -34,16 +34,20 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/quanghuy/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790353793_hd/1790353793_hd@720p.m3u8
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134337_d547f1b2.png" group-title="Chuối Chiên" , 26/09 13:00 🟢 ⚽ China PR U23 vs U23 Thailand  (Chuối Chao (HD))
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/bbbfae3d9a5920f2da3b716cd2f54f94.png" group-title="Phá Làng" , 26/09 13:00 🟢 ⚽ China U23 - Thailand U23 (LÝ LIỀU LĨNH)
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/7c573a7a7c735053c4910733807a2a70/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134337_d547f1b2.png" group-title="Chuối Chiên" , 26/09 13:00 🟡 ⚽ China PR U23 vs U23 Thailand  (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1641726/china-pr-u23-vs-u23-thailand
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/317240.png" group-title="Sao Kê" , 26/09 13:00 🟡 ⚽ China U23 vs Thailand U23 (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/china-u23-vs-thailand-u23-6ab5c810a98792e63a6feb0d.html
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/317240.png" group-title="Sao Kê" , 26/09 13:00 🟢 ⚽ China U23 vs Thailand U23 (Bút Chì)
+#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://stm6dad62063600.stream.hdplaylink.com/sklive/butchi/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc8xggt88QDEI2jKI05T84yLgVlTUmYpYJNzKYJMdjUw&s=10" group-title="Giờ Vàng" , 26/09 14:00 🏀 Chinese Taipei W vs China W (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-chinese-taipei-w-vs-china-w-26-09-j4yobshzor84
