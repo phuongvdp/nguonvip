@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:05:46 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:08:02 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (9 trận), Khán Đài (15 trận), Chuối Chiên (19 trận), Phá Làng (33 trận), Gà Vàng (5 trận), Sao Kê (19 trận) =====
 
@@ -34,14 +34,16 @@ https://eqr2hdarxfliv.vcdn.cloud/1790353491_hd/1790353491_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/carot/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/cf-atlante.png" group-title="Giờ Vàng" , 26/09 08:00 🟢 ⚽ CF Atlante vs Monterrey (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790353693_hd/1790353693_hd@720p.m3u8
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/honduras.png" group-title="Giờ Vàng" , 26/09 08:00 🟡 ⚽ Honduras vs Suriname (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-honduras-vs-suriname-26-09-6aadd0af24d46db870f256ab
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/aek-larnaca.png" group-title="Giờ Vàng" , 26/09 08:00 🟡 ⚽ Cavalry vs Supra du Quebec (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-cavalry-vs-supra-du-quebec-26-09-6ab5ba5b09ca9ecd47090974
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/cf-atlante.png" group-title="Giờ Vàng" , 26/09 08:00 🟡 ⚽ CF Atlante vs Monterrey (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-cf-atlante-vs-monterrey-26-09-6aac7f5924d46db87036c9db
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133843_6c2369a8.png" group-title="Chuối Chiên" , 26/09 08:00 🟡 ⚽ Atlante FC vs Monterrey (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1550975/atlante-fc-vs-monterrey
