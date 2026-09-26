@@ -1,54 +1,29 @@
 #EXTM3U
 # Cập nhật lần cuối: 08:48:41 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (48 trận), Gà Vàng (16 trận), Sao Kê (22 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (7 trận), Khán Đài (15 trận), Chuối Chiên (19 trận), Phá Làng (48 trận), Gà Vàng (3 trận), Sao Kê (22 trận) =====
 
 # ----- Ngày 2026-09-26 -----
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png" group-title="Giờ Vàng" , 26/09 03:05 🟢 ⚽ New York Yankees vs Baltimore Orioles (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790340073_hd/1790340073_hd@720p.m3u8
-
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 26/09 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
+https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/jamaica.png" group-title="Giờ Vàng" , 26/09 07:00 🟢 ⚽ Jamaica vs Guatemala (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790353491_hd/1790353491_hd@720p.m3u8
+https://eqr2hdarxfliv.vcdn.cloud/1790353491_hd/1790353491_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5806.png" group-title="Sao Kê" , 26/09 07:00 🟢 ⚽ Jamaica vs Guatemala (Cà Rốt)
-#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://stm6dad62063600.stream.hdplaylink.com/sklive/carot/playlist.m3u8
+https://stm6dad62063600.stream.hdplaylink.com/sklive/carot/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/honduras.png" group-title="Giờ Vàng" , 26/09 08:00 🟢 ⚽ Honduras vs Suriname (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790353579_hd/1790353579_hd@720p.m3u8
+https://eqr2hdarxfliv.vcdn.cloud/1790353579_hd/1790353579_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/cf-atlante.png" group-title="Giờ Vàng" , 26/09 08:00 🟢 ⚽ CF Atlante vs Monterrey (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790353693_hd/1790353693_hd@720p.m3u8
+https://eqr2hdarxfliv.vcdn.cloud/1790353693_hd/1790353693_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133843_6c2369a8.png" group-title="Chuối Chiên" , 26/09 08:00 🟢 ⚽ Atlante FC vs Monterrey (Chuối Chao (HD))
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
+https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1942.png" group-title="Sao Kê" , 26/09 08:00 🟢 ⚽ Atlante vs Monterrey (Củ Cải)
-#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://stm6dad62063600.stream.hdplaylink.com/sklive/cucai/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/c0545fedca603c646fb0ad06bea4561a.png" group-title="Gà Vàng" , 26/09 09:00 🟡 🏀 Dorados de Chihuahua vs Soles de Mexicali (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/58MDezoOT1DAkMexRNiW3w_96x96.png" group-title="Giờ Vàng" , 26/09 09:15 🟡 ⚽ Los Angeles Dodgers vs San Francisco Giants (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-los-angeles-dodgers-vs-san-francisco-giants-26-09-xpvewqum40sh
+https://stm6dad62063600.stream.hdplaylink.com/sklive/cucai/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/club-tijuana.png" group-title="Giờ Vàng" , 26/09 10:00 ⚽ Club Tijuana vs Atlas (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-club-tijuana-vs-atlas-26-09-6aac7f5924d46db87036ca5a
@@ -67,9 +42,6 @@ https://vip3.saoketv40.xyz/tijuana-vs-atlas-6ab53656552ae1acb6b64679.html
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3459c6f198408abfea9d4a69273d6dcc.png" group-title="Phá Làng" , 26/09 11:00 ⚽ New Caledonia Women - Solomon Islands (w) Soccer (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#zp5rzgh3ywpxq82
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Seoul_SK_Knights_logo.svg/500px-Seoul_SK_Knights_logo.svg.png" group-title="Giờ Vàng" , 26/09 12:00 🏀 Seoul Knights vs Wonju DB (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-seoul-knights-vs-wonju-db-26-09-801iezbe0koj
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132418_63241790.png" group-title="Chuối Chiên" , 26/09 12:00 ⚽ Renofa Yamaguchi vs Sagamihara (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1555718/renofa-yamaguchi-vs-sagamihara
@@ -92,14 +64,8 @@ https://phalang.live/trang-chu#y0or5jh9xj25qwz
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/317240.png" group-title="Sao Kê" , 26/09 13:00 ⚽ China U23 vs Thailand U23 (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/china-u23-vs-thailand-u23-6ab5c810a98792e63a6feb0d.html
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc8xggt88QDEI2jKI05T84yLgVlTUmYpYJNzKYJMdjUw&s=10" group-title="Giờ Vàng" , 26/09 14:00 🏀 Chinese Taipei W vs China W (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-chinese-taipei-w-vs-china-w-26-09-j4yobshzor84
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f3f2e9c5843d2acfa65bc79088902d53.png" group-title="Phá Làng" , 26/09 14:00 ⚽ Papua New Guinea Women - Vanuatu Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#1l4rjnhnylkjm7v
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/93/Ulsan_Hyundai_Mobis_Phoebus.svg" group-title="Giờ Vàng" , 26/09 14:30 🏀 Mobis Phoebus vs LG Sakers (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-mobis-phoebus-vs-lg-sakers-26-09-w570xi3ru16c
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/dda72c92fb0464e77807b12a5db4994d.png" group-title="Phá Làng" , 26/09 15:00 ⚽ Sepsi OSK Sfantul Gheorghe - A.C.F. Gloria Bistrita (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l7oqdehjy2ker51
@@ -233,29 +199,11 @@ https://phalang.live/trang-chu#pxwrxlhlpeo5ryk
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/254d8af284bd9fdd575937e09d63fd83.png" group-title="Phá Làng" , 26/09 21:00 ⚽ Aris Limassol - Omonia 29is Maiou (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#vjxm8ghkv3ndr6o
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/6bcf841b7ade1b3efbecaaba49bc104b.png" group-title="Gà Vàng" , 26/09 21:00 🏀 AZS UMCS Lublin Women vs Jelenia Gora Women (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/9021bc99528ac0b36ad69602cd3bdf69.png" group-title="Gà Vàng" , 26/09 21:00 🏀 BK Ogre vs VEF Riga Juniors (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1225382.png" group-title="Sao Kê" , 26/09 21:00 ⚽ FC Järfälla vs AFC Eskilstuna (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/fc-jarfalla-vs-afc-eskilstuna-6ab5c810a98792e63a6feb00.html
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/24cba276880b49388d3bd24a3a3c738b.png" group-title="Gà Vàng" , 26/09 21:30 🏀 SK Legia Warszawa vs Especially in Sopot (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/aaa53ddd85d05f1e7fb16f861b15fec0.png" group-title="Gà Vàng" , 26/09 21:45 🏀 Al Ittihad Saudi Arabia vs Kuwait SC (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/7fc7f8abf95e4d3d969fbb95c601a7c5.png" group-title="Gà Vàng" , 26/09 21:45 🏀 Al Riyadi Beirut vs Indian Railways (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/download_ky44Uf7.png" group-title="Khán Đài" , 26/09 22:00 ⚽ Kuwait vs Iraq (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/kuwait-vs-iraq-26-09-2026-857453
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_143111_f0cb8ab0.png" group-title="Chuối Chiên" , 26/09 22:00 🏐 Slovakia W vs Poland (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/998947/slovakia-w-vs-poland
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b5e300bc77ac2ffd21c313b3634e78f0.png" group-title="Phá Làng" , 26/09 22:00 ⚽ Dragons - Coton de Ouidah (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#2y8m4zh5kegwql0
@@ -272,14 +220,8 @@ https://phalang.live/trang-chu#965mkyhk60z7r1g
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e38c289658417160930e5d8487136482.png" group-title="Phá Làng" , 26/09 22:00 ⚽ Association Sportive de la Vallée de l'Ouémé FC - USS Krake (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#jw2r09hkoglxrz8
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/56c0276997d093341dd3843c96238e6c.png" group-title="Gà Vàng" , 26/09 22:00 🏀 Wisla Can-Pack Women vs Wroclaw Women's (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7b7d2b65c1ee63aee9e79ebafb2f0bc7.png" group-title="Phá Làng" , 26/09 22:30 ⚽ Pogon Szczecin - Udinese (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#vjxm8ghkv9por6o
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/67fba759f6d16664c4f4e0428522eaef.png" group-title="Gà Vàng" , 26/09 22:30 🏀 Helios Domzale vs Hopsi Polzela (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/501402ebbaa8555329c25b52fe79ecb2.png" group-title="Phá Làng" , 26/09 22:55 ⚽ Kuwait - Iraq (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#x7lm7phjl7lgm2w
@@ -329,26 +271,11 @@ https://phalang.live/trang-chu#zp5rzgh3y48yq82
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/000c1f3cb6b6fb828f0fa8f893f7c0c1.png" group-title="Phá Làng" , 26/09 23:00 ⚽ CD Anaitasuna FT - CD Tedeon (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#zp5rzghg8n9dq82
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/075c6d74fd41e1a2d1cc7cc0cde5f25d.png" group-title="Gà Vàng" , 26/09 23:00 🏀 Sosnowiec Women vs Bochnia (W) (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/2ad9613346e54adc87faf94777de7682.png" group-title="Gà Vàng" , 26/09 23:00 🏀 Zlatorog Lasko vs Triglav Kranj (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/1bf1295069371154eefee5ae4bffd68d.png" group-title="Gà Vàng" , 26/09 23:00 🏀 Artego Bydgoszcz Women vs Energa Torun Women (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/4c5f675412fc49259a73681cb4623253.png" group-title="Gà Vàng" , 26/09 23:00 🏀 KK Igokea vs Siroki Prima Pivo (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6035.png" group-title="Sao Kê" , 26/09 23:00 ⚽ San Marino vs Finland (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/san-marino-vs-finland-6ab5c810a98792e63a6feb05.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8536.png" group-title="Sao Kê" , 26/09 23:00 ⚽ Iceland vs Estonia (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/iceland-vs-estonia-6ab5c810a98792e63a6feb06.html
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/9cf7850b0ea2916c4020064716be46f6.png" group-title="Gà Vàng" , 26/09 23:30 🏀 Borac vs Crvena Zvezda Belgrade (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_649.jpg" group-title="Khán Đài" , 27/09 01:00 ⚽ Oman vs Saudi Arabia (Chưa có link — chờ cập nhật)
@@ -395,9 +322,6 @@ https://vip3.saoketv40.xyz/czechia-vs-croatia-6ab5c810a98792e63a6feb03.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8491.png" group-title="Sao Kê" , 27/09 01:45 ⚽ England vs Spain (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/england-vs-spain-6ab5c810a98792e63a6feb04.html
-
-#EXTINF:-1 tvg-logo="https://platform.mmamania.com/wp-content/uploads/sites/110/2026/08/HPz3eAZXcAAocvy.jpeg?quality=90&strip=all&crop=0,10,100,80" group-title="Giờ Vàng" , 27/09 02:00 ⚽ Rosas Jr. vs Barcelos (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-rosas-jr-vs-barcelos-27-09-hbxb5hmfy6ng
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132739_e67768f5.png" group-title="Chuối Chiên" , 27/09 03:30 ⚽ USA vs Peru (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1628997/usa-vs-peru
