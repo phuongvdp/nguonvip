@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 11:44:24 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 11:46:39 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (22 trận) =====
 
@@ -7,8 +7,8 @@
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/162418.png" group-title="Sao Kê" , 26/09 10:00 🟢 ⚽ Tijuana vs Atlas (Củ Cải)
 https://stm6dad62063600.stream.hdplaylink.com/sklive/cucai/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/614556.png" group-title="Sao Kê" , 26/09 12:00 🟡 ⚽ Renofa Yamaguchi vs SC Sagamihara (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/renofa-yamaguchi-vs-sc-sagamihara-6ab5c810a98792e63a6feb07.html
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/614556.png" group-title="Sao Kê" , 26/09 12:00 🟢 ⚽ Renofa Yamaguchi vs SC Sagamihara (Quang Huy)
+https://stm6dad62063600.stream.hdplaylink.com/sklive/quanghuy/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/317240.png" group-title="Sao Kê" , 26/09 13:00 ⚽ China U23 vs Thailand U23 (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/china-u23-vs-thailand-u23-6ab5c810a98792e63a6feb0d.html
