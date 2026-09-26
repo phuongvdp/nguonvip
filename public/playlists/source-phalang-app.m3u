@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:34:36 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:36:57 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (57 trận) =====
 
@@ -22,6 +22,9 @@ https://lilive1.eu.cc/live/dffb365c11cd17291d6bb61dd3eb334a/playlist.m3u8|User-A
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f8ac17559f204d139563929dc7eeedeb.png" group-title="Phá Làng" , 26/09 21:15 🟢 ⚽ Granada CF - Andorra CF (LÝ LINH LỰC)
 https://lilive1.eu.cc/live/f697fb08e53c85d454c5a775430eb51f/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
 
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/89edbc2d87efa1b567cec6236bf337e7.png!w30" group-title="Phá Làng" , 26/09 22:00 🟢 🏐 Phần La - Slovenia (LÝ LIỀU LĨNH (Server 1))
+https://pull.digitalcdn.net/live/f89aa01792304bd4b9b5c7fda38a9a87/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b5e300bc77ac2ffd21c313b3634e78f0.png" group-title="Phá Làng" , 26/09 22:00 🟡 ⚽ Dragons - Coton de Ouidah (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#2y8m4zh5kegwql0
 
@@ -36,9 +39,6 @@ https://phalang.live/trang-chu#965mkyhk60z7r1g
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e38c289658417160930e5d8487136482.png" group-title="Phá Làng" , 26/09 22:00 🟡 ⚽ Association Sportive de la Vallée de l'Ouémé FC - USS Krake (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#jw2r09hkoglxrz8
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/89edbc2d87efa1b567cec6236bf337e7.png!w30" group-title="Phá Làng" , 26/09 22:00 🟡 🏐 Phần La - Slovenia (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#d8a859cce3d249d7a71ec59beb9113d3
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7b7d2b65c1ee63aee9e79ebafb2f0bc7.png" group-title="Phá Làng" , 26/09 22:30 🟡 ⚽ Pogon Szczecin - Udinese (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#vjxm8ghkv9por6o
