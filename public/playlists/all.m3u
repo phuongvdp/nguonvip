@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:07:23 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:09:44 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (24 trận), Chuối Chiên (20 trận), Phá Làng (48 trận), Gà Vàng (11 trận), Sao Kê (24 trận) =====
 
@@ -8,11 +8,6 @@
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/vietnam.png" group-title="Giờ Vàng" , 26/09 19:30 🟢 ⚽ Việt Nam vs Philippines (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790398911_hd/1790398911_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/14b75c2d38d88b747c19de8ea5509d16.png" group-title="Gà Vàng" , 26/09 20:00 🟢 ⚽ Vietnam vs Philippines (CRIS)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
@@ -412,6 +407,9 @@ https://phalang.live/trang-chu#l7oqdehgv359r51
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/bBruoNwS-ruTy2xns.png" group-title="Giờ Vàng" , 27/09 14:00 🏐 Ấn Độ vs Việt Nam (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-an-do-vs-viet-nam-27-09-h82vz08gj9fk
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/hong-kong.png" group-title="Giờ Vàng" , 27/09 14:00 ⚽ Hồng Kông vs Lào (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-hong-kong-vs-lao-27-09-6ab468f8b057b828a8092bd6
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_hdpF9Rm.jpg" group-title="Khán Đài" , 27/09 14:00 🏐 Việt Nam vs Ấn Độ (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/viet-nam-vs-an-do
