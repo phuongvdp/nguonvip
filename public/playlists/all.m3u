@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 05:58:08 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:00:20 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (18 trận), Chuối Chiên (19 trận), Phá Làng (40 trận), Gà Vàng (10 trận), Sao Kê (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (18 trận), Chuối Chiên (19 trận), Phá Làng (41 trận), Gà Vàng (10 trận), Sao Kê (20 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_uiH5uS2.jpg" group-title="Khán Đài" , 27/09 02:00 🟢 🏐 Ba Lan vs Pháp (KaKa)
@@ -13,11 +13,6 @@ https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/1b9d35a79766c74c5b437184864e1e81.png!w30" group-title="Phá Làng" , 27/09 02:00 🟢 🏐 Pháp - Ba Lan (LÝ LÊN LỬA (Server 1))
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://pull.digitalcdn.net/live/bf11164d0590473b97b03362fd3f2bb6/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/350ec526535f4c9a81f9d9201948d9d5.png" group-title="Gà Vàng" , 27/09 03:30 🟢 ⚽ USA vs Peru (A Long)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
@@ -34,8 +29,10 @@ https://eqr2hdarxfliv.vcdn.cloud/1789368755_hd/1789368755_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/69cf6331585c5992182f4160.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0c7660683be3429ea77999657fa17d79.png" group-title="Phá Làng" , 27/09 06:00 🟡 ⚽ Canada - Chile (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#318q66h8znloqo9
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0c7660683be3429ea77999657fa17d79.png" group-title="Phá Làng" , 27/09 06:00 🟢 ⚽ Canada - Chile (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/351ae40f23ea68ef14c74b2ac228655e/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131606_86e503ed.png" group-title="Chuối Chiên" , 27/09 06:30 🟡 ⚽ Atlanta United FC vs New York City FC (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1490497/atlanta-united-fc-vs-new-york-city-fc
@@ -307,6 +304,12 @@ https://phalang.live/trang-chu#ednm9wh58x1zryo
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/f0be701add6a4ef2cbe95c846741a1ad.png" group-title="Phá Làng" , 27/09 20:00 ⚽ Lithuania - Azerbaijan (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#ednm9whw5y0vryo
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/74b4f43e7bb7668fd648edc6208bb50d.png" group-title="Phá Làng" , 27/09 21:00 ⚽ CF San Rafael - AE Prat (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#4jwq2ghnl8jjm0v
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/02ec38de08e5725d895f41a5cd63e1c7.png" group-title="Phá Làng" , 27/09 21:00 ⚽ AEK Larnaca - Nea Salamis (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#n54qllh4519kqvy
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125628_01e49a9d.png" group-title="Chuối Chiên" , 27/09 21:15 ⚽ Mallorca vs Almeria (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1569944/mallorca-vs-almeria
 
@@ -397,3 +400,6 @@ https://giovang.city/truc-tiep-baltimore-ravens-vs-dallas-cowboys-28-09-clrkfsdy
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/424270.png" group-title="Sao Kê" , 28/09 04:00 ⚽ CD Jaguares vs Alianza FC (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/cd-jaguares-vs-alianza-fc-6ab777191883d81208dbbbab.html
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6001.png" group-title="Sao Kê" , 28/09 06:00 ⚽ Columbus Crew vs Inter Miami CF (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/columbus-crew-vs-inter-miami-cf-6ab777191883d81208dbbbac.html

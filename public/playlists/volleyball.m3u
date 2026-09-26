@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 05:58:09 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:00:20 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (2 trận), Khán Đài (8 trận), Chuối Chiên (7 trận), Phá Làng (5 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (2 trận), Khán Đài (8 trận), Chuối Chiên (7 trận), Phá Làng (4 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_uiH5uS2.jpg" group-title="Khán Đài" , 27/09 02:00 🟢 🏐 Ba Lan vs Pháp (KaKa)
@@ -13,11 +13,6 @@ https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/1b9d35a79766c74c5b437184864e1e81.png!w30" group-title="Phá Làng" , 27/09 02:00 🟢 🏐 Pháp - Ba Lan (LÝ LÊN LỬA (Server 1))
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://pull.digitalcdn.net/live/bf11164d0590473b97b03362fd3f2bb6/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_xjljaQl.jpg" group-title="Khán Đài" , 27/09 08:00 🏐 Iran vs Kyrgyzstan (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/iran-vs-kyrgyzstan
