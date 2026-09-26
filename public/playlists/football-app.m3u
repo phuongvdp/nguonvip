@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:14:56 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:17:15 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (15 trận), Chuối Chiên (15 trận), Phá Làng (66 trận), Gà Vàng (14 trận), Sao Kê (27 trận) =====
 
@@ -43,6 +43,9 @@ https://lilive1.eu.cc/live/9581d1934b52b9546c43f6bc247b8f4a/playlist.m3u8|User-A
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/9cbe8e6a8c5fbf1577577a4603b40627.png" group-title="Phá Làng" , 26/09 19:30 🟢 ⚽ Vietnam - Philippines (LÝ LÊN LỬA (Server 1))
 https://pull.digitalcdn.net/live/72e408299ff44dcc89cb50d9c1e5fb1f/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
 
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5894.png" group-title="Sao Kê" , 26/09 19:30 🟢 ⚽ Vietnam vs Philippines (Ricky)
+https://stm6dad62063600.stream.hdplaylink.com/sklive/ricky/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Chuối Chiên" , 26/09 19:30 🟡 ⚽ Việt Nam vs Philippines (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641705/viet-nam-vs-philippines
 
@@ -51,9 +54,6 @@ https://phalang.live/trang-chu#y0or5jh9x6glqwz
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/14b75c2d38d88b747c19de8ea5509d16.png" group-title="Gà Vàng" , 26/09 19:30 🟡 ⚽ Vietnam vs Philippines (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/vietnam-vs-philippines-ngay-26-09-2026/
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5894.png" group-title="Sao Kê" , 26/09 19:30 🟡 ⚽ Vietnam vs Philippines (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/vietnam-vs-philippines-6ab5c810a98792e63a6feb0c.html
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/slovenia.png" group-title="Giờ Vàng" , 26/09 20:00 🟡 ⚽ Slovenia vs Scotland (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-slovenia-vs-scotland-26-09-69f695d673ba0b335e0f2ec9
