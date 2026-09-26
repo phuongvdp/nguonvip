@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:12:39 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:15:45 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Khán Đài (10 trận), Chuối Chiên (8 trận), Phá Làng (3 trận) =====
 
@@ -24,7 +24,7 @@ https://pull.digitalcdn.net/live/f89aa01792304bd4b9b5c7fda38a9a87/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/channels4_profile.jpg" group-title="Khán Đài" , 26/09 23:15 🏐 Milano vs Scandicci (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/channels4_profile.jpg" group-title="Khán Đài" , 26/09 23:15 🟡 🏐 Milano vs Scandicci (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/milano-vs-scandicci
 
 # ----- Ngày 2026-09-27 -----
@@ -49,11 +49,6 @@ https://khandai3.link/truc-tiep/qatar-vs-hong-kong
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134251_b96e660a.png" group-title="Chuối Chiên" , 27/09 08:00 🏐 Iran vs Kyrgyzstan (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/997091/iran-vs-kyrgyzstan
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/604a26fb4f696d522d464fc2ff0919de.png!w80" group-title="Phá Làng" , 27/09 11:00 🟢 🏐 Hàn Quốc - Philippines (LÝ LÊN LỬA (Server 1))
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://pull.digitalcdn.net/live/eff4c2e266e948e28b8592b5d98294bd/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/dU3CQadM-p6UwsGvF.png" group-title="Giờ Vàng" , 27/09 11:00 🏐 Hàn Quốc vs Philippines (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-han-quoc-vs-philippines-27-09-mswzlftj4gx1
 
@@ -62,6 +57,9 @@ https://khandai3.link/truc-tiep/han-quoc-vs-philippines
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Chuối Chiên" , 27/09 11:00 🏐 South Korea vs Philippines (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/998910/south-korea-vs-philippines
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/604a26fb4f696d522d464fc2ff0919de.png!w80" group-title="Phá Làng" , 27/09 11:00 🏐 Hàn Quốc - Philippines (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#cccb533abef3463e9ae37678eab2652b
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/bBruoNwS-ruTy2xns.png" group-title="Giờ Vàng" , 27/09 14:00 🏐 Ấn Độ vs Việt Nam (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-an-do-vs-viet-nam-27-09-h82vz08gj9fk

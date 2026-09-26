@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:12:21 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:15:27 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (24 trận), Chuối Chiên (20 trận), Phá Làng (48 trận), Gà Vàng (10 trận), Sao Kê (23 trận) =====
 
@@ -140,7 +140,7 @@ https://vip3.saoketv40.xyz/san-marino-vs-finland-6ab5c810a98792e63a6feb05.html
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8536.png" group-title="Sao Kê" , 26/09 23:00 🟡 ⚽ Iceland vs Estonia (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/iceland-vs-estonia-6ab5c810a98792e63a6feb06.html
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/channels4_profile.jpg" group-title="Khán Đài" , 26/09 23:15 🏐 Milano vs Scandicci (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/channels4_profile.jpg" group-title="Khán Đài" , 26/09 23:15 🟡 🏐 Milano vs Scandicci (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/milano-vs-scandicci
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/c816a7cc7ab1eb6dcce3fb4408acd320.png" group-title="Gà Vàng" , 26/09 23:30 ⚽ Tenerife vs Cadiz CF (Chưa có link — chờ cập nhật)
@@ -360,11 +360,6 @@ https://giovang.city/truc-tiep-tigres-uanl-vs-puebla-27-09-6aadd0bf24d46db870f28
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8561.png" group-title="Sao Kê" , 27/09 10:10 ⚽ Tigres vs Puebla (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/tigres-vs-puebla-6ab5c84b552ae1acb6d9c777.html
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/604a26fb4f696d522d464fc2ff0919de.png!w80" group-title="Phá Làng" , 27/09 11:00 🟢 🏐 Hàn Quốc - Philippines (LÝ LÊN LỬA (Server 1))
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://pull.digitalcdn.net/live/eff4c2e266e948e28b8592b5d98294bd/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/QH2vkEDa-nRdGpyH6.png" group-title="Giờ Vàng" , 27/09 11:00 ⚽ Vanuatu vs New Caledonia (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-vanuatu-vs-new-caledonia-27-09-6ab5ba6009ca9ecd4709097d
 
@@ -382,6 +377,9 @@ https://phalang.live/trang-chu#4jwq2ghgo61om0v
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/eafed5361c70bffd85bedd16d0444f7a.png" group-title="Phá Làng" , 27/09 11:00 ⚽ Cook Islands - Tahiti (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4wyrn4hyz0gdq86
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/604a26fb4f696d522d464fc2ff0919de.png!w80" group-title="Phá Làng" , 27/09 11:00 🏐 Hàn Quốc - Philippines (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#cccb533abef3463e9ae37678eab2652b
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Sao Kê" , 27/09 11:00 ⚽ South Korea vs Philippines (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/south-korea-vs-philippines-6ab5c90e5f2e6310e08c7f46.html
