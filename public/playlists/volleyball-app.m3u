@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:59:07 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:01:26 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (2 trận), Khán Đài (9 trận), Chuối Chiên (6 trận), Phá Làng (2 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (2 trận), Khán Đài (9 trận), Chuối Chiên (6 trận), Phá Làng (3 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Imocovolley.png" group-title="Khán Đài" , 26/09 20:30 🟡 🏐 Imoco vs Novara (Chưa có link — chờ cập nhật)
@@ -49,6 +49,9 @@ https://khandai3.link/truc-tiep/han-quoc-vs-philippines
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Chuối Chiên" , 27/09 11:00 🏐 South Korea vs Philippines (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/998910/south-korea-vs-philippines
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/604a26fb4f696d522d464fc2ff0919de.png!w80" group-title="Phá Làng" , 27/09 11:00 🏐 Hàn Quốc - Philippines (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#cccb533abef3463e9ae37678eab2652b
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_hdpF9Rm.jpg" group-title="Khán Đài" , 27/09 14:00 🏐 Việt Nam vs Ấn Độ (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/viet-nam-vs-an-do
