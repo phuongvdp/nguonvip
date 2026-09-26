@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:27:50 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:30:07 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (24 trận), Chuối Chiên (20 trận), Phá Làng (65 trận), Gà Vàng (15 trận), Sao Kê (26 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (24 trận), Chuối Chiên (20 trận), Phá Làng (67 trận), Gà Vàng (15 trận), Sao Kê (26 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 26/09 13:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -67,16 +67,16 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/kai/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/120f24dadbb90aea10ca5c0c0cde76b4.png" group-title="Phá Làng" , 26/09 18:00 🟡 ⚽ FK Panevezys - BFA Vilnius (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#dj2ryoh7v405q1z
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/nantong-zhiyun.png" group-title="Giờ Vàng" , 26/09 18:30 ⚽ Nantong Zhiyun vs Changchun Yatai (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/nantong-zhiyun.png" group-title="Giờ Vàng" , 26/09 18:30 🟡 ⚽ Nantong Zhiyun vs Changchun Yatai (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-nantong-zhiyun-vs-changchun-yatai-26-09-6a4c418e24d46db870ec708c
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/d6e217ac051f3258b82d74a932d11ada.png" group-title="Giờ Vàng" , 26/09 18:30 🏀 Perth Wildcats vs New Zealand Breakers (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/d6e217ac051f3258b82d74a932d11ada.png" group-title="Giờ Vàng" , 26/09 18:30 🟡 🏀 Perth Wildcats vs New Zealand Breakers (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-perth-wildcats-vs-new-zealand-breakers-26-09-12222277
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/444ccd0f41b3dc4726dbbd26ea3d359c.png" group-title="Gà Vàng" , 26/09 18:30 ⚽ Spartak Kostroma vs Ural Yekaterinburg (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/444ccd0f41b3dc4726dbbd26ea3d359c.png" group-title="Gà Vàng" , 26/09 18:30 🟡 ⚽ Spartak Kostroma vs Ural Yekaterinburg (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/spartak-kostroma-vs-ural-yekaterinburg-ngay-26-09-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/b967348890e26c5ca68f7d26392f5984.png" group-title="Gà Vàng" , 26/09 18:30 🏀 Perth Wildcats vs New Zealand Breakers (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/b967348890e26c5ca68f7d26392f5984.png" group-title="Gà Vàng" , 26/09 18:30 🟡 🏀 Perth Wildcats vs New Zealand Breakers (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e003a3144349b595ee8b30c92d8124b5.png" group-title="Phá Làng" , 26/09 19:00 ⚽ Zaglebie Sosnowiec - Legia Warszawa (Chưa có link — chờ cập nhật)
@@ -228,6 +228,9 @@ https://phalang.live/trang-chu#965mkyhk60z7r1g
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e38c289658417160930e5d8487136482.png" group-title="Phá Làng" , 26/09 22:00 ⚽ Association Sportive de la Vallée de l'Ouémé FC - USS Krake (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#jw2r09hkoglxrz8
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/89edbc2d87efa1b567cec6236bf337e7.png!w30" group-title="Phá Làng" , 26/09 22:00 🏐 Phần La - Slovenia (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#d8a859cce3d249d7a71ec59beb9113d3
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7b7d2b65c1ee63aee9e79ebafb2f0bc7.png" group-title="Phá Làng" , 26/09 22:30 ⚽ Pogon Szczecin - Udinese (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#vjxm8ghkv9por6o
@@ -493,6 +496,9 @@ https://vip3.saoketv40.xyz/iran-vs-kyrgyzstan-6ab5c8d3a944e35a2ae75845.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/2254.png" group-title="Sao Kê" , 27/09 08:20 ⚽ Junior FC vs Independiente Medellín (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/junior-fc-vs-independiente-medellin-6ab5c84b552ae1acb6d9c776.html
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/88620f5162fd07e31d46b44f848bd9e5.png" group-title="Phá Làng" , 27/09 08:30 ⚽ Real Salt Lake - New England Revolution (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#4wyrn4h6lwj7q86
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131604_20c3f42a.png" group-title="Chuối Chiên" , 27/09 09:30 ⚽ Los Angeles Galaxy vs Colorado Rapids (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1490507/los-angeles-galaxy-vs-colorado-rapids

@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:27:51 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:30:07 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (2 trận), Khán Đài (9 trận), Chuối Chiên (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (2 trận), Khán Đài (9 trận), Chuối Chiên (4 trận), Phá Làng (1 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Logo_Imoco_Volley.png" group-title="Khán Đài" , 26/09 20:30 🏐 Imoco vs Novara (Chưa có link — chờ cập nhật)
@@ -15,6 +15,9 @@ https://khandai3.link/truc-tiep/phan-lan-vs-slovenia
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_143111_f0cb8ab0.png" group-title="Chuối Chiên" , 26/09 22:00 🏐 Slovakia W vs Poland (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/998947/slovakia-w-vs-poland
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/89edbc2d87efa1b567cec6236bf337e7.png!w30" group-title="Phá Làng" , 26/09 22:00 🏐 Phần La - Slovenia (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#d8a859cce3d249d7a71ec59beb9113d3
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/channels4_profile.jpg" group-title="Khán Đài" , 26/09 23:15 🏐 Milano vs Scandicci (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/milano-vs-scandicci
