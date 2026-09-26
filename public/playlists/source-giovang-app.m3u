@@ -1,11 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:02:43 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:05:04 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 26/09 13:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
 https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/vietnam.png" group-title="Giờ Vàng" , 26/09 19:30 🟢 ⚽ Việt Nam vs Philippines (Giovang 1)
+https://eqr2hdarxfliv.vcdn.cloud/1790398911_hd/1790398911_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/croatia-u21.png" group-title="Giờ Vàng" , 26/09 22:00 🟢 ⚽ Croatia U21 vs U21 Hungary (Giovang 1)
 https://eqr2hdarxfliv.vcdn.cloud/1790398882_hd/1790398882_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
@@ -56,8 +59,14 @@ https://giovang.city/truc-tiep-tigres-uanl-vs-puebla-27-09-6aadd0bf24d46db870f28
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/QH2vkEDa-nRdGpyH6.png" group-title="Giờ Vàng" , 27/09 11:00 ⚽ Vanuatu vs New Caledonia (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-vanuatu-vs-new-caledonia-27-09-6ab5ba6009ca9ecd4709097d
 
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/dU3CQadM-p6UwsGvF.png" group-title="Giờ Vàng" , 27/09 11:00 🏐 Hàn Quốc vs Philippines (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-han-quoc-vs-philippines-27-09-mswzlftj4gx1
+
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/t4IslGYg-vDolgDz8.png" group-title="Giờ Vàng" , 27/09 12:00 🏀 Suwon KT vs Goyang Sono (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-suwon-kt-vs-goyang-sono-27-09-8bgpf1zn201s
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/6a6d3d4063e675d1ce3e701153e3f367.png" group-title="Giờ Vàng" , 27/09 13:00 🏀 Adelaide 36ers vs Cairns Taipans (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-adelaide-36ers-vs-cairns-taipans-27-09-13222278
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/6akehaEa-QVr2kiM7.png" group-title="Giờ Vàng" , 27/09 14:30 🏀 KCC Egis vs KoGas (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-kcc-egis-vs-kogas-27-09-2r7qd42iyadf

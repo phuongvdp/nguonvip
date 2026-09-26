@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:02:43 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:05:04 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (2 trận), Khán Đài (10 trận), Chuối Chiên (7 trận), Phá Làng (3 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (3 trận), Khán Đài (10 trận), Chuối Chiên (8 trận), Phá Làng (3 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/OR16mUDJv-0yTyh-jxlaKQ_96x96.png" group-title="Giờ Vàng" , 26/09 22:00 🟢 🏐 Phần Lan vs Slovenia (Giovang 1)
@@ -54,6 +54,9 @@ https://live05.chuoichientv.me/live/997091/iran-vs-kyrgyzstan
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pull.digitalcdn.net/live/eff4c2e266e948e28b8592b5d98294bd/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/dU3CQadM-p6UwsGvF.png" group-title="Giờ Vàng" , 27/09 11:00 🏐 Hàn Quốc vs Philippines (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-han-quoc-vs-philippines-27-09-mswzlftj4gx1
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_South_Korea.svg.webp" group-title="Khán Đài" , 27/09 11:00 🏐 Hàn Quốc vs Philippines (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/han-quoc-vs-philippines
 
@@ -80,3 +83,6 @@ https://live05.chuoichientv.me/live/993780/china-vs-chinese-taipei
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Khán Đài" , 27/09 17:20 🏐 Nhật Bản vs Uzbekistan (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/nhat-ban-vs-uzbekistan
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Chuối Chiên" , 27/09 17:20 🏐 Japan vs Uzbekistan (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/995830/japan-vs-uzbekistan
