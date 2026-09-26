@@ -346,6 +346,16 @@ async function generateOnce() {
       const matchCount = (content.match(/^#EXTINF/gm) || []).length;
       if (sport === 'all') liveMatchCount = bySport.filter((m) => m?.status?.isLive).length;
       console.log(`[generate-playlists] ${filename}: ${matchCount} kênh`);
+
+      // FIX (26/09/2026 — "VLC xem được, app IPTV điện thoại không xem
+      // được"): xem chú thích format 'app' trong buildM3uPlaylist()
+      // (m3uPlaylist.js) — sinh thêm bản "-app.m3u" dùng cú pháp header
+      // "|Referer=...&User-Agent=..." cho app IPTV Android (ExoPlayer).
+      // Dùng LẠI `entries` vừa tính ở trên (không quét/dò lại gì thêm).
+      const appContent = stampGeneratedAt(buildM3uPlaylist(entries, { format: 'app' }));
+      const appFilename = `${sport}-app.m3u`;
+      fs.writeFileSync(path.join(OUTPUT_DIR, appFilename), appContent, 'utf8');
+      console.log(`[generate-playlists] ${appFilename}: ${(appContent.match(/^#EXTINF/gm) || []).length} kênh`);
     } catch (err) {
       hasError = true;
       console.error(`[generate-playlists] Lỗi khi tạo playlist "${sport}":`, err.message);
@@ -362,6 +372,12 @@ async function generateOnce() {
       fs.writeFileSync(path.join(OUTPUT_DIR, filename), content, 'utf8');
       const matchCount = (content.match(/^#EXTINF/gm) || []).length;
       console.log(`[generate-playlists] ${filename}: ${matchCount} kênh`);
+
+      // FIX (26/09/2026): xem chú thích tương ứng ở vòng lặp SPORT_TABS phía trên.
+      const appContent = stampGeneratedAt(buildM3uPlaylist(entries, { format: 'app' }));
+      const appFilename = `source-${source}-app.m3u`;
+      fs.writeFileSync(path.join(OUTPUT_DIR, appFilename), appContent, 'utf8');
+      console.log(`[generate-playlists] ${appFilename}: ${(appContent.match(/^#EXTINF/gm) || []).length} kênh`);
 
       // FIX (25/09/2026 — "muốn proxy sống (hls.js) cũng hưởng Referer tự
       // dò" + "không deploy VPS/Vercel nào cả, chỉ lên GitHub"): LÚC ĐẦU

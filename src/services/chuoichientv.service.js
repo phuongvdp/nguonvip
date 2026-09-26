@@ -170,16 +170,15 @@ class ChuoiChienTvService {
     return 'HLS';
   }
 
-  // FIX (17/09/2026, khôi phục 26/09/2026 — bị THIẾU trong bản zip
-  // "nguonvip-fixed" người dùng gửi lại, dù đã ghi nhận là đã sửa trước đó):
-  // 1 số BLV trả link trần trên CDN edgemaxcdn.org/hdplaylink.com KHÔNG kèm
-  // query string (không có token ký phiên kiểu wsSession/wsIPSercert/
-  // wsBindIP/wsserid — so sánh với link CÙNG CDN nhưng phát được, luôn có
-  // các query này) — CHẮC CHẮN lỗi (thiếu token, không phải do Referer sai)
-  // dù Referer set đúng cỡ nào. Loại các BLV này khỏi danh sách ngay từ lúc
-  // dựng match để không đưa kênh chắc chắn lỗi vào playlist/danh sách chọn
-  // BLV, tránh người xem chọn nhầm rồi báo lỗi Referer trong khi bệnh thật
-  // là thiếu token.
+  // FIX (17/09/2026) rồi HOÀN TÁC (26/09/2026 — "trước vẫn xem được trên
+  // VLC mà giờ báo Chưa có link"): giả thuyết "link CDN edgemaxcdn.org/
+  // hdplaylink.com không có query string = chắc chắn thiếu token, chắc
+  // chắn lỗi" bị chính người dùng xác nhận SAI bằng thực tế — link trần
+  // KHÔNG kèm token (BLV "Trốc Tru"/"Chuối Chao") vẫn phát bình thường trên
+  // VLC khi Referer đúng. Hàm lọc này đang loại NHẦM link phát tốt ra khỏi
+  // danh sách BLV (match rơi vào playlist ở dạng "chưa có link", dù thật ra
+  // đã có link phát được) — KHÔNG dùng để lọc nữa, giữ lại hàm chỉ để tham
+  // khảo/debug thủ công khi cần, không gọi trong normalizeMatch() nữa.
   hasLikelyPlayToken(url) {
     const cdn = this.detectCdn(url);
     if (cdn !== 'EDGEMAX' && cdn !== 'HDPLAYLINK') return true; // CDN khác không biết quy luật, không chặn mù
@@ -222,7 +221,7 @@ class ChuoiChienTvService {
       // trên. null nếu chưa dò được/dò lỗi, m3uPlaylist.js/hls.js tự rơi
       // về danh sách ứng viên hardcode như cũ.
       referer: referer || null
-    }))).filter((c) => c.streamUrl && this.hasLikelyPlayToken(c.streamUrl));
+    }))).filter((c) => c.streamUrl);
 
     return {
       matchId: `cct_${externalId}`,
