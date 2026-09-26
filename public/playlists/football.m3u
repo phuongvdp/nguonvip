@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:27:01 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:29:20 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (11 trận), Khán Đài (15 trận), Chuối Chiên (14 trận), Phá Làng (63 trận), Gà Vàng (12 trận), Sao Kê (26 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (11 trận), Khán Đài (15 trận), Chuối Chiên (14 trận), Phá Làng (63 trận), Gà Vàng (13 trận), Sao Kê (26 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 26/09 13:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -13,11 +13,6 @@ https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790398800_hd/1790398800_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/444ccd0f41b3dc4726dbbd26ea3d359c.png" group-title="Gà Vàng" , 26/09 18:30 🟢 ⚽ Spartak Kostroma vs Ural Yekaterinburg (ĐOÀN DỰ)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/6a5df755b89dded67b39b8bc.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/809acdd49b4b1e55e7393c7575189e81.png" group-title="Gà Vàng" , 26/09 19:00 🟢 ⚽ Ekenas IF Fotboll vs SJK Seinäjoki (THICHDUTHU)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
@@ -93,6 +88,16 @@ https://lilive1.eu.cc/live/e64409f9f40392f9c66b4940685ffe38/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/dffb365c11cd17291d6bb61dd3eb334a/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/14b75c2d38d88b747c19de8ea5509d16.png" group-title="Gà Vàng" , 26/09 20:00 🟢 ⚽ Vietnam vs Philippines (CRIS)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/e4ba31fba036a999321d5460f7f2d1d1.png" group-title="Gà Vàng" , 26/09 20:00 🟢 ⚽ Slovenia vs Scotland (Lữ Bố.vip)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a9776215126529dede9bf51.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5787.png" group-title="Sao Kê" , 26/09 20:00 🟢 ⚽ Slovenia vs Scotland (Kai)
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
@@ -324,11 +329,11 @@ https://phalang.live/trang-chu#n54qllhn4g1vqvy
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3dd52d0f4d9de58ccdd0e54e70600884.png" group-title="Phá Làng" , 27/09 01:45 ⚽ Slovakia - Moldova (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#zp5rzghg3vwjq82
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/70fd3d5ba9c841ef932fae2cf0d7f3e7.png" group-title="Gà Vàng" , 27/09 01:45 ⚽ England vs Spain (Chưa có link — chờ cập nhật)
-https://gavanglinkq.tv/truc-tiep/england-vs-spain-ngay-27-09-2026/
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f06adf060c098f11e76fa2ff1565ba70.png" group-title="Gà Vàng" , 27/09 01:45 ⚽ North Macedonia vs Switzerland (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/north-macedonia-vs-switzerland-ngay-27-09-2026/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/70fd3d5ba9c841ef932fae2cf0d7f3e7.png" group-title="Gà Vàng" , 27/09 01:45 ⚽ England vs Spain (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/england-vs-spain-ngay-27-09-2026/
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8260.png" group-title="Sao Kê" , 27/09 01:45 ⚽ North Macedonia vs Switzerland (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/north-macedonia-vs-switzerland-6ab5c810a98792e63a6feb02.html
