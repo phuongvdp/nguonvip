@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:48:53 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:51:08 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (60 trận), Gà Vàng (17 trận), Sao Kê (25 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (17 trận), Chuối Chiên (20 trận), Phá Làng (60 trận), Gà Vàng (17 trận), Sao Kê (25 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 26/09 13:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -189,6 +189,9 @@ https://vip3.saoketv40.xyz/slovenia-vs-scotland-6ab5c810a98792e63a6feb01.html
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6316.png" group-title="Sao Kê" , 26/09 20:00 ⚽ South Africa vs Guinea (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/south-africa-vs-guinea-6ab5c810a98792e63a6feb09.html
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Logo_Imoco_Volley.png" group-title="Khán Đài" , 26/09 20:30 🏐 Imoco vs Novara (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/imoco-vs-novara
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ad3b9f3bd0ae60961e1cd9d7a797f9b0.png" group-title="Phá Làng" , 26/09 20:30 ⚽ PAOP Neas Amisou - Orfeas Eleftheroupoli (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6ypq3nhk6n5jmd7
 
@@ -242,6 +245,9 @@ https://giovang.city/truc-tiep-phan-lan-vs-slovenia-26-09-5oq5adzpdag8
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/download_ky44Uf7.png" group-title="Khán Đài" , 26/09 22:00 ⚽ Kuwait vs Iraq (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/kuwait-vs-iraq-26-09-2026-857453
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/pngtree-finland-flag-pin-badge-png-image_6333890.png" group-title="Khán Đài" , 26/09 22:00 🏐 Phần Lan vs Slovenia (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/phan-lan-vs-slovenia
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_143111_f0cb8ab0.png" group-title="Chuối Chiên" , 26/09 22:00 🏐 Slovakia W vs Poland (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/998947/slovakia-w-vs-poland
