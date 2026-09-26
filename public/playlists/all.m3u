@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:51:09 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:53:29 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (24 trận), Chuối Chiên (20 trận), Phá Làng (47 trận), Gà Vàng (10 trận), Sao Kê (23 trận) =====
 
@@ -59,8 +59,10 @@ https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/501402ebbaa8555329c25b52fe79ecb2.png" group-title="Phá Làng" , 26/09 22:55 🟡 ⚽ Kuwait - Iraq (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#x7lm7phjl7lgm2w
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/501402ebbaa8555329c25b52fe79ecb2.png" group-title="Phá Làng" , 26/09 22:55 🟢 ⚽ Kuwait - Iraq (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/3535d6025dd4051df5a58d9d9ba83511/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Ch6tZ7jl-0hu4VHO8.png" group-title="Giờ Vàng" , 26/09 23:00 🟢 🏀 Bilbao vs Manresa (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
@@ -156,8 +158,10 @@ https://gavanglinkq.tv/truc-tiep/san-marino-vs-finland-ngay-26-09-2026/
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/3c057cb2b41f22c0e740974d7a428918.png" group-title="Gà Vàng" , 26/09 23:00 🟡 ⚽ Bulgaria vs Luxembourg (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/bulgaria-vs-luxembourg-ngay-26-09-2026/
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/channels4_profile.jpg" group-title="Khán Đài" , 26/09 23:15 🟡 🏐 Milano vs Scandicci (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/milano-vs-scandicci
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/channels4_profile.jpg" group-title="Khán Đài" , 26/09 23:15 🟢 🏐 Milano vs Scandicci (Lee Sin)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/c816a7cc7ab1eb6dcce3fb4408acd320.png" group-title="Gà Vàng" , 26/09 23:30 🟡 ⚽ Tenerife vs Cadiz CF (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/tenerife-vs-cadiz-cf-ngay-26-09-2026/
