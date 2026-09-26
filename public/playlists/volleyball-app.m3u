@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:00:28 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:02:44 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (1 trận), Khán Đài (9 trận), Chuối Chiên (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (2 trận), Khán Đài (9 trận), Chuối Chiên (4 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Logo_Imoco_Volley.png" group-title="Khán Đài" , 26/09 20:30 🏐 Imoco vs Novara (Chưa có link — chờ cập nhật)
@@ -20,6 +20,9 @@ https://live05.chuoichientv.me/live/998947/slovakia-w-vs-poland
 https://khandai3.link/truc-tiep/milano-vs-scandicci
 
 # ----- Ngày 2026-09-27 -----
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/I5PqTkcM-0bvH5S2D.png" group-title="Giờ Vàng" , 27/09 02:00 🏐 Pháp vs Ba Lan (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-phap-vs-ba-lan-27-09-hbapb4sijdis
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_uiH5uS2.jpg" group-title="Khán Đài" , 27/09 02:00 🏐 Ba Lan vs Pháp (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/ba-lan-vs-phap
 
