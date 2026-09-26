@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:18:33 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:20:48 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (15 trận), Chuối Chiên (12 trận), Phá Làng (45 trận), Gà Vàng (5 trận), Sao Kê (22 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (15 trận), Chuối Chiên (12 trận), Phá Làng (44 trận), Gà Vàng (5 trận), Sao Kê (22 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/2bce14325a0bbb1642c569d5cb5435f7.png" group-title="Gà Vàng" , 26/09 21:00 🟢 ⚽ Cambridge United vs AFC Wimbledon (NGƯỜI KIẾN)
@@ -95,24 +95,21 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/quanghuy/playlist.m3u8
 https://stm6dad62063600.stream.hdplaylink.com/sklive/butchi/playlist.m3u8
 
 # ----- Ngày 2026-09-27 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8089e760b9d728fbecc6efe12cdf52a1.png" group-title="Phá Làng" , 27/09 00:15 🟢 ⚽ Rijeka - 1. FC Union Berlin (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/07d177693712b711844c6fd148271dc6/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/KGYHRIYA-baDaGjjh.png" group-title="Giờ Vàng" , 27/09 01:00 🟢 ⚽ Oman vs Saudi Arabia (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790417200_hd/1790417200_hd@720p.m3u8
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/3c1271a9437d31009c4fe465d81cd3cf.png" group-title="Phá Làng" , 27/09 01:00 🟢 ⚽ Oman - Saudi Arabia (LÝ LINH LỰC)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/cfcda7f47d63aec6f4ca7e5eb2d21623/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_649.jpg" group-title="Khán Đài" , 27/09 01:00 🟡 ⚽ Oman vs Saudi Arabia (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/oman-vs-saudi-arabia-27-09-2026-857454
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133414_d27d52bf.png" group-title="Chuối Chiên" , 27/09 01:00 🟡 ⚽ Oman vs Saudi Arabia (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1637933/oman-vs-saudi-arabia
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/3c1271a9437d31009c4fe465d81cd3cf.png" group-title="Phá Làng" , 27/09 01:00 🟡 ⚽ Oman - Saudi Arabia (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#y0or5jh8vovlqwz
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ad471f230297d355466e07cd82408d24.png" group-title="Phá Làng" , 27/09 01:00 🟡 ⚽ Pinatar CF - Atletico Melilla (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y39mp1h67xn2moj
