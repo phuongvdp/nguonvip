@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:28:53 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:31:13 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (67 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (66 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/9cbe8e6a8c5fbf1577577a4603b40627.png" group-title="Phá Làng" , 26/09 19:30 🟢 ⚽ Vietnam - Philippines (LÝ LA LÀNG)
@@ -9,9 +9,6 @@ https://lilive1.eu.cc/live/9581d1934b52b9546c43f6bc247b8f4a/playlist.m3u8|User-A
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/9cbe8e6a8c5fbf1577577a4603b40627.png" group-title="Phá Làng" , 26/09 19:30 🟢 ⚽ Vietnam - Philippines (LÝ LÊN LỬA (Server 1))
 https://pull.digitalcdn.net/live/72e408299ff44dcc89cb50d9c1e5fb1f/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/dbb3d05a5cc27eed7b2735cf6de93114.png" group-title="Phá Làng" , 26/09 19:30 🟡 ⚽ Dalan - Wisla Krakow (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#y0or5jh9x6glqwz
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/e9071cd9943c4f5450d5438b62ec319d.png" group-title="Phá Làng" , 26/09 20:00 🟢 ⚽ Slovenia - Scotland (LÝ LONG)
 https://lilive1.eu.cc/live/2df1a42683a2306a290f840719d82607/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
@@ -31,7 +28,7 @@ https://phalang.live/trang-chu#x7lm7phj46wxm2w
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1519265433839cdba4d3a8235e36c5da.png" group-title="Phá Làng" , 26/09 20:00 🟡 ⚽ Kenya - Eritrea (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y0or5jh87p35qwz
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ad3b9f3bd0ae60961e1cd9d7a797f9b0.png" group-title="Phá Làng" , 26/09 20:30 ⚽ PAOP Neas Amisou - Orfeas Eleftheroupoli (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ad3b9f3bd0ae60961e1cd9d7a797f9b0.png" group-title="Phá Làng" , 26/09 20:30 🟡 ⚽ PAOP Neas Amisou - Orfeas Eleftheroupoli (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6ypq3nhk6n5jmd7
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/de0b90b1c49a62ed9dcca91f67ac5c90.png" group-title="Phá Làng" , 26/09 21:00 ⚽ FC Dinamo City - Otrant (Chưa có link — chờ cập nhật)
