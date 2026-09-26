@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:38:10 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:40:30 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (2 trận), Khán Đài (9 trận), Chuối Chiên (6 trận), Phá Làng (2 trận) =====
 
@@ -28,6 +28,9 @@ https://giovang.city/truc-tiep-phap-vs-ba-lan-27-09-hbapb4sijdis
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_uiH5uS2.jpg" group-title="Khán Đài" , 27/09 02:00 🏐 Ba Lan vs Pháp (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/ba-lan-vs-phap
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125447_e304fc82.png" group-title="Chuối Chiên" , 27/09 02:00 🏐 France vs Poland (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/999068/france-vs-poland
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/1b9d35a79766c74c5b437184864e1e81.png!w30" group-title="Phá Làng" , 27/09 02:00 🏐 Pháp - Ba Lan (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#373f0b0b4e35406182f4af414eaf1d60
@@ -58,6 +61,3 @@ https://live05.chuoichientv.me/live/992509/indonesia-vs-thailand
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Chuối Chiên" , 27/09 14:00 🏐 India vs Việt Nam (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/995852/india-vs-viet-nam
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Chuối Chiên" , 27/09 17:00 🏐 China vs Chinese Taipei (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/993780/china-vs-chinese-taipei
