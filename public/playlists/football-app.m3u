@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:09:02 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:11:12 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (10 trận), Chuối Chiên (13 trận), Phá Làng (37 trận), Gà Vàng (10 trận), Sao Kê (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (10 trận), Chuối Chiên (13 trận), Phá Làng (36 trận), Gà Vàng (10 trận), Sao Kê (20 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/350ec526535f4c9a81f9d9201948d9d5.png" group-title="Gà Vàng" , 27/09 03:30 🟢 ⚽ USA vs Peru (A Long)
@@ -9,9 +9,6 @@ https://playback.livetl002.com/live/69ef10b47146e04fbe6d4363.m3u8|User-Agent=Moz
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/d82c6b70b6fa098483e9afa0589bd7b1.png" group-title="Gà Vàng" , 27/09 04:10 🟢 ⚽ Deportivo Pereira vs La Equidad (MáN NúI)
 https://playback.livetl002.com/live/69cf6331585c5992182f4160.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0c7660683be3429ea77999657fa17d79.png" group-title="Phá Làng" , 27/09 06:00 🟢 ⚽ Canada - Chile (Server 1)
-https://lilive1.eu.cc/live/351ae40f23ea68ef14c74b2ac228655e/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131606_86e503ed.png" group-title="Chuối Chiên" , 27/09 06:30 🟡 ⚽ Atlanta United FC vs New York City FC (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1490497/atlanta-united-fc-vs-new-york-city-fc
