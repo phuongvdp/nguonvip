@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:43:17 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:45:33 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Khán Đài (15 trận), Chuối Chiên (18 trận), Phá Làng (54 trận), Gà Vàng (18 trận), Sao Kê (21 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Khán Đài (15 trận), Chuối Chiên (18 trận), Phá Làng (59 trận), Gà Vàng (18 trận), Sao Kê (21 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/ea3dc231c5b640b286b5c609b415f8e1.png" group-title="Gà Vàng" , 26/09 08:00 🟢 ⚽ Atlante vs Rayados de Monterrey (cố tư nghiêm)
@@ -372,6 +372,21 @@ https://live05.chuoichientv.me/live/1528892/czech-republic-vs-croatia
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260531_193336_3393bc73.png" group-title="Chuối Chiên" , 27/09 01:45 ⚽ FYR Macedonia vs Switzerland (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1545656/fyr-macedonia-vs-switzerland
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/78e57b771bb363598680a056a7d26c0a.png" group-title="Phá Làng" , 27/09 01:45 ⚽ North Macedonia - Switzerland (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#1l4rjnh9nol1m7v
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/969705867d164cccd13e35c27610576c.png" group-title="Phá Làng" , 27/09 01:45 ⚽ Albania - Belarus (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#23xmvkh6y10vqg8
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/f730b9b10a94674f9c327b017b5bca30.png" group-title="Phá Làng" , 27/09 01:45 ⚽ Czechia - Croatia (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#4jwq2ghngy9vm0v
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/2f44df93c01b04731a3f20f97b8e6b98.png" group-title="Phá Làng" , 27/09 01:45 ⚽ England - Spain (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#n54qllhn4g1vqvy
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3dd52d0f4d9de58ccdd0e54e70600884.png" group-title="Phá Làng" , 27/09 01:45 ⚽ Slovakia - Moldova (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#zp5rzghg3vwjq82
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8260.png" group-title="Sao Kê" , 27/09 01:45 ⚽ North Macedonia vs Switzerland (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/north-macedonia-vs-switzerland-6ab5c810a98792e63a6feb02.html
