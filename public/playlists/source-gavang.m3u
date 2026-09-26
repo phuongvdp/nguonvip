@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:59:40 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:02:01 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (14 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (10 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/14b75c2d38d88b747c19de8ea5509d16.png" group-title="Gà Vàng" , 26/09 20:00 🟢 ⚽ Vietnam vs Philippines (CRIS)
@@ -13,18 +13,6 @@ https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a9776215126529dede9bf51.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/2bce14325a0bbb1642c569d5cb5435f7.png" group-title="Gà Vàng" , 26/09 21:00 🟡 ⚽ Cambridge United vs AFC Wimbledon (Chưa có link — chờ cập nhật)
-https://gavanglinkq.tv/truc-tiep/cambridge-united-vs-afc-wimbledon-ngay-26-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5e7ac42f168fc6a9d0108b8ebbd4e788.png" group-title="Gà Vàng" , 26/09 21:00 🟡 ⚽ Plymouth Argyle vs Burton Albion (Chưa có link — chờ cập nhật)
-https://gavanglinkq.tv/truc-tiep/plymouth-argyle-vs-burton-ngay-26-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/a0752b83199bb51a65cba86fb5b200dc.png" group-title="Gà Vàng" , 26/09 21:00 🟡 🏀 Stanbic Aces Women vs Eldonets Women (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/f886aee678d08f9f134f4c20b7cd8211.png" group-title="Gà Vàng" , 26/09 21:00 🟡 🏀 Tal Tech vs Rigas Zelli (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/baca74685739dc7e17413a4806b06fa5.png" group-title="Gà Vàng" , 26/09 21:30 🟡 ⚽ Heracles Almelo vs Vitesse Arnhem (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/heracles-almelo-vs-vitesse-arnhem-ngay-26-09-2026/
