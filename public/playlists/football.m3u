@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:02:44 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:05:02 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (6 trận), Khán Đài (15 trận), Chuối Chiên (16 trận), Phá Làng (65 trận), Gà Vàng (16 trận), Sao Kê (25 trận) =====
 
@@ -44,6 +44,11 @@ https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/17949cb4e9f951a7dce758a43f0cd1ff/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/S49ci8h5-YqrtLoTa.png" group-title="Giờ Vàng" , 26/09 17:30 🟢 ⚽ Nhật bản vs Triều tiên (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790398770_hd/1790398770_hd@720p.m3u8
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/bdc329dccdc39efdd494418041bb9d41.png" group-title="Phá Làng" , 26/09 17:30 🟢 ⚽ Japan U23 - North Korea U23 (LÝ LINH LỰC)
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -53,9 +58,6 @@ https://lilive1.eu.cc/live/ec72f29aad4b28941eefa5e7e8017dad/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/kai/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/S49ci8h5-YqrtLoTa.png" group-title="Giờ Vàng" , 26/09 17:30 🟡 ⚽ Nhật bản vs Triều tiên (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-nhat-ban-vs-trieu-tien-26-09-hcgq6rqxy1r5
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131443_f7c8e720.png" group-title="Chuối Chiên" , 26/09 17:30 🟡 ⚽ Japan U23 vs Korea DPR U23 (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641727/japan-u23-vs-korea-dpr-u23
