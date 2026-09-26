@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:14:49 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:17:05 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (33 trận), Gà Vàng (32 trận), Sao Kê (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (33 trận), Gà Vàng (31 trận), Sao Kê (20 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png" group-title="Giờ Vàng" , 26/09 03:05 🟢 ⚽ New York Yankees vs Baltimore Orioles (Giovang 1)
@@ -38,9 +38,6 @@ https://eqr2hdarxfliv.vcdn.cloud/1790353491_hd/1790353491_hd@720p.m3u8
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/carot/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/4b91b93f73f6dd6c3ef9c08a555a93e3.png" group-title="Gà Vàng" , 26/09 07:15 🟡 🏀 Olympia vs Deportivo Campoalto (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/cf-atlante.png" group-title="Giờ Vàng" , 26/09 08:00 🟢 ⚽ CF Atlante vs Monterrey (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
@@ -83,10 +80,10 @@ https://gavanglinkp.tv/
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1942.png" group-title="Sao Kê" , 26/09 08:00 🟡 ⚽ Atlante vs Monterrey (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/atlante-vs-monterrey-6ab53656552ae1acb6b64678.html
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b060f70150fe2b52fba8aa026a930c4e.png" group-title="Gà Vàng" , 26/09 08:15 ⚽ Deportiva Once Caldas vs Atletico Bucaramanga (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b060f70150fe2b52fba8aa026a930c4e.png" group-title="Gà Vàng" , 26/09 08:15 🟡 ⚽ Deportiva Once Caldas vs Atletico Bucaramanga (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/deportiva-once-caldas-vs-atletico-bucaramanga-ngay-26-09-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/f539fba3a4d8bde22683fa7843b105af.png" group-title="Gà Vàng" , 26/09 08:15 🏀 Ahuachapan vs Santa Ana BC (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/f539fba3a4d8bde22683fa7843b105af.png" group-title="Gà Vàng" , 26/09 08:15 🟡 🏀 Ahuachapan vs Santa Ana BC (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/c0545fedca603c646fb0ad06bea4561a.png" group-title="Gà Vàng" , 26/09 09:00 🏀 Dorados de Chihuahua vs Soles de Mexicali (Chưa có link — chờ cập nhật)
