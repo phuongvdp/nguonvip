@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:53:20 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:55:40 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận) =====
 
@@ -13,11 +13,6 @@ https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790398911_hd/1790398911_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/slovenia.png" group-title="Giờ Vàng" , 26/09 20:00 🟢 ⚽ Slovenia vs Scotland (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790415318_hd/1790415318_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/croatia-u21.png" group-title="Giờ Vàng" , 26/09 22:00 🟢 ⚽ Croatia U21 vs U21 Hungary (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
@@ -59,6 +54,9 @@ https://giovang.city/truc-tiep-my-vs-peru-27-09-6ab1c622354480ad7b00538a
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/nashville-sc.png" group-title="Giờ Vàng" , 27/09 07:30 ⚽ Nashville SC vs Toronto FC (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-nashville-sc-vs-toronto-fc-27-09-6aadd0bf24d46db870f287af
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/real-salt-lake.png" group-title="Giờ Vàng" , 27/09 08:30 ⚽ Real Salt Lake vs New England Revolution (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-real-salt-lake-vs-new-england-revolution-27-09-6aadd0c024d46db870f288d3
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/tigres-uanl.png" group-title="Giờ Vàng" , 27/09 10:10 ⚽ Tigres UANL vs Puebla (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-tigres-uanl-vs-puebla-27-09-6aadd0bf24d46db870f2887e
