@@ -94,11 +94,16 @@ const IPTV_HEADER_UA =
 // pages/api/proxy/hls.js — sửa 1 nơi thì nhớ sửa nơi kia theo, tránh lệch.
 const REFERER_CANDIDATES_BY_SOURCE = {
   // FIX (25/09/2026 — bắt request THẬT bằng DevTools, xem chú thích tương
-  // ứng trong pages/api/proxy/hls.js): domain player CHUẨN là
-  // fhd-01.cctvsignal.xyz, KHÔNG phải live05.chuoichientv.me/chuoichientv.link
-  // như đoán trước đây — 2 domain đó giờ chỉ còn là ứng viên dự phòng.
+  // ứng trong pages/api/proxy/hls.js): domain player fhd-01.cctvsignal.xyz.
+  // FIX (26/09/2026 — "vẫn lỗi"): bắt THÊM 1 lần DevTools khác, ra domain
+  // KHÁC hẳn — https://live.chuoichien.tv/. Domain player nhúng của nguồn
+  // này ĐỔI THEO TỪNG PHIÊN (100ycdn.com là wrapper ngẫu nhiên) nên KHÔNG
+  // có 1 giá trị cố định đúng mãi mãi — để cả 2 giá trị đã xác nhận thật
+  // làm ứng viên, giá trị mới nhất lên đầu. CHUOICHIENTV_PLAYER_DOMAIN vẫn
+  // cho phép ép ứng viên đầu tiên nếu cần debug 1 giá trị cụ thể.
   chuoichientv: [
-    `${String(process.env.CHUOICHIENTV_PLAYER_DOMAIN || 'https://fhd-01.cctvsignal.xyz').replace(/\/+$/, '')}/`,
+    `${String(process.env.CHUOICHIENTV_PLAYER_DOMAIN || 'https://live.chuoichien.tv').replace(/\/+$/, '')}/`,
+    'https://fhd-01.cctvsignal.xyz/',
     'https://live05.chuoichientv.me/',
     'https://chuoichientv.link/',
     null

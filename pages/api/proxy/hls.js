@@ -157,19 +157,36 @@ const REFERER_FALLBACK = REFERER_BY_SOURCE.phaohoa;
 const REFERER_CANDIDATES_BY_SOURCE = {
   // FIX (25/09/2026 — "làm giống Sao Kê, lấy link chuẩn từ domain gốc và
   // Referer chuẩn, không đoán mò"): bắt được request THẬT bằng DevTools —
-  // domain player CHUẨN là fhd-01.cctvsignal.xyz (KHÔNG phải
-  // live05.chuoichientv.me/chuoichientv.link như FIX 17/09/2026 từng đoán,
-  // 2 domain đó giờ chỉ còn là ứng viên dự phòng). Link CDN thật đi qua 1
-  // lớp wrapper domain ngẫu nhiên trên 100ycdn.com, path chứa
-  // gckc0525.edgemaxcdn.org, kèm query ký session (wsSession/wsIPSercert/
-  // wsBindIP/wsserid) — CHÚ Ý: các tham số này trông giống bị RÀNG BUỘC
-  // theo phiên/IP người gọi (wsBindIP), khác hẳn Sao Kê (link không có
-  // token). Nếu link do server (route /api/matches, gọi API bằng IP máy
-  // chủ) lấy về rồi đưa thẳng cho VLC/app phát bằng IP người xem (KHÁC IP
-  // máy chủ) thì token có thể bị CDN từ chối dù Referer đã đúng — lúc đó
-  // phải phát qua CHÍNH route proxy này (hls.js gọi CDN bằng IP máy chủ,
-  // giống lúc lấy token) thay vì phát thẳng link .m3u8 trong app.
-  chuoichientv: ['https://fhd-01.cctvsignal.xyz/', 'https://live05.chuoichientv.me/', 'https://chuoichientv.link/', null],
+  // domain player fhd-01.cctvsignal.xyz. Link CDN thật đi qua 1 lớp wrapper
+  // domain ngẫu nhiên trên 100ycdn.com, path chứa gckc0525.edgemaxcdn.org,
+  // kèm query ký session (wsSession/wsIPSercert/wsBindIP/wsserid) — CHÚ Ý:
+  // các tham số này trông giống bị RÀNG BUỘC theo phiên/IP người gọi
+  // (wsBindIP), khác hẳn Sao Kê (link không có token). Nếu link do server
+  // (route /api/matches, gọi API bằng IP máy chủ) lấy về rồi đưa thẳng cho
+  // VLC/app phát bằng IP người xem (KHÁC IP máy chủ) thì token có thể bị
+  // CDN từ chối dù Referer đã đúng — lúc đó phải phát qua CHÍNH route proxy
+  // này (hls.js gọi CDN bằng IP máy chủ, giống lúc lấy token) thay vì phát
+  // thẳng link .m3u8 trong app.
+  //
+  // FIX (26/09/2026 — "vẫn lỗi" sau khi set override = live.chuoichien.tv):
+  // bắt THÊM 1 lần DevTools nữa (trận khác, BLV "Trốc Tru") — lần này
+  // Referer/Origin THẬT lại là https://live.chuoichien.tv/, KHÔNG phải
+  // fhd-01.cctvsignal.xyz. Tức là domain player nhúng CHO TỪNG PHIÊN không
+  // cố định — 100ycdn.com là "wrapper domain ngẫu nhiên" (đúng như ghi chú
+  // gốc bên dưới), nên domain embed phát sinh token cũng đổi theo phiên.
+  // KHÔNG có 1 giá trị "chuẩn" cố định cho nguồn này — set cứng 1 giá trị
+  // (kể cả bằng override env) CHỈ đúng cho phiên lúc bắt request, phiên sau
+  // đổi domain là lại lỗi. Thêm cả 2 giá trị đã xác nhận thật vào danh sách
+  // ứng viên (route này tự thử tuần tự nên không sao), còn override env
+  // var CHUOICHIENTV_IPTV_REFERER thì KHÔNG NÊN dùng cho nguồn này nữa —
+  // xem ghi chú tương ứng ở FIX_APPLIED.md.
+  chuoichientv: [
+    'https://live.chuoichien.tv/',
+    'https://fhd-01.cctvsignal.xyz/',
+    'https://live05.chuoichientv.me/',
+    'https://chuoichientv.link/',
+    null
+  ],
   phaohoa: [REFERER_BY_SOURCE.phaohoa, null],
   giovang: [REFERER_BY_SOURCE.giovang, null],
   khandaitv: [REFERER_BY_SOURCE.khandaitv, null],
