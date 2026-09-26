@@ -1,20 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:55:07 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:57:24 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (24 trận), Chuối Chiên (20 trận), Phá Làng (69 trận), Gà Vàng (15 trận), Sao Kê (26 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (24 trận), Chuối Chiên (19 trận), Phá Làng (69 trận), Gà Vàng (15 trận), Sao Kê (26 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 26/09 13:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
 https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/pakistan.png" group-title="Giờ Vàng" , 26/09 16:00 🟢 ⚽ Pakistan vs Thái Lan (Giovang 1)
-https://eqr2hdarxfliv.vcdn.cloud/1790398599_hd/1790398599_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images_t97Qc0H.png" group-title="Khán Đài" , 26/09 16:00 🟢 ⚽ Pakistan vs Thái Lan (Chim Nhỏ)
-https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://khandai3.link
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135226_b632be79.png" group-title="Chuối Chiên" , 26/09 16:00 🟢 ⚽ Pakistan vs Thailand (Chuối To (HD))
-https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/3e0f32098666dc42dec09abd4fece6d5.png" group-title="Phá Làng" , 26/09 16:00 🟢 ⚽ Pakistan - Thailand (LÝ LONG)
 https://lilive1.eu.cc/live/17949cb4e9f951a7dce758a43f0cd1ff/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
@@ -43,11 +34,11 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/kai/playlist.m3u8|User-Agen
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/120f24dadbb90aea10ca5c0c0cde76b4.png" group-title="Phá Làng" , 26/09 18:00 🟡 ⚽ FK Panevezys - BFA Vilnius (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#dj2ryoh7v405q1z
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/nantong-zhiyun.png" group-title="Giờ Vàng" , 26/09 18:30 🟡 ⚽ Nantong Zhiyun vs Changchun Yatai (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-nantong-zhiyun-vs-changchun-yatai-26-09-6a4c418e24d46db870ec708c
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/nantong-zhiyun.png" group-title="Giờ Vàng" , 26/09 18:30 🟢 ⚽ Nantong Zhiyun vs Changchun Yatai (Giovang 1)
+https://eqr2hdarxfliv.vcdn.cloud/1790398800_hd/1790398800_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/d6e217ac051f3258b82d74a932d11ada.png" group-title="Giờ Vàng" , 26/09 18:30 🟡 🏀 Perth Wildcats vs New Zealand Breakers (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-perth-wildcats-vs-new-zealand-breakers-26-09-12222277
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/d6e217ac051f3258b82d74a932d11ada.png" group-title="Giờ Vàng" , 26/09 18:30 🟢 🏀 Perth Wildcats vs New Zealand Breakers (Giovang 1)
+https://eqr2hdarxfliv.vcdn.cloud/1790399322_hd/1790399322_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/444ccd0f41b3dc4726dbbd26ea3d359c.png" group-title="Gà Vàng" , 26/09 18:30 🟡 ⚽ Spartak Kostroma vs Ural Yekaterinburg (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/spartak-kostroma-vs-ural-yekaterinburg-ngay-26-09-2026/
@@ -502,6 +493,9 @@ https://khandai3.link/truc-tiep/viet-nam-vs-an-do
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_WqmhllM.jpg" group-title="Khán Đài" , 27/09 14:00 🏐 Indonesia vs Thái Lan (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/indonesia-vs-thai-lan
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_358.jpg" group-title="Khán Đài" , 27/09 14:00 ⚽ Cambodia vs Myanmar (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/cambodia-vs-myanmar
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 27/09 14:00 🏐 Indonesia vs Thailand (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/992509/indonesia-vs-thailand
