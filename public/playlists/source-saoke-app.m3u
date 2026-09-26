@@ -1,11 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:58:11 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:00:28 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (23 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (25 trận) =====
 
 # ----- Ngày 2026-09-26 -----
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/298067.png" group-title="Sao Kê" , 26/09 17:30 🟡 ⚽ Japan U23 vs North Korea U23 (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/japan-u23-vs-north-korea-u23-6ab70dbc69a941bbe30ebd96.html
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/298067.png" group-title="Sao Kê" , 26/09 17:30 🟢 ⚽ Japan U23 vs North Korea U23 (Kai)
+https://stm6dad62063600.stream.hdplaylink.com/sklive/kai/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5894.png" group-title="Sao Kê" , 26/09 19:30 ⚽ Vietnam vs Philippines (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/vietnam-vs-philippines-6ab5c810a98792e63a6feb0c.html
@@ -73,3 +73,9 @@ https://vip3.saoketv40.xyz/india-vs-viet-nam-6ab5c9fc78b4acb4e60657b0.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6322.png" group-title="Sao Kê" , 27/09 14:00 ⚽ Hong Kong vs Laos (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/hong-kong-vs-laos-6ab777191883d81208dbbbb3.html
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6332.png" group-title="Sao Kê" , 27/09 17:00 ⚽ Cambodia vs Myanmar (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/cambodia-vs-myanmar-6ab5c84b552ae1acb6d9c779.html
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Sao Kê" , 27/09 17:00 ⚽ China vs Đài Bắc Trung Hoa (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/china-vs-dai-bac-trung-hoa-6ab5ca147cbe7174920ecf64.html
