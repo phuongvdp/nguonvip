@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:36:20 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:38:39 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (10 trận), Khán Đài (15 trận), Chuối Chiên (14 trận), Phá Làng (62 trận), Gà Vàng (13 trận), Sao Kê (26 trận) =====
 
@@ -104,6 +104,11 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/mo/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/2df1a42683a2306a290f840719d82607/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/feb826d3073e7fdda27bea60a979c7bb.png" group-title="Phá Làng" , 26/09 21:00 🟢 ⚽ Huddersfield Town - Luton Town (LÝ LINH LỰC (Server 1))
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://pull.digitalcdn.net/live/2c42de493eb54af0a08b09b0a316ff4b/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/de0b90b1c49a62ed9dcca91f67ac5c90.png" group-title="Phá Làng" , 26/09 21:00 🟡 ⚽ FC Dinamo City - Otrant (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#3glrw7h4k65nqdy
 
@@ -118,9 +123,6 @@ https://phalang.live/trang-chu#ednm9wh586n3ryo
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0bc3bae01a59627e79a87e5ad1c1be72.png" group-title="Phá Làng" , 26/09 21:00 🟡 ⚽ Shkendija Haracine - KF Llapi (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#jw2r09h5402nrz8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/feb826d3073e7fdda27bea60a979c7bb.png" group-title="Phá Làng" , 26/09 21:00 🟡 ⚽ Huddersfield Town - Luton Town (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#l7oqdehgkyvxr51
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/10eb6cf9451cb5e1fce5346d3688b8fa.png" group-title="Phá Làng" , 26/09 21:00 🟡 ⚽ Bohemians - Bohemians Praha 1905 (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#pxwrxlhlp7znryk
