@@ -1,53 +1,78 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:50:58 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:53:15 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (23 trận) =====
 
 # ----- Ngày 2026-09-26 -----
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/ea3dc231c5b640b286b5c609b415f8e1.png" group-title="Gà Vàng" , 26/09 08:00 🟢 ⚽ Atlante vs Rayados de Monterrey (cố tư nghiêm)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69a1aaa7230584579e2d5ce1.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b060f70150fe2b52fba8aa026a930c4e.png" group-title="Gà Vàng" , 26/09 08:15 🟢 ⚽ Deportiva Once Caldas vs Atletico Bucaramanga (KAYTI)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69b8e6f43bcf2231c35d5144.m3u8
+
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/c0545fedca603c646fb0ad06bea4561a.png" group-title="Gà Vàng" , 26/09 09:00 🟡 🏀 Dorados de Chihuahua vs Soles de Mexicali (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/6090f28bfc40d2169607b23256e5a151.png" group-title="Gà Vàng" , 26/09 10:00 ⚽ Club Tijuana vs Atlas (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/club-tijuana-vs-atlas-ngay-26-09-2026/
 
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/2ff3c6a0bc1b8b688fb0b8fa15c34b0a.png" group-title="Gà Vàng" , 26/09 12:00 🏀 Seoul SK Knights vs Wonju Dongbu Promy (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/8e93da8386dc5b378446762993400ca7.png" group-title="Gà Vàng" , 26/09 14:30 🏀 Ulsan Mobis Phoebus vs Changwon LG Sakers (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fe52c67f0590ffcce6879aebfd39f165.png" group-title="Gà Vàng" , 26/09 15:00 ⚽ Iwaki FC vs Vegalta Sendai (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/iwaki-fc-vs-vegalta-sendai-ngay-26-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/771a47aa3a754d19f9f298fdf828e23b.png" group-title="Gà Vàng" , 26/09 15:00 ⚽ Jubilo Iwata vs Vanraure Hachinohe FC (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/jubilo-iwata-vs-vanraure-hachinohe-fc-ngay-26-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/f3b0743cbe39963a20d4ffe3a8c64c2e.png" group-title="Gà Vàng" , 26/09 15:00 ⚽ RB Omiya Ardija vs Ventforet Kofu (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/rb-omiya-ardija-vs-ventforet-kofu-ngay-26-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/8b9ca3d6a9a5b9573992e58b972e96fd.png" group-title="Gà Vàng" , 26/09 15:00 ⚽ Kataller Toyama vs Yokohama FC (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/kataller-toyama-vs-yokohama-fc-ngay-26-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/ad447efc200f864044a546c6c4811473.png" group-title="Gà Vàng" , 26/09 16:00 ⚽ Chelyabinsk vs Yenisey Krasnoyarsk (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/fk-chelyabinsk-vs-yenisey-krasnoyarsk-ngay-26-09-2026/
+
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/573572e4e9a8486a02fbc7eeeaffba7b.png" group-title="Gà Vàng" , 26/09 16:00 ⚽ Pakistan vs Thailand (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/pakistan-vs-thailand-ngay-26-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/444ccd0f41b3dc4726dbbd26ea3d359c.png" group-title="Gà Vàng" , 26/09 18:30 ⚽ Spartak Kostroma vs Ural Yekaterinburg (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/spartak-kostroma-vs-ural-yekaterinburg-ngay-26-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/b967348890e26c5ca68f7d26392f5984.png" group-title="Gà Vàng" , 26/09 18:30 🏀 Perth Wildcats vs New Zealand Breakers (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/809acdd49b4b1e55e7393c7575189e81.png" group-title="Gà Vàng" , 26/09 19:00 ⚽ Ekenas IF Fotboll vs SJK Seinäjoki (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/ekenas-if-fotboll-vs-sjk-akatemia-ngay-26-09-2026/
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/14b75c2d38d88b747c19de8ea5509d16.png" group-title="Gà Vàng" , 26/09 19:30 ⚽ Vietnam vs Philippines (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/vietnam-vs-philippines-ngay-26-09-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/6bcf841b7ade1b3efbecaaba49bc104b.png" group-title="Gà Vàng" , 26/09 21:00 🏀 AZS UMCS Lublin Women vs Jelenia Gora Women (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/e4ba31fba036a999321d5460f7f2d1d1.png" group-title="Gà Vàng" , 26/09 20:00 ⚽ Slovenia vs Scotland (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/slovenia-vs-scotland-ngay-26-09-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/9021bc99528ac0b36ad69602cd3bdf69.png" group-title="Gà Vàng" , 26/09 21:00 🏀 BK Ogre vs VEF Riga Juniors (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/2bce14325a0bbb1642c569d5cb5435f7.png" group-title="Gà Vàng" , 26/09 21:00 ⚽ Cambridge United vs AFC Wimbledon (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/cambridge-united-vs-afc-wimbledon-ngay-26-09-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/24cba276880b49388d3bd24a3a3c738b.png" group-title="Gà Vàng" , 26/09 21:30 🏀 SK Legia Warszawa vs Especially in Sopot (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5e7ac42f168fc6a9d0108b8ebbd4e788.png" group-title="Gà Vàng" , 26/09 21:00 ⚽ Plymouth Argyle vs Burton Albion (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/plymouth-argyle-vs-burton-ngay-26-09-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/aaa53ddd85d05f1e7fb16f861b15fec0.png" group-title="Gà Vàng" , 26/09 21:45 🏀 Al Ittihad Saudi Arabia vs Kuwait SC (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/baca74685739dc7e17413a4806b06fa5.png" group-title="Gà Vàng" , 26/09 21:30 ⚽ Heracles Almelo vs Vitesse Arnhem (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/heracles-almelo-vs-vitesse-arnhem-ngay-26-09-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/7fc7f8abf95e4d3d969fbb95c601a7c5.png" group-title="Gà Vàng" , 26/09 21:45 🏀 Al Riyadi Beirut vs Indian Railways (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/90c34175923a36ab7a5de4b981c1972f.png" group-title="Gà Vàng" , 26/09 23:00 ⚽ Faroe Islands vs Kazakhstan (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/faroe-islands-vs-kazakhstan-ngay-26-09-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/56c0276997d093341dd3843c96238e6c.png" group-title="Gà Vàng" , 26/09 22:00 🏀 Wisla Can-Pack Women vs Wroclaw Women's (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/3c057cb2b41f22c0e740974d7a428918.png" group-title="Gà Vàng" , 26/09 23:00 ⚽ Bulgaria vs Luxembourg (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/bulgaria-vs-luxembourg-ngay-26-09-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/67fba759f6d16664c4f4e0428522eaef.png" group-title="Gà Vàng" , 26/09 22:30 🏀 Helios Domzale vs Hopsi Polzela (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/075c6d74fd41e1a2d1cc7cc0cde5f25d.png" group-title="Gà Vàng" , 26/09 23:00 🏀 Sosnowiec Women vs Bochnia (W) (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/2ad9613346e54adc87faf94777de7682.png" group-title="Gà Vàng" , 26/09 23:00 🏀 Zlatorog Lasko vs Triglav Kranj (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/1bf1295069371154eefee5ae4bffd68d.png" group-title="Gà Vàng" , 26/09 23:00 🏀 Artego Bydgoszcz Women vs Energa Torun Women (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/4c5f675412fc49259a73681cb4623253.png" group-title="Gà Vàng" , 26/09 23:00 🏀 KK Igokea vs Siroki Prima Pivo (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/9cf7850b0ea2916c4020064716be46f6.png" group-title="Gà Vàng" , 26/09 23:30 🏀 Borac vs Crvena Zvezda Belgrade (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/c816a7cc7ab1eb6dcce3fb4408acd320.png" group-title="Gà Vàng" , 26/09 23:30 ⚽ Tenerife vs Cadiz CF (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/tenerife-vs-cadiz-cf-ngay-26-09-2026/
