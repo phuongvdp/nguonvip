@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:00:20 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:02:31 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (20 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125447_e304fc82.png" group-title="Chuối Chiên" , 27/09 02:00 🟢 🏐 France vs Poland (Chuối Kem (HD))
@@ -61,3 +61,6 @@ https://live05.chuoichientv.me/live/1528898/austria-vs-kosovo
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133414_1ae05f1a.png" group-title="Chuối Chiên" , 28/09 01:00 ⚽ Bahrain vs United Arab Emirates (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1637935/bahrain-vs-united-arab-emirates
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125455_9f31cc8f.png" group-title="Chuối Chiên" , 28/09 01:45 ⚽ Germany vs Greece (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1528899/germany-vs-greece
