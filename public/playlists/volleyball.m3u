@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:55:40 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:36:25 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (1 trận), Khán Đài (3 trận), Chuối Chiên (3 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (1 trận), Khán Đài (8 trận), Chuối Chiên (4 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Logo_Imoco_Volley.png" group-title="Khán Đài" , 26/09 20:30 🏐 Imoco vs Novara (Chưa có link — chờ cập nhật)
@@ -16,12 +16,30 @@ https://khandai3.link/truc-tiep/phan-lan-vs-slovenia
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_143111_f0cb8ab0.png" group-title="Chuối Chiên" , 26/09 22:00 🏐 Slovakia W vs Poland (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/998947/slovakia-w-vs-poland
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Power_Volley_Milano.png" group-title="Khán Đài" , 26/09 23:15 🏐 Milano vs Scandicci (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/channels4_profile.jpg" group-title="Khán Đài" , 26/09 23:15 🏐 Milano vs Scandicci (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/milano-vs-scandicci
 
 # ----- Ngày 2026-09-27 -----
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_uiH5uS2.jpg" group-title="Khán Đài" , 27/09 02:00 🏐 Ba Lan vs Pháp (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/ba-lan-vs-phap
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_xjljaQl.jpg" group-title="Khán Đài" , 27/09 08:00 🏐 Iran vs Kyrgyzstan (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/iran-vs-kyrgyzstan
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_TkTkw3i.jpg" group-title="Khán Đài" , 27/09 08:00 🏐 Qatar vs Hong Kong (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/qatar-vs-hong-kong
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134251_b96e660a.png" group-title="Chuối Chiên" , 27/09 08:00 🏐 Iran vs Kyrgyzstan (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/997091/iran-vs-kyrgyzstan
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_South_Korea.svg.webp" group-title="Khán Đài" , 27/09 11:00 🏐 Hàn Quốc vs Philippines (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/han-quoc-vs-philippines
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Chuối Chiên" , 27/09 11:00 🏐 South Korea vs Philippines (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/998910/south-korea-vs-philippines
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_hdpF9Rm.jpg" group-title="Khán Đài" , 27/09 14:00 🏐 Việt Nam vs Ấn Độ (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/viet-nam-vs-an-do
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 27/09 14:00 🏐 Indonesia vs Thailand (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/992509/indonesia-vs-thailand

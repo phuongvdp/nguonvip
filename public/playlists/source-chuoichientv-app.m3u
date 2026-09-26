@@ -1,13 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:55:40 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:36:25 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (20 trận) =====
 
 # ----- Ngày 2026-09-26 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135226_b632be79.png" group-title="Chuối Chiên" , 26/09 16:00 ⚽ Pakistan vs Thailand (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1641704/pakistan-vs-thailand
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135226_b632be79.png" group-title="Chuối Chiên" , 26/09 16:00 🟢 ⚽ Pakistan vs Thailand (Chuối To (HD))
+https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131443_f7c8e720.png" group-title="Chuối Chiên" , 26/09 17:30 ⚽ Japan U23 vs Korea DPR U23 (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131443_f7c8e720.png" group-title="Chuối Chiên" , 26/09 17:30 🟡 ⚽ Japan U23 vs Korea DPR U23 (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641727/japan-u23-vs-korea-dpr-u23
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Chuối Chiên" , 26/09 19:30 ⚽ Việt Nam vs Philippines (Chưa có link — chờ cập nhật)
@@ -61,3 +61,6 @@ https://live05.chuoichientv.me/live/1490507/los-angeles-galaxy-vs-colorado-rapid
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Chuối Chiên" , 27/09 11:00 🏐 South Korea vs Philippines (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/998910/south-korea-vs-philippines
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 27/09 14:00 🏐 Indonesia vs Thailand (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/992509/indonesia-vs-thailand
