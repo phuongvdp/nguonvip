@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:00:21 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:02:43 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (24 trận), Chuối Chiên (18 trận), Phá Làng (40 trận), Gà Vàng (11 trận), Sao Kê (26 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (24 trận), Chuối Chiên (19 trận), Phá Làng (49 trận), Gà Vàng (11 trận), Sao Kê (24 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 26/09 13:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -9,25 +9,10 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/vietnam.png" group-title="Giờ Vàng" , 26/09 19:30 🟢 ⚽ Việt Nam vs Philippines (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790398911_hd/1790398911_hd@720p.m3u8
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Chuối Chiên" , 26/09 19:30 🟢 ⚽ Việt Nam vs Philippines (Chuối Ngao (HD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoingao/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/9cbe8e6a8c5fbf1577577a4603b40627.png" group-title="Phá Làng" , 26/09 19:30 🟢 ⚽ Vietnam - Philippines (LÝ LÊN LỬA (Server 1))
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://pull.digitalcdn.net/live/72e408299ff44dcc89cb50d9c1e5fb1f/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5894.png" group-title="Sao Kê" , 26/09 19:30 🟢 ⚽ Vietnam vs Philippines (Ricky)
-#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://stm6dad62063600.stream.hdplaylink.com/sklive/ricky/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/9cbe8e6a8c5fbf1577577a4603b40627.png" group-title="Phá Làng" , 26/09 20:00 🟢 ⚽ Vietnam - Philippines (LÝ LA LÀNG)
 #EXTVLCOPT:http-referrer=https://phalang.live
@@ -43,11 +28,6 @@ https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a9776215126529dede9bf51.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5787.png" group-title="Sao Kê" , 26/09 20:00 🟢 ⚽ Slovenia vs Scotland (Kai)
-#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://stm6dad62063600.stream.hdplaylink.com/sklive/kai/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6316.png" group-title="Sao Kê" , 26/09 20:00 🟢 ⚽ South Africa vs Guinea (Mơ)
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
@@ -94,6 +74,11 @@ https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pull.digitalcdn.net/live/f89aa01792304bd4b9b5c7fda38a9a87/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Chuối Chiên" , 26/09 22:02 🟢 🏐 Finland vs Slovenia (Chuối Tây (HD))
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7b7d2b65c1ee63aee9e79ebafb2f0bc7.png" group-title="Phá Làng" , 26/09 22:30 🟡 ⚽ Pogon Szczecin - Udinese (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#vjxm8ghkv9por6o
 
@@ -133,6 +118,30 @@ https://phalang.live/trang-chu#1l4rjnh9v80pm7v
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9e90fc4ebbb554f597910a96cf792495.png" group-title="Phá Làng" , 26/09 23:00 🟡 ⚽ Atletico Calatayud - CD Baztan (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#965mkyhkpjxvr1g
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6cff443cdf72b6dbe440a7814ff9c171.png" group-title="Phá Làng" , 26/09 23:00 🟡 ⚽ Iceland - Estonia (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#pxwrxlhyl8eoryk
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/19eeefdc072e675e1be2a9786cfba016.png" group-title="Phá Làng" , 26/09 23:00 🟡 ⚽ Faroe Islands - Kazakhstan (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#vjxm8ghekd31r6o
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/006fb97cc07bfc196e708a8a20c8a065.png" group-title="Phá Làng" , 26/09 23:00 🟡 ⚽ HSK Zrinjski Mostar - Vojvodina Novi Sad (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#vjxm8ghkv36kr6o
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/61e9ccd0c45b60839c47d792d6ae26f4.crdownload" group-title="Phá Làng" , 26/09 23:00 🟡 ⚽ San Marino - Finland (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#x7lm7phjxy81m2w
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/b0cf33b813cb9b832e7fb18f2a1474e0.png" group-title="Phá Làng" , 26/09 23:00 🟡 ⚽ Bulgaria - Luxembourg (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#y0or5jh89y6vqwz
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/58f70ba46b38c45a77567e308ae18219.png" group-title="Phá Làng" , 26/09 23:00 🟡 ⚽ Stade Malien - AS Bakaridjan (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#y0or5jh9x6v2qwz
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fa02f7d0cecceab781db71a496b3281a.png" group-title="Phá Làng" , 26/09 23:00 🟡 ⚽ SKODA Xanthi - AO Kavala (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#zp5rzgh3y48yq82
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/000c1f3cb6b6fb828f0fa8f893f7c0c1.png" group-title="Phá Làng" , 26/09 23:00 🟡 ⚽ CD Anaitasuna FT - CD Tedeon (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#zp5rzghg8n9dq82
+
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/430fda3112134b44b54eeba89eec5189.png" group-title="Gà Vàng" , 26/09 23:00 🟡 ⚽ Iceland vs Estonia (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/iceland-vs-estonia-ngay-26-09-2026/
 
@@ -158,6 +167,12 @@ https://khandai3.link/truc-tiep/milano-vs-scandicci
 https://gavanglinkq.tv/truc-tiep/tenerife-vs-cadiz-cf-ngay-26-09-2026/
 
 # ----- Ngày 2026-09-27 -----
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/11484a7d6a59ba0fbd8f3675b467b3e3.png" group-title="Phá Làng" , 27/09 00:00 ⚽ Ribadesella CF - SD Noja (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#ednm9whw1j4yryo
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8089e760b9d728fbecc6efe12cdf52a1.png" group-title="Phá Làng" , 27/09 00:15 ⚽ Rijeka - 1. FC Union Berlin (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#x7lm7phxg8evm2w
+
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/KGYHRIYA-baDaGjjh.png" group-title="Giờ Vàng" , 27/09 01:00 ⚽ Oman vs Saudi Arabia (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-oman-vs-saudi-arabia-27-09-1k1xisab0uhc
 
@@ -390,6 +405,9 @@ https://vip3.saoketv40.xyz/south-korea-vs-philippines-6ab5c90e5f2e6310e08c7f46.h
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/t4IslGYg-vDolgDz8.png" group-title="Giờ Vàng" , 27/09 12:00 🏀 Suwon KT vs Goyang Sono (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-suwon-kt-vs-goyang-sono-27-09-8bgpf1zn201s
+
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/6a6d3d4063e675d1ce3e701153e3f367.png" group-title="Giờ Vàng" , 27/09 13:00 🏀 Adelaide 36ers vs Cairns Taipans (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-adelaide-36ers-vs-cairns-taipans-27-09-13222278
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80" group-title="Phá Làng" , 27/09 13:00 ⚽ China U16 - Vietnam U16 (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l7oqdehgv359r51
