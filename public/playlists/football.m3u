@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:59:41 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:01:57 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (15 trận), Chuối Chiên (15 trận), Phá Làng (65 trận), Gà Vàng (14 trận), Sao Kê (26 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (15 trận), Chuối Chiên (15 trận), Phá Làng (64 trận), Gà Vàng (14 trận), Sao Kê (26 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 26/09 13:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -39,9 +39,6 @@ https://lilive1.eu.cc/live/ec72f29aad4b28941eefa5e7e8017dad/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/kai/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/120f24dadbb90aea10ca5c0c0cde76b4.png" group-title="Phá Làng" , 26/09 18:00 🟡 ⚽ FK Panevezys - BFA Vilnius (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#dj2ryoh7v405q1z
-
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/nantong-zhiyun.png" group-title="Giờ Vàng" , 26/09 18:30 🟢 ⚽ Nantong Zhiyun vs Changchun Yatai (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -50,13 +47,13 @@ https://eqr2hdarxfliv.vcdn.cloud/1790398800_hd/1790398800_hd@720p.m3u8
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/444ccd0f41b3dc4726dbbd26ea3d359c.png" group-title="Gà Vàng" , 26/09 18:30 🟡 ⚽ Spartak Kostroma vs Ural Yekaterinburg (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/spartak-kostroma-vs-ural-yekaterinburg-ngay-26-09-2026/
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e003a3144349b595ee8b30c92d8124b5.png" group-title="Phá Làng" , 26/09 19:00 ⚽ Zaglebie Sosnowiec - Legia Warszawa (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e003a3144349b595ee8b30c92d8124b5.png" group-title="Phá Làng" , 26/09 19:00 🟡 ⚽ Zaglebie Sosnowiec - Legia Warszawa (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#jw2r09h547w9rz8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2cfa60bf56219aa500c51c8cb28e7777.png" group-title="Phá Làng" , 26/09 19:00 ⚽ Widzew lodz - Gornik Leczna (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2cfa60bf56219aa500c51c8cb28e7777.png" group-title="Phá Làng" , 26/09 19:00 🟡 ⚽ Widzew lodz - Gornik Leczna (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#x7lm7phxg89gm2w
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/809acdd49b4b1e55e7393c7575189e81.png" group-title="Gà Vàng" , 26/09 19:00 ⚽ Ekenas IF Fotboll vs SJK Seinäjoki (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/809acdd49b4b1e55e7393c7575189e81.png" group-title="Gà Vàng" , 26/09 19:00 🟡 ⚽ Ekenas IF Fotboll vs SJK Seinäjoki (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/ekenas-if-fotboll-vs-sjk-akatemia-ngay-26-09-2026/
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/vietnam.png" group-title="Giờ Vàng" , 26/09 19:30 ⚽ Việt Nam vs Philippines (Chưa có link — chờ cập nhật)
@@ -170,9 +167,6 @@ https://gavanglinkq.tv/truc-tiep/heracles-almelo-vs-vitesse-arnhem-ngay-26-09-20
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/croatia-u21.png" group-title="Giờ Vàng" , 26/09 22:00 ⚽ Croatia U21 vs U21 Hungary (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-croatia-u21-vs-u21-hungary-26-09-683e3b421f892a5e5c09030b
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/download_ky44Uf7.png" group-title="Khán Đài" , 26/09 22:00 ⚽ Kuwait vs Iraq (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/kuwait-vs-iraq-26-09-2026-857453
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b5e300bc77ac2ffd21c313b3634e78f0.png" group-title="Phá Làng" , 26/09 22:00 ⚽ Dragons - Coton de Ouidah (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#2y8m4zh5kegwql0
 
@@ -190,6 +184,9 @@ https://phalang.live/trang-chu#jw2r09hkoglxrz8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7b7d2b65c1ee63aee9e79ebafb2f0bc7.png" group-title="Phá Làng" , 26/09 22:30 ⚽ Pogon Szczecin - Udinese (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#vjxm8ghkv9por6o
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/download_ky44Uf7.png" group-title="Khán Đài" , 26/09 22:55 ⚽ Kuwait vs Iraq (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/kuwait-vs-iraq-26-09-2026-857453
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/501402ebbaa8555329c25b52fe79ecb2.png" group-title="Phá Làng" , 26/09 22:55 ⚽ Kuwait - Iraq (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#x7lm7phjl7lgm2w

@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:59:41 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:01:57 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (68 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (67 trận) =====
 
 # ----- Ngày 2026-09-26 -----
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/bdc329dccdc39efdd494418041bb9d41.png" group-title="Phá Làng" , 26/09 17:30 🟢 ⚽ Japan U23 - North Korea U23 (LÝ LINH LỰC)
@@ -9,13 +9,10 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/ec72f29aad4b28941eefa5e7e8017dad/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/120f24dadbb90aea10ca5c0c0cde76b4.png" group-title="Phá Làng" , 26/09 18:00 🟡 ⚽ FK Panevezys - BFA Vilnius (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#dj2ryoh7v405q1z
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e003a3144349b595ee8b30c92d8124b5.png" group-title="Phá Làng" , 26/09 19:00 ⚽ Zaglebie Sosnowiec - Legia Warszawa (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e003a3144349b595ee8b30c92d8124b5.png" group-title="Phá Làng" , 26/09 19:00 🟡 ⚽ Zaglebie Sosnowiec - Legia Warszawa (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#jw2r09h547w9rz8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2cfa60bf56219aa500c51c8cb28e7777.png" group-title="Phá Làng" , 26/09 19:00 ⚽ Widzew lodz - Gornik Leczna (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2cfa60bf56219aa500c51c8cb28e7777.png" group-title="Phá Làng" , 26/09 19:00 🟡 ⚽ Widzew lodz - Gornik Leczna (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#x7lm7phxg89gm2w
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260923/9cbe8e6a8c5fbf1577577a4603b40627.png" group-title="Phá Làng" , 26/09 19:30 ⚽ Vietnam - Philippines (Chưa có link — chờ cập nhật)
