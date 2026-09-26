@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 12:18:21 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 12:21:01 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (8 trận), Khán Đài (15 trận), Chuối Chiên (18 trận), Phá Làng (58 trận), Gà Vàng (17 trận), Sao Kê (21 trận) =====
 
@@ -16,14 +16,14 @@ https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8|User-Agent=Mozilla/5
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/614556.png" group-title="Sao Kê" , 26/09 12:00 🟢 ⚽ Renofa Yamaguchi vs SC Sagamihara (Quang Huy)
 https://stm6dad62063600.stream.hdplaylink.com/sklive/quanghuy/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
 
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/bbbfae3d9a5920f2da3b716cd2f54f94.png" group-title="Phá Làng" , 26/09 13:00 🟢 ⚽ China U23 - Thailand U23 (LÝ LIỀU LĨNH)
+https://lilive1.eu.cc/live/7c573a7a7c735053c4910733807a2a70/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/china-u23.png" group-title="Giờ Vàng" , 26/09 13:00 🟡 ⚽ U23 Trung Quốc vs U23 Thái Lan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-u23-trung-quoc-vs-u23-thai-lan-26-09-6ab468e0b057b828a8092bc4
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134337_d547f1b2.png" group-title="Chuối Chiên" , 26/09 13:00 🟡 ⚽ China PR U23 vs U23 Thailand  (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641726/china-pr-u23-vs-u23-thailand
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/bbbfae3d9a5920f2da3b716cd2f54f94.png" group-title="Phá Làng" , 26/09 13:00 🟡 ⚽ China U23 - Thailand U23 (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#y0or5jh9xj25qwz
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/317240.png" group-title="Sao Kê" , 26/09 13:00 🟡 ⚽ China U23 vs Thailand U23 (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/china-u23-vs-thailand-u23-6ab5c810a98792e63a6feb0d.html
