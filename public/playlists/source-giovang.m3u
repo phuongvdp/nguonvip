@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 11:48:56 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 11:51:12 26/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (8 trận) =====
 
@@ -19,8 +19,10 @@ https://eqr2hdarxfliv.vcdn.cloud/1790353721_hd/1790353721_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790353750_hd/1790353750_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Seoul_SK_Knights_logo.svg/500px-Seoul_SK_Knights_logo.svg.png" group-title="Giờ Vàng" , 26/09 12:00 🟡 🏀 Seoul Knights vs Wonju DB (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-seoul-knights-vs-wonju-db-26-09-801iezbe0koj
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Seoul_SK_Knights_logo.svg/500px-Seoul_SK_Knights_logo.svg.png" group-title="Giờ Vàng" , 26/09 12:00 🟢 🏀 Seoul Knights vs Wonju DB (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790353826_hd/1790353826_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/china-u23.png" group-title="Giờ Vàng" , 26/09 13:00 ⚽ U23 Trung Quốc vs U23 Thái Lan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-u23-trung-quoc-vs-u23-thai-lan-26-09-6ab468e0b057b828a8092bc4
