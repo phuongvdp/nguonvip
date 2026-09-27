@@ -1,14 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:27:56 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:30:30 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (19 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fdef90456d2a2eee09976c558457aec7.png" group-title="Phá Làng" , 27/09 21:15 🟢 ⚽ RCD Mallorca - Almeria (LÝ LA LÀNG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F8a67b2168887977af7551256caaf7a18%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ca76b82496931c28314972a8cf8b9b2c.png" group-title="Phá Làng" , 27/09 22:30 🟡 ⚽ CP Talayuela - Sporting Alcazar (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#318q66hxl9plqo9
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/423015daae7abff283307125c02c82b1.png" group-title="Phá Làng" , 27/09 22:55 🟡 ⚽ Yemen - Qatar (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkh6e0edqg8
@@ -28,7 +25,7 @@ https://phalang.live/trang-chu#k82rekhg2px8rep
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/be70130b180875a576e98a5a33c8238a.png" group-title="Phá Làng" , 27/09 23:00 🟡 ⚽ Austria - Kosovo (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y39mp1h6dg49moj
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f0221343111004aa15623603a9e8a443.png" group-title="Phá Làng" , 27/09 23:30 ⚽ Malta - Liechtenstein (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f0221343111004aa15623603a9e8a443.png" group-title="Phá Làng" , 27/09 23:30 🟡 ⚽ Malta - Liechtenstein (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y0or5jh9xj75qwz
 
 # ----- Ngày 2026-09-28 -----

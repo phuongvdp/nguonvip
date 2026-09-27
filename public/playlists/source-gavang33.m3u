@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:27:56 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:30:30 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (25 trận) =====
 
@@ -8,8 +8,9 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/796315.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/aa0f9de3c3f38177051c3c8741dac037.png" group-title="GaVang33" , 27/09 22:55 🟡 ⚽ Yemen vs Qatar (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/yemen-vs-qatar-luc-2255-ngay-27-09-2026-23xmvkh6e0edqg8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/aa0f9de3c3f38177051c3c8741dac037.png" group-title="GaVang33" , 27/09 22:55 🟢 ⚽ Yemen vs Qatar (Gà Siêu Son)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://live2.zktsva.app/live/306290.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/685d3703a0b1410dc3bf2280eb5a15ec.png" group-title="GaVang33" , 27/09 23:00 🟡 ⚽ Denmark vs Wales (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/denmark-vs-wales-luc-2300-ngay-27-09-2026-965mkyhk8donr1g
@@ -23,7 +24,7 @@ https://gavang33.me/truc-tiep/gibraltar-vs-andorra-luc-2300-ngay-27-09-2026-k82r
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/059bbd8df7767d3bc7829e3735c221e2.png" group-title="GaVang33" , 27/09 23:00 🟡 ⚽ Serbia vs Netherlands (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/serbia-vs-netherlands-luc-2300-ngay-27-09-2026-318q66hx8ygnqo9
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/230be7f4f23de1cb08877a72cd08f619.png" group-title="GaVang33" , 27/09 23:30 ⚽ Eibar vs UD Las Palmas (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/230be7f4f23de1cb08877a72cd08f619.png" group-title="GaVang33" , 27/09 23:30 🟡 ⚽ Eibar vs UD Las Palmas (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/eibar-vs-ud-las-palmas-luc-2330-ngay-27-09-2026-dn1m1ghlz7opmoe
 
 # ----- Ngày 2026-09-28 -----
