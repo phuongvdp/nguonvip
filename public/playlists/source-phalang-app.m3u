@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:57:58 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:00:36 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (16 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f0221343111004aa15623603a9e8a443.png" group-title="Phá Làng" , 27/09 23:30 🟢 ⚽ Malta - Liechtenstein (Server 1)
@@ -13,12 +13,6 @@ https://lilive1.eu.cc/live/10740f921c8cb2c39936485d44ea4a2e/playlist.m3u8|User-A
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/595e32d94437adf5bde6225b77bf1e14.png!w80" group-title="Phá Làng" , 28/09 01:00 🟢 ⚽ Bahrain - United Arab Emirates (LÝ LINH LỰC)
 https://lilive1.eu.cc/live/6f95476abafc502e5cc97b006f7fc899/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a50c3c04722ce6ef1516f6b984b94e07.png" group-title="Phá Làng" , 28/09 01:00 🟡 ⚽ Sport Boys - Alianza Atletico Sullana (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#318q66h8z6jpqo9
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3abe25b021a757583b3425be4cc5d17d.png" group-title="Phá Làng" , 28/09 01:00 🟡 ⚽ Guerreros del Pacifico II - Irapuato Olimpo (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#965mkyh8l2nwr1g
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/227d43878fa14347902532126d29b10c.png!w80" group-title="Phá Làng" , 28/09 01:45 🟡 ⚽ Norway - Portugal (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4wyrn4h6ypllq86
@@ -55,3 +49,6 @@ https://phalang.live/trang-chu#2316b564dc9b4f9d9f7c5779d62a8f7a
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 28/09 14:00 🏐 Việt Nam - Qatar (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#d5482007e1314642a53d617307a799b9
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/bfa20d86a59044ef90a4609dde03985c.png!w80" group-title="Phá Làng" , 28/09 16:00 ⚽ Singapore - Bangladesh (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#dj2ryohl8pj2q1z

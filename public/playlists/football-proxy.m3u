@@ -1,14 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:57:58 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:00:36 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (13 trận), Chuối Chiên (8 trận), Phá Làng (13 trận), Gà Vàng (6 trận), Sao Kê (9 trận), GaVang33 (27 trận), Bông Lau (8 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (13 trận), Chuối Chiên (8 trận), Phá Làng (12 trận), Gà Vàng (6 trận), Sao Kê (6 trận), GaVang33 (22 trận), Bông Lau (8 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/d5fcb1f5fa4781a872eb40a81563c526.png" group-title="Gà Vàng" , 27/09 22:30 🟢 ⚽ CD Antofagasta vs Municipal Iquique (Cá MậP)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a0c7c4b1ae4d6db02433c48.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/aa0f9de3c3f38177051c3c8741dac037.png" group-title="GaVang33" , 27/09 22:55 🟢 ⚽ Yemen vs Qatar (Gà Siêu Son)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F306290.m3u8&source=gavang33
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9.jpg" group-title="Khán Đài" , 27/09 23:00 🟢 ⚽ Austria vs Kosovo (Tiểu Mây)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa9%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
@@ -21,27 +18,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/059bbd8df7767d3bc7829e3735c221e2.png" group-title="Gà Vàng" , 27/09 23:00 🟢 ⚽ Serbia vs Netherlands (RIO)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a01a2511e8555d7a3685f5c.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8255.png" group-title="Sao Kê" , 27/09 23:00 🟢 ⚽ Austria vs Kosovo (Mơ)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fmo%2Fplaylist.m3u8&source=saoke
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8205.png" group-title="Sao Kê" , 27/09 23:00 🟢 ⚽ Serbia vs Netherlands (Kai)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fkai%2Fplaylist.m3u8&source=saoke
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8238.png" group-title="Sao Kê" , 27/09 23:00 🟢 ⚽ Denmark vs Wales (Bút Chì)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fbutchi%2Fplaylist.m3u8&source=saoke
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/059bbd8df7767d3bc7829e3735c221e2.png" group-title="GaVang33" , 27/09 23:00 🟢 ⚽ Serbia vs Netherlands (Gà Siêu Gáy)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F294335.m3u8&source=gavang33
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/685d3703a0b1410dc3bf2280eb5a15ec.png" group-title="GaVang33" , 27/09 23:00 🟢 ⚽ Denmark vs Wales (Gà Siêu Quỷ)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F304565.m3u8&source=gavang33
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/6010ce94e8e042a687207a7dceb06658.png" group-title="GaVang33" , 27/09 23:00 🟢 ⚽ Austria vs Kosovo (Gà Siêu Bệu)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F289650.m3u8&source=gavang33
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/275612d39c2aacdf7b64836df54b9229.png" group-title="GaVang33" , 27/09 23:00 🟢 ⚽ Gibraltar vs Andorra (Gà Siêu Ngố)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F301238.m3u8&source=gavang33
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f0221343111004aa15623603a9e8a443.png" group-title="Phá Làng" , 27/09 23:30 🟢 ⚽ Malta - Liechtenstein (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fc14b4abee339e5a08450bb19e09b6dcc%2Fplaylist.m3u8&source=phalang
@@ -73,12 +49,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133414_1ae05f1a.png" group-title="Bông Lau" , 28/09 01:00 🟢 ⚽ Bahrain vs United Arab Emirates (Chuối Kem (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikem%2Fplaylist.m3u8&source=bonglau
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a50c3c04722ce6ef1516f6b984b94e07.png" group-title="Phá Làng" , 28/09 01:00 🟡 ⚽ Sport Boys - Alianza Atletico Sullana (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#318q66h8z6jpqo9
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3abe25b021a757583b3425be4cc5d17d.png" group-title="Phá Làng" , 28/09 01:00 🟡 ⚽ Guerreros del Pacifico II - Irapuato Olimpo (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#965mkyh8l2nwr1g
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_21.jpg" group-title="Khán Đài" , 28/09 01:45 🟢 ⚽ Germany vs Greece (Pháo Thủ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa4%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dfaaa23580764370ed378ecd708c9f262&source=khandaitv
@@ -149,10 +119,10 @@ https://lau05.bonglautv1.pro/truc-tiep/1528900
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134301_856f2abf.png" group-title="Bông Lau" , 28/09 01:45 🟡 ⚽ Israel vs Rep. Of Ireland (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1528901
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/21551996567bcd206ee574043d509a84.png" group-title="GaVang33" , 28/09 02:00 ⚽ Real Oviedo vs Sporting Gijon (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/21551996567bcd206ee574043d509a84.png" group-title="GaVang33" , 28/09 02:00 🟡 ⚽ Real Oviedo vs Sporting Gijon (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/real-oviedo-vs-sporting-gijon-luc-0200-ngay-28-09-2026-l7oqdehgk2exr51
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/d5a92a68f9af953b26eafb935a054ce7.png" group-title="GaVang33" , 28/09 02:00 ⚽ Guyana vs Cayman Islands (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/d5a92a68f9af953b26eafb935a054ce7.png" group-title="GaVang33" , 28/09 02:00 🟡 ⚽ Guyana vs Cayman Islands (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/guyana-vs-cayman-islands-luc-0200-ngay-28-09-2026-4jwq2ghnl24wm0v
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/479eead0a767e524f42d26c85f70d088.png" group-title="Phá Làng" , 28/09 03:00 ⚽ Uberlandia MG - Mirassol - SP (Chưa có link — chờ cập nhật)
@@ -226,6 +196,9 @@ https://khandai3.link/truc-tiep/singapore-vs-bangladesh-28-09-2026-858999
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/singapore.png" group-title="Giờ Vàng" , 28/09 16:00 ⚽ Singapore vs Bangladesh (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-singapore-vs-bangladesh-28-09-6ab468f8b057b828a8092bce
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/bfa20d86a59044ef90a4609dde03985c.png!w80" group-title="Phá Làng" , 28/09 16:00 ⚽ Singapore - Bangladesh (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#dj2ryohl8pj2q1z
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/bfa20d86a59044ef90a4609dde03985c.png" group-title="GaVang33" , 28/09 16:00 ⚽ Singapore vs Bangladesh (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/singapore-vs-bangladesh-luc-1600-ngay-28-09-2026-dj2ryohl8pj2q1z
