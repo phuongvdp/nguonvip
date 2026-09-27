@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:59:21 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:02:00 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (23 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (22 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/423015daae7abff283307125c02c82b1.png" group-title="Phá Làng" , 27/09 22:55 🟢 ⚽ Yemen - Qatar (Server 1)
@@ -26,16 +26,13 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b33db33105c82718034c179607a4fa56.png" group-title="Phá Làng" , 28/09 00:00 🟢 ⚽ Jordan - Syria (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F10740f921c8cb2c39936485d44ea4a2e%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/78aa7cd31374afe35f77b04e8e2c7ee9.png" group-title="Phá Làng" , 28/09 00:00 🟡 ⚽ KF Gunilla Hei - FK Bashkimi (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#965mkyh8l5per1g
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a50c3c04722ce6ef1516f6b984b94e07.png" group-title="Phá Làng" , 28/09 01:00 ⚽ Sport Boys - Alianza Atletico Sullana (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a50c3c04722ce6ef1516f6b984b94e07.png" group-title="Phá Làng" , 28/09 01:00 🟡 ⚽ Sport Boys - Alianza Atletico Sullana (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66h8z6jpqo9
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3abe25b021a757583b3425be4cc5d17d.png" group-title="Phá Làng" , 28/09 01:00 ⚽ Guerreros del Pacifico II - Irapuato Olimpo (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3abe25b021a757583b3425be4cc5d17d.png" group-title="Phá Làng" , 28/09 01:00 🟡 ⚽ Guerreros del Pacifico II - Irapuato Olimpo (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#965mkyh8l2nwr1g
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/595e32d94437adf5bde6225b77bf1e14.png!w80" group-title="Phá Làng" , 28/09 01:00 ⚽ Bahrain - United Arab Emirates (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/595e32d94437adf5bde6225b77bf1e14.png!w80" group-title="Phá Làng" , 28/09 01:00 🟡 ⚽ Bahrain - United Arab Emirates (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#zp5rzghgnwnpq82
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/227d43878fa14347902532126d29b10c.png!w80" group-title="Phá Làng" , 28/09 01:45 ⚽ Norway - Portugal (Chưa có link — chờ cập nhật)
