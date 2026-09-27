@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:17:57 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:20:32 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (23 trận), Chuối Chiên (13 trận), Phá Làng (24 trận), Gà Vàng (9 trận), Sao Kê (10 trận), GaVang33 (28 trận), Bông Lau (13 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (23 trận), Chuối Chiên (13 trận), Phá Làng (23 trận), Gà Vàng (9 trận), Sao Kê (10 trận), GaVang33 (28 trận), Bông Lau (13 trận) =====
 
 # ----- Ngày 2026-09-27 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fdef90456d2a2eee09976c558457aec7.png" group-title="Phá Làng" , 27/09 21:15 🟢 ⚽ RCD Mallorca - Almeria (LÝ LA LÀNG)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F8a67b2168887977af7551256caaf7a18%2Fplaylist.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fdef90456d2a2eee09976c558457aec7.png" group-title="Gà Vàng" , 27/09 21:15 🟢 ⚽ Mallorca vs Almeria (ĐOÀN DỰ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a5df755b89dded67b39b8bc.m3u8&source=gavang
 
