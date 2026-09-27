@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:13:51 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:16:29 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (12 trận), Chuối Chiên (8 trận), Phá Làng (12 trận), Gà Vàng (20 trận), Sao Kê (6 trận), GaVang33 (22 trận), Bông Lau (8 trận) =====
 
@@ -53,6 +53,15 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/761ccf19be6a4fdf81880acadb81aa4c.png!w80" group-title="Phá Làng" , 28/09 01:45 🟢 ⚽ Germany - Greece (LÝ LONG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F4c08191d31396b6c99c41e5b79412775%2Fplaylist.m3u8&source=phalang
 
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/761ccf19be6a4fdf81880acadb81aa4c.png" group-title="GaVang33" , 28/09 01:45 🟢 ⚽ Germany vs Greece (Gà Siêu Son)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F306290.m3u8&source=gavang33
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/227d43878fa14347902532126d29b10c.png" group-title="GaVang33" , 28/09 01:45 🟢 ⚽ Norway vs Portugal (Gà Siêu Quỷ)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F304565.m3u8&source=gavang33
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/a370afda41a7ae62dcb8d1b721b92bed.png" group-title="GaVang33" , 28/09 01:45 🟢 ⚽ Israel vs Ireland (Gà Ô Long)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F432017.m3u8&source=gavang33
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/israel.png" group-title="Giờ Vàng" , 28/09 01:45 🟡 ⚽ Israel vs Ireland (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-israel-vs-ireland-28-09-69f695d673ba0b335e0f2ed0
 
@@ -97,15 +106,6 @@ https://vip3.saoketv40.xyz/israel-vs-ireland-6ab777191883d81208dbbbad.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8570.png" group-title="Sao Kê" , 28/09 01:45 🟡 ⚽ Germany vs Greece (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/germany-vs-greece-6ab777191883d81208dbbbae.html
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/761ccf19be6a4fdf81880acadb81aa4c.png" group-title="GaVang33" , 28/09 01:45 🟡 ⚽ Germany vs Greece (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/germany-vs-greece-luc-0145-ngay-28-09-2026-dn1m1ghl9y07moe
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/227d43878fa14347902532126d29b10c.png" group-title="GaVang33" , 28/09 01:45 🟡 ⚽ Norway vs Portugal (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/norway-vs-portugal-luc-0145-ngay-28-09-2026-4wyrn4h6ypllq86
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/a370afda41a7ae62dcb8d1b721b92bed.png" group-title="GaVang33" , 28/09 01:45 🟡 ⚽ Israel vs Ireland (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/israel-vs-ireland-luc-0145-ngay-28-09-2026-l5ergph4kx8lr8k
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125455_9f31cc8f.png" group-title="Bông Lau" , 28/09 01:45 🟡 ⚽ Germany vs Greece (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1528899
