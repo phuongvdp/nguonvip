@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:05:36 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:08:43 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận) =====
 
@@ -29,8 +29,10 @@ https://eqr2hdarxfliv.vcdn.cloud/1790493636_hd/1790493636_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790495591_hd/1790495591_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/china.png" group-title="Giờ Vàng" , 27/09 18:35 🟡 ⚽ Trung Quốc vs New Zealand (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-trung-quoc-vs-new-zealand-27-09-6aa9dd26b5dda8c9400d6676
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/china.png" group-title="Giờ Vàng" , 27/09 18:35 🟢 ⚽ Trung Quốc vs New Zealand (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790493807_hd/1790493807_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/lithuania.png" group-title="Giờ Vàng" , 27/09 20:00 ⚽ Lithuania vs Azerbaijan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-lithuania-vs-azerbaijan-27-09-69f2a1a2bb398665fd0908e4
