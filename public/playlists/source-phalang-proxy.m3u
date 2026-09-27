@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:58:58 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 02:01:32 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (17 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/595e32d94437adf5bde6225b77bf1e14.png!w80" group-title="Phá Làng" , 28/09 01:00 🟢 ⚽ Bahrain - United Arab Emirates (LÝ LINH LỰC)
@@ -16,7 +16,7 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b0dc1effcd883299ca8ec96dd720d30c.png" group-title="Phá Làng" , 28/09 01:45 🟢 ⚽ Israel - Ireland (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F34b56d1e6a2ccc32a5b84cb3984489ce%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/479eead0a767e524f42d26c85f70d088.png" group-title="Phá Làng" , 28/09 03:00 ⚽ Uberlandia MG - Mirassol - SP (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/479eead0a767e524f42d26c85f70d088.png" group-title="Phá Làng" , 28/09 03:00 🟡 ⚽ Uberlandia MG - Mirassol - SP (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4wyrn4hyzo43q86
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/99a341d00ad5eb1ace5cf21e080d7653.png" group-title="Phá Làng" , 28/09 03:15 ⚽ AD Tarma - Sporting Cristal (Chưa có link — chờ cập nhật)
@@ -51,3 +51,6 @@ https://phalang.live/trang-chu#318q66h8zn61qo9
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5009222fbdc9871d7f7a1b91642e82ef.png" group-title="Phá Làng" , 28/09 16:30 ⚽ Turkmenistan - Palestine (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#vjxm8ghkv9y6r6o
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/dd0a8169c1c22efabb56434f3631159b.png!w80" group-title="Phá Làng" , 28/09 17:00 🏐 Đài Loan TQ - Hàn Quốc (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#2c189f9fdbe44f7190791df1d7019889
