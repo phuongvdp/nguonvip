@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:26:07 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:28:20 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (15 trận), Chuối Chiên (11 trận), Phá Làng (18 trận), Gà Vàng (7 trận), Sao Kê (9 trận), GaVang33 (27 trận), Bông Lau (11 trận) =====
 
@@ -116,6 +116,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b33db33105c82718034c179607a4fa56.png" group-title="Phá Làng" , 28/09 00:00 🟢 ⚽ Jordan - Syria (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F10740f921c8cb2c39936485d44ea4a2e%2Fplaylist.m3u8&source=phalang
 
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/595e32d94437adf5bde6225b77bf1e14.png" group-title="GaVang33" , 28/09 01:00 🟢 ⚽ Bahrain vs United Arab Emirates (Gà Siêu Kiêu)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F741294.m3u8&source=gavang33
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_643.jpg" group-title="Khán Đài" , 28/09 01:00 🟡 ⚽ Bahrain vs United Arab Emirates (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/bahrain-vs-united-arab-emirates-28-09-2026-857563
 
@@ -133,9 +136,6 @@ https://phalang.live/trang-chu#zp5rzghgnwnpq82
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5901.png" group-title="Sao Kê" , 28/09 01:00 🟡 ⚽ Bahrain vs UAE (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/bahrain-vs-uae-6ab86f473fec945008d6a61d.html
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/595e32d94437adf5bde6225b77bf1e14.png" group-title="GaVang33" , 28/09 01:00 🟡 ⚽ Bahrain vs United Arab Emirates (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/bahrain-vs-united-arab-emirates-luc-0100-ngay-28-09-2026-zp5rzghgnwnpq82
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133414_1ae05f1a.png" group-title="Bông Lau" , 28/09 01:00 🟡 ⚽ Bahrain vs United Arab Emirates (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1637935
