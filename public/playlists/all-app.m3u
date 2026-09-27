@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:43:44 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:46:43 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (17 trận), Chuối Chiên (20 trận), Phá Làng (46 trận), Gà Vàng (20 trận), Sao Kê (19 trận), GaVang33 (24 trận) =====
 
@@ -31,6 +31,12 @@ https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/download_IAaCYjl.png" group-title="Khán Đài" , 27/09 14:00 🟢 ⚽ Hong Kong vs Laos (Pháo Thủ)
 https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://khandai3.link
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Chuối Chiên" , 27/09 14:00 🟢 🏐 India vs Việt Nam (Chuối Tây (HD))
+https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134317_1bd3a785.png" group-title="Chuối Chiên" , 27/09 14:00 🟢 ⚽ Hong Kong vs Laos (Chuối Chao (HD))
+https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
+
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/cd44171aa5aeb84d7375aa924d4fe543.png!w80" group-title="Phá Làng" , 27/09 14:00 🟢 🏐 Ấn Độ - Việt Nam (LÝ LÊN LỬA (Server 1))
 https://pull.digitalcdn.net/live/98c6994cdc75464e9332c99879e3f343/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
 
@@ -39,6 +45,15 @@ https://pull.digitalcdn.net/live/7f5f713541a146c9a5520d1b6ab44b66/index.m3u8|Use
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/df321578b4f5f132345d2e6b39743126.png!w80" group-title="Phá Làng" , 27/09 14:00 🟢 ⚽ Hong Kong - Laos (LÝ LONG)
 https://lilive1.eu.cc/live/43ca64125174fa1f6a27360eb6d8ffbc/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Sao Kê" , 27/09 14:00 🟢 ⚽ India vs Việt Nam (Ricky)
+https://stm6dad62063600.stream.hdplaylink.com/sklive/ricky/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Sao Kê" , 27/09 14:00 🟢 ⚽ Indonesia vs Thailand (Cà Rốt)
+https://stm6dad62063600.stream.hdplaylink.com/sklive/carot/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6322.png" group-title="Sao Kê" , 27/09 14:00 🟢 ⚽ Hong Kong vs Laos (Mơ)
+https://stm6dad62063600.stream.hdplaylink.com/sklive/mo/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/df321578b4f5f132345d2e6b39743126.png" group-title="GaVang33" , 27/09 14:00 🟢 ⚽ Hong Kong vs Laos (Gà Siêu Bệu)
 https://live2.zktsva.app/live/289650.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -49,23 +64,8 @@ https://giovang.city/truc-tiep-hong-kong-vs-lao-27-09-6ab468f8b057b828a8092bd6
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_WqmhllM.jpg" group-title="Khán Đài" , 27/09 14:00 🟡 🏐 Indonesia vs Thái Lan (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/indonesia-vs-thai-lan
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Chuối Chiên" , 27/09 14:00 🟡 🏐 India vs Việt Nam (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/995852/india-vs-viet-nam
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134317_1bd3a785.png" group-title="Chuối Chiên" , 27/09 14:00 🟡 ⚽ Hong Kong vs Laos (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1641706/hong-kong-vs-laos
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/df321578b4f5f132345d2e6b39743126.png" group-title="Gà Vàng" , 27/09 14:00 🟡 ⚽ Hong Kong vs Laos (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/hong-kong-vs-laos-ngay-27-09-2026/
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Sao Kê" , 27/09 14:00 🟡 ⚽ India vs Việt Nam (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/india-vs-viet-nam-6ab5c9fc78b4acb4e60657b0.html
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Sao Kê" , 27/09 14:00 🟡 ⚽ Indonesia vs Thailand (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/indonesia-vs-thailand-6ab5c9d773423c5d67b1ed66.html
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6322.png" group-title="Sao Kê" , 27/09 14:00 🟡 ⚽ Hong Kong vs Laos (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/hong-kong-vs-laos-6ab777191883d81208dbbbb3.html
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/6akehaEa-QVr2kiM7.png" group-title="Giờ Vàng" , 27/09 14:30 🟡 🏀 KCC Egis vs KoGas (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-kcc-egis-vs-kogas-27-09-2r7qd42iyadf
