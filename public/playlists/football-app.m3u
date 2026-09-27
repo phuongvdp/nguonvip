@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:43:04 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:45:38 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (14 trận), Chuối Chiên (5 trận), Phá Làng (8 trận), Gà Vàng (20 trận), Sao Kê (5 trận), GaVang33 (25 trận), Bông Lau (5 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (13 trận), Chuối Chiên (5 trận), Phá Làng (8 trận), Gà Vàng (20 trận), Sao Kê (5 trận), GaVang33 (25 trận), Bông Lau (5 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/KI7ZD8ZA-IqzC8wpd.png" group-title="Giờ Vàng" , 27/09 23:59 🟢 ⚽ Cincinnati Bengals vs Pittsburgh Steelers (Giovang 1)
@@ -13,9 +13,6 @@ https://eqr2hdarxfliv.vcdn.cloud/1790265858_hd/1790265858_hd@720p.m3u8|User-Agen
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/norway.png" group-title="Giờ Vàng" , 28/09 01:45 🟢 ⚽ Na Uy vs Bồ Đào Nha (Giovang 1)
 https://eqr2hdarxfliv.vcdn.cloud/1790265911_hd/1790265911_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_692.jpg" group-title="Khán Đài" , 28/09 01:45 🟢 ⚽ Norway vs Portugal (Lee Sin)
-https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://khandai3.link
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250715_194710_e484b2d5.png" group-title="Chuối Chiên" , 28/09 01:45 🟢 ⚽ Norway vs Portugal (Chuối Nhỏ (HD))
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
@@ -71,20 +68,20 @@ https://playback.livetl002.com/live/69be75e0a0a45974afb67776.m3u8|User-Agent=Moz
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/dUe4S2il-40MWbKRi.png" group-title="Giờ Vàng" , 28/09 03:25 🟢 ⚽ Baltimore Ravens vs Dallas Cowboys (Giovang 1)
 https://eqr2hdarxfliv.vcdn.cloud/1790264984_hd/1790264984_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133534_50dbb307.png" group-title="Chuối Chiên" , 28/09 04:00 🟡 ⚽ Jaguares vs Alianza Petrolera (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1549798/jaguares-vs-alianza-petrolera
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133534_50dbb307.png" group-title="Chuối Chiên" , 28/09 04:00 🟢 ⚽ Jaguares vs Alianza Petrolera (Trốc Tru (HD))
+https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/424270.png" group-title="Sao Kê" , 28/09 04:00 🟢 ⚽ CD Jaguares vs Alianza FC (Cà Rốt)
+https://stm6dad62063600.stream.hdplaylink.com/sklive/carot/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://vip3.saoketv40.xyz/norway-vs-portugal-6ab777191883d81208dbbbaf.html
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133534_50dbb307.png" group-title="Bông Lau" , 28/09 04:00 🟢 ⚽ Jaguares vs Alianza Petrolera (Trốc Tru (HD))
+https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/951df90c9a0437a9c5894155a1dfb4b0.png" group-title="Phá Làng" , 28/09 04:00 🟡 ⚽ CEFOR Chiapas - Jaguares Chiapas II (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4wyrn4hyzov3q86
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b7f3a068b301edd82ad4c56496f41063.png" group-title="Gà Vàng" , 28/09 04:00 🟡 ⚽ Jaguares de Cordoba vs Alianza Fútbol Club (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/jaguares-de-cordoba-vs-alianza-futbol-club-ngay-28-09-2026/
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/424270.png" group-title="Sao Kê" , 28/09 04:00 🟡 ⚽ CD Jaguares vs Alianza FC (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/cd-jaguares-vs-alianza-fc-6ab777191883d81208dbbbab.html
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133534_50dbb307.png" group-title="Bông Lau" , 28/09 04:00 🟡 ⚽ Jaguares vs Alianza Petrolera (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1549798
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/84f85d4178e4287ed8ad5f76ad4c5e46.png" group-title="Gà Vàng" , 28/09 04:30 🟡 ⚽ Fortaleza vs Athletic Club (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/fortaleza-vs-athletic-club-ngay-28-09-2026/
