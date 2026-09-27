@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:35:21 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:37:44 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (10 trận), Chuối Chiên (16 trận), Phá Làng (41 trận), Gà Vàng (18 trận), Sao Kê (21 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (10 trận), Chuối Chiên (16 trận), Phá Làng (41 trận), Gà Vàng (18 trận), Sao Kê (21 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/e829da6b3050ec03f3c8715690ec39c4.png" group-title="Gà Vàng" , 27/09 07:40 🟢 ⚽ FC Dallas vs Los Angeles FC (SiêU QuậY)
@@ -9,9 +9,6 @@ https://playback.livetl002.com/live/6a2a59b347bbddd62a8dc4e4.m3u8|User-Agent=Moz
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/cd5a7e277e91426d9ad74bd09b946fde.png" group-title="Gà Vàng" , 27/09 08:00 🟢 ⚽ Mexico vs Colombia (MeoMeo)
 https://playback.livetl002.com/live/69be75e0a0a45974afb67776.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/real-salt-lake.png" group-title="Giờ Vàng" , 27/09 08:30 🟢 ⚽ Real Salt Lake vs New England Revolution (Giovang 1)
-https://eqr2hdarxfliv.vcdn.cloud/1790434354_hd/1790434354_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/98a89cba4bbd10c0ceb437d8f795d43b.png" group-title="Gà Vàng" , 27/09 08:40 🟢 ⚽ Real Salt Lake vs New England Revolution (cố tư nghiêm)
 https://playback.livetl002.com/live/69a1aaa7230584579e2d5ce1.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
@@ -40,8 +37,8 @@ https://eqr2hdarxfliv.vcdn.cloud/1790434215_hd/1790434215_hd@720p.m3u8|User-Agen
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8561.png" group-title="Sao Kê" , 27/09 10:10 🟢 ⚽ Tigres vs Puebla (Tít)
 https://stm6dad62063600.stream.hdplaylink.com/sklive/tit/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/QH2vkEDa-nRdGpyH6.png" group-title="Giờ Vàng" , 27/09 11:00 🟡 ⚽ Vanuatu vs New Caledonia (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-vanuatu-vs-new-caledonia-27-09-6ab5ba6009ca9ecd4709097d
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/QH2vkEDa-nRdGpyH6.png" group-title="Giờ Vàng" , 27/09 11:00 🟢 ⚽ Vanuatu vs New Caledonia (Giovang 1)
+https://eqr2hdarxfliv.vcdn.cloud/1790434462_hd/1790434462_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/43f9c122bf617d349407a95d4f709a0d.png" group-title="Phá Làng" , 27/09 11:00 🟡 ⚽ Perth Glory - Adelaide United (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4jwq2ghgo61om0v
