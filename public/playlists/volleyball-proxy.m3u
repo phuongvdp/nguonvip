@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:48:04 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:50:38 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (1 trận), Chuối Chiên (4 trận), Phá Làng (2 trận), Bông Lau (4 trận) =====
 
@@ -16,8 +16,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Chuối Chiên" , 27/09 17:20 🟢 🏐 Japan vs Uzbekistan (Chuối Tây (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitay%2Fplaylist.m3u8&source=chuoichientv
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 27/09 17:20 🟢 🏐 Nhật Bản - Uzbekistan (LÝ LÊN LỬA (Server 1))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F61e1d2421a37453eba8e4f4e52105dd4%2Findex.m3u8&source=phalang
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 27/09 17:20 🟢 🏐 Nhật Bản - Uzbekistan (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#6d3cee580cd048d493c662a71307f4f1
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Bông Lau" , 27/09 17:20 🟢 🏐 Japan vs Uzbekistan (Chuối Tây (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitay%2Fplaylist.m3u8&source=bonglau
