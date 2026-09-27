@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:36:10 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:38:45 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận) =====
 
@@ -7,11 +7,11 @@
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/lithuania.png" group-title="Giờ Vàng" , 27/09 20:00 🟢 ⚽ Lithuania vs Azerbaijan (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790494080_hd%2F1790494080_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/GANOAmyS-48fOrFoJ.png" group-title="Giờ Vàng" , 27/09 22:00 🟡 ⚽ Yemen vs Qatar (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-yemen-vs-qatar-27-09-sovsuxpzfh64
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/GANOAmyS-48fOrFoJ.png" group-title="Giờ Vàng" , 27/09 22:00 🟢 ⚽ Yemen vs Qatar (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790494397_hd%2F1790494397_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/h4mAxXEa-YgmHmwO2.png" group-title="Giờ Vàng" , 27/09 22:00 🟡 🏀 Basket Girona vs Murcia (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-basket-girona-vs-murcia-27-09-xi4hqmx5gbol
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/h4mAxXEa-YgmHmwO2.png" group-title="Giờ Vàng" , 27/09 22:00 🟢 🏀 Basket Girona vs Murcia (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790494992_hd%2F1790494992_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Miv9FHHG-dQ3CHKf1.png" group-title="Giờ Vàng" , 27/09 22:30 🟡 ⚽ Chelsea nữ vs Arsenal nữ (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-chelsea-nu-vs-arsenal-nu-27-09-9yeq3q0t2z9d
