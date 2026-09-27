@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:54:52 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:57:25 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (30 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (29 trận) =====
 
 # ----- Ngày 2026-09-27 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e8327d4681b4a73c83be9fe087b30721.png" group-title="Phá Làng" , 27/09 19:00 🟢 ⚽ Shanghai Shenhua - Zenit St. Petersburg (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fc923894971e6d1975517849339a6a6b7%2Fplaylist.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fdf63461c00668597319a4f0db14dcee.png" group-title="Phá Làng" , 27/09 19:00 🟢 ⚽ Real Valladolid CF - Cordoba (LÝ LIỀU LĨNH)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F47863d9ab75a0c20e2f0247e7e044fdb%2Fplaylist.m3u8&source=phalang
 
