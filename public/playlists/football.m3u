@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:40:09 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:42:25 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (10 trận), Chuối Chiên (14 trận), Phá Làng (45 trận), Gà Vàng (19 trận), Sao Kê (24 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (10 trận), Chuối Chiên (15 trận), Phá Làng (44 trận), Gà Vàng (19 trận), Sao Kê (23 trận) =====
 
 # ----- Ngày 2026-09-27 -----
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/773958.png" group-title="Sao Kê" , 27/09 06:30 🟢 ⚽ Atlanta United vs New York City FC (Bút Chì)
-#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://stm6dad62063600.stream.hdplaylink.com/sklive/butchi/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 27/09 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -73,11 +68,6 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/teppy/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790434354_hd/1790434354_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/88620f5162fd07e31d46b44f848bd9e5.png" group-title="Phá Làng" , 27/09 08:30 🟢 ⚽ Real Salt Lake - New England Revolution (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/af78f69f09ecee5c8d45bbc47c965027/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/los-angeles-galaxy.png" group-title="Giờ Vàng" , 27/09 09:30 🟡 ⚽ Los Angeles Galaxy vs Colorado Rapids (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-los-angeles-galaxy-vs-colorado-rapids-27-09-6aadd0c024d46db870f2894e
@@ -154,9 +144,6 @@ https://phalang.live/trang-chu#8yomo4h1no15q0j
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135806_f9a41cc0.png" group-title="Chuối Chiên" , 27/09 16:00 ⚽ Đồng Tháp vs Thai Nguyen (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1634973/dong-thap-vs-thai-nguyen
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aaf7ff777567dba636caf52a05a45c31.png" group-title="Phá Làng" , 27/09 16:00 ⚽ Dong Thap - Thai Nguyen (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#1l4rjnh9voy2m7v
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e3eeed340658b68dc6b1cc2997997954.png" group-title="Phá Làng" , 27/09 16:00 ⚽ Cerezo Osaka Sakai - NTV Tokyo Verdy Beleza (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6ypq3nhvxovgmd7
 
@@ -174,6 +161,9 @@ https://khandai3.link/truc-tiep/cambodia-vs-myanmar
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132714_8f17ab4f.png" group-title="Chuối Chiên" , 27/09 17:00 ⚽ Cambodia vs Myanmar (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641707/cambodia-vs-myanmar
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aaf7ff777567dba636caf52a05a45c31.png" group-title="Phá Làng" , 27/09 17:00 ⚽ Dong Thap - Thai Nguyen (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#1l4rjnh9voy2m7v
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png" group-title="Phá Làng" , 27/09 17:00 ⚽ Gangwon FC - Incheon United Club (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4wyrn4h6xey6q86
@@ -415,6 +405,9 @@ https://live05.chuoichientv.me/live/1549798/jaguares-vs-alianza-petrolera
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/424270.png" group-title="Sao Kê" , 28/09 04:00 ⚽ CD Jaguares vs Alianza FC (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/cd-jaguares-vs-alianza-fc-6ab777191883d81208dbbbab.html
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131608_f8dbdd17.png" group-title="Chuối Chiên" , 28/09 06:00 ⚽ Columbus Crew vs Inter Miami (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1490510/columbus-crew-vs-inter-miami
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6001.png" group-title="Sao Kê" , 28/09 06:00 ⚽ Columbus Crew vs Inter Miami CF (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/columbus-crew-vs-inter-miami-cf-6ab777191883d81208dbbbac.html
