@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:35:42 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:38:15 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (12 trận), Chuối Chiên (12 trận), Phá Làng (17 trận), Gà Vàng (9 trận), Sao Kê (10 trận), GaVang33 (25 trận), Bông Lau (12 trận) =====
 
@@ -39,6 +39,9 @@ https://phalang.live/trang-chu#23xmvkh6e0edqg8
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9.jpg" group-title="Khán Đài" , 27/09 23:00 🟢 ⚽ Austria vs Kosovo (Tiểu Mây)
 https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://khandai3.link
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_7.jpg" group-title="Khán Đài" , 27/09 23:00 🟢 ⚽ Denmark vs Wales (Enzo)
+https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://khandai3.link
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_675.jpg" group-title="Khán Đài" , 27/09 23:00 🟢 ⚽ Serbia vs Netherlands (Pháo Thủ)
 https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://khandai3.link
@@ -93,9 +96,6 @@ https://giovang.city/truc-tiep-dan-mach-vs-wales-27-09-69f3f2b74bff4a0c310bf771
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/serbia.png" group-title="Giờ Vàng" , 27/09 23:00 🟡 ⚽ Serbia vs Hà Lan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-serbia-vs-ha-lan-27-09-69f2a1a2bb398665fd0908db
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_7.jpg" group-title="Khán Đài" , 27/09 23:00 🟡 ⚽ Denmark vs Wales (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/denmark-vs-wales-27-09-2026-790880
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/481d49607b0b1cf75d31b4f95b3667aa.png" group-title="Phá Làng" , 27/09 23:00 🟡 ⚽ Maracena - UE Tavernes (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4wyrn4h6gjp8q86
