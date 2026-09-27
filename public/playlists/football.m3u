@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:12:25 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:14:40 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (10 trận), Chuối Chiên (15 trận), Phá Làng (42 trận), Gà Vàng (18 trận), Sao Kê (23 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (10 trận), Chuối Chiên (16 trận), Phá Làng (42 trận), Gà Vàng (18 trận), Sao Kê (21 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/e829da6b3050ec03f3c8715690ec39c4.png" group-title="Gà Vàng" , 27/09 07:40 🟢 ⚽ FC Dallas vs Los Angeles FC (SiêU QuậY)
@@ -13,16 +13,6 @@ https://playback.livetl002.com/live/6a2a59b347bbddd62a8dc4e4.m3u8
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/69be75e0a0a45974afb67776.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6710.png" group-title="Sao Kê" , 27/09 08:00 🟢 ⚽ Mexico vs Colombia (Cà Rốt)
-#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://stm6dad62063600.stream.hdplaylink.com/sklive/carot/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133416_04ec5812.png" group-title="Sao Kê" , 27/09 08:00 🟢 ⚽ Qatar vs Hong Kong (Teppy)
-#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://stm6dad62063600.stream.hdplaylink.com/sklive/teppy/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/real-salt-lake.png" group-title="Giờ Vàng" , 27/09 08:30 🟢 ⚽ Real Salt Lake vs New England Revolution (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
@@ -403,3 +393,6 @@ https://live05.chuoichientv.me/live/1490510/columbus-crew-vs-inter-miami
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6001.png" group-title="Sao Kê" , 28/09 06:00 ⚽ Columbus Crew vs Inter Miami CF (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/columbus-crew-vs-inter-miami-cf-6ab777191883d81208dbbbac.html
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131434_fbad589d.png" group-title="Chuối Chiên" , 28/09 08:00 ⚽ Leon vs FC Juarez (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1550982/leon-vs-fc-juarez
