@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:30:30 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:33:08 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (10 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (9 trận) =====
 
 # ----- Ngày 2026-09-27 -----
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fdf63461c00668597319a4f0db14dcee.png" group-title="Gà Vàng" , 27/09 19:00 🟢 ⚽ Real Valladolid vs Cordoba (RIO)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a01a2511e8555d7a3685f5c.m3u8&source=gavang
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/0c520a5ff707978cf7ce6e3ff30dc98e.png" group-title="Gà Vàng" , 27/09 19:30 🟢 ⚽ De Graafschap vs Den Bosch (THICHDUTHU)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a704ad865997681f18c2160.m3u8&source=gavang
 
