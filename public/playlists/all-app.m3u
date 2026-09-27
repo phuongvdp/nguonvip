@@ -1,20 +1,17 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:56:51 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:59:33 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (20 trận), Chuối Chiên (14 trận), Phá Làng (19 trận), Gà Vàng (9 trận), Sao Kê (10 trận), GaVang33 (25 trận), Bông Lau (14 trận) =====
 
 # ----- Ngày 2026-09-27 -----
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/0c520a5ff707978cf7ce6e3ff30dc98e.png" group-title="Gà Vàng" , 27/09 19:30 🟢 ⚽ De Graafschap vs Den Bosch (THICHDUTHU)
-https://playback.livetl002.com/live/6a704ad865997681f18c2160.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f2b6806d6ed60d2d87b0dd5ae62e6f20.png" group-title="Gà Vàng" , 27/09 20:00 🟢 ⚽ Lithuania vs Azerbaijan (SAITAMA)
-https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125628_01e49a9d.png" group-title="Chuối Chiên" , 27/09 21:15 🟢 ⚽ Mallorca vs Almeria (Chuối Nhỏ (HD))
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fdef90456d2a2eee09976c558457aec7.png" group-title="Phá Làng" , 27/09 21:15 🟢 ⚽ RCD Mallorca - Almeria (LÝ LA LÀNG)
 https://lilive1.eu.cc/live/8a67b2168887977af7551256caaf7a18/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fdef90456d2a2eee09976c558457aec7.png" group-title="Gà Vàng" , 27/09 21:15 🟢 ⚽ Mallorca vs Almeria (ĐOÀN DỰ)
+https://playback.livetl002.com/live/6a5df755b89dded67b39b8bc.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8661.png" group-title="Sao Kê" , 27/09 21:15 🟢 ⚽ Mallorca vs Almería (Ricky)
 https://stm6dad62063600.stream.hdplaylink.com/sklive/ricky/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://vip3.saoketv40.xyz/mallorca-vs-almeria-6ab777191883d81208dbbbb0.html
@@ -30,6 +27,9 @@ https://eqr2hdarxfliv.vcdn.cloud/1790494992_hd/1790494992_hd@720p.m3u8|User-Agen
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Miv9FHHG-dQ3CHKf1.png" group-title="Giờ Vàng" , 27/09 22:30 🟢 ⚽ Chelsea nữ vs Arsenal nữ (Giovang 1)
 https://eqr2hdarxfliv.vcdn.cloud/1790495435_hd/1790495435_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/d5fcb1f5fa4781a872eb40a81563c526.png" group-title="Gà Vàng" , 27/09 22:30 🟢 ⚽ CD Antofagasta vs Municipal Iquique (Cá MậP)
+https://playback.livetl002.com/live/6a0c7c4b1ae4d6db02433c48.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/GANOAmyS-48fOrFoJ.png" group-title="Giờ Vàng" , 27/09 22:55 🟢 ⚽ Yemen vs Qatar (Giovang 1)
 https://eqr2hdarxfliv.vcdn.cloud/1790494397_hd/1790494397_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
@@ -82,6 +82,12 @@ https://lilive1.eu.cc/live/ee28c5f8cd1fbc6473a7dfe19dd2d93c/playlist.m3u8|User-A
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/d425d5ad92e3850590036928252a14b9.png" group-title="Phá Làng" , 27/09 23:00 🟢 ⚽ Denmark - Wales (LÝ LIỀU LĨNH)
 https://lilive1.eu.cc/live/f81da45fff756fbe80ce889c5f035419/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fcde6e6e0e58cbe7cc60d9b67f5ac244.png" group-title="Phá Làng" , 27/09 23:00 🟢 ⚽ Gibraltar - Andorra (Server 1)
+https://lilive1.eu.cc/live/75db8026b03bb6fee28cb24dfea18423/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/be70130b180875a576e98a5a33c8238a.png" group-title="Phá Làng" , 27/09 23:00 🟢 ⚽ Austria - Kosovo (Server 1)
+https://lilive1.eu.cc/live/d5b0ab0d9ebf02e67085a0cf1bf1f20e/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8255.png" group-title="Sao Kê" , 27/09 23:00 🟢 ⚽ Austria vs Kosovo (Mơ)
 https://stm6dad62063600.stream.hdplaylink.com/sklive/mo/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://vip3.saoketv40.xyz/mallorca-vs-almeria-6ab777191883d81208dbbbb0.html
 
@@ -115,12 +121,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8|User-Agent=Mozilla/
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/481d49607b0b1cf75d31b4f95b3667aa.png" group-title="Phá Làng" , 27/09 23:00 🟡 ⚽ Maracena - UE Tavernes (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4wyrn4h6gjp8q86
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fcde6e6e0e58cbe7cc60d9b67f5ac244.png" group-title="Phá Làng" , 27/09 23:00 🟡 ⚽ Gibraltar - Andorra (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#k82rekhg2px8rep
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/be70130b180875a576e98a5a33c8238a.png" group-title="Phá Làng" , 27/09 23:00 🟡 ⚽ Austria - Kosovo (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#y39mp1h6dg49moj
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/6010ce94e8e042a687207a7dceb06658.png" group-title="Gà Vàng" , 27/09 23:00 🟡 ⚽ Austria vs Kosovo (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/austria-vs-kosovo-ngay-27-09-2026/
 
@@ -142,10 +142,10 @@ https://gavanglinkq.tv/truc-tiep/eibar-vs-ud-las-palmas-ngay-27-09-2026/
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/230be7f4f23de1cb08877a72cd08f619.png" group-title="GaVang33" , 27/09 23:30 🟡 ⚽ Eibar vs UD Las Palmas (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/eibar-vs-ud-las-palmas-luc-2330-ngay-27-09-2026-dn1m1ghlz7opmoe
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/KI7ZD8ZA-IqzC8wpd.png" group-title="Giờ Vàng" , 27/09 23:59 ⚽ Cincinnati Bengals vs Pittsburgh Steelers (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/KI7ZD8ZA-IqzC8wpd.png" group-title="Giờ Vàng" , 27/09 23:59 🟡 ⚽ Cincinnati Bengals vs Pittsburgh Steelers (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-cincinnati-bengals-vs-pittsburgh-steelers-27-09-kaqfpuxsfffk
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/be/Real_Madrid_Baloncesto.png" group-title="Giờ Vàng" , 27/09 23:59 🏀 Real Madrid vs Unicaja (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/be/Real_Madrid_Baloncesto.png" group-title="Giờ Vàng" , 27/09 23:59 🟡 🏀 Real Madrid vs Unicaja (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-real-madrid-vs-unicaja-27-09-0xo75wufjxlc
 
 # ----- Ngày 2026-09-28 -----
