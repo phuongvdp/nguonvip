@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:50:38 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:53:11 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Chuối Chiên (19 trận), Phá Làng (39 trận), Gà Vàng (18 trận), Sao Kê (15 trận), GaVang33 (26 trận), Bông Lau (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Chuối Chiên (17 trận), Phá Làng (38 trận), Gà Vàng (19 trận), Sao Kê (14 trận), GaVang33 (26 trận), Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 27/09 15:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -19,9 +19,6 @@ https://eqr2hdarxfliv.vcdn.cloud/1790493636_hd/1790493636_hd@720p.m3u8|User-Agen
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Chuối Chiên" , 27/09 17:00 🟢 🏐 China vs Chinese Taipei (Chuối Kem (HD))
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135806_f9a41cc0.png" group-title="Chuối Chiên" , 27/09 17:00 🟢 ⚽ Đồng Tháp vs Thai Nguyen (Chuối To (HD))
-https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132714_8f17ab4f.png" group-title="Chuối Chiên" , 27/09 17:00 🟢 ⚽ Cambodia vs Myanmar (Chuối Ngao (HD))
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoingao/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
@@ -31,11 +28,11 @@ https://lilive1.eu.cc/live/5aa347e915b965fcca7a9aacdcc98adb/playlist.m3u8|User-A
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/d5482f76771dd1dd1e923a7639c994e2.png" group-title="Phá Làng" , 27/09 17:00 🟢 ⚽ Cambodia - Myanmar (LÝ LA LÀNG)
 https://lilive1.eu.cc/live/a6776ebdf7a28f602b24cc8530bf6d7b/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png" group-title="Gà Vàng" , 27/09 17:00 🟢 ⚽ Gangwon FC vs Incheon United (Lữ Bố.vip)
-https://playback.livetl002.com/live/6a9776215126529dede9bf51.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/31d64389a45aaeb7a61c9b76b72be555.png" group-title="Gà Vàng" , 27/09 17:00 🟢 ⚽ Cambodia vs Myanmar (NGƯỜI KIẾN)
 https://playback.livetl002.com/live/6a439a7fb89dded67b208b87.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png" group-title="Gà Vàng" , 27/09 17:00 🟢 ⚽ Gangwon FC vs Incheon United (Lữ Bố.vip)
+https://playback.livetl002.com/live/6a9776215126529dede9bf51.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b6cae339576dad4050db7d092cdc52b6.png" group-title="Gà Vàng" , 27/09 17:00 🟢 ⚽ Dong Thap vs Thai Nguyen (cố tư nghiêm)
 https://playback.livetl002.com/live/69a1aaa7230584579e2d5ce1.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
@@ -55,32 +52,20 @@ https://live2.zktsva.app/live/432017.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Bông Lau" , 27/09 17:00 🟢 🏐 China vs Chinese Taipei (Chuối Kem (HD))
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135806_f9a41cc0.png" group-title="Bông Lau" , 27/09 17:00 🟢 ⚽ Đồng Tháp vs Thai Nguyen (Chuối To (HD))
-https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132714_8f17ab4f.png" group-title="Bông Lau" , 27/09 17:00 🟢 ⚽ Cambodia vs Myanmar (Chuối Ngao (HD))
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoingao/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Crg4NaGG-ALs6yNah.png" group-title="Giờ Vàng" , 27/09 17:20 🟢 🏐 Nhật Bản vs Uzbekistan (Giovang 1)
 https://eqr2hdarxfliv.vcdn.cloud/1790495591_hd/1790495591_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Chuối Chiên" , 27/09 17:20 🟢 🏐 Japan vs Uzbekistan (Chuối Tây (HD))
-https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 27/09 17:20 🟢 🏐 Nhật Bản - Uzbekistan (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#6d3cee580cd048d493c662a71307f4f1
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Sao Kê" , 27/09 17:20 🟢 ⚽ Japan vs Uzbekistan (Teppy)
-https://stm6dad62063600.stream.hdplaylink.com/sklive/teppy/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Bông Lau" , 27/09 17:20 🟢 🏐 Japan vs Uzbekistan (Chuối Tây (HD))
-https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
-
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/69b0ed18e16d15d6888baad52e6fa88f.png" group-title="GaVang33" , 27/09 18:00 🟢 ⚽ Shaanxi Union vs Dalian K'un City (Gà Siêu Nhí)
 https://live2.zktsva.app/live/301263.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/china.png" group-title="Giờ Vàng" , 27/09 18:35 🟢 ⚽ Trung Quốc vs New Zealand (Giovang 1)
 https://eqr2hdarxfliv.vcdn.cloud/1790493807_hd/1790493807_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/445ef89e5620a875f7c2eaddd033e39d.png" group-title="Gà Vàng" , 27/09 18:35 🟢 ⚽ China vs New Zealand (ĐOÀN DỰ)
+https://playback.livetl002.com/live/6a5df755b89dded67b39b8bc.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5822.png" group-title="Sao Kê" , 27/09 18:35 🟢 ⚽ China vs New Zealand (Tít)
 https://stm6dad62063600.stream.hdplaylink.com/sklive/tit/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/

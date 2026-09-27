@@ -1,20 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:50:38 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:53:11 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Bông Lau (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Bông Lau" , 27/09 17:00 🟢 🏐 China vs Chinese Taipei (Chuối Kem (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikem%2Fplaylist.m3u8&source=bonglau
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135806_f9a41cc0.png" group-title="Bông Lau" , 27/09 17:00 🟢 ⚽ Đồng Tháp vs Thai Nguyen (Chuối To (HD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoito%2Fplaylist.m3u8&source=bonglau
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132714_8f17ab4f.png" group-title="Bông Lau" , 27/09 17:00 🟢 ⚽ Cambodia vs Myanmar (Chuối Ngao (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stream.hdplaylink.com%2Fcctvlive%2Fchuoingao%2Fplaylist.m3u8&source=bonglau
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Bông Lau" , 27/09 17:20 🟢 🏐 Japan vs Uzbekistan (Chuối Tây (HD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitay%2Fplaylist.m3u8&source=bonglau
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125627_3a522956.png" group-title="Bông Lau" , 27/09 19:00 🟢 ⚽ Valladolid vs Cordoba (Chuối Lá (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoila%2Fplaylist.m3u8&source=bonglau
