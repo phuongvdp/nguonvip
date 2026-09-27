@@ -116,6 +116,12 @@ jobs:
           # FIX (25/09/2026): Override referer cho Chuoi Chien (GitHub Actions IP bi CDN chcan)
           CHUOICHIENTV_IPTV_REFERER: ${{ secrets.CHUOICHIENTV_IPTV_REFERER }}
           CHUOICHIENTV_PLAYER_DOMAIN: ${{ secrets.CHUOICHIENTV_PLAYER_DOMAIN }}
+          # FIX (27/09/2026 — sinh thêm file "-proxy.m3u" chạy qua server
+          # sống /api/proxy/hls, dùng được cho MỌI app IPTV kể cả app không
+          # hỗ trợ header tuỳ chỉnh): để trống secret này thì bỏ qua, không
+          # sinh file proxy nào (giữ nguyên hành vi cũ). Set giá trị là domain
+          # Vercel/Render/VPS đã deploy, ví dụ https://ten-project.vercel.app
+          PROXY_BASE_URL: ${{ secrets.PROXY_BASE_URL }}
 
       # Luoi an toan cuoi cung: vong lap ben tren da tu commit/push sau MOI
       # chu ky roi (xem GENERATE_AUTO_COMMIT), nen thong thuong buoc nay
