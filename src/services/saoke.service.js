@@ -43,16 +43,30 @@ function detectCdn(url) {
 // FIX (24/09/2026 — "Sao Kê các trận lỗi không xem được", CDN trả 403): API trả
 // cho mỗi BLV 2 link: "SD" trên stream.hdplaylink.com và "HD" trên edgemaxcdn.org.
 // Bản cũ ưu tiên link tên "HD" => luôn chọn edgemaxcdn — link này bị 403 (chống
-// hotlink). Trình duyệt thật (bắt từ DevTools) lại phát link hdplaylink (SD), nên
-// giờ ưu tiên hdplaylink; edgemaxcdn/HD chỉ còn là dự phòng. Muốn ưu tiên HD như
-// cũ thì đặt SAOKE_PREFER_HD=1.
+// hotlink) tại thời điểm đó. Trình duyệt thật (bắt từ DevTools) lúc đó lại phát
+// link hdplaylink (SD), nên đổi ưu tiên sang hdplaylink.
+//
+// FIX (27/09/2026 sáng — "toàn SD, xem mờ") RỒI HOÀN TÁC NGAY (27/09/2026
+// chiều — "vẫn 2 Referer như Chuối Chiên, HD hay bị 403"): đã thử đổi mặc
+// định sang ưu tiên HD (edgemaxcdn), nhưng người dùng xác nhận bằng DevTools
+// thật: Referer/Origin ĐÚNG cho link hdplaylink (SD) là
+// https://sk.mediastation.live/ — CHÍNH LÀ giá trị detectPlayerReferer() bên
+// dưới tự dò được (vì trang tự phát SD mặc định) — nhưng HD (edgemaxcdn)
+// dùng CDN khác hẳn, cần Referer RIÊNG mà ta CHƯA xác nhận được (giống hệt
+// bài học Chuối Chiên: hdplaylink và edgemaxcdn là 2 CDN độc lập, Referer
+// dò được cho cái này không tự nhiên đúng cho cái kia) — dùng chung Referer
+// đã dò cho cả HD khiến HD hay bị 403. Quay lại ưu tiên SD làm mặc định
+// (AN TOÀN, đã xác nhận chạy được) cho tới khi có ai bắt được DevTools của
+// 1 trận đang phát HD thật (khác psac SD) để biết đúng Referer riêng cho
+// edgemaxcdn. Đặt SAOKE_PREFER_HD=1 nếu vẫn muốn thử HD (chấp nhận rủi ro
+// 403 vài trận).
 function pickBestHls(hlsUrls) {
   if (!Array.isArray(hlsUrls) || !hlsUrls.length) return '';
   const valid = hlsUrls.filter((h) => h?.url);
   if (!valid.length) return '';
   const isHdplaylink = (h) => /hdplaylink/i.test(h.url);
   const isHdName = (h) => /hd/i.test(h?.name || '');
-  const preferHd = /^(1|true)$/i.test(String(process.env.SAOKE_PREFER_HD || ''));
+  const preferHd = /^(1|true)$/i.test(String(process.env.SAOKE_PREFER_HD || '')); // mặc định TẮT (ưu tiên SD/hdplaylink) — đặt SAOKE_PREFER_HD=1 để bật thử HD
   const pick =
     (preferHd && valid.find(isHdName)) ||
     valid.find(isHdplaylink) ||

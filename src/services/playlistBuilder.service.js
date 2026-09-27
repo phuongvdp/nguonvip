@@ -12,6 +12,7 @@ import phalangService from '@/src/services/phalang.service';
 import gavangService from '@/src/services/gavang.service';
 import saokeService from '@/src/services/saoke.service';
 import gavang33Service from '@/src/services/gavang33.service';
+import bonglauService from '@/src/services/bonglau.service';
 import {
   isWithinNextHours,
   mapPool,
@@ -111,6 +112,12 @@ const MULTI_SPORTS = ['football', 'basketball', 'tennis', 'badminton', 'volleyba
 // số, API trả sẵn link .m3u8 theo từng BLV ngay trong danh sách, không cần
 // gọi thêm request nào khác) — không cần Referer/trình duyệt headless gì.
 
+// FIX (27/09/2026 — theo yêu cầu): thêm bonglauService (nguồn Bông Lau TV,
+// domain bonglautv1.pro/.org) — ĐÃ BÁO TRƯỚC dùng chung API/CDN/pool trận
+// với chuoichientvService (xem chú thích trong bonglau.service.js), nhưng
+// vẫn tách nguồn riêng theo yêu cầu. Cùng interface getAllMatchesByTab(tab)
+// 1 tham số như chuoichientv.
+
 async function safe(promise, label) {
   try {
     return await promise;
@@ -137,7 +144,7 @@ async function resolveWithinDeadline(match) {
 
 /** Mirror fetchLiveLists() from pages/index.jsx but calling services in-process. */
 async function fetchLiveLists() {
-  const [giovangLive, khandaitvAll, khandaitvBb, chuoichientvLive, phalangLive, gavangLive, saokeLive, gavang33Live] = await Promise.all([
+  const [giovangLive, khandaitvAll, khandaitvBb, chuoichientvLive, phalangLive, gavangLive, saokeLive, gavang33Live, bonglauLive] = await Promise.all([
     safe(giovangService.getAllMatchesByTab('live'), 'giovang:live'),
     safe(khandaitvService.getAllMatchesByTab('live', 'all', 50), 'khandaitv:all'),
     safe(khandaitvService.getAllMatchesByTab('live', 'basketball', 50), 'khandaitv:basketball'),
@@ -145,7 +152,8 @@ async function fetchLiveLists() {
     safe(phalangService.getAllMatchesByTab('live'), 'phalang:live'),
     safe(gavangService.getAllMatchesByTab('live'), 'gavang:live'),
     safe(saokeService.getAllMatchesByTab('live'), 'saoke:live'),
-    safe(gavang33Service.getAllMatchesByTab('live'), 'gavang33:live')
+    safe(gavang33Service.getAllMatchesByTab('live'), 'gavang33:live'),
+    safe(bonglauService.getAllMatchesByTab('live'), 'bonglau:live')
   ]);
 
   const normalize = (res) => (Array.isArray(res) ? res : (res?.matches || res?.data || []));
@@ -172,6 +180,7 @@ async function fetchLiveLists() {
   pushListNoFilter(gavangLive, 'gavang');
   pushListNoFilter(saokeLive, 'saoke');
   pushListNoFilter(gavang33Live, 'gavang33');
+  pushListNoFilter(bonglauLive, 'bonglau');
 
   return tagged;
 }
@@ -184,7 +193,7 @@ async function fetchLiveLists() {
  * moment the player actually opens the channel.
  */
 async function fetchUpcomingLists() {
-  const [giovangUpcoming, khandaitvAll, khandaitvBb, chuoichientvUpcoming, phalangUpcoming, gavangUpcoming, saokeUpcoming, gavang33Upcoming] = await Promise.all([
+  const [giovangUpcoming, khandaitvAll, khandaitvBb, chuoichientvUpcoming, phalangUpcoming, gavangUpcoming, saokeUpcoming, gavang33Upcoming, bonglauUpcoming] = await Promise.all([
     safe(giovangService.getAllMatchesByTab('upcoming'), 'giovang:upcoming'),
     safe(khandaitvService.getAllMatchesByTab('upcoming', 'all', 50), 'khandaitv:upcoming:all'),
     safe(khandaitvService.getAllMatchesByTab('upcoming', 'basketball', 50), 'khandaitv:upcoming:basketball'),
@@ -192,7 +201,8 @@ async function fetchUpcomingLists() {
     safe(phalangService.getAllMatchesByTab('upcoming'), 'phalang:upcoming'),
     safe(gavangService.getAllMatchesByTab('upcoming'), 'gavang:upcoming'),
     safe(saokeService.getAllMatchesByTab('upcoming'), 'saoke:upcoming'),
-    safe(gavang33Service.getAllMatchesByTab('upcoming'), 'gavang33:upcoming')
+    safe(gavang33Service.getAllMatchesByTab('upcoming'), 'gavang33:upcoming'),
+    safe(bonglauService.getAllMatchesByTab('upcoming'), 'bonglau:upcoming')
   ]);
 
   const normalize = (res) => (Array.isArray(res) ? res : (res?.matches || res?.data || []));
@@ -221,6 +231,7 @@ async function fetchUpcomingLists() {
   pushListNoFilter(gavangUpcoming, 'gavang');
   pushListNoFilter(saokeUpcoming, 'saoke');
   pushListNoFilter(gavang33Upcoming, 'gavang33');
+  pushListNoFilter(bonglauUpcoming, 'bonglau');
 
   return tagged;
 }
@@ -258,6 +269,9 @@ async function resolveStreams(match) {
       } else if (source === 'gavang33') {
         if (!matchId) return [];
         raw = await gavang33Service.getStreamLinks(matchId);
+      } else if (source === 'bonglau') {
+        if (!matchId) return [];
+        raw = await bonglauService.getStreamLinks(matchId);
       } else if (source === 'giovang') {
         if (!liveUrl && !matchId) return [];
         const detail = await giovangService.getMatchDetail(liveUrl || matchId);

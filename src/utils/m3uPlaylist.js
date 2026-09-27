@@ -108,6 +108,15 @@ const REFERER_CANDIDATES_BY_SOURCE = {
     'https://chuoichientv.link/',
     null
   ],
+  // Bông Lau TV — CHUNG CDN edgemaxcdn.org/wrapper 100ycdn.com với Chuối
+  // Chiên (xem bonglau.service.js), nên dùng chung luôn danh sách ứng viên.
+  bonglau: [
+    `${String(process.env.BONGLAU_PLAYER_DOMAIN || 'https://live.chuoichien.tv').replace(/\/+$/, '')}/`,
+    'https://fhd-01.cctvsignal.xyz/',
+    'https://live05.chuoichientv.me/',
+    'https://chuoichientv.link/',
+    null
+  ],
   giovang: [process.env.GIOVANG_DOMAIN || 'https://giovang.city', null],
   khandaitv: [process.env.KHANDAITV_DOMAIN || process.env.KHANDAITV_BASE_URL || 'https://khandai3.link', null],
   phalang: ['https://phalang.live', 'https://phalang.live/', null],
