@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:38:37 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:43:04 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận), Khán Đài (23 trận), Chuối Chiên (8 trận), Phá Làng (16 trận), Gà Vàng (23 trận), Sao Kê (5 trận), GaVang33 (25 trận), Bông Lau (8 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (28 trận), Khán Đài (21 trận), Chuối Chiên (7 trận), Phá Làng (14 trận), Gà Vàng (23 trận), Sao Kê (5 trận), GaVang33 (25 trận), Bông Lau (7 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/KI7ZD8ZA-IqzC8wpd.png" group-title="Giờ Vàng" , 27/09 23:59 🟢 ⚽ Cincinnati Bengals vs Pittsburgh Steelers (Giovang 1)
@@ -17,29 +17,14 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/norway.png" group-title="Giờ Vàng" , 28/09 01:45 🟢 ⚽ Na Uy vs Bồ Đào Nha (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790265911_hd%2F1790265911_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/israel.png" group-title="Giờ Vàng" , 28/09 01:45 🟢 ⚽ Israel vs Ireland (Giovang 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790265822_hd%2F1790265822_hd%40720p.m3u8&source=giovang
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_690.jpg" group-title="Khán Đài" , 28/09 01:45 🟢 ⚽ Israel vs Ireland (Chim Nhỏ)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa5%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3D67cc5bcdcabb081229f5406e5b07483d&source=khandaitv
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_21.jpg" group-title="Khán Đài" , 28/09 01:45 🟢 ⚽ Germany vs Greece (Pháo Thủ)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa4%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dfaaa23580764370ed378ecd708c9f262&source=khandaitv
-
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_692.jpg" group-title="Khán Đài" , 28/09 01:45 🟢 ⚽ Norway vs Portugal (Lee Sin)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa10%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125455_9f31cc8f.png" group-title="Chuối Chiên" , 28/09 01:45 🟢 ⚽ Germany vs Greece (Chuối Sấy (HD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stream.hdplaylink.com%2Fcctvlive%2Fchuoisay%2Fplaylist.m3u8&source=chuoichientv
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250715_194710_e484b2d5.png" group-title="Chuối Chiên" , 28/09 01:45 🟢 ⚽ Norway vs Portugal (Chuối Nhỏ (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stream.hdplaylink.com%2Fcctvlive%2Fchuoinho%2Fplaylist.m3u8&source=chuoichientv
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/227d43878fa14347902532126d29b10c.png!w80" group-title="Phá Làng" , 28/09 01:45 🟢 ⚽ Norway - Portugal (LÝ LA LÀNG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F67804e658bb1034ea0c96a49fe2d3b9a%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/761ccf19be6a4fdf81880acadb81aa4c.png!w80" group-title="Phá Làng" , 28/09 01:45 🟢 ⚽ Germany - Greece (LÝ LONG)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F4c08191d31396b6c99c41e5b79412775%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/227d43878fa14347902532126d29b10c.png" group-title="Gà Vàng" , 28/09 01:45 🟢 ⚽ Norway vs Portugal (SAITAMA)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69f42e961f739deff81510c0.m3u8&source=gavang
@@ -68,9 +53,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/a370afda41a7ae62dcb8d1b721b92bed.png" group-title="GaVang33" , 28/09 01:45 🟢 ⚽ Israel vs Ireland (Gà Ô Long)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F432017.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125455_9f31cc8f.png" group-title="Bông Lau" , 28/09 01:45 🟢 ⚽ Germany vs Greece (Chuối Sấy (HD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stream.hdplaylink.com%2Fcctvlive%2Fchuoisay%2Fplaylist.m3u8&source=bonglau
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250715_194710_e484b2d5.png" group-title="Bông Lau" , 28/09 01:45 🟢 ⚽ Norway vs Portugal (Chuối Nhỏ (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stream.hdplaylink.com%2Fcctvlive%2Fchuoinho%2Fplaylist.m3u8&source=bonglau
 
@@ -94,9 +76,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/dUe4S2il-40MWbKRi.png" group-title="Giờ Vàng" , 28/09 03:25 🟢 ⚽ Baltimore Ravens vs Dallas Cowboys (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790264984_hd%2F1790264984_hd%40720p.m3u8&source=giovang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/347a948f4171491109e251d7b23685eb.png" group-title="Phá Làng" , 28/09 03:30 🟢 ⚽ Bolivia - Paraguay (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F390c185108fb4a21f38ed4c563631b4f%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133534_50dbb307.png" group-title="Chuối Chiên" , 28/09 04:00 🟡 ⚽ Jaguares vs Alianza Petrolera (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1549798/jaguares-vs-alianza-petrolera
