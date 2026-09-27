@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:51:01 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:54:06 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận) =====
 
@@ -28,10 +28,10 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/austria.png" group-title="Giờ Vàng" , 27/09 23:00 🟢 ⚽ Áo vs Kosovo (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790265682_hd%2F1790265682_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/KI7ZD8ZA-IqzC8wpd.png" group-title="Giờ Vàng" , 27/09 23:59 🟡 ⚽ Cincinnati Bengals vs Pittsburgh Steelers (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-cincinnati-bengals-vs-pittsburgh-steelers-27-09-kaqfpuxsfffk
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/KI7ZD8ZA-IqzC8wpd.png" group-title="Giờ Vàng" , 27/09 23:59 🟢 ⚽ Cincinnati Bengals vs Pittsburgh Steelers (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790264767_hd%2F1790264767_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/be/Real_Madrid_Baloncesto.png" group-title="Giờ Vàng" , 27/09 23:59 🟡 🏀 Real Madrid vs Unicaja (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/be/Real_Madrid_Baloncesto.png" group-title="Giờ Vàng" , 27/09 23:59 🟢 🏀 Real Madrid vs Unicaja (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-real-madrid-vs-unicaja-27-09-0xo75wufjxlc
 
 # ----- Ngày 2026-09-28 -----
