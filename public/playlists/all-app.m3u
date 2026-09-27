@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:58:14 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 09:00:29 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (16 trận), Chuối Chiên (20 trận), Phá Làng (49 trận), Gà Vàng (23 trận), Sao Kê (23 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (16 trận), Chuối Chiên (20 trận), Phá Làng (51 trận), Gà Vàng (23 trận), Sao Kê (23 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://platform.mmamania.com/wp-content/uploads/sites/110/2026/08/HPz3eAZXcAAocvy.jpeg?quality=90&strip=all&crop=0,10,100,80" group-title="Giờ Vàng" , 27/09 04:00 🟢 ⚽ Rosas Jr. vs Barcelos (Giovang 1)
@@ -178,6 +178,9 @@ https://gavanglinkp.tv/
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135806_f9a41cc0.png" group-title="Chuối Chiên" , 27/09 16:00 ⚽ Đồng Tháp vs Thai Nguyen (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1634973/dong-thap-vs-thai-nguyen
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aaf7ff777567dba636caf52a05a45c31.png" group-title="Phá Làng" , 27/09 16:00 ⚽ Dong Thap - Thai Nguyen (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#1l4rjnh9voy2m7v
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e3eeed340658b68dc6b1cc2997997954.png" group-title="Phá Làng" , 27/09 16:00 ⚽ Cerezo Osaka Sakai - NTV Tokyo Verdy Beleza (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6ypq3nhvxovgmd7
 
@@ -198,9 +201,6 @@ https://live05.chuoichientv.me/live/993780/china-vs-chinese-taipei
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132714_8f17ab4f.png" group-title="Chuối Chiên" , 27/09 17:00 ⚽ Cambodia vs Myanmar (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641707/cambodia-vs-myanmar
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aaf7ff777567dba636caf52a05a45c31.png" group-title="Phá Làng" , 27/09 17:00 ⚽ Dong Thap - Thai Nguyen (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#1l4rjnh9voy2m7v
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png" group-title="Phá Làng" , 27/09 17:00 ⚽ Gangwon FC - Incheon United Club (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4wyrn4h6xey6q86
@@ -398,6 +398,12 @@ https://phalang.live/trang-chu#y0or5jh9xj75qwz
 https://giovang.city/truc-tiep-cincinnati-bengals-vs-pittsburgh-steelers-27-09-kaqfpuxsfffk
 
 # ----- Ngày 2026-09-28 -----
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/78aa7cd31374afe35f77b04e8e2c7ee9.png" group-title="Phá Làng" , 28/09 00:00 ⚽ KF Gunilla Hei - FK Bashkimi (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#965mkyh8l5per1g
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b33db33105c82718034c179607a4fa56.png" group-title="Phá Làng" , 28/09 00:00 ⚽ Jordan - Syria (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#pxwrxlhlp7d0ryk
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_643.jpg" group-title="Khán Đài" , 28/09 01:00 ⚽ Bahrain vs United Arab Emirates (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/bahrain-vs-united-arab-emirates-28-09-2026-857563
 
