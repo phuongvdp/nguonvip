@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:00:49 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:03:09 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (17 trận), Chuối Chiên (20 trận), Phá Làng (46 trận), Gà Vàng (21 trận), Sao Kê (19 trận), GaVang33 (24 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (17 trận), Chuối Chiên (20 trận), Phá Làng (46 trận), Gà Vàng (21 trận), Sao Kê (19 trận), GaVang33 (24 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 27/09 13:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -102,6 +102,9 @@ https://live2.zktsva.app/live/289650.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790434917_hd/1790434917_hd@720p.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/7e24a7272efcfecc7b45fa8c86605bd0.png" group-title="Giờ Vàng" , 27/09 15:00 🟡 🏀 Sydney Kings vs Illawarra Hawks (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-sydney-kings-vs-illawarra-hawks-27-09-14222279
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8fca1fffae59337b22952101b1c22dd1.png" group-title="Phá Làng" , 27/09 15:00 🟡 ⚽ INAC Kobe Leonessa - Sanfrecce Hiroshima Regina (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#8yomo4h1no15q0j
