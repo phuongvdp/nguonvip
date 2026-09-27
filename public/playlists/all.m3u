@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 12:26:07 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 12:28:28 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (16 trận), Chuối Chiên (20 trận), Phá Làng (46 trận), Gà Vàng (22 trận), Sao Kê (20 trận), GaVang33 (16 trận) =====
 
@@ -54,11 +54,13 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/teppy/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790434649_hd/1790434649_hd@720p.m3u8
 
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80" group-title="Phá Làng" , 27/09 13:00 🟢 ⚽ China U16 - Vietnam U16 (LÝ LÀNG LÁ)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/03f199194b92c40bdca4168c0a2d2d13/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/6a6d3d4063e675d1ce3e701153e3f367.png" group-title="Giờ Vàng" , 27/09 13:00 🟡 🏀 Adelaide 36ers vs Cairns Taipans (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-adelaide-36ers-vs-cairns-taipans-27-09-13222278
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80" group-title="Phá Làng" , 27/09 13:00 🟡 ⚽ China U16 - Vietnam U16 (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#l7oqdehgv359r51
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/5b36afc0e6119625247683c3c11c7531.png" group-title="Gà Vàng" , 27/09 13:00 🟡 ⚽ China U16 vs Vietnam U16 (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/china-u16-vs-vietnam-u16-ngay-27-09-2026/
