@@ -1,13 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 05:24:55 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 05:27:56 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (15 trận) =====
 
 # ----- Ngày 2026-09-28 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/347a948f4171491109e251d7b23685eb.png" group-title="Phá Làng" , 28/09 03:30 🟢 ⚽ Bolivia - Paraguay (Server 1)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/390c185108fb4a21f38ed4c563631b4f/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/b6d8f81e8454813b3e672b179e627d3a.png!w80" group-title="Phá Làng" , 28/09 06:00 🟢 ⚽ Columbus Crew - Inter Miami CF (LÝ LONG)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/38b8c189145a468df2b3160ae37090c9/playlist.m3u8
