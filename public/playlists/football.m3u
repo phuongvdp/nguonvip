@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 05:32:08 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 05:34:40 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (13 trận), Chuối Chiên (4 trận), Phá Làng (8 trận), Gà Vàng (13 trận), Sao Kê (2 trận), GaVang33 (20 trận), Bông Lau (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (13 trận), Chuối Chiên (4 trận), Phá Làng (8 trận), Gà Vàng (14 trận), Sao Kê (2 trận), GaVang33 (20 trận), Bông Lau (4 trận) =====
 
 # ----- Ngày 2026-09-28 -----
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/cb3c7e99e401d3ff83eeb36c53996d79.png" group-title="Gà Vàng" , 28/09 03:00 🟢 ⚽ Racing Club vs Boca Juniors (MeoMeo)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69be75e0a0a45974afb67776.m3u8
-
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/dUe4S2il-40MWbKRi.png" group-title="Giờ Vàng" , 28/09 03:25 🟢 ⚽ Baltimore Ravens vs Dallas Cowboys (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -19,6 +14,11 @@ https://eqr2hdarxfliv.vcdn.cloud/1790264984_hd/1790264984_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b7f3a068b301edd82ad4c56496f41063.png" group-title="Gà Vàng" , 28/09 04:00 🟢 ⚽ Jaguares de Cordoba vs Alianza Fútbol Club (MáN NúI)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69cf6331585c5992182f4160.m3u8
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/424270.png" group-title="Sao Kê" , 28/09 04:00 🟢 ⚽ CD Jaguares vs Alianza FC (Cà Rốt)
 #EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/norway-vs-portugal-6ab777191883d81208dbbbaf.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -28,6 +28,11 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/carot/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://tructiep.bonglau.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/84f85d4178e4287ed8ad5f76ad4c5e46.png" group-title="Gà Vàng" , 28/09 04:30 🟢 ⚽ Fortaleza vs Athletic Club (KAYTI)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69b8e6f43bcf2231c35d5144.m3u8
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/b6d8f81e8454813b3e672b179e627d3a.png!w80" group-title="Phá Làng" , 28/09 06:00 🟢 ⚽ Columbus Crew - Inter Miami CF (LÝ LONG)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36

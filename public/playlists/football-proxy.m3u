@@ -1,23 +1,26 @@
 #EXTM3U
-# Cập nhật lần cuối: 05:32:08 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 05:34:40 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (13 trận), Chuối Chiên (4 trận), Phá Làng (8 trận), Gà Vàng (13 trận), Sao Kê (2 trận), GaVang33 (20 trận), Bông Lau (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (13 trận), Chuối Chiên (4 trận), Phá Làng (8 trận), Gà Vàng (14 trận), Sao Kê (2 trận), GaVang33 (20 trận), Bông Lau (4 trận) =====
 
 # ----- Ngày 2026-09-28 -----
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/cb3c7e99e401d3ff83eeb36c53996d79.png" group-title="Gà Vàng" , 28/09 03:00 🟢 ⚽ Racing Club vs Boca Juniors (MeoMeo)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69be75e0a0a45974afb67776.m3u8&source=gavang
-
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/dUe4S2il-40MWbKRi.png" group-title="Giờ Vàng" , 28/09 03:25 🟢 ⚽ Baltimore Ravens vs Dallas Cowboys (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790264984_hd%2F1790264984_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133534_50dbb307.png" group-title="Chuối Chiên" , 28/09 04:00 🟢 ⚽ Jaguares vs Alianza Petrolera (Trốc Tru (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Ftroctru%2Fplaylist.m3u8&source=chuoichientv
 
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b7f3a068b301edd82ad4c56496f41063.png" group-title="Gà Vàng" , 28/09 04:00 🟢 ⚽ Jaguares de Cordoba vs Alianza Fútbol Club (MáN NúI)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69cf6331585c5992182f4160.m3u8&source=gavang
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/424270.png" group-title="Sao Kê" , 28/09 04:00 🟢 ⚽ CD Jaguares vs Alianza FC (Cà Rốt)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fcarot%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133534_50dbb307.png" group-title="Bông Lau" , 28/09 04:00 🟢 ⚽ Jaguares vs Alianza Petrolera (Trốc Tru (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Ftroctru%2Fplaylist.m3u8&source=bonglau
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/84f85d4178e4287ed8ad5f76ad4c5e46.png" group-title="Gà Vàng" , 28/09 04:30 🟢 ⚽ Fortaleza vs Athletic Club (KAYTI)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69b8e6f43bcf2231c35d5144.m3u8&source=gavang
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/b6d8f81e8454813b3e672b179e627d3a.png!w80" group-title="Phá Làng" , 28/09 06:00 🟢 ⚽ Columbus Crew - Inter Miami CF (LÝ LONG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F38b8c189145a468df2b3160ae37090c9%2Fplaylist.m3u8&source=phalang
