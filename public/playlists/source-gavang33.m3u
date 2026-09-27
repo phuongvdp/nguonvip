@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:32:33 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:35:10 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (26 trận) =====
 
@@ -16,8 +16,9 @@ https://live2.zktsva.app/live/301263.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/741294.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/fdf63461c00668597319a4f0db14dcee.png" group-title="GaVang33" , 27/09 19:00 🟡 ⚽ Real Valladolid CF vs Cordoba (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/real-valladolid-cf-vs-cordoba-luc-1900-ngay-27-09-2026-2y8m4zh59x4dql0
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/fdf63461c00668597319a4f0db14dcee.png" group-title="GaVang33" , 27/09 19:00 🟢 ⚽ Real Valladolid CF vs Cordoba (Gà Siêu Tồ)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://live2.zktsva.app/live/796315.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f2b6806d6ed60d2d87b0dd5ae62e6f20.png" group-title="GaVang33" , 27/09 20:00 ⚽ Lithuania vs Azerbaijan (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/lithuania-vs-azerbaijan-luc-2000-ngay-27-09-2026-ednm9whw5y0vryo
