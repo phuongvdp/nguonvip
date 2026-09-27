@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:56:45 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:59:20 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (23 trận), Chuối Chiên (13 trận), Phá Làng (23 trận), Gà Vàng (7 trận), Sao Kê (9 trận), GaVang33 (27 trận), Bông Lau (13 trận) =====
 
@@ -195,11 +195,13 @@ https://eqr2hdarxfliv.vcdn.cloud/1790264767_hd/1790264767_hd@720p.m3u8
 https://giovang.city/truc-tiep-real-madrid-vs-unicaja-27-09-0xo75wufjxlc
 
 # ----- Ngày 2026-09-28 -----
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b33db33105c82718034c179607a4fa56.png" group-title="Phá Làng" , 28/09 00:00 🟢 ⚽ Jordan - Syria (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/10740f921c8cb2c39936485d44ea4a2e/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/78aa7cd31374afe35f77b04e8e2c7ee9.png" group-title="Phá Làng" , 28/09 00:00 🟡 ⚽ KF Gunilla Hei - FK Bashkimi (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#965mkyh8l5per1g
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b33db33105c82718034c179607a4fa56.png" group-title="Phá Làng" , 28/09 00:00 🟡 ⚽ Jordan - Syria (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#pxwrxlhlp7d0ryk
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/tYwDOwCa-pnEu7gs7.png" group-title="Giờ Vàng" , 28/09 01:00 🏀 Minnesota Lynx vs New York Liberty (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-minnesota-lynx-vs-new-york-liberty-28-09-bnatbsu6z8dt
