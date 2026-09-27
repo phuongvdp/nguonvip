@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:42:45 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:45:21 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 27/09 13:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -34,8 +34,10 @@ https://eqr2hdarxfliv.vcdn.cloud/1790489229_hd/1790489229_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790434917_hd/1790434917_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/7e24a7272efcfecc7b45fa8c86605bd0.png" group-title="Giờ Vàng" , 27/09 15:00 🟡 🏀 Sydney Kings vs Illawarra Hawks (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-sydney-kings-vs-illawarra-hawks-27-09-14222279
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/7e24a7272efcfecc7b45fa8c86605bd0.png" group-title="Giờ Vàng" , 27/09 15:00 🟢 🏀 Sydney Kings vs Illawarra Hawks (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790492515_hd/1790492515_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/0WJLxnGG-zLx3xGjj.png" group-title="Giờ Vàng" , 27/09 16:30 ⚽ Nhật Bản vs Hàn Quốc (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-nhat-ban-vs-han-quoc-27-09-wx3x8wwvogis
@@ -60,6 +62,9 @@ https://giovang.city/truc-tiep-mallorca-vs-almeria-27-09-6ab8326524d46db870ddc2d
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/GANOAmyS-48fOrFoJ.png" group-title="Giờ Vàng" , 27/09 22:00 ⚽ Yemen vs Qatar (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-yemen-vs-qatar-27-09-sovsuxpzfh64
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/h4mAxXEa-YgmHmwO2.png" group-title="Giờ Vàng" , 27/09 22:00 🏀 Basket Girona vs Murcia (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-basket-girona-vs-murcia-27-09-xi4hqmx5gbol
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/gibraltar.png" group-title="Giờ Vàng" , 27/09 23:00 ⚽ Gibraltar vs Andorra (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-gibraltar-vs-andorra-27-09-69f695d673ba0b335e0f2edb
