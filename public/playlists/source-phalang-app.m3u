@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:58:03 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 11:00:22 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (49 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (48 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/527dcdb6260004a2c8f61fae9345f133.png" group-title="Phá Làng" , 27/09 09:40 🟢 ⚽ Vancouver Whitecaps - DC United (Server 1)
@@ -15,12 +15,6 @@ https://lilive1.eu.cc/live/41068b255fe1c69eee03d0c160702af0/playlist.m3u8|User-A
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/604a26fb4f696d522d464fc2ff0919de.png!w80" group-title="Phá Làng" , 27/09 11:00 🟢 🏐 Hàn Quốc - Philippines (LÝ LÊN LỬA (Server 1))
 https://pull.digitalcdn.net/live/eff4c2e266e948e28b8592b5d98294bd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/43f9c122bf617d349407a95d4f709a0d.png" group-title="Phá Làng" , 27/09 11:00 🟡 ⚽ Perth Glory - Adelaide United (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#4jwq2ghgo61om0v
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/eafed5361c70bffd85bedd16d0444f7a.png" group-title="Phá Làng" , 27/09 11:00 🟡 ⚽ Cook Islands - Tahiti (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#4wyrn4hyz0gdq86
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80" group-title="Phá Làng" , 27/09 13:00 ⚽ China U16 - Vietnam U16 (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l7oqdehgv359r51
@@ -81,6 +75,9 @@ https://phalang.live/trang-chu#ednm9wh58x1zryo
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/f0be701add6a4ef2cbe95c846741a1ad.png" group-title="Phá Làng" , 27/09 20:00 ⚽ Lithuania - Azerbaijan (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#ednm9whw5y0vryo
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a0849d3ef00be19f62b68e824c423193.png" group-title="Phá Làng" , 27/09 20:00 ⚽ Radnik Bijeljina - HSK Zrinjski Mostar (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#jw2r09h546jerz8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5a2ff46efa33abc6b2908eb6279dfbf8.png" group-title="Phá Làng" , 27/09 20:00 ⚽ Lazio - Arezzo (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l5ergphk0le9r8k
