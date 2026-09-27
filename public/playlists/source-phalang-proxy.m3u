@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:27:25 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:30:27 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (18 trận) =====
 
@@ -16,8 +16,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b0dc1effcd883299ca8ec96dd720d30c.png" group-title="Phá Làng" , 28/09 01:45 🟢 ⚽ Israel - Ireland (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F34b56d1e6a2ccc32a5b84cb3984489ce%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/347a948f4171491109e251d7b23685eb.png" group-title="Phá Làng" , 28/09 03:30 🟡 ⚽ Bolivia - Paraguay (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#3glrw7h4k0deqdy
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/347a948f4171491109e251d7b23685eb.png" group-title="Phá Làng" , 28/09 03:30 🟢 ⚽ Bolivia - Paraguay (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F390c185108fb4a21f38ed4c563631b4f%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/951df90c9a0437a9c5894155a1dfb4b0.png" group-title="Phá Làng" , 28/09 04:00 🟡 ⚽ CEFOR Chiapas - Jaguares Chiapas II (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4wyrn4hyzov3q86
