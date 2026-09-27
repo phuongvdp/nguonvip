@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:13:44 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:16:18 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (13 trận), Chuối Chiên (12 trận), Phá Làng (24 trận), Gà Vàng (12 trận), Sao Kê (10 trận), GaVang33 (25 trận), Bông Lau (12 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (13 trận), Chuối Chiên (12 trận), Phá Làng (24 trận), Gà Vàng (11 trận), Sao Kê (10 trận), GaVang33 (25 trận), Bông Lau (12 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fdf63461c00668597319a4f0db14dcee.png" group-title="Gà Vàng" , 27/09 19:00 🟢 ⚽ Real Valladolid vs Cordoba (RIO)
@@ -49,7 +49,7 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8
 https://lilive1.eu.cc/live/8a67b2168887977af7551256caaf7a18/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8661.png" group-title="Sao Kê" , 27/09 21:15 🟢 ⚽ Mallorca vs Almería (Ricky)
-#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
+#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/mallorca-vs-almeria-6ab777191883d81208dbbbb0.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/ricky/playlist.m3u8
 
@@ -61,9 +61,6 @@ https://live2.zktsva.app/live/796315.m3u8
 #EXTVLCOPT:http-referrer=https://tructiep.bonglau.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fdef90456d2a2eee09976c558457aec7.png" group-title="Gà Vàng" , 27/09 21:15 🟡 ⚽ Mallorca vs Almeria (Chưa có link — chờ cập nhật)
-https://gavanglinkq.tv/truc-tiep/rcd-mallorca-vs-almeria-ngay-27-09-2026/
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/GANOAmyS-48fOrFoJ.png" group-title="Giờ Vàng" , 27/09 22:00 🟡 ⚽ Yemen vs Qatar (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-yemen-vs-qatar-27-09-sovsuxpzfh64
