@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:56:21 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:58:58 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (16 trận) =====
 
 # ----- Ngày 2026-09-28 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b33db33105c82718034c179607a4fa56.png" group-title="Phá Làng" , 28/09 00:00 🟢 ⚽ Jordan - Syria (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F10740f921c8cb2c39936485d44ea4a2e%2Fplaylist.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/595e32d94437adf5bde6225b77bf1e14.png!w80" group-title="Phá Làng" , 28/09 01:00 🟢 ⚽ Bahrain - United Arab Emirates (LÝ LINH LỰC)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F6f95476abafc502e5cc97b006f7fc899%2Fplaylist.m3u8&source=phalang
 

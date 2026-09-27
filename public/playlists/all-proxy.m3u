@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:56:21 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:58:58 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (24 trận), Chuối Chiên (10 trận), Phá Làng (17 trận), Gà Vàng (18 trận), Sao Kê (6 trận), GaVang33 (26 trận), Bông Lau (10 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (26 trận), Khán Đài (24 trận), Chuối Chiên (10 trận), Phá Làng (16 trận), Gà Vàng (18 trận), Sao Kê (6 trận), GaVang33 (26 trận), Bông Lau (10 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/KI7ZD8ZA-IqzC8wpd.png" group-title="Giờ Vàng" , 27/09 23:59 🟢 ⚽ Cincinnati Bengals vs Pittsburgh Steelers (Giovang 1)
@@ -11,9 +11,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.c
 https://giovang.city/truc-tiep-real-madrid-vs-unicaja-27-09-0xo75wufjxlc
 
 # ----- Ngày 2026-09-28 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b33db33105c82718034c179607a4fa56.png" group-title="Phá Làng" , 28/09 00:00 🟢 ⚽ Jordan - Syria (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F10740f921c8cb2c39936485d44ea4a2e%2Fplaylist.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/tYwDOwCa-pnEu7gs7.png" group-title="Giờ Vàng" , 28/09 01:00 🟢 🏀 Minnesota Lynx vs New York Liberty (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790520085_hd%2F1790520085_hd%40720p.m3u8&source=giovang
 
@@ -185,11 +182,17 @@ https://lau05.bonglautv1.pro/truc-tiep/1490510
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5a721f997fe18b1c151116a96b1b4ea8.png" group-title="Gà Vàng" , 28/09 06:05 ⚽ Fortaleza vs Deportes Tolima (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/fortaleza-f-c-vs-deportes-tolima-ngay-28-09-2026/
 
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png" group-title="Giờ Vàng" , 28/09 08:00 🏀 Golden State Valkyries vs Dallas Wings (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-golden-state-valkyries-vs-dallas-wings-28-09-12101475
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/club-leon.png" group-title="Giờ Vàng" , 28/09 08:00 ⚽ Club Leon vs FC Juarez (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-club-leon-vs-fc-juarez-28-09-6ab8b0f024d46db8702a108a
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWXwaBfDb6QxecSyRPQWPOmIqd3fTU_N3r6PPmEBBgGQ&s=10" group-title="Giờ Vàng" , 28/09 08:00 ⚽ Los Chamos FC vs Guerrilla FC (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-los-chamos-fc-vs-guerrilla-fc-28-09-o3xhmp3cekfb
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/trinidad-and-tobago.png" group-title="Giờ Vàng" , 28/09 08:00 ⚽ Trinidad & Tobago vs Cộng hòa Dominican (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-trinidad-tobago-vs-cong-hoa-dominican-28-09-6aadd0cc45163e9e3e085d16
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_India.svg.webp" group-title="Khán Đài" , 28/09 08:00 🏐 Ấn Độ vs Hong Kong (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/an-do-vs-hong-kong
@@ -226,6 +229,9 @@ https://giovang.city/truc-tiep-deportivo-cali-vs-aguilas-doradas-28-09-6a6be5af2
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b997a2811a0caed43ff38b631a708420.png" group-title="Gà Vàng" , 28/09 08:10 ⚽ Deportivo Cali vs Aguilas Doradas (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/deportivo-cali-vs-aguilas-doradas-ngay-28-09-2026/
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/necaxa.png" group-title="Giờ Vàng" , 28/09 10:00 ⚽ Necaxa vs Club America (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-necaxa-vs-club-america-28-09-6ab8db2624d46db8703fbb10
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250920_011102_024ecd13.png" group-title="Chuối Chiên" , 28/09 10:00 ⚽ Necaxa vs Club America (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1550983/necaxa-vs-club-america
