@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:32:22 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:34:38 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (17 trận), Chuối Chiên (20 trận), Phá Làng (48 trận), Gà Vàng (23 trận), Sao Kê (20 trận) =====
 
@@ -55,14 +55,14 @@ https://lilive1.eu.cc/live/db47050245855091b3513d8292d106f8/playlist.m3u8|User-A
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/eafb707bc6f8028dc71923176915c8e3.png" group-title="Phá Làng" , 27/09 07:30 🟢 ⚽ Nashville SC - Toronto FC (Server 1)
 https://lilive1.eu.cc/live/8f36cf94bc18aaec239f119e88927ee8/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134251_b96e660a.png" group-title="Chuối Chiên" , 27/09 08:00 🟢 🏐 Iran vs Kyrgyzstan (Chuối Kem (HD))
+https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_xjljaQl.jpg" group-title="Khán Đài" , 27/09 08:00 🟡 🏐 Iran vs Kyrgyzstan (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/iran-vs-kyrgyzstan
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_TkTkw3i.jpg" group-title="Khán Đài" , 27/09 08:00 🟡 🏐 Qatar vs Hong Kong (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/qatar-vs-hong-kong
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134251_b96e660a.png" group-title="Chuối Chiên" , 27/09 08:00 🟡 🏐 Iran vs Kyrgyzstan (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/997091/iran-vs-kyrgyzstan
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e399c54b84794822f6e5e3c02c7f3b6e.png" group-title="Phá Làng" , 27/09 08:00 🟡 ⚽ Mexico - Colombia (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#dn1m1gh9vk6emoe
