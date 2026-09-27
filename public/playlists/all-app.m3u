@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:40:50 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:43:44 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (15 trận), Chuối Chiên (19 trận), Phá Làng (42 trận), Gà Vàng (21 trận), Sao Kê (16 trận), GaVang33 (24 trận), Bông Lau (19 trận) =====
 
@@ -21,6 +21,9 @@ https://playback.livetl002.com/live/6a9a5525864ea536c2577392.m3u8|User-Agent=Moz
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_358.jpg" group-title="Khán Đài" , 27/09 17:00 🟢 ⚽ Cambodia vs Myanmar (Tày)
 https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://khandai3.link
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_OOrZwnR.jpg" group-title="Khán Đài" , 27/09 17:00 🟢 🏐 Trung Quốc vs Đài Loan (Enzo)
+https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://khandai3.link
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Chuối Chiên" , 27/09 17:00 🟢 🏐 China vs Chinese Taipei (Chuối Kem (HD))
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
@@ -63,9 +66,6 @@ https://giovang.city/truc-tiep-gangwon-fc-vs-incheon-united-fc-27-09-6a6be5b624d
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/default.png" group-title="Giờ Vàng" , 27/09 17:00 🟡 ⚽ Auriense vs CD San Jose de Soria (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-auriense-vs-cd-san-jose-de-soria-27-09-6aa498131f7a2190510195d4
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_OOrZwnR.jpg" group-title="Khán Đài" , 27/09 17:00 🟡 🏐 Trung Quốc vs Đài Loan (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/trung-quoc-vs-dai-loan
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aaf7ff777567dba636caf52a05a45c31.png" group-title="Phá Làng" , 27/09 17:00 🟡 ⚽ Dong Thap - Thai Nguyen (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#1l4rjnh9voy2m7v
