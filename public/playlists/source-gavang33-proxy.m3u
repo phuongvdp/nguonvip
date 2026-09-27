@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:12:53 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:15:08 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (27 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (26 trận) =====
 
 # ----- Ngày 2026-09-27 -----
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/31d64389a45aaeb7a61c9b76b72be555.png" group-title="GaVang33" , 27/09 17:00 🟢 ⚽ Cambodia vs Myanmar (Gà Ô Long)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F432017.m3u8&source=gavang33
-
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/69b0ed18e16d15d6888baad52e6fa88f.png" group-title="GaVang33" , 27/09 18:00 🟢 ⚽ Shaanxi Union vs Dalian K'un City (Gà Siêu Nhí)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F301263.m3u8&source=gavang33
 
