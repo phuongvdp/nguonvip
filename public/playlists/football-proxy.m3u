@@ -1,18 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 05:14:11 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 05:16:45 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (13 trận), Chuối Chiên (4 trận), Phá Làng (9 trận), Gà Vàng (18 trận), Sao Kê (2 trận), GaVang33 (20 trận), Bông Lau (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (13 trận), Chuối Chiên (4 trận), Phá Làng (9 trận), Gà Vàng (15 trận), Sao Kê (2 trận), GaVang33 (20 trận), Bông Lau (4 trận) =====
 
 # ----- Ngày 2026-09-28 -----
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/227d43878fa14347902532126d29b10c.png" group-title="Gà Vàng" , 28/09 01:45 🟢 ⚽ Norway vs Portugal (SAITAMA)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69f42e961f739deff81510c0.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/761ccf19be6a4fdf81880acadb81aa4c.png" group-title="Gà Vàng" , 28/09 01:45 🟢 ⚽ Germany vs Greece (CRIS)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69aa9525f5ec459ae275b43f.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a370afda41a7ae62dcb8d1b721b92bed.png" group-title="Gà Vàng" , 28/09 01:45 🟢 ⚽ Israel vs Ireland (GIàng A Dân)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a5b13ceb36a14387baeddaa.m3u8&source=gavang
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/96413c5ef284eec6c6e0d76c87732471.png" group-title="Gà Vàng" , 28/09 02:00 🟢 ⚽ CRB vs Cuiaba (A Long)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69ef10b47146e04fbe6d4363.m3u8&source=gavang
 
