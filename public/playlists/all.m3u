@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:22:26 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:24:59 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Chuối Chiên (16 trận), Phá Làng (34 trận), Gà Vàng (16 trận), Sao Kê (12 trận), GaVang33 (26 trận), Bông Lau (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Chuối Chiên (16 trận), Phá Làng (34 trận), Gà Vàng (16 trận), Sao Kê (12 trận), GaVang33 (26 trận), Bông Lau (16 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 27/09 15:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -80,6 +80,11 @@ https://live2.zktsva.app/live/796315.m3u8
 #EXTVLCOPT:http-referrer=https://tructiep.bonglau.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/dffc9109f99b890e6dd480f8ac53ecec.png" group-title="Giờ Vàng" , 27/09 19:30 🟢 🏀 Hanoi buffalo vs Xigong heat (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790511812_hd/1790511812_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/01b36d0eae3771391455661b45834805.jpg" group-title="Phá Làng" , 27/09 19:30 🟡 ⚽ FK Gilan Gabala - Karvan Evlakh (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkhyv9jjqg8

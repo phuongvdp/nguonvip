@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:22:26 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:24:59 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Chuối Chiên (16 trận), Phá Làng (34 trận), Gà Vàng (16 trận), Sao Kê (12 trận), GaVang33 (26 trận), Bông Lau (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Chuối Chiên (16 trận), Phá Làng (34 trận), Gà Vàng (16 trận), Sao Kê (12 trận), GaVang33 (26 trận), Bông Lau (16 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 27/09 15:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -51,6 +51,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125627_3a522956.png" group-title="Bông Lau" , 27/09 19:00 🟢 ⚽ Valladolid vs Cordoba (Chuối Lá (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoila%2Fplaylist.m3u8&source=bonglau
+
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/dffc9109f99b890e6dd480f8ac53ecec.png" group-title="Giờ Vàng" , 27/09 19:30 🟢 🏀 Hanoi buffalo vs Xigong heat (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790511812_hd%2F1790511812_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/01b36d0eae3771391455661b45834805.jpg" group-title="Phá Làng" , 27/09 19:30 🟡 ⚽ FK Gilan Gabala - Karvan Evlakh (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkhyv9jjqg8
