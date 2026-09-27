@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:04:01 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:06:35 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (14 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b7f3a068b301edd82ad4c56496f41063.png" group-title="Gà Vàng" , 28/09 04:00 🟢 ⚽ Jaguares de Cordoba vs Alianza Fútbol Club (MáN NúI)
@@ -9,9 +9,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/84f85d4178e4287ed8ad5f76ad4c5e46.png" group-title="Gà Vàng" , 28/09 04:30 🟢 ⚽ Fortaleza vs Athletic Club (KAYTI)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69b8e6f43bcf2231c35d5144.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5a721f997fe18b1c151116a96b1b4ea8.png" group-title="Gà Vàng" , 28/09 06:05 🟡 ⚽ Fortaleza vs Deportes Tolima (Chưa có link — chờ cập nhật)
-https://gavanglinkq.tv/truc-tiep/fortaleza-f-c-vs-deportes-tolima-ngay-28-09-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/4695f653aca6ac49ff2baa4a961fa67b.png" group-title="Gà Vàng" , 28/09 08:00 ⚽ Club Leon vs FC Juarez (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/club-leon-vs-fc-juarez-ngay-28-09-2026/
