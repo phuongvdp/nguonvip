@@ -1,11 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:14:18 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:16:33 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (10 trận), Chuối Chiên (14 trận), Phá Làng (43 trận), Gà Vàng (8 trận), Sao Kê (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (10 trận), Chuối Chiên (14 trận), Phá Làng (43 trận), Gà Vàng (21 trận), Sao Kê (20 trận) =====
 
 # ----- Ngày 2026-09-27 -----
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/d82c6b70b6fa098483e9afa0589bd7b1.png" group-title="Gà Vàng" , 27/09 04:10 🟢 ⚽ Deportivo Pereira vs La Equidad (MáN NúI)
-https://playback.livetl002.com/live/69cf6331585c5992182f4160.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/2addd50487c8f61276d5fff8714f6a5c.png" group-title="Gà Vàng" , 27/09 05:50 🟢 ⚽ Cruz Azul vs Toluca (cố tư nghiêm)
+https://playback.livetl002.com/live/69a1aaa7230584579e2d5ce1.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0c7660683be3429ea77999657fa17d79.png" group-title="Phá Làng" , 27/09 06:20 🟢 ⚽ Canada - Chile (Server 1)
 https://lilive1.eu.cc/live/351ae40f23ea68ef14c74b2ac228655e/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
@@ -121,6 +121,9 @@ https://vip3.saoketv40.xyz/south-korea-vs-philippines-6ab5c90e5f2e6310e08c7f46.h
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80" group-title="Phá Làng" , 27/09 13:00 ⚽ China U16 - Vietnam U16 (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l7oqdehgv359r51
 
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/5b36afc0e6119625247683c3c11c7531.png" group-title="Gà Vàng" , 27/09 13:00 ⚽ China U16 vs Vietnam U16 (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/china-u16-vs-vietnam-u16-ngay-27-09-2026/
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/hong-kong.png" group-title="Giờ Vàng" , 27/09 14:00 ⚽ Hồng Kông vs Lào (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-hong-kong-vs-lao-27-09-6ab468f8b057b828a8092bd6
 
@@ -132,6 +135,9 @@ https://live05.chuoichientv.me/live/1641706/hong-kong-vs-laos
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/df321578b4f5f132345d2e6b39743126.png!w80" group-title="Phá Làng" , 27/09 14:00 ⚽ Hong Kong - Laos (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l7oqdehg7x4lr51
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/df321578b4f5f132345d2e6b39743126.png" group-title="Gà Vàng" , 27/09 14:00 ⚽ Hong Kong vs Laos (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/hong-kong-vs-laos-ngay-27-09-2026/
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Sao Kê" , 27/09 14:00 ⚽ Indonesia vs Thailand (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/indonesia-vs-thailand-6ab5c9d773423c5d67b1ed66.html
@@ -154,6 +160,12 @@ https://phalang.live/trang-chu#1l4rjnh9voy2m7v
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e3eeed340658b68dc6b1cc2997997954.png" group-title="Phá Làng" , 27/09 16:00 ⚽ Cerezo Osaka Sakai - NTV Tokyo Verdy Beleza (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6ypq3nhvxovgmd7
 
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b6cae339576dad4050db7d092cdc52b6.png" group-title="Gà Vàng" , 27/09 16:00 ⚽ Dong Thap vs Thai Nguyen (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/dong-thap-vs-thai-nguyen-ngay-27-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/bed3e0e7e7677fc51f43b2e6b33dd040.png" group-title="Gà Vàng" , 27/09 16:30 ⚽ FK Ufa vs Torpedo Moskva (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/fc-ufa-vs-torpedo-moscow-ngay-27-09-2026/
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_358.jpg" group-title="Khán Đài" , 27/09 17:00 ⚽ Cambodia vs Myanmar (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/cambodia-vs-myanmar
 
@@ -172,6 +184,12 @@ https://phalang.live/trang-chu#jw2r09hk83xjrz8
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/27f2f8d2099b9374f1a7b72898cb0d68.png" group-title="Phá Làng" , 27/09 17:00 ⚽ Auriense - CD San Jose de Soria (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#k82rekhgl545rep
 
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png" group-title="Gà Vàng" , 27/09 17:00 ⚽ Gangwon FC vs Incheon United (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/gangwon-fc-vs-incheon-united-club-ngay-27-09-2026/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/31d64389a45aaeb7a61c9b76b72be555.png" group-title="Gà Vàng" , 27/09 17:00 ⚽ Cambodia vs Myanmar (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/cambodia-vs-myanmar-ngay-27-09-2026/
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6332.png" group-title="Sao Kê" , 27/09 17:00 ⚽ Cambodia vs Myanmar (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/cambodia-vs-myanmar-6ab5c84b552ae1acb6d9c779.html
 
@@ -180,6 +198,9 @@ https://vip3.saoketv40.xyz/china-vs-dai-bac-trung-hoa-6ab5ca147cbe7174920ecf64.h
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Sao Kê" , 27/09 17:20 ⚽ Japan vs Uzbekistan (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/japan-vs-uzbekistan-6ab5ca2dc42f6f76b699fb7a.html
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/445ef89e5620a875f7c2eaddd033e39d.png" group-title="Gà Vàng" , 27/09 18:35 ⚽ China vs New Zealand (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/china-vs-new-zealand-ngay-27-09-2026/
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125627_3a522956.png" group-title="Chuối Chiên" , 27/09 19:00 ⚽ Valladolid vs Cordoba (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1569947/valladolid-vs-cordoba
@@ -196,11 +217,17 @@ https://phalang.live/trang-chu#dj2ryoh7v58dq1z
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3d44285b3ea2ff20d72778ad3245cf70.png" group-title="Phá Làng" , 27/09 19:00 ⚽ CSKA Moscow - FC Pari Nizhniy Novgorod (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#n54qllh4516yqvy
 
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fdf63461c00668597319a4f0db14dcee.png" group-title="Gà Vàng" , 27/09 19:00 ⚽ Real Valladolid vs Cordoba (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/real-valladolid-cf-vs-cordoba-ngay-27-09-2026/
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10281.png" group-title="Sao Kê" , 27/09 19:00 ⚽ Real Valladolid vs Córdoba (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/real-valladolid-vs-cordoba-6ab777191883d81208dbbbb1.html
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/01b36d0eae3771391455661b45834805.jpg" group-title="Phá Làng" , 27/09 19:30 ⚽ FK Gilan Gabala - Karvan Evlakh (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkhyv9jjqg8
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/0c520a5ff707978cf7ce6e3ff30dc98e.png" group-title="Gà Vàng" , 27/09 19:30 ⚽ De Graafschap vs Den Bosch (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/de-graafschap-vs-den-bosch-ngay-27-09-2026/
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_684.jpg" group-title="Khán Đài" , 27/09 20:00 ⚽ Lithuania vs Azerbaijan (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/lithuania-vs-azerbaijan-27-09-2026-790814
@@ -214,17 +241,29 @@ https://phalang.live/trang-chu#ednm9wh58x1zryo
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/f0be701add6a4ef2cbe95c846741a1ad.png" group-title="Phá Làng" , 27/09 20:00 ⚽ Lithuania - Azerbaijan (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#ednm9whw5y0vryo
 
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f2b6806d6ed60d2d87b0dd5ae62e6f20.png" group-title="Gà Vàng" , 27/09 20:00 ⚽ Lithuania vs Azerbaijan (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/lithuania-vs-azerbaijan-ngay-27-09-2026/
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/74b4f43e7bb7668fd648edc6208bb50d.png" group-title="Phá Làng" , 27/09 21:00 ⚽ CF San Rafael - AE Prat (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4jwq2ghnl8jjm0v
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/02ec38de08e5725d895f41a5cd63e1c7.png" group-title="Phá Làng" , 27/09 21:00 ⚽ AEK Larnaca - Nea Salamis (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#n54qllh4519kqvy
 
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/1105c0c62d761d64b6f4c3e34f460278.png" group-title="Gà Vàng" , 27/09 21:00 ⚽ Criciuma vs Avaí FC (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/criciuma-vs-avai-fc-ngay-27-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/8ff8e5218c38396cd890d2669f165841.png" group-title="Gà Vàng" , 27/09 21:00 ⚽ Shinnik Yaroslavl vs SKA Khabarovsk (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/shinnik-yaroslavl-vs-ska-khabarovsk-ngay-27-09-2026/
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125628_01e49a9d.png" group-title="Chuối Chiên" , 27/09 21:15 ⚽ Mallorca vs Almeria (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1569944/mallorca-vs-almeria
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fdef90456d2a2eee09976c558457aec7.png" group-title="Phá Làng" , 27/09 21:15 ⚽ RCD Mallorca - Almeria (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#jw2r09hkv9p5rz8
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fdef90456d2a2eee09976c558457aec7.png" group-title="Gà Vàng" , 27/09 21:15 ⚽ Mallorca vs Almeria (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/rcd-mallorca-vs-almeria-ngay-27-09-2026/
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8661.png" group-title="Sao Kê" , 27/09 21:15 ⚽ Mallorca vs Almería (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/mallorca-vs-almeria-6ab777191883d81208dbbbb0.html

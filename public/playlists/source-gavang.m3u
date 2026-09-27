@@ -1,13 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:14:18 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:16:33 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (8 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (24 trận) =====
 
 # ----- Ngày 2026-09-27 -----
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/d82c6b70b6fa098483e9afa0589bd7b1.png" group-title="Gà Vàng" , 27/09 04:10 🟢 ⚽ Deportivo Pereira vs La Equidad (MáN NúI)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/2addd50487c8f61276d5fff8714f6a5c.png" group-title="Gà Vàng" , 27/09 05:50 🟢 ⚽ Cruz Azul vs Toluca (cố tư nghiêm)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69cf6331585c5992182f4160.m3u8
+https://playback.livetl002.com/live/69a1aaa7230584579e2d5ce1.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/e829da6b3050ec03f3c8715690ec39c4.png" group-title="Gà Vàng" , 27/09 07:30 🟡 ⚽ FC Dallas vs Los Angeles FC (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/fc-dallas-vs-los-angeles-fc-ngay-27-09-2026/
@@ -23,6 +23,54 @@ https://gavanglinkq.tv/truc-tiep/vancouver-whitecaps-vs-dc-united-ngay-27-09-202
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a7df6424c12ac9b7a6e5ca3ff953d5b3.png" group-title="Gà Vàng" , 27/09 10:10 ⚽ Tigres UANL vs Puebla (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/tigres-uanl-vs-puebla-ngay-27-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/ab5885f55b8ee6bfae8b65c8fe725694.png" group-title="Gà Vàng" , 27/09 11:00 🏀 Ibaraki Robots vs San-en NeoPhoenix (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/5b36afc0e6119625247683c3c11c7531.png" group-title="Gà Vàng" , 27/09 13:00 ⚽ China U16 vs Vietnam U16 (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/china-u16-vs-vietnam-u16-ngay-27-09-2026/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/df321578b4f5f132345d2e6b39743126.png" group-title="Gà Vàng" , 27/09 14:00 ⚽ Hong Kong vs Laos (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/hong-kong-vs-laos-ngay-27-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/eba4bbba15054de591179e0001ab718b.png" group-title="Gà Vàng" , 27/09 15:00 🏀 Sydney Kings vs lllawarra Hawks (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b6cae339576dad4050db7d092cdc52b6.png" group-title="Gà Vàng" , 27/09 16:00 ⚽ Dong Thap vs Thai Nguyen (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/dong-thap-vs-thai-nguyen-ngay-27-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/bed3e0e7e7677fc51f43b2e6b33dd040.png" group-title="Gà Vàng" , 27/09 16:30 ⚽ FK Ufa vs Torpedo Moskva (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/fc-ufa-vs-torpedo-moscow-ngay-27-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png" group-title="Gà Vàng" , 27/09 17:00 ⚽ Gangwon FC vs Incheon United (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/gangwon-fc-vs-incheon-united-club-ngay-27-09-2026/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/31d64389a45aaeb7a61c9b76b72be555.png" group-title="Gà Vàng" , 27/09 17:00 ⚽ Cambodia vs Myanmar (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/cambodia-vs-myanmar-ngay-27-09-2026/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/445ef89e5620a875f7c2eaddd033e39d.png" group-title="Gà Vàng" , 27/09 18:35 ⚽ China vs New Zealand (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/china-vs-new-zealand-ngay-27-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fdf63461c00668597319a4f0db14dcee.png" group-title="Gà Vàng" , 27/09 19:00 ⚽ Real Valladolid vs Cordoba (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/real-valladolid-cf-vs-cordoba-ngay-27-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/0c520a5ff707978cf7ce6e3ff30dc98e.png" group-title="Gà Vàng" , 27/09 19:30 ⚽ De Graafschap vs Den Bosch (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/de-graafschap-vs-den-bosch-ngay-27-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/36de6e50c9a54ca558d69ae01ded3ac8.png" group-title="Gà Vàng" , 27/09 19:30 🏀 Hanoi buffalo vs Xigong heat (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f2b6806d6ed60d2d87b0dd5ae62e6f20.png" group-title="Gà Vàng" , 27/09 20:00 ⚽ Lithuania vs Azerbaijan (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/lithuania-vs-azerbaijan-ngay-27-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/1105c0c62d761d64b6f4c3e34f460278.png" group-title="Gà Vàng" , 27/09 21:00 ⚽ Criciuma vs Avaí FC (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/criciuma-vs-avai-fc-ngay-27-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/8ff8e5218c38396cd890d2669f165841.png" group-title="Gà Vàng" , 27/09 21:00 ⚽ Shinnik Yaroslavl vs SKA Khabarovsk (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/shinnik-yaroslavl-vs-ska-khabarovsk-ngay-27-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fdef90456d2a2eee09976c558457aec7.png" group-title="Gà Vàng" , 27/09 21:15 ⚽ Mallorca vs Almeria (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/rcd-mallorca-vs-almeria-ngay-27-09-2026/
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/761ccf19be6a4fdf81880acadb81aa4c.png" group-title="Gà Vàng" , 28/09 01:45 ⚽ Germany vs Greece (Chưa có link — chờ cập nhật)
