@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:42:27 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:45:30 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (5 trận), Gà Vàng (2 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Gà Vàng (2 trận) =====
 
 # ----- Ngày 2026-09-28 -----
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/6mT2sfg5-6gCoMGdb.png" group-title="Giờ Vàng" , 28/09 03:00 🟢 🏀 Las Vegas Aces vs Indiana Fever (Giovang 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790520285_hd%2F1790520285_hd%40720p.m3u8&source=giovang
-
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/f527c983cab3560c60e7b9d147904d7d.png" group-title="Giờ Vàng" , 28/09 06:00 🟢 🏀 Atlanta Dream vs Washington Mystics (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790530217_hd%2F1790530217_hd%40720p.m3u8&source=giovang
 
