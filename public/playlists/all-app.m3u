@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:49:12 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:51:28 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (16 trận), Chuối Chiên (20 trận), Phá Làng (48 trận), Gà Vàng (23 trận), Sao Kê (23 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (16 trận), Chuối Chiên (20 trận), Phá Làng (49 trận), Gà Vàng (23 trận), Sao Kê (23 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://platform.mmamania.com/wp-content/uploads/sites/110/2026/08/HPz3eAZXcAAocvy.jpeg?quality=90&strip=all&crop=0,10,100,80" group-title="Giờ Vàng" , 27/09 04:00 🟢 ⚽ Rosas Jr. vs Barcelos (Giovang 1)
@@ -54,6 +54,9 @@ https://eqr2hdarxfliv.vcdn.cloud/1790434354_hd/1790434354_hd@720p.m3u8|User-Agen
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/98a89cba4bbd10c0ceb437d8f795d43b.png" group-title="Gà Vàng" , 27/09 08:30 🟢 ⚽ Real Salt Lake vs New England Revolution (cố tư nghiêm)
 https://playback.livetl002.com/live/69a1aaa7230584579e2d5ce1.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/88620f5162fd07e31d46b44f848bd9e5.png" group-title="Phá Làng" , 27/09 08:40 🟢 ⚽ Real Salt Lake - New England Revolution (Server 1)
+https://lilive1.eu.cc/live/af78f69f09ecee5c8d45bbc47c965027/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/los-angeles-galaxy.png" group-title="Giờ Vàng" , 27/09 09:30 🟡 ⚽ Los Angeles Galaxy vs Colorado Rapids (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-los-angeles-galaxy-vs-colorado-rapids-27-09-6aadd0c024d46db870f2894e
@@ -178,9 +181,6 @@ https://live05.chuoichientv.me/live/1634973/dong-thap-vs-thai-nguyen
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e3eeed340658b68dc6b1cc2997997954.png" group-title="Phá Làng" , 27/09 16:00 ⚽ Cerezo Osaka Sakai - NTV Tokyo Verdy Beleza (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6ypq3nhvxovgmd7
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b6cae339576dad4050db7d092cdc52b6.png" group-title="Gà Vàng" , 27/09 16:00 ⚽ Dong Thap vs Thai Nguyen (Chưa có link — chờ cập nhật)
-https://gavanglinkq.tv/truc-tiep/dong-thap-vs-thai-nguyen-ngay-27-09-2026/
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135806_f9a41cc0.png" group-title="Sao Kê" , 27/09 16:00 ⚽ Đồng Tháp vs Thái Nguyên (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/dong-thap-vs-thai-nguyen-nu-6ab8701b83cca0e288298df6.html
 
@@ -219,6 +219,9 @@ https://gavanglinkq.tv/truc-tiep/gangwon-fc-vs-incheon-united-club-ngay-27-09-20
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/31d64389a45aaeb7a61c9b76b72be555.png" group-title="Gà Vàng" , 27/09 17:00 ⚽ Cambodia vs Myanmar (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/cambodia-vs-myanmar-ngay-27-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b6cae339576dad4050db7d092cdc52b6.png" group-title="Gà Vàng" , 27/09 17:00 ⚽ Dong Thap vs Thai Nguyen (Chưa có link — chờ cập nhật)
+https://gavanglinkq.tv/truc-tiep/dong-thap-vs-thai-nguyen-ngay-27-09-2026/
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6332.png" group-title="Sao Kê" , 27/09 17:00 ⚽ Cambodia vs Myanmar (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/cambodia-vs-myanmar-6ab5c84b552ae1acb6d9c779.html
