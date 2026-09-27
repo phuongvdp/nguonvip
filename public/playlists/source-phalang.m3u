@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:27:32 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:30:05 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (34 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (33 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e8327d4681b4a73c83be9fe087b30721.png" group-title="Phá Làng" , 27/09 19:00 🟢 ⚽ Shanghai Shenhua - Zenit St. Petersburg (Server 1)
@@ -13,9 +13,6 @@ https://lilive1.eu.cc/live/c923894971e6d1975517849339a6a6b7/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/47863d9ab75a0c20e2f0247e7e044fdb/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/01b36d0eae3771391455661b45834805.jpg" group-title="Phá Làng" , 27/09 19:30 🟡 ⚽ FK Gilan Gabala - Karvan Evlakh (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#23xmvkhyv9jjqg8
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/f0be701add6a4ef2cbe95c846741a1ad.png" group-title="Phá Làng" , 27/09 20:00 🟢 ⚽ Lithuania - Azerbaijan (LÝ LONG)
 #EXTVLCOPT:http-referrer=https://phalang.live

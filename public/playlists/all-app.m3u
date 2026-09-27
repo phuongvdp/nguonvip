@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:27:32 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:30:05 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Chuối Chiên (16 trận), Phá Làng (34 trận), Gà Vàng (16 trận), Sao Kê (12 trận), GaVang33 (26 trận), Bông Lau (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Chuối Chiên (16 trận), Phá Làng (33 trận), Gà Vàng (14 trận), Sao Kê (11 trận), GaVang33 (27 trận), Bông Lau (16 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 27/09 15:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -12,9 +12,6 @@ https://eqr2hdarxfliv.vcdn.cloud/1790493466_hd/1790493466_hd@720p.m3u8|User-Agen
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Chuối Chiên" , 27/09 17:00 🟢 🏐 China vs Chinese Taipei (Chuối Kem (HD))
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Sao Kê" , 27/09 17:00 🟢 ⚽ China vs Đài Bắc Trung Hoa (Kai)
-https://stm6dad62063600.stream.hdplaylink.com/sklive/kai/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Bông Lau" , 27/09 17:00 🟢 🏐 China vs Chinese Taipei (Chuối Kem (HD))
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
@@ -54,15 +51,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8|User-Agent=Mozilla/5.
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/dffc9109f99b890e6dd480f8ac53ecec.png" group-title="Giờ Vàng" , 27/09 19:30 🟢 🏀 Hanoi buffalo vs Saigon heat (Giovang 1)
 https://eqr2hdarxfliv.vcdn.cloud/1790511812_hd/1790511812_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/01b36d0eae3771391455661b45834805.jpg" group-title="Phá Làng" , 27/09 19:30 🟡 ⚽ FK Gilan Gabala - Karvan Evlakh (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#23xmvkhyv9jjqg8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/0c520a5ff707978cf7ce6e3ff30dc98e.png" group-title="Gà Vàng" , 27/09 19:30 🟡 ⚽ De Graafschap vs Den Bosch (Chưa có link — chờ cập nhật)
-https://gavanglinkq.tv/truc-tiep/de-graafschap-vs-den-bosch-ngay-27-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/36de6e50c9a54ca558d69ae01ded3ac8.png" group-title="Gà Vàng" , 27/09 19:30 🟡 🏀 Hanoi buffalo vs Xigong heat (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/f0be701add6a4ef2cbe95c846741a1ad.png" group-title="Phá Làng" , 27/09 20:00 🟢 ⚽ Lithuania - Azerbaijan (LÝ LONG)
 https://lilive1.eu.cc/live/f66016bee48741d7d1104def89f2d04a/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
@@ -415,3 +403,6 @@ https://gavang33.me/truc-tiep/south-korea-vs-uruguay-luc-1800-ngay-28-09-2026-x7
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/79d0360cd882c01f1ac008b3bb85feb3.png" group-title="GaVang33" , 28/09 19:00 ⚽ Tajikistan vs Palestine (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/tajikistan-vs-palestine-luc-1900-ngay-28-09-2026-ednm9whwjnd6ryo
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png" group-title="GaVang33" , 28/09 19:30 ⚽ Malaysia vs Indonesia (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/malaysia-vs-indonesia-luc-1930-ngay-28-09-2026-2y8m4zh5l7g4ql0
