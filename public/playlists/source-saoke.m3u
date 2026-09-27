@@ -1,19 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 12:30:49 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 12:33:02 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (19 trận) =====
 
 # ----- Ngày 2026-09-27 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Sao Kê" , 27/09 11:00 🟢 ⚽ South Korea vs Philippines (Teppy)
-#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://stm6dad62063600.stream.hdplaylink.com/sklive/teppy/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Sao Kê" , 27/09 14:00 ⚽ India vs Việt Nam (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/india-vs-viet-nam-6ab5c9fc78b4acb4e60657b0.html
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Sao Kê" , 27/09 14:00 ⚽ Indonesia vs Thailand (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/indonesia-vs-thailand-6ab5c9d773423c5d67b1ed66.html
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Sao Kê" , 27/09 14:00 ⚽ India vs Việt Nam (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/india-vs-viet-nam-6ab5c9fc78b4acb4e60657b0.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6322.png" group-title="Sao Kê" , 27/09 14:00 ⚽ Hong Kong vs Laos (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/hong-kong-vs-laos-6ab777191883d81208dbbbb3.html
