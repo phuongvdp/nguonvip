@@ -1,19 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:03:46 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:06:22 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (26 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận) =====
 
 # ----- Ngày 2026-09-27 -----
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/lithuania.png" group-title="Giờ Vàng" , 27/09 20:00 🟢 ⚽ Lithuania vs Azerbaijan (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790494080_hd/1790494080_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/GANOAmyS-48fOrFoJ.png" group-title="Giờ Vàng" , 27/09 22:00 🟢 ⚽ Yemen vs Qatar (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790494397_hd/1790494397_hd@720p.m3u8
-
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/h4mAxXEa-YgmHmwO2.png" group-title="Giờ Vàng" , 27/09 22:00 🟢 🏀 Basket Girona vs Murcia (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -21,6 +11,11 @@ https://eqr2hdarxfliv.vcdn.cloud/1790494992_hd/1790494992_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Miv9FHHG-dQ3CHKf1.png" group-title="Giờ Vàng" , 27/09 22:30 🟡 ⚽ Chelsea nữ vs Arsenal nữ (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-chelsea-nu-vs-arsenal-nu-27-09-9yeq3q0t2z9d
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/GANOAmyS-48fOrFoJ.png" group-title="Giờ Vàng" , 27/09 22:55 🟢 ⚽ Yemen vs Qatar (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790494397_hd/1790494397_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/gibraltar.png" group-title="Giờ Vàng" , 27/09 23:00 🟡 ⚽ Gibraltar vs Andorra (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-gibraltar-vs-andorra-27-09-69f695d673ba0b335e0f2edb
@@ -39,9 +34,6 @@ https://giovang.city/truc-tiep-valencia-vs-forca-lleida-27-09-rz7ildfa0aos
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/KI7ZD8ZA-IqzC8wpd.png" group-title="Giờ Vàng" , 27/09 23:59 ⚽ Cincinnati Bengals vs Pittsburgh Steelers (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-cincinnati-bengals-vs-pittsburgh-steelers-27-09-kaqfpuxsfffk
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/KI7ZD8ZA-IqzC8wpd.png" group-title="Giờ Vàng" , 27/09 23:59 ⚽ Cincinnati Bengals vs Pittsburgh Steelers (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-cincinnati-bengals-vs-pittsburgh-steelers-27-09-vjeesd822jgp
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/be/Real_Madrid_Baloncesto.png" group-title="Giờ Vàng" , 27/09 23:59 🏀 Real Madrid vs Unicaja (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-real-madrid-vs-unicaja-27-09-0xo75wufjxlc
