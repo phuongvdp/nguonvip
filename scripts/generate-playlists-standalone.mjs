@@ -108,6 +108,14 @@ const MAX_RUNTIME_MS = MAX_RUNTIME_MIN * 60 * 1000;
 // repo của người dùng.
 const AUTO_COMMIT = process.env.GENERATE_AUTO_COMMIT === '1';
 
+// FIX (27/09/2026 — "app IPTV không đọc được header, cần proxy sống"): địa
+// chỉ server ĐANG CHẠY SỐNG (Vercel/Render/VPS, có route /api/proxy/hls) —
+// để trống thì KHÔNG sinh file "-proxy.m3u" nào cả (đúng model cũ, GitHub-
+// only, không giả định có server). Set trong GitHub Secrets (repo >
+// Settings > Secrets and variables > Actions), ví dụ:
+// PROXY_BASE_URL=https://ten-project-cua-ban.vercel.app
+const PROXY_BASE_URL = String(process.env.PROXY_BASE_URL || '').trim();
+
 // FIX (26/09/2026 — lưới an toàn cuối cùng, xem chú thích try/catch trong
 // vòng lặp while ở main()): phòng trường hợp cực hiếm 1 lỗi ném ra từ 1
 // Promise KHÔNG được await đúng cách (unhandledRejection) hoặc lỗi đồng bộ
@@ -369,6 +377,15 @@ async function generateOnce() {
       const appFilename = `${sport}-app.m3u`;
       fs.writeFileSync(path.join(OUTPUT_DIR, appFilename), appContent, 'utf8');
       console.log(`[generate-playlists] ${appFilename}: ${(appContent.match(/^#EXTINF/gm) || []).length} kênh`);
+
+      // FIX (27/09/2026 — xem chú thích PROXY_BASE_URL phía trên): chỉ sinh
+      // khi đã khai báo địa chỉ server sống, đúng model cũ khi để trống.
+      if (PROXY_BASE_URL) {
+        const proxyContent = stampGeneratedAt(buildM3uPlaylist(entries, { format: 'proxy', baseUrl: PROXY_BASE_URL }));
+        const proxyFilename = `${sport}-proxy.m3u`;
+        fs.writeFileSync(path.join(OUTPUT_DIR, proxyFilename), proxyContent, 'utf8');
+        console.log(`[generate-playlists] ${proxyFilename}: ${(proxyContent.match(/^#EXTINF/gm) || []).length} kênh`);
+      }
     } catch (err) {
       hasError = true;
       console.error(`[generate-playlists] Lỗi khi tạo playlist "${sport}":`, err.message);
@@ -392,6 +409,14 @@ async function generateOnce() {
       fs.writeFileSync(path.join(OUTPUT_DIR, appFilename), appContent, 'utf8');
       console.log(`[generate-playlists] ${appFilename}: ${(appContent.match(/^#EXTINF/gm) || []).length} kênh`);
 
+      // FIX (27/09/2026 — xem chú thích PROXY_BASE_URL phía trên).
+      if (PROXY_BASE_URL) {
+        const proxyContent = stampGeneratedAt(buildM3uPlaylist(entries, { format: 'proxy', baseUrl: PROXY_BASE_URL }));
+        const proxyFilename = `source-${source}-proxy.m3u`;
+        fs.writeFileSync(path.join(OUTPUT_DIR, proxyFilename), proxyContent, 'utf8');
+        console.log(`[generate-playlists] ${proxyFilename}: ${(proxyContent.match(/^#EXTINF/gm) || []).length} kênh`);
+      }
+
       // FIX (25/09/2026 — "muốn proxy sống (hls.js) cũng hưởng Referer tự
       // dò" + "không deploy VPS/Vercel nào cả, chỉ lên GitHub"): LÚC ĐẦU
       // đoạn này được thêm nhầm vào scripts/generate-playlists.js (bản CŨ,
@@ -409,7 +434,14 @@ async function generateOnce() {
       // deploy hls.js lên 1 server thật (VPS/Vercel/Render). Vẫn ghi lại vì
       // rẻ (không tốn thêm lần quét nào, chỉ đọc lại chuỗi content đã có
       // sẵn) và vô hại nếu không dùng tới.
-      if (source === 'saoke' || source === 'chuoichientv') {
+      // FIX (27/09/2026 — "thiếu bonglau-referer.json"): bonglau.service.js
+      // cũng TỰ DÒ Referer riêng bằng trình duyệt headless y hệt saoke/
+      // chuoichientv (xem detectPlayerReferer() trong file đó) nhưng trước
+      // đây bị bỏ sót khỏi danh sách ghi file JSON này -> route proxy sống
+      // (pages/api/proxy/hls.js, hàm readDetectedReferer()) không bao giờ
+      // đọc được Referer tự dò của BongLau, chỉ dùng được danh sách ứng
+      // viên hardcode (kém tin cậy hơn).
+      if (source === 'saoke' || source === 'chuoichientv' || source === 'bonglau') {
         const refererMatch = content.match(/^#EXTVLCOPT:http-referrer=(.+)$/m);
         const referer = refererMatch ? refererMatch[1].trim() : null;
         const jsonFilename = `${source}-referer.json`;

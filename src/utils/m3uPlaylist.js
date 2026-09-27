@@ -306,6 +306,20 @@ export function buildM3uPlaylist(entries = [], options = {}) {
   // #EXTVLCOPT) — giữ format mặc định (VLC) KHÔNG đổi để không phá vỡ
   // playlist đang chạy tốt trên VLC/PC.
   const useAppHeaderStyle = options.format === 'app';
+  // FIX (27/09/2026 — "app IPTV (aPTV, IPTV Live...) vẫn không xem được dù
+  // đã dùng bản -app.m3u"): quy ước header kiểu "|User-Agent=...&Referer=..."
+  // KHÔNG PHẢI chuẩn M3U chính thức — chỉ 1 số app (VLC, Kodi IPTV Simple
+  // Client, TiviMate tự xử lý riêng) hiểu quy ước này; nhiều app IPTV khác
+  // (aPTV, IPTV Live, Emby,...) coi URL kết thúc ngay tại dấu "|", bỏ qua
+  // toàn bộ phần header phía sau -> gọi link trần, vẫn bị CDN chặn 403 y hệt
+  // như không có gì. Format 'proxy' giải quyết TRIỆT ĐỂ cho MỌI app: link
+  // trỏ qua route sống /api/proxy/hls (pages/api/proxy/hls.js) — server tự
+  // gắn đúng Referer/User-Agent rồi mới gọi CDN thật, nên app chỉ thấy 1 URL
+  // trần bình thường, không cần biết/hỗ trợ header gì cả. Cần baseUrl trỏ
+  // tới 1 server ĐANG CHẠY SỐNG (Vercel/Render/VPS) — không dùng được nếu
+  // chỉ deploy tĩnh lên GitHub (route /api/proxy/hls không tồn tại ở đó).
+  const useProxyStyle = options.format === 'proxy';
+  const proxyBaseUrl = String(options.baseUrl || '').replace(/\/+$/, '');
   const lines = ['#EXTM3U', ''];
   entries = Array.isArray(entries) ? entries : [];
 
@@ -387,11 +401,12 @@ export function buildM3uPlaylist(entries = [], options = {}) {
     // cho CDN không cần). Entry placeholder (trận chưa đá / chưa có link,
     // iptvReferer === undefined) không phải link phát -> không ghi.
     if (entry.iptvReferer !== undefined) {
-      if (useAppHeaderStyle) {
-        // Không ghi #EXTVLCOPT ở format này — gắn thẳng header vào URL bên
-        // dưới (xem đoạn push(url) phía sau) để app IPTV dùng ExoPlayer đọc
-        // được, VLC không hiểu quy ước "|" này nên KHÔNG dùng file format
-        // "app" trên VLC.
+      if (useAppHeaderStyle || useProxyStyle) {
+        // 'app': header gắn thẳng vào URL bằng dấu "|" (xem đoạn build outUrl
+        // bên dưới). 'proxy': KHÔNG cần header gì cả (server tự gắn), URL
+        // cũng được viết lại hoàn toàn bên dưới. Cả 2 format đều KHÔNG ghi
+        // #EXTVLCOPT — VLC không đọc quy ước "|", còn 'proxy' vốn dĩ không
+        // cần header nào ở phía client.
       } else {
         if (entry.iptvReferer) lines.push(`#EXTVLCOPT:http-referrer=${entry.iptvReferer}`);
         lines.push(`#EXTVLCOPT:http-user-agent=${IPTV_HEADER_UA}`);
@@ -402,6 +417,11 @@ export function buildM3uPlaylist(entries = [], options = {}) {
       const headerParts = [`User-Agent=${IPTV_HEADER_UA}`];
       if (entry.iptvReferer) headerParts.push(`Referer=${entry.iptvReferer}`);
       outUrl = `${url}|${headerParts.join('&')}`;
+    } else if (useProxyStyle && entry.iptvReferer !== undefined && proxyBaseUrl) {
+      const sourceKey = getSourceKey(match);
+      const qs = new URLSearchParams({ url });
+      if (sourceKey) qs.set('source', sourceKey);
+      outUrl = `${proxyBaseUrl}/api/proxy/hls?${qs.toString()}`;
     }
     lines.push(outUrl);
     lines.push('');
