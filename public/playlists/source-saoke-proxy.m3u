@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:02:46 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:05:17 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (14 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (13 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6332.png" group-title="Sao Kê" , 27/09 17:00 🟢 ⚽ Cambodia vs Myanmar (Củ Cải)
@@ -9,9 +9,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stre
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Sao Kê" , 27/09 17:00 🟢 ⚽ China vs Đài Bắc Trung Hoa (Kai)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fkai%2Fplaylist.m3u8&source=saoke
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135806_f9a41cc0.png" group-title="Sao Kê" , 27/09 17:00 🟢 ⚽ Đồng Tháp vs Thái Nguyên (Bút Chì)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fbutchi%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5822.png" group-title="Sao Kê" , 27/09 18:35 🟢 ⚽ China vs New Zealand (Tít)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Ftit%2Fplaylist.m3u8&source=saoke
