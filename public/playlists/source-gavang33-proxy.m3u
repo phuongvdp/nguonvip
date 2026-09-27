@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:55:39 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:58:12 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (25 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (24 trận) =====
 
 # ----- Ngày 2026-09-27 -----
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f2b6806d6ed60d2d87b0dd5ae62e6f20.png" group-title="GaVang33" , 27/09 20:00 🟢 ⚽ Lithuania vs Azerbaijan (Gà Siêu Péo)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F303098.m3u8&source=gavang33
-
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/fdef90456d2a2eee09976c558457aec7.png" group-title="GaVang33" , 27/09 21:15 🟢 ⚽ RCD Mallorca vs Almeria (Gà Siêu Tồ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F796315.m3u8&source=gavang33
 
