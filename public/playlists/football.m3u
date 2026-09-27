@@ -1,9 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:08:32 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:10:48 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (10 trận), Chuối Chiên (14 trận), Phá Làng (48 trận), Gà Vàng (21 trận), Sao Kê (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (10 trận), Chuối Chiên (15 trận), Phá Làng (49 trận), Gà Vàng (21 trận), Sao Kê (19 trận) =====
 
 # ----- Ngày 2026-09-27 -----
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0c7660683be3429ea77999657fa17d79.png" group-title="Phá Làng" , 27/09 06:20 🟢 ⚽ Canada - Chile (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/351ae40f23ea68ef14c74b2ac228655e/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131606_86e503ed.png" group-title="Chuối Chiên" , 27/09 06:30 🟢 ⚽ Atlanta United FC vs New York City FC (Chuối To (HD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -404,6 +409,9 @@ https://live05.chuoichientv.me/live/1528899/germany-vs-greece
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250715_194710_e484b2d5.png" group-title="Chuối Chiên" , 28/09 01:45 ⚽ Norway vs Portugal (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1528900/norway-vs-portugal
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134301_856f2abf.png" group-title="Chuối Chiên" , 28/09 01:45 ⚽ Israel vs Rep. Of Ireland (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1528901/israel-vs-rep-of-ireland
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/761ccf19be6a4fdf81880acadb81aa4c.png" group-title="Gà Vàng" , 28/09 01:45 ⚽ Germany vs Greece (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/germany-vs-greece-ngay-28-09-2026/
