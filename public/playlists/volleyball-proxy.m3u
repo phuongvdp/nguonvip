@@ -1,14 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:29:13 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:31:45 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (2 trận), Chuối Chiên (2 trận), Phá Làng (2 trận), Bông Lau (2 trận) =====
-
-# ----- Ngày 2026-09-27 -----
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_4898.png" group-title="Khán Đài" , 27/09 20:30 🟢 🏐 Scandicci vs Novara (KaKa)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa7%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Imocovolley.png" group-title="Khán Đài" , 27/09 23:00 🏐 Imoco vs Milano (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/imoco-vs-milano
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (2 trận), Phá Làng (2 trận), Bông Lau (2 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 28/09 08:00 🏐 Indonesia vs Kyrgyzstan W (Chưa có link — chờ cập nhật)
