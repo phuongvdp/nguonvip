@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:59:48 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:02:07 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (41 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (40 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aaf7ff777567dba636caf52a05a45c31.png" group-title="Phá Làng" , 27/09 17:00 🟢 ⚽ Dong Thap - Thai Nguyen (Server 1)
@@ -18,12 +18,6 @@ https://lilive1.eu.cc/live/5aa347e915b965fcca7a9aacdcc98adb/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/a6776ebdf7a28f602b24cc8530bf6d7b/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c862eaf286d184ff7b44b07e09bbe8ec.png" group-title="Phá Làng" , 27/09 17:00 🟡 ⚽ Sporting Hortaleza - Atletico Union Guimar (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#dn1m1ghl65yvmoe
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/27f2f8d2099b9374f1a7b72898cb0d68.png" group-title="Phá Làng" , 27/09 17:00 🟡 ⚽ Auriense - CD San Jose de Soria (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#k82rekhgl545rep
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 27/09 17:20 🟢 🏐 Nhật Bản - Uzbekistan (LÝ LÊN LỬA (Server 1))
 #EXTVLCOPT:http-referrer=https://phalang.live
@@ -135,3 +129,6 @@ https://phalang.live/trang-chu#3glrw7h4k0deqdy
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/b6d8f81e8454813b3e672b179e627d3a.png!w80" group-title="Phá Làng" , 28/09 06:00 ⚽ Columbus Crew - Inter Miami CF (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#8yomo4h148w1q0j
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/f2413ce638c27cc34d13f8c961ba694f.png!w80" group-title="Phá Làng" , 28/09 08:00 🏐 Indonesi - Kyrgyzstan (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#3659a4b2323d44f6a4d63a8c8d2e53d6
