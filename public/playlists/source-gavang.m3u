@@ -1,13 +1,28 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:04:26 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:07:01 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (21 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/bed3e0e7e7677fc51f43b2e6b33dd040.png" group-title="Gà Vàng" , 27/09 16:30 🟢 ⚽ FK Ufa vs Torpedo Moskva (SÚP LƠ)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a9a5525864ea536c2577392.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png" group-title="Gà Vàng" , 27/09 17:00 🟢 ⚽ Gangwon FC vs Incheon United (Lữ Bố.vip)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a9776215126529dede9bf51.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/31d64389a45aaeb7a61c9b76b72be555.png" group-title="Gà Vàng" , 27/09 17:00 🟢 ⚽ Cambodia vs Myanmar (NGƯỜI KIẾN)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a439a7fb89dded67b208b87.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b6cae339576dad4050db7d092cdc52b6.png" group-title="Gà Vàng" , 27/09 17:00 🟢 ⚽ Dong Thap vs Thai Nguyen (cố tư nghiêm)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69a1aaa7230584579e2d5ce1.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/445ef89e5620a875f7c2eaddd033e39d.png" group-title="Gà Vàng" , 27/09 18:35 ⚽ China vs New Zealand (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/china-vs-new-zealand-ngay-27-09-2026/
