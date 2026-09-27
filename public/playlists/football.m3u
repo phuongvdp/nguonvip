@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:48:10 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:50:25 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (10 trận), Chuối Chiên (14 trận), Phá Làng (38 trận), Gà Vàng (21 trận), Sao Kê (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (10 trận), Chuối Chiên (14 trận), Phá Làng (43 trận), Gà Vàng (21 trận), Sao Kê (19 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/2addd50487c8f61276d5fff8714f6a5c.png" group-title="Gà Vàng" , 27/09 05:50 🟢 ⚽ Cruz Azul vs Toluca (cố tư nghiêm)
@@ -58,6 +58,31 @@ https://eqr2hdarxfliv.vcdn.cloud/1790434177_hd/1790434177_hd@720p.m3u8
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a2a59b347bbddd62a8dc4e4.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0d73555589f1798fd041278bbe6fdda3.png" group-title="Phá Làng" , 27/09 07:40 🟢 ⚽ Austin FC - San Diego FC (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/d7b390cbfe1f0c08b6f8964e967c703b/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cef1725baaf3f3be0cb7215c5f39d162.png" group-title="Phá Làng" , 27/09 07:40 🟢 ⚽ Seattle Sounders - Minnesota United FC (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/a0a65e7bebcd0eefe8c9cd5535f942c4/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e829da6b3050ec03f3c8715690ec39c4.png" group-title="Phá Làng" , 27/09 07:40 🟢 ⚽ FC Dallas - Los Angeles FC (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/d1172276149a081801b925862b8159c3/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2d21e6bbd505075b1bc6df8b5a887e8f.png" group-title="Phá Làng" , 27/09 07:40 🟢 ⚽ Houston Dynamo - Sporting Kansas City (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/db47050245855091b3513d8292d106f8/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/eafb707bc6f8028dc71923176915c8e3.png" group-title="Phá Làng" , 27/09 07:40 🟢 ⚽ Nashville SC - Toronto FC (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/8f36cf94bc18aaec239f119e88927ee8/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6710.png" group-title="Sao Kê" , 27/09 08:00 🟢 ⚽ Mexico vs Colombia (Cà Rốt)
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
