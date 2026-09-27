@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:29:17 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:32:20 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (9 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (7 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fdef90456d2a2eee09976c558457aec7.png" group-title="Gà Vàng" , 27/09 21:15 🟢 ⚽ Mallorca vs Almeria (ĐOÀN DỰ)
@@ -18,12 +18,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/059bbd8df7767d3bc7829e3735c221e2.png" group-title="Gà Vàng" , 27/09 23:00 🟢 ⚽ Serbia vs Netherlands (RIO)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a01a2511e8555d7a3685f5c.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/1e888ca542d892600d3b2818d1c40e22.png" group-title="Gà Vàng" , 27/09 23:30 🟡 ⚽ Burgos CF vs Eldense (Chưa có link — chờ cập nhật)
-https://gavanglinkq.tv/truc-tiep/burgos-cf-vs-eldense-ngay-27-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/230be7f4f23de1cb08877a72cd08f619.png" group-title="Gà Vàng" , 27/09 23:30 🟡 ⚽ Eibar vs Las Palmas (Chưa có link — chờ cập nhật)
-https://gavanglinkq.tv/truc-tiep/eibar-vs-ud-las-palmas-ngay-27-09-2026/
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/761ccf19be6a4fdf81880acadb81aa4c.png" group-title="Gà Vàng" , 28/09 01:45 ⚽ Germany vs Greece (Chưa có link — chờ cập nhật)
