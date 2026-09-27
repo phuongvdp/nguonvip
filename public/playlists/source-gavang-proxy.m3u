@@ -1,16 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 02:58:57 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:01:57 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (15 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/7654a95374767f93f6bec6a3d4819f76.png" group-title="Gà Vàng" , 28/09 01:00 🟢 ⚽ Pumas vs Atletico San Luis (MáN NúI)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69cf6331585c5992182f4160.m3u8&source=gavang
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/cb3c7e99e401d3ff83eeb36c53996d79.png" group-title="Gà Vàng" , 28/09 03:00 🟡 ⚽ Racing Club vs Boca Juniors (Chưa có link — chờ cập nhật)
-https://gavanglinkq.tv/truc-tiep/racing-club-de-avellaneda-vs-boca-juniors-ngay-28-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b7f3a068b301edd82ad4c56496f41063.png" group-title="Gà Vàng" , 28/09 04:00 ⚽ Jaguares de Cordoba vs Alianza Fútbol Club (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b7f3a068b301edd82ad4c56496f41063.png" group-title="Gà Vàng" , 28/09 04:00 🟡 ⚽ Jaguares de Cordoba vs Alianza Fútbol Club (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/jaguares-de-cordoba-vs-alianza-futbol-club-ngay-28-09-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/84f85d4178e4287ed8ad5f76ad4c5e46.png" group-title="Gà Vàng" , 28/09 04:30 ⚽ Fortaleza vs Athletic Club (Chưa có link — chờ cập nhật)
