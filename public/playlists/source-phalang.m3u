@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:25:23 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:27:56 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (20 trận) =====
 
@@ -15,14 +15,18 @@ https://phalang.live/trang-chu#318q66hxl9plqo9
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/423015daae7abff283307125c02c82b1.png" group-title="Phá Làng" , 27/09 22:55 🟡 ⚽ Yemen - Qatar (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkh6e0edqg8
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/4e30e5971f82d9a5ca35078090d5ee48.png" group-title="Phá Làng" , 27/09 23:00 🟡 ⚽ Serbia - Netherlands (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#318q66hx8ygnqo9
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/4e30e5971f82d9a5ca35078090d5ee48.png" group-title="Phá Làng" , 27/09 23:00 🟢 ⚽ Serbia - Netherlands (LÝ LÀNG LÁ)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/ee28c5f8cd1fbc6473a7dfe19dd2d93c/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/d425d5ad92e3850590036928252a14b9.png" group-title="Phá Làng" , 27/09 23:00 🟢 ⚽ Denmark - Wales (LÝ LIỀU LĨNH)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/f81da45fff756fbe80ce889c5f035419/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/481d49607b0b1cf75d31b4f95b3667aa.png" group-title="Phá Làng" , 27/09 23:00 🟡 ⚽ Maracena - UE Tavernes (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4wyrn4h6gjp8q86
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/d425d5ad92e3850590036928252a14b9.png" group-title="Phá Làng" , 27/09 23:00 🟡 ⚽ Denmark - Wales (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#965mkyhk8donr1g
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fcde6e6e0e58cbe7cc60d9b67f5ac244.png" group-title="Phá Làng" , 27/09 23:00 🟡 ⚽ Gibraltar - Andorra (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#k82rekhg2px8rep
