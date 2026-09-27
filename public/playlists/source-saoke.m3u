@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:43:00 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 09:45:19 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (23 trận) =====
 
@@ -14,8 +14,10 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/carot/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/teppy/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8561.png" group-title="Sao Kê" , 27/09 10:10 🟡 ⚽ Tigres vs Puebla (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/tigres-vs-puebla-6ab5c84b552ae1acb6d9c777.html
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8561.png" group-title="Sao Kê" , 27/09 10:10 🟢 ⚽ Tigres vs Puebla (Tít)
+#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://stm6dad62063600.stream.hdplaylink.com/sklive/tit/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Sao Kê" , 27/09 11:00 ⚽ South Korea vs Philippines (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/south-korea-vs-philippines-6ab5c90e5f2e6310e08c7f46.html
