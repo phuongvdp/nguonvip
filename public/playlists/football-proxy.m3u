@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:09:04 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:11:41 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (12 trận), Chuối Chiên (8 trận), Phá Làng (12 trận), Gà Vàng (20 trận), Sao Kê (6 trận), GaVang33 (22 trận), Bông Lau (8 trận) =====
 
@@ -47,6 +47,12 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_21.jpg" group-title="Khán Đài" , 28/09 01:45 🟢 ⚽ Germany vs Greece (Pháo Thủ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa4%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dfaaa23580764370ed378ecd708c9f262&source=khandaitv
 
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/227d43878fa14347902532126d29b10c.png!w80" group-title="Phá Làng" , 28/09 01:45 🟢 ⚽ Norway - Portugal (LÝ LA LÀNG)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F67804e658bb1034ea0c96a49fe2d3b9a%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/761ccf19be6a4fdf81880acadb81aa4c.png!w80" group-title="Phá Làng" , 28/09 01:45 🟢 ⚽ Germany - Greece (LÝ LONG)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F4c08191d31396b6c99c41e5b79412775%2Fplaylist.m3u8&source=phalang
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/israel.png" group-title="Giờ Vàng" , 28/09 01:45 🟡 ⚽ Israel vs Ireland (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-israel-vs-ireland-28-09-69f695d673ba0b335e0f2ed0
 
@@ -70,12 +76,6 @@ https://live05.chuoichientv.me/live/1528900/norway-vs-portugal
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134301_856f2abf.png" group-title="Chuối Chiên" , 28/09 01:45 🟡 ⚽ Israel vs Rep. Of Ireland (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1528901/israel-vs-rep-of-ireland
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/227d43878fa14347902532126d29b10c.png!w80" group-title="Phá Làng" , 28/09 01:45 🟡 ⚽ Norway - Portugal (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#4wyrn4h6ypllq86
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/761ccf19be6a4fdf81880acadb81aa4c.png!w80" group-title="Phá Làng" , 28/09 01:45 🟡 ⚽ Germany - Greece (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#dn1m1ghl9y07moe
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b0dc1effcd883299ca8ec96dd720d30c.png" group-title="Phá Làng" , 28/09 01:45 🟡 ⚽ Israel - Ireland (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l5ergph4kx8lr8k
