@@ -1,16 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 02:23:47 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 02:26:20 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/KI7ZD8ZA-IqzC8wpd.png" group-title="Giờ Vàng" , 27/09 23:59 🟢 ⚽ Cincinnati Bengals vs Pittsburgh Steelers (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790264767_hd/1790264767_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/be/Real_Madrid_Baloncesto.png" group-title="Giờ Vàng" , 27/09 23:59 🟢 🏀 Real Madrid vs Unicaja (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-real-madrid-vs-unicaja-27-09-0xo75wufjxlc
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/tYwDOwCa-pnEu7gs7.png" group-title="Giờ Vàng" , 28/09 01:00 🟢 🏀 Minnesota Lynx vs New York Liberty (Giovang 1)
@@ -33,11 +30,15 @@ https://eqr2hdarxfliv.vcdn.cloud/1790265911_hd/1790265911_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790265822_hd/1790265822_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/6mT2sfg5-6gCoMGdb.png" group-title="Giờ Vàng" , 28/09 03:00 🟡 🏀 Las Vegas Aces vs Indiana Fever (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-las-vegas-aces-vs-indiana-fever-28-09-dg82lk8505id
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/6mT2sfg5-6gCoMGdb.png" group-title="Giờ Vàng" , 28/09 03:00 🟢 🏀 Las Vegas Aces vs Indiana Fever (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790520285_hd/1790520285_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/dUe4S2il-40MWbKRi.png" group-title="Giờ Vàng" , 28/09 03:25 ⚽ Baltimore Ravens vs Dallas Cowboys (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-baltimore-ravens-vs-dallas-cowboys-28-09-clrkfsdy3sqv
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/dUe4S2il-40MWbKRi.png" group-title="Giờ Vàng" , 28/09 03:25 🟢 ⚽ Baltimore Ravens vs Dallas Cowboys (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790264984_hd/1790264984_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/f527c983cab3560c60e7b9d147904d7d.png" group-title="Giờ Vàng" , 28/09 06:00 🏀 Atlanta Dream vs Washington Mystics (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-atlanta-dream-vs-washington-mystics-28-09-13101476
