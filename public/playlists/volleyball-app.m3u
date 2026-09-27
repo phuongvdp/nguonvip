@@ -1,11 +1,17 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:37:24 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:40:09 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (1 trận), Chuối Chiên (4 trận), Phá Làng (3 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (1 trận), Khán Đài (6 trận), Chuối Chiên (4 trận), Phá Làng (3 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/bBruoNwS-ruTy2xns.png" group-title="Giờ Vàng" , 27/09 14:00 🟢 🏐 Ấn Độ vs Việt Nam (Giovang 1)
 https://eqr2hdarxfliv.vcdn.cloud/1790435042_hd/1790435042_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_hdpF9Rm.jpg" group-title="Khán Đài" , 27/09 14:00 🟢 🏐 Việt Nam vs Ấn Độ (KaKa)
+https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://khandai3.link
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_WqmhllM.jpg" group-title="Khán Đài" , 27/09 14:00 🟢 🏐 Indonesia vs Thái Lan (Lee Sin)
+https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://khandai3.link
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Chuối Chiên" , 27/09 14:00 🟢 🏐 India vs Việt Nam (Chuối Tây (HD))
 https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
@@ -16,14 +22,26 @@ https://pull.digitalcdn.net/live/98c6994cdc75464e9332c99879e3f343/index.m3u8|Use
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/f2413ce638c27cc34d13f8c961ba694f.png!w80" group-title="Phá Làng" , 27/09 14:00 🟢 🏐 Indonesia - Thái Lan (LÝ LINH LỰC (Server 1))
 https://pull.digitalcdn.net/live/7f5f713541a146c9a5520d1b6ab44b66/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_OOrZwnR.jpg" group-title="Khán Đài" , 27/09 17:00 🏐 Trung Quốc vs Đài Loan (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/trung-quoc-vs-dai-loan
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Chuối Chiên" , 27/09 17:00 🏐 China vs Chinese Taipei (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/993780/china-vs-chinese-taipei
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Khán Đài" , 27/09 17:20 🏐 Nhật Bản vs Uzbekistan (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/nhat-ban-vs-uzbekistan
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Chuối Chiên" , 27/09 17:20 🏐 Japan vs Uzbekistan (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/995830/japan-vs-uzbekistan
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 27/09 17:20 🏐 Nhật Bản - Uzbekistan (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6d3cee580cd048d493c662a71307f4f1
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_4898.png" group-title="Khán Đài" , 27/09 20:30 🏐 Scandicci vs Novara (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/scandicci-vs-novara
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Imocovolley.png" group-title="Khán Đài" , 27/09 23:00 🏐 Imoco vs Milano (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/imoco-vs-milano
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 28/09 08:00 🏐 Indonesia vs Kyrgyzstan W (Chưa có link — chờ cập nhật)
