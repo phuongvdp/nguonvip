@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:51:36 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:54:16 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (19 trận) =====
 
@@ -9,8 +9,10 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/8a67b2168887977af7551256caaf7a18/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/423015daae7abff283307125c02c82b1.png" group-title="Phá Làng" , 27/09 22:55 🟡 ⚽ Yemen - Qatar (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#23xmvkh6e0edqg8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/423015daae7abff283307125c02c82b1.png" group-title="Phá Làng" , 27/09 22:55 🟢 ⚽ Yemen - Qatar (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/418266e94e3bbd2e20fb01f6159df807/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/4e30e5971f82d9a5ca35078090d5ee48.png" group-title="Phá Làng" , 27/09 23:00 🟢 ⚽ Serbia - Netherlands (LÝ LÀNG LÁ)
 #EXTVLCOPT:http-referrer=https://phalang.live
