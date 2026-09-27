@@ -1,13 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 04:58:20 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 05:00:53 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (16 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/347a948f4171491109e251d7b23685eb.png" group-title="Phá Làng" , 28/09 03:30 🟢 ⚽ Bolivia - Paraguay (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F390c185108fb4a21f38ed4c563631b4f%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/b6d8f81e8454813b3e672b179e627d3a.png!w80" group-title="Phá Làng" , 28/09 06:00 ⚽ Columbus Crew - Inter Miami CF (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/b6d8f81e8454813b3e672b179e627d3a.png!w80" group-title="Phá Làng" , 28/09 06:00 🟡 ⚽ Columbus Crew - Inter Miami CF (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#8yomo4h148w1q0j
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/f2413ce638c27cc34d13f8c961ba694f.png!w80" group-title="Phá Làng" , 28/09 08:00 🏐 Indonesia - Kyrgyzstan (Chưa có link — chờ cập nhật)
@@ -48,3 +48,6 @@ https://phalang.live/trang-chu#y0or5jh9xj7pqwz
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png!w80" group-title="Phá Làng" , 28/09 19:30 ⚽ Malaysia - Indonesia (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#2y8m4zh5l7g4ql0
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/0d44700cb350e4546e802f0a3eaec9aa.png!w80" group-title="Phá Làng" , 28/09 20:00 🏐 Manisa BB Women - THY Nữ (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#e676d1ec76ef4493ad9fb416e01bc2de
