@@ -16,6 +16,21 @@ const axios = require('axios');
 // đổi domain/label thương hiệu + danh sách domain dò Referer.
 const BONGLAU_API_BASE = process.env.BONGLAU_API_BASE || 'https://api-v2.chuoichientv.net/v2';
 const BONGLAU_SITE_URL = process.env.BONGLAU_DOMAIN || 'https://lau05.bonglautv1.pro';
+// FIX (27/09/2026 — "Error fetching BongLau list: 403" ở CẢ live lẫn
+// upcoming, tức là lỗi ngay ở bước gọi /matches, KHÔNG phải lỗi CDN
+// .m3u8): API api-v2.chuoichientv.net kiểm tra Referer của CHÍNH request
+// gọi API (khác với Referer của stream .m3u8 dò riêng ở dưới) — API này
+// CHỈ chấp nhận Referer thuộc site chuoichientv (đã xác nhận qua
+// chuoichientv.service.js gọi đúng API này với Referer
+// 'https://live05.chuoichientv.me/' và KHÔNG bị 403). Trước đây bonglau
+// dùng nhầm BONGLAU_SITE_URL (domain HIỂN THỊ lau0N.bonglautv1.pro, dùng
+// để xem/hiển thị link, không phải domain API biết tới) làm Referer gọi
+// API -> bị chặn 403 ngay từ bước lấy DANH SÁCH trận, trước cả khi tới
+// bước dò Referer cho link CDN .m3u8. Sửa: gọi API bằng Referer CHUẨN của
+// Chuối Chiên (cùng API, cùng pool, khác domain hiển thị) — Referer dò
+// riêng cho stream .m3u8 (detectPlayerReferer bên dưới) không đổi, vẫn
+// dùng domain lau0N.bonglautv1.* như cũ.
+const BONGLAU_API_REFERER = process.env.BONGLAU_API_REFERER || 'https://live05.chuoichientv.me/';
 
 const SPORT_INFO = {
   football: { name: 'BÓNG ĐÁ', icon: 'fa-futbol' },
@@ -119,7 +134,7 @@ class BongLauService {
       headers: {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         'Accept': 'application/json, text/plain, */*',
-        'Referer': `${BONGLAU_SITE_URL}/`
+        'Referer': BONGLAU_API_REFERER
       }
     });
     // Cache dự phòng theo externalId, cùng lý do với chuoichientv.service.js
