@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:42:27 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:44:59 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận) =====
 
@@ -16,8 +16,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/dffc9109f99b890e6dd480f8ac53ecec.png" group-title="Giờ Vàng" , 27/09 19:30 🟢 🏀 Hanoi buffalo vs Saigon heat (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790511812_hd%2F1790511812_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/lithuania.png" group-title="Giờ Vàng" , 27/09 20:00 🟡 ⚽ Lithuania vs Azerbaijan (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-lithuania-vs-azerbaijan-27-09-69f2a1a2bb398665fd0908e4
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/lithuania.png" group-title="Giờ Vàng" , 27/09 20:00 🟢 ⚽ Lithuania vs Azerbaijan (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790494080_hd%2F1790494080_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/GANOAmyS-48fOrFoJ.png" group-title="Giờ Vàng" , 27/09 22:00 ⚽ Yemen vs Qatar (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-yemen-vs-qatar-27-09-sovsuxpzfh64
