@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:59:39 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:02:11 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (2 trận), Phá Làng (1 trận), Bông Lau (2 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (2 trận), Phá Làng (2 trận), Bông Lau (2 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 28/09 08:00 🏐 Indonesia vs Kyrgyzstan W (Chưa có link — chờ cập nhật)
@@ -15,6 +15,9 @@ https://lau05.bonglautv1.pro/truc-tiep/995429
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Chuối Chiên" , 28/09 11:00 🏐 China vs Philippines (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/991881/china-vs-philippines
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80" group-title="Phá Làng" , 28/09 11:00 🏐 Trung Quốc - Philippines (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#2d9fa5b7245344f9a2829012b295a295
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Bông Lau" , 28/09 11:00 🏐 China vs Philippines (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/991881

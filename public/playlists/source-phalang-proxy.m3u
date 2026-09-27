@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:59:39 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:02:11 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (33 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (30 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e8327d4681b4a73c83be9fe087b30721.png" group-title="Phá Làng" , 27/09 19:00 🟢 ⚽ Shanghai Shenhua - Zenit St. Petersburg (Server 1)
@@ -13,22 +13,10 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260924/f0be701add6a4ef2cbe95c846741a1ad.png" group-title="Phá Làng" , 27/09 20:00 🟢 ⚽ Lithuania - Azerbaijan (LÝ LONG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Ff66016bee48741d7d1104def89f2d04a%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f2cc8904afb100d60dfe9266b3ded7cf.png" group-title="Phá Làng" , 27/09 20:00 🟡 ⚽ Partizan Belgrade - Rodina Moscow (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#4jwq2ghgoplkm0v
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3cd0dc57966a8b1f8536dd0016179664.png" group-title="Phá Làng" , 27/09 20:00 🟡 ⚽ Ludogorets Razgrad - SCM Ramnicu Valcea (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#ednm9wh58x1zryo
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a0849d3ef00be19f62b68e824c423193.png" group-title="Phá Làng" , 27/09 20:00 🟡 ⚽ Radnik Bijeljina - HSK Zrinjski Mostar (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#jw2r09h546jerz8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5a2ff46efa33abc6b2908eb6279dfbf8.png" group-title="Phá Làng" , 27/09 20:00 🟡 ⚽ Lazio - Arezzo (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#l5ergphk0le9r8k
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/74b4f43e7bb7668fd648edc6208bb50d.png" group-title="Phá Làng" , 27/09 21:00 ⚽ CF San Rafael - AE Prat (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/74b4f43e7bb7668fd648edc6208bb50d.png" group-title="Phá Làng" , 27/09 21:00 🟡 ⚽ CF San Rafael - AE Prat (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4jwq2ghnl8jjm0v
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/02ec38de08e5725d895f41a5cd63e1c7.png" group-title="Phá Làng" , 27/09 21:00 ⚽ AEK Larnaca - Nea Salamis (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/02ec38de08e5725d895f41a5cd63e1c7.png" group-title="Phá Làng" , 27/09 21:00 🟡 ⚽ AEK Larnaca - Nea Salamis (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#n54qllh4519kqvy
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fdef90456d2a2eee09976c558457aec7.png" group-title="Phá Làng" , 27/09 21:15 ⚽ RCD Mallorca - Almeria (Chưa có link — chờ cập nhật)
@@ -103,3 +91,6 @@ https://phalang.live/trang-chu#8yomo4h148w1q0j
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/f2413ce638c27cc34d13f8c961ba694f.png!w80" group-title="Phá Làng" , 28/09 08:00 🏐 Indonesia - Kyrgyzstan (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#3659a4b2323d44f6a4d63a8c8d2e53d6
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80" group-title="Phá Làng" , 28/09 11:00 🏐 Trung Quốc - Philippines (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#2d9fa5b7245344f9a2829012b295a295

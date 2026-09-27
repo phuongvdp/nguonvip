@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:59:39 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:02:11 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Chuối Chiên (15 trận), Phá Làng (33 trận), Gà Vàng (14 trận), Sao Kê (11 trận), GaVang33 (26 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Chuối Chiên (15 trận), Phá Làng (30 trận), Gà Vàng (13 trận), Sao Kê (11 trận), GaVang33 (27 trận), Bông Lau (15 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 27/09 15:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -52,31 +52,16 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f2b6806d6ed60d2d87b0dd5ae62e6f20.png" group-title="GaVang33" , 27/09 20:00 🟢 ⚽ Lithuania vs Azerbaijan (Gà Siêu Péo)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F303098.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f2cc8904afb100d60dfe9266b3ded7cf.png" group-title="Phá Làng" , 27/09 20:00 🟡 ⚽ Partizan Belgrade - Rodina Moscow (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#4jwq2ghgoplkm0v
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3cd0dc57966a8b1f8536dd0016179664.png" group-title="Phá Làng" , 27/09 20:00 🟡 ⚽ Ludogorets Razgrad - SCM Ramnicu Valcea (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#ednm9wh58x1zryo
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a0849d3ef00be19f62b68e824c423193.png" group-title="Phá Làng" , 27/09 20:00 🟡 ⚽ Radnik Bijeljina - HSK Zrinjski Mostar (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#jw2r09h546jerz8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5a2ff46efa33abc6b2908eb6279dfbf8.png" group-title="Phá Làng" , 27/09 20:00 🟡 ⚽ Lazio - Arezzo (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#l5ergphk0le9r8k
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f2b6806d6ed60d2d87b0dd5ae62e6f20.png" group-title="Gà Vàng" , 27/09 20:00 🟡 ⚽ Lithuania vs Azerbaijan (Chưa có link — chờ cập nhật)
-https://gavanglinkq.tv/truc-tiep/lithuania-vs-azerbaijan-ngay-27-09-2026/
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/74b4f43e7bb7668fd648edc6208bb50d.png" group-title="Phá Làng" , 27/09 21:00 ⚽ CF San Rafael - AE Prat (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/74b4f43e7bb7668fd648edc6208bb50d.png" group-title="Phá Làng" , 27/09 21:00 🟡 ⚽ CF San Rafael - AE Prat (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4jwq2ghnl8jjm0v
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/02ec38de08e5725d895f41a5cd63e1c7.png" group-title="Phá Làng" , 27/09 21:00 ⚽ AEK Larnaca - Nea Salamis (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/02ec38de08e5725d895f41a5cd63e1c7.png" group-title="Phá Làng" , 27/09 21:00 🟡 ⚽ AEK Larnaca - Nea Salamis (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#n54qllh4519kqvy
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/1105c0c62d761d64b6f4c3e34f460278.png" group-title="Gà Vàng" , 27/09 21:00 ⚽ Criciuma vs Avaí FC (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/1105c0c62d761d64b6f4c3e34f460278.png" group-title="Gà Vàng" , 27/09 21:00 🟡 ⚽ Criciuma vs Avaí FC (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/criciuma-vs-avai-fc-ngay-27-09-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/8ff8e5218c38396cd890d2669f165841.png" group-title="Gà Vàng" , 27/09 21:00 ⚽ Shinnik Yaroslavl vs SKA Khabarovsk (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/8ff8e5218c38396cd890d2669f165841.png" group-title="Gà Vàng" , 27/09 21:00 🟡 ⚽ Shinnik Yaroslavl vs SKA Khabarovsk (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/shinnik-yaroslavl-vs-ska-khabarovsk-ngay-27-09-2026/
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125628_01e49a9d.png" group-title="Chuối Chiên" , 27/09 21:15 ⚽ Mallorca vs Almeria (Chưa có link — chờ cập nhật)
@@ -380,6 +365,9 @@ https://gavang33.me/truc-tiep/necaxa-vs-club-america-luc-1010-ngay-28-09-2026-3g
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Chuối Chiên" , 28/09 11:00 🏐 China vs Philippines (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/991881/china-vs-philippines
 
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80" group-title="Phá Làng" , 28/09 11:00 🏐 Trung Quốc - Philippines (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#2d9fa5b7245344f9a2829012b295a295
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Bông Lau" , 28/09 11:00 🏐 China vs Philippines (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/991881
 
@@ -397,3 +385,6 @@ https://gavang33.me/truc-tiep/tajikistan-vs-palestine-luc-1900-ngay-28-09-2026-e
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png" group-title="GaVang33" , 28/09 19:30 ⚽ Malaysia vs Indonesia (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/malaysia-vs-indonesia-luc-1930-ngay-28-09-2026-2y8m4zh5l7g4ql0
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/cbb6ad45aa0de955fe139e57eb64cc7e.png" group-title="GaVang33" , 28/09 20:00 ⚽ FK Graficar Beograd vs Teleoptik (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/fk-graficar-beograd-vs-teleoptik-luc-2000-ngay-28-09-2026-4wyrn4h6kz8eq86
