@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 05:11:37 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 05:14:11 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (13 trận), Chuối Chiên (4 trận), Phá Làng (9 trận), Gà Vàng (18 trận), Sao Kê (2 trận), GaVang33 (20 trận), Bông Lau (4 trận) =====
 
@@ -58,6 +58,10 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/carot/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/b6d8f81e8454813b3e672b179e627d3a.png!w80" group-title="Phá Làng" , 28/09 06:00 🟢 ⚽ Columbus Crew - Inter Miami CF (LÝ LONG)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/38b8c189145a468df2b3160ae37090c9/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/columbus-crew.png" group-title="Giờ Vàng" , 28/09 06:00 🟡 ⚽ Columbus Crew vs Inter Miami (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-columbus-crew-vs-inter-miami-28-09-6ab886c024d46db870129fd8
 
@@ -66,9 +70,6 @@ https://khandai3.link/truc-tiep/columbus-crew-vs-inter-miami-28-09-2026-711691
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131608_f8dbdd17.png" group-title="Chuối Chiên" , 28/09 06:00 🟡 ⚽ Columbus Crew vs Inter Miami (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1490510/columbus-crew-vs-inter-miami
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/b6d8f81e8454813b3e672b179e627d3a.png!w80" group-title="Phá Làng" , 28/09 06:00 🟡 ⚽ Columbus Crew - Inter Miami CF (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#8yomo4h148w1q0j
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b6d8f81e8454813b3e672b179e627d3a.png" group-title="Gà Vàng" , 28/09 06:00 🟡 ⚽ Columbus Crew vs Club Internacional de Futbol Miami (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/columbus-crew-vs-inter-miami-cf-ngay-28-09-2026/
