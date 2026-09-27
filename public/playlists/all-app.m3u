@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:44:07 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:46:26 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (46 trận), Gà Vàng (21 trận), Sao Kê (21 trận), GaVang33 (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (15 trận), Chuối Chiên (20 trận), Phá Làng (49 trận), Gà Vàng (21 trận), Sao Kê (21 trận), GaVang33 (15 trận) =====
 
 # ----- Ngày 2026-09-27 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/e829da6b3050ec03f3c8715690ec39c4.png" group-title="Gà Vàng" , 27/09 07:40 🟢 ⚽ FC Dallas vs Los Angeles FC (SiêU QuậY)
@@ -55,6 +55,9 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisay/playlist.m3u8|Us
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/604a26fb4f696d522d464fc2ff0919de.png!w80" group-title="Phá Làng" , 27/09 11:00 🟢 🏐 Hàn Quốc - Philippines (LÝ LÊN LỬA (Server 1))
 https://pull.digitalcdn.net/live/eff4c2e266e948e28b8592b5d98294bd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Sao Kê" , 27/09 11:00 🟢 ⚽ South Korea vs Philippines (Teppy)
+https://stm6dad62063600.stream.hdplaylink.com/sklive/teppy/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
+
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/dU3CQadM-p6UwsGvF.png" group-title="Giờ Vàng" , 27/09 11:00 🟡 🏐 Hàn Quốc vs Philippines (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-han-quoc-vs-philippines-27-09-mswzlftj4gx1
 
@@ -66,9 +69,6 @@ https://phalang.live/trang-chu#4wyrn4hyz0gdq86
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/ab5885f55b8ee6bfae8b65c8fe725694.png" group-title="Gà Vàng" , 27/09 11:00 🟡 🏀 Ibaraki Robots vs San-en NeoPhoenix (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Sao Kê" , 27/09 11:00 🟡 ⚽ South Korea vs Philippines (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/south-korea-vs-philippines-6ab5c90e5f2e6310e08c7f46.html
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/t4IslGYg-vDolgDz8.png" group-title="Giờ Vàng" , 27/09 12:00 🏀 Suwon KT vs Goyang Sono (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-suwon-kt-vs-goyang-sono-27-09-8bgpf1zn201s
@@ -442,6 +442,15 @@ https://live05.chuoichientv.me/live/1528900/norway-vs-portugal
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134301_856f2abf.png" group-title="Chuối Chiên" , 28/09 01:45 ⚽ Israel vs Rep. Of Ireland (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1528901/israel-vs-rep-of-ireland
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/227d43878fa14347902532126d29b10c.png!w80" group-title="Phá Làng" , 28/09 01:45 ⚽ Norway - Portugal (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#4wyrn4h6ypllq86
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/761ccf19be6a4fdf81880acadb81aa4c.png!w80" group-title="Phá Làng" , 28/09 01:45 ⚽ Germany - Greece (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#dn1m1ghl9y07moe
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b0dc1effcd883299ca8ec96dd720d30c.png" group-title="Phá Làng" , 28/09 01:45 ⚽ Israel - Ireland (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#l5ergph4kx8lr8k
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/761ccf19be6a4fdf81880acadb81aa4c.png" group-title="Gà Vàng" , 28/09 01:45 ⚽ Germany vs Greece (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/germany-vs-greece-ngay-28-09-2026/
