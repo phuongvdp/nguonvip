@@ -85,19 +85,33 @@ const SAOKE_PLAYER = String(process.env.SAOKE_PLAYER_DOMAIN || 'https://sk.media
 const DETECTED_REFERER_FILE_CACHE_MS = 60 * 1000; // đọc lại tối đa 1 lần/phút/instance — file do CI ghi mỗi 2 phút, không cần đọc lại mỗi request
 const detectedRefererFileCache = new Map(); // source -> { value, readAt }
 
-function readDetectedReferer(source) {
+// FIX (27/09/2026 — "proxy.m3u nhiều nguồn không xem được, riêng Gà Vàng
+// vẫn được"): trước đây chỉ đọc field "referer" (1 giá trị DUY NHẤT, lấy từ
+// trận ĐẦU TIÊN lúc generate-playlists chạy) — trong khi wrapper domain của
+// Chuối Chiên/Bông Lau đổi NGẪU NHIÊN theo từng trận/phiên (xem chú thích ở
+// REFERER_CANDIDATES_BY_SOURCE bên dưới), nên referer đúng của trận đang
+// phát rất có thể KHÁC referer đã ghi (vốn thuộc 1 trận khác). Giờ đọc thêm
+// field "referers" (mảng MỌI referer thật đã dò được trong lần quét gần
+// nhất, xem generate-playlists-standalone.mjs) — trả về CẢ mảng để phía gọi
+// (refererCandidatesFor) thử lần lượt từng giá trị thật này, thay vì chỉ 1.
+function readDetectedReferers(source) {
   const cached = detectedRefererFileCache.get(source);
   if (cached && Date.now() - cached.readAt < DETECTED_REFERER_FILE_CACHE_MS) {
     return cached.value;
   }
-  let value = null;
+  let value = [];
   try {
     const filePath = path.join(process.cwd(), 'public', 'playlists', `${source}-referer.json`);
     const raw = fs.readFileSync(filePath, 'utf8');
-    const referer = JSON.parse(raw)?.referer;
-    value = typeof referer === 'string' && referer ? referer : null;
+    const parsed = JSON.parse(raw);
+    if (Array.isArray(parsed?.referers) && parsed.referers.length) {
+      value = parsed.referers.filter((r) => typeof r === 'string' && r);
+    } else if (typeof parsed?.referer === 'string' && parsed.referer) {
+      // File cũ (trước FIX 27/09/2026) chỉ có field "referer" đơn — vẫn đọc được.
+      value = [parsed.referer];
+    }
   } catch {
-    value = null;
+    value = [];
   }
   detectedRefererFileCache.set(source, { value, readAt: Date.now() });
   return value;
@@ -187,6 +201,14 @@ const REFERER_CANDIDATES_BY_SOURCE = {
     'https://chuoichientv.link/',
     null
   ],
+  // Bông Lau TV — chung CDN với Chuối Chiên (xem bonglau.service.js).
+  bonglau: [
+    'https://live.chuoichien.tv/',
+    'https://fhd-01.cctvsignal.xyz/',
+    'https://live05.chuoichientv.me/',
+    'https://chuoichientv.link/',
+    null
+  ],
   phaohoa: [REFERER_BY_SOURCE.phaohoa, null],
   giovang: [REFERER_BY_SOURCE.giovang, null],
   khandaitv: [REFERER_BY_SOURCE.khandaitv, null],
@@ -225,12 +247,17 @@ function refererCandidatesFor(source, target) {
   const preset = REFERER_CANDIDATES_BY_SOURCE[source];
   let list = preset && preset.length ? preset.slice() : [REFERER_BY_SOURCE[source] || REFERER_FALLBACK, null];
 
-  // FIX (25/09/2026): chèn Referer tự dò được (nếu có, xem
-  // readDetectedReferer() ở trên) lên ĐẦU danh sách — đáng tin hơn mọi
-  // ứng viên hardcode vì đây là Referer trình duyệt THẬT đã dùng để phát
-  // thành công, không phải đoán. Áp dụng cho mọi nguồn có file <nguồn>-referer.json.
-  const detected = readDetectedReferer(source);
-  if (detected) list = [detected, ...list.filter((r) => r !== detected)];
+  // FIX (25/09/2026, mở rộng 27/09/2026): chèn MỌI Referer tự dò được (xem
+  // readDetectedReferers() ở trên) lên ĐẦU danh sách — đáng tin hơn ứng viên
+  // hardcode vì đây là Referer trình duyệt THẬT đã dùng để phát thành công,
+  // không phải đoán. Trước đây chỉ chèn 1 giá trị (referer của trận đầu tiên
+  // dò được) — giờ chèn CẢ mảng (mỗi trận Chuối Chiên/Bông Lau có thể có
+  // wrapper domain khác nhau) để tăng cơ hội trúng đúng referer của CHÍNH
+  // trận đang phát, không chỉ trận nào đó dò được lúc quét.
+  const detectedList = readDetectedReferers(source);
+  if (detectedList.length) {
+    list = [...detectedList, ...list.filter((r) => !detectedList.includes(r))];
+  }
 
   let host = '';
   try {

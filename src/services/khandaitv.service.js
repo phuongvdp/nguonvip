@@ -118,16 +118,45 @@ class KhanDaiTvService {
       return rawMatchesCache.pending;
     }
 
+    // FIX (27/09/2026 — "luôn báo 0 trận, không rõ vì sao"): trước đây chỉ
+    // thử 1 LẦN DUY NHẤT rồi bỏ cuộc luôn nếu ra rỗng — nhưng bản thân cơ
+    // chế vượt Cloudflare (poll liên tục chờ challenge tự giải, xem
+    // browserFetch.js) vốn đã KHÔNG chắc chắn 100% mỗi lần thử, có thể ăn
+    // may qua được ở lần thử thứ 2 dù lần 1 vẫn còn kẹt ở trang "Just a
+    // moment...". Thử lại 1 lần với TAB MỚI (không dùng lại tab cũ có thể
+    // đã bị đánh dấu/kẹt) trước khi kết luận hẳn là lỗi, đồng thời LUÔN in
+    // ra chẩn đoán (tiêu đề trang, URL cuối cùng, đoạn text đầu trang) khi
+    // ra rỗng — để log lần sau chỉ thẳng ĐÚNG nguyên nhân (còn kẹt Cloudflare
+    // hay domain đã đổi/chết) thay vì chỉ thấy mỗi "0 trận".
+    const attemptFetch = async (attemptLabel) => {
+      const { data, status, diagnostic } = await fetchPageGlobal(`${KHANDAITV_BASE_URL}/`, {
+        evalExpr: 'window.__NUXT__',
+        timeoutMs: 28000,
+        userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+      });
+      const out = [];
+      collectRawMatches(data, new Set(), out);
+      if (!out.length) {
+        const isChallenge = diagnostic && /just a moment|checking your browser|attention required/i.test(
+          `${diagnostic.title} ${diagnostic.bodySnippet}`
+        );
+        console.error(
+          `[khandaitv] ${attemptLabel}: 0 trận (HTTP ${status || 'n/a'})` +
+          (diagnostic
+            ? ` — title="${diagnostic.title}" url="${diagnostic.finalUrl}"` +
+              (isChallenge ? ' [NGHI NGỜ vẫn đang kẹt ở trang thách thức Cloudflare]' : ' [trang tải xong nhưng không thấy window.__NUXT__ có trận — có thể domain đã đổi schema/API]')
+            : ' — không lấy được chẩn đoán trang (page.evaluate lỗi).')
+        );
+      }
+      return out;
+    };
+
     const task = (async () => {
       try {
-        const { data } = await fetchPageGlobal(`${KHANDAITV_BASE_URL}/`, {
-          evalExpr: 'window.__NUXT__',
-          timeoutMs: 28000,
-          userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-        });
-
-        const out = [];
-        collectRawMatches(data, new Set(), out);
+        let out = await attemptFetch('lần 1');
+        if (!out.length) {
+          out = await attemptFetch('lần 2 (thử lại)');
+        }
         rawMatchesCache = { data: out, fetchedAt: Date.now(), pending: null };
         return out;
       } catch (error) {

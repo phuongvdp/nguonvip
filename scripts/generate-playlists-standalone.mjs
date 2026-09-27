@@ -442,16 +442,35 @@ async function generateOnce() {
       // đọc được Referer tự dò của BongLau, chỉ dùng được danh sách ứng
       // viên hardcode (kém tin cậy hơn).
       if (source === 'saoke' || source === 'chuoichientv' || source === 'bonglau') {
-        const refererMatch = content.match(/^#EXTVLCOPT:http-referrer=(.+)$/m);
-        const referer = refererMatch ? refererMatch[1].trim() : null;
+        // FIX (27/09/2026 — "proxy.m3u nhiều nguồn không xem được, riêng Gà
+        // Vàng vẫn được"): TRƯỚC ĐÂY chỉ lấy referer của TRẬN ĐẦU TIÊN tìm
+        // thấy trong file (.match() không có cờ "g") rồi ghi DUY NHẤT giá trị
+        // đó vào JSON — nhưng các nguồn này (đặc biệt Chuối Chiên/Bông Lau)
+        // đi qua wrapper domain NGẪU NHIÊN theo từng phiên/từng trận (xem
+        // chú thích REFERER_CANDIDATES_BY_SOURCE trong pages/api/proxy/hls.js
+        // và src/utils/m3uPlaylist.js) — referer đúng của trận A rất có thể
+        // KHÔNG phải referer đúng của trận B, dù cùng ghi vào 1 file nguồn.
+        // Ghi 1 giá trị duy nhất khiến /api/proxy/hls (readDetectedReferer())
+        // áp NHẦM referer của trận khác lên MỌI trận của nguồn đó — đúng
+        // triệu chứng "1 số trận/nguồn phát được, phần lớn còn lại lỗi".
+        // Sửa: lấy TOÀN BỘ referer THẬT đã dò được (mỗi trận có thể khác
+        // nhau) trong file, bỏ trùng, ghi thành mảng "referers" — phía đọc
+        // (pages/api/proxy/hls.js) thử LẦN LƯỢT từng giá trị thật này trước
+        // khi rơi về danh sách đoán tĩnh, tăng đáng kể cơ hội trúng đúng
+        // referer của CHÍNH trận đang phát. Vẫn giữ trường "referer" (giá trị
+        // đầu tiên) để tương thích ngược nếu có chỗ nào khác lỡ đọc field cũ.
+        const refererMatches = [...content.matchAll(/^#EXTVLCOPT:http-referrer=(.+)$/gm)]
+          .map((m) => m[1].trim())
+          .filter(Boolean);
+        const referers = [...new Set(refererMatches)];
         const jsonFilename = `${source}-referer.json`;
-        if (referer) {
+        if (referers.length) {
           fs.writeFileSync(
             path.join(OUTPUT_DIR, jsonFilename),
-            JSON.stringify({ referer, detectedAt: new Date().toISOString() }, null, 2) + '\n',
+            JSON.stringify({ referer: referers[0], referers, detectedAt: new Date().toISOString() }, null, 2) + '\n',
             'utf8'
           );
-          console.log(`[generate-playlists] ${jsonFilename}: ${referer}`);
+          console.log(`[generate-playlists] ${jsonFilename}: ${referers.length} referer khác nhau (${referers.join(', ')})`);
         } else {
           console.log(`[generate-playlists] ${jsonFilename}: không có trận live lúc này, giữ nguyên giá trị cũ`);
         }

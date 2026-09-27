@@ -44,20 +44,28 @@ const SPORT_TABS = ['all', 'football', 'basketball', 'volleyball', 'badminton', 
 // danh sách nguồn đổi, nhớ đồng bộ với SOURCE_GROUP_ORDER bên đó.
 const SOURCE_KEYS = ['giovang', 'khandaitv', 'chuoichientv', 'phalang', 'gavang', 'saoke'];
 
-const SITE_URL = (process.env.SITE_URL || process.env.NEXT_PUBLIC_SITE_URL || 'https://nguonvip1.vercel.app').replace(/\/+$/, '');
-// FIX domain mặc định SAI (thiếu số "1"): trước đây là 'https://nguonvip.
-// vercel.app' — khác hẳn domain thật đang chạy 'https://nguonvip1.vercel.
-// app'. Bước "Resolve production URL from latest Vercel deployment" trong
-// workflow tự dò domain qua GitHub Deployments API — CHỈ hoạt động nếu repo
-// đã tích hợp Vercel↔GitHub tạo Deployment record; nếu không (hoặc bước đó
-// lỗi tạm thời), SITE_URL rỗng và script rơi về domain mặc định này. Domain
-// sai trước đây khiến toàn bộ public/playlists/*.m3u bị sinh từ 1 site khác
-// hẳn (hoặc lỗi fetch khiến file .m3u tĩnh GIỮ NGUYÊN nội dung CŨ, không hề
-// cập nhật) — biểu hiện đúng như báo cáo: playlist tĩnh có "trận đang live"
-// mà thực ra đã hết live từ lâu, không khớp dữ liệu /api/matches hiện tại.
-// Domain không phải thông tin nhạy cảm nên đặt sẵn giá trị mặc định — không
-// bắt buộc phải khai báo secret gì trên GitHub. Chỉ cần set biến SITE_URL
-// (secret hoặc biến môi trường) nếu sau này đổi sang domain khác.
+const SITE_URL = (process.env.SITE_URL || process.env.NEXT_PUBLIC_SITE_URL || 'https://nguonvip.vercel.app').replace(/\/+$/, '');
+// FIX (27/09/2026 — người dùng xác nhận domain Vercel THẬT đang chạy là
+// 'https://nguonvip.vercel.app' — bản trước đây ghi nhầm mặc định là
+// 'https://nguonvip1.vercel.app' (thừa số "1", KHÔNG tồn tại/không phải
+// domain thật). Chỉ ảnh hưởng khi biến SITE_URL trống VÀ bước "Resolve
+// production URL" trong workflow cũ không tự dò được domain — script này
+// (scripts/generate-playlists.js) hiện KHÔNG còn được
+// .github/workflows/validate-and-generate.yml gọi tới nữa (đã chuyển hẳn
+// sang scripts/generate-playlists-standalone.mjs, xem chú thích đầu file
+// đó) nên fallback này gần như chỉ còn ý nghĩa khi chạy tay script này cục
+// bộ — vẫn sửa lại cho đúng để tránh nhầm lẫn nếu sau này dùng lại.
+// (Giữ lại phần giải thích chung về cơ chế fallback domain — chỉ phần domain
+// mẫu cụ thể đã được đính chính ở trên): bước "Resolve production URL from
+// latest Vercel deployment" trong workflow tự dò domain qua GitHub
+// Deployments API — CHỈ hoạt động nếu repo đã tích hợp Vercel↔GitHub tạo
+// Deployment record; nếu không (hoặc bước đó lỗi tạm thời), SITE_URL rỗng và
+// script rơi về domain mặc định ở trên. Domain sai khiến toàn bộ
+// public/playlists/*.m3u bị sinh từ 1 site khác hẳn (hoặc lỗi fetch khiến
+// file .m3u tĩnh GIỮ NGUYÊN nội dung CŨ, không hề cập nhật). Domain không
+// phải thông tin nhạy cảm nên đặt sẵn giá trị mặc định — không bắt buộc phải
+// khai báo secret gì trên GitHub. Chỉ cần set biến SITE_URL (secret hoặc
+// biến môi trường) nếu sau này đổi sang domain khác.
 const OUTPUT_DIR = path.join(__dirname, '..', 'public', 'playlists');
 const STATE_PATH = path.join(OUTPUT_DIR, '.refresh-state.json');
 

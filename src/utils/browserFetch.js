@@ -323,7 +323,26 @@ async function fetchPageGlobal(url, opts = {}) {
     // tới khi ra dữ liệu hoặc hết giờ.
     const data = await pollPageEvaluate(page, evalExpr, timeoutMs, 1000);
 
-    return { data, status };
+    // FIX (27/09/2026 — "khandaitv luôn 0 trận, không rõ vì sao"): trước đây
+    // khi data null, hàm gọi (khandaitv.service.js) chỉ biết "không có dữ
+    // liệu" chứ không biết TẠI SAO (còn kẹt ở trang thách thức Cloudflare?
+    // domain đã đổi/chết hẳn (DNS/504)? hay trang tải xong thật nhưng
+    // evalExpr sai/site đổi tên biến global?). Trả kèm vài tín hiệu chẩn
+    // đoán rẻ tiền (không tốn thêm request nào, chỉ đọc lại DOM/URL đang có
+    // sẵn trong `page`) để log phía gọi in ra — chỉ thẳng đúng nguyên nhân
+    // thay vì phải đoán mò qua "0 trận".
+    let diagnostic = null;
+    if (!data) {
+      diagnostic = await page
+        .evaluate(() => ({
+          title: document.title || '',
+          bodySnippet: (document.body?.innerText || '').slice(0, 200),
+          finalUrl: location.href
+        }))
+        .catch(() => null);
+    }
+
+    return { data, status, diagnostic };
   } finally {
     await page.close().catch(() => {});
   }
