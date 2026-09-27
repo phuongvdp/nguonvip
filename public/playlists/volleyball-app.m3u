@@ -1,9 +1,12 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:23:48 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:26:07 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (2 trận), Khán Đài (5 trận), Chuối Chiên (4 trận), Phá Làng (4 trận) =====
 
 # ----- Ngày 2026-09-27 -----
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Chuối Chiên" , 27/09 11:00 🟢 🏐 South Korea vs Philippines (Chuối Sấy (HD))
+https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisay/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
+
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/604a26fb4f696d522d464fc2ff0919de.png!w80" group-title="Phá Làng" , 27/09 11:00 🟢 🏐 Hàn Quốc - Philippines (LÝ LÊN LỬA (Server 1))
 https://pull.digitalcdn.net/live/eff4c2e266e948e28b8592b5d98294bd/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
 
@@ -12,9 +15,6 @@ https://giovang.city/truc-tiep-han-quoc-vs-philippines-27-09-mswzlftj4gx1
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_South_Korea.svg.webp" group-title="Khán Đài" , 27/09 11:00 🟡 🏐 Hàn Quốc vs Philippines (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/han-quoc-vs-philippines
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Chuối Chiên" , 27/09 11:00 🟡 🏐 South Korea vs Philippines (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/998910/south-korea-vs-philippines
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/bBruoNwS-ruTy2xns.png" group-title="Giờ Vàng" , 27/09 14:00 🏐 Ấn Độ vs Việt Nam (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-an-do-vs-viet-nam-27-09-h82vz08gj9fk
