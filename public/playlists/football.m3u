@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:33:08 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:35:42 27/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (12 trận), Chuối Chiên (12 trận), Phá Làng (17 trận), Gà Vàng (9 trận), Sao Kê (10 trận), GaVang33 (25 trận), Bông Lau (12 trận) =====
 
@@ -55,6 +55,16 @@ https://live2.zktsva.app/live/306290.m3u8
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/423015daae7abff283307125c02c82b1.png" group-title="Phá Làng" , 27/09 22:55 🟡 ⚽ Yemen - Qatar (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkh6e0edqg8
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9.jpg" group-title="Khán Đài" , 27/09 23:00 🟢 ⚽ Austria vs Kosovo (Tiểu Mây)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_675.jpg" group-title="Khán Đài" , 27/09 23:00 🟢 ⚽ Serbia vs Netherlands (Pháo Thủ)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125451_e0a7ed3f.png" group-title="Chuối Chiên" , 27/09 23:00 🟢 ⚽ Serbia vs Netherlands (Chuối Ngao (HD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -93,6 +103,10 @@ https://live2.zktsva.app/live/304565.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/289650.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/275612d39c2aacdf7b64836df54b9229.png" group-title="GaVang33" , 27/09 23:00 🟢 ⚽ Gibraltar vs Andorra (Gà Siêu Ngố)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://live2.zktsva.app/live/301238.m3u8
+
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/059bbd8df7767d3bc7829e3735c221e2.png" group-title="GaVang33" , 27/09 23:00 🟢 ⚽ Serbia vs Netherlands (Gà Siêu Gáy)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/294335.m3u8
@@ -124,14 +138,8 @@ https://giovang.city/truc-tiep-dan-mach-vs-wales-27-09-69f3f2b74bff4a0c310bf771
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/serbia.png" group-title="Giờ Vàng" , 27/09 23:00 🟡 ⚽ Serbia vs Hà Lan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-serbia-vs-ha-lan-27-09-69f2a1a2bb398665fd0908db
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9.jpg" group-title="Khán Đài" , 27/09 23:00 🟡 ⚽ Austria vs Kosovo (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/austria-vs-kosovo-27-09-2026-790832
-
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_7.jpg" group-title="Khán Đài" , 27/09 23:00 🟡 ⚽ Denmark vs Wales (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/denmark-vs-wales-27-09-2026-790880
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_675.jpg" group-title="Khán Đài" , 27/09 23:00 🟡 ⚽ Serbia vs Netherlands (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/serbia-vs-netherlands-27-09-2026-790881
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/481d49607b0b1cf75d31b4f95b3667aa.png" group-title="Phá Làng" , 27/09 23:00 🟡 ⚽ Maracena - UE Tavernes (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4wyrn4h6gjp8q86
@@ -156,9 +164,6 @@ https://vip3.saoketv40.xyz/austria-vs-kosovo-6ab86f473fec945008d6a61a.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8238.png" group-title="Sao Kê" , 27/09 23:00 🟡 ⚽ Denmark vs Wales (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/denmark-vs-wales-6ab86f473fec945008d6a61c.html
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/275612d39c2aacdf7b64836df54b9229.png" group-title="GaVang33" , 27/09 23:00 🟡 ⚽ Gibraltar vs Andorra (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/gibraltar-vs-andorra-luc-2300-ngay-27-09-2026-k82rekhg2px8rep
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f0221343111004aa15623603a9e8a443.png" group-title="Phá Làng" , 27/09 23:30 🟡 ⚽ Malta - Liechtenstein (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y0or5jh9xj75qwz
