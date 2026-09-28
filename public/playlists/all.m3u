@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:37:40 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:40:16 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (17 trận), Chuối Chiên (19 trận), Phá Làng (25 trận), Gà Vàng (20 trận), Sao Kê (21 trận), GaVang33 (19 trận), Bông Lau (19 trận) =====
 
@@ -43,10 +43,20 @@ https://live2.zktsva.app/live/796315.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790535597_hd/1790535597_hd@720p.m3u8
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_OOrZwnR.jpg" group-title="Khán Đài" , 28/09 11:00 🟢 🏐 Trung Quốc vs Philippines (KaKa)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Chuối Chiên" , 28/09 11:00 🟢 🏐 China vs Philippines (Chuối Sấy (HD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisay/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80" group-title="Phá Làng" , 28/09 11:00 🟢 🏐 Trung Quốc - Philippines (LÝ LIỀU LĨNH (Server 1))
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://pull.digitalcdn.net/live/6d5177502e974cdebc33690a660d03b0/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Bông Lau" , 28/09 11:00 🟢 🏐 China vs Philippines (Chuối Sấy (HD))
 #EXTVLCOPT:http-referrer=https://tructiep.bonglau.live/
@@ -55,12 +65,6 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisay/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/S2JTFXGG-vafZSxgs.png" group-title="Giờ Vàng" , 28/09 11:00 🟡 🏐 Pakistan vs Uzbekistan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-pakistan-vs-uzbekistan-28-09-q7m77ca409oj
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_OOrZwnR.jpg" group-title="Khán Đài" , 28/09 11:00 🟡 🏐 Trung Quốc vs Philippines (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/trung-quoc-vs-philippines
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80" group-title="Phá Làng" , 28/09 11:00 🟡 🏐 Trung Quốc - Philippines (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#2d9fa5b7245344f9a2829012b295a295
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Sao Kê" , 28/09 11:00 🟡 ⚽ China vs Philippines (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/china-vs-philippines-6ab9b5d0064126fa44d4ee52.html
