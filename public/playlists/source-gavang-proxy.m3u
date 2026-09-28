@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:29:00 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:31:49 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (16 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png" group-title="Gà Vàng" , 28/09 19:30 🟢 ⚽ Malaysia vs Indonesia (CRIS)
@@ -12,9 +12,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/8c485d8f7c2de5f04e99da8440453bc7.png" group-title="Gà Vàng" , 28/09 20:00 🟢 ⚽ Marko vs Panthrakikos (THICHDUTHU)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a704ad865997681f18c2160.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/a803893437396385432a88e850b29556.png" group-title="Gà Vàng" , 28/09 21:30 🟡 🏀 Marupe vs BK Jekabpils (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/49dd25b75b6ca6291450883ab0e70357.png" group-title="Gà Vàng" , 28/09 21:45 🟡 🏀 Indian Railways vs Al Ittihad Saudi Arabia (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/

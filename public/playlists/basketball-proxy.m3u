@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:28:58 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:31:48 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (1 trận), Gà Vàng (7 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (1 trận), Gà Vàng (6 trận) =====
 
 # ----- Ngày 2026-09-28 -----
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/a803893437396385432a88e850b29556.png" group-title="Gà Vàng" , 28/09 21:30 🟡 🏀 Marupe vs BK Jekabpils (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/hf8B8MYA-jiXeTAAb.png" group-title="Giờ Vàng" , 28/09 21:45 🟢 🏀 Indian Railway vs Al Ittihad (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790528591_hd%2F1790528591_hd%40720p.m3u8&source=giovang
 
