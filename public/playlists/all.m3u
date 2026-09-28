@@ -1,9 +1,39 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:54:29 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:57:30 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Chuối Chiên (5 trận), Phá Làng (29 trận), Gà Vàng (12 trận), Sao Kê (6 trận), GaVang33 (25 trận), Bông Lau (5 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Chuối Chiên (5 trận), Phá Làng (29 trận), Gà Vàng (18 trận), Sao Kê (6 trận), GaVang33 (25 trận), Bông Lau (5 trận) =====
 
 # ----- Ngày 2026-09-29 -----
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b6728832f1504989e57f8a43479429ec.png" group-title="Gà Vàng" , 29/09 01:30 🟢 ⚽ Leganes vs Castellon (MáN NúI)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69cf6331585c5992182f4160.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ea0e9d2d1bda4cbfaf226902ea55a3eb.png" group-title="Gà Vàng" , 29/09 01:45 🟢 ⚽ Belgium vs France (SAITAMA)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a175df50667b42ef97dcb52a9a8b1c1a.png" group-title="Gà Vàng" , 29/09 01:45 🟢 ⚽ Turkiye vs Italy (GIàng A Dân)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a5b13ceb36a14387baeddaa.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/2c0b283b96174c34bff7445f22b00618.png" group-title="Gà Vàng" , 29/09 01:45 🟢 ⚽ Sweden vs Poland (khang hi)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a7c0d8f65997681f18cacc4.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/218344619d8fb95d504ccfa11804073f.png" group-title="Gà Vàng" , 29/09 01:45 🟢 ⚽ Northern Ireland vs Hungary (NGƯỜI KIẾN)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a439a7fb89dded67b208b87.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/1f8d87e1161af68b81bace188a1ec624.png" group-title="Gà Vàng" , 29/09 01:45 🟢 ⚽ Romania vs Bosnia Herzegovina (SÚP LƠ)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a9a5525864ea536c2577392.m3u8
+
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/7cb09c45e2124a08ac950d31c7ebe0a6.png" group-title="Gà Vàng" , 29/09 02:00 🟢 ⚽ Tunisia vs Botswana (MeoMeo)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -45,13 +75,13 @@ https://gavanglinkr.tv/truc-tiep/america-mg-vs-esporte-clube-juventude-ngay-29-0
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/32078990936778c771e911a0dd16a710.png" group-title="Gà Vàng" , 29/09 05:30 🏀 Colonias Gold vs San Alfonso (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/601f0f3a480c9532447f238f19a2f077.png" group-title="Gà Vàng" , 29/09 06:00 🏀 Club Atletico Penarol vs Flamengo (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/8b52121ea31077040883df858233c8ce.png" group-title="Gà Vàng" , 29/09 06:00 🏀 Colegio Los Leones U21 vs Humboldt U21 (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/5705d9383eee879ac93b32996f817700.png" group-title="Gà Vàng" , 29/09 06:00 🏀 Las Animas vs Club Deportivo Universidad Catolica (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/601f0f3a480c9532447f238f19a2f077.png" group-title="Gà Vàng" , 29/09 06:00 🏀 Club Atletico Penarol vs Flamengo (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/077bf35869447b9520b7b4ff6e1be381.png" group-title="Gà Vàng" , 29/09 06:30 🏀 Ancud vs CD Puerto Varas (Chưa có link — chờ cập nhật)
