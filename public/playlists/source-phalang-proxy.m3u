@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 04:27:46 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 04:30:47 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (30 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (32 trận) =====
 
 # ----- Ngày 2026-09-29 -----
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/a8b1366ae68c5aa3c8806baa5b519e4e.png" group-title="Phá Làng" , 29/09 01:45 🟢 ⚽ Turkiye - Italy (LÝ LÀNG LÁ)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fd6ac5e9753efb3b1c94d7d176a030d3e%2Fplaylist.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/22884d32389000f077ac6ae827be3d1c.png" group-title="Phá Làng" , 29/09 07:00 🏐 Việt Nam - Philipines (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#35fecd2194194fd28c14084c6044b2b9
 
@@ -93,3 +90,12 @@ https://phalang.live/trang-chu#895e4593c83845df9fb73b7d801854e6
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/22fc8d10a1f32e5da720454189015664.png" group-title="Phá Làng" , 29/09 18:00 ⚽ Comoros - Namibia (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#ednm9whw1ng3ryo
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 ⚽ Thailand - Vietnam (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#6ypq3nhvx8zemd7
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 ⚽ Thailand - Vietnam (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#921d082aaf684f80a2fb51b2be026722
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 ⚽ Thailand - Vietnam (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#a93ccd45139149dfa77ca6ad27893bf0
