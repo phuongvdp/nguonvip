@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:45:25 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:48:07 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (14 trận), Chuối Chiên (17 trận), Phá Làng (27 trận), Gà Vàng (21 trận), Sao Kê (18 trận), GaVang33 (19 trận), Bông Lau (17 trận) =====
 
@@ -37,14 +37,14 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stre
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_the_Republic_of_China.svg.webp" group-title="Khán Đài" , 28/09 17:00 🟢 🏐 Đài Loan vs Hàn Quốc (Enzo)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa2%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dd3bfcbaa36f949863f22cc89e1cc1afa&source=khandaitv
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250627_220721_a791691e.png" group-title="Chuối Chiên" , 28/09 17:00 🟢 🏐 Chinese Taipei vs South Korea (Chuối Tây (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitay%2Fplaylist.m3u8&source=chuoichientv
+
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/dd0a8169c1c22efabb56434f3631159b.png!w80" group-title="Phá Làng" , 28/09 17:00 🟢 🏐 Đài Loan TQ - Hàn Quốc (LÝ LÊN LỬA (Server 1))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2Ffd154fa5529f4a16b7374ca7b2bac306%2Findex.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250627_220721_a791691e.png" group-title="Chuối Chiên" , 28/09 17:00 🟡 🏐 Chinese Taipei vs South Korea (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/991840/chinese-taipei-vs-south-korea
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250627_220721_a791691e.png" group-title="Bông Lau" , 28/09 17:00 🟡 🏐 Chinese Taipei vs South Korea (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/991840
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250627_220721_a791691e.png" group-title="Bông Lau" , 28/09 17:00 🟢 🏐 Chinese Taipei vs South Korea (Chuối Tây (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitay%2Fplaylist.m3u8&source=bonglau
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/b7IyW1Br-Ea76SXrf.png" group-title="Giờ Vàng" , 28/09 17:20 🟡 🏐 Nhật Bản vs Kazakhstan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-nhat-ban-vs-kazakhstan-28-09-me78b3rb5hp6
