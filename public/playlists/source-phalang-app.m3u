@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:31:40 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:34:46 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (27 trận) =====
 
@@ -7,8 +7,8 @@
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/bfa20d86a59044ef90a4609dde03985c.png!w80" group-title="Phá Làng" , 28/09 16:00 🟢 ⚽ Singapore - Bangladesh (LÝ LINH LỰC)
 https://lilive1.eu.cc/live/7f27f0744f58cc33d82144853fef5271/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/dd0a8169c1c22efabb56434f3631159b.png!w80" group-title="Phá Làng" , 28/09 17:00 🟡 🏐 Đài Loan TQ - Hàn Quốc (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#2c189f9fdbe44f7190791df1d7019889
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/dd0a8169c1c22efabb56434f3631159b.png!w80" group-title="Phá Làng" , 28/09 17:00 🟢 🏐 Đài Loan TQ - Hàn Quốc (LÝ LÊN LỬA (Server 1))
+https://pull.digitalcdn.net/live/fd154fa5529f4a16b7374ca7b2bac306/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/9749f17f2a26c0ee6558c42029e739d8.png!w80" group-title="Phá Làng" , 28/09 17:20 🟡 🏐 Kazakhstan - Nhật Bản (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#b23d6420926249aa9a00bde8d20530e0
