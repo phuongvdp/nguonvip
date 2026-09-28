@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:44:09 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:46:46 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Bông Lau (5 trận) =====
 
@@ -10,8 +10,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131434_fbad589d.png" group-title="Bông Lau" , 28/09 08:00 🟢 ⚽ Leon vs FC Juarez (Chuối Kem (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikem%2Fplaylist.m3u8&source=bonglau
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Bông Lau" , 28/09 08:00 🟡 🏐 Indonesia vs Kyrgyzstan W (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/995429
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Bông Lau" , 28/09 08:00 🟢 🏐 Indonesia vs Kyrgyzstan W (Chuối Tây (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitay%2Fplaylist.m3u8&source=bonglau
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250920_011102_024ecd13.png" group-title="Bông Lau" , 28/09 10:00 ⚽ Necaxa vs Club America (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1550983

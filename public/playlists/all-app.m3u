@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:44:08 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:46:44 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (20 trận), Chuối Chiên (5 trận), Phá Làng (21 trận), Gà Vàng (17 trận), Sao Kê (6 trận), GaVang33 (22 trận), Bông Lau (5 trận) =====
 
@@ -46,6 +46,9 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/tit/playlist.m3u8|User-Agen
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/xKV01zyS-vNO3Pwqf.png" group-title="Giờ Vàng" , 28/09 07:20 🟢 ⚽ Los Angeles Rams vs Denver Broncos (Giovang 1)
 https://eqr2hdarxfliv.vcdn.cloud/1790535757_hd/1790535757_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
 
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png" group-title="Giờ Vàng" , 28/09 08:00 🟢 🏀 Golden State Valkyries vs Dallas Wings (Giovang 1)
+https://eqr2hdarxfliv.vcdn.cloud/1790535413_hd/1790535413_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/club-leon.png" group-title="Giờ Vàng" , 28/09 08:00 🟢 ⚽ Club Leon vs FC Juarez (Giovang 1)
 https://eqr2hdarxfliv.vcdn.cloud/1790534684_hd/1790534684_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
 
@@ -54,6 +57,9 @@ https://eqr2hdarxfliv.vcdn.cloud/1790535136_hd/1790535136_hd@720p.m3u8|User-Agen
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131434_fbad589d.png" group-title="Chuối Chiên" , 28/09 08:00 🟢 ⚽ Leon vs FC Juarez (Chuối Kem (HD))
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 28/09 08:00 🟢 🏐 Indonesia vs Kyrgyzstan W (Chuối Tây (HD))
+https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/f2413ce638c27cc34d13f8c961ba694f.png!w80" group-title="Phá Làng" , 28/09 08:00 🟢 🏐 Indonesia - Kyrgyzstan (LÝ LINH LỰC (Server 1))
 https://pull.digitalcdn.net/live/a3cbac5664e74e3da3ab8323cc7c8cb9/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
@@ -70,8 +76,8 @@ https://live2.zktsva.app/live/741294.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131434_fbad589d.png" group-title="Bông Lau" , 28/09 08:00 🟢 ⚽ Leon vs FC Juarez (Chuối Kem (HD))
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png" group-title="Giờ Vàng" , 28/09 08:00 🟡 🏀 Golden State Valkyries vs Dallas Wings (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-golden-state-valkyries-vs-dallas-wings-28-09-12101475
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Bông Lau" , 28/09 08:00 🟢 🏐 Indonesia vs Kyrgyzstan W (Chuối Tây (HD))
+https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWXwaBfDb6QxecSyRPQWPOmIqd3fTU_N3r6PPmEBBgGQ&s=10" group-title="Giờ Vàng" , 28/09 08:00 🟡 ⚽ Los Chamos FC vs Guerrilla FC (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-los-chamos-fc-vs-guerrilla-fc-28-09-o3xhmp3cekfb
@@ -82,17 +88,11 @@ https://khandai3.link/truc-tiep/an-do-vs-hong-kong
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_WqmhllM.jpg" group-title="Khán Đài" , 28/09 08:00 🟡 🏐 Indonesia vs Kyrgyzstan (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/indonesia-vs-kyrgyzstan
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 28/09 08:00 🟡 🏐 Indonesia vs Kyrgyzstan W (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/995429/indonesia-vs-kyrgyzstan-w
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/4695f653aca6ac49ff2baa4a961fa67b.png" group-title="Gà Vàng" , 28/09 08:00 🟡 ⚽ Club Leon vs FC Juarez (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/club-leon-vs-fc-juarez-ngay-28-09-2026/
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/4695f653aca6ac49ff2baa4a961fa67b.png" group-title="GaVang33" , 28/09 08:00 🟡 ⚽ Club Leon vs FC Juarez (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/club-leon-vs-fc-juarez-luc-0800-ngay-28-09-2026-pxwrxlhyw3g9ryk
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Bông Lau" , 28/09 08:00 🟡 🏐 Indonesia vs Kyrgyzstan W (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/995429
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/deportivo-cali.png" group-title="Giờ Vàng" , 28/09 08:10 🟢 ⚽ Deportivo Cali vs Aguilas Doradas (Giovang 1)
 https://eqr2hdarxfliv.vcdn.cloud/1790534867_hd/1790534867_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
