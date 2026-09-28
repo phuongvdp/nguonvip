@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:57:12 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:59:49 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (20 trận), Chuối Chiên (20 trận), Phá Làng (21 trận), Gà Vàng (17 trận), Sao Kê (6 trận), GaVang33 (22 trận), Bông Lau (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (20 trận), Chuối Chiên (20 trận), Phá Làng (21 trận), Gà Vàng (17 trận), Sao Kê (9 trận), GaVang33 (21 trận), Bông Lau (20 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/f527c983cab3560c60e7b9d147904d7d.png" group-title="Giờ Vàng" , 28/09 06:00 🟢 🏀 Atlanta Dream vs Washington Mystics (Giovang 1)
@@ -18,9 +18,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8|User-Agent=Mozilla/
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6001.png" group-title="Sao Kê" , 28/09 06:00 🟢 ⚽ Columbus Crew vs Inter Miami CF (Mơ)
 https://stm6dad62063600.stream.hdplaylink.com/sklive/mo/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://vip3.saoketv40.xyz/columbus-crew-vs-inter-miami-cf-6ab777191883d81208dbbbac.html
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/8f59419888e44a14bb4a9488b76832c8.png" group-title="GaVang33" , 28/09 06:00 🟢 ⚽ Haiti vs Costa Rica (Gà Siêu Tốc)
-https://live2.zktsva.app/live/307240.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131608_f8dbdd17.png" group-title="Bông Lau" , 28/09 06:00 🟢 ⚽ Columbus Crew vs Inter Miami (Chuối Chao (HD))
 https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
@@ -70,6 +67,9 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/butchi/playlist.m3u8|User-A
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Sao Kê" , 28/09 08:00 🟢 ⚽ Indonesia vs Kyrgyzstan (Teppy)
 https://stm6dad62063600.stream.hdplaylink.com/sklive/teppy/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://vip3.saoketv40.xyz/columbus-crew-vs-inter-miami-cf-6ab777191883d81208dbbbac.html
 
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/4695f653aca6ac49ff2baa4a961fa67b.png" group-title="GaVang33" , 28/09 08:00 🟢 ⚽ Club Leon vs FC Juarez (Gà Siêu Tốc)
+https://live2.zktsva.app/live/307240.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/edb8dfb5b878d0e33c4a86488ad8eb6a.png" group-title="GaVang33" , 28/09 08:00 🟢 ⚽ Trinidad and Tobago vs Dominican Republic (Gà Siêu Kiêu)
 https://live2.zktsva.app/live/741294.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
@@ -90,9 +90,6 @@ https://khandai3.link/truc-tiep/indonesia-vs-kyrgyzstan
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/4695f653aca6ac49ff2baa4a961fa67b.png" group-title="Gà Vàng" , 28/09 08:00 🟡 ⚽ Club Leon vs FC Juarez (Chưa có link — chờ cập nhật)
 https://gavanglinkq.tv/truc-tiep/club-leon-vs-fc-juarez-ngay-28-09-2026/
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/4695f653aca6ac49ff2baa4a961fa67b.png" group-title="GaVang33" , 28/09 08:00 🟡 ⚽ Club Leon vs FC Juarez (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/club-leon-vs-fc-juarez-luc-0800-ngay-28-09-2026-pxwrxlhyw3g9ryk
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/deportivo-cali.png" group-title="Giờ Vàng" , 28/09 08:10 🟢 ⚽ Deportivo Cali vs Aguilas Doradas (Giovang 1)
 https://eqr2hdarxfliv.vcdn.cloud/1790534867_hd/1790534867_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
@@ -157,6 +154,12 @@ https://phalang.live/trang-chu#2316b564dc9b4f9d9f7c5779d62a8f7a
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 28/09 14:00 🏐 Việt Nam - Qatar (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#d5482007e1314642a53d617307a799b9
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Sao Kê" , 28/09 14:00 ⚽ Việt Nam vs Qatar (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/viet-nam-vs-qatar-6ab9bb7ae10d9d63c6c6a5b6.html
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_358dda20.png" group-title="Sao Kê" , 28/09 14:00 ⚽ Thailand vs Iran (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/thailand-vs-iran-6ab9bb92e10d9d63c6c6a5bd.html
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Bông Lau" , 28/09 14:00 🏐 Việt Nam vs Qatar (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/995187
 
@@ -210,6 +213,9 @@ https://live05.chuoichientv.me/live/999617/kazakhstan-vs-japan
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/9749f17f2a26c0ee6558c42029e739d8.png!w80" group-title="Phá Làng" , 28/09 17:20 🏐 Kazakhstan - Nhật Bản (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#b23d6420926249aa9a00bde8d20530e0
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134255_1b35202d.png" group-title="Sao Kê" , 28/09 17:20 ⚽ Kazakhstan vs Japan (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/kazakhstan-vs-japan-6ab9bbaa8bb9fae0f7944467.html
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134255_1b35202d.png" group-title="Bông Lau" , 28/09 17:20 🏐 Kazakhstan vs Japan (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/999617
