@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:23:20 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 09:25:55 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (5 trận), Khán Đài (6 trận), Chuối Chiên (5 trận), Phá Làng (7 trận), Bông Lau (5 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (5 trận), Khán Đài (6 trận), Chuối Chiên (5 trận), Phá Làng (6 trận), Bông Lau (5 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_WqmhllM.jpg" group-title="Khán Đài" , 28/09 08:00 🟢 🏐 Indonesia vs Kyrgyzstan (Tày)
@@ -9,9 +9,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 28/09 08:00 🟢 🏐 Indonesia vs Kyrgyzstan W (Chuối Tây (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitay%2Fplaylist.m3u8&source=chuoichientv
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/f2413ce638c27cc34d13f8c961ba694f.png!w80" group-title="Phá Làng" , 28/09 08:00 🟢 🏐 Indonesia - Kyrgyzstan (LÝ LINH LỰC (Server 1))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2Fa3cbac5664e74e3da3ab8323cc7c8cb9%2Findex.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Bông Lau" , 28/09 08:00 🟢 🏐 Indonesia vs Kyrgyzstan W (Chuối Tây (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitay%2Fplaylist.m3u8&source=bonglau
