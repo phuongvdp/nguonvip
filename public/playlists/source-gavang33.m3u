@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:31:49 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:34:25 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (23 trận) =====
 
@@ -12,8 +12,9 @@ https://live2.zktsva.app/live/432017.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/796315.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/718ad64f1a3de007af0de47a9ca2df8f.jpg" group-title="GaVang33" , 28/09 22:00 🟡 ⚽ Al Kharaitiyat vs Al-Wakrah Sports Club (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/al-kharaitiyat-vs-al-wakrah-sports-club-luc-2200-ngay-28-09-2026-l5ergphk054wr8k
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/718ad64f1a3de007af0de47a9ca2df8f.jpg" group-title="GaVang33" , 28/09 22:00 🟢 ⚽ Al Kharaitiyat vs Al-Wakrah Sports Club (Gà Siêu Tốc)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://live2.zktsva.app/live/307240.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/c5b86fa907b96e38e377ddfe82802cc6.png" group-title="GaVang33" , 28/09 23:00 ⚽ Georgia vs Ukraine (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/georgia-vs-ukraine-luc-2300-ngay-28-09-2026-23xmvkh6y1l0qg8

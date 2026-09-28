@@ -1,17 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:31:48 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:34:24 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (16 trận), Chuối Chiên (11 trận), Phá Làng (21 trận), Gà Vàng (10 trận), Sao Kê (14 trận), GaVang33 (23 trận), Bông Lau (11 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (15 trận), Chuối Chiên (10 trận), Phá Làng (21 trận), Gà Vàng (10 trận), Sao Kê (14 trận), GaVang33 (23 trận), Bông Lau (10 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/malaysia.png" group-title="Giờ Vàng" , 28/09 19:30 🟢 ⚽ Malaysia vs Indonesia (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790518571_hd%2F1790518571_hd%40720p.m3u8&source=giovang
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_484.jpg" group-title="Khán Đài" , 28/09 19:30 🟢 ⚽ Indonesia vs Malaysia (Lee Sin)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa10%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 28/09 19:30 🟢 ⚽ Indonesia vs Malaysia (Chuối Sấy (HD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stream.hdplaylink.com%2Fcctvlive%2Fchuoisay%2Fplaylist.m3u8&source=chuoichientv
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png!w80" group-title="Phá Làng" , 28/09 19:30 🟢 ⚽ Malaysia - Indonesia (LÝ LONG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fa9d4a438728241a9bddfdfdea05dfcdd%2Fplaylist.m3u8&source=phalang
@@ -24,9 +18,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stre
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png" group-title="GaVang33" , 28/09 19:30 🟢 ⚽ Malaysia vs Indonesia (Gà Ô Long)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F432017.m3u8&source=gavang33
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Bông Lau" , 28/09 19:30 🟢 ⚽ Indonesia vs Malaysia (Chuối Sấy (HD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stream.hdplaylink.com%2Fcctvlive%2Fchuoisay%2Fplaylist.m3u8&source=bonglau
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5859fb09031f2a51f7c98b516868455f.png" group-title="Gà Vàng" , 28/09 20:00 🟢 ⚽ Kallithea vs Asteras Tripoli B (NGƯỜI KIẾN)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a439a7fb89dded67b208b87.m3u8&source=gavang
@@ -58,6 +49,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d5db95a6441ae92e5dd150663f89dc64.png" group-title="Phá Làng" , 28/09 22:00 🟢 ⚽ Leixoes U23 - Vizela U23 (LÝ LÀNG LÁ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fd2015b8ef3901644afc23efa021d932f%2Fplaylist.m3u8&source=phalang
 
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/718ad64f1a3de007af0de47a9ca2df8f.jpg" group-title="GaVang33" , 28/09 22:00 🟢 ⚽ Al Kharaitiyat vs Al-Wakrah Sports Club (Gà Siêu Tốc)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F307240.m3u8&source=gavang33
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/slovakia-u19.png" group-title="Giờ Vàng" , 28/09 22:00 🟡 ⚽ U19 Slovakia vs Ba Lan U19 (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-u19-slovakia-vs-ba-lan-u19-28-09-6ab317de20160d38600059a2
 
@@ -66,9 +60,6 @@ https://phalang.live/trang-chu#dn1m1gh9vpkvmoe
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/da53b8eeeaa054d55e65f75c3af46ec5.jpg" group-title="Gà Vàng" , 28/09 22:00 🟡 ⚽ MSK Zilina B vs Humenne (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/msk-zilina-b-vs-humenne-ngay-28-09-2026/
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/718ad64f1a3de007af0de47a9ca2df8f.jpg" group-title="GaVang33" , 28/09 22:00 🟡 ⚽ Al Kharaitiyat vs Al-Wakrah Sports Club (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/al-kharaitiyat-vs-al-wakrah-sports-club-luc-2200-ngay-28-09-2026-l5ergphk054wr8k
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/armenia.png" group-title="Giờ Vàng" , 28/09 23:00 ⚽ Armenia vs Montenegro (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-armenia-vs-montenegro-28-09-69f695d673ba0b335e0f2ed7
