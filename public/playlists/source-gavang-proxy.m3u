@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:00:17 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:02:51 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (7 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (17 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/da53b8eeeaa054d55e65f75c3af46ec5.jpg" group-title="Gà Vàng" , 28/09 22:00 🟢 ⚽ MSK Zilina B vs Humenne (ĐOÀN DỰ)
@@ -17,6 +17,15 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a01a2511e8555d7a3685f5c.m3u8&source=gavang
 
 # ----- Ngày 2026-09-29 -----
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b6728832f1504989e57f8a43479429ec.png" group-title="Gà Vàng" , 29/09 01:30 🟡 ⚽ Leganes vs Castellon (Chưa có link — chờ cập nhật)
+https://gavanglinkr.tv/truc-tiep/cd-leganes-vs-castellon-ngay-29-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/dcb713b1ae312b8d0c0e015b418fbec2.png" group-title="Gà Vàng" , 29/09 01:30 🟡 🏀 Acharnis LFM vs AE Eolos Tavros 2006 (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/36ee3f3f3186692e7d24550c50191abe.png" group-title="Gà Vàng" , 29/09 01:30 🟡 🏀 Enosi Iliou vs Oion Ag. Stefanoy (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ea0e9d2d1bda4cbfaf226902ea55a3eb.png" group-title="Gà Vàng" , 29/09 01:45 🟡 ⚽ Belgium vs France (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/belgium-vs-france-ngay-29-09-2026/
 
@@ -25,3 +34,24 @@ https://gavanglinkr.tv/truc-tiep/turkiye-vs-italy-ngay-29-09-2026/
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/2c0b283b96174c34bff7445f22b00618.png" group-title="Gà Vàng" , 29/09 01:45 🟡 ⚽ Sweden vs Poland (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/sweden-vs-poland-ngay-29-09-2026/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/218344619d8fb95d504ccfa11804073f.png" group-title="Gà Vàng" , 29/09 01:45 🟡 ⚽ Northern Ireland vs Hungary (Chưa có link — chờ cập nhật)
+https://gavanglinkr.tv/truc-tiep/northern-ireland-vs-hungary-ngay-29-09-2026/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/1f8d87e1161af68b81bace188a1ec624.png" group-title="Gà Vàng" , 29/09 01:45 🟡 ⚽ Romania vs Bosnia Herzegovina (Chưa có link — chờ cập nhật)
+https://gavanglinkr.tv/truc-tiep/romania-vs-bosnia-and-herzegovina-ngay-29-09-2026/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/7cb09c45e2124a08ac950d31c7ebe0a6.png" group-title="Gà Vàng" , 29/09 02:00 🟡 ⚽ Tunisia vs Botswana (Chưa có link — chờ cập nhật)
+https://gavanglinkr.tv/truc-tiep/tunisia-vs-botswana-ngay-29-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/24403efa393f55163b5593c435bbe4a7.png" group-title="Gà Vàng" , 29/09 05:30 ⚽ America MG vs Juventude (Chưa có link — chờ cập nhật)
+https://gavanglinkr.tv/truc-tiep/america-mg-vs-esporte-clube-juventude-ngay-29-09-2026/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f7779710d2026dca44c41da7a9b7c748.png" group-title="Gà Vàng" , 29/09 07:00 ⚽ Jamaica vs Honduras (Chưa có link — chờ cập nhật)
+https://gavanglinkr.tv/truc-tiep/jamaica-vs-honduras-ngay-29-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/4d3f0c67b2a2f22b033c8f17ea51b10e.jpg" group-title="Gà Vàng" , 29/09 08:05 🏀 Atletico Lanus vs Gimnasia Comodoro (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a1d4643376bf11b37c51f5c76fcaff79.png" group-title="Gà Vàng" , 29/09 09:00 ⚽ Guatemala vs El Salvador (Chưa có link — chờ cập nhật)
+https://gavanglinkr.tv/truc-tiep/guatemala-vs-el-salvador-ngay-29-09-2026/
