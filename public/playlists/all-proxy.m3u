@@ -1,36 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:48:54 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:51:27 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (22 trận), Chuối Chiên (5 trận), Phá Làng (29 trận), Gà Vàng (16 trận), Sao Kê (10 trận), GaVang33 (26 trận), Bông Lau (5 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (22 trận), Chuối Chiên (5 trận), Phá Làng (29 trận), Gà Vàng (12 trận), Sao Kê (6 trận), GaVang33 (25 trận), Bông Lau (5 trận) =====
 
 # ----- Ngày 2026-09-29 -----
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a175df50667b42ef97dcb52a9a8b1c1a.png" group-title="Gà Vàng" , 29/09 01:45 🟢 ⚽ Turkiye vs Italy (GIàng A Dân)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a5b13ceb36a14387baeddaa.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ea0e9d2d1bda4cbfaf226902ea55a3eb.png" group-title="Gà Vàng" , 29/09 01:45 🟢 ⚽ Belgium vs France (SAITAMA)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69f42e961f739deff81510c0.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/2c0b283b96174c34bff7445f22b00618.png" group-title="Gà Vàng" , 29/09 01:45 🟢 ⚽ Sweden vs Poland (khang hi)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a7c0d8f65997681f18cacc4.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/218344619d8fb95d504ccfa11804073f.png" group-title="Gà Vàng" , 29/09 01:45 🟢 ⚽ Northern Ireland vs Hungary (NGƯỜI KIẾN)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a439a7fb89dded67b208b87.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8263.png" group-title="Sao Kê" , 29/09 01:45 🟢 ⚽ Belgium vs France (Bút Chì)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fbutchi%2Fplaylist.m3u8&source=saoke
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6595.png" group-title="Sao Kê" , 29/09 01:45 🟢 ⚽ Turkiye vs Italy (Kai)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fkai%2Fplaylist.m3u8&source=saoke
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10259.png" group-title="Sao Kê" , 29/09 01:45 🟢 ⚽ Northern Ireland vs Hungary (Ricky)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fricky%2Fplaylist.m3u8&source=saoke
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8520.png" group-title="Sao Kê" , 29/09 01:45 🟢 ⚽ Sweden vs Poland (Mơ)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fmo%2Fplaylist.m3u8&source=saoke
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/ea0e9d2d1bda4cbfaf226902ea55a3eb.png" group-title="GaVang33" , 29/09 01:45 🟢 ⚽ Belgium vs France (Gà Siêu Gáy)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F294335.m3u8&source=gavang33
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/7cb09c45e2124a08ac950d31c7ebe0a6.png" group-title="Gà Vàng" , 29/09 02:00 🟢 ⚽ Tunisia vs Botswana (MeoMeo)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69be75e0a0a45974afb67776.m3u8&source=gavang
 
