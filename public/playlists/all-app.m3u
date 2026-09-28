@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:40:45 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:43:20 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (22 trận), Chuối Chiên (11 trận), Phá Làng (23 trận), Gà Vàng (13 trận), Sao Kê (13 trận), GaVang33 (22 trận), Bông Lau (11 trận) =====
 
@@ -49,6 +49,9 @@ https://eqr2hdarxfliv.vcdn.cloud/1790591095_hd/1790591095_hd@720p.m3u8|User-Agen
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/zimbabwe.png" group-title="Giờ Vàng" , 28/09 23:00 🟢 ⚽ Zimbabwe vs D.R. Congo (Giovang 1)
 https://eqr2hdarxfliv.vcdn.cloud/1790591142_hd/1790591142_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_680.jpg" group-title="Khán Đài" , 28/09 23:00 🟢 ⚽ Georgia vs Ukraine (Chim Nhỏ)
+https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://khandai3.link
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_703.jpg" group-title="Khán Đài" , 28/09 23:00 🟢 ⚽ Armenia vs Montenegro (Enzo)
 https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://khandai3.link
 
@@ -81,9 +84,6 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8|Us
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134254_e0b3eb39.png" group-title="Bông Lau" , 28/09 23:00 🟢 ⚽ Armenia vs Montenegro (Chuối Chao (HD))
 https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_680.jpg" group-title="Khán Đài" , 28/09 23:00 🟡 ⚽ Georgia vs Ukraine (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/georgia-vs-ukraine-28-09-2026-790834
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_694.jpg" group-title="Khán Đài" , 28/09 23:00 🟡 ⚽ Latvia vs Cyprus (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/latvia-vs-cyprus-28-09-2026-790929
