@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:10:11 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:12:48 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (16 trận), Chuối Chiên (11 trận), Phá Làng (20 trận), Gà Vàng (10 trận), Sao Kê (14 trận), GaVang33 (23 trận), Bông Lau (11 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (16 trận), Chuối Chiên (11 trận), Phá Làng (21 trận), Gà Vàng (10 trận), Sao Kê (14 trận), GaVang33 (23 trận), Bông Lau (11 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/malaysia.png" group-title="Giờ Vàng" , 28/09 19:30 🟢 ⚽ Malaysia vs Indonesia (Giovang 1)
@@ -45,6 +45,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ba3408fba466a488fe20797d5698444d.png" group-title="Phá Làng" , 28/09 21:00 🟢 ⚽ North Macedonia U21 - Russia U21 (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F3bf0ca3b8e1da859acf198c61b79a497%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f6c8a28bf01610447b86c48ec05ce1b4.png" group-title="Phá Làng" , 28/09 21:00 🟢 ⚽ Maribor - HNK Gorica (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fea5cff142ad7000da2a6e0195ed5afd8%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5893.png" group-title="Sao Kê" , 28/09 21:00 🟢 ⚽ Kyrgyzstan vs Maldives (Củ Cải)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fcucai%2Fplaylist.m3u8&source=saoke

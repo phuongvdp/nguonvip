@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:10:12 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:12:49 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (24 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (25 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png!w80" group-title="Phá Làng" , 28/09 19:30 🟢 ⚽ Malaysia - Indonesia (LÝ LONG)
@@ -15,6 +15,9 @@ https://lilive1.eu.cc/live/9797e9cc77f43536747bf5cdc810c96a/playlist.m3u8|User-A
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ba3408fba466a488fe20797d5698444d.png" group-title="Phá Làng" , 28/09 21:00 🟢 ⚽ North Macedonia U21 - Russia U21 (Server 1)
 https://lilive1.eu.cc/live/3bf0ca3b8e1da859acf198c61b79a497/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f6c8a28bf01610447b86c48ec05ce1b4.png" group-title="Phá Làng" , 28/09 21:00 🟢 ⚽ Maribor - HNK Gorica (Server 1)
+https://lilive1.eu.cc/live/ea5cff142ad7000da2a6e0195ed5afd8/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d5db95a6441ae92e5dd150663f89dc64.png" group-title="Phá Làng" , 28/09 22:00 🟡 ⚽ Leixoes U23 - Vizela U23 (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#dj2ryohlzx10q1z
