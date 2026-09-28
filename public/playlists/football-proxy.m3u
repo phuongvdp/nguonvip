@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:37:02 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:39:15 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (15 trận), Chuối Chiên (10 trận), Phá Làng (20 trận), Gà Vàng (10 trận), Sao Kê (14 trận), GaVang33 (23 trận), Bông Lau (10 trận) =====
 
@@ -40,14 +40,14 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stre
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260604_133429_24e1757b.webp" group-title="Bông Lau" , 28/09 21:00 🟢 ⚽ Kyrgyzstan W vs Maldives (Chuối Lá (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoila%2Fplaylist.m3u8&source=bonglau
 
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/slovakia-u19.png" group-title="Giờ Vàng" , 28/09 22:00 🟢 ⚽ U19 Slovakia vs Ba Lan U19 (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790519105_hd%2F1790519105_hd%40720p.m3u8&source=giovang
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d5db95a6441ae92e5dd150663f89dc64.png" group-title="Phá Làng" , 28/09 22:00 🟢 ⚽ Leixoes U23 - Vizela U23 (LÝ LÀNG LÁ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fd2015b8ef3901644afc23efa021d932f%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/718ad64f1a3de007af0de47a9ca2df8f.jpg" group-title="GaVang33" , 28/09 22:00 🟢 ⚽ Al Kharaitiyat vs Al-Wakrah Sports Club (Gà Siêu Tốc)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F307240.m3u8&source=gavang33
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/slovakia-u19.png" group-title="Giờ Vàng" , 28/09 22:00 🟡 ⚽ U19 Slovakia vs Ba Lan U19 (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-u19-slovakia-vs-ba-lan-u19-28-09-6ab317de20160d38600059a2
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/28d113f973839c72d35abd45379efdfe.png" group-title="Phá Làng" , 28/09 22:00 🟡 ⚽ OFK Petrovac - FK Mladost DG (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#dn1m1gh9vpkvmoe
