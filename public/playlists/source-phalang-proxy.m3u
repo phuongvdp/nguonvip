@@ -1,9 +1,12 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:43:00 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:45:34 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (16 trận) =====
 
 # ----- Ngày 2026-09-29 -----
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5894850a095536f4a0cf99659963a0fb.crdownload" group-title="Phá Làng" , 29/09 01:45 🟢 ⚽ Romania - Bosnia and Herzegovina (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F1f760cc24c88e9724db658af8ad84d50%2Fplaylist.m3u8&source=phalang
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/1eca03d984d1cd76b897e2c31040c176.png" group-title="Phá Làng" , 29/09 01:45 🟢 ⚽ Sweden - Poland (LÝ LINH LỰC)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F4957940f861fc719c8e200362f301ac5%2Fplaylist.m3u8&source=phalang
 
@@ -13,11 +16,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/485919021a1890269881d84d9953feb0.png" group-title="Phá Làng" , 29/09 01:45 🟢 ⚽ Belgium - France (LÝ LONG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F311df02ce56b53d503b259811ae86f99%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5894850a095536f4a0cf99659963a0fb.crdownload" group-title="Phá Làng" , 29/09 01:45 🟡 ⚽ Romania - Bosnia and Herzegovina (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#1l4rjnh9nod4m7v
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/55e5768d59617617dd24803ef9d1cb6d.png" group-title="Phá Làng" , 29/09 01:45 🟡 ⚽ Northern Ireland - Hungary (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#zp5rzghg3vd6q82
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/55e5768d59617617dd24803ef9d1cb6d.png" group-title="Phá Làng" , 29/09 01:45 🟢 ⚽ Northern Ireland - Hungary (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F292e38bdff02e442cdd3102e7573876c%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5de585a438634b088e5734dde6783ffd.png" group-title="Phá Làng" , 29/09 02:00 🟡 ⚽ Tunisia - Botswana (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#3glrw7hnd86eqdy
