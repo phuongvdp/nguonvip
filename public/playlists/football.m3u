@@ -1,23 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:04:18 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:06:33 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (12 trận), Chuối Chiên (15 trận), Phá Làng (19 trận), Gà Vàng (13 trận), Sao Kê (21 trận), GaVang33 (20 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (12 trận), Chuối Chiên (14 trận), Phá Làng (19 trận), Gà Vàng (13 trận), Sao Kê (21 trận), GaVang33 (20 trận), Bông Lau (14 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/xKV01zyS-vNO3Pwqf.png" group-title="Giờ Vàng" , 28/09 07:20 🟢 ⚽ Los Angeles Rams vs Denver Broncos (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790535757_hd/1790535757_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/club-leon.png" group-title="Giờ Vàng" , 28/09 08:00 🟢 ⚽ Club Leon vs FC Juarez (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790534684_hd/1790534684_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131434_fbad589d.png" group-title="Chuối Chiên" , 28/09 08:00 🟢 ⚽ Leon vs FC Juarez (Chuối Kem (HD))
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/4695f653aca6ac49ff2baa4a961fa67b.png" group-title="Gà Vàng" , 28/09 08:00 🟢 ⚽ Club Leon vs FC Juarez (cố tư nghiêm)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
@@ -27,11 +17,6 @@ https://playback.livetl002.com/live/69a1aaa7230584579e2d5ce1.m3u8
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/4695f653aca6ac49ff2baa4a961fa67b.png" group-title="GaVang33" , 28/09 08:00 🟢 ⚽ Club Leon vs FC Juarez (Gà Siêu Tốc)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/307240.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131434_fbad589d.png" group-title="Bông Lau" , 28/09 08:00 🟢 ⚽ Leon vs FC Juarez (Chuối Kem (HD))
-#EXTVLCOPT:http-referrer=https://tructiep.bonglau.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/deportivo-cali.png" group-title="Giờ Vàng" , 28/09 08:10 🟢 ⚽ Deportivo Cali vs Aguilas Doradas (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
