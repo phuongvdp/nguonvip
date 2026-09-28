@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 05:59:25 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:02:25 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (11 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (8 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/24403efa393f55163b5593c435bbe4a7.png" group-title="Gà Vàng" , 29/09 05:30 🟢 ⚽ America MG vs Juventude (cố tư nghiêm)
@@ -9,19 +9,10 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/69a1aaa7230584579e2d5ce1.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/8b52121ea31077040883df858233c8ce.png" group-title="Gà Vàng" , 29/09 06:00 🟡 🏀 Colegio Los Leones U21 vs Humboldt U21 (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/5705d9383eee879ac93b32996f817700.png" group-title="Gà Vàng" , 29/09 06:00 🟡 🏀 Las Animas vs Club Deportivo Universidad Catolica (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/9c95d0a10fc3b5d6dda1e26b4945681e.png" group-title="Gà Vàng" , 29/09 06:00 🟡 🏀 Penarol Uruguay vs Flamengo (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/077bf35869447b9520b7b4ff6e1be381.png" group-title="Gà Vàng" , 29/09 06:30 🟡 🏀 Ancud vs CD Puerto Varas (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f7779710d2026dca44c41da7a9b7c748.png" group-title="Gà Vàng" , 29/09 07:00 ⚽ Jamaica vs Honduras (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f7779710d2026dca44c41da7a9b7c748.png" group-title="Gà Vàng" , 29/09 07:00 🟡 ⚽ Jamaica vs Honduras (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/jamaica-vs-honduras-ngay-29-09-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/4d3f0c67b2a2f22b033c8f17ea51b10e.jpg" group-title="Gà Vàng" , 29/09 08:05 🏀 Atletico Lanus vs Gimnasia Comodoro (Chưa có link — chờ cập nhật)
