@@ -1,19 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 12:41:01 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 12:43:10 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (17 trận), Chuối Chiên (19 trận), Phá Làng (32 trận), Gà Vàng (20 trận), Sao Kê (21 trận), GaVang33 (18 trận), Bông Lau (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (17 trận), Chuối Chiên (19 trận), Phá Làng (32 trận), Gà Vàng (20 trận), Sao Kê (21 trận), GaVang33 (18 trận), Bông Lau (19 trận) =====
 
 # ----- Ngày 2026-09-28 -----
-#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 28/09 10:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png" group-title="Giờ Vàng" , 28/09 11:00 🟢 🏐 Trung Quốc vs Philippines (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790535597_hd/1790535597_hd@720p.m3u8
-
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_OOrZwnR.jpg" group-title="Khán Đài" , 28/09 11:00 🟢 🏐 Trung Quốc vs Philippines (KaKa)
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -38,6 +28,11 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/teppy/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://tructiep.bonglau.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisay/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 28/09 13:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9171598992ec6be605b7154a4f77724d.png" group-title="Gà Vàng" , 28/09 13:45 ⚽ Laitkyrhong vs Malki SC (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/laitkyrhong-vs-malki-sc-ngay-28-09-2026/
@@ -192,7 +187,7 @@ https://gavanglinkr.tv/truc-tiep/south-korea-vs-uruguay-ngay-28-09-2026/
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/ae4049b51eb9b2a3aa6c9b27a307c6dc.png" group-title="Gà Vàng" , 28/09 18:00 🏀 Mindoro Tamaraws vs Basilan Viva Portmasters (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/b33a4adcf6d0525a9d755aaef90a272a.png" group-title="Gà Vàng" , 28/09 18:00 🏀 SShOR-Lokomotiv-Kuban vs TSK Ural (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/76d01339f903a883f48e2dfda14a2bcb.png" group-title="Gà Vàng" , 28/09 18:00 🏀 Chelyabinsk Women vs Spartak Moscow Region B Women (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/7804.png" group-title="Sao Kê" , 28/09 18:00 ⚽ South Korea vs Uruguay (Chưa có link — chờ cập nhật)

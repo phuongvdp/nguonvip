@@ -1,14 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 12:41:01 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 12:43:10 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (11 trận), Khán Đài (12 trận), Chuối Chiên (14 trận), Phá Làng (26 trận), Gà Vàng (12 trận), Sao Kê (21 trận), GaVang33 (18 trận), Bông Lau (14 trận) =====
 
 # ----- Ngày 2026-09-28 -----
-#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 28/09 10:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1789838904_hd%2F1789838904_hd%40720p.m3u8&source=giovang
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Sao Kê" , 28/09 11:00 🟢 ⚽ China vs Philippines (Teppy)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fteppy%2Fplaylist.m3u8&source=saoke
+
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 28/09 13:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1789838904_hd%2F1789838904_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9171598992ec6be605b7154a4f77724d.png" group-title="Gà Vàng" , 28/09 13:45 ⚽ Laitkyrhong vs Malki SC (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/laitkyrhong-vs-malki-sc-ngay-28-09-2026/
