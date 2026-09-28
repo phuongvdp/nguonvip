@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:12:50 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:15:54 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Chuối Chiên (12 trận), Phá Làng (25 trận), Gà Vàng (18 trận), Sao Kê (14 trận), GaVang33 (23 trận), Bông Lau (12 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Chuối Chiên (12 trận), Phá Làng (25 trận), Gà Vàng (18 trận), Sao Kê (14 trận), GaVang33 (23 trận), Bông Lau (12 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/f265f639507860463b03c6a46fe76e93.png" group-title="Giờ Vàng" , 28/09 18:00 🟢 🏀 Mindoro Tamaraws vs Basilan Viva Portmasters (Giovang 1)
@@ -27,6 +27,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Bông Lau" , 28/09 19:30 🟢 ⚽ Indonesia vs Malaysia (Chuối Sấy (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stream.hdplaylink.com%2Fcctvlive%2Fchuoisay%2Fplaylist.m3u8&source=bonglau
+
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 28/09 20:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1789838904_hd%2F1789838904_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/0d44700cb350e4546e802f0a3eaec9aa.png!w80" group-title="Phá Làng" , 28/09 20:00 🟢 🏐 Manisa BB Women - THY Nữ (LÝ LÊN LỬA (Server 1))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2Fc45bb9805c3f4e15902ce8d01e979cc0%2Findex.m3u8&source=phalang
@@ -142,13 +145,13 @@ https://gavanglinkr.tv/truc-tiep/armenia-vs-montenegro-ngay-28-09-2026/
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/5b52e27a9d5bf294f5b593c4c071500e.png" group-title="Gà Vàng" , 28/09 23:00 ⚽ Latvia vs Cyprus (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/latvia-vs-cyprus-ngay-28-09-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/d06bd6d49ee94e4283cc8727826ebd64.png" group-title="Gà Vàng" , 28/09 23:00 🏀 Hapoel Rishon Le Zion Women vs Bnei Yehuda (W) (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/9d5870f81f6f4648bb795509838d1654.png" group-title="Gà Vàng" , 28/09 23:00 🏀 Glint Korfez Basket vs Esenler Erokspor (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/0e31add17b9e32b109ab394bca2fcf8e.png" group-title="Gà Vàng" , 28/09 23:00 🏀 Hapoel Petah Tikvah Women vs Elitzur Ramla Women (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/b51423ba4d286e71d05ec9d1c591258b.jpg" group-title="Gà Vàng" , 28/09 23:00 🏀 Maccabi Haifa Women vs Maccabi Karmiel (W) (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8268.png" group-title="Sao Kê" , 28/09 23:00 ⚽ Georgia vs Ukraine (Chưa có link — chờ cập nhật)
