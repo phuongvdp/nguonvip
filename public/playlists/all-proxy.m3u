@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:58:34 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:00:43 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (24 trận), Chuối Chiên (12 trận), Phá Làng (20 trận), Gà Vàng (6 trận), Sao Kê (12 trận), GaVang33 (26 trận), Bông Lau (12 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (24 trận), Chuối Chiên (12 trận), Phá Làng (20 trận), Gà Vàng (6 trận), Sao Kê (12 trận), GaVang33 (25 trận), Bông Lau (12 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260604_133429_24e1757b.webp" group-title="Chuối Chiên" , 28/09 21:00 🟢 ⚽ Kyrgyzstan W vs Maldives (Chuối Lá (HD))
@@ -12,9 +12,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/hf8B8MYA-jiXeTAAb.png" group-title="Giờ Vàng" , 28/09 21:45 🟢 🏀 Indian Railway vs Al Ittihad (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790528591_hd%2F1790528591_hd%40720p.m3u8&source=giovang
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/d5db95a6441ae92e5dd150663f89dc64.png" group-title="GaVang33" , 28/09 22:00 🟢 ⚽ Leixoes U23 vs Vizela U23 (Gà Siêu Tốc)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F307240.m3u8&source=gavang33
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/armenia.png" group-title="Giờ Vàng" , 28/09 23:00 🟢 ⚽ Armenia vs Montenegro (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790590878_hd%2F1790590878_hd%40720p.m3u8&source=giovang
@@ -92,6 +89,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790591202_hd%2F1790591202_hd%40720p.m3u8&source=giovang
 
 # ----- Ngày 2026-09-29 -----
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/WU7OvUil-OWuMpcqT.png" group-title="Giờ Vàng" , 29/09 00:15 🟢 ⚽ Al-Shahaniya vs Al-Duhail (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790591267_hd%2F1790591267_hd%40720p.m3u8&source=giovang
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/sweden.png" group-title="Giờ Vàng" , 29/09 01:45 ⚽ Thụy Điển vs Ba Lan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-thuy-dien-vs-ba-lan-29-09-69f7e7425c39b5554409bf60
 
