@@ -1,9 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 05:14:24 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 05:16:34 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (15 trận), Chuối Chiên (3 trận), Phá Làng (33 trận), Gà Vàng (3 trận), Sao Kê (6 trận), GaVang33 (25 trận), Bông Lau (3 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (15 trận), Chuối Chiên (3 trận), Phá Làng (33 trận), Gà Vàng (4 trận), Sao Kê (6 trận), GaVang33 (25 trận), Bông Lau (3 trận) =====
 
 # ----- Ngày 2026-09-29 -----
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/7cb09c45e2124a08ac950d31c7ebe0a6.png" group-title="Gà Vàng" , 29/09 02:00 🟢 ⚽ Tunisia vs Botswana (MeoMeo)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69be75e0a0a45974afb67776.m3u8
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_ede472a3.png" group-title="Chuối Chiên" , 29/09 04:00 🟢 ⚽ Cuba vs Bonaire (Chuối Tây (HD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
