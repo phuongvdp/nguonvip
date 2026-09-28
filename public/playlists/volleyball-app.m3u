@@ -1,9 +1,12 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:35:07 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:37:40 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (5 trận), Khán Đài (5 trận), Chuối Chiên (5 trận), Phá Làng (6 trận), Bông Lau (5 trận) =====
 
 # ----- Ngày 2026-09-28 -----
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png" group-title="Giờ Vàng" , 28/09 11:00 🟢 🏐 Trung Quốc vs Philippines (Giovang 1)
+https://eqr2hdarxfliv.vcdn.cloud/1790535597_hd/1790535597_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Chuối Chiên" , 28/09 11:00 🟢 🏐 China vs Philippines (Chuối Sấy (HD))
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisay/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
@@ -12,9 +15,6 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisay/playlist.m3u8|Us
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/S2JTFXGG-vafZSxgs.png" group-title="Giờ Vàng" , 28/09 11:00 🟡 🏐 Pakistan vs Uzbekistan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-pakistan-vs-uzbekistan-28-09-q7m77ca409oj
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/UFsHESEa-dUwawdyp.png" group-title="Giờ Vàng" , 28/09 11:00 🟡 🏐 Trung Quốc vs Philippines (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-trung-quoc-vs-philippines-28-09-13zfdvecl76e
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_OOrZwnR.jpg" group-title="Khán Đài" , 28/09 11:00 🟡 🏐 Trung Quốc vs Philippines (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/trung-quoc-vs-philippines
