@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:26:24 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:29:00 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (25 trận) =====
 
@@ -19,8 +19,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f6c8a28bf01610447b86c48ec05ce1b4.png" group-title="Phá Làng" , 28/09 21:00 🟢 ⚽ Maribor - HNK Gorica (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fea5cff142ad7000da2a6e0195ed5afd8%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d5db95a6441ae92e5dd150663f89dc64.png" group-title="Phá Làng" , 28/09 22:00 🟡 ⚽ Leixoes U23 - Vizela U23 (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#dj2ryohlzx10q1z
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d5db95a6441ae92e5dd150663f89dc64.png" group-title="Phá Làng" , 28/09 22:00 🟢 ⚽ Leixoes U23 - Vizela U23 (LÝ LÀNG LÁ)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fd2015b8ef3901644afc23efa021d932f%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/28d113f973839c72d35abd45379efdfe.png" group-title="Phá Làng" , 28/09 22:00 🟡 ⚽ OFK Petrovac - FK Mladost DG (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#dn1m1gh9vpkvmoe

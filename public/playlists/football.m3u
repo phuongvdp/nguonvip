@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:26:23 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:28:58 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (16 trận), Chuối Chiên (11 trận), Phá Làng (21 trận), Gà Vàng (10 trận), Sao Kê (14 trận), GaVang33 (23 trận), Bông Lau (11 trận) =====
 
@@ -30,7 +30,7 @@ https://lilive1.eu.cc/live/a9d4a438728241a9bddfdfdea05dfcdd/playlist.m3u8
 https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5823.png" group-title="Sao Kê" , 28/09 19:30 🟢 ⚽ Malaysia vs Indonesia (Bút Chì)
-#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/japan-vs-venezuela-6ab9bf6a29359ae22fd197e3.html
+#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/malaysia-vs-indonesia-6ab9bf6a29359ae22fd197e1.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/butchi/playlist.m3u8
 
@@ -78,7 +78,7 @@ https://lilive1.eu.cc/live/3bf0ca3b8e1da859acf198c61b79a497/playlist.m3u8
 https://lilive1.eu.cc/live/ea5cff142ad7000da2a6e0195ed5afd8/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5893.png" group-title="Sao Kê" , 28/09 21:00 🟢 ⚽ Kyrgyzstan vs Maldives (Củ Cải)
-#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/japan-vs-venezuela-6ab9bf6a29359ae22fd197e3.html
+#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/malaysia-vs-indonesia-6ab9bf6a29359ae22fd197e1.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/cucai/playlist.m3u8
 
@@ -87,11 +87,13 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/cucai/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d5db95a6441ae92e5dd150663f89dc64.png" group-title="Phá Làng" , 28/09 22:00 🟢 ⚽ Leixoes U23 - Vizela U23 (LÝ LÀNG LÁ)
+#EXTVLCOPT:http-referrer=https://phalang.live
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/d2015b8ef3901644afc23efa021d932f/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/slovakia-u19.png" group-title="Giờ Vàng" , 28/09 22:00 🟡 ⚽ U19 Slovakia vs Ba Lan U19 (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-u19-slovakia-vs-ba-lan-u19-28-09-6ab317de20160d38600059a2
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d5db95a6441ae92e5dd150663f89dc64.png" group-title="Phá Làng" , 28/09 22:00 🟡 ⚽ Leixoes U23 - Vizela U23 (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#dj2ryohlzx10q1z
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/28d113f973839c72d35abd45379efdfe.png" group-title="Phá Làng" , 28/09 22:00 🟡 ⚽ OFK Petrovac - FK Mladost DG (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#dn1m1gh9vpkvmoe
