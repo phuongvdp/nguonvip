@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:25:46 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:28:39 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (15 trận), Chuối Chiên (12 trận), Phá Làng (23 trận), Gà Vàng (12 trận), Sao Kê (16 trận), GaVang33 (22 trận), Bông Lau (12 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (14 trận), Chuối Chiên (12 trận), Phá Làng (23 trận), Gà Vàng (11 trận), Sao Kê (16 trận), GaVang33 (22 trận), Bông Lau (12 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 28/09 16:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -9,23 +9,13 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_540.jpg" group-title="Khán Đài" , 28/09 17:25 🟢 ⚽ Japan vs Venezuela (Tày)
-#EXTVLCOPT:http-referrer=https://khandai3.link
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
-
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/f9ce800b0fd64b339c2bcf8ec7d9ec0e.png!w80" group-title="Phá Làng" , 28/09 17:25 🟢 ⚽ Japan - Venezuela (LÝ LÀNG LÁ)
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/2c43ced66b0237da67beead6ef921afe/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f9ce800b0fd64b339c2bcf8ec7d9ec0e.png" group-title="Gà Vàng" , 28/09 17:25 🟢 ⚽ Japan vs Venezuela (THICHDUTHU)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/6a704ad865997681f18c2160.m3u8
-
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6715.png" group-title="Sao Kê" , 28/09 17:25 🟢 ⚽ Japan vs Venezuela (Mơ)
-#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/singapore-vs-bangladesh-6ab9bf6a29359ae22fd197e0.html
+#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/japan-vs-venezuela-6ab9bf6a29359ae22fd197e3.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/mo/playlist.m3u8
 
@@ -59,7 +49,7 @@ https://lilive1.eu.cc/live/c5c38ecd1f9b448c56200e81077f7bc1/playlist.m3u8
 https://playback.livetl002.com/live/6a0c7c4b1ae4d6db02433c48.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/7804.png" group-title="Sao Kê" , 28/09 18:00 🟢 ⚽ South Korea vs Uruguay (Tít)
-#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/singapore-vs-bangladesh-6ab9bf6a29359ae22fd197e0.html
+#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/japan-vs-venezuela-6ab9bf6a29359ae22fd197e3.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/tit/playlist.m3u8
 
@@ -93,7 +83,7 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisay/playlist.m3u8
 https://lilive1.eu.cc/live/a9d4a438728241a9bddfdfdea05dfcdd/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5823.png" group-title="Sao Kê" , 28/09 19:30 🟢 ⚽ Malaysia vs Indonesia (Bút Chì)
-#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/singapore-vs-bangladesh-6ab9bf6a29359ae22fd197e0.html
+#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/japan-vs-venezuela-6ab9bf6a29359ae22fd197e3.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/butchi/playlist.m3u8
 
