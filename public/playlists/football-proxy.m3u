@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:57:30 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 04:00:05 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Chuối Chiên (3 trận), Phá Làng (23 trận), Gà Vàng (10 trận), Sao Kê (6 trận), GaVang33 (25 trận), Bông Lau (3 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (15 trận), Chuối Chiên (3 trận), Phá Làng (23 trận), Gà Vàng (10 trận), Sao Kê (6 trận), GaVang33 (25 trận), Bông Lau (3 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b6728832f1504989e57f8a43479429ec.png" group-title="Gà Vàng" , 29/09 01:30 🟢 ⚽ Leganes vs Castellon (MáN NúI)
@@ -34,13 +34,13 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stre
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_ede472a3.png" group-title="Bông Lau" , 29/09 04:00 🟢 ⚽ Cuba vs Bonaire (Chuối Tây (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitay%2Fplaylist.m3u8&source=bonglau
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132743_25712a70.png" group-title="Chuối Chiên" , 29/09 05:00 ⚽ Suriname vs Martinique (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132743_25712a70.png" group-title="Chuối Chiên" , 29/09 05:00 🟡 ⚽ Suriname vs Martinique (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1639957/suriname-vs-martinique
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/127411.png" group-title="Sao Kê" , 29/09 05:00 ⚽ Suriname vs Martinique (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/127411.png" group-title="Sao Kê" , 29/09 05:00 🟡 ⚽ Suriname vs Martinique (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/suriname-vs-martinique-6ab9bf6a29359ae22fd197de.html
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132743_25712a70.png" group-title="Bông Lau" , 29/09 05:00 ⚽ Suriname vs Martinique (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132743_25712a70.png" group-title="Bông Lau" , 29/09 05:00 🟡 ⚽ Suriname vs Martinique (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1639957
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/24403efa393f55163b5593c435bbe4a7.png" group-title="Gà Vàng" , 29/09 05:30 ⚽ America MG vs Juventude (Chưa có link — chờ cập nhật)
@@ -97,11 +97,17 @@ https://vip3.saoketv40.xyz/philippines-vs-chinese-taipei-6ab9bbd65b828a346dbafc6
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/teams/e9c72f37302fa4e0284235115c3fd818.png" group-title="Giờ Vàng" , 29/09 13:00 ⚽ North Korea W vs China W (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-north-korea-w-vs-china-w-29-09-de3sywakpoet
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_31639.jpg" group-title="Khán Đài" , 29/09 13:00 ⚽ North Korea W vs China W (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/north-korea-w-vs-china-w-29-09-2026-859271
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/e852329be4add16641d68cfb8aa233ad.png" group-title="Phá Làng" , 29/09 13:00 ⚽ North Korea Women - China Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y39mp1hdvw4dmoj
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3f0615a1b43ba75b2f73de29ed78fa1a.png" group-title="Phá Làng" , 29/09 14:00 ⚽ Fiji Women - New Caledonia Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#vjxm8ghkv557r6o
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_341.jpg" group-title="Khán Đài" , 29/09 15:00 ⚽ Philippines vs Pakistan (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/philippines-vs-pakistan-29-09-2026-859001
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/philippines.png" group-title="Giờ Vàng" , 29/09 16:00 ⚽ Philippines vs Pakistan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-philippines-vs-pakistan-29-09-6ab468f8b057b828a8092bd2
@@ -117,6 +123,9 @@ https://gavang33.me/truc-tiep/philippines-vs-pakistan-luc-1600-ngay-29-09-2026-8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/QsDUXXzB-Iy4CNX9E.png" group-title="Giờ Vàng" , 29/09 17:00 ⚽ Portugal U20 vs Switzerland U20 (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-portugal-u20-vs-switzerland-u20-29-09-lnu8b9zj43lv
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_529.jpg" group-title="Khán Đài" , 29/09 17:00 ⚽ Australia vs Brazil (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/australia-vs-brazil-29-09-2026-770717
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/771a47aa3a754d19f9f298fdf828e23b.png" group-title="Phá Làng" , 29/09 17:00 ⚽ Jubilo Iwata - JEF United Ichihara Chiba (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#1l4rjnhnyzz8m7v
@@ -184,11 +193,20 @@ https://gavang33.me/truc-tiep/ehime-fc-vs-fc-tokyo-luc-1700-ngay-29-09-2026-8yom
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/japan.png" group-title="Giờ Vàng" , 29/09 17:30 ⚽ Nhật Bản W vs Hàn Quốc W (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-nhat-ban-w-vs-han-quoc-w-29-09-c23mh33e7rlw
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_Japan_K75eDYE.svg.webp" group-title="Khán Đài" , 29/09 17:30 ⚽ Japan W vs South Korea W (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/japan-w-vs-south-korea-w-29-09-2026-859272
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/22fc8d10a1f32e5da720454189015664.png" group-title="Phá Làng" , 29/09 18:00 ⚽ Comoros - Namibia (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#ednm9whw1ng3ryo
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/b26f48bd4e40423148b0089092638919.png" group-title="GaVang33" , 29/09 18:00 ⚽ Comoros vs Namibia (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/comoros-vs-namibia-luc-1800-ngay-29-09-2026-ednm9whw1ng3ryo
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_480.jpg" group-title="Khán Đài" , 29/09 18:30 ⚽ Thái Lan vs Việt Nam (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/thai-lan-vs-viet-nam-29-09-2026-859002
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_480.jpg" group-title="Khán Đài" , 29/09 18:30 ⚽ Thái Lan vs Việt Nam (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/thai-lan-vs-viet-nam-29-09-2026-183332
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/gibraltar-u17.png" group-title="Giờ Vàng" , 29/09 19:00 ⚽ U17 Gibraltar vs Bosnia and Herzegovina U17 (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-u17-gibraltar-vs-bosnia-and-herzegovina-u17-29-09-6a3338060f72229b92061bcd
@@ -205,6 +223,9 @@ https://giovang.city/truc-tiep-burundi-vs-algeria-29-09-6a387d79153ee8455e055728
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/ethiopia.png" group-title="Giờ Vàng" , 29/09 20:00 ⚽ Ethiopia vs Senegal (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-ethiopia-vs-senegal-29-09-6a39cf7be3978e5e46039b06
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_610.jpg" group-title="Khán Đài" , 29/09 20:00 ⚽ Ethiopia vs Senegal (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/ethiopia-vs-senegal-29-09-2026-786880
+
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/2c677b17efb13fe6ec91b3c0bb38934d.png" group-title="GaVang33" , 29/09 20:00 ⚽ Lesotho vs Morocco (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/lesotho-vs-morocco-luc-2000-ngay-29-09-2026-k82rekhglk1zrep
 
@@ -220,6 +241,12 @@ https://giovang.city/truc-tiep-u21-iceland-vs-thuy-si-u21-29-09-683ce9d16fa477d4
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/5c608ae76638c5ab49847ab5947b12a5.png" group-title="GaVang33" , 29/09 22:00 ⚽ Al Khor SC vs Umm Salal (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/al-khor-sc-vs-umm-salal-luc-2200-ngay-29-09-2026-dj2ryoh7vdlpq1z
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_8.jpg" group-title="Khán Đài" , 29/09 23:00 ⚽ Finland vs Belarus (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/finland-vs-belarus-29-09-2026-790930
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_689.jpg" group-title="Khán Đài" , 29/09 23:00 ⚽ Moldova vs Faroe Islands (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/moldova-vs-faroe-islands-29-09-2026-790931
+
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3c0b84f6c8ee0d929021de10cbb8cc69.png" group-title="GaVang33" , 29/09 23:00 ⚽ Finland vs Belarus (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/finland-vs-belarus-luc-2300-ngay-29-09-2026-4wyrn4h6yp53q86
 
@@ -233,11 +260,29 @@ https://gavang33.me/truc-tiep/cabo-verde-vs-rwanda-luc-2300-ngay-29-09-2026-2y8m
 https://gavang33.me/truc-tiep/russia-vs-ir-iran-luc-2300-ngay-29-09-2026-4wyrn4hyz2z0q86
 
 # ----- Ngày 2026-09-30 -----
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_647.jpg" group-title="Khán Đài" , 30/09 00:30 ⚽ Saudi Arabia vs Iraq (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/saudi-arabia-vs-iraq-30-09-2026-857565
+
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/344c0d0b85274807ba668a603ef5a05e.png" group-title="GaVang33" , 30/09 00:30 ⚽ Saudi Arabia vs Iraq (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/saudi-arabia-vs-iraq-luc-0030-ngay-30-09-2026-ednm9whwj0jdryo
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/500739868ce9f7f0857260404eab4d41.png" group-title="GaVang33" , 30/09 00:30 ⚽ Oman vs Kuwait (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/oman-vs-kuwait-luc-0030-ngay-30-09-2026-k82rekhg5x5xrep
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_15.jpg" group-title="Khán Đài" , 30/09 01:45 ⚽ Scotland vs Switzerland (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/scotland-vs-switzerland-30-09-2026-790838
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_696.jpg" group-title="Khán Đài" , 30/09 01:45 ⚽ Slovenia vs North Macedonia (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/slovenia-vs-north-macedonia-30-09-2026-790839
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_13.jpg" group-title="Khán Đài" , 30/09 01:45 ⚽ Czech Republic vs England (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/czech-republic-vs-england-30-09-2026-790886
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_19.jpg" group-title="Khán Đài" , 30/09 01:45 ⚽ Spain vs Croatia (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/spain-vs-croatia-30-09-2026-790887
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_20.jpg" group-title="Khán Đài" , 30/09 01:45 ⚽ Slovakia vs Kazakhstan (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/slovakia-vs-kazakhstan-30-09-2026-790935
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/9c1958aa257c4a318f87cb4b2d79fa11.png" group-title="GaVang33" , 30/09 01:45 ⚽ Spain vs Croatia (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/spain-vs-croatia-luc-0145-ngay-30-09-2026-y39mp1h6dgeemoj
