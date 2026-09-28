@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:58:49 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:01:55 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (27 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (29 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/bfa20d86a59044ef90a4609dde03985c.png!w80" group-title="Phá Làng" , 28/09 16:00 🟢 ⚽ Singapore - Bangladesh (LÝ LINH LỰC)
@@ -10,13 +10,13 @@ https://lilive1.eu.cc/live/7f27f0744f58cc33d82144853fef5271/playlist.m3u8|User-A
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/dd0a8169c1c22efabb56434f3631159b.png!w80" group-title="Phá Làng" , 28/09 17:00 🟢 🏐 Đài Loan TQ - Hàn Quốc (LÝ LÊN LỬA (Server 1))
 https://pull.digitalcdn.net/live/fd154fa5529f4a16b7374ca7b2bac306/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/9749f17f2a26c0ee6558c42029e739d8.png!w80" group-title="Phá Làng" , 28/09 17:20 🟡 🏐 Kazakhstan - Nhật Bản (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#b23d6420926249aa9a00bde8d20530e0
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/9749f17f2a26c0ee6558c42029e739d8.png!w80" group-title="Phá Làng" , 28/09 17:20 🟢 🏐 Kazakhstan - Nhật Bản (LÝ LIỀU LĨNH (Server 1))
+https://pull.digitalcdn.net/live/d128746e31954fdb95a1e2b73495b969/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/f9ce800b0fd64b339c2bcf8ec7d9ec0e.png!w80" group-title="Phá Làng" , 28/09 17:25 🟡 ⚽ Japan - Venezuela (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#vjxm8ghe1159r6o
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/a3f9a9a7e81748828ce092f0dd488479.png!w80" group-title="Phá Làng" , 28/09 18:00 ⚽ South Korea - Uruguay (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/a3f9a9a7e81748828ce092f0dd488479.png!w80" group-title="Phá Làng" , 28/09 18:00 🟡 ⚽ South Korea - Uruguay (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#x7lm7phxgn4ym2w
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png!w80" group-title="Phá Làng" , 28/09 19:30 ⚽ Malaysia - Indonesia (Chưa có link — chờ cập nhật)
@@ -85,3 +85,9 @@ https://phalang.live/trang-chu#3glrw7hnd86eqdy
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3a9b3eab8a2396779c3ff15ae34f1d1c.png" group-title="Phá Làng" , 29/09 02:00 ⚽ Botswana - Tunisia (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4jwq2ghnl272m0v
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/4a2e9789964030d8f9873ca4b8a7587b.png!w80" group-title="Phá Làng" , 29/09 08:00 🏐 Hồng Kông - Việt Nam (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#07512a3d225b49db84388d2888464212
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/4346797bf61de910e7d62fa55f5bf1b5.png!w80" group-title="Phá Làng" , 29/09 08:00 🏐 Kyrgyzstan - Thái Lan (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#6ded14aad1944d88b10ed12297e89818
