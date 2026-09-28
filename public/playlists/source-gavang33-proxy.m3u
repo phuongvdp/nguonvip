@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:50:43 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:53:17 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (22 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (21 trận) =====
 
 # ----- Ngày 2026-09-28 -----
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/cbb6ad45aa0de955fe139e57eb64cc7e.png" group-title="GaVang33" , 28/09 20:00 🟢 ⚽ FK Graficar Beograd vs Teleoptik (Gà Siêu Tồ)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F796315.m3u8&source=gavang33
-
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/718ad64f1a3de007af0de47a9ca2df8f.jpg" group-title="GaVang33" , 28/09 22:00 🟢 ⚽ Al Kharaitiyat vs Al-Wakrah Sports Club (Gà Siêu Tốc)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F307240.m3u8&source=gavang33
 
