@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:12:18 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:14:28 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (16 trận) =====
 
@@ -16,8 +16,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Chuối Chiên" , 28/09 18:00 🟢 ⚽ South Korea vs Uruguay (Chuối Chao (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoichao%2Fplaylist.m3u8&source=chuoichientv
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 28/09 19:30 ⚽ Indonesia vs Malaysia (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1641709/indonesia-vs-malaysia
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 28/09 19:30 🟢 ⚽ Indonesia vs Malaysia (Chuối Sấy (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stream.hdplaylink.com%2Fcctvlive%2Fchuoisay%2Fplaylist.m3u8&source=chuoichientv
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260604_133429_24e1757b.webp" group-title="Chuối Chiên" , 28/09 21:00 ⚽ Kyrgyzstan W vs Maldives (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/998477/kyrgyzstan-w-vs-maldives
