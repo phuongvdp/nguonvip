@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 04:43:36 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 04:46:10 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (15 trận), Chuối Chiên (3 trận), Phá Làng (26 trận), Gà Vàng (10 trận), Sao Kê (6 trận), GaVang33 (25 trận), Bông Lau (3 trận) =====
 
@@ -54,14 +54,20 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/cucai/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132743_25712a70.png" group-title="Chuối Chiên" , 29/09 05:00 🟡 ⚽ Suriname vs Martinique (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1639957/suriname-vs-martinique
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132743_25712a70.png" group-title="Chuối Chiên" , 29/09 05:00 🟢 ⚽ Suriname vs Martinique (Trốc Tru (HD))
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/127411.png" group-title="Sao Kê" , 29/09 05:00 🟡 ⚽ Suriname vs Martinique (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/suriname-vs-martinique-6ab9bf6a29359ae22fd197de.html
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/127411.png" group-title="Sao Kê" , 29/09 05:00 🟢 ⚽ Suriname vs Martinique (Tít)
+#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/belgium-vs-france-6ab9bf6a29359ae22fd197d6.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://stm6dad62063600.stream.hdplaylink.com/sklive/tit/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132743_25712a70.png" group-title="Bông Lau" , 29/09 05:00 🟡 ⚽ Suriname vs Martinique (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1639957
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132743_25712a70.png" group-title="Bông Lau" , 29/09 05:00 🟢 ⚽ Suriname vs Martinique (Trốc Tru (HD))
+#EXTVLCOPT:http-referrer=https://tructiep.bonglau.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/24403efa393f55163b5593c435bbe4a7.png" group-title="Gà Vàng" , 29/09 05:30 🟡 ⚽ America MG vs Juventude (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/america-mg-vs-esporte-clube-juventude-ngay-29-09-2026/

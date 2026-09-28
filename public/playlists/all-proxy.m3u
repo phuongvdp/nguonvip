@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 04:43:36 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 04:46:10 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (22 trận), Chuối Chiên (5 trận), Phá Làng (32 trận), Gà Vàng (17 trận), Sao Kê (6 trận), GaVang33 (25 trận), Bông Lau (5 trận) =====
 
@@ -34,17 +34,17 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stre
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_ede472a3.png" group-title="Bông Lau" , 29/09 04:00 🟢 ⚽ Cuba vs Bonaire (Chuối Tây (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitay%2Fplaylist.m3u8&source=bonglau
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132743_25712a70.png" group-title="Chuối Chiên" , 29/09 05:00 🟡 ⚽ Suriname vs Martinique (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1639957/suriname-vs-martinique
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132743_25712a70.png" group-title="Chuối Chiên" , 29/09 05:00 🟢 ⚽ Suriname vs Martinique (Trốc Tru (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Ftroctru%2Fplaylist.m3u8&source=chuoichientv
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/127411.png" group-title="Sao Kê" , 29/09 05:00 🟢 ⚽ Suriname vs Martinique (Tít)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Ftit%2Fplaylist.m3u8&source=saoke
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132743_25712a70.png" group-title="Bông Lau" , 29/09 05:00 🟢 ⚽ Suriname vs Martinique (Trốc Tru (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Ftroctru%2Fplaylist.m3u8&source=bonglau
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/0ca41ddb6e184fa98028cedf95116af1.png" group-title="Gà Vàng" , 29/09 05:00 🟡 🏀 Liga U20 vs Pinheiros LDB U20 (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/127411.png" group-title="Sao Kê" , 29/09 05:00 🟡 ⚽ Suriname vs Martinique (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/suriname-vs-martinique-6ab9bf6a29359ae22fd197de.html
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132743_25712a70.png" group-title="Bông Lau" , 29/09 05:00 🟡 ⚽ Suriname vs Martinique (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1639957
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/24403efa393f55163b5593c435bbe4a7.png" group-title="Gà Vàng" , 29/09 05:30 🟡 ⚽ America MG vs Juventude (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/america-mg-vs-esporte-clube-juventude-ngay-29-09-2026/
@@ -52,13 +52,13 @@ https://gavanglinkr.tv/truc-tiep/america-mg-vs-esporte-clube-juventude-ngay-29-0
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/32078990936778c771e911a0dd16a710.png" group-title="Gà Vàng" , 29/09 05:30 🟡 🏀 Colonias Gold vs San Alfonso (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/8b52121ea31077040883df858233c8ce.png" group-title="Gà Vàng" , 29/09 06:00 🏀 Colegio Los Leones U21 vs Humboldt U21 (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/5705d9383eee879ac93b32996f817700.png" group-title="Gà Vàng" , 29/09 06:00 🏀 Las Animas vs Club Deportivo Universidad Catolica (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/601f0f3a480c9532447f238f19a2f077.png" group-title="Gà Vàng" , 29/09 06:00 🏀 Club Atletico Penarol vs Flamengo (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/8b52121ea31077040883df858233c8ce.png" group-title="Gà Vàng" , 29/09 06:00 🏀 Colegio Los Leones U21 vs Humboldt U21 (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/077bf35869447b9520b7b4ff6e1be381.png" group-title="Gà Vàng" , 29/09 06:30 🏀 Ancud vs CD Puerto Varas (Chưa có link — chờ cập nhật)
