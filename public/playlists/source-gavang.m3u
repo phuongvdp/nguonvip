@@ -1,26 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:14:26 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:17:04 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (14 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (11 trận) =====
 
 # ----- Ngày 2026-09-28 -----
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png" group-title="Gà Vàng" , 28/09 19:30 🟢 ⚽ Malaysia vs Indonesia (CRIS)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/da53b8eeeaa054d55e65f75c3af46ec5.jpg" group-title="Gà Vàng" , 28/09 22:00 🟢 ⚽ MSK Zilina B vs Humenne (ĐOÀN DỰ)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5859fb09031f2a51f7c98b516868455f.png" group-title="Gà Vàng" , 28/09 20:00 🟢 ⚽ Kallithea vs Asteras Tripoli B (NGƯỜI KIẾN)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/6a439a7fb89dded67b208b87.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/8c485d8f7c2de5f04e99da8440453bc7.png" group-title="Gà Vàng" , 28/09 20:00 🟢 ⚽ Marko vs Panthrakikos (THICHDUTHU)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/6a704ad865997681f18c2160.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/a11aed477c8c46bdaa91f350bcd470f0.png" group-title="Gà Vàng" , 28/09 22:15 🟡 🏀 Alytaus Patriotai vs BC Zalgiris II (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
+https://playback.livetl002.com/live/6a5df755b89dded67b39b8bc.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/c5b86fa907b96e38e377ddfe82802cc6.png" group-title="Gà Vàng" , 28/09 23:00 🟡 ⚽ Georgia vs Ukraine (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/georgia-vs-ukraine-ngay-28-09-2026/
