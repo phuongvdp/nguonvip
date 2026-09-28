@@ -1,26 +1,23 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:28:39 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:30:45 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (15 trận) =====
 
 # ----- Ngày 2026-09-28 -----
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6715.png" group-title="Sao Kê" , 28/09 17:25 🟢 ⚽ Japan vs Venezuela (Mơ)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fmo%2Fplaylist.m3u8&source=saoke
-
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/7804.png" group-title="Sao Kê" , 28/09 18:00 🟢 ⚽ South Korea vs Uruguay (Tít)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Ftit%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5823.png" group-title="Sao Kê" , 28/09 19:30 🟢 ⚽ Malaysia vs Indonesia (Bút Chì)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fbutchi%2Fplaylist.m3u8&source=saoke
 
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5893.png" group-title="Sao Kê" , 28/09 21:00 ⚽ Kyrgyzstan vs Maldives (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/kyrgyzstan-vs-maldives-6ab9bf6a29359ae22fd197e2.html
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8268.png" group-title="Sao Kê" , 28/09 23:00 ⚽ Georgia vs Ukraine (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/georgia-vs-ukraine-6ab9bf6a29359ae22fd197d8.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6583.png" group-title="Sao Kê" , 28/09 23:00 ⚽ Armenia vs Montenegro (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/armenia-vs-montenegro-6ab9bf6a29359ae22fd197db.html
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5893.png" group-title="Sao Kê" , 28/09 23:00 ⚽ Kyrgyzstan vs Maldives (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/kyrgyzstan-vs-maldives-6ab9bf6a29359ae22fd197e2.html
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8263.png" group-title="Sao Kê" , 29/09 01:45 ⚽ Belgium vs France (Chưa có link — chờ cập nhật)
