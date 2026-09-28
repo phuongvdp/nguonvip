@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:29:31 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:31:40 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (14 trận), Chuối Chiên (17 trận), Phá Làng (29 trận), Gà Vàng (20 trận), Sao Kê (18 trận), GaVang33 (19 trận), Bông Lau (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (14 trận), Chuối Chiên (17 trận), Phá Làng (27 trận), Gà Vàng (21 trận), Sao Kê (18 trận), GaVang33 (19 trận), Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 28/09 16:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -33,12 +33,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132714_c2b04cf4.png" group-title="Bông Lau" , 28/09 16:00 🟢 ⚽ Singapore vs Bangladesh (Chuối Ngao (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stream.hdplaylink.com%2Fcctvlive%2Fchuoingao%2Fplaylist.m3u8&source=bonglau
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/21649c3d173c8f4ec9d526432ad9f088.png" group-title="Phá Làng" , 28/09 16:30 🟡 ⚽ East Bengal FC - Minerva Punjab (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#318q66h8zn61qo9
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5009222fbdc9871d7f7a1b91642e82ef.png" group-title="Phá Làng" , 28/09 16:30 🟡 ⚽ Turkmenistan - Palestine (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#vjxm8ghkv9y6r6o
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_the_Republic_of_China.svg.webp" group-title="Khán Đài" , 28/09 17:00 🟡 🏐 Đài Loan vs Hàn Quốc (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/dai-loan-vs-han-quoc
@@ -222,6 +216,9 @@ https://gavanglinkr.tv/truc-tiep/msk-zilina-b-vs-humenne-ngay-28-09-2026/
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/718ad64f1a3de007af0de47a9ca2df8f.jpg" group-title="GaVang33" , 28/09 22:00 ⚽ Al Kharaitiyat vs Al-Wakrah Sports Club (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/al-kharaitiyat-vs-al-wakrah-sports-club-luc-2200-ngay-28-09-2026-l5ergphk054wr8k
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/a11aed477c8c46bdaa91f350bcd470f0.png" group-title="Gà Vàng" , 28/09 22:15 🏀 Alytaus Patriotai vs BC Zalgiris II (Chưa có link — chờ cập nhật)
+https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_680.jpg" group-title="Khán Đài" , 28/09 23:00 ⚽ Georgia vs Ukraine (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/georgia-vs-ukraine-28-09-2026-790834

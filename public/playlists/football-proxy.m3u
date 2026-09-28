@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:29:31 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:31:40 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (12 trận), Chuối Chiên (14 trận), Phá Làng (26 trận), Gà Vàng (13 trận), Sao Kê (18 trận), GaVang33 (19 trận), Bông Lau (14 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (12 trận), Chuối Chiên (14 trận), Phá Làng (24 trận), Gà Vàng (13 trận), Sao Kê (18 trận), GaVang33 (19 trận), Bông Lau (14 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 28/09 16:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -30,12 +30,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132714_c2b04cf4.png" group-title="Bông Lau" , 28/09 16:00 🟢 ⚽ Singapore vs Bangladesh (Chuối Ngao (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stream.hdplaylink.com%2Fcctvlive%2Fchuoingao%2Fplaylist.m3u8&source=bonglau
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/21649c3d173c8f4ec9d526432ad9f088.png" group-title="Phá Làng" , 28/09 16:30 🟡 ⚽ East Bengal FC - Minerva Punjab (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#318q66h8zn61qo9
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5009222fbdc9871d7f7a1b91642e82ef.png" group-title="Phá Làng" , 28/09 16:30 🟡 ⚽ Turkmenistan - Palestine (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#vjxm8ghkv9y6r6o
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134255_1b35202d.png" group-title="Sao Kê" , 28/09 17:20 🟡 ⚽ Kazakhstan vs Japan (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/kazakhstan-vs-japan-6ab9bbaa8bb9fae0f7944467.html
