@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:57:25 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:59:35 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (27 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (26 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png!w80" group-title="Phá Làng" , 28/09 19:30 🟢 ⚽ Malaysia - Indonesia (LÝ LONG)
@@ -10,20 +10,17 @@ https://lilive1.eu.cc/live/a9d4a438728241a9bddfdfdea05dfcdd/playlist.m3u8|User-A
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/0d44700cb350e4546e802f0a3eaec9aa.png!w80" group-title="Phá Làng" , 28/09 20:00 🟢 🏐 Manisa BB Women - THY Nữ (LÝ LÊN LỬA (Server 1))
 https://pull.digitalcdn.net/live/c45bb9805c3f4e15902ce8d01e979cc0/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fd721e1dea4c57ecba7d35cd012123ed.png" group-title="Phá Làng" , 28/09 21:00 🟡 ⚽ Kyrgyzstan - Maldives (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#dn1m1gh9v7eomoe
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fd721e1dea4c57ecba7d35cd012123ed.png" group-title="Phá Làng" , 28/09 21:00 🟢 ⚽ Kyrgyzstan - Maldives (Server 1)
+https://lilive1.eu.cc/live/9797e9cc77f43536747bf5cdc810c96a/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ba3408fba466a488fe20797d5698444d.png" group-title="Phá Làng" , 28/09 21:00 🟡 ⚽ North Macedonia U21 - Russia U21 (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#ednm9wh582eyryo
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ba3408fba466a488fe20797d5698444d.png" group-title="Phá Làng" , 28/09 21:00 🟢 ⚽ North Macedonia U21 - Russia U21 (Server 1)
+https://lilive1.eu.cc/live/3bf0ca3b8e1da859acf198c61b79a497/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f6c8a28bf01610447b86c48ec05ce1b4.png" group-title="Phá Làng" , 28/09 21:00 🟡 ⚽ Maribor - HNK Gorica (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#jw2r09h5467xrz8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fd721e1dea4c57ecba7d35cd012123ed.png" group-title="Phá Làng" , 28/09 21:00 🟡 ⚽ Kyrgyzstan - Maldives (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#zp5rzgh3y61dq82
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/85e4815a287ffb7dae9cb3235c13de47.png" group-title="Phá Làng" , 28/09 21:40 🟡 ⚽ Al Arabi(UAE) - Al Thaid (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#2y8m4zhv0pgyql0
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d5db95a6441ae92e5dd150663f89dc64.png" group-title="Phá Làng" , 28/09 22:00 ⚽ Leixoes U23 - Vizela U23 (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#dj2ryohlzx10q1z

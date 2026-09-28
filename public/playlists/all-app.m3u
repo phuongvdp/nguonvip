@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:57:24 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:59:34 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (23 trận), Chuối Chiên (12 trận), Phá Làng (27 trận), Gà Vàng (18 trận), Sao Kê (14 trận), GaVang33 (23 trận), Bông Lau (12 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (23 trận), Chuối Chiên (12 trận), Phá Làng (26 trận), Gà Vàng (18 trận), Sao Kê (14 trận), GaVang33 (23 trận), Bông Lau (12 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/malaysia.png" group-title="Giờ Vàng" , 28/09 19:30 🟢 ⚽ Malaysia vs Indonesia (Giovang 1)
@@ -40,23 +40,20 @@ https://playback.livetl002.com/live/6a704ad865997681f18c2160.m3u8|User-Agent=Moz
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/cbb6ad45aa0de955fe139e57eb64cc7e.png" group-title="GaVang33" , 28/09 20:00 🟢 ⚽ FK Graficar Beograd vs Teleoptik (Gà Siêu Tồ)
 https://live2.zktsva.app/live/796315.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/england-u17.png" group-title="Giờ Vàng" , 28/09 21:00 🟢 ⚽ Anh U17 vs U17 Israel (Giovang 1)
-https://eqr2hdarxfliv.vcdn.cloud/1790519059_hd/1790519059_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260604_133429_24e1757b.webp" group-title="Chuối Chiên" , 28/09 21:00 🟢 ⚽ Kyrgyzstan W vs Maldives (Chuối Lá (HD))
 https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fd721e1dea4c57ecba7d35cd012123ed.png" group-title="Phá Làng" , 28/09 21:00 🟢 ⚽ Kyrgyzstan - Maldives (Server 1)
+https://lilive1.eu.cc/live/9797e9cc77f43536747bf5cdc810c96a/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ba3408fba466a488fe20797d5698444d.png" group-title="Phá Làng" , 28/09 21:00 🟢 ⚽ North Macedonia U21 - Russia U21 (Server 1)
+https://lilive1.eu.cc/live/3bf0ca3b8e1da859acf198c61b79a497/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5893.png" group-title="Sao Kê" , 28/09 21:00 🟢 ⚽ Kyrgyzstan vs Maldives (Củ Cải)
 https://stm6dad62063600.stream.hdplaylink.com/sklive/cucai/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://vip3.saoketv40.xyz/japan-vs-venezuela-6ab9bf6a29359ae22fd197e3.html
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260604_133429_24e1757b.webp" group-title="Bông Lau" , 28/09 21:00 🟢 ⚽ Kyrgyzstan W vs Maldives (Chuối Lá (HD))
 https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fd721e1dea4c57ecba7d35cd012123ed.png" group-title="Phá Làng" , 28/09 21:00 🟡 ⚽ Kyrgyzstan - Maldives (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#dn1m1gh9v7eomoe
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ba3408fba466a488fe20797d5698444d.png" group-title="Phá Làng" , 28/09 21:00 🟡 ⚽ North Macedonia U21 - Russia U21 (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#ednm9wh582eyryo
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f6c8a28bf01610447b86c48ec05ce1b4.png" group-title="Phá Làng" , 28/09 21:00 🟡 ⚽ Maribor - HNK Gorica (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#jw2r09h5467xrz8
@@ -69,9 +66,6 @@ https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/a803893437396385432a88e850b29556.png" group-title="Gà Vàng" , 28/09 21:30 🟡 🏀 Marupe vs BK Jekabpils (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/85e4815a287ffb7dae9cb3235c13de47.png" group-title="Phá Làng" , 28/09 21:40 🟡 ⚽ Al Arabi(UAE) - Al Thaid (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#2y8m4zhv0pgyql0
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/hf8B8MYA-jiXeTAAb.png" group-title="Giờ Vàng" , 28/09 21:45 🟡 🏀 Indian Railway vs Al Ittihad (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-indian-railway-vs-al-ittihad-28-09-ho5dj40nxg4d
