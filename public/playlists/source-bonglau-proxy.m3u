@@ -1,14 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:43:20 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:46:19 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Bông Lau (6 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Bông Lau (5 trận) =====
 
 # ----- Ngày 2026-09-29 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125446_7256014f.png" group-title="Bông Lau" , 29/09 01:45 🟢 ⚽ Belgium vs France (Chuối Ngao (HD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stream.hdplaylink.com%2Fcctvlive%2Fchuoingao%2Fplaylist.m3u8&source=bonglau
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_ede472a3.png" group-title="Bông Lau" , 29/09 04:00 🟡 ⚽ Cuba vs Bonaire (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1639956
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_ede472a3.png" group-title="Bông Lau" , 29/09 04:00 🟢 ⚽ Cuba vs Bonaire (Chuối Tây (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitay%2Fplaylist.m3u8&source=bonglau
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132743_25712a70.png" group-title="Bông Lau" , 29/09 05:00 ⚽ Suriname vs Martinique (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1639957
