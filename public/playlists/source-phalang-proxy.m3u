@@ -1,20 +1,17 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:55:59 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:58:05 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (27 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (26 trận) =====
 
 # ----- Ngày 2026-09-28 -----
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/dd0a8169c1c22efabb56434f3631159b.png!w80" group-title="Phá Làng" , 28/09 17:00 🟢 🏐 Đài Loan TQ - Hàn Quốc (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#2c189f9fdbe44f7190791df1d7019889
-
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/f9ce800b0fd64b339c2bcf8ec7d9ec0e.png!w80" group-title="Phá Làng" , 28/09 17:25 🟢 ⚽ Japan - Venezuela (LÝ LÀNG LÁ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F2c43ced66b0237da67beead6ef921afe%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/a3f9a9a7e81748828ce092f0dd488479.png!w80" group-title="Phá Làng" , 28/09 18:00 🟢 ⚽ South Korea - Uruguay (LÝ LA LÀNG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fc5c38ecd1f9b448c56200e81077f7bc1%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png!w80" group-title="Phá Làng" , 28/09 19:30 🟡 ⚽ Malaysia - Indonesia (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#2y8m4zh5l7g4ql0
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png!w80" group-title="Phá Làng" , 28/09 19:30 🟢 ⚽ Malaysia - Indonesia (LÝ LONG)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fa9d4a438728241a9bddfdfdea05dfcdd%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/0d44700cb350e4546e802f0a3eaec9aa.png!w80" group-title="Phá Làng" , 28/09 20:00 🏐 Manisa BB Women - THY Nữ (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#e676d1ec76ef4493ad9fb416e01bc2de
