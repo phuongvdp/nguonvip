@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:32:34 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:35:10 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (22 trận), Chuối Chiên (4 trận), Phá Làng (39 trận), Gà Vàng (8 trận), Sao Kê (5 trận), GaVang33 (25 trận), Bông Lau (4 trận) =====
 
@@ -16,6 +16,9 @@ https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8|User-Agent=Mozilla/5.
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/24403efa393f55163b5593c435bbe4a7.png" group-title="Gà Vàng" , 29/09 05:30 🟢 ⚽ America MG vs Juventude (cố tư nghiêm)
 https://playback.livetl002.com/live/69a1aaa7230584579e2d5ce1.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
 
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/22884d32389000f077ac6ae827be3d1c.png" group-title="Phá Làng" , 29/09 07:00 🟢 🏐 Việt Nam - Philipines (LÝ LIỀU LĨNH (Server 1))
+https://pull.digitalcdn.net/live/56b98b4978114f32b2ebe926e048ff89/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
+
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 29/09 07:00 🟡 ⚽ ASIAD 2026 vs ASIAD 2026 (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-asiad-2026-vs-asiad-2026-29-09-asooi3g7yvxg
 
@@ -24,9 +27,6 @@ https://giovang.city/truc-tiep-jamaica-vs-honduras-29-09-6aadd0cc45163e9e3e085d1
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132739_776293e4.png" group-title="Chuối Chiên" , 29/09 07:00 🟡 ⚽ Jamaica vs Honduras (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1639958/jamaica-vs-honduras
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/22884d32389000f077ac6ae827be3d1c.png" group-title="Phá Làng" , 29/09 07:00 🟡 🏐 Việt Nam - Philipines (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#35fecd2194194fd28c14084c6044b2b9
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f7779710d2026dca44c41da7a9b7c748.png" group-title="Gà Vàng" , 29/09 07:00 🟡 ⚽ Jamaica vs Honduras (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/jamaica-vs-honduras-ngay-29-09-2026/
