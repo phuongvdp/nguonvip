@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:07:13 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:09:27 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (29 trận) =====
 
@@ -13,8 +13,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/9749f17f2a26c0ee6558c42029e739d8.png!w80" group-title="Phá Làng" , 28/09 17:20 🟢 🏐 Kazakhstan - Nhật Bản (LÝ LIỀU LĨNH (Server 1))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2Fd128746e31954fdb95a1e2b73495b969%2Findex.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/f9ce800b0fd64b339c2bcf8ec7d9ec0e.png!w80" group-title="Phá Làng" , 28/09 17:25 🟡 ⚽ Japan - Venezuela (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#vjxm8ghe1159r6o
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/f9ce800b0fd64b339c2bcf8ec7d9ec0e.png!w80" group-title="Phá Làng" , 28/09 17:25 🟢 ⚽ Japan - Venezuela (LÝ LÀNG LÁ)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F2c43ced66b0237da67beead6ef921afe%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/a3f9a9a7e81748828ce092f0dd488479.png!w80" group-title="Phá Làng" , 28/09 18:00 🟡 ⚽ South Korea - Uruguay (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#x7lm7phxgn4ym2w
