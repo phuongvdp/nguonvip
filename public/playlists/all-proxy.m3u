@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:44:52 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:47:04 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (15 trận), Chuối Chiên (18 trận), Phá Làng (30 trận), Gà Vàng (21 trận), Sao Kê (19 trận), GaVang33 (18 trận), Bông Lau (18 trận) =====
 
@@ -34,6 +34,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_483.jpg" group-title="Khán Đài" , 28/09 16:00 🟢 ⚽ Singapore vs Bangladesh (Pháo Thủ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa4%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dfaaa23580764370ed378ecd708c9f262&source=khandaitv
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132714_c2b04cf4.png" group-title="Chuối Chiên" , 28/09 16:00 🟢 ⚽ Singapore vs Bangladesh (Chuối Ngao (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stream.hdplaylink.com%2Fcctvlive%2Fchuoingao%2Fplaylist.m3u8&source=chuoichientv
+
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/bfa20d86a59044ef90a4609dde03985c.png!w80" group-title="Phá Làng" , 28/09 16:00 🟢 ⚽ Singapore - Bangladesh (LÝ LINH LỰC)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F7f27f0744f58cc33d82144853fef5271%2Fplaylist.m3u8&source=phalang
 
@@ -43,8 +46,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stre
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/bfa20d86a59044ef90a4609dde03985c.png" group-title="GaVang33" , 28/09 16:00 🟢 ⚽ Singapore vs Bangladesh (Gà Siêu Bệu)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F289650.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132714_c2b04cf4.png" group-title="Chuối Chiên" , 28/09 16:00 🟡 ⚽ Singapore vs Bangladesh (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1641708/singapore-vs-bangladesh
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132714_c2b04cf4.png" group-title="Bông Lau" , 28/09 16:00 🟢 ⚽ Singapore vs Bangladesh (Chuối Ngao (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stream.hdplaylink.com%2Fcctvlive%2Fchuoingao%2Fplaylist.m3u8&source=bonglau
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/bfa20d86a59044ef90a4609dde03985c.png" group-title="Gà Vàng" , 28/09 16:00 🟡 ⚽ Singapore vs Bangladesh (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/singapore-vs-bangladesh-ngay-28-09-2026/
@@ -54,9 +57,6 @@ https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/d12bf57e7104c5e8c90c1dd6f71f39fb.png" group-title="Gà Vàng" , 28/09 16:00 🟡 🏀 CSJL Knight vs Arellano University Chiefs (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132714_c2b04cf4.png" group-title="Bông Lau" , 28/09 16:00 🟡 ⚽ Singapore vs Bangladesh (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1641708
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/21649c3d173c8f4ec9d526432ad9f088.png" group-title="Phá Làng" , 28/09 16:30 🟡 ⚽ East Bengal FC - Minerva Punjab (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66h8zn61qo9
