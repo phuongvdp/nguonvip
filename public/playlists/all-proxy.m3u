@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:07:55 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:10:15 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (15 trận), Chuối Chiên (18 trận), Phá Làng (31 trận), Gà Vàng (21 trận), Sao Kê (20 trận), GaVang33 (18 trận), Bông Lau (18 trận) =====
 
@@ -34,6 +34,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stre
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Bông Lau" , 28/09 14:00 🟢 🏐 Việt Nam vs Qatar (Chuối Kem (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikem%2Fplaylist.m3u8&source=bonglau
 
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/bfa20d86a59044ef90a4609dde03985c.png!w80" group-title="Phá Làng" , 28/09 16:00 🟢 ⚽ Singapore - Bangladesh (LÝ LINH LỰC)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F7f27f0744f58cc33d82144853fef5271%2Fplaylist.m3u8&source=phalang
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5825.png" group-title="Sao Kê" , 28/09 16:00 🟢 ⚽ Singapore vs Bangladesh (Kai)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fkai%2Fplaylist.m3u8&source=saoke
 
@@ -45,9 +48,6 @@ https://giovang.city/truc-tiep-imus-agimat-vs-zamboanga-familys-brand-sardines-2
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132714_c2b04cf4.png" group-title="Chuối Chiên" , 28/09 16:00 🟡 ⚽ Singapore vs Bangladesh (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641708/singapore-vs-bangladesh
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/bfa20d86a59044ef90a4609dde03985c.png!w80" group-title="Phá Làng" , 28/09 16:00 🟡 ⚽ Singapore - Bangladesh (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#dj2ryohl8pj2q1z
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/bfa20d86a59044ef90a4609dde03985c.png" group-title="Gà Vàng" , 28/09 16:00 🟡 ⚽ Singapore vs Bangladesh (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/singapore-vs-bangladesh-ngay-28-09-2026/
