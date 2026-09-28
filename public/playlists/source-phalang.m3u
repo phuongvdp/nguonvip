@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:49:33 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:52:07 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (17 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ebfd14346009563b7dff0d03503d02fb.png" group-title="Phá Làng" , 28/09 23:00 🟢 ⚽ Zimbabwe - Democratic Republic of the Congo (Server 1)
@@ -9,25 +9,10 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/cf72a9ed47db9e486397e5221cc062d8/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e7d3c57cebd8447a0eccae2ca753551f.png" group-title="Phá Làng" , 28/09 23:00 🟢 ⚽ Equatorial Guinea - Sierra Leone (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/4a12d0e61e1ff75f3ccb503d89f7565a/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/c5b86fa907b96e38e377ddfe82802cc6.png!w80" group-title="Phá Làng" , 28/09 23:00 🟢 ⚽ Georgia - Ukraine (LÝ LA LÀNG)
 #EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/79b12f34ca610b1fb49572424ab162d8/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/07870f1c7aff43eaee0bb426c285a59b.png" group-title="Phá Làng" , 28/09 23:00 🟢 ⚽ Latvia - Cyprus (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/55294dd7aba7f56bd311cb052abd5c79/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f8eb0eb1367892b2327b6584f57a1516.png" group-title="Phá Làng" , 28/09 23:00 🟢 ⚽ Armenia - Montenegro (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/25a317eab8b84b8ba581ea3a2099eecc/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8cc2d84aedffe2be1c24c786311292b5.png" group-title="Phá Làng" , 28/09 23:00 🟢 ⚽ Central African Republic - Burkina Faso (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang.live
