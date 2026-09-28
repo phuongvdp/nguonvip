@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:26:42 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:29:31 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (24 trận), Chuối Chiên (8 trận), Phá Làng (34 trận), Gà Vàng (18 trận), Sao Kê (10 trận), GaVang33 (30 trận), Bông Lau (8 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (24 trận), Chuối Chiên (8 trận), Phá Làng (34 trận), Gà Vàng (15 trận), Sao Kê (10 trận), GaVang33 (30 trận), Bông Lau (8 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b6728832f1504989e57f8a43479429ec.png" group-title="Gà Vàng" , 29/09 01:30 🟢 ⚽ Leganes vs Castellon (MáN NúI)
@@ -55,17 +55,11 @@ https://lilive1.eu.cc/live/311df02ce56b53d503b259811ae86f99/playlist.m3u8|User-A
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/55e5768d59617617dd24803ef9d1cb6d.png" group-title="Phá Làng" , 29/09 01:45 🟢 ⚽ Northern Ireland - Hungary (Server 1)
 https://lilive1.eu.cc/live/292e38bdff02e442cdd3102e7573876c/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ea0e9d2d1bda4cbfaf226902ea55a3eb.png" group-title="Gà Vàng" , 29/09 01:45 🟢 ⚽ Belgium vs France (SAITAMA)
-https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a175df50667b42ef97dcb52a9a8b1c1a.png" group-title="Gà Vàng" , 29/09 01:45 🟢 ⚽ Turkiye vs Italy (GIàng A Dân)
 https://playback.livetl002.com/live/6a5b13ceb36a14387baeddaa.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/2c0b283b96174c34bff7445f22b00618.png" group-title="Gà Vàng" , 29/09 01:45 🟢 ⚽ Sweden vs Poland (khang hi)
 https://playback.livetl002.com/live/6a7c0d8f65997681f18cacc4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/218344619d8fb95d504ccfa11804073f.png" group-title="Gà Vàng" , 29/09 01:45 🟢 ⚽ Northern Ireland vs Hungary (NGƯỜI KIẾN)
-https://playback.livetl002.com/live/6a439a7fb89dded67b208b87.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/1f8d87e1161af68b81bace188a1ec624.png" group-title="Gà Vàng" , 29/09 01:45 🟢 ⚽ Romania vs Bosnia Herzegovina (SÚP LƠ)
 https://playback.livetl002.com/live/6a9a5525864ea536c2577392.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
@@ -105,9 +99,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8|User-Agent=Mozilla/
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134252_884d8f9e.png" group-title="Bông Lau" , 29/09 01:45 🟢 ⚽ Northern Ireland vs Hungary (Chuối Nhỏ (HD))
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/7cb09c45e2124a08ac950d31c7ebe0a6.png" group-title="Gà Vàng" , 29/09 02:00 🟢 ⚽ Tunisia vs Botswana (MeoMeo)
-https://playback.livetl002.com/live/69be75e0a0a45974afb67776.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_ede472a3.png" group-title="Chuối Chiên" , 29/09 04:00 🟡 ⚽ Cuba vs Bonaire (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1639956/cuba-vs-bonaire
