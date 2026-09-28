@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 02:17:32 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 02:19:39 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (9 trận) =====
 
@@ -16,8 +16,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stre
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250825_180323_118bdf95.png" group-title="Chuối Chiên" , 29/09 01:45 🟢 ⚽ Sweden vs Poland (Chuối Sấy (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stream.hdplaylink.com%2Fcctvlive%2Fchuoisay%2Fplaylist.m3u8&source=chuoichientv
 
-#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/27411.png" group-title="Chuối Chiên" , 29/09 03:30 ⚽ Ind. Yumbo vs Orsomarso (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1549646/ind-yumbo-vs-orsomarso
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_ede472a3.png" group-title="Chuối Chiên" , 29/09 04:00 ⚽ Cuba vs Bonaire (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1639956/cuba-vs-bonaire
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132743_25712a70.png" group-title="Chuối Chiên" , 29/09 05:00 ⚽ Suriname vs Martinique (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1639957/suriname-vs-martinique
