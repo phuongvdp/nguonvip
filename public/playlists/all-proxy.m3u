@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:49:16 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 09:51:49 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (17 trận), Chuối Chiên (20 trận), Phá Làng (25 trận), Gà Vàng (21 trận), Sao Kê (22 trận), GaVang33 (21 trận), Bông Lau (20 trận) =====
 
@@ -42,12 +42,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 28/09 10:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1789838904_hd%2F1789838904_hd%40720p.m3u8&source=giovang
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250920_011102_024ecd13.png" group-title="Chuối Chiên" , 28/09 10:00 🟢 ⚽ Necaxa vs Club America (Chuối To (HD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoito%2Fplaylist.m3u8&source=chuoichientv
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250920_011102_024ecd13.png" group-title="Bông Lau" , 28/09 10:00 🟢 ⚽ Necaxa vs Club America (Chuối To (HD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoito%2Fplaylist.m3u8&source=bonglau
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/necaxa.png" group-title="Giờ Vàng" , 28/09 10:00 🟡 ⚽ Necaxa vs Club America (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-necaxa-vs-club-america-28-09-6ab8db2624d46db8703fbb10
@@ -500,8 +494,14 @@ https://lau05.bonglautv1.pro/truc-tiep/1639958
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/jilBtfFG-0xLZRP53.png" group-title="Giờ Vàng" , 29/09 08:00 🏐 Việt Nam vs Hồng Kông (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-viet-nam-vs-hong-kong-29-09-ya8md5yst15f
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Chuối Chiên" , 29/09 08:00 🏐 Hong Kong vs Việt Nam (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/994688/hong-kong-vs-viet-nam
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Sao Kê" , 29/09 08:00 ⚽ Hong Kong vs Việt Nam (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/hong-kong-vs-viet-nam-6ab9bbc0e10d9d63c6c6a5c8.html
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Bông Lau" , 29/09 08:00 🏐 Hong Kong vs Việt Nam (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/994688
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/guatemala.png" group-title="Giờ Vàng" , 29/09 09:00 ⚽ Guatemala vs El Salvador (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-guatemala-vs-el-salvador-29-09-6aaf224e4e725bdee905b7c9

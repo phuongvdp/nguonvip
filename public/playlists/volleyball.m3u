@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:49:16 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 09:51:49 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (5 trận), Khán Đài (5 trận), Chuối Chiên (4 trận), Phá Làng (6 trận), Bông Lau (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (5 trận), Khán Đài (5 trận), Chuối Chiên (5 trận), Phá Làng (6 trận), Bông Lau (5 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/S2JTFXGG-vafZSxgs.png" group-title="Giờ Vàng" , 28/09 11:00 🏐 Pakistan vs Uzbekistan (Chưa có link — chờ cập nhật)
@@ -76,3 +76,9 @@ https://phalang.live/trang-chu#e676d1ec76ef4493ad9fb416e01bc2de
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/jilBtfFG-0xLZRP53.png" group-title="Giờ Vàng" , 29/09 08:00 🏐 Việt Nam vs Hồng Kông (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-viet-nam-vs-hong-kong-29-09-ya8md5yst15f
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Chuối Chiên" , 29/09 08:00 🏐 Hong Kong vs Việt Nam (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/994688/hong-kong-vs-viet-nam
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Bông Lau" , 29/09 08:00 🏐 Hong Kong vs Việt Nam (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/994688
