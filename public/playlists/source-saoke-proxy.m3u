@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:41:14 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:44:09 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (6 trận) =====
 
@@ -10,11 +10,11 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stre
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/287981.png" group-title="Sao Kê" , 28/09 07:00 🟢 ⚽ Curacao vs Nicaragua (Tít)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Ftit%2Fplaylist.m3u8&source=saoke
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/7724.png" group-title="Sao Kê" , 28/09 08:00 🟡 ⚽ Trinidad and Tobago vs Dominican Republic (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/trinidad-and-tobago-vs-dominican-republic-6ab9b5520c88a62cbbe0d3f2.html
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/7724.png" group-title="Sao Kê" , 28/09 08:00 🟢 ⚽ Trinidad and Tobago vs Dominican Republic (Bút Chì)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fbutchi%2Fplaylist.m3u8&source=saoke
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Sao Kê" , 28/09 08:00 🟡 ⚽ Indonesia vs Kyrgyzstan (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/indonesia-vs-kyrgyzstan-w-6ab9b5858bb9fae0f793ea18.html
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Sao Kê" , 28/09 08:00 🟢 ⚽ Indonesia vs Kyrgyzstan (Teppy)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fteppy%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1842.png" group-title="Sao Kê" , 28/09 10:10 ⚽ Necaxa vs CF América (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/necaxa-vs-cf-america-6ab9b5520c88a62cbbe0d3f1.html

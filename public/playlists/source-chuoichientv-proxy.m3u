@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:41:14 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:44:08 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (5 trận) =====
 
@@ -7,8 +7,8 @@
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131608_f8dbdd17.png" group-title="Chuối Chiên" , 28/09 06:00 🟢 ⚽ Columbus Crew vs Inter Miami (Chuối Chao (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoichao%2Fplaylist.m3u8&source=chuoichientv
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131434_fbad589d.png" group-title="Chuối Chiên" , 28/09 08:00 🟡 ⚽ Leon vs FC Juarez (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1550982/leon-vs-fc-juarez
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131434_fbad589d.png" group-title="Chuối Chiên" , 28/09 08:00 🟢 ⚽ Leon vs FC Juarez (Chuối Kem (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikem%2Fplaylist.m3u8&source=chuoichientv
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 28/09 08:00 🟡 🏐 Indonesia vs Kyrgyzstan W (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/995429/indonesia-vs-kyrgyzstan-w
