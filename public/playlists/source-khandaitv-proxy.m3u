@@ -1,17 +1,17 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:30:22 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:33:37 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (24 trận) =====
 
 # ----- Ngày 2026-09-28 -----
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_680.jpg" group-title="Khán Đài" , 28/09 23:00 🟢 ⚽ Georgia vs Ukraine (Chim Nhỏ)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa5%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3D67cc5bcdcabb081229f5406e5b07483d&source=khandaitv
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_680.jpg" group-title="Khán Đài" , 28/09 23:00 🟢 ⚽ Georgia vs Ukraine (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/georgia-vs-ukraine-28-09-2026-790834
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_703.jpg" group-title="Khán Đài" , 28/09 23:00 🟢 ⚽ Armenia vs Montenegro (Enzo)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa2%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dd3bfcbaa36f949863f22cc89e1cc1afa&source=khandaitv
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_703.jpg" group-title="Khán Đài" , 28/09 23:00 🟢 ⚽ Armenia vs Montenegro (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/armenia-vs-montenegro-28-09-2026-790928
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_694.jpg" group-title="Khán Đài" , 28/09 23:00 🟢 ⚽ Latvia vs Cyprus (Kền Kền)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa6%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3D16059952b038cc8982ab6d1980711dc9&source=khandaitv
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_694.jpg" group-title="Khán Đài" , 28/09 23:00 🟢 ⚽ Latvia vs Cyprus (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/latvia-vs-cyprus-28-09-2026-790929
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_682.jpg" group-title="Khán Đài" , 29/09 01:45 ⚽ Northern Ireland vs Hungary (Chưa có link — chờ cập nhật)
