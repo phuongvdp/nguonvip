@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:26:04 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:28:42 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (15 trận), Chuối Chiên (18 trận), Phá Làng (30 trận), Gà Vàng (21 trận), Sao Kê (19 trận), GaVang33 (18 trận), Bông Lau (18 trận) =====
 
@@ -53,6 +53,10 @@ https://lilive1.eu.cc/live/7f27f0744f58cc33d82144853fef5271/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/kai/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/bfa20d86a59044ef90a4609dde03985c.png" group-title="GaVang33" , 28/09 16:00 🟢 ⚽ Singapore vs Bangladesh (Gà Siêu Bệu)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://live2.zktsva.app/live/289650.m3u8
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/singapore.png" group-title="Giờ Vàng" , 28/09 16:00 🟡 ⚽ Singapore vs Bangladesh (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-singapore-vs-bangladesh-28-09-6ab468f8b057b828a8092bce
 
@@ -70,9 +74,6 @@ https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/d12bf57e7104c5e8c90c1dd6f71f39fb.png" group-title="Gà Vàng" , 28/09 16:00 🟡 🏀 CSJL Knight vs Arellano University Chiefs (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/bfa20d86a59044ef90a4609dde03985c.png" group-title="GaVang33" , 28/09 16:00 🟡 ⚽ Singapore vs Bangladesh (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/singapore-vs-bangladesh-luc-1600-ngay-28-09-2026-dj2ryohl8pj2q1z
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132714_c2b04cf4.png" group-title="Bông Lau" , 28/09 16:00 🟡 ⚽ Singapore vs Bangladesh (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1641708
@@ -158,10 +159,10 @@ https://gavanglinkr.tv/truc-tiep/south-korea-vs-uruguay-ngay-28-09-2026/
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/ae4049b51eb9b2a3aa6c9b27a307c6dc.png" group-title="Gà Vàng" , 28/09 18:00 🏀 Mindoro Tamaraws vs Basilan Viva Portmasters (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/b33a4adcf6d0525a9d755aaef90a272a.png" group-title="Gà Vàng" , 28/09 18:00 🏀 SShOR-Lokomotiv-Kuban vs TSK Ural (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/76d01339f903a883f48e2dfda14a2bcb.png" group-title="Gà Vàng" , 28/09 18:00 🏀 Chelyabinsk Women vs Spartak Moscow Region B Women (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/76d01339f903a883f48e2dfda14a2bcb.png" group-title="Gà Vàng" , 28/09 18:00 🏀 Chelyabinsk Women vs Spartak Moscow Region B Women (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/b33a4adcf6d0525a9d755aaef90a272a.png" group-title="Gà Vàng" , 28/09 18:00 🏀 SShOR-Lokomotiv-Kuban vs TSK Ural (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/7804.png" group-title="Sao Kê" , 28/09 18:00 ⚽ South Korea vs Uruguay (Chưa có link — chờ cập nhật)
