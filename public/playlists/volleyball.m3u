@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:19:34 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:22:37 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Khán Đài (2 trận), Chuối Chiên (3 trận), Phá Làng (3 trận), Bông Lau (3 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Chuối Chiên (3 trận), Phá Làng (3 trận), Bông Lau (3 trận) =====
 
 # ----- Ngày 2026-09-28 -----
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_the_Republic_of_China.svg.webp" group-title="Khán Đài" , 28/09 17:00 🟡 🏐 Đài Loan vs Hàn Quốc (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/dai-loan-vs-han-quoc
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250627_220721_a791691e.png" group-title="Chuối Chiên" , 28/09 17:00 🟡 🏐 Chinese Taipei vs South Korea (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/991840/chinese-taipei-vs-south-korea
 
@@ -16,19 +13,16 @@ https://phalang.live/trang-chu#2c189f9fdbe44f7190791df1d7019889
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250627_220721_a791691e.png" group-title="Bông Lau" , 28/09 17:00 🟡 🏐 Chinese Taipei vs South Korea (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/991840
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/b7IyW1Br-Ea76SXrf.png" group-title="Giờ Vàng" , 28/09 17:20 🏐 Nhật Bản vs Kazakhstan (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/b7IyW1Br-Ea76SXrf.png" group-title="Giờ Vàng" , 28/09 17:20 🟡 🏐 Nhật Bản vs Kazakhstan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-nhat-ban-vs-kazakhstan-28-09-me78b3rb5hp6
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Khán Đài" , 28/09 17:20 🏐 Nhật Bản vs Kazakhstan (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/nhat-ban-vs-kazakhstan
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134255_1b35202d.png" group-title="Chuối Chiên" , 28/09 17:20 🏐 Kazakhstan vs Japan (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134255_1b35202d.png" group-title="Chuối Chiên" , 28/09 17:20 🟡 🏐 Kazakhstan vs Japan (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/999617/kazakhstan-vs-japan
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/9749f17f2a26c0ee6558c42029e739d8.png!w80" group-title="Phá Làng" , 28/09 17:20 🏐 Kazakhstan - Nhật Bản (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/9749f17f2a26c0ee6558c42029e739d8.png!w80" group-title="Phá Làng" , 28/09 17:20 🟡 🏐 Kazakhstan - Nhật Bản (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#b23d6420926249aa9a00bde8d20530e0
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134255_1b35202d.png" group-title="Bông Lau" , 28/09 17:20 🏐 Kazakhstan vs Japan (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134255_1b35202d.png" group-title="Bông Lau" , 28/09 17:20 🟡 🏐 Kazakhstan vs Japan (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/999617
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/0d44700cb350e4546e802f0a3eaec9aa.png!w80" group-title="Phá Làng" , 28/09 20:00 🏐 Manisa BB Women - THY Nữ (Chưa có link — chờ cập nhật)
