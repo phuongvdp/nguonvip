@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:39:48 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:42:26 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (14 trận), Chuối Chiên (13 trận), Phá Làng (23 trận), Gà Vàng (12 trận), Sao Kê (16 trận), GaVang33 (23 trận), Bông Lau (13 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (15 trận), Chuối Chiên (13 trận), Phá Làng (23 trận), Gà Vàng (12 trận), Sao Kê (16 trận), GaVang33 (23 trận), Bông Lau (13 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 28/09 16:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -87,12 +87,14 @@ https://live2.zktsva.app/live/303098.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/tajikistan.png" group-title="Giờ Vàng" , 28/09 19:00 🟢 ⚽ Tajikistan vs Palestine (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790518769_hd/1790518769_hd@720p.m3u8
+
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/79d0360cd882c01f1ac008b3bb85feb3.png" group-title="GaVang33" , 28/09 19:00 🟢 ⚽ Tajikistan vs Palestine (Gà Siêu Nhí)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/301263.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/tajikistan.png" group-title="Giờ Vàng" , 28/09 19:00 🟡 ⚽ Tajikistan vs Palestine (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-tajikistan-vs-palestine-28-09-6aadd1c645163e9e3e085d6c
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 28/09 19:30 🟢 ⚽ Indonesia vs Malaysia (Chuối Sấy (HD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
@@ -440,6 +442,9 @@ https://gavang33.me/truc-tiep/kataller-toyama-vs-urawa-red-diamonds-luc-1700-nga
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/ada2fba6258d87de3a01849042b87a2c.png" group-title="GaVang33" , 29/09 17:00 ⚽ Ehime FC vs FC Tokyo (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/ehime-fc-vs-fc-tokyo-luc-1700-ngay-29-09-2026-8yomo4hye2v3q0j
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_Japan_K75eDYE.svg.webp" group-title="Khán Đài" , 29/09 17:30 ⚽ Japan W vs South Korea W (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/japan-w-vs-south-korea-w-29-09-2026-859272
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/b26f48bd4e40423148b0089092638919.png" group-title="GaVang33" , 29/09 18:00 ⚽ Comoros vs Namibia (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/comoros-vs-namibia-luc-1800-ngay-29-09-2026-ednm9whw1ng3ryo
