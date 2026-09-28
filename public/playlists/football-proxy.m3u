@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:45:31 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:48:07 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (12 trận), Chuối Chiên (14 trận), Phá Làng (24 trận), Gà Vàng (12 trận), Sao Kê (21 trận), GaVang33 (19 trận), Bông Lau (14 trận) =====
 
@@ -25,8 +25,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stre
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/05321a8272ff8e7ff2eb7eae2e0b72a6.png" group-title="GaVang33" , 28/09 10:10 🟢 ⚽ Necaxa vs Club America (Gà Siêu Tồ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F796315.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Sao Kê" , 28/09 11:00 🟡 ⚽ China vs Philippines (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/china-vs-philippines-6ab9b5d0064126fa44d4ee52.html
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Sao Kê" , 28/09 11:00 🟢 ⚽ China vs Philippines (Teppy)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fteppy%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Sao Kê" , 28/09 14:00 ⚽ Việt Nam vs Qatar (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/viet-nam-vs-qatar-6ab9bb7ae10d9d63c6c6a5b6.html

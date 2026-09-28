@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:45:31 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:48:07 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (17 trận), Chuối Chiên (19 trận), Phá Làng (30 trận), Gà Vàng (20 trận), Sao Kê (21 trận), GaVang33 (19 trận), Bông Lau (19 trận) =====
 
@@ -58,6 +58,11 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisay/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pull.digitalcdn.net/live/6d5177502e974cdebc33690a660d03b0/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Sao Kê" , 28/09 11:00 🟢 ⚽ China vs Philippines (Teppy)
+#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://stm6dad62063600.stream.hdplaylink.com/sklive/teppy/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Bông Lau" , 28/09 11:00 🟢 🏐 China vs Philippines (Chuối Sấy (HD))
 #EXTVLCOPT:http-referrer=https://tructiep.bonglau.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -65,9 +70,6 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisay/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/S2JTFXGG-vafZSxgs.png" group-title="Giờ Vàng" , 28/09 11:00 🟡 🏐 Pakistan vs Uzbekistan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-pakistan-vs-uzbekistan-28-09-q7m77ca409oj
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Sao Kê" , 28/09 11:00 🟡 ⚽ China vs Philippines (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/china-vs-philippines-6ab9b5d0064126fa44d4ee52.html
 
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IUYV_ZAMxDdabQPzSpTJtg_96x96.png" group-title="Giờ Vàng" , 28/09 14:00 🏐 Việt Nam vs Qatar (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-viet-nam-vs-qatar-28-09-fck8bm7k8unb
