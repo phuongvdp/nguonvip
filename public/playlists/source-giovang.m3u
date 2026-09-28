@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:59:50 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:02:56 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận) =====
 
@@ -38,9 +38,6 @@ https://eqr2hdarxfliv.vcdn.cloud/1790534684_hd/1790534684_hd@720p.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790535136_hd/1790535136_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWXwaBfDb6QxecSyRPQWPOmIqd3fTU_N3r6PPmEBBgGQ&s=10" group-title="Giờ Vàng" , 28/09 08:00 🟡 ⚽ Los Chamos FC vs Guerrilla FC (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-los-chamos-fc-vs-guerrilla-fc-28-09-o3xhmp3cekfb
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/deportivo-cali.png" group-title="Giờ Vàng" , 28/09 08:10 🟢 ⚽ Deportivo Cali vs Aguilas Doradas (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
@@ -92,3 +89,6 @@ https://giovang.city/truc-tiep-u19-slovakia-vs-ba-lan-u19-28-09-6ab317de20160d38
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/jamaica.png" group-title="Giờ Vàng" , 29/09 07:00 ⚽ Jamaica vs Honduras (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-jamaica-vs-honduras-29-09-6aadd0cc45163e9e3e085d18
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/jilBtfFG-0xLZRP53.png" group-title="Giờ Vàng" , 29/09 08:00 🏐 Việt Nam vs Hồng Kông (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-viet-nam-vs-hong-kong-29-09-ya8md5yst15f
