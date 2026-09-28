@@ -1,13 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:58:18 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:01:22 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (21 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/b6d8f81e8454813b3e672b179e627d3a.png!w80" group-title="Phá Làng" , 28/09 06:10 🟢 ⚽ Columbus Crew - Inter Miami CF (LÝ LONG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F38b8c189145a468df2b3160ae37090c9%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/f2413ce638c27cc34d13f8c961ba694f.png!w80" group-title="Phá Làng" , 28/09 08:00 🏐 Indonesia - Kyrgyzstan (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/f2413ce638c27cc34d13f8c961ba694f.png!w80" group-title="Phá Làng" , 28/09 08:00 🟡 🏐 Indonesia - Kyrgyzstan (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#3659a4b2323d44f6a4d63a8c8d2e53d6
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80" group-title="Phá Làng" , 28/09 11:00 🏐 Trung Quốc - Philippines (Chưa có link — chờ cập nhật)
@@ -60,3 +60,9 @@ https://phalang.live/trang-chu#jw2r09h5467xrz8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fd721e1dea4c57ecba7d35cd012123ed.png" group-title="Phá Làng" , 28/09 21:00 ⚽ Kyrgyzstan - Maldives (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#zp5rzgh3y61dq82
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d5db95a6441ae92e5dd150663f89dc64.png" group-title="Phá Làng" , 28/09 22:00 ⚽ Leixoes U23 - Vizela U23 (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#dj2ryohlzx10q1z
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/28d113f973839c72d35abd45379efdfe.png" group-title="Phá Làng" , 28/09 22:00 ⚽ OFK Petrovac - FK Mladost DG (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#dn1m1gh9vpkvmoe
