@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:18:03 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:21:09 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Bông Lau (2 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Bông Lau (12 trận) =====
 
 # ----- Ngày 2026-09-28 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Bông Lau" , 28/09 19:30 🟢 ⚽ Indonesia vs Malaysia (Chuối Sấy (HD))
@@ -9,3 +9,34 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stre
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260604_133429_24e1757b.webp" group-title="Bông Lau" , 28/09 21:00 🟢 ⚽ Kyrgyzstan W vs Maldives (Chuối Lá (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoila%2Fplaylist.m3u8&source=bonglau
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125506_b2c0a574.png" group-title="Bông Lau" , 28/09 23:00 ⚽ Georgia vs Ukraine (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1528902
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134254_e0b3eb39.png" group-title="Bông Lau" , 28/09 23:00 ⚽ Armenia vs Montenegro (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1528903
+
+# ----- Ngày 2026-09-29 -----
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125446_7256014f.png" group-title="Bông Lau" , 29/09 01:45 ⚽ Belgium vs France (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1528904
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125503_f5da35f2.png" group-title="Bông Lau" , 29/09 01:45 ⚽ Türkiye vs Italy (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1528905
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134252_884d8f9e.png" group-title="Bông Lau" , 29/09 01:45 ⚽ Northern Ireland vs Hungary (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1528906
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250825_180323_118bdf95.png" group-title="Bông Lau" , 29/09 01:45 ⚽ Sweden vs Poland (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1528907
+
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/27411.png" group-title="Bông Lau" , 29/09 03:30 ⚽ Ind. Yumbo vs Orsomarso (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1549646
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132743_25712a70.png" group-title="Bông Lau" , 29/09 05:00 ⚽ Suriname vs Martinique (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1639957
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132739_776293e4.png" group-title="Bông Lau" , 29/09 07:00 ⚽ Jamaica vs Honduras (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1639958
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Bông Lau" , 29/09 08:00 🏐 Hong Kong vs Việt Nam (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/994688
