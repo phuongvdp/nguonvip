@@ -1,16 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:15:07 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:18:07 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (16 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/1eca03d984d1cd76b897e2c31040c176.png" group-title="Phá Làng" , 29/09 01:45 🟢 ⚽ Sweden - Poland (LÝ LINH LỰC)
-#EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/4957940f861fc719c8e200362f301ac5/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/a8b1366ae68c5aa3c8806baa5b519e4e.png" group-title="Phá Làng" , 29/09 01:45 🟢 ⚽ Turkiye - Italy (LÝ LÀNG LÁ)
-#EXTVLCOPT:http-referrer=https://phalang.live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/d6ac5e9753efb3b1c94d7d176a030d3e/playlist.m3u8
 
