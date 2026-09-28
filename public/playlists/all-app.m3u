@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:53:27 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:56:06 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (14 trận), Chuối Chiên (17 trận), Phá Làng (27 trận), Gà Vàng (21 trận), Sao Kê (18 trận), GaVang33 (19 trận), Bông Lau (17 trận) =====
 
@@ -46,11 +46,11 @@ https://pull.digitalcdn.net/live/fd154fa5529f4a16b7374ca7b2bac306/index.m3u8|Use
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250627_220721_a791691e.png" group-title="Bông Lau" , 28/09 17:00 🟢 🏐 Chinese Taipei vs South Korea (Chuối Tây (HD))
 https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Khán Đài" , 28/09 17:20 🟢 🏐 Nhật Bản vs Kazakhstan (KaKa)
+https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://khandai3.link
+
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/b7IyW1Br-Ea76SXrf.png" group-title="Giờ Vàng" , 28/09 17:20 🟡 🏐 Nhật Bản vs Kazakhstan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-nhat-ban-vs-kazakhstan-28-09-me78b3rb5hp6
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Khán Đài" , 28/09 17:20 🟡 🏐 Nhật Bản vs Kazakhstan (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/nhat-ban-vs-kazakhstan
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134255_1b35202d.png" group-title="Chuối Chiên" , 28/09 17:20 🟡 🏐 Kazakhstan vs Japan (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/999617/kazakhstan-vs-japan
