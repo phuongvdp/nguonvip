@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:30:25 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:33:00 28/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Bông Lau (11 trận) =====
 
@@ -7,11 +7,11 @@
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260604_133429_24e1757b.webp" group-title="Bông Lau" , 28/09 21:00 🟢 ⚽ Kyrgyzstan W vs Maldives (Chuối Lá (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoila%2Fplaylist.m3u8&source=bonglau
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134254_e0b3eb39.png" group-title="Bông Lau" , 28/09 23:00 🟢 ⚽ Armenia vs Montenegro (Chuối Chao (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoichao%2Fplaylist.m3u8&source=bonglau
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125506_b2c0a574.png" group-title="Bông Lau" , 28/09 23:00 🟡 ⚽ Georgia vs Ukraine (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1528902
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134254_e0b3eb39.png" group-title="Bông Lau" , 28/09 23:00 🟡 ⚽ Armenia vs Montenegro (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1528903
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125446_7256014f.png" group-title="Bông Lau" , 29/09 01:45 ⚽ Belgium vs France (Chưa có link — chờ cập nhật)
