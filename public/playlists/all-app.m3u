@@ -1,14 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:57:06 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 09:01:28 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (22 trận), Chuối Chiên (19 trận), Phá Làng (48 trận), Gà Vàng (26 trận), Sao Kê (22 trận), GaVang33 (27 trận), Bông Lau (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận), Khán Đài (22 trận), Chuối Chiên (20 trận), Phá Làng (49 trận), Gà Vàng (25 trận), Sao Kê (21 trận), GaVang33 (28 trận), Bông Lau (20 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f7779710d2026dca44c41da7a9b7c748.png" group-title="Gà Vàng" , 29/09 07:00 🟢 ⚽ Jamaica vs Honduras (KAYTI)
 https://playback.livetl002.com/live/69b8e6f43bcf2231c35d5144.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5806.png" group-title="Sao Kê" , 29/09 07:00 🟢 ⚽ Jamaica vs Honduras (Bút Chì)
-https://stm6dad62063600.stream.hdplaylink.com/sklive/butchi/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://vip3.saoketv40.xyz/jamaica-vs-honduras-6ab9bf6a29359ae22fd197dc.html
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f7779710d2026dca44c41da7a9b7c748.png" group-title="GaVang33" , 29/09 07:00 🟢 ⚽ Jamaica vs Honduras (Gà Siêu Tồ)
 https://live2.zktsva.app/live/796315.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -35,13 +32,13 @@ https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/4a2e9789964030d8f9873ca4b8a7587b.png!w80" group-title="Phá Làng" , 29/09 08:00 🟢 🏐 Hồng Kông - Việt Nam (LÝ LÊN LỬA (Server 1))
-https://pull.digitalcdn.net/live/cc977f6028834ced9609757c8c08685f/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
+https://pull.digitalcdn.net/live/cc977f6028834ced9609757c8c08685f/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/&Origin=https://phalang.live
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/4346797bf61de910e7d62fa55f5bf1b5.png!w80" group-title="Phá Làng" , 29/09 08:00 🟢 🏐 Kyrgyzstan - Thái Lan (LÝ LIỀU LĨNH (Server 1))
-https://pull.digitalcdn.net/live/9ae33370f38640368039d3d0fbd61e57/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live
+https://pull.digitalcdn.net/live/9ae33370f38640368039d3d0fbd61e57/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/&Origin=https://phalang.live
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Sao Kê" , 29/09 08:00 🟢 ⚽ Hong Kong vs Việt Nam (Cà Rốt)
-https://stm6dad62063600.stream.hdplaylink.com/sklive/carot/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://vip3.saoketv40.xyz/jamaica-vs-honduras-6ab9bf6a29359ae22fd197dc.html
+https://stm6dad62063600.stream.hdplaylink.com/sklive/carot/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://vip3.saoketv40.xyz/hong-kong-vs-viet-nam-6ab9bbc0e10d9d63c6c6a5c8.html
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Bông Lau" , 29/09 08:00 🟢 🏐 Hong Kong vs Việt Nam (Chuối Kem (HD))
 https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
@@ -56,13 +53,10 @@ https://eqr2hdarxfliv.vcdn.cloud/1790535848_hd/1790535848_hd@720p.m3u8|User-Agen
 https://eqr2hdarxfliv.vcdn.cloud/1790611342_hd/1790611342_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5858.png" group-title="Sao Kê" , 29/09 09:00 🟢 ⚽ Guatemala vs El Salvador (Mơ)
-https://stm6dad62063600.stream.hdplaylink.com/sklive/mo/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://vip3.saoketv40.xyz/jamaica-vs-honduras-6ab9bf6a29359ae22fd197dc.html
+https://stm6dad62063600.stream.hdplaylink.com/sklive/mo/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://vip3.saoketv40.xyz/hong-kong-vs-viet-nam-6ab9bbc0e10d9d63c6c6a5c8.html
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/a1d4643376bf11b37c51f5c76fcaff79.png" group-title="GaVang33" , 29/09 09:00 🟢 ⚽ Guatemala vs El Salvador (Gà Siêu Péo)
 https://live2.zktsva.app/live/303098.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a1d4643376bf11b37c51f5c76fcaff79.png" group-title="Gà Vàng" , 29/09 09:00 🟡 ⚽ Guatemala vs El Salvador (Chưa có link — chờ cập nhật)
-https://gavanglinkr.tv/truc-tiep/guatemala-vs-el-salvador-ngay-29-09-2026/
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/06K3E8fM-ABIAlQIr.png" group-title="Giờ Vàng" , 29/09 11:00 🏐 Uzbekistan vs Kazakhstan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-uzbekistan-vs-kazakhstan-29-09-x17wwz3mg8bt
@@ -491,6 +485,9 @@ https://gavang33.me/truc-tiep/russia-vs-ir-iran-luc-2300-ngay-29-09-2026-4wyrn4h
 https://lau05.bonglautv1.pro/truc-tiep/1528912
 
 # ----- Ngày 2026-09-30 -----
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7b40fe5d22992f5565f4096e92d4c336.png" group-title="Phá Làng" , 30/09 00:00 ⚽ Benin - Mauritania (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#8yomo4h1npzxq0j
+
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/d986d56ec70949e06466f8728304c21c.jpg" group-title="Gà Vàng" , 30/09 00:00 🏀 Zalgiris Kaunas vs Olympiacos Piraeus B.C. (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
@@ -623,5 +620,17 @@ https://giovang.city/truc-tiep-new-york-liberty-vs-minnesota-lynx-30-09-36590471
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/cd5a7e277e91426d9ad74bd09b946fde.png" group-title="GaVang33" , 30/09 08:00 ⚽ Mexico vs Peru (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/mexico-vs-peru-luc-0800-ngay-30-09-2026-jw2r09h54940rz8
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260917_012723_b0cd7a48.png" group-title="Chuối Chiên" , 30/09 08:05 ⚽ Atlético Nacional vs Millonarios (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1549719/atletico-nacional-vs-millonarios
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/2528.png" group-title="Sao Kê" , 30/09 08:05 ⚽ Independiente Medellín vs Millonarios (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/independiente-medellin-vs-millonarios-6abb0bc247921e67726f4f90.html
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260917_012723_b0cd7a48.png" group-title="Bông Lau" , 30/09 08:05 ⚽ Atlético Nacional vs Millonarios (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1549719
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/belize.png" group-title="Giờ Vàng" , 30/09 09:00 ⚽ Belize vs Saint Vincent & Grenadines (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-belize-vs-saint-vincent-grenadines-30-09-6aadd0cc45163e9e3e085d1c
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/cc43cae8b2c9735749cb067be62f9311.png" group-title="GaVang33" , 30/09 09:00 ⚽ Belize vs Saint Vincent and the Grenadines (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/belize-vs-saint-vincent-and-the-grenadines-luc-0900-ngay-30-09-2026-4jwq2ghnl2owm0v
