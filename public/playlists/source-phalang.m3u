@@ -1,13 +1,18 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:19:19 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:22:16 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (24 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (25 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/afd785b0073f54e675356d9b1e3a6dd6.png" group-title="Phá Làng" , 30/09 00:30 🟢 ⚽ Saudi Arabia - Iraq (LÝ LINH LỰC)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/saudi-arabia-vs-iraq-ednm9whwj0jdryo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/05e2754014bf6d3a11928f5ca03acc39/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/11fc5be6bedfbccc563c5054ad544320.png" group-title="Phá Làng" , 30/09 00:30 🟢 ⚽ Oman - Kuwait (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/oman-vs-kuwait-k82rekhg5x5xrep
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/db956e156490875d592a809b26772d1d/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/f97f8398fff79b390905d2f8c4cf5455.png" group-title="Phá Làng" , 30/09 01:45 🟢 ⚽ Scotland - Switzerland (LÝ LÀNG LÁ)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/scotland-vs-switzerland-dn1m1ghl9ygymoe
