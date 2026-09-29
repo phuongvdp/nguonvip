@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:33:11 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:35:27 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (58 trận) =====
 
@@ -13,6 +13,11 @@ https://lilive1.eu.cc/live/b077f385953275f57e485d4780f2d56a/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/han-quoc-vs-trung-quoc-5303a0b60fb2444b867cd8852988c95b
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pull.digitalcdn.net/live/693de31062db4a14bf2b4bd109139627/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/b63378659216bc994f5178e83b925408.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Australia - Brazil (LÝ LÀNG LÁ)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/australia-vs-brazil-zp5rzghg9x6gq82
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/14c41a3be672e3ae8833cb77c1c5b838/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/771a47aa3a754d19f9f298fdf828e23b.png" group-title="Phá Làng" , 29/09 17:00 🟡 ⚽ Jubilo Iwata - JEF United Ichihara Chiba (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#1l4rjnhnyzz8m7v
@@ -61,9 +66,6 @@ https://phalang.live/trang-chu#y39mp1hdvjy5moj
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8b9ca3d6a9a5b9573992e58b972e96fd.png" group-title="Phá Làng" , 29/09 17:00 🟡 ⚽ Kataller Toyama - Urawa Red Diamonds (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#zp5rzgh3yzzlq82
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/b63378659216bc994f5178e83b925408.png" group-title="Phá Làng" , 29/09 17:00 🟡 ⚽ Australia - Brazil (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#zp5rzghg9x6gq82
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 29/09 17:20 🟡 🏐 Nhật Bản - Pakistan (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#895e4593c83845df9fb73b7d801854e6
