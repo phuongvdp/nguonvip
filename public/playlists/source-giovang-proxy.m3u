@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:31:22 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:33:33 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận) =====
 
@@ -16,11 +16,11 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/QgrBggHG-4b37MkS4.png" group-title="Giờ Vàng" , 29/09 08:00 🟢 🏐 Kyrgyzstan vs Thái Lan (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790611553_hd%2F1790611553_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/guatemala.png" group-title="Giờ Vàng" , 29/09 09:00 🟡 ⚽ Guatemala vs El Salvador (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-guatemala-vs-el-salvador-29-09-6aaf224e4e725bdee905b7c9
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/guatemala.png" group-title="Giờ Vàng" , 29/09 09:00 🟢 ⚽ Guatemala vs El Salvador (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790535848_hd%2F1790535848_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrGn8O3yUQUHBCvBFwAzftre2bqTcF-PYjjxBfKFBSlj7O7MUYI8XxiUs&s=10" group-title="Giờ Vàng" , 29/09 09:00 🟡 🎾 Tsitsipas S vs Hijikata R (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-tsitsipas-s-vs-hijikata-r-29-09-nd111gqp86zb
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrGn8O3yUQUHBCvBFwAzftre2bqTcF-PYjjxBfKFBSlj7O7MUYI8XxiUs&s=10" group-title="Giờ Vàng" , 29/09 09:00 🟢 🎾 Tsitsipas S vs Hijikata R (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790611342_hd%2F1790611342_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/06K3E8fM-ABIAlQIr.png" group-title="Giờ Vàng" , 29/09 11:00 🏐 Uzbekistan vs Kazakhstan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-uzbekistan-vs-kazakhstan-29-09-x17wwz3mg8bt
