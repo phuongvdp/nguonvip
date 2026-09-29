@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:43:24 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:45:30 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (15 trận), Chuối Chiên (15 trận), Phá Làng (46 trận), Gà Vàng (17 trận), Sao Kê (21 trận), GaVang33 (26 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (15 trận), Chuối Chiên (15 trận), Phá Làng (54 trận), Gà Vàng (17 trận), Sao Kê (21 trận), GaVang33 (26 trận), Bông Lau (15 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Sao Kê" , 29/09 08:00 🟢 ⚽ Hong Kong vs Việt Nam (Cà Rốt)
@@ -25,11 +25,11 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/philippines.png" group-title="Giờ Vàng" , 29/09 11:00 🟢 ⚽ Philippines vs Đài Bắc Trung Hoa (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790536088_hd%2F1790536088_hd%40720p.m3u8&source=giovang
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20251215_200012_37b4c910.png" group-title="Sao Kê" , 29/09 11:00 🟢 ⚽ Philippines vs Chinese Taipei (Teppy)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fteppy%2Fplaylist.m3u8&source=saoke
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f3f2e9c5843d2acfa65bc79088902d53.png" group-title="Phá Làng" , 29/09 11:00 🟡 ⚽ Papua New Guinea Women - Solomon Islands (w) Soccer (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#3glrw7h4k339qdy
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20251215_200012_37b4c910.png" group-title="Sao Kê" , 29/09 11:00 🟡 ⚽ Philippines vs Chinese Taipei (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/philippines-vs-chinese-taipei-6ab9bbd65b828a346dbafc67.html
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/teams/e9c72f37302fa4e0284235115c3fd818.png" group-title="Giờ Vàng" , 29/09 13:00 ⚽ North Korea W vs China W (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-north-korea-w-vs-china-w-29-09-de3sywakpoet
@@ -427,6 +427,30 @@ https://live05.chuoichientv.me/live/1528910/czech-republic-vs-england
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125506_b8b07bcf.png" group-title="Chuối Chiên" , 30/09 01:45 ⚽ Scotland vs Switzerland (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1545651/scotland-vs-switzerland
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/4ccc41b4d4d3a4ee77c0729a72776db6.png" group-title="Phá Làng" , 30/09 01:45 ⚽ Slovenia - North Macedonia (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#318q66hx8y3pqo9
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ab6ee7e9bc979a43f57adb287a48161f.png" group-title="Phá Làng" , 30/09 01:45 ⚽ Luxembourg - Iceland (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#8yomo4h1yljkq0j
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3370681d192c09290b9323bf1bb56d4c.png" group-title="Phá Làng" , 30/09 01:45 ⚽ Bulgaria - Estonia (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#dj2ryohl763vq1z
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/f97f8398fff79b390905d2f8c4cf5455.png" group-title="Phá Làng" , 30/09 01:45 ⚽ Scotland - Switzerland (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#dn1m1ghl9ygymoe
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/a47fa889ad5ac09d2badf15804c7eac9.png" group-title="Phá Làng" , 30/09 01:45 ⚽ Czechia - England (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#k82rekhg2pjdrep
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/61e9ccd0c45b60839c47d792d6ae26f4.crdownload" group-title="Phá Làng" , 30/09 01:45 ⚽ San Marino - Albania (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#l5ergph4kx79r8k
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3dd52d0f4d9de58ccdd0e54e70600884.png" group-title="Phá Làng" , 30/09 01:45 ⚽ Slovakia - Kazakhstan (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#l7oqdehgjw97r51
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/734b941674bbbf81100efcd71a7cd1f1.png" group-title="Phá Làng" , 30/09 01:45 ⚽ Spain - Croatia (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#y39mp1h6dgeemoj
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8498.png" group-title="Sao Kê" , 30/09 01:45 ⚽ Scotland vs Switzerland (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/scotland-vs-switzerland-6abb0bc247921e67726f4f91.html
