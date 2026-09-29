@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:34:15 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:36:50 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (16 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125449_8711159b.png" group-title="Chuối Chiên" , 30/09 01:45 🟢 ⚽ Spain vs Croatia (Chuối Ngao (FHD))
@@ -12,9 +12,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125506_b8b07bcf.png" group-title="Chuối Chiên" , 30/09 01:45 🟢 ⚽ Scotland vs Switzerland (Chuối Chao (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoichaohd%2Fplaylist.m3u8&source=chuoichientv
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133538_0a9dbb3b.png" group-title="Chuối Chiên" , 30/09 03:30 ⚽ Deportivo Pereira vs Santa Fe (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1549712/deportivo-pereira-vs-santa-fe
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131456_671d649a.png" group-title="Chuối Chiên" , 30/09 05:30 ⚽ Botafogo SP vs Ponte Preta (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1520891/botafogo-sp-vs-ponte-preta

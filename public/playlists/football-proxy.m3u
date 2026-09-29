@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:34:15 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:36:50 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (15 trận), Chuối Chiên (17 trận), Gà Vàng (19 trận), Sao Kê (18 trận), GaVang33 (23 trận), Bông Lau (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (15 trận), Chuối Chiên (16 trận), Gà Vàng (19 trận), Sao Kê (18 trận), GaVang33 (23 trận), Bông Lau (16 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/3c0b84f6c8ee0d929021de10cbb8cc69.png" group-title="Gà Vàng" , 29/09 23:00 🟢 ⚽ Finland vs Belarus (SÚP LƠ)
@@ -80,11 +80,11 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/e4ba31fba036a999321d5460f7f2d1d1.png" group-title="GaVang33" , 30/09 01:45 🟢 ⚽ Slovenia vs North Macedonia (Gà Siêu Péo)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F303098.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/9bdc3efe2bdc1946dbb253b2d101b484.png" group-title="GaVang33" , 30/09 01:45 🟢 ⚽ San Marino vs Albania (Gà Siêu Tốc)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F307240.m3u8&source=gavang33
-
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/e2fcc738438c4e7ca4b605ef8764db73.png" group-title="GaVang33" , 30/09 01:45 🟢 ⚽ Slovakia vs Kazakhstan (Gà Siêu Nhí)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F301263.m3u8&source=gavang33
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/9bdc3efe2bdc1946dbb253b2d101b484.png" group-title="GaVang33" , 30/09 01:45 🟢 ⚽ San Marino vs Albania (Gà Siêu Tốc)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F307240.m3u8&source=gavang33
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125449_8711159b.png" group-title="Bông Lau" , 30/09 01:45 🟢 ⚽ Spain vs Croatia (Chuối Ngao (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoingaohd%2Fplaylist.m3u8&source=bonglau
@@ -128,17 +128,11 @@ https://gavanglinkr.tv/truc-tiep/liberia-vs-mali-ngay-30-09-2026/
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/27ab2e099af3df31bb3a67cece587ffe.png" group-title="Gà Vàng" , 30/09 02:00 🟡 ⚽ Somalia vs Cote d'Ivoire (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/somalia-vs-cote-divoire-ngay-30-09-2026/
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133538_0a9dbb3b.png" group-title="Chuối Chiên" , 30/09 03:30 ⚽ Deportivo Pereira vs Santa Fe (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1549712/deportivo-pereira-vs-santa-fe
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/d82c6b70b6fa098483e9afa0589bd7b1.png" group-title="Gà Vàng" , 30/09 03:30 ⚽ Deportivo Pereira vs Independiente Santa Fe (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/deportivo-pereira-vs-independiente-santa-fe-ngay-30-09-2026/
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/4404.png" group-title="Sao Kê" , 30/09 03:30 ⚽ Deportivo Pereira vs Santa Fe (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/deportivo-pereira-vs-santa-fe-6abb0bc247921e67726f4f8f.html
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133538_0a9dbb3b.png" group-title="Bông Lau" , 30/09 03:30 ⚽ Deportivo Pereira vs Santa Fe (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1549712
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131456_671d649a.png" group-title="Chuối Chiên" , 30/09 05:30 ⚽ Botafogo SP vs Ponte Preta (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1520891/botafogo-sp-vs-ponte-preta
