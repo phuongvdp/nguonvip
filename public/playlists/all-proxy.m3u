@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 11:58:35 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 12:01:07 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (20 trận), Chuối Chiên (19 trận), Phá Làng (61 trận), Gà Vàng (25 trận), Sao Kê (19 trận), GaVang33 (25 trận), Bông Lau (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (20 trận), Chuối Chiên (19 trận), Phá Làng (60 trận), Gà Vàng (25 trận), Sao Kê (19 trận), GaVang33 (25 trận), Bông Lau (19 trận) =====
 
 # ----- Ngày 2026-09-29 -----
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/4a2e9789964030d8f9873ca4b8a7587b.png!w80" group-title="Phá Làng" , 29/09 08:00 🟢 🏐 Hồng Kông - Việt Nam (LÝ LÊN LỬA (Server 1))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2Fcc977f6028834ced9609757c8c08685f%2Findex.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a1d4643376bf11b37c51f5c76fcaff79.png" group-title="Gà Vàng" , 29/09 09:00 🟢 ⚽ Guatemala vs El Salvador (SiêU QuậY)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a2a59b347bbddd62a8dc4e4.m3u8&source=gavang
 
@@ -31,25 +28,25 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stre
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20251215_200012_37b4c910.png" group-title="Bông Lau" , 29/09 11:00 🟢 🏐 Philippines vs Chinese Taipei (Chuối Sấy (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stream.hdplaylink.com%2Fcctvlive%2Fchuoisay%2Fplaylist.m3u8&source=bonglau
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/teams/e9c72f37302fa4e0284235115c3fd818.png" group-title="Giờ Vàng" , 29/09 13:00 ⚽ North Korea W vs China W (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/teams/e9c72f37302fa4e0284235115c3fd818.png" group-title="Giờ Vàng" , 29/09 13:00 🟡 ⚽ North Korea W vs China W (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-north-korea-w-vs-china-w-29-09-de3sywakpoet
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_31639.jpg" group-title="Khán Đài" , 29/09 13:00 ⚽ North Korea W vs China W (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_31639.jpg" group-title="Khán Đài" , 29/09 13:00 🟡 ⚽ North Korea W vs China W (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/north-korea-w-vs-china-w-29-09-2026-859271
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142856_67f4ff9c.png" group-title="Chuối Chiên" , 29/09 13:00 ⚽ Korea DPR vs China W (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142856_67f4ff9c.png" group-title="Chuối Chiên" , 29/09 13:00 🟡 ⚽ Korea DPR vs China W (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1642007/korea-dpr-vs-china-w
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/e852329be4add16641d68cfb8aa233ad.png" group-title="Phá Làng" , 29/09 13:00 ⚽ North Korea Women - China Women (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/e852329be4add16641d68cfb8aa233ad.png" group-title="Phá Làng" , 29/09 13:00 🟡 ⚽ North Korea Women - China Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y39mp1hdvw4dmoj
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/b6b90237b3ebd1e462a5d11dbc5c4dae.png" group-title="Gà Vàng" , 29/09 13:00 ⚽ Korea DPR(w) vs China(w) (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/b6b90237b3ebd1e462a5d11dbc5c4dae.png" group-title="Gà Vàng" , 29/09 13:00 🟡 ⚽ Korea DPR(w) vs China(w) (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/north-korea-women-vs-china-women-ngay-29-09-2026/
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/8MkHmtRq-xpPmazWa.png" group-title="Sao Kê" , 29/09 13:00 ⚽ North Korea W vs China W (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/8MkHmtRq-xpPmazWa.png" group-title="Sao Kê" , 29/09 13:00 🟡 ⚽ North Korea W vs China W (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/north-korea-w-vs-china-w-6abb0bfce10d9d63c6e85fb1.html
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142856_67f4ff9c.png" group-title="Bông Lau" , 29/09 13:00 ⚽ Korea DPR vs China W (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142856_67f4ff9c.png" group-title="Bông Lau" , 29/09 13:00 🟡 ⚽ Korea DPR vs China W (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1642007
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/iran.png" group-title="Giờ Vàng" , 29/09 14:00 🏐 Iran vs Indonesia (Chưa có link — chờ cập nhật)

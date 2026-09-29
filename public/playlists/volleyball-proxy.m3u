@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 11:58:35 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 12:01:07 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Khán Đài (5 trận), Chuối Chiên (4 trận), Phá Làng (4 trận), Bông Lau (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Khán Đài (5 trận), Chuối Chiên (4 trận), Phá Làng (3 trận), Bông Lau (4 trận) =====
 
 # ----- Ngày 2026-09-29 -----
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/4a2e9789964030d8f9873ca4b8a7587b.png!w80" group-title="Phá Làng" , 29/09 08:00 🟢 🏐 Hồng Kông - Việt Nam (LÝ LÊN LỬA (Server 1))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2Fcc977f6028834ced9609757c8c08685f%2Findex.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/06K3E8fM-ABIAlQIr.png" group-title="Giờ Vàng" , 29/09 11:00 🟢 🏐 Uzbekistan vs Kazakhstan (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790536027_hd%2F1790536027_hd%40720p.m3u8&source=giovang
 
