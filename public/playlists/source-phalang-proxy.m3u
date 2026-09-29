@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:43:25 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:46:27 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (40 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (39 trận) =====
 
 # ----- Ngày 2026-09-29 -----
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/604a26fb4f696d522d464fc2ff0919de.png!w80" group-title="Phá Làng" , 29/09 17:00 🟢 🏐 Hàn Quốc - Trung Quốc (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#5303a0b60fb2444b867cd8852988c95b
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/22fc8d10a1f32e5da720454189015664.png" group-title="Phá Làng" , 29/09 19:00 🟢 ⚽ Comoros - Namibia (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fe7a24e05d945c3a1317a8f1b3848d89f%2Fplaylist.m3u8&source=phalang
 
