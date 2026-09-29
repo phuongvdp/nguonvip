@@ -1,57 +1,42 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:57:09 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:00:11 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (33 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (32 trận) =====
 
 # ----- Ngày 2026-09-29 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8288bc5cb9e37b5c2b85f93b2a563db2.png" group-title="Phá Làng" , 29/09 20:00 🟢 ⚽ Burundi - Algeria (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/burundi-vs-algeria-965mkyhkpvnjr1g
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/a8080898e72a3ee6b8abfff4ef7e4e6e/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ac3172239fe2c2922f5194420b9ec76c.png" group-title="Phá Làng" , 29/09 20:00 🟢 ⚽ Ethiopia - Senegal (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/ethiopia-vs-senegal-dn1m1ghl6j1emoe
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/dbd7cb3512322c2939b76bfc680da1ab/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/cc5c86c34e2770e8185e164e52fe157d.png" group-title="Phá Làng" , 29/09 20:00 🟢 ⚽ South Sudan - Egypt (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/south-sudan-vs-egypt-y39mp1h67l17moj
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/607a4ea601bae2ec3f73bcd0c9fdccb7/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5ee2c99000568090719b35a9e785b0f5.png" group-title="Phá Làng" , 29/09 21:00 🟢 ⚽ Madagascar - Tanzania (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/madagascar-vs-tanzania-4wyrn4h6g39dq86
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/cd5b3039d60634088a1ef8061a94b4a7/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b78fbb9123ed9633ac77215960a8a7b3.png" group-title="Phá Làng" , 29/09 23:00 ⚽ Cabo Verde - Rwanda (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b78fbb9123ed9633ac77215960a8a7b3.png" group-title="Phá Làng" , 29/09 23:00 🟡 ⚽ Cabo Verde - Rwanda (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#2y8m4zh5lo1nql0
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/ba544863f6ad5205a345fa42bb80f71a.png" group-title="Phá Làng" , 29/09 23:00 ⚽ Finland - Belarus (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/ba544863f6ad5205a345fa42bb80f71a.png" group-title="Phá Làng" , 29/09 23:00 🟡 ⚽ Finland - Belarus (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4wyrn4h6yp53q86
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fe3068bbe94dd5f423e9b9a6135d8c40.png" group-title="Phá Làng" , 29/09 23:00 ⚽ Russia - IR Iran (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fe3068bbe94dd5f423e9b9a6135d8c40.png" group-title="Phá Làng" , 29/09 23:00 🟡 ⚽ Russia - IR Iran (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4wyrn4hyz2z0q86
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e5e5e0f67481324ebdbd65d65890b2b8.png" group-title="Phá Làng" , 29/09 23:00 ⚽ Argentina - Bolivia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e5e5e0f67481324ebdbd65d65890b2b8.png" group-title="Phá Làng" , 29/09 23:00 🟡 ⚽ Argentina - Bolivia (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6ypq3nhk6z0vmd7
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b34d725dccf3683e8bf54f58c6dc2785.png" group-title="Phá Làng" , 29/09 23:00 ⚽ Guinea Bissau - Nigeria (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b34d725dccf3683e8bf54f58c6dc2785.png" group-title="Phá Làng" , 29/09 23:00 🟡 ⚽ Guinea Bissau - Nigeria (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#dj2ryohl8o2dq1z
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0aa984737265ab1eb09981533793b1ed.crdownload" group-title="Phá Làng" , 29/09 23:00 ⚽ Moldova - Faroe Islands (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0aa984737265ab1eb09981533793b1ed.crdownload" group-title="Phá Làng" , 29/09 23:00 🟡 ⚽ Moldova - Faroe Islands (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#jw2r09hk5ygerz8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f63a25999e46016f279bdb8f5caffd33.png" group-title="Phá Làng" , 29/09 23:00 ⚽ Ghana - Gambia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f63a25999e46016f279bdb8f5caffd33.png" group-title="Phá Làng" , 29/09 23:00 🟡 ⚽ Ghana - Gambia (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#jw2r09hk8z1wrz8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/07507a2719cb24c2c93b924ed1d4406a.png" group-title="Phá Làng" , 29/09 23:00 ⚽ Zambia - Togo (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/07507a2719cb24c2c93b924ed1d4406a.png" group-title="Phá Làng" , 29/09 23:00 🟡 ⚽ Zambia - Togo (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l5ergph4g1per8k
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2ba0a31a44fe5fecc6548be61d0e5344.png" group-title="Phá Làng" , 29/09 23:00 ⚽ Uganda - Libya (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2ba0a31a44fe5fecc6548be61d0e5344.png" group-title="Phá Làng" , 29/09 23:00 🟡 ⚽ Uganda - Libya (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l7oqdehg7p11r51
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6dfb477e21dfcbdd02c0298e8e573b24.png" group-title="Phá Làng" , 29/09 23:00 ⚽ Hertha Zehlendorf - Hertha Berlin (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6dfb477e21dfcbdd02c0298e8e573b24.png" group-title="Phá Làng" , 29/09 23:00 🟡 ⚽ Hertha Zehlendorf - Hertha Berlin (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#zp5rzgh3y404q82
 
 # ----- Ngày 2026-09-30 -----
@@ -111,3 +96,9 @@ https://phalang.live/trang-chu#jw2r09h54940rz8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8d6bb1a0e30092066499b89487620122.png" group-title="Phá Làng" , 30/09 11:00 ⚽ Papua New Guinea - Solomon Islands (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l7oqdehjy2y8r51
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7f2c1f0e98d2c7f8a2553f90d5389690.png" group-title="Phá Làng" , 30/09 13:00 ⚽ Vietnam U16 - Kyrgyzstan U16 (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#8yomo4h1w4dlq0j
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/8f696da0665940d4b34e48edba4d2e3a.png" group-title="Phá Làng" , 30/09 13:00 ⚽ South Korea U23 - China U23 (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#zp5rzgh3y0l9q82

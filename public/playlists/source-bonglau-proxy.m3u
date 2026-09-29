@@ -1,13 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:57:09 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:00:11 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Bông Lau (13 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Bông Lau (14 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_145126_a98f2608.png" group-title="Bông Lau" , 29/09 22:00 🟢 ⚽ Iceland U21 vs Switzerland U21 (Chuối Lá (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoilahd%2Fplaylist.m3u8&source=bonglau
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Bông Lau" , 29/09 23:00 ⚽ Finland vs Belarus (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Bông Lau" , 29/09 23:00 🟡 ⚽ Finland vs Belarus (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1528912
 
 # ----- Ngày 2026-09-30 -----
@@ -43,3 +43,6 @@ https://lau05.bonglautv1.pro/truc-tiep/1641757
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135754_18d94fc0.png" group-title="Bông Lau" , 30/09 20:30 ⚽ Vsetín vs Bohemians 1905 (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1636732
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133224_83d53161.png" group-title="Bông Lau" , 30/09 22:00 ⚽ Enyimba vs Shooting Stars (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1628482
