@@ -1,4 +1,5 @@
 import { createHttpClient } from '@/src/utils/httpClient';
+import { fetchFirstRequestHeaders } from '@/src/utils/browserFetch';
 
 // Phá Làng TV — domain hiển thị đã đổi sang phalang.live (trước đây dò ra là
 // phalang.tv, ĐÃ SAI — xem FIX 18/09/2026 bên dưới). API thật nằm trên
@@ -245,6 +246,31 @@ export function filterPhalangMatches(matches = []) {
   return { kept, dropped };
 }
 
+// FIX (29/09/2026 — "link Phá Làng đều lỗi"): DevTools thật cho thấy link phát
+// KHÔNG phải link trần API trả về, mà là link BỌC qua domain ngẫu nhiên
+// *.100ycdn.com + token, dạng
+//   https://<host>.100ycdn.com/pull.digitalcdn.net/live/<id>/index.m3u8?wsSession=..&wsIPSercert=..&wsBindIP=2&wsserid=..
+// (giống Chuối Chiên/Bông Lau). API /match/{id}/live chỉ có hd_1/hd_2 trần
+// nên phải mở TRANG XEM TRẬN (https://phalang.live/truc-tiep/<slug>-<id>)
+// bằng trình duyệt headless và bắt request .m3u8 thật mà player gửi đi. Segment
+// .ts cũng gửi Referer = chính URL trang xem trận + Origin https://phalang.live,
+// nên URL trang xem được dùng làm Referer của link.
+//   - PHALANG_BROWSER_RESOLVE=off : tắt bước này (quay về link trần như cũ)
+//   - PHALANG_TOKEN_TTL_MS        : thời gian dùng lại link đã bắt (mặc định 3 phút)
+const PHALANG_BROWSER_RESOLVE = String(process.env.PHALANG_BROWSER_RESOLVE || 'on').toLowerCase() !== 'off';
+const PHALANG_TOKEN_TTL_MS = Number(process.env.PHALANG_TOKEN_TTL_MS) || 3 * 60 * 1000;
+const PHALANG_BROWSER_TIMEOUT_MS = 12000;
+const tokenCache = globalThis.__phalangTokenCache || new Map(); // matchId -> { url, referer, at }
+globalThis.__phalangTokenCache = tokenCache;
+
+function slugifyName(text) {
+  return stripDiacritics(text).replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+}
+
+function escapeRe(text) {
+  return String(text).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
 class PhalangService {
   constructor() {
     this.client = createHttpClient({
@@ -286,6 +312,10 @@ class PhalangService {
     const homeName = m.team_1 || 'Home';
     const awayName = m.team_2 || 'Away';
     const isLive = !!m.is_live;
+    // Trận LIVE có source_live là link digitalcdn TRẦN (không token) thì không dùng
+    // được — bỏ để getStreamLinks() lấy link bọc có token qua trình duyệt.
+    const skipBareLive = PHALANG_BROWSER_RESOLVE && isLive && m.source_live
+      && this.detectCdn(m.source_live) === 'DIGITALCDN' && !String(m.source_live).includes('?');
 
     return {
       matchId: `pl_${m.id}`,
@@ -320,8 +350,8 @@ class PhalangService {
       // chưa live) — giữ lại làm phương án nhanh, nhưng KHÔNG đảm bảo đúng
       // cho trận đang live thật (đã thấy trường hợp is_live=true mà
       // source_live vẫn null) — trận live luôn phải gọi getStreamLinks().
-      streamUrl: m.source_live || '',
-      commentators: m.source_live
+      streamUrl: skipBareLive ? '' : (m.source_live || ''),
+      commentators: (m.source_live && !skipBareLive)
         ? [{ id: `${m.id}_0`, name: m.blv || 'Server 1', avatar: '', streamUrl: m.source_live, isLive: true, cdn: this.detectCdn(m.source_live) }]
         : [],
       // FIX (23/09/2026 — "nguồn Phá Làng: trận chưa thi đấu không xuất
@@ -576,7 +606,63 @@ class PhalangService {
     return [...new Set(finalUrls)].filter(Boolean);
   }
 
-  async getStreamLinks(matchId, blvName) {
+  /** Mở trang xem trận, bắt request .m3u8 có token thật. Trả { url, referer } hoặc null. */
+  async resolveTokenizedUrl(cleanId, bareUrls, teams) {
+    if (!PHALANG_BROWSER_RESOLVE || !bareUrls.length) return null;
+    const cached = tokenCache.get(cleanId);
+    if (cached && Date.now() - cached.at < PHALANG_TOKEN_TTL_MS) return cached;
+
+    const paths = [];
+    for (const u of bareUrls) {
+      try { paths.push(new URL(u).pathname); } catch { /* bỏ link không hợp lệ */ }
+    }
+    if (!paths.length) return null;
+    // Chỉ nhận request CÓ query (?wsSession=...) — request link trần không token bị bỏ qua.
+    const re = new RegExp(`(${paths.map(escapeRe).join('|')})\\?.+`);
+    const slug = teams?.home && teams?.away ? `${slugifyName(teams.home)}-vs-${slugifyName(teams.away)}-` : '';
+    const watchUrl = `${PHALANG_SITE_ORIGIN}/truc-tiep/${slug}${cleanId}`;
+    try {
+      const found = await fetchFirstRequestHeaders(watchUrl, re, { timeoutMs: PHALANG_BROWSER_TIMEOUT_MS });
+      if (!found?.url) {
+        console.warn(`[phalang] ${watchUrl}: mở trang xong nhưng không bắt được request .m3u8 có token — dùng link trần`);
+        return null;
+      }
+      const value = { url: found.url, referer: found.headers?.referer || `${watchUrl}`, at: Date.now() };
+      tokenCache.set(cleanId, value);
+      console.log(`[phalang] bắt được link có token (${cleanId}): ${this.maskUrl(found.url)} | referer: ${value.referer}`);
+      return value;
+    } catch (error) {
+      console.error(`[phalang] bắt link token bằng trình duyệt thất bại (${cleanId}):`, error.message);
+      return null;
+    }
+  }
+
+  async probeCdn(url) {
+    const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
+    const combos = [
+      ['Referer+Origin', { Referer: `${PHALANG_SITE_ORIGIN}/`, Origin: PHALANG_SITE_ORIGIN }],
+      ['chỉ Referer', { Referer: PHALANG_SITE_ORIGIN }],
+      ['không header', {}]
+    ];
+    for (const [label, extra] of combos) {
+      const ctrl = new AbortController();
+      const timer = setTimeout(() => ctrl.abort(), 6000);
+      try {
+        const r = await fetch(url, { headers: { 'User-Agent': UA, ...extra }, signal: ctrl.signal, redirect: 'manual' });
+        const body = (await r.text()).slice(0, 160).replace(/\s+/g, ' ');
+        // Nếu CDN trả 3xx (chuyển sang link bọc 100ycdn có token) -> log đích, che giá trị query.
+        const loc = r.headers.get('location');
+        const locInfo = loc ? ` | Location: ${this.maskUrl(loc)}` : '';
+        console.log(`[phalang][probe] ${label}: HTTP ${r.status} | ${r.headers.get('content-type') || '?'}${locInfo} | ${body}`);
+      } catch (e) {
+        console.log(`[phalang][probe] ${label}: lỗi ${e.name === 'AbortError' ? 'timeout 6s' : e.message}`);
+      } finally {
+        clearTimeout(timer);
+      }
+    }
+  }
+
+  async getStreamLinks(matchId, blvName, match) {
     const cleanId = String(matchId || '').replace(/^pl_/, '');
     if (!cleanId) return [];
     try {
@@ -595,7 +681,29 @@ class PhalangService {
           `mẫu: ${urls[0] ? this.maskUrl(urls[0]) : '(không có link)'}`
         );
       }
-      return urls.map((url, i) => ({
+      // Thử trực tiếp link đầu tiên với vài kiểu header (tối đa 3 lần/tiến
+      // trình) và log kết quả — để biết CDN từ chối vì Referer/Origin, IP hay
+      // link hết hạn. Chỉ để chẩn đoán, không ảnh hưởng playlist.
+      if (urls[0] && (this._probeLogged || 0) < 3) {
+        this._probeLogged = (this._probeLogged || 0) + 1;
+        this.probeCdn(urls[0]).catch(() => {}); // không chờ: tránh làm chậm/quá hạn việc lấy link
+      }
+      // Bắt link BỌC có token thật (xem resolveTokenizedUrl) — đặt LÊN ĐẦU danh
+      // sách, thay đúng link trần cùng đường dẫn; lỗi thì giữ nguyên link trần.
+      const tokenized = await this.resolveTokenizedUrl(
+        cleanId,
+        urls,
+        { home: match?.homeTeam?.name, away: match?.awayTeam?.name }
+      );
+      let finalUrls = urls;
+      if (tokenized) {
+        let tokenPath = '';
+        try { tokenPath = new URL(tokenized.url).pathname; } catch { /* bỏ qua */ }
+        const rest = urls.filter((u) => { try { return !tokenPath.endsWith(new URL(u).pathname); } catch { return true; } });
+        finalUrls = [tokenized.url, ...rest];
+      }
+      return finalUrls.map((url, i) => ({
+        referer: tokenized && url === tokenized.url ? tokenized.referer : null,
         id: `${cleanId}_${i}`,
         streamerId: `${cleanId}_${i}`,
         name: blvName ? `${blvName} (Server ${i + 1})` : `Server ${i + 1}`,

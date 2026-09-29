@@ -50,7 +50,8 @@ const UPCOMING_WINDOW_HOURS_BY_SOURCE = { phalang: PHALANG_UPCOMING_WINDOW_HOURS
 // theo loại nguồn: nguồn cần trình duyệt được rộng rãi hơn hẳn.
 const STREAM_RESOLVE_TIMEOUT_MS = 4500;
 const STREAM_RESOLVE_TIMEOUT_MS_BROWSER = 18000;
-const BROWSER_BASED_SOURCES = new Set(['giovang', 'khandaitv']);
+// phalang: cần mở trang xem trận bằng trình duyệt để bắt link m3u8 có token (29/09/2026).
+const BROWSER_BASED_SOURCES = new Set(['giovang', 'khandaitv', 'phalang']);
 const STREAM_RESOLVE_CONCURRENCY = 12;
 // Riêng nguồn cần trình duyệt: giảm số tab mở song song — 12 tab Chrome
 // cùng lúc trên máy chủ CI 2 nhân rất dễ khiến MỌI tab đều chậm/timeout dây
@@ -259,7 +260,7 @@ async function resolveStreams(match) {
         raw = await chuoichientvService.getStreamLinks(matchId);
       } else if (source === 'phalang') {
         if (!matchId) return [];
-        raw = await phalangService.getStreamLinks(matchId, match.stream?.streamerName);
+        raw = await phalangService.getStreamLinks(matchId, match.stream?.streamerName, match);
       } else if (source === 'gavang') {
         if (!matchId) return [];
         raw = await gavangService.getStreamLinks(matchId);
