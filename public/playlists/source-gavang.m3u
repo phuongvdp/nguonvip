@@ -1,11 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:02:27 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:05:33 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (6 trận) =====
 
 # ----- Ngày 2026-09-29 -----
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/4d3f0c67b2a2f22b033c8f17ea51b10e.jpg" group-title="Gà Vàng" , 29/09 08:05 🟡 🏀 Atletico Lanus vs Gimnasia Comodoro (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f7779710d2026dca44c41da7a9b7c748.png" group-title="Gà Vàng" , 29/09 07:00 🟢 ⚽ Jamaica vs Honduras (KAYTI)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69b8e6f43bcf2231c35d5144.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a1d4643376bf11b37c51f5c76fcaff79.png" group-title="Gà Vàng" , 29/09 09:00 🟡 ⚽ Guatemala vs El Salvador (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/guatemala-vs-el-salvador-ngay-29-09-2026/
