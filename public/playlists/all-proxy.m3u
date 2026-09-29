@@ -1,14 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:18:31 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:21:06 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (33 trận), Khán Đài (17 trận), Chuối Chiên (16 trận), Phá Làng (59 trận), Gà Vàng (21 trận), Sao Kê (18 trận), GaVang33 (26 trận), Bông Lau (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (32 trận), Khán Đài (17 trận), Chuối Chiên (16 trận), Phá Làng (58 trận), Gà Vàng (21 trận), Sao Kê (18 trận), GaVang33 (25 trận), Bông Lau (16 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png" group-title="Giờ Vàng" , 29/09 14:00 🟢 🏐 Qatar vs Ấn Độ (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790536252_hd%2F1790536252_hd%40720p.m3u8&source=giovang
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/philippines.png" group-title="Giờ Vàng" , 29/09 16:00 🟢 ⚽ Philippines vs Pakistan (Giovang 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790621538_hd%2F1790621538_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_341.jpg" group-title="Khán Đài" , 29/09 16:00 🟢 ⚽ Philippines vs Pakistan (Chim Nhỏ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa5%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3D67cc5bcdcabb081229f5406e5b07483d&source=khandaitv
@@ -24,9 +21,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/230139.png" group-title="Sao Kê" , 29/09 16:00 🟢 ⚽ Philippines vs Pakistan (Củ Cải (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx3-hd-1111%2Fplaylist.m3u8&source=saoke
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/0c620bcfc2a979fe9f22acbe0019f276.png" group-title="GaVang33" , 29/09 16:00 🟢 ⚽ Philippines vs Pakistan (Gà Siêu Bệu)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F289650.m3u8&source=gavang33
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20251215_200012_37b4c910.png" group-title="Bông Lau" , 29/09 16:00 🟢 ⚽ Philippines vs Pakistan (Chuối Chao (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stream.hdplaylink.com%2Fcctvlive%2Fchuoichaohd%2Fplaylist.m3u8&source=bonglau
@@ -91,26 +85,17 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/809e95942827f1fca7b6c5cffd4777cb.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Roasso Kumamoto - Kawasaki Frontale (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F69367bbbee2cd9713c1d1fc08c504384%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0587c755424c4e6290e45f9c52fb7b13.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Tochigi City - Sanfrecce Hiroshima (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fb7e677d1a3a31aa029f48efa42f77ac9%2Fplaylist.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9ce69393552848534795ef4af4562f20.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Matsumoto Yamaga FC - Albirex Niigata (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F7501343d9dca4367cb707d9e9d2f177c%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8b9ca3d6a9a5b9573992e58b972e96fd.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Kataller Toyama - Urawa Red Diamonds (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fc6758891c3e643a16f30ee77f90ee7d5%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/b63378659216bc994f5178e83b925408.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Australia - Brazil (LÝ LÀNG LÁ)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F14c41a3be672e3ae8833cb77c1c5b838%2Fplaylist.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6716.png" group-title="Sao Kê" , 29/09 17:00 🟢 ⚽ Australia vs Brazil (Bút Chì (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx22-hd-1111%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Sao Kê" , 29/09 17:00 🟢 ⚽ South Korea vs China (Kai (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx00-hd-1111%2Fplaylist.m3u8&source=saoke
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/46901c88777c4076bcf2ea240223deed.png" group-title="GaVang33" , 29/09 17:00 🟢 ⚽ Australia vs Brazil (Gà Ô Long)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F432017.m3u8&source=gavang33
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/5f12aeb3876fe101ab8b486ff9ea679a.png" group-title="GaVang33" , 29/09 17:00 🟢 ⚽ Montedio Yamagata vs Yokohama F. Marinos (Gà Siêu Kiêu)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F741294.m3u8&source=gavang33
@@ -126,6 +111,12 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Bông Lau" , 29/09 17:00 🟢 🏐 South Korea vs China (Chuối Kem (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikemhd%2Fplaylist.m3u8&source=bonglau
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/b63378659216bc994f5178e83b925408.png" group-title="Phá Làng" , 29/09 17:10 🟢 ⚽ Australia - Brazil (LÝ LÀNG LÁ)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F14c41a3be672e3ae8833cb77c1c5b838%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/46901c88777c4076bcf2ea240223deed.png" group-title="GaVang33" , 29/09 17:10 🟢 ⚽ Australia vs Brazil (Gà Ô Long)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F432017.m3u8&source=gavang33
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/b7IyW1Br-Ea76SXrf.png" group-title="Giờ Vàng" , 29/09 17:20 🟢 🏐 Nhật Bản vs Pakistan (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790622436_hd%2F1790622436_hd%40720p.m3u8&source=giovang

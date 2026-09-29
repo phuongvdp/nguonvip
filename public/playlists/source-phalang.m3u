@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:18:31 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:21:06 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (59 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (58 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/a2e58e23761d3f39d65777d78188f4a1.png" group-title="Phá Làng" , 29/09 16:00 🟢 ⚽ Philippines - Pakistan (LÝ LINH LỰC)
@@ -79,11 +79,6 @@ https://lilive1.eu.cc/live/ff4c5c7ca1c186f627b9581b55f3c7c9/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/69367bbbee2cd9713c1d1fc08c504384/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0587c755424c4e6290e45f9c52fb7b13.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Tochigi City - Sanfrecce Hiroshima (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/tochigi-city-vs-sanfrecce-hiroshima-y0or5jh9xeekqwz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/b7e677d1a3a31aa029f48efa42f77ac9/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9ce69393552848534795ef4af4562f20.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Matsumoto Yamaga FC - Albirex Niigata (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/matsumoto-yamaga-fc-vs-albirex-niigata-y39mp1hdvjy5moj
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -94,7 +89,7 @@ https://lilive1.eu.cc/live/7501343d9dca4367cb707d9e9d2f177c/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/c6758891c3e643a16f30ee77f90ee7d5/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/b63378659216bc994f5178e83b925408.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Australia - Brazil (LÝ LÀNG LÁ)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/b63378659216bc994f5178e83b925408.png" group-title="Phá Làng" , 29/09 17:10 🟢 ⚽ Australia - Brazil (LÝ LÀNG LÁ)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/australia-vs-brazil-zp5rzghg9x6gq82
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/14c41a3be672e3ae8833cb77c1c5b838/playlist.m3u8

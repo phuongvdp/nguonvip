@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:18:31 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:21:06 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (59 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (58 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/a2e58e23761d3f39d65777d78188f4a1.png" group-title="Phá Làng" , 29/09 16:00 🟢 ⚽ Philippines - Pakistan (LÝ LINH LỰC)
@@ -49,16 +49,13 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/809e95942827f1fca7b6c5cffd4777cb.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Roasso Kumamoto - Kawasaki Frontale (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F69367bbbee2cd9713c1d1fc08c504384%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0587c755424c4e6290e45f9c52fb7b13.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Tochigi City - Sanfrecce Hiroshima (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fb7e677d1a3a31aa029f48efa42f77ac9%2Fplaylist.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9ce69393552848534795ef4af4562f20.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Matsumoto Yamaga FC - Albirex Niigata (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F7501343d9dca4367cb707d9e9d2f177c%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8b9ca3d6a9a5b9573992e58b972e96fd.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Kataller Toyama - Urawa Red Diamonds (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fc6758891c3e643a16f30ee77f90ee7d5%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/b63378659216bc994f5178e83b925408.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Australia - Brazil (LÝ LÀNG LÁ)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/b63378659216bc994f5178e83b925408.png" group-title="Phá Làng" , 29/09 17:10 🟢 ⚽ Australia - Brazil (LÝ LÀNG LÁ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F14c41a3be672e3ae8833cb77c1c5b838%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 29/09 17:20 🟢 🏐 Nhật Bản - Pakistan (LÝ LÊN LỬA (Server 1))
