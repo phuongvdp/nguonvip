@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:58:30 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:01:05 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (33 trận), Khán Đài (18 trận), Chuối Chiên (15 trận), Phá Làng (58 trận), Gà Vàng (27 trận), Sao Kê (16 trận), GaVang33 (26 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (33 trận), Khán Đài (18 trận), Chuối Chiên (15 trận), Phá Làng (59 trận), Gà Vàng (21 trận), Sao Kê (16 trận), GaVang33 (26 trận), Bông Lau (15 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png" group-title="Giờ Vàng" , 29/09 14:00 🟢 🏐 Qatar vs Ấn Độ (Giovang 1)
@@ -52,8 +52,56 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Chuối Chiên" , 29/09 17:00 🟢 🏐 South Korea vs China (Chuối Kem (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikemhd%2Fplaylist.m3u8&source=chuoichientv
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/771a47aa3a754d19f9f298fdf828e23b.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Jubilo Iwata - JEF United Ichihara Chiba (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F5000149a1b6eb6dbd8769a28031684f0%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5f12aeb3876fe101ab8b486ff9ea679a.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Montedio Yamagata - Yokohama F. Marinos (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F5886289d5116d190f16cf301556b6026%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ac6989e16cbd3e3a5c5aee60eb94206a.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Gainare Tottori - V-Varen Nagasaki (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F3095abde495f17632f2916a443464b9a%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/89fbdff34136c67636e2b4875ab03043.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Fujieda MYFC - Cerezo Osaka (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F6525edf5aabe817cc8cc8cd222123c76%2Fplaylist.m3u8&source=phalang
+
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/604a26fb4f696d522d464fc2ff0919de.png!w80" group-title="Phá Làng" , 29/09 17:00 🟢 🏐 Hàn Quốc - Trung Quốc (LÝ LIỀU LĨNH (Server 1))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F693de31062db4a14bf2b4bd109139627%2Findex.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fefa11f94d0efff34a0f98ee4440a34b.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Giravanz Kitakyushu - Nagoya Grampus (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F71488f71af983843bf605d01009a717f%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ada2fba6258d87de3a01849042b87a2c.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Ehime FC - FC Tokyo (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F4a595b290657f266ffe860212149106c%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c332ade2db32b995f0883b7e3118e0fa.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Fukushima United FC - Mito Hollyhock (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F2e026a50a7244eadf43691104c956eb7%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/df5c70d45e8e013f82e098da8d134134.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ FC Osaka - Avispa Fukuoka (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F5d7e5d7ead4fe5f53d13f4b29e517c78%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0d7b400b61ad77a72d5d6d7db03077e7.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Sagan Tosu - Tokyo Verdy (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F552c93a62d94f2045a6aa9263fdd8761%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/646d000d7498d416110aad94ff53e8fb.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Zweigen Kanazawa FC - Shimizu S-Pulse (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F7c382a06be03f6aac794ebf3d40068aa%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ffb69072af11f7c87d69f3a9a71d687c.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ FC Gifu - Yokohama FC (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F40d55f6f75ac9b723c08f8febab43b20%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2a2a5d251c157be485891c94a1e1a495.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Hokkaido Consadole Sapporo - Fagiano Okayama (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fff4c5c7ca1c186f627b9581b55f3c7c9%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/809e95942827f1fca7b6c5cffd4777cb.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Roasso Kumamoto - Kawasaki Frontale (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F69367bbbee2cd9713c1d1fc08c504384%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0587c755424c4e6290e45f9c52fb7b13.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Tochigi City - Sanfrecce Hiroshima (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fb7e677d1a3a31aa029f48efa42f77ac9%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9ce69393552848534795ef4af4562f20.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Matsumoto Yamaga FC - Albirex Niigata (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F7501343d9dca4367cb707d9e9d2f177c%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8b9ca3d6a9a5b9573992e58b972e96fd.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Kataller Toyama - Urawa Red Diamonds (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fc6758891c3e643a16f30ee77f90ee7d5%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/b63378659216bc994f5178e83b925408.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Australia - Brazil (LÝ LÀNG LÁ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F14c41a3be672e3ae8833cb77c1c5b838%2Fplaylist.m3u8&source=phalang
@@ -82,71 +130,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Bông Lau" , 29/09 17:00 🟢 🏐 South Korea vs China (Chuối Kem (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikemhd%2Fplaylist.m3u8&source=bonglau
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/771a47aa3a754d19f9f298fdf828e23b.png" group-title="Phá Làng" , 29/09 17:00 🟡 ⚽ Jubilo Iwata - JEF United Ichihara Chiba (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#1l4rjnhnyzz8m7v
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5f12aeb3876fe101ab8b486ff9ea679a.png" group-title="Phá Làng" , 29/09 17:00 🟡 ⚽ Montedio Yamagata - Yokohama F. Marinos (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#23xmvkhyvdd5qg8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ac6989e16cbd3e3a5c5aee60eb94206a.png" group-title="Phá Làng" , 29/09 17:00 🟡 ⚽ Gainare Tottori - V-Varen Nagasaki (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#2y8m4zhv0g8wql0
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/89fbdff34136c67636e2b4875ab03043.png" group-title="Phá Làng" , 29/09 17:00 🟡 ⚽ Fujieda MYFC - Cerezo Osaka (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#4jwq2ghgovvlm0v
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fefa11f94d0efff34a0f98ee4440a34b.png" group-title="Phá Làng" , 29/09 17:00 🟡 ⚽ Giravanz Kitakyushu - Nagoya Grampus (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#6ypq3nhk6zwvmd7
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ada2fba6258d87de3a01849042b87a2c.png" group-title="Phá Làng" , 29/09 17:00 🟡 ⚽ Ehime FC - FC Tokyo (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#8yomo4hye2v3q0j
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c332ade2db32b995f0883b7e3118e0fa.png" group-title="Phá Làng" , 29/09 17:00 🟡 ⚽ Fukushima United FC - Mito Hollyhock (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#965mkyh8l3e7r1g
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/df5c70d45e8e013f82e098da8d134134.png" group-title="Phá Làng" , 29/09 17:00 🟡 ⚽ FC Osaka - Avispa Fukuoka (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#dj2ryoh7vjgxq1z
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0d7b400b61ad77a72d5d6d7db03077e7.png" group-title="Phá Làng" , 29/09 17:00 🟡 ⚽ Sagan Tosu - Tokyo Verdy (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#ednm9wh58zv8ryo
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/646d000d7498d416110aad94ff53e8fb.png" group-title="Phá Làng" , 29/09 17:00 🟡 ⚽ Zweigen Kanazawa FC - Shimizu S-Pulse (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#k82rekh2zyoyrep
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ffb69072af11f7c87d69f3a9a71d687c.png" group-title="Phá Làng" , 29/09 17:00 🟡 ⚽ FC Gifu - Yokohama FC (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#l7oqdehjy402r51
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2a2a5d251c157be485891c94a1e1a495.png" group-title="Phá Làng" , 29/09 17:00 🟡 ⚽ Hokkaido Consadole Sapporo - Fagiano Okayama (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#n54qllh45xxgqvy
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/809e95942827f1fca7b6c5cffd4777cb.png" group-title="Phá Làng" , 29/09 17:00 🟡 ⚽ Roasso Kumamoto - Kawasaki Frontale (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#pxwrxlhlp9jlryk
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0587c755424c4e6290e45f9c52fb7b13.png" group-title="Phá Làng" , 29/09 17:00 🟡 ⚽ Tochigi City - Sanfrecce Hiroshima (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#y0or5jh9xeekqwz
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9ce69393552848534795ef4af4562f20.png" group-title="Phá Làng" , 29/09 17:00 🟡 ⚽ Matsumoto Yamaga FC - Albirex Niigata (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#y39mp1hdvjy5moj
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8b9ca3d6a9a5b9573992e58b972e96fd.png" group-title="Phá Làng" , 29/09 17:00 🟡 ⚽ Kataller Toyama - Urawa Red Diamonds (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#zp5rzgh3yzzlq82
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/46901c88777c4076bcf2ea240223deed.png" group-title="Gà Vàng" , 29/09 17:00 🟡 ⚽ Australia vs Brazil (Chưa có link — chờ cập nhật)
-https://gavanglinkr.tv/truc-tiep/australia-vs-brazil-ngay-29-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5f12aeb3876fe101ab8b486ff9ea679a.png" group-title="Gà Vàng" , 29/09 17:00 🟡 ⚽ Montedio Yamagata vs Yokohama Marinos (Chưa có link — chờ cập nhật)
-https://gavanglinkr.tv/truc-tiep/montedio-yamagata-vs-yokohama-f-marinos-ngay-29-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/0587c755424c4e6290e45f9c52fb7b13.png" group-title="Gà Vàng" , 29/09 17:00 🟡 ⚽ Tochigi City vs Sanfrecce Hiroshima (Chưa có link — chờ cập nhật)
-https://gavanglinkr.tv/truc-tiep/tochigi-city-vs-sanfrecce-hiroshima-ngay-29-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/8b9ca3d6a9a5b9573992e58b972e96fd.png" group-title="Gà Vàng" , 29/09 17:00 🟡 ⚽ Kataller Toyama vs Urawa Red Diamonds (Chưa có link — chờ cập nhật)
-https://gavanglinkr.tv/truc-tiep/kataller-toyama-vs-urawa-red-diamonds-ngay-29-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/df5c70d45e8e013f82e098da8d134134.png" group-title="Gà Vàng" , 29/09 17:00 🟡 ⚽ FC Osaka vs Avispa Fukuoka (Chưa có link — chờ cập nhật)
-https://gavanglinkr.tv/truc-tiep/fc-osaka-vs-avispa-fukuoka-ngay-29-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/809e95942827f1fca7b6c5cffd4777cb.png" group-title="Gà Vàng" , 29/09 17:00 🟡 ⚽ Roasso Kumamoto vs Kawasaki Frontale (Chưa có link — chờ cập nhật)
-https://gavanglinkr.tv/truc-tiep/roasso-kumamoto-vs-kawasaki-frontale-ngay-29-09-2026/
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Sao Kê" , 29/09 17:20 🟢 ⚽ Japan vs Pakistan (Teppy (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx31-hd-1111%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/b7IyW1Br-Ea76SXrf.png" group-title="Giờ Vàng" , 29/09 17:20 🟡 🏐 Nhật Bản vs Pakistan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-nhat-ban-vs-pakistan-29-09-t6q1yj0nobq7
@@ -160,9 +145,6 @@ https://live05.chuoichientv.me/live/994033/japan-vs-pakistan
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 29/09 17:20 🟡 🏐 Nhật Bản - Pakistan (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#895e4593c83845df9fb73b7d801854e6
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Sao Kê" , 29/09 17:20 🟡 ⚽ Japan vs Pakistan (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/japan-vs-pakistan-6abb0c973eba0388fc1625cb.html
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Bông Lau" , 29/09 17:20 🟡 🏐 Japan vs Pakistan (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/994033
 
@@ -172,7 +154,7 @@ https://giovang.city/truc-tiep-nhat-ban-w-vs-han-quoc-w-29-09-c23mh33e7rlw
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/AiWVfPjC-E1YhvyqD.png" group-title="Sao Kê" , 29/09 17:30 🟡 ⚽ Japan W vs South Korea W (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/japan-w-vs-south-korea-w-6abb0bfce10d9d63c6e85fb2.html
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/509b91468e833ffe3fd9edd04f06ddee.png" group-title="Gà Vàng" , 29/09 18:00 ⚽ Wuxi Wugou vs Shanghai Jiading Huilong (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/509b91468e833ffe3fd9edd04f06ddee.png" group-title="Gà Vàng" , 29/09 18:00 🟡 ⚽ Wuxi Wugou vs Shanghai Jiading Huilong (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/wuxi-wugo-vs-ningbo-professional-football-club-ngay-29-09-2026/
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/gibraltar-u17.png" group-title="Giờ Vàng" , 29/09 19:00 ⚽ U17 Gibraltar vs Bosnia and Herzegovina U17 (Chưa có link — chờ cập nhật)
@@ -595,6 +577,9 @@ https://giovang.city/truc-tiep-new-york-liberty-vs-minnesota-lynx-30-09-36590471
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8036ad8158264bdaa591efcb9a00ae70.png" group-title="Phá Làng" , 30/09 07:30 ⚽ San Antonio - SV Darmstadt 98 (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6ypq3nhk6ee0md7
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e399c54b84794822f6e5e3c02c7f3b6e.png" group-title="Phá Làng" , 30/09 08:00 ⚽ Mexico - Peru (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#jw2r09h54940rz8
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/cd5a7e277e91426d9ad74bd09b946fde.png" group-title="GaVang33" , 30/09 08:00 ⚽ Mexico vs Peru (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/mexico-vs-peru-luc-0800-ngay-30-09-2026-jw2r09h54940rz8
