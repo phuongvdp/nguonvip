@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 02:20:14 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 02:23:11 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (17 trận), Chuối Chiên (18 trận), Phá Làng (25 trận), Gà Vàng (8 trận), Sao Kê (20 trận), GaVang33 (25 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (17 trận), Chuối Chiên (18 trận), Phá Làng (24 trận), Gà Vàng (8 trận), Sao Kê (20 trận), GaVang33 (25 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/3c0b84f6c8ee0d929021de10cbb8cc69.png" group-title="Gà Vàng" , 29/09 23:00 🟢 ⚽ Finland vs Belarus (SÚP LƠ)
@@ -20,8 +20,10 @@ https://playback.livetl002.com/live/6a0c7c4b1ae4d6db02433c48.m3u8
 https://playback.livetl002.com/live/6a439a7fb89dded67b208b87.m3u8
 
 # ----- Ngày 2026-09-30 -----
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_647.jpg" group-title="Khán Đài" , 30/09 00:30 🟢 ⚽ Saudi Arabia vs Iraq (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/saudi-arabia-vs-iraq-30-09-2026-857565
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_647.jpg" group-title="Khán Đài" , 30/09 00:30 🟢 ⚽ Saudi Arabia vs Iraq (Enzo)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/afd785b0073f54e675356d9b1e3a6dd6.png" group-title="Phá Làng" , 30/09 00:30 🟢 ⚽ Saudi Arabia - Iraq (LÝ LINH LỰC)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/saudi-arabia-vs-iraq-ednm9whwj0jdryo
@@ -56,14 +58,20 @@ https://eqr2hdarxfliv.vcdn.cloud/1790665884_hd/1790665884_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790666114_hd/1790666114_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_15.jpg" group-title="Khán Đài" , 30/09 01:45 🟢 ⚽ Scotland vs Switzerland (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/scotland-vs-switzerland-30-09-2026-790838
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_15.jpg" group-title="Khán Đài" , 30/09 01:45 🟢 ⚽ Scotland vs Switzerland (Chim Nhỏ)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_696.jpg" group-title="Khán Đài" , 30/09 01:45 🟢 ⚽ Slovenia vs North Macedonia (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/slovenia-vs-north-macedonia-30-09-2026-790839
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_696.jpg" group-title="Khán Đài" , 30/09 01:45 🟢 ⚽ Slovenia vs North Macedonia (Pháo Thủ)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_13.jpg" group-title="Khán Đài" , 30/09 01:45 🟢 ⚽ Czech Republic vs England (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/czech-republic-vs-england-30-09-2026-790886
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_13.jpg" group-title="Khán Đài" , 30/09 01:45 🟢 ⚽ Czech Republic vs England (Lee Sin)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_19.jpg" group-title="Khán Đài" , 30/09 01:45 🟢 ⚽ Spain vs Croatia (Tày)
 #EXTVLCOPT:http-referrer=https://khandai3.link
@@ -203,11 +211,6 @@ https://lilive1.eu.cc/live/5d48d6359ac41693ea3c04977cc40ed8/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/benin-vs-mauritania-8yomo4h1npzxq0j
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/addeaa73ca73d283ceb82c5ec7436291/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1c3646a13b313d69c782097a62658900.png" group-title="Phá Làng" , 30/09 02:00 🟢 ⚽ Gabon - Niger (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/gabon-vs-niger-pxwrxlhyd4vxryk
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/ef18e6983767e6832f0bb45c6ac007ac/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/55ee599e866e56254b9d77e28207cc22.png" group-title="Phá Làng" , 30/09 02:00 🟢 ⚽ Liberia - Mali (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/liberia-vs-mali-vjxm8ghey1xer6o
