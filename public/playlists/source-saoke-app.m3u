@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:45:43 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:47:59 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (16 trận) =====
 
@@ -7,8 +7,8 @@
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5788.png" group-title="Sao Kê" , 29/09 19:30 🟢 ⚽ Thailand vs Vietnam (Củ Cải (HD))
 https://wtyi0525.edgemaxcdn.org/live/x3-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5842.png" group-title="Sao Kê" , 29/09 22:00 🟡 ⚽ Iceland U21 vs Switzerland U21 (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/iceland-u21-vs-switzerland-u21-6abbc9e040b179ea16dd5f7c.html
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5842.png" group-title="Sao Kê" , 29/09 22:00 🟢 ⚽ Iceland U21 vs Switzerland U21 (Teppy (HD))
+https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/7871.png" group-title="Sao Kê" , 29/09 23:00 ⚽ Finland vs Belarus (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/finland-vs-belarus-6abb0bc247921e67726f4f95.html
