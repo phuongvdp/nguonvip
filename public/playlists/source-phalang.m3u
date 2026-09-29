@@ -1,18 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:11:14 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:14:27 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (41 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (40 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/604a26fb4f696d522d464fc2ff0919de.png!w80" group-title="Phá Làng" , 29/09 17:00 🟢 🏐 Hàn Quốc - Trung Quốc (LÝ LIỀU LĨNH (Server 1))
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/han-quoc-vs-trung-quoc-5303a0b60fb2444b867cd8852988c95b
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pull.digitalcdn.net/live/693de31062db4a14bf2b4bd109139627/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/b63378659216bc994f5178e83b925408.png" group-title="Phá Làng" , 29/09 17:10 🟢 ⚽ Australia - Brazil (LÝ LÀNG LÁ)
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/australia-vs-brazil-zp5rzghg9x6gq82
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/14c41a3be672e3ae8833cb77c1c5b838/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/22fc8d10a1f32e5da720454189015664.png" group-title="Phá Làng" , 29/09 19:00 🟢 ⚽ Comoros - Namibia (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/comoros-vs-namibia-ednm9whw1ng3ryo
