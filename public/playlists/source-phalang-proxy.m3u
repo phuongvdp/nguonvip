@@ -1,17 +1,29 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:21:07 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:24:04 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (25 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (29 trận) =====
 
 # ----- Ngày 2026-09-29 -----
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b78fbb9123ed9633ac77215960a8a7b3.png" group-title="Phá Làng" , 29/09 23:00 🟢 ⚽ Cabo Verde - Rwanda (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fd07a3d39ca01e76aefdb3f898bf373d8%2Fplaylist.m3u8&source=phalang
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/ba544863f6ad5205a345fa42bb80f71a.png" group-title="Phá Làng" , 29/09 23:00 🟢 ⚽ Finland - Belarus (LÝ LÀNG LÁ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F35054e83ca41224492084e88365eb30d%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fe3068bbe94dd5f423e9b9a6135d8c40.png" group-title="Phá Làng" , 29/09 23:00 🟢 ⚽ Russia - IR Iran (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F19e8c3ad99bb8b87b761ac747940e6a4%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b34d725dccf3683e8bf54f58c6dc2785.png" group-title="Phá Làng" , 29/09 23:00 🟢 ⚽ Guinea Bissau - Nigeria (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F926405c53fbb453c832412ca3ffc8fec%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0aa984737265ab1eb09981533793b1ed.crdownload" group-title="Phá Làng" , 29/09 23:00 🟢 ⚽ Moldova - Faroe Islands (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F85769cb4de4ae05a698b6619b1309176%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f63a25999e46016f279bdb8f5caffd33.png" group-title="Phá Làng" , 29/09 23:00 🟢 ⚽ Ghana - Gambia (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F0ebe32c78f5fe884f4766839be0c57d4%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/07507a2719cb24c2c93b924ed1d4406a.png" group-title="Phá Làng" , 29/09 23:00 🟢 ⚽ Zambia - Togo (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fbd6a4b395b82aa960c6f99de6109b2b0%2Fplaylist.m3u8&source=phalang
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/afd785b0073f54e675356d9b1e3a6dd6.png" group-title="Phá Làng" , 30/09 00:30 🟢 ⚽ Saudi Arabia - Iraq (LÝ LINH LỰC)

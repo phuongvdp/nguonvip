@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:21:07 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:24:04 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận), Khán Đài (13 trận), Chuối Chiên (15 trận), Phá Làng (25 trận), Gà Vàng (10 trận), Sao Kê (17 trận), GaVang33 (22 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (13 trận), Chuối Chiên (15 trận), Phá Làng (29 trận), Gà Vàng (10 trận), Sao Kê (17 trận), GaVang33 (22 trận), Bông Lau (15 trận) =====
 
 # ----- Ngày 2026-09-29 -----
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/serbia-u19.png" group-title="Giờ Vàng" , 29/09 21:30 🟢 ⚽ Serbia U19 vs U19 Hungary (Giovang 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790678912_hd%2F1790678912_hd%40720p.m3u8&source=giovang
-
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/iceland-u21.png" group-title="Giờ Vàng" , 29/09 22:00 🟢 ⚽ U21 Iceland vs Thụy Sĩ U21 (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790622296_hd%2F1790622296_hd%40720p.m3u8&source=giovang
 
@@ -34,23 +31,35 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/38e7f6ed6a1053e25c1f5d60fbf563b2.png" group-title="Giờ Vàng" , 29/09 23:00 🟢 🏀 Dubai vs FC Barcelona (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790666365_hd%2F1790666365_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_8.jpg" group-title="Khán Đài" , 29/09 23:00 🟢 ⚽ Finland vs Belarus (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/finland-vs-belarus-29-09-2026-790930
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_8.jpg" group-title="Khán Đài" , 29/09 23:00 🟢 ⚽ Finland vs Belarus (Kền Kền)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa6%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3D16059952b038cc8982ab6d1980711dc9&source=khandaitv
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_689.jpg" group-title="Khán Đài" , 29/09 23:00 🟢 ⚽ Moldova vs Faroe Islands (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/moldova-vs-faroe-islands-29-09-2026-790931
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_689.jpg" group-title="Khán Đài" , 29/09 23:00 🟢 ⚽ Moldova vs Faroe Islands (Pháo Thủ)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa4%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dfaaa23580764370ed378ecd708c9f262&source=khandaitv
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Chuối Chiên" , 29/09 23:00 🟢 ⚽ Finland vs Belarus (Chuối Nhỏ (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoinhohd%2Fplaylist.m3u8&source=chuoichientv
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b78fbb9123ed9633ac77215960a8a7b3.png" group-title="Phá Làng" , 29/09 23:00 🟢 ⚽ Cabo Verde - Rwanda (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fd07a3d39ca01e76aefdb3f898bf373d8%2Fplaylist.m3u8&source=phalang
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/ba544863f6ad5205a345fa42bb80f71a.png" group-title="Phá Làng" , 29/09 23:00 🟢 ⚽ Finland - Belarus (LÝ LÀNG LÁ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F35054e83ca41224492084e88365eb30d%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fe3068bbe94dd5f423e9b9a6135d8c40.png" group-title="Phá Làng" , 29/09 23:00 🟢 ⚽ Russia - IR Iran (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F19e8c3ad99bb8b87b761ac747940e6a4%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b34d725dccf3683e8bf54f58c6dc2785.png" group-title="Phá Làng" , 29/09 23:00 🟢 ⚽ Guinea Bissau - Nigeria (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F926405c53fbb453c832412ca3ffc8fec%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0aa984737265ab1eb09981533793b1ed.crdownload" group-title="Phá Làng" , 29/09 23:00 🟢 ⚽ Moldova - Faroe Islands (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F85769cb4de4ae05a698b6619b1309176%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f63a25999e46016f279bdb8f5caffd33.png" group-title="Phá Làng" , 29/09 23:00 🟢 ⚽ Ghana - Gambia (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F0ebe32c78f5fe884f4766839be0c57d4%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/07507a2719cb24c2c93b924ed1d4406a.png" group-title="Phá Làng" , 29/09 23:00 🟢 ⚽ Zambia - Togo (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fbd6a4b395b82aa960c6f99de6109b2b0%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/7871.png" group-title="Sao Kê" , 29/09 23:00 🟢 ⚽ Finland vs Belarus (Ricky (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx83-hd-1111%2Fplaylist.m3u8&source=saoke
