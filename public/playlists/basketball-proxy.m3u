@@ -1,11 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 05:08:27 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 05:10:44 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (3 trận), Gà Vàng (2 trận) =====
 
 # ----- Ngày 2026-09-30 -----
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/2672748dfcca12a59823b97a08ffb22d.png" group-title="Giờ Vàng" , 30/09 05:30 🟡 🏀 Indiana Fever vs Las Vegas Aces (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-indiana-fever-vs-las-vegas-aces-30-09-27101470
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/2672748dfcca12a59823b97a08ffb22d.png" group-title="Giờ Vàng" , 30/09 05:30 🟢 🏀 Indiana Fever vs Las Vegas Aces (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790666780_hd%2F1790666780_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/81e9f1f9d6393fd128c6c014783d9fa2.png" group-title="Gà Vàng" , 30/09 05:30 🟡 🏀 Indiana Fever vs Las Vegas Aces (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
