@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:22:04 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 09:25:41 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận), Khán Đài (21 trận), Chuối Chiên (20 trận), Phá Làng (49 trận), Gà Vàng (25 trận), Sao Kê (21 trận), GaVang33 (26 trận), Bông Lau (20 trận) =====
 
@@ -25,8 +25,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/4a2e9789964030d8f9873ca4b8a7587b.png!w80" group-title="Phá Làng" , 29/09 08:00 🟢 🏐 Hồng Kông - Việt Nam (LÝ LÊN LỬA (Server 1))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2Fcc977f6028834ced9609757c8c08685f%2Findex.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/4346797bf61de910e7d62fa55f5bf1b5.png!w80" group-title="Phá Làng" , 29/09 08:00 🟢 🏐 Kyrgyzstan - Thái Lan (LÝ LIỀU LĨNH (Server 1))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F9ae33370f38640368039d3d0fbd61e57%2Findex.m3u8&source=phalang
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/4346797bf61de910e7d62fa55f5bf1b5.png!w80" group-title="Phá Làng" , 29/09 08:00 🟢 🏐 Kyrgyzstan - Thái Lan (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#6ded14aad1944d88b10ed12297e89818
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Sao Kê" , 29/09 08:00 🟢 ⚽ Hong Kong vs Việt Nam (Cà Rốt)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fcarot%2Fplaylist.m3u8&source=saoke
