@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:30:22 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:33:11 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (16 trận), Chuối Chiên (13 trận), Phá Làng (56 trận), Gà Vàng (19 trận), Sao Kê (16 trận), GaVang33 (26 trận), Bông Lau (13 trận) =====
 
@@ -33,6 +33,12 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stre
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Sao Kê" , 29/09 17:00 🟢 ⚽ South Korea vs China (Kai (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx00-hd-1111%2Fplaylist.m3u8&source=saoke
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/46901c88777c4076bcf2ea240223deed.png" group-title="GaVang33" , 29/09 17:00 🟢 ⚽ Australia vs Brazil (Gà Ô Long)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F432017.m3u8&source=gavang33
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/5f12aeb3876fe101ab8b486ff9ea679a.png" group-title="GaVang33" , 29/09 17:00 🟢 ⚽ Montedio Yamagata vs Yokohama F. Marinos (Gà Siêu Kiêu)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F741294.m3u8&source=gavang33
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/QsDUXXzB-Iy4CNX9E.png" group-title="Giờ Vàng" , 29/09 17:00 🟡 ⚽ Portugal U20 vs Switzerland U20 (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-portugal-u20-vs-switzerland-u20-29-09-lnu8b9zj43lv
@@ -114,12 +120,6 @@ https://gavanglinkr.tv/truc-tiep/roasso-kumamoto-vs-kawasaki-frontale-ngay-29-09
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6716.png" group-title="Sao Kê" , 29/09 17:00 🟡 ⚽ Australia vs Brazil (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/australia-vs-brazil-6abb0bc247921e67726f4f97.html
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/46901c88777c4076bcf2ea240223deed.png" group-title="GaVang33" , 29/09 17:00 🟡 ⚽ Australia vs Brazil (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/australia-vs-brazil-luc-1700-ngay-29-09-2026-zp5rzghg9x6gq82
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/5f12aeb3876fe101ab8b486ff9ea679a.png" group-title="GaVang33" , 29/09 17:00 🟡 ⚽ Montedio Yamagata vs Yokohama F. Marinos (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/montedio-yamagata-vs-yokohama-f-marinos-luc-1700-ngay-29-09-2026-23xmvkhyvdd5qg8
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/8b9ca3d6a9a5b9573992e58b972e96fd.png" group-title="GaVang33" , 29/09 17:00 🟡 ⚽ Kataller Toyama vs Urawa Red Diamonds (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/kataller-toyama-vs-urawa-red-diamonds-luc-1700-ngay-29-09-2026-zp5rzgh3yzzlq82
