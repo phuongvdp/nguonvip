@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:58:45 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:01:24 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (39 trận) =====
 
@@ -7,10 +7,10 @@
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/22884d32389000f077ac6ae827be3d1c.png" group-title="Phá Làng" , 29/09 07:00 🟢 🏐 Việt Nam - Philipines (LÝ LIỀU LĨNH (Server 1))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F56b98b4978114f32b2ebe926e048ff89%2Findex.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/4a2e9789964030d8f9873ca4b8a7587b.png!w80" group-title="Phá Làng" , 29/09 08:00 🏐 Hồng Kông - Việt Nam (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/4a2e9789964030d8f9873ca4b8a7587b.png!w80" group-title="Phá Làng" , 29/09 08:00 🟡 🏐 Hồng Kông - Việt Nam (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#07512a3d225b49db84388d2888464212
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/4346797bf61de910e7d62fa55f5bf1b5.png!w80" group-title="Phá Làng" , 29/09 08:00 🏐 Kyrgyzstan - Thái Lan (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/4346797bf61de910e7d62fa55f5bf1b5.png!w80" group-title="Phá Làng" , 29/09 08:00 🟡 🏐 Kyrgyzstan - Thái Lan (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6ded14aad1944d88b10ed12297e89818
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f3f2e9c5843d2acfa65bc79088902d53.png" group-title="Phá Làng" , 29/09 11:00 ⚽ Papua New Guinea Women - Solomon Islands (w) Soccer (Chưa có link — chờ cập nhật)

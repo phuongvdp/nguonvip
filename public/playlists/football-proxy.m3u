@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:58:44 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:01:22 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (15 trận), Chuối Chiên (1 trận), Phá Làng (33 trận), Gà Vàng (3 trận), Sao Kê (5 trận), GaVang33 (25 trận), Bông Lau (1 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (15 trận), Chuối Chiên (1 trận), Phá Làng (33 trận), Gà Vàng (2 trận), Sao Kê (4 trận), GaVang33 (26 trận), Bông Lau (1 trận) =====
 
 # ----- Ngày 2026-09-29 -----
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/127411.png" group-title="Sao Kê" , 29/09 05:00 🟢 ⚽ Suriname vs Martinique (Tít)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Ftit%2Fplaylist.m3u8&source=saoke
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/24403efa393f55163b5593c435bbe4a7.png" group-title="Gà Vàng" , 29/09 05:30 🟢 ⚽ America MG vs Juventude (cố tư nghiêm)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69a1aaa7230584579e2d5ce1.m3u8&source=gavang
 
@@ -28,13 +25,7 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132739_776293e4.png" group-title="Bông Lau" , 29/09 07:00 🟢 ⚽ Jamaica vs Honduras (Trốc Tru (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Ftroctru%2Fplaylist.m3u8&source=bonglau
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/jamaica.png" group-title="Giờ Vàng" , 29/09 07:00 🟡 ⚽ Jamaica vs Honduras (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-jamaica-vs-honduras-29-09-6aadd0cc45163e9e3e085d18
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f7779710d2026dca44c41da7a9b7c748.png" group-title="Gà Vàng" , 29/09 07:00 🟡 ⚽ Jamaica vs Honduras (Chưa có link — chờ cập nhật)
-https://gavanglinkr.tv/truc-tiep/jamaica-vs-honduras-ngay-29-09-2026/
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Sao Kê" , 29/09 08:00 ⚽ Hong Kong vs Việt Nam (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Sao Kê" , 29/09 08:00 🟡 ⚽ Hong Kong vs Việt Nam (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/hong-kong-vs-viet-nam-6ab9bbc0e10d9d63c6c6a5c8.html
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/guatemala.png" group-title="Giờ Vàng" , 29/09 09:00 ⚽ Guatemala vs El Salvador (Chưa có link — chờ cập nhật)
@@ -295,3 +286,9 @@ https://gavang33.me/truc-tiep/san-marino-vs-albania-luc-0145-ngay-30-09-2026-l5e
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/e2fcc738438c4e7ca4b605ef8764db73.png" group-title="GaVang33" , 30/09 01:45 ⚽ Slovakia vs Kazakhstan (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/slovakia-vs-kazakhstan-luc-0145-ngay-30-09-2026-l7oqdehgjw97r51
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/usa.png" group-title="Giờ Vàng" , 30/09 07:00 ⚽ Mỹ vs Chilê (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-my-vs-chile-30-09-6ab5ba6009ca9ecd4709098e
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/350ec526535f4c9a81f9d9201948d9d5.png" group-title="GaVang33" , 30/09 07:00 ⚽ USA vs Chile (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/usa-vs-chile-luc-0700-ngay-30-09-2026-l5ergphk0y0yr8k

@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:58:44 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:01:22 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (22 trận), Chuối Chiên (3 trận), Phá Làng (39 trận), Gà Vàng (8 trận), Sao Kê (5 trận), GaVang33 (25 trận), Bông Lau (3 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (22 trận), Chuối Chiên (3 trận), Phá Làng (39 trận), Gà Vàng (7 trận), Sao Kê (4 trận), GaVang33 (26 trận), Bông Lau (3 trận) =====
 
 # ----- Ngày 2026-09-29 -----
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/127411.png" group-title="Sao Kê" , 29/09 05:00 🟢 ⚽ Suriname vs Martinique (Tít)
-#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/suriname-vs-martinique-6ab9bf6a29359ae22fd197de.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://stm6dad62063600.stream.hdplaylink.com/sklive/tit/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/24403efa393f55163b5593c435bbe4a7.png" group-title="Gà Vàng" , 29/09 05:30 🟢 ⚽ America MG vs Juventude (cố tư nghiêm)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -47,42 +42,36 @@ https://live2.zktsva.app/live/301263.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/jamaica.png" group-title="Giờ Vàng" , 29/09 07:00 🟡 ⚽ Jamaica vs Honduras (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-jamaica-vs-honduras-29-09-6aadd0cc45163e9e3e085d18
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f7779710d2026dca44c41da7a9b7c748.png" group-title="Gà Vàng" , 29/09 07:00 🟡 ⚽ Jamaica vs Honduras (Chưa có link — chờ cập nhật)
-https://gavanglinkr.tv/truc-tiep/jamaica-vs-honduras-ngay-29-09-2026/
-
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/guid/d1a9b001-1df7-fbd7-ae4c-6ca7065286ec/logos/primary_logo_on_black_color.png" group-title="Giờ Vàng" , 29/09 07:15 🟢 ⚽ Philadelphia Eagles vs Chicago bear (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790635813_hd/1790635813_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/jilBtfFG-0xLZRP53.png" group-title="Giờ Vàng" , 29/09 08:00 🏐 Việt Nam vs Hồng Kông (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/jilBtfFG-0xLZRP53.png" group-title="Giờ Vàng" , 29/09 08:00 🟡 🏐 Việt Nam vs Hồng Kông (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-viet-nam-vs-hong-kong-29-09-ya8md5yst15f
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/QgrBggHG-4b37MkS4.png" group-title="Giờ Vàng" , 29/09 08:00 🏐 Kyrgyzstan vs Thái Lan (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/QgrBggHG-4b37MkS4.png" group-title="Giờ Vàng" , 29/09 08:00 🟡 🏐 Kyrgyzstan vs Thái Lan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-kyrgyzstan-vs-thai-lan-29-09-0eot7aq17ush
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_Hong_Kong_ShTrNhs.svg.webp" group-title="Khán Đài" , 29/09 08:00 🏐 Hong Kong vs Việt Nam (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_Hong_Kong_ShTrNhs.svg.webp" group-title="Khán Đài" , 29/09 08:00 🟡 🏐 Hong Kong vs Việt Nam (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/hongkong-vs-vietnam
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images.png" group-title="Khán Đài" , 29/09 08:00 🏐 Kyrgyzstan vs Thái Lan (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images.png" group-title="Khán Đài" , 29/09 08:00 🟡 🏐 Kyrgyzstan vs Thái Lan (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/kyrgyzstan-vs-thai-lan
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Chuối Chiên" , 29/09 08:00 🏐 Hong Kong vs Việt Nam (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Chuối Chiên" , 29/09 08:00 🟡 🏐 Hong Kong vs Việt Nam (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/994688/hong-kong-vs-viet-nam
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/4a2e9789964030d8f9873ca4b8a7587b.png!w80" group-title="Phá Làng" , 29/09 08:00 🏐 Hồng Kông - Việt Nam (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/4a2e9789964030d8f9873ca4b8a7587b.png!w80" group-title="Phá Làng" , 29/09 08:00 🟡 🏐 Hồng Kông - Việt Nam (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#07512a3d225b49db84388d2888464212
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/4346797bf61de910e7d62fa55f5bf1b5.png!w80" group-title="Phá Làng" , 29/09 08:00 🏐 Kyrgyzstan - Thái Lan (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/4346797bf61de910e7d62fa55f5bf1b5.png!w80" group-title="Phá Làng" , 29/09 08:00 🟡 🏐 Kyrgyzstan - Thái Lan (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6ded14aad1944d88b10ed12297e89818
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Sao Kê" , 29/09 08:00 ⚽ Hong Kong vs Việt Nam (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Sao Kê" , 29/09 08:00 🟡 ⚽ Hong Kong vs Việt Nam (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/hong-kong-vs-viet-nam-6ab9bbc0e10d9d63c6c6a5c8.html
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Bông Lau" , 29/09 08:00 🏐 Hong Kong vs Việt Nam (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Bông Lau" , 29/09 08:00 🟡 🏐 Hong Kong vs Việt Nam (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/994688
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/4d3f0c67b2a2f22b033c8f17ea51b10e.jpg" group-title="Gà Vàng" , 29/09 08:05 🏀 Atletico Lanus vs Gimnasia Comodoro (Chưa có link — chờ cập nhật)
@@ -403,3 +392,9 @@ https://gavang33.me/truc-tiep/slovakia-vs-kazakhstan-luc-0145-ngay-30-09-2026-l7
 
 #EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/S/pv-target-images/92a6fe2caef3a15e2b920f0944f33dbe5eef66bdfe761a61595e8619555a18cb.jpg" group-title="Giờ Vàng" , 30/09 06:00 ⚽ Dana White's Contender Series: Season 10, Week 8 vs Dana White's Contender Series: Season 10, Week 8 (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-dana-white-s-contender-series-season-10-week-8-vs-dana-white-s-contender-series-season-10-week-8-30-09-n6a9m7k6zd4z
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/usa.png" group-title="Giờ Vàng" , 30/09 07:00 ⚽ Mỹ vs Chilê (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-my-vs-chile-30-09-6ab5ba6009ca9ecd4709098e
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/350ec526535f4c9a81f9d9201948d9d5.png" group-title="GaVang33" , 30/09 07:00 ⚽ USA vs Chile (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/usa-vs-chile-luc-0700-ngay-30-09-2026-l5ergphk0y0yr8k
