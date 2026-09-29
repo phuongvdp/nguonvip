@@ -1,19 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:31:47 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:34:49 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (37 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (35 trận) =====
 
 # ----- Ngày 2026-09-29 -----
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 🟢 ⚽ Thailand - Vietnam (LÝ LA LÀNG)
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/thailand-vs-vietnam-6ypq3nhvx8zemd7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/9174dd3b8ea1a120a2910e3d1a536df9/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 🟢 ⚽ Thailand - Vietnam (LÝ LÀNG LÁ (Server 1))
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/thailand-vs-vietnam-a93ccd45139149dfa77ca6ad27893bf0
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://pull.digitalcdn.net/live/84e20c3f9bdf403f950ed586fb1af96f/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f68325b460e254099c207bd6622e14b1.png" group-title="Phá Làng" , 29/09 20:00 🟢 ⚽ Mozambique - Sudan (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/mozambique-vs-sudan-318q66hxlekoqo9
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
