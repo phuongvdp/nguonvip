@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:40:51 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:43:06 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (31 trận), Khán Đài (19 trận), Chuối Chiên (16 trận), Phá Làng (59 trận), Gà Vàng (27 trận), Sao Kê (17 trận), GaVang33 (25 trận), Bông Lau (16 trận) =====
 
@@ -34,6 +34,9 @@ https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8|User-Agen
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/philippines.png" group-title="Giờ Vàng" , 29/09 16:00 🟢 ⚽ Philippines vs Pakistan (Giovang 1)
 https://eqr2hdarxfliv.vcdn.cloud/1790621538_hd/1790621538_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_341.jpg" group-title="Khán Đài" , 29/09 16:00 🟢 ⚽ Philippines vs Pakistan (Chim Nhỏ)
+https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://khandai3.link
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20251215_200012_37b4c910.png" group-title="Chuối Chiên" , 29/09 16:00 🟢 ⚽ Philippines vs Pakistan (Chuối Chao (FHD))
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
@@ -48,9 +51,6 @@ https://live2.zktsva.app/live/289650.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20251215_200012_37b4c910.png" group-title="Bông Lau" , 29/09 16:00 🟢 ⚽ Philippines vs Pakistan (Chuối Chao (FHD))
 https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_341.jpg" group-title="Khán Đài" , 29/09 16:00 🟡 ⚽ Philippines vs Pakistan (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/philippines-vs-pakistan-29-09-2026-859001
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/94f4b5c04d9b9d9e41c9d0cdabbb9e21.png" group-title="Phá Làng" , 29/09 16:00 🟡 ⚽ Mohun Bagan Super Giant - Northeast United FC (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkhyv9wwqg8
