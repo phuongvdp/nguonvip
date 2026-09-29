@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:23:08 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:25:23 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (59 trận) =====
 
@@ -14,11 +14,13 @@ https://lilive1.eu.cc/live/f71a6b5f9c2e8bd7552b0896fcb3db3f/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pull.digitalcdn.net/live/2a2d91969b1747eca27d8cf331ba584f/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/a2e58e23761d3f39d65777d78188f4a1.png" group-title="Phá Làng" , 29/09 16:00 🟢 ⚽ Philippines - Pakistan (LÝ LINH LỰC)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/philippines-vs-pakistan-8yomo4h1n829q0j
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/b077f385953275f57e485d4780f2d56a/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/94f4b5c04d9b9d9e41c9d0cdabbb9e21.png" group-title="Phá Làng" , 29/09 16:00 🟡 ⚽ Mohun Bagan Super Giant - Northeast United FC (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkhyv9wwqg8
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/a2e58e23761d3f39d65777d78188f4a1.png" group-title="Phá Làng" , 29/09 16:00 🟡 ⚽ Philippines - Pakistan (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#8yomo4h1n829q0j
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/771a47aa3a754d19f9f298fdf828e23b.png" group-title="Phá Làng" , 29/09 17:00 ⚽ Jubilo Iwata - JEF United Ichihara Chiba (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#1l4rjnhnyzz8m7v
