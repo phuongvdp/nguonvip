@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:56:53 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:00:42 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (21 trận) =====
 
@@ -10,7 +10,7 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stre
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5858.png" group-title="Sao Kê" , 29/09 09:00 🟢 ⚽ Guatemala vs El Salvador (Mơ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fmo%2Fplaylist.m3u8&source=saoke
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20251215_200012_37b4c910.png" group-title="Sao Kê" , 29/09 11:00 ⚽ Philippines vs Chinese Taipei (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20251215_200012_37b4c910.png" group-title="Sao Kê" , 29/09 11:00 🟡 ⚽ Philippines vs Chinese Taipei (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/philippines-vs-chinese-taipei-6ab9bbd65b828a346dbafc67.html
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/8MkHmtRq-xpPmazWa.png" group-title="Sao Kê" , 29/09 13:00 ⚽ North Korea W vs China W (Chưa có link — chờ cập nhật)

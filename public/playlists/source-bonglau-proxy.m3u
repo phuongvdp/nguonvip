@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:56:53 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:00:42 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Bông Lau (20 trận) =====
 
@@ -7,7 +7,7 @@
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Bông Lau" , 29/09 08:00 🟢 🏐 Hong Kong vs Việt Nam (Chuối Kem (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikem%2Fplaylist.m3u8&source=bonglau
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20251215_200012_37b4c910.png" group-title="Bông Lau" , 29/09 11:00 🏐 Philippines vs Chinese Taipei (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20251215_200012_37b4c910.png" group-title="Bông Lau" , 29/09 11:00 🟡 🏐 Philippines vs Chinese Taipei (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/993413
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142856_67f4ff9c.png" group-title="Bông Lau" , 29/09 13:00 ⚽ Korea DPR vs China W (Chưa có link — chờ cập nhật)
