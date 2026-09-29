@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:18:14 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:22:28 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (30 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (31 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b78fbb9123ed9633ac77215960a8a7b3.png" group-title="Phá Làng" , 29/09 23:00 🟢 ⚽ Cabo Verde - Rwanda (Server 1)
@@ -24,6 +24,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/07507a2719cb24c2c93b924ed1d4406a.png" group-title="Phá Làng" , 29/09 23:00 🟢 ⚽ Zambia - Togo (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fbd6a4b395b82aa960c6f99de6109b2b0%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2ba0a31a44fe5fecc6548be61d0e5344.png" group-title="Phá Làng" , 29/09 23:00 🟢 ⚽ Uganda - Libya (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fac4d77316e5d0d698847c35db4477b3b%2Fplaylist.m3u8&source=phalang
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/afd785b0073f54e675356d9b1e3a6dd6.png" group-title="Phá Làng" , 30/09 00:30 🟢 ⚽ Saudi Arabia - Iraq (LÝ LINH LỰC)
