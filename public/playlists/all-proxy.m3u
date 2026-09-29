@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:51:17 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:54:13 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (14 trận), Chuối Chiên (17 trận), Phá Làng (29 trận), Gà Vàng (10 trận), Sao Kê (19 trận), GaVang33 (25 trận), Bông Lau (17 trận) =====
 
@@ -31,11 +31,11 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/38e7f6ed6a1053e25c1f5d60fbf563b2.png" group-title="Giờ Vàng" , 29/09 23:00 🟢 🏀 Dubai vs FC Barcelona (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790666365_hd%2F1790666365_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_8.jpg" group-title="Khán Đài" , 29/09 23:00 🟢 ⚽ Finland vs Belarus (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/finland-vs-belarus-29-09-2026-790930
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_8.jpg" group-title="Khán Đài" , 29/09 23:00 🟢 ⚽ Finland vs Belarus (Kền Kền)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa6%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3D16059952b038cc8982ab6d1980711dc9&source=khandaitv
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_689.jpg" group-title="Khán Đài" , 29/09 23:00 🟢 ⚽ Moldova vs Faroe Islands (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/moldova-vs-faroe-islands-29-09-2026-790931
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_689.jpg" group-title="Khán Đài" , 29/09 23:00 🟢 ⚽ Moldova vs Faroe Islands (Pháo Thủ)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa4%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dfaaa23580764370ed378ecd708c9f262&source=khandaitv
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Chuối Chiên" , 29/09 23:00 🟢 ⚽ Finland vs Belarus (Chuối Nhỏ (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoinhohd%2Fplaylist.m3u8&source=chuoichientv
