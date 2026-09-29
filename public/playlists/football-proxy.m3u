@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:05:21 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:08:16 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (16 trận), Chuối Chiên (14 trận), Phá Làng (40 trận), Gà Vàng (18 trận), Sao Kê (19 trận), GaVang33 (24 trận), Bông Lau (14 trận) =====
 
@@ -79,6 +79,15 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260929_013250_f0caf5c8.png" group-title="Chuối Chiên" , 29/09 19:30 🟢 ⚽ Thái Lan  vs Việt Nam (Chuối Sấy (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoisayhd%2Fplaylist.m3u8&source=chuoichientv
 
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 🟢 ⚽ Thailand - Vietnam (LÝ LA LÀNG)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F9174dd3b8ea1a120a2910e3d1a536df9%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 🟢 ⚽ Thailand - Vietnam (LÝ LONG (Server 1))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F0a0591c681f040d99c7edfefc9758e1c%2Findex.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 🟢 ⚽ Thailand - Vietnam (LÝ LÀNG LÁ (Server 1))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F84e20c3f9bdf403f950ed586fb1af96f%2Findex.m3u8&source=phalang
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5788.png" group-title="Sao Kê" , 29/09 19:30 🟢 ⚽ Thailand vs Vietnam (Ricky (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx83-hd-1111%2Fplaylist.m3u8&source=saoke
 
@@ -96,15 +105,6 @@ https://khandai3.link/truc-tiep/thai-lan-vs-viet-nam-29-09-2026-859002
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_480.jpg" group-title="Khán Đài" , 29/09 19:30 🟡 ⚽ Thái Lan vs Việt Nam (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/thai-lan-vs-viet-nam-29-09-2026-183332
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 🟡 ⚽ Thailand - Vietnam (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#6ypq3nhvx8zemd7
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 🟡 ⚽ Thailand - Vietnam (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#921d082aaf684f80a2fb51b2be026722
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 🟡 ⚽ Thailand - Vietnam (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#a93ccd45139149dfa77ca6ad27893bf0
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/43b2dd1c93748297cfbbea4d31247641.png" group-title="Gà Vàng" , 29/09 19:30 🟡 ⚽ Thailand vs Vietnam (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/thailand-vs-vietnam-ngay-29-09-2026/

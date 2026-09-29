@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:05:21 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:08:16 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (33 trận), Khán Đài (18 trận), Chuối Chiên (16 trận), Phá Làng (41 trận), Gà Vàng (26 trận), Sao Kê (19 trận), GaVang33 (24 trận), Bông Lau (16 trận) =====
 
@@ -103,6 +103,15 @@ https://gckc0525.edgemaxcdn.org/live/chuoingaohd/playlist.m3u8|User-Agent=Mozill
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260929_013250_f0caf5c8.png" group-title="Chuối Chiên" , 29/09 19:30 🟢 ⚽ Thái Lan  vs Việt Nam (Chuối Sấy (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 🟢 ⚽ Thailand - Vietnam (LÝ LA LÀNG)
+https://lilive1.eu.cc/live/9174dd3b8ea1a120a2910e3d1a536df9/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/truc-tiep/thailand-vs-vietnam-6ypq3nhvx8zemd7&Origin=https://phalang.live
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 🟢 ⚽ Thailand - Vietnam (LÝ LONG (Server 1))
+https://pull.digitalcdn.net/live/0a0591c681f040d99c7edfefc9758e1c/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/truc-tiep/thailand-vs-vietnam-921d082aaf684f80a2fb51b2be026722&Origin=https://phalang.live
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 🟢 ⚽ Thailand - Vietnam (LÝ LÀNG LÁ (Server 1))
+https://pull.digitalcdn.net/live/84e20c3f9bdf403f950ed586fb1af96f/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/truc-tiep/thailand-vs-vietnam-a93ccd45139149dfa77ca6ad27893bf0&Origin=https://phalang.live
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5788.png" group-title="Sao Kê" , 29/09 19:30 🟢 ⚽ Thailand vs Vietnam (Ricky (HD))
 https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
 
@@ -120,15 +129,6 @@ https://khandai3.link/truc-tiep/thai-lan-vs-viet-nam-29-09-2026-859002
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_480.jpg" group-title="Khán Đài" , 29/09 19:30 🟡 ⚽ Thái Lan vs Việt Nam (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/thai-lan-vs-viet-nam-29-09-2026-183332
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 🟡 ⚽ Thailand - Vietnam (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#6ypq3nhvx8zemd7
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 🟡 ⚽ Thailand - Vietnam (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#921d082aaf684f80a2fb51b2be026722
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 🟡 ⚽ Thailand - Vietnam (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#a93ccd45139149dfa77ca6ad27893bf0
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/43b2dd1c93748297cfbbea4d31247641.png" group-title="Gà Vàng" , 29/09 19:30 🟡 ⚽ Thailand vs Vietnam (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/thailand-vs-vietnam-ngay-29-09-2026/
