@@ -119,7 +119,9 @@ const REFERER_CANDIDATES_BY_SOURCE = {
   ],
   giovang: [process.env.GIOVANG_DOMAIN || 'https://giovang.city', null],
   khandaitv: [process.env.KHANDAITV_DOMAIN || process.env.KHANDAITV_BASE_URL || 'https://khandai3.link', null],
-  phalang: ['https://phalang.live', 'https://phalang.live/', null],
+  // FIX (29/09/2026): trình duyệt thật luôn gửi Referer có dấu "/" cuối
+  // (https://phalang.live/) — đặt bản có "/" LÊN ĐẦU cho khớp CDN kiểm tra chuỗi chính xác.
+  phalang: ['https://phalang.live/', 'https://phalang.live', null],
   // FIX (24/09/2026 — theo yêu cầu "tiện thêm #EXTVLCOPT vào luôn" cho 2
   // nguồn mới Gà Vàng + Sao Kê, trước đó bị bỏ sót khỏi danh sách này nên
   // chưa từng có Referer nào được gắn):
@@ -416,6 +418,12 @@ export function buildM3uPlaylist(entries = [], options = {}) {
     if (useAppHeaderStyle && entry.iptvReferer !== undefined) {
       const headerParts = [`User-Agent=${IPTV_HEADER_UA}`];
       if (entry.iptvReferer) headerParts.push(`Referer=${entry.iptvReferer}`);
+      // FIX (29/09/2026): CDN của Phá Làng (pull.digitalcdn.net) cần thêm
+      // Origin như trình duyệt thật — chỉ gắn cho nguồn này để không ảnh
+      // hưởng các nguồn đang chạy tốt.
+      if (entry.iptvReferer && getSourceKey(match) === 'phalang') {
+        try { headerParts.push(`Origin=${new URL(entry.iptvReferer).origin}`); } catch { /* referer không hợp lệ -> bỏ Origin */ }
+      }
       outUrl = `${url}|${headerParts.join('&')}`;
     } else if (useProxyStyle && entry.iptvReferer !== undefined && proxyBaseUrl) {
       const sourceKey = getSourceKey(match);

@@ -498,18 +498,82 @@ class PhalangService {
     return { matches, hasMore: false, totalCount: matches.length };
   }
 
-  /** hd_1, hd_2, ... (thứ tự không đảm bảo) + source (nếu có) -> danh sách server, dedupe. */
-  extractStreamUrls(detail) {
-    if (!detail) return [];
+  /**
+   * FIX (29/09/2026 — "link Phá Làng đều lỗi, không xem được, hình như thiếu
+   * nguồn bóc và token"): link phát bị lấy TRẦN, dạng
+   * https://pull.digitalcdn.net/live/<id>/index.m3u8 (không có query) — CDN
+   * từ chối vì thiếu chữ ký/token. Trước đây chỉ đọc đúng hd_N và source,
+   * BỎ QUA mọi trường khác của /match/{id}/live (token, query, sign...).
+   * Giờ:
+   *   1) mở lớp bọc `data` nếu API bọc kết quả trong đó;
+   *   2) lấy hd_N (theo số), rồi source, rồi mọi trường khác chứa link
+   *      m3u8/flv/mp4 (hd, sd, url, link, play_url...);
+   *   3) nếu response có trường token/chữ ký (token, auth_key, sign,
+   *      txSecret/txTime, query...) và link chưa có query -> gắn vào link.
+   * Link đã có query sẵn thì giữ nguyên, không đụng.
+   */
+  unwrapDetail(detail) {
+    if (detail && typeof detail === 'object' && detail.data && typeof detail.data === 'object' && !Array.isArray(detail.data)) {
+      return detail.data;
+    }
+    return detail;
+  }
+
+  buildTokenQuery(detail) {
+    const RAW_QUERY_KEYS = /^(query|params|qs|token_query|auth_query)$/i;
+    const CREDENTIAL_KEYS = /^(token|access_token|auth|auth_key|authkey|sign|signature|sig|txsecret|txtime|wssecret|wstime)$/i;
+    const EXPIRY_KEYS = /^(expire|expires|expiry|exp)$/i;
+    const parts = [];
+    let hasCredential = false;
+    for (const [k, v] of Object.entries(detail || {})) {
+      if (v === null || v === undefined || typeof v === 'object') continue;
+      const val = String(v).trim();
+      if (!val || /^https?:\/\//i.test(val)) continue;
+      if (RAW_QUERY_KEYS.test(k) && val.includes('=')) {
+        parts.push(val.replace(/^[?&]+/, ''));
+        hasCredential = true;
+      } else if (CREDENTIAL_KEYS.test(k)) {
+        parts.push(`${k}=${encodeURIComponent(val)}`);
+        hasCredential = true;
+      } else if (EXPIRY_KEYS.test(k)) {
+        parts.push(`${k}=${encodeURIComponent(val)}`);
+      }
+    }
+    return hasCredential ? parts.join('&') : '';
+  }
+
+  /** Bỏ giá trị query khi log, tránh lộ token thật trong log CI. */
+  maskUrl(url) {
+    const s = String(url || '');
+    const i = s.indexOf('?');
+    if (i < 0) return `${s} (KHÔNG có query/token)`;
+    return `${s.slice(0, i)}?${s.slice(i + 1).replace(/=([^&]*)/g, '=***')}`;
+  }
+
+  extractStreamUrls(rawDetail) {
+    const detail = this.unwrapDetail(rawDetail);
+    if (!detail || typeof detail !== 'object') return [];
+    const isUrl = (v) => typeof v === 'string' && /^https?:\/\//i.test(v.trim());
+    const looksStream = (v) => /\.(m3u8|flv|mp4)(\?|#|$)/i.test(v) || /\/live\//i.test(v);
     const urls = [];
     const hdKeys = Object.keys(detail)
       .filter((k) => /^hd_\d+$/i.test(k))
       .sort((a, b) => Number(a.split('_')[1]) - Number(b.split('_')[1]));
     for (const k of hdKeys) {
-      if (detail[k]) urls.push(detail[k]);
+      if (isUrl(detail[k])) urls.push(detail[k].trim());
     }
-    if (detail.source && !urls.includes(detail.source)) urls.push(detail.source);
-    return [...new Set(urls)].filter(Boolean);
+    if (isUrl(detail.source)) urls.push(detail.source.trim());
+    for (const [k, v] of Object.entries(detail)) {
+      if (/^hd_\d+$/i.test(k) || k === 'source') continue;
+      if (isUrl(v) && looksStream(v)) urls.push(v.trim());
+    }
+
+    const tokenQuery = this.buildTokenQuery(detail);
+    const finalUrls = urls.map((u) => {
+      if (!tokenQuery || u.includes('?')) return u; // đã có query -> giữ nguyên
+      return `${u}?${tokenQuery}`;
+    });
+    return [...new Set(finalUrls)].filter(Boolean);
   }
 
   async getStreamLinks(matchId, blvName) {
@@ -518,6 +582,19 @@ class PhalangService {
     try {
       const { data } = await this.client.get(`/match/${cleanId}/live`, { params: { _t: Date.now() } });
       const urls = this.extractStreamUrls(data);
+      // Log chẩn đoán (tối đa 5 lần/tiến trình): cho biết response /live có
+      // những trường nào và link có kèm token hay không — để lần sau biết
+      // chính xác Phá Làng đang trả gì nếu link vẫn lỗi. Token được che.
+      this._diagLogged = (this._diagLogged || 0);
+      if (this._diagLogged < 5) {
+        this._diagLogged += 1;
+        const d = this.unwrapDetail(data) || {};
+        console.log(
+          `[phalang] /match/${cleanId}/live -> trường: [${Object.keys(d).join(', ')}] | ` +
+          `${urls.length} link | token/query ghép thêm: ${this.buildTokenQuery(d) ? 'CÓ' : 'không'} | ` +
+          `mẫu: ${urls[0] ? this.maskUrl(urls[0]) : '(không có link)'}`
+        );
+      }
       return urls.map((url, i) => ({
         id: `${cleanId}_${i}`,
         streamerId: `${cleanId}_${i}`,

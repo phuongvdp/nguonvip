@@ -230,7 +230,7 @@ const REFERER_CANDIDATES_BY_SOURCE = {
   // việc này (cần đổi hẳn IP gọi ra, ví dụ qua proxy IP dân dụng — ngoài
   // phạm vi route này) — KHÔNG đoán thêm Referer khác nữa nếu chưa có bằng
   // chứng mới, tránh lặp lại vòng dò mù đã từng tốn công ở Chuối Chiên.
-  phalang: [REFERER_BY_SOURCE.phalang, `${REFERER_BY_SOURCE.phalang}/`, null],
+  phalang: [`${REFERER_BY_SOURCE.phalang}/`, REFERER_BY_SOURCE.phalang, null], // có "/" cuối trước, giống trình duyệt thật (29/09/2026)
   gavang: [...GAVANG_ORIGINS, null],
   // FIX (24/09/2026 — "Sao Kê các trận lỗi không xem được" dù link .m3u8 có
   // #EXTVLCOPT Referer chuoichientv): trang Sao Kê tự phát bằng Referer LÀ
