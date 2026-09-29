@@ -1,31 +1,25 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:59:17 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:02:21 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (25 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (24 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/5f12aeb3876fe101ab8b486ff9ea679a.png" group-title="GaVang33" , 29/09 17:00 🟢 ⚽ Montedio Yamagata vs Yokohama F. Marinos (Gà Siêu Kiêu)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F741294.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/8b9ca3d6a9a5b9573992e58b972e96fd.png" group-title="GaVang33" , 29/09 17:00 🟢 ⚽ Kataller Toyama vs Urawa Red Diamonds (Gà Siêu Tồ)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F796315.m3u8&source=gavang33
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/ada2fba6258d87de3a01849042b87a2c.png" group-title="GaVang33" , 29/09 17:00 🟢 ⚽ Ehime FC vs FC Tokyo (Gà Siêu Nhí)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F301263.m3u8&source=gavang33
-
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/46901c88777c4076bcf2ea240223deed.png" group-title="GaVang33" , 29/09 17:10 🟢 ⚽ Australia vs Brazil (Gà Ô Long)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F432017.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/43b2dd1c93748297cfbbea4d31247641.png" group-title="GaVang33" , 29/09 19:30 🟡 ⚽ Thailand vs Vietnam (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/thailand-vs-vietnam-luc-1930-ngay-29-09-2026-6ypq3nhvx8zemd7
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/43b2dd1c93748297cfbbea4d31247641.png" group-title="GaVang33" , 29/09 19:30 🟢 ⚽ Thailand vs Vietnam (Gà Siêu Phệ + Gà Siêu Quỷ)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F304565.m3u8&source=gavang33
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/b26f48bd4e40423148b0089092638919.png" group-title="GaVang33" , 29/09 20:00 🟢 ⚽ Comoros vs Namibia (Gà Siêu Tốc)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F307240.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/2c677b17efb13fe6ec91b3c0bb38934d.png" group-title="GaVang33" , 29/09 20:00 ⚽ Lesotho vs Morocco (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/2c677b17efb13fe6ec91b3c0bb38934d.png" group-title="GaVang33" , 29/09 20:00 🟡 ⚽ Lesotho vs Morocco (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/lesotho-vs-morocco-luc-2000-ngay-29-09-2026-k82rekhglk1zrep
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/fac20ee3c5bc1659bc8e6ba2771c5b31.png" group-title="GaVang33" , 29/09 20:00 ⚽ Ethiopia vs Senegal (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/fac20ee3c5bc1659bc8e6ba2771c5b31.png" group-title="GaVang33" , 29/09 20:00 🟡 ⚽ Ethiopia vs Senegal (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/ethiopia-vs-senegal-luc-2000-ngay-29-09-2026-dn1m1ghl6j1emoe
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/5c608ae76638c5ab49847ab5947b12a5.png" group-title="GaVang33" , 29/09 22:00 ⚽ Al Khor SC vs Umm Salal (Chưa có link — chờ cập nhật)
@@ -79,3 +73,6 @@ https://gavang33.me/truc-tiep/belize-vs-saint-vincent-and-the-grenadines-luc-090
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/96a83c96abbe6d0b40c72b279ebdf76e.png" group-title="GaVang33" , 30/09 16:00 ⚽ Timor Leste vs Cambodia (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/timor-leste-vs-cambodia-luc-1600-ngay-30-09-2026-pxwrxlhydn93ryk
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/df321578b4f5f132345d2e6b39743126.png" group-title="GaVang33" , 30/09 19:00 ⚽ Hong Kong vs Brunei Darussalam (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/hong-kong-vs-brunei-darussalam-luc-1900-ngay-30-09-2026-3glrw7hnd9j3qdy
