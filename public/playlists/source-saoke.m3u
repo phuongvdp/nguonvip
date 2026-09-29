@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:36:11 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:38:49 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (22 trận) =====
 
@@ -14,8 +14,10 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/butchi/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stm6dad62063600.stream.hdplaylink.com/sklive/carot/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5858.png" group-title="Sao Kê" , 29/09 09:00 🟡 ⚽ Guatemala vs El Salvador (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/guatemala-vs-el-salvador-6ab9bf6a29359ae22fd197dd.html
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5858.png" group-title="Sao Kê" , 29/09 09:00 🟢 ⚽ Guatemala vs El Salvador (Mơ)
+#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/jamaica-vs-honduras-6ab9bf6a29359ae22fd197dc.html
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://stm6dad62063600.stream.hdplaylink.com/sklive/mo/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20251215_200012_37b4c910.png" group-title="Sao Kê" , 29/09 11:00 ⚽ Philippines vs Chinese Taipei (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/philippines-vs-chinese-taipei-6ab9bbd65b828a346dbafc67.html
