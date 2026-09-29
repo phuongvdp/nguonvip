@@ -1,5 +1,5 @@
 import { createHttpClient } from '@/src/utils/httpClient';
-import { fetchFirstRequestHeaders } from '@/src/utils/browserFetch';
+import { getBrowser } from '@/src/utils/browserFetch';
 
 // Phá Làng TV — domain hiển thị đã đổi sang phalang.live (trước đây dò ra là
 // phalang.tv, ĐÃ SAI — xem FIX 18/09/2026 bên dưới). API thật nằm trên
@@ -259,16 +259,12 @@ export function filterPhalangMatches(matches = []) {
 //   - PHALANG_TOKEN_TTL_MS        : thời gian dùng lại link đã bắt (mặc định 3 phút)
 const PHALANG_BROWSER_RESOLVE = String(process.env.PHALANG_BROWSER_RESOLVE || 'on').toLowerCase() !== 'off';
 const PHALANG_TOKEN_TTL_MS = Number(process.env.PHALANG_TOKEN_TTL_MS) || 3 * 60 * 1000;
-const PHALANG_BROWSER_TIMEOUT_MS = 12000;
+const PHALANG_BROWSER_TIMEOUT_MS = 13000; // tổng thời gian tối đa cho 1 trận (builder cho phép 18s cả API + bắt link)
 const tokenCache = globalThis.__phalangTokenCache || new Map(); // matchId -> { url, referer, at }
 globalThis.__phalangTokenCache = tokenCache;
 
 function slugifyName(text) {
   return stripDiacritics(text).replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-}
-
-function escapeRe(text) {
-  return String(text).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
 class PhalangService {
@@ -606,28 +602,104 @@ class PhalangService {
     return [...new Set(finalUrls)].filter(Boolean);
   }
 
-  /** Mở trang xem trận, bắt request .m3u8 có token thật. Trả { url, referer } hoặc null. */
+  /**
+   * Mở trang xem trận bằng trình duyệt headless (UA Chrome thường, không phải
+   * "HeadlessChrome"), thử bấm Play vài lần và chờ request .m3u8 có token
+   * (?ws...= hoặc host *.100ycdn.com). Thất bại thì log CHẨN ĐOÁN: mã HTTP
+   * trang, tiêu đề, số video/iframe, các request m3u8/ts/digitalcdn đã thấy,
+   * lỗi console — để biết trang bị chặn hay player không chịu phát.
+   */
+  async captureTokenizedM3u8(watchUrl, timeoutMs) {
+    const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
+    const INTEREST = /\.m3u8|\.ts(\?|$)|100ycdn|digitalcdn|wsSession/i;
+    const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+    const browser = await getBrowser();
+    const page = await browser.newPage();
+    const seen = [];
+    const notes = [];
+    let mainStatus = null;
+    let found = null;
+    try {
+      await page.setUserAgent(UA);
+      await page.setExtraHTTPHeaders({ 'Accept-Language': 'vi-VN,vi;q=0.9,en-US;q=0.8' });
+      page.on('console', (m) => { try { if (m.type() === 'error' && notes.length < 4) notes.push(`console: ${m.text().slice(0, 100)}`); } catch { /* bỏ qua */ } });
+      page.on('pageerror', (e) => { if (notes.length < 4) notes.push(`pageerror: ${String(e?.message || e).slice(0, 100)}`); });
+      page.on('requestfailed', (r) => { try { if (INTEREST.test(r.url()) && seen.length < 10) seen.push(`FAILED ${this.maskUrl(r.url()).slice(0, 110)}`); } catch { /* bỏ qua */ } });
+      page.on('response', (r) => {
+        try {
+          if (mainStatus === null && r.request().resourceType() === 'document') mainStatus = r.status();
+          if (INTEREST.test(r.url()) && seen.length < 10) seen.push(`${r.status()} ${this.maskUrl(r.url()).slice(0, 110)}`);
+        } catch { /* bỏ qua */ }
+      });
+      page.on('request', (req) => {
+        try {
+          const u = req.url();
+          if (!found && /\.m3u8(\?|$)/i.test(u) && (/[?&]ws\w+=/i.test(u) || /100ycdn\.com/i.test(u))) {
+            found = { url: u, headers: req.headers() };
+          }
+        } catch { /* bỏ qua */ }
+      });
+
+      const started = Date.now();
+      await page.goto(watchUrl, { waitUntil: 'domcontentloaded', timeout: Math.min(8000, timeoutMs) })
+        .catch((e) => notes.push(`goto: ${String(e.message).slice(0, 80)}`));
+
+      let tick = 0;
+      while (!found && Date.now() - started < timeoutMs) {
+        if (tick === 2 || tick === 8 || tick === 16) await this.tryStartPlayer(page);
+        tick += 1;
+        await sleep(500);
+      }
+      if (found) return found;
+
+      const info = await page.evaluate(() => ({
+        title: document.title,
+        text: (document.body?.innerText || '').replace(/\s+/g, ' ').slice(0, 120),
+        videos: document.querySelectorAll('video').length,
+        iframes: [...document.querySelectorAll('iframe')].slice(0, 3).map((f) => (f.src || '').slice(0, 80))
+      })).catch(() => ({}));
+      console.warn(
+        `[phalang][browser] KHÔNG bắt được | HTTP trang: ${mainStatus} | title: "${info.title || ''}" | ` +
+        `video: ${info.videos ?? '?'} | iframe: ${JSON.stringify(info.iframes || [])} | nội dung: "${info.text || ''}" | ` +
+        `request thấy: ${seen.length ? seen.join(' ; ') : '(không có m3u8/ts/digitalcdn nào)'} | ${notes.join(' | ')}`
+      );
+      return null;
+    } finally {
+      await page.close().catch(() => {});
+    }
+  }
+
+  /** Thử khởi động player: play() mọi <video>, bấm các nút play phổ biến, rồi bấm giữa màn hình. */
+  async tryStartPlayer(page) {
+    await page.evaluate(() => {
+      const playIn = (doc) => {
+        try {
+          doc.querySelectorAll('video').forEach((v) => { v.muted = true; v.play?.().catch(() => {}); });
+          doc.querySelectorAll('.vjs-big-play-button, .jw-icon-display, .plyr__control--overlaid, [class*="play" i], [aria-label*="play" i], [title*="play" i]')
+            .forEach((el) => { try { el.click(); } catch { /* bỏ qua */ } });
+        } catch { /* bỏ qua */ }
+      };
+      playIn(document);
+      document.querySelectorAll('iframe').forEach((f) => { try { playIn(f.contentDocument); } catch { /* khác origin */ } });
+    }).catch(() => {});
+    await page.mouse.click(683, 384).catch(() => {});
+  }
+
+  /** Bắt link .m3u8 có token thật cho trận. Trả { url, referer } hoặc null. */
   async resolveTokenizedUrl(cleanId, bareUrls, teams) {
     if (!PHALANG_BROWSER_RESOLVE || !bareUrls.length) return null;
     const cached = tokenCache.get(cleanId);
     if (cached && Date.now() - cached.at < PHALANG_TOKEN_TTL_MS) return cached;
 
-    const paths = [];
-    for (const u of bareUrls) {
-      try { paths.push(new URL(u).pathname); } catch { /* bỏ link không hợp lệ */ }
-    }
-    if (!paths.length) return null;
-    // Chỉ nhận request CÓ query (?wsSession=...) — request link trần không token bị bỏ qua.
-    const re = new RegExp(`(${paths.map(escapeRe).join('|')})\\?.+`);
     const slug = teams?.home && teams?.away ? `${slugifyName(teams.home)}-vs-${slugifyName(teams.away)}-` : '';
     const watchUrl = `${PHALANG_SITE_ORIGIN}/truc-tiep/${slug}${cleanId}`;
     try {
-      const found = await fetchFirstRequestHeaders(watchUrl, re, { timeoutMs: PHALANG_BROWSER_TIMEOUT_MS });
+      const found = await this.captureTokenizedM3u8(watchUrl, PHALANG_BROWSER_TIMEOUT_MS);
       if (!found?.url) {
         console.warn(`[phalang] ${watchUrl}: mở trang xong nhưng không bắt được request .m3u8 có token — dùng link trần`);
         return null;
       }
-      const value = { url: found.url, referer: found.headers?.referer || `${watchUrl}`, at: Date.now() };
+      const value = { url: found.url, referer: found.headers?.referer || watchUrl, at: Date.now() };
       tokenCache.set(cleanId, value);
       console.log(`[phalang] bắt được link có token (${cleanId}): ${this.maskUrl(found.url)} | referer: ${value.referer}`);
       return value;
