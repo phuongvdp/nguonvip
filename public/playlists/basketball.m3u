@@ -1,7 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:09:00 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:11:58 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Gà Vàng (7 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (5 trận), Gà Vàng (7 trận) =====
+
+# ----- Ngày 2026-09-29 -----
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/38e7f6ed6a1053e25c1f5d60fbf563b2.png" group-title="Giờ Vàng" , 29/09 23:00 🟢 🏀 Dubai vs FC Barcelona (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790666365_hd/1790666365_hd@720p.m3u8
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/39e14cf9edd095fe5daed21f75b67bd3.png" group-title="Giờ Vàng" , 30/09 00:00 🟡 🏀 Efes Pilsen vs Real Madrid Teka (Chưa có link — chờ cập nhật)
