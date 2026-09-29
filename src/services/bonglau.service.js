@@ -1,3 +1,4 @@
+import { qualityFromText } from '@/src/utils/streamQuality';
 import { createHttpClient } from '@/src/utils/httpClient';
 import { slugifyVi } from '@/src/utils/slug';
 import { fetchFirstRequestHeaders } from '@/src/utils/browserFetch';
@@ -246,7 +247,8 @@ class BongLauService {
         playUrl: c.streamUrl,
         format: isFlv ? 'flv' : 'hls',
         cdn: c.cdn,
-        quality: c.name.includes('FHD') ? 'FHD' : 'HD'
+        // Nhãn THẬT theo label của nguồn (FHD/HD/SD); không có nhãn -> '' (chưa rõ), KHÔNG gán cứng 'HD'.
+        quality: qualityFromText(c.name)
       };
     });
   }

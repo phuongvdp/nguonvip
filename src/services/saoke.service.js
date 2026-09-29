@@ -1,3 +1,4 @@
+import { qualityFromText } from '@/src/utils/streamQuality';
 import { createHttpClient } from '@/src/utils/httpClient';
 import { fetchFirstRequestHeaders } from '@/src/utils/browserFetch';
 
@@ -75,23 +76,55 @@ function pickBestHls(hlsUrls) {
   return pick?.url || '';
 }
 
+// FIX (29/09/2026 — "Chuối Chiên/Sao Kê/Bông Lau ghi HD mà xem mờ như SD"):
+// trước đây mỗi BLV chỉ xuất ĐÚNG 1 link (mặc định bản SD trên hdplaylink) mà
+// vẫn gắn nhãn cứng quality:'HD' -> nhãn nói dối. Giờ xuất TẤT CẢ link của
+// BLV (thường 2: HD trên edgemaxcdn.org + SD trên hdplaylink), gắn nhãn THẬT
+// vào tên ("BLV (HD)" / "BLV (SD)") — playlist tự chọn bản chất lượng CAO NHẤT
+// (xem utils/streamQuality.js + m3uPlaylist.js).
+// RỦI RO ĐÃ BIẾT (27/09/2026): HD chạy trên CDN khác (edgemaxcdn.org), Referer
+// dò được cho SD có thể bị CDN đó trả 403 ở vài trận. Ola TV tự đổi header khi
+// gặp 403; nếu app khác báo 403 với HD, đặt SAOKE_PREFER_HD=0 để quay về ưu tiên
+// SD (an toàn) — vẫn giữ nhãn đúng.
+function normalizeQualityLabel(name, url) {
+  const q = qualityFromText(name);
+  if (q) return q;
+  return /hdplaylink/i.test(url || '') ? 'SD' : '';
+}
+
 function buildCommentators(blvs, referer) {
   const list = [];
+  const preferHd = !/^(0|false)$/i.test(String(process.env.SAOKE_PREFER_HD || ''));
+  const rankOf = (h) => {
+    const q = normalizeQualityLabel(h?.name, h?.url);
+    const score = q === 'FHD' ? 3 : q === 'HD' ? 2 : q === 'SD' ? 0 : 1;
+    return preferHd ? -score : score; // sắp tăng dần; preferHd -> điểm cao lên trước
+  };
   for (const b of Array.isArray(blvs) ? blvs : []) {
-    const url = pickBestHls(b?.hlsUrls);
-    if (!url) continue;
-    list.push({
-      id: b?.keyId || b?.name || `blv_${list.length}`,
-      name: b?.name || 'BLV',
-      avatar: null,
-      streamUrl: url,
-      isLive: true,
-      cdn: detectCdn(url),
-      // Referer THẬT tự dò được (nếu có) — xem detectPlayerReferer() bên
-      // dưới. null nếu chưa dò được/dò lỗi, m3uPlaylist.js sẽ tự rơi về
-      // danh sách ứng viên hardcode (REFERER_CANDIDATES_BY_SOURCE.saoke).
-      referer: referer || null
-    });
+    const links = (Array.isArray(b?.hlsUrls) ? b.hlsUrls : [])
+      .filter((h) => h?.url)
+      .map((h, idx) => ({ h, idx }))
+      .sort((a, c) => rankOf(a.h) - rankOf(c.h) || a.idx - c.idx)
+      .map((x) => x.h);
+    const seenUrl = new Set();
+    for (const h of links) {
+      if (seenUrl.has(h.url)) continue;
+      seenUrl.add(h.url);
+      const q = normalizeQualityLabel(h.name, h.url);
+      const baseName = b?.name || 'BLV';
+      list.push({
+        id: `${b?.keyId || b?.name || `blv_${list.length}`}_${q || list.length}`,
+        name: q ? `${baseName} (${q})` : baseName,
+        avatar: null,
+        streamUrl: h.url,
+        isLive: true,
+        cdn: detectCdn(h.url),
+        // Referer THẬT tự dò được (nếu có) — xem detectPlayerReferer() bên
+        // dưới. null nếu chưa dò được/dò lỗi, m3uPlaylist.js sẽ tự rơi về
+        // danh sách ứng viên hardcode (REFERER_CANDIDATES_BY_SOURCE.saoke).
+        referer: referer || null
+      });
+    }
   }
   return list;
 }
@@ -177,7 +210,7 @@ function mapStreams(match) {
       playUrl: url,
       format: 'hls',
       cdn: c.cdn,
-      quality: 'HD'
+      quality: qualityFromText(c.name)
     });
   }
   return list;

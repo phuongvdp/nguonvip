@@ -1,3 +1,4 @@
+import { pickBestStream } from '@/src/utils/streamQuality';
 import {
   formatKickoffHourFirst,
   toMatchTimeMs,
@@ -470,7 +471,12 @@ export async function matchesToPlaylistEntries(matches = [], { baseUrl = '' } = 
     // bằng chứng CHẮC CHẮN 1 CDN cụ thể luôn luôn chặn (nhiều lần test vào
     // NHIỀU thời điểm/trận khác nhau, không chỉ 1-2 lần trùng lúc trận vừa
     // kết thúc) thì mới nên loại lại.
-    const stream = matchStreams.find((s) => s?.m3u8Url || s?.flvUrl || s?.playUrl);
+    // FIX (29/09/2026 — "Chuối Chiên/Sao Kê/Bông Lau ghi HD mà xem mờ như SD"):
+    // trước đây lấy stream ĐẦU TIÊN có link — thường là bản thấp. Giờ chọn
+    // stream CHẤT LƯỢNG CAO NHẤT (FHD > HD > SD, theo nhãn của nguồn — xem
+    // utils/streamQuality.js); bằng điểm thì vẫn lấy cái đầu tiên như cũ nên
+    // nguồn không có nhãn chất lượng không bị đổi hành vi.
+    const stream = pickBestStream(matchStreams.filter((s) => s?.m3u8Url || s?.flvUrl || s?.playUrl));
     if (stream) {
       const entry = { match, stream };
       entries.push(entry);
