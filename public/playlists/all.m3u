@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:30:06 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:33:04 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (16 trận), Chuối Chiên (18 trận), Phá Làng (24 trận), Gà Vàng (17 trận), Sao Kê (20 trận), GaVang33 (23 trận), Bông Lau (18 trận) =====
 
@@ -189,17 +189,17 @@ https://live2.zktsva.app/live/301263.m3u8
 https://live2.zktsva.app/live/307240.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125449_8711159b.png" group-title="Bông Lau" , 30/09 01:45 🟢 ⚽ Spain vs Croatia (Chuối Ngao (FHD))
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-referrer=https://tructiep.bonglau.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoingaohd/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125458_7fda1723.png" group-title="Bông Lau" , 30/09 01:45 🟢 ⚽ Czech Republic vs England (Chuối Nhỏ (FHD))
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-referrer=https://tructiep.bonglau.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125506_b8b07bcf.png" group-title="Bông Lau" , 30/09 01:45 🟢 ⚽ Scotland vs Switzerland (Chuối Chao (FHD))
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-referrer=https://tructiep.bonglau.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
 
