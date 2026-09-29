@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:35:36 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:38:11 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (24 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (22 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/4ccc41b4d4d3a4ee77c0729a72776db6.png" group-title="Phá Làng" , 30/09 01:45 🟢 ⚽ Slovenia - North Macedonia (Server 1)
@@ -9,9 +9,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ab6ee7e9bc979a43f57adb287a48161f.png" group-title="Phá Làng" , 30/09 01:45 🟢 ⚽ Luxembourg - Iceland (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F2fab0b0afbb01599eaad189b5a8ae9c2%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3370681d192c09290b9323bf1bb56d4c.png" group-title="Phá Làng" , 30/09 01:45 🟢 ⚽ Bulgaria - Estonia (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F4ee359c21bf01ac0d5fec1a7c2ec09cc%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/f97f8398fff79b390905d2f8c4cf5455.png" group-title="Phá Làng" , 30/09 01:45 🟢 ⚽ Scotland - Switzerland (LÝ LÀNG LÁ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F59c8b4dfd70a35b4f19d62c5cf6fdf14%2Fplaylist.m3u8&source=phalang
@@ -21,9 +18,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/61e9ccd0c45b60839c47d792d6ae26f4.crdownload" group-title="Phá Làng" , 30/09 01:45 🟢 ⚽ San Marino - Albania (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fcfc4fffc97e475a209305820b75783a7%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3dd52d0f4d9de58ccdd0e54e70600884.png" group-title="Phá Làng" , 30/09 01:45 🟢 ⚽ Slovakia - Kazakhstan (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F880f19f96f2f900b7e25fc7de18d6e11%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/734b941674bbbf81100efcd71a7cd1f1.png" group-title="Phá Làng" , 30/09 01:45 🟢 ⚽ Spain - Croatia (LÝ LA LÀNG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F9b764d6f3ca89fce6abf2ac35b2963ec%2Fplaylist.m3u8&source=phalang
