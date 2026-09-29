@@ -1,16 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:59:54 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 11:02:27 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (58 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (61 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/4a2e9789964030d8f9873ca4b8a7587b.png!w80" group-title="Phá Làng" , 29/09 08:00 🟢 🏐 Hồng Kông - Việt Nam (LÝ LÊN LỬA (Server 1))
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/hong-kong-vs-viet-nam-07512a3d225b49db84388d2888464212
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pull.digitalcdn.net/live/cc977f6028834ced9609757c8c08685f/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f3f2e9c5843d2acfa65bc79088902d53.png" group-title="Phá Làng" , 29/09 11:00 🟡 ⚽ Papua New Guinea Women - Solomon Islands (w) Soccer (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#3glrw7h4k339qdy
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/e852329be4add16641d68cfb8aa233ad.png" group-title="Phá Làng" , 29/09 13:00 ⚽ North Korea Women - China Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y39mp1hdvw4dmoj
@@ -180,3 +177,15 @@ https://phalang.live/trang-chu#l7oqdehgjw97r51
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/734b941674bbbf81100efcd71a7cd1f1.png" group-title="Phá Làng" , 30/09 01:45 ⚽ Spain - Croatia (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y39mp1h6dgeemoj
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/64a4250dded75fcc7ac237f910e8a54e.jpg" group-title="Phá Làng" , 30/09 02:00 ⚽ Somalia - Cote d'Ivoire (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#3glrw7hnd8o7qdy
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ae60842fb30554c4c1279b76a8075a74.png" group-title="Phá Làng" , 30/09 02:00 ⚽ Republic of the Congo - Cameroon (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#6ypq3nhvx91nmd7
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1c3646a13b313d69c782097a62658900.png" group-title="Phá Làng" , 30/09 02:00 ⚽ Gabon - Niger (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#pxwrxlhyd4vxryk
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/55ee599e866e56254b9d77e28207cc22.png" group-title="Phá Làng" , 30/09 02:00 ⚽ Liberia - Mali (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#vjxm8ghey1xer6o

@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:59:54 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 11:02:27 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (20 trận), Chuối Chiên (19 trận), Phá Làng (58 trận), Gà Vàng (25 trận), Sao Kê (20 trận), GaVang33 (25 trận), Bông Lau (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (20 trận), Chuối Chiên (19 trận), Phá Làng (61 trận), Gà Vàng (25 trận), Sao Kê (19 trận), GaVang33 (25 trận), Bông Lau (19 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/4a2e9789964030d8f9873ca4b8a7587b.png!w80" group-title="Phá Làng" , 29/09 08:00 🟢 🏐 Hồng Kông - Việt Nam (LÝ LÊN LỬA (Server 1))
@@ -9,9 +9,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a1d4643376bf11b37c51f5c76fcaff79.png" group-title="Gà Vàng" , 29/09 09:00 🟢 ⚽ Guatemala vs El Salvador (SiêU QuậY)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a2a59b347bbddd62a8dc4e4.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5858.png" group-title="Sao Kê" , 29/09 09:00 🟢 ⚽ Guatemala vs El Salvador (Mơ)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fmo%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 29/09 10:30 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1789838904_hd%2F1789838904_hd%40720p.m3u8&source=giovang
@@ -33,9 +30,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stre
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20251215_200012_37b4c910.png" group-title="Bông Lau" , 29/09 11:00 🟢 🏐 Philippines vs Chinese Taipei (Chuối Sấy (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stream.hdplaylink.com%2Fcctvlive%2Fchuoisay%2Fplaylist.m3u8&source=bonglau
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f3f2e9c5843d2acfa65bc79088902d53.png" group-title="Phá Làng" , 29/09 11:00 🟡 ⚽ Papua New Guinea Women - Solomon Islands (w) Soccer (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#3glrw7h4k339qdy
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/teams/e9c72f37302fa4e0284235115c3fd818.png" group-title="Giờ Vàng" , 29/09 13:00 ⚽ North Korea W vs China W (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-north-korea-w-vs-china-w-29-09-de3sywakpoet
@@ -568,6 +562,18 @@ https://lau05.bonglautv1.pro/truc-tiep/1528910
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125506_b8b07bcf.png" group-title="Bông Lau" , 30/09 01:45 ⚽ Scotland vs Switzerland (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1545651
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/64a4250dded75fcc7ac237f910e8a54e.jpg" group-title="Phá Làng" , 30/09 02:00 ⚽ Somalia - Cote d'Ivoire (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#3glrw7hnd8o7qdy
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ae60842fb30554c4c1279b76a8075a74.png" group-title="Phá Làng" , 30/09 02:00 ⚽ Republic of the Congo - Cameroon (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#6ypq3nhvx91nmd7
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1c3646a13b313d69c782097a62658900.png" group-title="Phá Làng" , 30/09 02:00 ⚽ Gabon - Niger (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#pxwrxlhyd4vxryk
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/55ee599e866e56254b9d77e28207cc22.png" group-title="Phá Làng" , 30/09 02:00 ⚽ Liberia - Mali (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#vjxm8ghey1xer6o
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133538_0a9dbb3b.png" group-title="Chuối Chiên" , 30/09 03:30 ⚽ Deportivo Pereira vs Santa Fe (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1549712/deportivo-pereira-vs-santa-fe
