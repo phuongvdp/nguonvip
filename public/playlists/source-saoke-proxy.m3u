@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:08:38 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:11:10 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (18 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/230139.png" group-title="Sao Kê" , 29/09 16:00 🟢 ⚽ Philippines vs Pakistan (Củ Cải (HD))
@@ -16,8 +16,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Sao Kê" , 29/09 17:20 🟢 ⚽ Japan vs Pakistan (Teppy (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx31-hd-1111%2Fplaylist.m3u8&source=saoke
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/AiWVfPjC-E1YhvyqD.png" group-title="Sao Kê" , 29/09 17:30 🟡 ⚽ Japan W vs South Korea W (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/japan-w-vs-south-korea-w-6abb0bfce10d9d63c6e85fb2.html
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/AiWVfPjC-E1YhvyqD.png" group-title="Sao Kê" , 29/09 17:30 🟢 ⚽ Japan W vs South Korea W (Tít (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx2-hd-1111%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5788.png" group-title="Sao Kê" , 29/09 19:30 ⚽ Thailand vs Vietnam (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/thailand-vs-vietnam-6abb0bc247921e67726f4f9a.html
@@ -52,3 +52,9 @@ https://vip3.saoketv40.xyz/botafogo-sp-vs-ponte-preta-6abb0bc247921e67726f4f96.h
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/2528.png" group-title="Sao Kê" , 30/09 08:05 ⚽ Independiente Medellín vs Millonarios (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/independiente-medellin-vs-millonarios-6abb0bc247921e67726f4f90.html
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/300702.png" group-title="Sao Kê" , 30/09 13:00 ⚽ South Korea U23 vs China U23 (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/south-korea-u23-vs-china-u23-6abb8e323eba0388fc1f365a.html
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/95801.png" group-title="Sao Kê" , 30/09 16:00 ⚽ Timor-Leste vs Cambodia (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/timor-leste-vs-cambodia-6abb8e323eba0388fc1f3659.html
