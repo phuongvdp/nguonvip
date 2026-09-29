@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:02:21 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:05:21 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Bông Lau (16 trận) =====
 
@@ -13,11 +13,11 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Bông Lau" , 29/09 17:20 🟢 🏐 Japan vs Pakistan (Chuối Tây (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitayhd%2Fplaylist.m3u8&source=bonglau
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_358dda20.png" group-title="Bông Lau" , 29/09 19:30 🟡 ⚽ Thailand vs Việt Nam (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1641711
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_358dda20.png" group-title="Bông Lau" , 29/09 19:30 🟢 ⚽ Thailand vs Việt Nam (Chuối Ngao (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoingaohd%2Fplaylist.m3u8&source=bonglau
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260929_013250_f0caf5c8.png" group-title="Bông Lau" , 29/09 19:30 🟡 ⚽ Thái Lan  vs Việt Nam (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/992056
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260929_013250_f0caf5c8.png" group-title="Bông Lau" , 29/09 19:30 🟢 ⚽ Thái Lan  vs Việt Nam (Chuối Sấy (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoisayhd%2Fplaylist.m3u8&source=bonglau
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125822_01326abd.png" group-title="Bông Lau" , 29/09 21:35 ⚽ Al Fujairah SC vs Al Jazira Al Hamra (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1641856
