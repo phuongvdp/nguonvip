@@ -1,7 +1,17 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:22:16 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:24:58 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (15 trận), Chuối Chiên (17 trận), Phá Làng (25 trận), Gà Vàng (16 trận), Sao Kê (18 trận), GaVang33 (23 trận), Bông Lau (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (15 trận), Chuối Chiên (17 trận), Phá Làng (25 trận), Gà Vàng (19 trận), Sao Kê (18 trận), GaVang33 (23 trận), Bông Lau (17 trận) =====
+
+# ----- Ngày 2026-09-29 -----
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/3c0b84f6c8ee0d929021de10cbb8cc69.png" group-title="Gà Vàng" , 29/09 23:00 🟢 ⚽ Finland vs Belarus (SÚP LƠ)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a9a5525864ea536c2577392.m3u8&source=gavang
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/3f13cf4ddf6fc50c0d39a1d5aeb57dd8.png" group-title="Gà Vàng" , 29/09 23:00 🟢 ⚽ Moldova vs Faroe Islands (Cá MậP)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a0c7c4b1ae4d6db02433c48.m3u8&source=gavang
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/3367956ae5c44991af49e1e2137f415b.png" group-title="Gà Vàng" , 29/09 23:00 🟢 ⚽ Cape Verde vs Rwanda (NGƯỜI KIẾN)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a439a7fb89dded67b208b87.m3u8&source=gavang
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_647.jpg" group-title="Khán Đài" , 30/09 00:30 🟢 ⚽ Saudi Arabia vs Iraq (Enzo)
@@ -18,6 +28,15 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/500739868ce9f7f0857260404eab4d41.png" group-title="GaVang33" , 30/09 00:30 🟢 ⚽ Oman vs Kuwait (Gà Siêu Tồ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F796315.m3u8&source=gavang33
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/scotland.png" group-title="Giờ Vàng" , 30/09 01:45 🟢 ⚽ Scotland vs Thụy Sĩ (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790665820_hd%2F1790665820_hd%40720p.m3u8&source=giovang
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/czech-republic.png" group-title="Giờ Vàng" , 30/09 01:45 🟢 ⚽ Cộng hòa Séc vs Anh (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790665884_hd%2F1790665884_hd%40720p.m3u8&source=giovang
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/spain.png" group-title="Giờ Vàng" , 30/09 01:45 🟢 ⚽ Tây Ban Nha vs Croatia (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790666114_hd%2F1790666114_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_15.jpg" group-title="Khán Đài" , 30/09 01:45 🟢 ⚽ Scotland vs Switzerland (Chim Nhỏ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa5%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3D67cc5bcdcabb081229f5406e5b07483d&source=khandaitv
@@ -60,15 +79,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125449_8711159b.png" group-title="Bông Lau" , 30/09 01:45 🟢 ⚽ Spain vs Croatia (Chuối Ngao (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoingaohd%2Fplaylist.m3u8&source=bonglau
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/scotland.png" group-title="Giờ Vàng" , 30/09 01:45 🟡 ⚽ Scotland vs Thụy Sĩ (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-scotland-vs-thuy-si-30-09-69f3f2b74bff4a0c310bf775
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/czech-republic.png" group-title="Giờ Vàng" , 30/09 01:45 🟡 ⚽ Cộng hòa Séc vs Anh (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-cong-hoa-sec-vs-anh-30-09-69f3f2b74bff4a0c310bf769
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/spain.png" group-title="Giờ Vàng" , 30/09 01:45 🟡 ⚽ Tây Ban Nha vs Croatia (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-tay-ban-nha-vs-croatia-30-09-69f7e7425c39b5554409bf46
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_13.jpg" group-title="Khán Đài" , 30/09 01:45 🟡 ⚽ Czech Republic vs England (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/czech-republic-vs-england-30-09-2026-790886
