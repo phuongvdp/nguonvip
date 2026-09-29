@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:58:00 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:00:07 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (16 trận), Chuối Chiên (14 trận), Phá Làng (57 trận), Gà Vàng (15 trận), Sao Kê (18 trận), GaVang33 (25 trận), Bông Lau (14 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (16 trận), Chuối Chiên (14 trận), Phá Làng (56 trận), Gà Vàng (15 trận), Sao Kê (18 trận), GaVang33 (25 trận), Bông Lau (14 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 29/09 10:30 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -28,10 +28,7 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250922_191534_12d2f8a6.png" group-title="Sao Kê" , 29/09 14:00 🟢 ⚽ Iran vs Indonesia (Cà Rốt)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fcarot%2Fplaylist.m3u8&source=saoke
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3f0615a1b43ba75b2f73de29ed78fa1a.png" group-title="Phá Làng" , 29/09 14:00 🟡 ⚽ Fiji Women - New Caledonia Women (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#vjxm8ghkv557r6o
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_341.jpg" group-title="Khán Đài" , 29/09 15:00 ⚽ Philippines vs Pakistan (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_341.jpg" group-title="Khán Đài" , 29/09 15:00 🟡 ⚽ Philippines vs Pakistan (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/philippines-vs-pakistan-29-09-2026-859001
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/philippines.png" group-title="Giờ Vàng" , 29/09 16:00 ⚽ Philippines vs Pakistan (Chưa có link — chờ cập nhật)
