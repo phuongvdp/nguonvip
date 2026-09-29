@@ -1,27 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:38:11 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:41:13 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (22 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (16 trận) =====
 
 # ----- Ngày 2026-09-30 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/4ccc41b4d4d3a4ee77c0729a72776db6.png" group-title="Phá Làng" , 30/09 01:45 🟢 ⚽ Slovenia - North Macedonia (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F2c976daf060736dc6b82c5a517bda062%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ab6ee7e9bc979a43f57adb287a48161f.png" group-title="Phá Làng" , 30/09 01:45 🟢 ⚽ Luxembourg - Iceland (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F2fab0b0afbb01599eaad189b5a8ae9c2%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/f97f8398fff79b390905d2f8c4cf5455.png" group-title="Phá Làng" , 30/09 01:45 🟢 ⚽ Scotland - Switzerland (LÝ LÀNG LÁ)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F59c8b4dfd70a35b4f19d62c5cf6fdf14%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/a47fa889ad5ac09d2badf15804c7eac9.png" group-title="Phá Làng" , 30/09 01:45 🟢 ⚽ Czechia - England (LÝ LONG)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F6b5b99fe786737538ae6893592cbcdc1%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/61e9ccd0c45b60839c47d792d6ae26f4.crdownload" group-title="Phá Làng" , 30/09 01:45 🟢 ⚽ San Marino - Albania (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fcfc4fffc97e475a209305820b75783a7%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/734b941674bbbf81100efcd71a7cd1f1.png" group-title="Phá Làng" , 30/09 01:45 🟢 ⚽ Spain - Croatia (LÝ LA LÀNG)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F9b764d6f3ca89fce6abf2ac35b2963ec%2Fplaylist.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/64a4250dded75fcc7ac237f910e8a54e.jpg" group-title="Phá Làng" , 30/09 02:00 🟢 ⚽ Somalia - Cote d'Ivoire (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fdf7ab1a266c8fa3f8eac5176f62b2cb3%2Fplaylist.m3u8&source=phalang
 
