@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:03:21 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:05:37 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (34 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (33 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png" group-title="Giờ Vàng" , 29/09 14:00 🟢 🏐 Qatar vs Ấn Độ (Giovang 1)
@@ -16,14 +16,11 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/australia.png" group-title="Giờ Vàng" , 29/09 17:00 🟢 ⚽ Úc vs Brazil (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790675281_hd%2F1790675281_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 group-title="Giờ Vàng" , 29/09 17:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790676127_hd%2F1790676127_hd%40720p.m3u8&source=giovang
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/b7IyW1Br-Ea76SXrf.png" group-title="Giờ Vàng" , 29/09 17:20 🟢 🏐 Nhật Bản vs Pakistan (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790622436_hd%2F1790622436_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/b7IyW1Br-Ea76SXrf.png" group-title="Giờ Vàng" , 29/09 17:20 🟡 🏐 Nhật Bản vs Pakistan (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-nhat-ban-vs-pakistan-29-09-t6q1yj0nobq7
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/japan.png" group-title="Giờ Vàng" , 29/09 17:30 🟡 ⚽ Nhật Bản W vs Hàn Quốc W (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-nhat-ban-w-vs-han-quoc-w-29-09-c23mh33e7rlw
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/japan.png" group-title="Giờ Vàng" , 29/09 17:30 🟢 ⚽ Nhật Bản W vs Hàn Quốc W (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790621900_hd%2F1790621900_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/gibraltar-u17.png" group-title="Giờ Vàng" , 29/09 19:00 ⚽ U17 Gibraltar vs Bosnia and Herzegovina U17 (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-u17-gibraltar-vs-bosnia-and-herzegovina-u17-29-09-6a3338060f72229b92061bcd
