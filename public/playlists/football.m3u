@@ -1,13 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:08:08 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:10:43 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (15 trận), Chuối Chiên (17 trận), Phá Làng (26 trận), Gà Vàng (16 trận), Sao Kê (18 trận), GaVang33 (23 trận), Bông Lau (17 trận) =====
-
-# ----- Ngày 2026-09-29 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/07507a2719cb24c2c93b924ed1d4406a.png" group-title="Phá Làng" , 29/09 23:00 🟢 ⚽ Zambia - Togo (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/zambia-vs-togo-l5ergph4g1per8k
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/bd6a4b395b82aa960c6f99de6109b2b0/playlist.m3u8
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (15 trận), Chuối Chiên (17 trận), Phá Làng (24 trận), Gà Vàng (16 trận), Sao Kê (18 trận), GaVang33 (23 trận), Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_647.jpg" group-title="Khán Đài" , 30/09 00:30 🟢 ⚽ Saudi Arabia vs Iraq (Enzo)
@@ -19,11 +13,6 @@ https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfc
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/saudi-arabia-vs-iraq-ednm9whwj0jdryo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/05e2754014bf6d3a11928f5ca03acc39/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/11fc5be6bedfbccc563c5054ad544320.png" group-title="Phá Làng" , 30/09 00:30 🟢 ⚽ Oman - Kuwait (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/oman-vs-kuwait-k82rekhg5x5xrep
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/db956e156490875d592a809b26772d1d/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/344c0d0b85274807ba668a603ef5a05e.png" group-title="GaVang33" , 30/09 00:30 🟢 ⚽ Saudi Arabia vs Iraq (Gà Siêu Kiêu)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
