@@ -257,11 +257,23 @@ export function filterPhalangMatches(matches = []) {
 // nên URL trang xem được dùng làm Referer của link.
 //   - PHALANG_BROWSER_RESOLVE=off : tắt bước này (quay về link trần như cũ)
 //   - PHALANG_TOKEN_TTL_MS        : thời gian dùng lại link đã bắt (mặc định 3 phút)
-const PHALANG_BROWSER_RESOLVE = String(process.env.PHALANG_BROWSER_RESOLVE || 'on').toLowerCase() !== 'off';
+// KẾT LUẬN từ log CI (29/09/2026): player của trang CŨNG chỉ gọi link trần
+// pull.digitalcdn.net/... và bị 403 từ IP datacenter (GitHub Actions). Link
+// bọc 100ycdn + token (wsBindIP) là do CDN 302 riêng cho IP NGƯỜI XEM, máy chủ
+// CI không lấy được -> MẶC ĐỊNH TẮT (tốn ~13s/trận mà luôn thất bại).
+// Bật lại thử bằng PHALANG_BROWSER_RESOLVE=on.
+const PHALANG_BROWSER_RESOLVE = String(process.env.PHALANG_BROWSER_RESOLVE || 'off').toLowerCase() === 'on';
+const PHALANG_DEBUG = String(process.env.PHALANG_DEBUG || '').toLowerCase() === '1';
 const PHALANG_TOKEN_TTL_MS = Number(process.env.PHALANG_TOKEN_TTL_MS) || 3 * 60 * 1000;
 const PHALANG_BROWSER_TIMEOUT_MS = 13000; // tổng thời gian tối đa cho 1 trận (builder cho phép 18s cả API + bắt link)
 const tokenCache = globalThis.__phalangTokenCache || new Map(); // matchId -> { url, referer, at }
 globalThis.__phalangTokenCache = tokenCache;
+
+/** URL trang xem trận — trình duyệt thật gửi CHÍNH URL này làm Referer (kèm Origin https://phalang.live) khi gọi CDN. */
+function phalangWatchUrl(id, home, away) {
+  const slug = home && away ? `${slugifyName(home)}-vs-${slugifyName(away)}-` : '';
+  return `${PHALANG_SITE_ORIGIN}/truc-tiep/${slug}${id}`;
+}
 
 function slugifyName(text) {
   return stripDiacritics(text).replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
@@ -348,7 +360,7 @@ class PhalangService {
       // source_live vẫn null) — trận live luôn phải gọi getStreamLinks().
       streamUrl: skipBareLive ? '' : (m.source_live || ''),
       commentators: (m.source_live && !skipBareLive)
-        ? [{ id: `${m.id}_0`, name: m.blv || 'Server 1', avatar: '', streamUrl: m.source_live, isLive: true, cdn: this.detectCdn(m.source_live) }]
+        ? [{ id: `${m.id}_0`, name: m.blv || 'Server 1', avatar: '', streamUrl: m.source_live, isLive: true, cdn: this.detectCdn(m.source_live), referer: phalangWatchUrl(m.id, homeName, awayName) }]
         : [],
       // FIX (23/09/2026 — "nguồn Phá Làng: trận chưa thi đấu không xuất
       // hiện trong all.m3u"): trước đây liveUrl luôn để '' (rỗng). Ở chế độ
@@ -691,8 +703,7 @@ class PhalangService {
     const cached = tokenCache.get(cleanId);
     if (cached && Date.now() - cached.at < PHALANG_TOKEN_TTL_MS) return cached;
 
-    const slug = teams?.home && teams?.away ? `${slugifyName(teams.home)}-vs-${slugifyName(teams.away)}-` : '';
-    const watchUrl = `${PHALANG_SITE_ORIGIN}/truc-tiep/${slug}${cleanId}`;
+    const watchUrl = phalangWatchUrl(cleanId, teams?.home, teams?.away);
     try {
       const found = await this.captureTokenizedM3u8(watchUrl, PHALANG_BROWSER_TIMEOUT_MS);
       if (!found?.url) {
@@ -756,7 +767,7 @@ class PhalangService {
       // Thử trực tiếp link đầu tiên với vài kiểu header (tối đa 3 lần/tiến
       // trình) và log kết quả — để biết CDN từ chối vì Referer/Origin, IP hay
       // link hết hạn. Chỉ để chẩn đoán, không ảnh hưởng playlist.
-      if (urls[0] && (this._probeLogged || 0) < 3) {
+      if (PHALANG_DEBUG && urls[0] && (this._probeLogged || 0) < 3) {
         this._probeLogged = (this._probeLogged || 0) + 1;
         this.probeCdn(urls[0]).catch(() => {}); // không chờ: tránh làm chậm/quá hạn việc lấy link
       }
@@ -775,7 +786,7 @@ class PhalangService {
         finalUrls = [tokenized.url, ...rest];
       }
       return finalUrls.map((url, i) => ({
-        referer: tokenized && url === tokenized.url ? tokenized.referer : null,
+        referer: tokenized && url === tokenized.url ? tokenized.referer : phalangWatchUrl(cleanId, match?.homeTeam?.name, match?.awayTeam?.name),
         id: `${cleanId}_${i}`,
         streamerId: `${cleanId}_${i}`,
         name: blvName ? `${blvName} (Server ${i + 1})` : `Server ${i + 1}`,
