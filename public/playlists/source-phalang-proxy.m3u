@@ -1,14 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:20:45 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:23:17 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (58 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (57 trận) =====
 
 # ----- Ngày 2026-09-29 -----
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/06141001b4a7358a800dda6c8c174a66.png!w80" group-title="Phá Làng" , 29/09 14:00 🟢 🏐 Iran - Indonesia (LÝ LÊN LỬA (Server 1))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F2a2d91969b1747eca27d8cf331ba584f%2Findex.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/a2e58e23761d3f39d65777d78188f4a1.png" group-title="Phá Làng" , 29/09 16:00 🟢 ⚽ Philippines - Pakistan (LÝ LINH LỰC)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fb077f385953275f57e485d4780f2d56a%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/604a26fb4f696d522d464fc2ff0919de.png!w80" group-title="Phá Làng" , 29/09 17:00 🟢 🏐 Hàn Quốc - Trung Quốc (LÝ LIỀU LĨNH (Server 1))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F693de31062db4a14bf2b4bd109139627%2Findex.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/771a47aa3a754d19f9f298fdf828e23b.png" group-title="Phá Làng" , 29/09 17:00 🟡 ⚽ Jubilo Iwata - JEF United Ichihara Chiba (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#1l4rjnhnyzz8m7v
@@ -21,9 +21,6 @@ https://phalang.live/trang-chu#2y8m4zhv0g8wql0
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/89fbdff34136c67636e2b4875ab03043.png" group-title="Phá Làng" , 29/09 17:00 🟡 ⚽ Fujieda MYFC - Cerezo Osaka (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4jwq2ghgovvlm0v
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/604a26fb4f696d522d464fc2ff0919de.png!w80" group-title="Phá Làng" , 29/09 17:00 🟡 🏐 Hàn Quốc - Trung Quốc (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#5303a0b60fb2444b867cd8852988c95b
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fefa11f94d0efff34a0f98ee4440a34b.png" group-title="Phá Làng" , 29/09 17:00 🟡 ⚽ Giravanz Kitakyushu - Nagoya Grampus (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6ypq3nhk6zwvmd7

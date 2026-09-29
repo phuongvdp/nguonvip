@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:20:45 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:23:17 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (16 trận) =====
 
@@ -7,11 +7,11 @@
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/230139.png" group-title="Sao Kê" , 29/09 16:00 🟢 ⚽ Philippines vs Pakistan (Củ Cải (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx3-hd-1111%2Fplaylist.m3u8&source=saoke
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Sao Kê" , 29/09 17:00 🟢 ⚽ South Korea vs China (Kai (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx00-hd-1111%2Fplaylist.m3u8&source=saoke
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6716.png" group-title="Sao Kê" , 29/09 17:00 🟡 ⚽ Australia vs Brazil (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/australia-vs-brazil-6abb0bc247921e67726f4f97.html
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Sao Kê" , 29/09 17:00 🟡 ⚽ South Korea vs China (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/south-korea-vs-china-6abb0c7029359ae22fef2769.html
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Sao Kê" , 29/09 17:20 🟡 ⚽ Japan vs Pakistan (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/japan-vs-pakistan-6abb0c973eba0388fc1625cb.html
