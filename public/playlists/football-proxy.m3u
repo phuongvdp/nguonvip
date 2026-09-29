@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:44:45 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:47:42 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (12 trận), Chuối Chiên (14 trận), Phá Làng (32 trận), Gà Vàng (6 trận), Sao Kê (16 trận), GaVang33 (20 trận), Bông Lau (14 trận) =====
 
@@ -43,8 +43,14 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_689.jpg" group-title="Khán Đài" , 29/09 23:00 🟢 ⚽ Moldova vs Faroe Islands (Pháo Thủ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa4%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dfaaa23580764370ed378ecd708c9f262&source=khandaitv
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Chuối Chiên" , 29/09 23:00 🟢 ⚽ Finland vs Belarus (Chuối Nhỏ (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoinhohd%2Fplaylist.m3u8&source=chuoichientv
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/ba544863f6ad5205a345fa42bb80f71a.png" group-title="Phá Làng" , 29/09 23:00 🟢 ⚽ Finland - Belarus (LÝ LÀNG LÁ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F35054e83ca41224492084e88365eb30d%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/7871.png" group-title="Sao Kê" , 29/09 23:00 🟢 ⚽ Finland vs Belarus (Ricky (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx83-hd-1111%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6714.png" group-title="Sao Kê" , 29/09 23:00 🟢 ⚽ Ghana vs Gambia (Mơ (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx68-hd-1111%2Fplaylist.m3u8&source=saoke
@@ -61,8 +67,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/ca3445d71de0ef386033037868c58d92.png" group-title="GaVang33" , 29/09 23:00 🟢 ⚽ Russia vs IR Iran (Gà Siêu Nhí)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F301263.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Chuối Chiên" , 29/09 23:00 🟡 ⚽ Finland vs Belarus (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1528912/finland-vs-belarus
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Bông Lau" , 29/09 23:00 🟢 ⚽ Finland vs Belarus (Chuối Nhỏ (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoinhohd%2Fplaylist.m3u8&source=bonglau
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b78fbb9123ed9633ac77215960a8a7b3.png" group-title="Phá Làng" , 29/09 23:00 🟡 ⚽ Cabo Verde - Rwanda (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#2y8m4zh5lo1nql0
@@ -99,12 +105,6 @@ https://gavanglinkr.tv/truc-tiep/moldova-vs-faroe-islands-ngay-29-09-2026/
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/3367956ae5c44991af49e1e2137f415b.png" group-title="Gà Vàng" , 29/09 23:00 🟡 ⚽ Cape Verde vs Rwanda (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/cabo-verde-vs-rwanda-ngay-29-09-2026/
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/7871.png" group-title="Sao Kê" , 29/09 23:00 🟡 ⚽ Finland vs Belarus (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/finland-vs-belarus-6abb0bc247921e67726f4f95.html
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Bông Lau" , 29/09 23:00 🟡 ⚽ Finland vs Belarus (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1528912
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/benin.png" group-title="Giờ Vàng" , 30/09 00:00 ⚽ Benin vs Mauritania (Chưa có link — chờ cập nhật)
