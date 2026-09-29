@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:44:39 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:47:34 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (15 trận) =====
 
@@ -7,8 +7,8 @@
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131456_671d649a.png" group-title="Chuối Chiên" , 30/09 05:30 🟢 ⚽ Botafogo SP vs Ponte Preta (Trốc Tru (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Ftroctruhd%2Fplaylist.m3u8&source=chuoichientv
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132739_e67768f5.png" group-title="Chuối Chiên" , 30/09 07:00 🟡 ⚽ USA vs Chile (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1629002/usa-vs-chile
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132739_e67768f5.png" group-title="Chuối Chiên" , 30/09 07:00 🟢 ⚽ USA vs Chile (Chuối Ngao (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoingaohd%2Fplaylist.m3u8&source=chuoichientv
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260917_012723_b0cd7a48.png" group-title="Chuối Chiên" , 30/09 08:05 ⚽ Atlético Nacional vs Millonarios (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1549719/atletico-nacional-vs-millonarios
