@@ -1,9 +1,12 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:20:29 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:23:25 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (1 trận), Phá Làng (1 trận), Bông Lau (1 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (1 trận), Chuối Chiên (1 trận), Phá Làng (1 trận), Bông Lau (1 trận) =====
 
 # ----- Ngày 2026-09-29 -----
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_South_Korea.svg.webp" group-title="Khán Đài" , 29/09 17:00 🟢 🏐 Hàn Quốc vs Trung Quốc (Enzo)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa2%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dd3bfcbaa36f949863f22cc89e1cc1afa&source=khandaitv
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Chuối Chiên" , 29/09 17:00 🟢 🏐 South Korea vs China (Chuối Kem (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikemhd%2Fplaylist.m3u8&source=chuoichientv
 
