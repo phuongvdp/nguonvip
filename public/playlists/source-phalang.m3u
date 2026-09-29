@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:15:09 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:18:05 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (32 trận) =====
 
@@ -9,11 +9,13 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/cd5b3039d60634088a1ef8061a94b4a7/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/ba544863f6ad5205a345fa42bb80f71a.png" group-title="Phá Làng" , 29/09 23:00 🟢 ⚽ Finland - Belarus (LÝ LÀNG LÁ)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/finland-vs-belarus-4wyrn4h6yp53q86
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/35054e83ca41224492084e88365eb30d/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b78fbb9123ed9633ac77215960a8a7b3.png" group-title="Phá Làng" , 29/09 23:00 🟡 ⚽ Cabo Verde - Rwanda (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#2y8m4zh5lo1nql0
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/ba544863f6ad5205a345fa42bb80f71a.png" group-title="Phá Làng" , 29/09 23:00 🟡 ⚽ Finland - Belarus (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#4wyrn4h6yp53q86
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fe3068bbe94dd5f423e9b9a6135d8c40.png" group-title="Phá Làng" , 29/09 23:00 🟡 ⚽ Russia - IR Iran (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4wyrn4hyz2z0q86
