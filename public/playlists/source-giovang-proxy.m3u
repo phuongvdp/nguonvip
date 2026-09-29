@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:39:38 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:42:41 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (26 trận) =====
 
@@ -16,8 +16,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/serbia-u19.png" group-title="Giờ Vàng" , 29/09 21:30 🟢 ⚽ Serbia U19 vs U19 Hungary (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790678912_hd%2F1790678912_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/iceland-u21.png" group-title="Giờ Vàng" , 29/09 22:00 🟡 ⚽ U21 Iceland vs Thụy Sĩ U21 (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-u21-iceland-vs-thuy-si-u21-29-09-683ce9d16fa477d4b3036ffa
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/iceland-u21.png" group-title="Giờ Vàng" , 29/09 22:00 🟢 ⚽ U21 Iceland vs Thụy Sĩ U21 (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790622296_hd%2F1790622296_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/pbr425eM-jwMhrJiF.png" group-title="Giờ Vàng" , 29/09 22:30 🟡 ⚽ Germany U20 vs Italy U20 (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-germany-u20-vs-italy-u20-29-09-qy1vz4kv9j58
