@@ -1,18 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:10:57 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:13:12 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (31 trận), Khán Đài (19 trận), Chuối Chiên (16 trận), Phá Làng (59 trận), Gà Vàng (28 trận), Sao Kê (18 trận), GaVang33 (25 trận), Bông Lau (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (31 trận), Khán Đài (19 trận), Chuối Chiên (16 trận), Phá Làng (59 trận), Gà Vàng (27 trận), Sao Kê (18 trận), GaVang33 (25 trận), Bông Lau (16 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/e852329be4add16641d68cfb8aa233ad.png" group-title="Phá Làng" , 29/09 13:00 🟢 ⚽ North Korea Women - China Women (LÝ LINH LỰC)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/north-korea-women-vs-china-women-y39mp1hdvw4dmoj
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/f71a6b5f9c2e8bd7552b0896fcb3db3f/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/b6b90237b3ebd1e462a5d11dbc5c4dae.png" group-title="Gà Vàng" , 29/09 13:00 🟢 ⚽ Korea DPR(w) vs China(w) (THICHDUTHU)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/6a704ad865997681f18c2160.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/8MkHmtRq-xpPmazWa.png" group-title="Sao Kê" , 29/09 13:00 🟢 ⚽ North Korea W vs China W (Tít (HD))
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
