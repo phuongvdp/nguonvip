@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:29:56 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:32:12 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (57 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (58 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/771a47aa3a754d19f9f298fdf828e23b.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Jubilo Iwata - JEF United Ichihara Chiba (Server 1)
@@ -46,6 +46,9 @@ https://lilive1.eu.cc/live/ff4c5c7ca1c186f627b9581b55f3c7c9/playlist.m3u8|User-A
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/809e95942827f1fca7b6c5cffd4777cb.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Roasso Kumamoto - Kawasaki Frontale (Server 1)
 https://lilive1.eu.cc/live/69367bbbee2cd9713c1d1fc08c504384/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/truc-tiep/roasso-kumamoto-vs-kawasaki-frontale-pxwrxlhlp9jlryk&Origin=https://phalang.live
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0587c755424c4e6290e45f9c52fb7b13.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Tochigi City - Sanfrecce Hiroshima (Server 1)
+https://lilive1.eu.cc/live/b7e677d1a3a31aa029f48efa42f77ac9/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/truc-tiep/tochigi-city-vs-sanfrecce-hiroshima-y0or5jh9xeekqwz&Origin=https://phalang.live
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9ce69393552848534795ef4af4562f20.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Matsumoto Yamaga FC - Albirex Niigata (Server 1)
 https://lilive1.eu.cc/live/7501343d9dca4367cb707d9e9d2f177c/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/truc-tiep/matsumoto-yamaga-fc-vs-albirex-niigata-y39mp1hdvjy5moj&Origin=https://phalang.live
 
@@ -61,13 +64,13 @@ https://pull.digitalcdn.net/live/82e0caca547046c1a600afff906fe99c/index.m3u8|Use
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/22fc8d10a1f32e5da720454189015664.png" group-title="Phá Làng" , 29/09 19:00 🟡 ⚽ Comoros - Namibia (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#ednm9whw1ng3ryo
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 ⚽ Thailand - Vietnam (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 🟡 ⚽ Thailand - Vietnam (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6ypq3nhvx8zemd7
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 ⚽ Thailand - Vietnam (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 🟡 ⚽ Thailand - Vietnam (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#921d082aaf684f80a2fb51b2be026722
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 ⚽ Thailand - Vietnam (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 🟡 ⚽ Thailand - Vietnam (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#a93ccd45139149dfa77ca6ad27893bf0
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f68325b460e254099c207bd6622e14b1.png" group-title="Phá Làng" , 29/09 20:00 ⚽ Mozambique - Sudan (Chưa có link — chờ cập nhật)
