@@ -1,20 +1,17 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:29:56 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:32:54 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (16 trận) =====
 
 # ----- Ngày 2026-09-29 -----
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5788.png" group-title="Sao Kê" , 29/09 19:30 🟢 ⚽ Thailand vs Vietnam (Củ Cải (HD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx3-hd-1111%2Fplaylist.m3u8&source=saoke
-
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5842.png" group-title="Sao Kê" , 29/09 22:00 🟢 ⚽ Iceland U21 vs Switzerland U21 (Teppy (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx31-hd-1111%2Fplaylist.m3u8&source=saoke
 
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6714.png" group-title="Sao Kê" , 29/09 23:00 🟢 ⚽ Ghana vs Gambia (Mơ (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx68-hd-1111%2Fplaylist.m3u8&source=saoke
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/7871.png" group-title="Sao Kê" , 29/09 23:00 🟡 ⚽ Finland vs Belarus (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/finland-vs-belarus-6abb0bc247921e67726f4f95.html
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6714.png" group-title="Sao Kê" , 29/09 23:00 🟡 ⚽ Ghana vs Gambia (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/ghana-vs-gambia-6abb0bc247921e67726f4f98.html
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8498.png" group-title="Sao Kê" , 30/09 01:45 ⚽ Scotland vs Switzerland (Chưa có link — chờ cập nhật)
