@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:25:54 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:28:04 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (6 trận), Chuối Chiên (2 trận), Phá Làng (6 trận), Bông Lau (2 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (6 trận), Khán Đài (7 trận), Chuối Chiên (2 trận), Phá Làng (6 trận), Bông Lau (2 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/22884d32389000f077ac6ae827be3d1c.png" group-title="Phá Làng" , 29/09 07:00 🟢 🏐 Việt Nam - Philipines (LÝ LIỀU LĨNH (Server 1))
@@ -29,6 +29,12 @@ https://pull.digitalcdn.net/live/cc977f6028834ced9609757c8c08685f/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pull.digitalcdn.net/live/9ae33370f38640368039d3d0fbd61e57/index.m3u8
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_Hong_Kong_ShTrNhs.svg.webp" group-title="Khán Đài" , 29/09 08:00 🟡 🏐 Hong Kong vs Việt Nam (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/hongkong-vs-vietnam
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images.png" group-title="Khán Đài" , 29/09 08:00 🟡 🏐 Kyrgyzstan vs Thái Lan (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/kyrgyzstan-vs-thai-lan
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Chuối Chiên" , 29/09 08:00 🟡 🏐 Hong Kong vs Việt Nam (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/994688/hong-kong-vs-viet-nam
 
@@ -38,20 +44,35 @@ https://lau05.bonglautv1.pro/truc-tiep/994688
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/06K3E8fM-ABIAlQIr.png" group-title="Giờ Vàng" , 29/09 11:00 🏐 Uzbekistan vs Kazakhstan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-uzbekistan-vs-kazakhstan-29-09-x17wwz3mg8bt
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_njudfFz.jpg" group-title="Khán Đài" , 29/09 11:00 🏐 Philippines vs Đài Loan (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/philippines-vs-dai-loan
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/iran.png" group-title="Giờ Vàng" , 29/09 14:00 🏐 Iran vs Indonesia (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-iran-vs-indonesia-29-09-nwpoiz8v7uq9
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png" group-title="Giờ Vàng" , 29/09 14:00 🏐 Qatar vs Ấn Độ (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-qatar-vs-an-do-29-09-kxrq3l9g6lft
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_xjljaQl.jpg" group-title="Khán Đài" , 29/09 14:00 🏐 Iran vs Indonesia (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/iran-vs-indonesia
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_TkTkw3i.jpg" group-title="Khán Đài" , 29/09 14:00 🏐 Qatar vs Ấn Độ (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/qatar-vs-an-do
+
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/06141001b4a7358a800dda6c8c174a66.png!w80" group-title="Phá Làng" , 29/09 14:00 🏐 Iran - Indonesia (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#5e47f28fed4441c7be588f6a77d44641
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_South_Korea.svg.webp" group-title="Khán Đài" , 29/09 17:00 🏐 Hàn Quốc vs Trung Quốc (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/han-quoc-vs-trung-quoc
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/604a26fb4f696d522d464fc2ff0919de.png!w80" group-title="Phá Làng" , 29/09 17:00 🏐 Hàn Quốc - Trung Quốc (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#5303a0b60fb2444b867cd8852988c95b
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/b7IyW1Br-Ea76SXrf.png" group-title="Giờ Vàng" , 29/09 17:20 🏐 Nhật Bản vs Pakistan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-nhat-ban-vs-pakistan-29-09-t6q1yj0nobq7
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Khán Đài" , 29/09 17:20 🏐 Nhật Bản vs Pakistan (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/nhat-ban-vs-pakistan
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 29/09 17:20 🏐 Nhật Bản - Pakistan (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#895e4593c83845df9fb73b7d801854e6
