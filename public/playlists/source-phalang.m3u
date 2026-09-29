@@ -1,38 +1,18 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:56:19 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:59:17 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (52 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (45 trận) =====
 
 # ----- Ngày 2026-09-29 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/771a47aa3a754d19f9f298fdf828e23b.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Jubilo Iwata - JEF United Ichihara Chiba (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/jubilo-iwata-vs-jef-united-ichihara-chiba-1l4rjnhnyzz8m7v
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/5000149a1b6eb6dbd8769a28031684f0/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5f12aeb3876fe101ab8b486ff9ea679a.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Montedio Yamagata - Yokohama F. Marinos (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/montedio-yamagata-vs-yokohama-f-marinos-23xmvkhyvdd5qg8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/5886289d5116d190f16cf301556b6026/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ac6989e16cbd3e3a5c5aee60eb94206a.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Gainare Tottori - V-Varen Nagasaki (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/gainare-tottori-vs-v-varen-nagasaki-2y8m4zhv0g8wql0
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/3095abde495f17632f2916a443464b9a/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/89fbdff34136c67636e2b4875ab03043.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Fujieda MYFC - Cerezo Osaka (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/fujieda-myfc-vs-cerezo-osaka-4jwq2ghgovvlm0v
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/6525edf5aabe817cc8cc8cd222123c76/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/604a26fb4f696d522d464fc2ff0919de.png!w80" group-title="Phá Làng" , 29/09 17:00 🟢 🏐 Hàn Quốc - Trung Quốc (LÝ LIỀU LĨNH (Server 1))
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/han-quoc-vs-trung-quoc-5303a0b60fb2444b867cd8852988c95b
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pull.digitalcdn.net/live/693de31062db4a14bf2b4bd109139627/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ada2fba6258d87de3a01849042b87a2c.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Ehime FC - FC Tokyo (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/ehime-fc-vs-fc-tokyo-8yomo4hye2v3q0j
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/4a595b290657f266ffe860212149106c/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/df5c70d45e8e013f82e098da8d134134.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ FC Osaka - Avispa Fukuoka (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/fc-osaka-vs-avispa-fukuoka-dj2ryoh7vjgxq1z
@@ -44,31 +24,20 @@ https://lilive1.eu.cc/live/5d7e5d7ead4fe5f53d13f4b29e517c78/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/552c93a62d94f2045a6aa9263fdd8761/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/646d000d7498d416110aad94ff53e8fb.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Zweigen Kanazawa FC - Shimizu S-Pulse (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/zweigen-kanazawa-fc-vs-shimizu-s-pulse-k82rekh2zyoyrep
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/7c382a06be03f6aac794ebf3d40068aa/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2a2a5d251c157be485891c94a1e1a495.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Hokkaido Consadole Sapporo - Fagiano Okayama (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/hokkaido-consadole-sapporo-vs-fagiano-okayama-n54qllh45xxgqvy
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/ff4c5c7ca1c186f627b9581b55f3c7c9/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0587c755424c4e6290e45f9c52fb7b13.png" group-title="Phá Làng" , 29/09 17:00 🟢 ⚽ Tochigi City - Sanfrecce Hiroshima (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/tochigi-city-vs-sanfrecce-hiroshima-y0or5jh9xeekqwz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/b7e677d1a3a31aa029f48efa42f77ac9/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/b63378659216bc994f5178e83b925408.png" group-title="Phá Làng" , 29/09 17:10 🟢 ⚽ Australia - Brazil (LÝ LÀNG LÁ)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/australia-vs-brazil-zp5rzghg9x6gq82
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/14c41a3be672e3ae8833cb77c1c5b838/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 29/09 17:20 🟢 🏐 Nhật Bản - Pakistan (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#895e4593c83845df9fb73b7d801854e6
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/22fc8d10a1f32e5da720454189015664.png" group-title="Phá Làng" , 29/09 19:00 🟡 ⚽ Comoros - Namibia (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#ednm9whw1ng3ryo
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/22fc8d10a1f32e5da720454189015664.png" group-title="Phá Làng" , 29/09 19:00 🟢 ⚽ Comoros - Namibia (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/comoros-vs-namibia-ednm9whw1ng3ryo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/e7a24e05d945c3a1317a8f1b3848d89f/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/db4377f82b5a90b089a31fd8e6463435.png" group-title="Phá Làng" , 29/09 19:30 🟡 ⚽ Thailand - Vietnam (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6ypq3nhvx8zemd7
