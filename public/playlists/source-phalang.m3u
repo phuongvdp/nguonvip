@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:51:59 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:54:35 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (15 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/64a4250dded75fcc7ac237f910e8a54e.jpg" group-title="Phá Làng" , 30/09 02:00 🟢 ⚽ Somalia - Cote d'Ivoire (Server 1)
@@ -23,11 +23,6 @@ https://lilive1.eu.cc/live/addeaa73ca73d283ceb82c5ec7436291/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/gabon-vs-niger-pxwrxlhyd4vxryk
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/ef18e6983767e6832f0bb45c6ac007ac/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/55ee599e866e56254b9d77e28207cc22.png" group-title="Phá Làng" , 30/09 02:00 🟢 ⚽ Liberia - Mali (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/liberia-vs-mali-vjxm8ghey1xer6o
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/f537de227b2e09e8a348f0041e6d6336/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e8b03b5c083ffa4e9179571b70c1febe.png" group-title="Phá Làng" , 30/09 07:00 ⚽ USA - Chile (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l5ergphk0y0yr8k
