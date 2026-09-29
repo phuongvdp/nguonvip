@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:25:04 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:27:10 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (20 trận), Chuối Chiên (18 trận), Phá Làng (60 trận), Gà Vàng (23 trận), Sao Kê (18 trận), GaVang33 (25 trận), Bông Lau (18 trận) =====
 
@@ -44,16 +44,20 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/tit/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/iran.png" group-title="Giờ Vàng" , 29/09 14:00 🟢 🏐 Iran vs Indonesia (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790536196_hd/1790536196_hd@720p.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png" group-title="Giờ Vàng" , 29/09 14:00 🟢 🏐 Qatar vs Ấn Độ (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790536252_hd/1790536252_hd@720p.m3u8
+
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/06141001b4a7358a800dda6c8c174a66.png!w80" group-title="Phá Làng" , 29/09 14:00 🟢 🏐 Iran - Indonesia (LÝ LÊN LỬA (Server 1))
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/iran-vs-indonesia-5e47f28fed4441c7be588f6a77d44641
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pull.digitalcdn.net/live/2a2d91969b1747eca27d8cf331ba584f/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/iran.png" group-title="Giờ Vàng" , 29/09 14:00 🟡 🏐 Iran vs Indonesia (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-iran-vs-indonesia-29-09-nwpoiz8v7uq9
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png" group-title="Giờ Vàng" , 29/09 14:00 🟡 🏐 Qatar vs Ấn Độ (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-qatar-vs-an-do-29-09-kxrq3l9g6lft
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_xjljaQl.jpg" group-title="Khán Đài" , 29/09 14:00 🟡 🏐 Iran vs Indonesia (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/iran-vs-indonesia

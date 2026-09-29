@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:25:04 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:27:10 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận) =====
 
@@ -19,11 +19,15 @@ https://eqr2hdarxfliv.vcdn.cloud/1790536088_hd/1790536088_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790535887_hd/1790535887_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/iran.png" group-title="Giờ Vàng" , 29/09 14:00 🟡 🏐 Iran vs Indonesia (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-iran-vs-indonesia-29-09-nwpoiz8v7uq9
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/iran.png" group-title="Giờ Vàng" , 29/09 14:00 🟢 🏐 Iran vs Indonesia (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790536196_hd/1790536196_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png" group-title="Giờ Vàng" , 29/09 14:00 🟡 🏐 Qatar vs Ấn Độ (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-qatar-vs-an-do-29-09-kxrq3l9g6lft
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png" group-title="Giờ Vàng" , 29/09 14:00 🟢 🏐 Qatar vs Ấn Độ (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790536252_hd/1790536252_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/philippines.png" group-title="Giờ Vàng" , 29/09 16:00 ⚽ Philippines vs Pakistan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-philippines-vs-pakistan-29-09-6ab468f8b057b828a8092bd2
