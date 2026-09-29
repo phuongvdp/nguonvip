@@ -1,32 +1,23 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:25:03 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:27:19 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (22 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (19 trận) =====
 
 # ----- Ngày 2026-09-29 -----
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5f12aeb3876fe101ab8b486ff9ea679a.png" group-title="Gà Vàng" , 29/09 17:00 🟢 ⚽ Montedio Yamagata vs Yokohama Marinos (A Long)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69ef10b47146e04fbe6d4363.m3u8&source=gavang
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/b26f48bd4e40423148b0089092638919.png" group-title="Gà Vàng" , 29/09 19:00 🟢 ⚽ Comoros vs Namibia (cố tư nghiêm)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69a1aaa7230584579e2d5ce1.m3u8&source=gavang
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/0587c755424c4e6290e45f9c52fb7b13.png" group-title="Gà Vàng" , 29/09 17:00 🟢 ⚽ Tochigi City vs Sanfrecce Hiroshima (khang hi)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a7c0d8f65997681f18cacc4.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/8b9ca3d6a9a5b9573992e58b972e96fd.png" group-title="Gà Vàng" , 29/09 17:00 🟢 ⚽ Kataller Toyama vs Urawa Red Diamonds (ĐOÀN DỰ)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a5df755b89dded67b39b8bc.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/df5c70d45e8e013f82e098da8d134134.png" group-title="Gà Vàng" , 29/09 17:00 🟢 ⚽ FC Osaka vs Avispa Fukuoka (GIàng A Dân)
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/43b2dd1c93748297cfbbea4d31247641.png" group-title="Gà Vàng" , 29/09 19:30 🟢 ⚽ Thailand vs Vietnam (GIàng A Dân)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a5b13ceb36a14387baeddaa.m3u8&source=gavang
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/809e95942827f1fca7b6c5cffd4777cb.png" group-title="Gà Vàng" , 29/09 17:00 🟢 ⚽ Roasso Kumamoto vs Kawasaki Frontale (RIO)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a01a2511e8555d7a3685f5c.m3u8&source=gavang
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/2c677b17efb13fe6ec91b3c0bb38934d.png" group-title="Gà Vàng" , 29/09 20:00 🟢 ⚽ Lesotho vs Morocco (KAYTI)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69b8e6f43bcf2231c35d5144.m3u8&source=gavang
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/46901c88777c4076bcf2ea240223deed.png" group-title="Gà Vàng" , 29/09 17:10 🟢 ⚽ Australia vs Brazil (SAITAMA)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69f42e961f739deff81510c0.m3u8&source=gavang
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/fac20ee3c5bc1659bc8e6ba2771c5b31.png" group-title="Gà Vàng" , 29/09 20:00 🟢 ⚽ Ethiopia vs Senegal (ĐOÀN DỰ)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a5df755b89dded67b39b8bc.m3u8&source=gavang
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/871d73474b2d6b307fe3862403e9c77d.png" group-title="Gà Vàng" , 29/09 17:30 🟢 ⚽ Japan(w) vs South Korea(w) (MáN NúI)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69cf6331585c5992182f4160.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/509b91468e833ffe3fd9edd04f06ddee.png" group-title="Gà Vàng" , 29/09 18:00 🟢 ⚽ Wuxi Wugou vs Shanghai Jiading Huilong (MeoMeo)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69be75e0a0a45974afb67776.m3u8&source=gavang
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/70d5c573c693c4053f908d9d9314ce87.png" group-title="Gà Vàng" , 29/09 20:00 🟢 ⚽ South Sudan vs Egypt (Lữ Bố.vip)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a9776215126529dede9bf51.m3u8&source=gavang
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/3c0b84f6c8ee0d929021de10cbb8cc69.png" group-title="Gà Vàng" , 29/09 23:00 ⚽ Finland vs Belarus (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/finland-vs-belarus-ngay-29-09-2026/
