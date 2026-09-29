@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:50:56 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:53:58 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (35 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (34 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f68325b460e254099c207bd6622e14b1.png" group-title="Phá Làng" , 29/09 20:00 🟢 ⚽ Mozambique - Sudan (Server 1)
@@ -12,9 +12,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ac3172239fe2c2922f5194420b9ec76c.png" group-title="Phá Làng" , 29/09 20:00 🟢 ⚽ Ethiopia - Senegal (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fdbd7cb3512322c2939b76bfc680da1ab%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3f6f6ed5d918e2ee41ac26e79a7ccf6b.png" group-title="Phá Làng" , 29/09 20:00 🟢 ⚽ Lesotho - Morocco (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F0d2603231a00d0fefb00914df997a187%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/cc5c86c34e2770e8185e164e52fe157d.png" group-title="Phá Làng" , 29/09 20:00 🟢 ⚽ South Sudan - Egypt (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F607a4ea601bae2ec3f73bcd0c9fdccb7%2Fplaylist.m3u8&source=phalang

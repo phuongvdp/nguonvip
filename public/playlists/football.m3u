@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:50:56 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:53:58 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (12 trận), Chuối Chiên (13 trận), Phá Làng (35 trận), Gà Vàng (11 trận), Sao Kê (16 trận), GaVang33 (22 trận), Bông Lau (13 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (12 trận), Chuối Chiên (13 trận), Phá Làng (34 trận), Gà Vàng (11 trận), Sao Kê (16 trận), GaVang33 (22 trận), Bông Lau (13 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/b26f48bd4e40423148b0089092638919.png" group-title="Gà Vàng" , 29/09 19:00 🟢 ⚽ Comoros vs Namibia (cố tư nghiêm)
@@ -43,11 +43,6 @@ https://lilive1.eu.cc/live/a8080898e72a3ee6b8abfff4ef7e4e6e/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/ethiopia-vs-senegal-dn1m1ghl6j1emoe
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/dbd7cb3512322c2939b76bfc680da1ab/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3f6f6ed5d918e2ee41ac26e79a7ccf6b.png" group-title="Phá Làng" , 29/09 20:00 🟢 ⚽ Lesotho - Morocco (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/lesotho-vs-morocco-k82rekhglk1zrep
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/0d2603231a00d0fefb00914df997a187/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/cc5c86c34e2770e8185e164e52fe157d.png" group-title="Phá Làng" , 29/09 20:00 🟢 ⚽ South Sudan - Egypt (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/south-sudan-vs-egypt-y39mp1h67l17moj
@@ -431,6 +426,9 @@ https://khandai3.link/truc-tiep/uzbekistan-u23-vs-japan-u23-30-09-2026-859313
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/613636.png" group-title="Sao Kê" , 30/09 17:30 ⚽ Uzbekistan U23 vs Japan U23 (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/uzbekistan-u23-vs-japan-u23-6abb8e323eba0388fc1f365b.html
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/hong-kong.png" group-title="Giờ Vàng" , 30/09 19:00 ⚽ Hồng Kông vs Brunei (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-hong-kong-vs-brunei-30-09-6ab468f8b057b828a8092bd7
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/download_IAaCYjl.png" group-title="Khán Đài" , 30/09 19:00 ⚽ Hong Kong vs Brunei (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/hong-kong-vs-brunei-30-09-2026-859870
