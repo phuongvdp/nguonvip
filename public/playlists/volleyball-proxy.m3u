@@ -1,15 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:16:47 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:20:08 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (6 trận), Khán Đài (5 trận), Chuối Chiên (5 trận), Phá Làng (4 trận), Bông Lau (5 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Khán Đài (5 trận), Chuối Chiên (5 trận), Phá Làng (4 trận), Bông Lau (5 trận) =====
 
 # ----- Ngày 2026-09-29 -----
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/jilBtfFG-0xLZRP53.png" group-title="Giờ Vàng" , 29/09 08:00 🟢 🏐 Việt Nam vs Hồng Kông (Giovang 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790535974_hd%2F1790535974_hd%40720p.m3u8&source=giovang
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/QgrBggHG-4b37MkS4.png" group-title="Giờ Vàng" , 29/09 08:00 🟢 🏐 Kyrgyzstan vs Thái Lan (Giovang 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790611553_hd%2F1790611553_hd%40720p.m3u8&source=giovang
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Chuối Chiên" , 29/09 08:00 🟢 🏐 Hong Kong vs Việt Nam (Chuối Kem (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikem%2Fplaylist.m3u8&source=chuoichientv
 
