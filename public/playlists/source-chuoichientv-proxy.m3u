@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:49:31 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:52:23 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (3 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (16 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132739_776293e4.png" group-title="Chuối Chiên" , 29/09 07:00 🟢 ⚽ Jamaica vs Honduras (Trốc Tru (HD))
@@ -12,3 +12,43 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20251215_200012_37b4c910.png" group-title="Chuối Chiên" , 29/09 11:00 🏐 Philippines vs Chinese Taipei (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/993413/philippines-vs-chinese-taipei
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142856_67f4ff9c.png" group-title="Chuối Chiên" , 29/09 13:00 ⚽ Korea DPR vs China W (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1642007/korea-dpr-vs-china-w
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20251215_200012_37b4c910.png" group-title="Chuối Chiên" , 29/09 16:00 ⚽ Philippines vs Pakistan (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1641710/philippines-vs-pakistan
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134250_2a12c2b6.png" group-title="Chuối Chiên" , 29/09 17:00 ⚽ Australia vs Brazil (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1583654/australia-vs-brazil
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133018_f7c8e720.png" group-title="Chuối Chiên" , 29/09 17:30 ⚽ Japan W vs South Korea W (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1642008/japan-w-vs-south-korea-w
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_358dda20.png" group-title="Chuối Chiên" , 29/09 19:30 ⚽ Thailand vs Việt Nam (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1641711/thailand-vs-viet-nam
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125822_01326abd.png" group-title="Chuối Chiên" , 29/09 21:35 ⚽ Al Fujairah SC vs Al Jazira Al Hamra (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1641856/al-fujairah-sc-vs-al-jazira-al-hamra
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Chuối Chiên" , 29/09 23:00 ⚽ Finland vs Belarus (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1528912/finland-vs-belarus
+
+# ----- Ngày 2026-09-30 -----
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125449_8711159b.png" group-title="Chuối Chiên" , 30/09 01:45 ⚽ Spain vs Croatia (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1528909/spain-vs-croatia
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125458_7fda1723.png" group-title="Chuối Chiên" , 30/09 01:45 ⚽ Czech Republic vs England (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1528910/czech-republic-vs-england
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125506_b8b07bcf.png" group-title="Chuối Chiên" , 30/09 01:45 ⚽ Scotland vs Switzerland (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1545651/scotland-vs-switzerland
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133538_0a9dbb3b.png" group-title="Chuối Chiên" , 30/09 03:30 ⚽ Deportivo Pereira vs Santa Fe (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1549712/deportivo-pereira-vs-santa-fe
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131456_671d649a.png" group-title="Chuối Chiên" , 30/09 05:30 ⚽ Botafogo SP vs Ponte Preta (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1520891/botafogo-sp-vs-ponte-preta
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132739_e67768f5.png" group-title="Chuối Chiên" , 30/09 07:00 ⚽ USA vs Chile (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1629002/usa-vs-chile
