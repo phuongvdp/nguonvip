@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:59:53 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 04:02:28 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (10 trận), Khán Đài (11 trận), Chuối Chiên (15 trận), Phá Làng (13 trận), Gà Vàng (15 trận), Sao Kê (16 trận), GaVang33 (17 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (10 trận), Khán Đài (11 trận), Chuối Chiên (15 trận), Phá Làng (14 trận), Gà Vàng (15 trận), Sao Kê (16 trận), GaVang33 (17 trận), Bông Lau (15 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/9c1958aa257c4a318f87cb4b2d79fa11.png" group-title="Gà Vàng" , 30/09 01:45 🟢 ⚽ Spain vs Croatia (CRIS)
@@ -27,9 +27,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a878dbebc902328b41dbf02aa87abb58.png" group-title="Gà Vàng" , 30/09 01:45 🟢 ⚽ Luxembourg vs Iceland (RIO)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a01a2511e8555d7a3685f5c.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7b40fe5d22992f5565f4096e92d4c336.png" group-title="Phá Làng" , 30/09 02:00 🟢 ⚽ Benin - Mauritania (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Faddeaa73ca73d283ceb82c5ec7436291%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1c3646a13b313d69c782097a62658900.png" group-title="Phá Làng" , 30/09 02:00 🟢 ⚽ Gabon - Niger (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fef18e6983767e6832f0bb45c6ac007ac%2Fplaylist.m3u8&source=phalang
@@ -183,6 +180,12 @@ https://khandai3.link/truc-tiep/hong-kong-vs-brunei-30-09-2026-859870
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134317_1bd3a785.png" group-title="Chuối Chiên" , 30/09 19:00 ⚽ Hong Kong vs Brunei (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641713/hong-kong-vs-brunei
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/a3fc9e9d832501a64149b783cfaa3471.png" group-title="Phá Làng" , 30/09 19:00 ⚽ Hong Kong - Brunei Darussalam (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#3glrw7hnd9j3qdy
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e06859aea2ca9509194038297224b311.png" group-title="Phá Làng" , 30/09 19:00 ⚽ Mauritius - Djibouti (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#x7lm7phxg8gym2w
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/178671.png" group-title="Sao Kê" , 30/09 19:00 ⚽ Brunei vs Hong Kong (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/brunei-vs-hong-kong-6abb8e323eba0388fc1f3658.html

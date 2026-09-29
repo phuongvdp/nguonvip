@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:59:53 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 04:02:27 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (11 trận), Chuối Chiên (15 trận), Phá Làng (13 trận), Gà Vàng (17 trận), Sao Kê (16 trận), GaVang33 (17 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (11 trận), Chuối Chiên (15 trận), Phá Làng (14 trận), Gà Vàng (17 trận), Sao Kê (16 trận), GaVang33 (17 trận), Bông Lau (15 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/IPmhSoEa-hvtJM6zJ.png" group-title="Giờ Vàng" , 30/09 01:00 🟢 ⚽ Atlanta Braves vs Philadelphia Phillies (Giovang 1)
@@ -30,9 +30,6 @@ https://playback.livetl002.com/live/6a704ad865997681f18c2160.m3u8|User-Agent=Moz
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a878dbebc902328b41dbf02aa87abb58.png" group-title="Gà Vàng" , 30/09 01:45 🟢 ⚽ Luxembourg vs Iceland (RIO)
 https://playback.livetl002.com/live/6a01a2511e8555d7a3685f5c.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7b40fe5d22992f5565f4096e92d4c336.png" group-title="Phá Làng" , 30/09 02:00 🟢 ⚽ Benin - Mauritania (Server 1)
-https://lilive1.eu.cc/live/addeaa73ca73d283ceb82c5ec7436291/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/truc-tiep/benin-vs-mauritania-8yomo4h1npzxq0j&Origin=https://phalang.live
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1c3646a13b313d69c782097a62658900.png" group-title="Phá Làng" , 30/09 02:00 🟢 ⚽ Gabon - Niger (Server 1)
 https://lilive1.eu.cc/live/ef18e6983767e6832f0bb45c6ac007ac/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/truc-tiep/gabon-vs-niger-pxwrxlhyd4vxryk&Origin=https://phalang.live
@@ -213,6 +210,12 @@ https://khandai3.link/truc-tiep/hong-kong-vs-brunei-30-09-2026-859870
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134317_1bd3a785.png" group-title="Chuối Chiên" , 30/09 19:00 ⚽ Hong Kong vs Brunei (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641713/hong-kong-vs-brunei
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/a3fc9e9d832501a64149b783cfaa3471.png" group-title="Phá Làng" , 30/09 19:00 ⚽ Hong Kong - Brunei Darussalam (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#3glrw7hnd9j3qdy
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e06859aea2ca9509194038297224b311.png" group-title="Phá Làng" , 30/09 19:00 ⚽ Mauritius - Djibouti (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#x7lm7phxg8gym2w
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/178671.png" group-title="Sao Kê" , 30/09 19:00 ⚽ Brunei vs Hong Kong (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/brunei-vs-hong-kong-6abb8e323eba0388fc1f3658.html

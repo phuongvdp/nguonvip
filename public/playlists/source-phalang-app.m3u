@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:59:53 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 04:02:28 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (13 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (14 trận) =====
 
 # ----- Ngày 2026-09-30 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7b40fe5d22992f5565f4096e92d4c336.png" group-title="Phá Làng" , 30/09 02:00 🟢 ⚽ Benin - Mauritania (Server 1)
-https://lilive1.eu.cc/live/addeaa73ca73d283ceb82c5ec7436291/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/truc-tiep/benin-vs-mauritania-8yomo4h1npzxq0j&Origin=https://phalang.live
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1c3646a13b313d69c782097a62658900.png" group-title="Phá Làng" , 30/09 02:00 🟢 ⚽ Gabon - Niger (Server 1)
 https://lilive1.eu.cc/live/ef18e6983767e6832f0bb45c6ac007ac/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/truc-tiep/gabon-vs-niger-pxwrxlhyd4vxryk&Origin=https://phalang.live
 
@@ -42,3 +39,9 @@ https://phalang.live/trang-chu#pxwrxlhydn93ryk
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/d305479c8008cb42a1bd5dff4af18891.png" group-title="Phá Làng" , 30/09 17:30 ⚽ Uzbekistan U23 - Japan U23 (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkhyvwnzqg8
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/a3fc9e9d832501a64149b783cfaa3471.png" group-title="Phá Làng" , 30/09 19:00 ⚽ Hong Kong - Brunei Darussalam (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#3glrw7hnd9j3qdy
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e06859aea2ca9509194038297224b311.png" group-title="Phá Làng" , 30/09 19:00 ⚽ Mauritius - Djibouti (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#x7lm7phxg8gym2w
