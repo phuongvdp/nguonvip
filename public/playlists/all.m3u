@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:10:49 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:13:05 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (32 trận), Khán Đài (20 trận), Chuối Chiên (16 trận), Phá Làng (58 trận), Gà Vàng (26 trận), Sao Kê (16 trận), GaVang33 (26 trận), Bông Lau (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (32 trận), Khán Đài (20 trận), Chuối Chiên (16 trận), Phá Làng (58 trận), Gà Vàng (27 trận), Sao Kê (16 trận), GaVang33 (26 trận), Bông Lau (16 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png" group-title="Giờ Vàng" , 29/09 14:00 🟢 🏐 Qatar vs Ấn Độ (Giovang 1)
@@ -58,6 +58,11 @@ https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/philippines-vs-pakistan-8yomo4h1n829q0j
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/b077f385953275f57e485d4780f2d56a/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/0c620bcfc2a979fe9f22acbe0019f276.png" group-title="Gà Vàng" , 29/09 16:00 🟢 ⚽ Philippines vs Pakistan (CRIS)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/230139.png" group-title="Sao Kê" , 29/09 16:00 🟢 ⚽ Philippines vs Pakistan (Củ Cải (HD))
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
