@@ -1,18 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:51:15 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:53:47 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (16 trận), Chuối Chiên (15 trận), Phá Làng (57 trận), Gà Vàng (15 trận), Sao Kê (18 trận), GaVang33 (25 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (16 trận), Chuối Chiên (14 trận), Phá Làng (57 trận), Gà Vàng (15 trận), Sao Kê (18 trận), GaVang33 (25 trận), Bông Lau (14 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 29/09 10:30 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/philippines.png" group-title="Giờ Vàng" , 29/09 11:00 🟢 ⚽ Philippines vs Đài Bắc Trung Hoa (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790536088_hd/1790536088_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/teams/e9c72f37302fa4e0284235115c3fd818.png" group-title="Giờ Vàng" , 29/09 13:00 🟢 ⚽ North Korea W vs China W (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
@@ -184,14 +179,8 @@ https://giovang.city/truc-tiep-nhat-ban-w-vs-han-quoc-w-29-09-c23mh33e7rlw
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_Japan_K75eDYE.svg.webp" group-title="Khán Đài" , 29/09 17:30 ⚽ Japan W vs South Korea W (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/japan-w-vs-south-korea-w-29-09-2026-859272
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133018_f7c8e720.png" group-title="Chuối Chiên" , 29/09 17:30 ⚽ Japan W vs South Korea W (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1642008/japan-w-vs-south-korea-w
-
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/AiWVfPjC-E1YhvyqD.png" group-title="Sao Kê" , 29/09 17:30 ⚽ Japan W vs South Korea W (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/japan-w-vs-south-korea-w-6abb0bfce10d9d63c6e85fb2.html
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133018_f7c8e720.png" group-title="Bông Lau" , 29/09 17:30 ⚽ Japan W vs South Korea W (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1642008
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/509b91468e833ffe3fd9edd04f06ddee.png" group-title="Gà Vàng" , 29/09 18:00 ⚽ Wuxi Wugou vs Shanghai Jiading Huilong (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/wuxi-wugo-vs-ningbo-professional-football-club-ngay-29-09-2026/
