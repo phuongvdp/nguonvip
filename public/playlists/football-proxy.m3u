@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:34:27 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:36:42 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (16 trận), Chuối Chiên (14 trận), Phá Làng (56 trận), Gà Vàng (20 trận), Sao Kê (18 trận), GaVang33 (25 trận), Bông Lau (14 trận) =====
 
@@ -28,11 +28,11 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm9ee346727718.stre
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250922_191534_12d2f8a6.png" group-title="Sao Kê" , 29/09 14:00 🟢 ⚽ Iran vs Indonesia (Cà Rốt (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx10-hd-1111%2Fplaylist.m3u8&source=saoke
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_341.jpg" group-title="Khán Đài" , 29/09 15:00 🟡 ⚽ Philippines vs Pakistan (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/philippines-vs-pakistan-29-09-2026-859001
-
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/philippines.png" group-title="Giờ Vàng" , 29/09 16:00 ⚽ Philippines vs Pakistan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-philippines-vs-pakistan-29-09-6ab468f8b057b828a8092bd2
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_341.jpg" group-title="Khán Đài" , 29/09 16:00 ⚽ Philippines vs Pakistan (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/philippines-vs-pakistan-29-09-2026-859001
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20251215_200012_37b4c910.png" group-title="Chuối Chiên" , 29/09 16:00 ⚽ Philippines vs Pakistan (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641710/philippines-vs-pakistan
