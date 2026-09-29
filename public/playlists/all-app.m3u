@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:37:45 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:39:51 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (20 trận), Chuối Chiên (18 trận), Phá Làng (60 trận), Gà Vàng (23 trận), Sao Kê (18 trận), GaVang33 (25 trận), Bông Lau (18 trận) =====
 
@@ -34,14 +34,14 @@ https://eqr2hdarxfliv.vcdn.cloud/1790536196_hd/1790536196_hd@720p.m3u8|User-Agen
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png" group-title="Giờ Vàng" , 29/09 14:00 🟢 🏐 Qatar vs Ấn Độ (Giovang 1)
 https://eqr2hdarxfliv.vcdn.cloud/1790536252_hd/1790536252_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_xjljaQl.jpg" group-title="Khán Đài" , 29/09 14:00 🟢 🏐 Iran vs Indonesia (KaKa)
+https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://khandai3.link
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_TkTkw3i.jpg" group-title="Khán Đài" , 29/09 14:00 🟢 🏐 Qatar vs Ấn Độ (Tày)
+https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://khandai3.link
+
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/06141001b4a7358a800dda6c8c174a66.png!w80" group-title="Phá Làng" , 29/09 14:00 🟢 🏐 Iran - Indonesia (LÝ LÊN LỬA (Server 1))
 https://pull.digitalcdn.net/live/2a2d91969b1747eca27d8cf331ba584f/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/truc-tiep/iran-vs-indonesia-5e47f28fed4441c7be588f6a77d44641&Origin=https://phalang.live
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_xjljaQl.jpg" group-title="Khán Đài" , 29/09 14:00 🟡 🏐 Iran vs Indonesia (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/iran-vs-indonesia
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_TkTkw3i.jpg" group-title="Khán Đài" , 29/09 14:00 🟡 🏐 Qatar vs Ấn Độ (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/qatar-vs-an-do
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250922_191534_12d2f8a6.png" group-title="Chuối Chiên" , 29/09 14:00 🟡 🏐 Iran vs Indonesia (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/991229/iran-vs-indonesia
