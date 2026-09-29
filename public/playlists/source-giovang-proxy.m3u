@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:19:43 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:22:49 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận) =====
 
@@ -10,11 +10,11 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/guid/d1a9b001-1df7-fbd7-ae4c-6ca7065286ec/logos/primary_logo_on_black_color.png" group-title="Giờ Vàng" , 29/09 07:15 🟢 ⚽ Philadelphia Eagles vs Chicago bear (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790635813_hd%2F1790635813_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/jilBtfFG-0xLZRP53.png" group-title="Giờ Vàng" , 29/09 08:00 🟡 🏐 Việt Nam vs Hồng Kông (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-viet-nam-vs-hong-kong-29-09-ya8md5yst15f
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/jilBtfFG-0xLZRP53.png" group-title="Giờ Vàng" , 29/09 08:00 🟢 🏐 Việt Nam vs Hồng Kông (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790535974_hd%2F1790535974_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/QgrBggHG-4b37MkS4.png" group-title="Giờ Vàng" , 29/09 08:00 🟡 🏐 Kyrgyzstan vs Thái Lan (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-kyrgyzstan-vs-thai-lan-29-09-0eot7aq17ush
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/QgrBggHG-4b37MkS4.png" group-title="Giờ Vàng" , 29/09 08:00 🟢 🏐 Kyrgyzstan vs Thái Lan (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790611553_hd%2F1790611553_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/guatemala.png" group-title="Giờ Vàng" , 29/09 09:00 ⚽ Guatemala vs El Salvador (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-guatemala-vs-el-salvador-29-09-6aaf224e4e725bdee905b7c9
