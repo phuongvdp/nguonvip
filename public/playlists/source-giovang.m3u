@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:00:11 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:03:15 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/pbr425eM-jwMhrJiF.png" group-title="Giờ Vàng" , 29/09 22:30 🟢 ⚽ Germany U20 vs Italy U20 (Giovang 1)
@@ -25,6 +25,11 @@ https://eqr2hdarxfliv.vcdn.cloud/1790665489_hd/1790665489_hd@720p.m3u8
 https://eqr2hdarxfliv.vcdn.cloud/1790666365_hd/1790666365_hd@720p.m3u8
 
 # ----- Ngày 2026-09-30 -----
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/39e14cf9edd095fe5daed21f75b67bd3.png" group-title="Giờ Vàng" , 30/09 00:00 🟢 🏀 Efes Pilsen vs Real Madrid Teka (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790666516_hd/1790666516_hd@720p.m3u8
+
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/ad2880c512e15870ba354e89f5809541.png" group-title="Giờ Vàng" , 30/09 00:45 🟡 🏀 Fenerbahce Ulker vs FC Bayern Munchen (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-fenerbahce-ulker-vs-fc-bayern-munchen-30-09-21292273
 
@@ -66,6 +71,9 @@ https://giovang.city/truc-tiep-belize-vs-saint-vincent-grenadines-30-09-6aadd0cc
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea-u23.png" group-title="Giờ Vàng" , 30/09 13:00 ⚽ U23 Hàn Quốc vs U23 Trung Quốc (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-u23-han-quoc-vs-u23-trung-quoc-30-09-s0u7uylogqjh
+
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/7778a93083d2fa50e4cb4e128f07cf5f.png" group-title="Giờ Vàng" , 30/09 14:30 🏀 New Zealand Breakers vs Cairns Taipans (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-new-zealand-breakers-vs-cairns-taipans-30-09-25222270
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/timor-leste.png" group-title="Giờ Vàng" , 30/09 16:00 ⚽ Đông Timor vs Campuchia (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-dong-timor-vs-campuchia-30-09-6ab468f8b057b828a8092bd9
