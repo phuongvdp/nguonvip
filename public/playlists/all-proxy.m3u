@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:28:32 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:30:38 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (20 trận), Chuối Chiên (20 trận), Phá Làng (50 trận), Gà Vàng (25 trận), Sao Kê (21 trận), GaVang33 (26 trận), Bông Lau (20 trận) =====
 
@@ -16,9 +16,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stre
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Bông Lau" , 29/09 08:00 🟢 🏐 Hong Kong vs Việt Nam (Chuối Kem (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikem%2Fplaylist.m3u8&source=bonglau
 
-#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 29/09 09:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1789838904_hd%2F1789838904_hd%40720p.m3u8&source=giovang
-
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/guatemala.png" group-title="Giờ Vàng" , 29/09 09:00 🟢 ⚽ Guatemala vs El Salvador (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790535848_hd%2F1790535848_hd%40720p.m3u8&source=giovang
 
@@ -30,6 +27,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stre
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/a1d4643376bf11b37c51f5c76fcaff79.png" group-title="GaVang33" , 29/09 09:00 🟢 ⚽ Guatemala vs El Salvador (Gà Siêu Péo)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F303098.m3u8&source=gavang33
+
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 29/09 10:30 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1789838904_hd%2F1789838904_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/06K3E8fM-ABIAlQIr.png" group-title="Giờ Vàng" , 29/09 11:00 🟢 🏐 Uzbekistan vs Kazakhstan (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790536027_hd%2F1790536027_hd%40720p.m3u8&source=giovang
