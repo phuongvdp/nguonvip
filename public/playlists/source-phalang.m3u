@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:58:13 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 02:01:14 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (25 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/afd785b0073f54e675356d9b1e3a6dd6.png" group-title="Phá Làng" , 30/09 00:30 🟢 ⚽ Saudi Arabia - Iraq (LÝ LINH LỰC)
@@ -14,6 +14,21 @@ https://lilive1.eu.cc/live/05e2754014bf6d3a11928f5ca03acc39/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/db956e156490875d592a809b26772d1d/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/4ccc41b4d4d3a4ee77c0729a72776db6.png" group-title="Phá Làng" , 30/09 01:45 🟢 ⚽ Slovenia - North Macedonia (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/slovenia-vs-north-macedonia-318q66hx8y3pqo9
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/2c976daf060736dc6b82c5a517bda062/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ab6ee7e9bc979a43f57adb287a48161f.png" group-title="Phá Làng" , 30/09 01:45 🟢 ⚽ Luxembourg - Iceland (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/luxembourg-vs-iceland-8yomo4h1yljkq0j
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/2fab0b0afbb01599eaad189b5a8ae9c2/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3370681d192c09290b9323bf1bb56d4c.png" group-title="Phá Làng" , 30/09 01:45 🟢 ⚽ Bulgaria - Estonia (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/bulgaria-vs-estonia-dj2ryohl763vq1z
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/4ee359c21bf01ac0d5fec1a7c2ec09cc/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/f97f8398fff79b390905d2f8c4cf5455.png" group-title="Phá Làng" , 30/09 01:45 🟢 ⚽ Scotland - Switzerland (LÝ LÀNG LÁ)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/scotland-vs-switzerland-dn1m1ghl9ygymoe
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -24,25 +39,45 @@ https://lilive1.eu.cc/live/59c8b4dfd70a35b4f19d62c5cf6fdf14/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/6b5b99fe786737538ae6893592cbcdc1/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/61e9ccd0c45b60839c47d792d6ae26f4.crdownload" group-title="Phá Làng" , 30/09 01:45 🟢 ⚽ San Marino - Albania (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/san-marino-vs-albania-l5ergph4kx79r8k
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/cfc4fffc97e475a209305820b75783a7/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3dd52d0f4d9de58ccdd0e54e70600884.png" group-title="Phá Làng" , 30/09 01:45 🟢 ⚽ Slovakia - Kazakhstan (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/slovakia-vs-kazakhstan-l7oqdehgjw97r51
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/880f19f96f2f900b7e25fc7de18d6e11/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/734b941674bbbf81100efcd71a7cd1f1.png" group-title="Phá Làng" , 30/09 01:45 🟢 ⚽ Spain - Croatia (LÝ LA LÀNG)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/spain-vs-croatia-y39mp1h6dgeemoj
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/9b764d6f3ca89fce6abf2ac35b2963ec/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/64a4250dded75fcc7ac237f910e8a54e.jpg" group-title="Phá Làng" , 30/09 02:00 🟡 ⚽ Somalia - Cote d'Ivoire (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#3glrw7hnd8o7qdy
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/64a4250dded75fcc7ac237f910e8a54e.jpg" group-title="Phá Làng" , 30/09 02:00 🟢 ⚽ Somalia - Cote d'Ivoire (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/somalia-vs-cote-d-ivoire-3glrw7hnd8o7qdy
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/df7ab1a266c8fa3f8eac5176f62b2cb3/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ae60842fb30554c4c1279b76a8075a74.png" group-title="Phá Làng" , 30/09 02:00 🟡 ⚽ Republic of the Congo - Cameroon (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#6ypq3nhvx91nmd7
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ae60842fb30554c4c1279b76a8075a74.png" group-title="Phá Làng" , 30/09 02:00 🟢 ⚽ Republic of the Congo - Cameroon (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/republic-of-the-congo-vs-cameroon-6ypq3nhvx91nmd7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/5d48d6359ac41693ea3c04977cc40ed8/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7b40fe5d22992f5565f4096e92d4c336.png" group-title="Phá Làng" , 30/09 02:00 🟡 ⚽ Benin - Mauritania (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#8yomo4h1npzxq0j
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7b40fe5d22992f5565f4096e92d4c336.png" group-title="Phá Làng" , 30/09 02:00 🟢 ⚽ Benin - Mauritania (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/benin-vs-mauritania-8yomo4h1npzxq0j
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/addeaa73ca73d283ceb82c5ec7436291/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1c3646a13b313d69c782097a62658900.png" group-title="Phá Làng" , 30/09 02:00 🟡 ⚽ Gabon - Niger (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#pxwrxlhyd4vxryk
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1c3646a13b313d69c782097a62658900.png" group-title="Phá Làng" , 30/09 02:00 🟢 ⚽ Gabon - Niger (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/gabon-vs-niger-pxwrxlhyd4vxryk
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/ef18e6983767e6832f0bb45c6ac007ac/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/55ee599e866e56254b9d77e28207cc22.png" group-title="Phá Làng" , 30/09 02:00 🟡 ⚽ Liberia - Mali (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#vjxm8ghey1xer6o
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/55ee599e866e56254b9d77e28207cc22.png" group-title="Phá Làng" , 30/09 02:00 🟢 ⚽ Liberia - Mali (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/liberia-vs-mali-vjxm8ghey1xer6o
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/f537de227b2e09e8a348f0041e6d6336/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e8b03b5c083ffa4e9179571b70c1febe.png" group-title="Phá Làng" , 30/09 07:00 ⚽ USA - Chile (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l5ergphk0y0yr8k
