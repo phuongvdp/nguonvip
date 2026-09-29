@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:15:17 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:18:14 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận) =====
 
@@ -30,8 +30,10 @@ https://eqr2hdarxfliv.vcdn.cloud/1790666365_hd/1790666365_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790666516_hd/1790666516_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/ad2880c512e15870ba354e89f5809541.png" group-title="Giờ Vàng" , 30/09 00:45 🟡 🏀 Fenerbahce Ulker vs FC Bayern Munchen (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-fenerbahce-ulker-vs-fc-bayern-munchen-30-09-21292273
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/ad2880c512e15870ba354e89f5809541.png" group-title="Giờ Vàng" , 30/09 00:45 🟢 🏀 Fenerbahce Ulker vs FC Bayern Munchen (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://eqr2hdarxfliv.vcdn.cloud/1790666671_hd/1790666671_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/IPmhSoEa-hvtJM6zJ.png" group-title="Giờ Vàng" , 30/09 01:00 🟡 ⚽ Atlanta Braves vs Philadelphia Phillies (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-atlanta-braves-vs-philadelphia-phillies-30-09-wim6v31192rs
