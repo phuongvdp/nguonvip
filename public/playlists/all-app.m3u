@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:22:58 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:25:04 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (20 trận), Chuối Chiên (18 trận), Phá Làng (60 trận), Gà Vàng (23 trận), Sao Kê (18 trận), GaVang33 (25 trận), Bông Lau (18 trận) =====
 
@@ -28,6 +28,9 @@ https://stm6dad62063600.stream.hdplaylink.com/sklive/tit/playlist.m3u8|User-Agen
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142856_67f4ff9c.png" group-title="Bông Lau" , 29/09 13:00 🟢 ⚽ Korea DPR vs China W (Chuối Chao (HD))
 https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
 
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/06141001b4a7358a800dda6c8c174a66.png!w80" group-title="Phá Làng" , 29/09 14:00 🟢 🏐 Iran - Indonesia (LÝ LÊN LỬA (Server 1))
+https://pull.digitalcdn.net/live/2a2d91969b1747eca27d8cf331ba584f/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/truc-tiep/iran-vs-indonesia-5e47f28fed4441c7be588f6a77d44641&Origin=https://phalang.live
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/iran.png" group-title="Giờ Vàng" , 29/09 14:00 🟡 🏐 Iran vs Indonesia (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-iran-vs-indonesia-29-09-nwpoiz8v7uq9
 
@@ -42,9 +45,6 @@ https://khandai3.link/truc-tiep/qatar-vs-an-do
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250922_191534_12d2f8a6.png" group-title="Chuối Chiên" , 29/09 14:00 🟡 🏐 Iran vs Indonesia (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/991229/iran-vs-indonesia
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/06141001b4a7358a800dda6c8c174a66.png!w80" group-title="Phá Làng" , 29/09 14:00 🟡 🏐 Iran - Indonesia (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#5e47f28fed4441c7be588f6a77d44641
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3f0615a1b43ba75b2f73de29ed78fa1a.png" group-title="Phá Làng" , 29/09 14:00 🟡 ⚽ Fiji Women - New Caledonia Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#vjxm8ghkv557r6o
