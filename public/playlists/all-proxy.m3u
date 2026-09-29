@@ -1,17 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:01:28 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 09:04:51 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận), Khán Đài (22 trận), Chuối Chiên (20 trận), Phá Làng (49 trận), Gà Vàng (25 trận), Sao Kê (21 trận), GaVang33 (28 trận), Bông Lau (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận), Khán Đài (22 trận), Chuối Chiên (20 trận), Phá Làng (49 trận), Gà Vàng (25 trận), Sao Kê (21 trận), GaVang33 (26 trận), Bông Lau (20 trận) =====
 
 # ----- Ngày 2026-09-29 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f7779710d2026dca44c41da7a9b7c748.png" group-title="Gà Vàng" , 29/09 07:00 🟢 ⚽ Jamaica vs Honduras (KAYTI)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69b8e6f43bcf2231c35d5144.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f7779710d2026dca44c41da7a9b7c748.png" group-title="GaVang33" , 29/09 07:00 🟢 ⚽ Jamaica vs Honduras (Gà Siêu Tồ)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F796315.m3u8&source=gavang33
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/00a6ab569af8e8f6b99f1d1a4b4bcfbb.png" group-title="GaVang33" , 29/09 07:00 🟢 ⚽ Saint Kitts and Nevis vs Grenada (Gà Siêu Nhí)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F301263.m3u8&source=gavang33
 
 #EXTINF:-1 tvg-logo="https://a.espncdn.com/guid/d1a9b001-1df7-fbd7-ae4c-6ca7065286ec/logos/primary_logo_on_black_color.png" group-title="Giờ Vàng" , 29/09 07:15 🟢 ⚽ Philadelphia Eagles vs Chicago bear (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790635813_hd%2F1790635813_hd%40720p.m3u8&source=giovang
