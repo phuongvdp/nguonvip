@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:54:30 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:57:06 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (15 trận), Chuối Chiên (15 trận), Phá Làng (43 trận), Gà Vàng (18 trận), Sao Kê (22 trận), GaVang33 (27 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (15 trận), Chuối Chiên (14 trận), Phá Làng (43 trận), Gà Vàng (18 trận), Sao Kê (22 trận), GaVang33 (27 trận), Bông Lau (14 trận) =====
 
 # ----- Ngày 2026-09-29 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132739_776293e4.png" group-title="Chuối Chiên" , 29/09 07:00 🟢 ⚽ Jamaica vs Honduras (Trốc Tru (HD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Ftroctru%2Fplaylist.m3u8&source=chuoichientv
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f7779710d2026dca44c41da7a9b7c748.png" group-title="Gà Vàng" , 29/09 07:00 🟢 ⚽ Jamaica vs Honduras (KAYTI)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69b8e6f43bcf2231c35d5144.m3u8&source=gavang
 
@@ -18,9 +15,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/00a6ab569af8e8f6b99f1d1a4b4bcfbb.png" group-title="GaVang33" , 29/09 07:00 🟢 ⚽ Saint Kitts and Nevis vs Grenada (Gà Siêu Nhí)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F301263.m3u8&source=gavang33
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132739_776293e4.png" group-title="Bông Lau" , 29/09 07:00 🟢 ⚽ Jamaica vs Honduras (Trốc Tru (HD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Ftroctru%2Fplaylist.m3u8&source=bonglau
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010540_94a01ee4.png" group-title="Sao Kê" , 29/09 08:00 🟢 ⚽ Hong Kong vs Việt Nam (Cà Rốt)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fstm6dad62063600.stream.hdplaylink.com%2Fsklive%2Fcarot%2Fplaylist.m3u8&source=saoke
