@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:27:00 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:29:56 29/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (12 trận), Chuối Chiên (14 trận), Phá Làng (32 trận), Gà Vàng (11 trận), Sao Kê (17 trận), GaVang33 (20 trận), Bông Lau (14 trận) =====
 
@@ -49,11 +49,11 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/pbr425eM-jwMhrJiF.png" group-title="Giờ Vàng" , 29/09 22:30 🟢 ⚽ Germany U20 vs Italy U20 (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790665981_hd%2F1790665981_hd%40720p.m3u8&source=giovang
 
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/cape-verde.png" group-title="Giờ Vàng" , 29/09 23:00 🟢 ⚽ Cape Verde vs Rwanda (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Feqr2hdarxfliv.vcdn.cloud%2F1790665395_hd%2F1790665395_hd%40720p.m3u8&source=giovang
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260926/ba544863f6ad5205a345fa42bb80f71a.png" group-title="Phá Làng" , 29/09 23:00 🟢 ⚽ Finland - Belarus (LÝ LÀNG LÁ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F35054e83ca41224492084e88365eb30d%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/cape-verde.png" group-title="Giờ Vàng" , 29/09 23:00 🟡 ⚽ Cape Verde vs Rwanda (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-cape-verde-vs-rwanda-29-09-6a387d79153ee8455e055734
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/ghana.png" group-title="Giờ Vàng" , 29/09 23:00 🟡 ⚽ Ghana vs Gambia (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-ghana-vs-gambia-29-09-6a372c0432ce87f525086b96
