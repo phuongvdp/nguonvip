@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:33:03 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:36:18 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (9 trận), Khán Đài (13 trận), Chuối Chiên (15 trận), Phá Làng (34 trận), Gà Vàng (3 trận), Sao Kê (20 trận), GaVang33 (23 trận), Bông Lau (15 trận) =====
 
@@ -19,10 +19,8 @@ https://pzhgifbkllliv.vcdn.cloud/1790776512_hd/1790776512_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pzhgifbkllliv.vcdn.cloud/1790776618_hd/1790776618_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9926.jpg" group-title="Khán Đài" , 30/09 23:00 🟢 ⚽ Malta U21 vs Germany U21 (Kền Kền)
-#EXTVLCOPT:http-referrer=https://khandai3.link
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9926.jpg" group-title="Khán Đài" , 30/09 23:00 🟢 ⚽ Malta U21 vs Germany U21 (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/malta-u21-vs-germany-u21-01-10-2026-607002
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_145302_b6e32570.png" group-title="Chuối Chiên" , 30/09 23:00 🟢 ⚽ Eritrea vs South Africa (Trốc Tru (FHD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
@@ -92,10 +90,8 @@ https://lilive1.eu.cc/live/8e74c50c6fce9f7262f7608968db725b/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pzhgifbkllliv.vcdn.cloud/1790776693_hd/1790776693_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_331.jpg" group-title="Khán Đài" , 30/09 23:45 🟢 ⚽ AS Roma W vs Barcelona W (Enzo)
-#EXTVLCOPT:http-referrer=https://khandai3.link
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_331.jpg" group-title="Khán Đài" , 30/09 23:45 🟢 ⚽ AS Roma W vs Barcelona W (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/as-roma-w-vs-barcelona-w-30-09-2026-855182
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133742_94d1bbd1.png" group-title="Chuối Chiên" , 30/09 23:45 🟢 ⚽ Roma W vs Barcelona W (Chuối Chao (FHD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
