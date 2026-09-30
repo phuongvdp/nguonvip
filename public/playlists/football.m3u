@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:17:00 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:19:56 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Khán Đài (12 trận), Chuối Chiên (16 trận), Phá Làng (42 trận), Gà Vàng (8 trận), Sao Kê (20 trận), GaVang33 (21 trận), Bông Lau (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Khán Đài (12 trận), Chuối Chiên (17 trận), Phá Làng (42 trận), Gà Vàng (8 trận), Sao Kê (19 trận), GaVang33 (21 trận), Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/uzbekistan-u23.png" group-title="Giờ Vàng" , 30/09 17:30 🟢 ⚽ U23 Uzbekistan vs U23 Nhật Bản (Giovang 1)
@@ -9,8 +9,10 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1790651690_hd/1790651690_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646.png" group-title="Khán Đài" , 30/09 17:30 🟢 ⚽ Uzbekistan U23 vs Japan U23 (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/uzbekistan-u23-vs-japan-u23-30-09-2026-859313
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646.png" group-title="Khán Đài" , 30/09 17:30 🟢 ⚽ Uzbekistan U23 vs Japan U23 (Lee Sin)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131446_7bd3d526.png" group-title="Chuối Chiên" , 30/09 17:30 🟢 ⚽ Uzbekistan U23 vs Japan U23 (Chuối Kem (FHD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
@@ -42,8 +44,10 @@ https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1790693391_hd/1790693391_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/download_IAaCYjl.png" group-title="Khán Đài" , 30/09 19:00 🟢 ⚽ Hong Kong vs Brunei (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/hong-kong-vs-brunei-30-09-2026-859870
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/download_IAaCYjl.png" group-title="Khán Đài" , 30/09 19:00 🟢 ⚽ Hong Kong vs Brunei (Chim Nhỏ)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134317_1bd3a785.png" group-title="Chuối Chiên" , 30/09 19:00 🟢 ⚽ Hong Kong vs Brunei (Chuối Nhỏ (FHD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
@@ -88,11 +92,6 @@ https://ftlh5sc02iliv.vcdn.cloud/1790693677_hd/1790693677_hd@720p.m3u8
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134341_5916abfa.png" group-title="Sao Kê" , 30/09 20:00 🟢 ⚽ Egypt U20 vs Tunisia U20 (Cà Rốt (HD))
-#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://wtyi0525.edgemaxcdn.org/live/x10-hd-1111/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134341_5916abfa.png" group-title="Bông Lau" , 30/09 20:00 🟢 ⚽ Egypt U20 vs Tunisia U20 (Chuối Lá (FHD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
@@ -427,11 +426,17 @@ https://lau05.bonglautv1.pro/truc-tiep/1637962
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_540.jpg" group-title="Khán Đài" , 01/10 17:10 ⚽ Japan vs Ecuador (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/japan-vs-ecuador
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Chuối Chiên" , 01/10 17:10 ⚽ Japan vs Ecuador (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/997246/japan-vs-ecuador
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6715.png" group-title="Sao Kê" , 01/10 17:10 ⚽ Japan vs Ecuador (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/japan-vs-ecuador-6abcd70d47921e67729eb853.html
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f9ce800b0fd64b339c2bcf8ec7d9ec0e.png" group-title="GaVang33" , 01/10 17:10 ⚽ Japan vs Ecuador (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/japan-vs-ecuador-luc-1710-ngay-01-10-2026-4wyrn4hyz4ndq86
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Bông Lau" , 01/10 17:10 ⚽ Japan vs Ecuador (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/997246
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_484.jpg" group-title="Khán Đài" , 01/10 18:30 ⚽ Indonesia vs Bangladesh (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/indonesia-vs-bangladesh-01-10-2026-859003
