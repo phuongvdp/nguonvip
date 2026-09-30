@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:20:38 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:23:53 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (9 trận), Khán Đài (13 trận), Chuối Chiên (15 trận), Phá Làng (33 trận), Gà Vàng (3 trận), Sao Kê (19 trận), GaVang33 (23 trận), Bông Lau (15 trận) =====
 
@@ -13,8 +13,8 @@ https://pzhgifbkllliv.vcdn.cloud/1790776512_hd/1790776512_hd@720p.m3u8|User-Agen
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/czech-republic-u21.png" group-title="Giờ Vàng" , 30/09 23:00 🟢 ⚽ U21 Cộng hòa Séc vs U21 Bulgaria (Giovang 1)
 https://pzhgifbkllliv.vcdn.cloud/1790776618_hd/1790776618_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9926.jpg" group-title="Khán Đài" , 30/09 23:00 🟢 ⚽ Malta U21 vs Germany U21 (Kền Kền)
-https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://khandai3.link
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9926.jpg" group-title="Khán Đài" , 30/09 23:00 🟢 ⚽ Malta U21 vs Germany U21 (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/malta-u21-vs-germany-u21-01-10-2026-607002
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_145302_b6e32570.png" group-title="Chuối Chiên" , 30/09 23:00 🟢 ⚽ Eritrea vs South Africa (Trốc Tru (FHD))
 https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
@@ -52,23 +52,35 @@ https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8|User-Agent=Mozilla/
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a8844b6e338455d83cb2dccf35c6751d.png" group-title="Phá Làng" , 30/09 23:30 🟡 ⚽ Sturm Graz/Stattegg Women - VfL Wolfsburg Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#vjxm8gheyogdr6o
 
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/roma-cf-w.png" group-title="Giờ Vàng" , 30/09 23:45 🟢 ⚽ Nữ Roma CF vs Nữ FC Barcelona (Giovang 1)
+https://pzhgifbkllliv.vcdn.cloud/1790776693_hd/1790776693_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133742_94d1bbd1.png" group-title="Chuối Chiên" , 30/09 23:45 🟢 ⚽ Roma W vs Barcelona W (Chuối Chao (FHD))
+https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132645_70b8e616.png" group-title="Chuối Chiên" , 30/09 23:45 🟢 ⚽ Paris FC W vs Arsenal W (Chuối Lá (FHD))
+https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/584402.png" group-title="Sao Kê" , 30/09 23:45 🟢 ⚽ Roma (W) vs Barcelona (W) (Teppy (HD))
+https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/862893.png" group-title="Sao Kê" , 30/09 23:45 🟢 ⚽ Paris FC (W) vs Arsenal (W) (Kai (HD))
+https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
+
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/09c9433cfa1c306e6b774a272da7f5a9.png" group-title="GaVang33" , 30/09 23:45 🟢 ⚽ AS Roma Women vs Barcelona Women (Gà Siêu Kiêu)
 https://live2.zktsva.app/live/741294.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/fabc3fa7f297e32d91291693eb8c1404.png" group-title="GaVang33" , 30/09 23:45 🟢 ⚽ Paris FC Women vs Arsenal Women (Gà Siêu Nhí)
 https://live2.zktsva.app/live/301263.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/roma-cf-w.png" group-title="Giờ Vàng" , 30/09 23:45 🟡 ⚽ Nữ Roma CF vs Nữ FC Barcelona (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-nu-roma-cf-vs-nu-fc-barcelona-30-09-6aaf22fc4e725bdee905b7f5
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133742_94d1bbd1.png" group-title="Bông Lau" , 30/09 23:45 🟢 ⚽ Roma W vs Barcelona W (Chuối Chao (FHD))
+https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132645_70b8e616.png" group-title="Bông Lau" , 30/09 23:45 🟢 ⚽ Paris FC W vs Arsenal W (Chuối Lá (FHD))
+https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_331.jpg" group-title="Khán Đài" , 30/09 23:45 🟡 ⚽ AS Roma W vs Barcelona W (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/as-roma-w-vs-barcelona-w-30-09-2026-855182
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133742_94d1bbd1.png" group-title="Chuối Chiên" , 30/09 23:45 🟡 ⚽ Roma W vs Barcelona W (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1638289/roma-w-vs-barcelona-w
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132645_70b8e616.png" group-title="Chuối Chiên" , 30/09 23:45 🟡 ⚽ Paris FC W vs Arsenal W (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1638326/paris-fc-w-vs-arsenal-w
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/09c9433cfa1c306e6b774a272da7f5a9.png" group-title="Phá Làng" , 30/09 23:45 🟡 ⚽ AS Roma Women - Barcelona Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4jwq2ghgok2jm0v
@@ -87,18 +99,6 @@ https://gavanglinkr.tv/truc-tiep/as-roma-women-vs-barcelona-women-ngay-30-09-202
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fabc3fa7f297e32d91291693eb8c1404.png" group-title="Gà Vàng" , 30/09 23:45 🟡 ⚽ Paris Fc(w) vs Arsenal(w) (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/paris-fc-women-vs-arsenal-women-ngay-30-09-2026/
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/584402.png" group-title="Sao Kê" , 30/09 23:45 🟡 ⚽ Roma (W) vs Barcelona (W) (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/roma-w-vs-barcelona-w-6abb8e323eba0388fc1f3656.html
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/862893.png" group-title="Sao Kê" , 30/09 23:45 🟡 ⚽ Paris FC (W) vs Arsenal (W) (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/paris-fc-w-vs-arsenal-w-6abb8e323eba0388fc1f3657.html
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133742_94d1bbd1.png" group-title="Bông Lau" , 30/09 23:45 🟡 ⚽ Roma W vs Barcelona W (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1638289
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132645_70b8e616.png" group-title="Bông Lau" , 30/09 23:45 🟡 ⚽ Paris FC W vs Arsenal W (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1638326
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6dfc28d0f38d12ff657e16fb02e040f7.png" group-title="Phá Làng" , 01/10 00:00 🟡 ⚽ Real Sociedad Women - Hearts Women (Chưa có link — chờ cập nhật)
@@ -125,9 +125,6 @@ https://khandai3.link/truc-tiep/united-arab-emirates-vs-qatar-01-10-2026-857567
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133415_27f7a7df.png" group-title="Chuối Chiên" , 01/10 00:30 ⚽ United Arab Emirates vs Qatar (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1637938/united-arab-emirates-vs-qatar
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133414_1ae05f1a.png" group-title="Chuối Chiên" , 01/10 00:30 ⚽ Bahrain vs Yemen (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1637939/bahrain-vs-yemen
-
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/13f085e7de8626efb90ee339e675085d.png" group-title="Phá Làng" , 01/10 00:30 ⚽ United Arab Emirates - Qatar (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4wyrn4h6jlj6q86
 
@@ -148,9 +145,6 @@ https://gavang33.me/truc-tiep/bahrain-vs-yemen-luc-0030-ngay-01-10-2026-l5ergph4
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133415_27f7a7df.png" group-title="Bông Lau" , 01/10 00:30 ⚽ United Arab Emirates vs Qatar (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1637938
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133414_1ae05f1a.png" group-title="Bông Lau" , 01/10 00:30 ⚽ Bahrain vs Yemen (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1637939
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_11034.jpg" group-title="Khán Đài" , 01/10 01:00 ⚽ Durham W vs Manchester Utd W (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/durham-w-vs-manchester-utd-w-01-10-2026-836679
@@ -368,11 +362,17 @@ https://khandai3.link/truc-tiep/uzbekistan-vs-syria-01-10-2026-857053
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3016a701d47246f082016705f2f7267c.png" group-title="GaVang33" , 01/10 21:00 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/uzbekistan-vs-syria-luc-2100-ngay-01-10-2026-jw2r09h549l0rz8
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_145125_50474a26.png" group-title="Chuối Chiên" , 01/10 22:00 ⚽ Greece U21 vs Latvia U21 (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1350188/greece-u21-vs-latvia-u21
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/101897.png" group-title="Sao Kê" , 01/10 22:00 ⚽ Al-Gharafa vs Al Mesaimeer (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/al-gharafa-vs-al-mesaimeer-6abcd70d47921e67729eb842.html
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/fcac1eae493c493061e66608158b40ef.png" group-title="GaVang33" , 01/10 22:00 ⚽ Al-Gharafa Sports Club vs Al Mesaimeer Club (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/al-gharafa-sports-club-vs-al-mesaimeer-club-luc-2200-ngay-01-10-2026-6ypq3nhk64vomd7
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_145125_50474a26.png" group-title="Bông Lau" , 01/10 22:00 ⚽ Greece U21 vs Latvia U21 (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1350188
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/bfdd500484330d63a723cbc396df762c.png" group-title="GaVang33" , 01/10 22:30 ⚽ VfB Stuttgart vs SpVgg Greuther Fürth (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/vfb-stuttgart-vs-spvgg-greuther-frth-luc-2230-ngay-01-10-2026-pxwrxlhlpe45ryk
