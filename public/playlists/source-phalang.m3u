@@ -1,22 +1,38 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:56:19 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:59:20 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (35 trận) =====
 
 # ----- Ngày 2026-09-30 -----
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/804a96aa15251f0672dea9eb6a354705.png" group-title="Phá Làng" , 30/09 23:00 🟢 ⚽ Valerenga Women - Feyenoord Rotterdam Women (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/valerenga-women-vs-feyenoord-rotterdam-women-1l4rjnh9vp16m7v
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/20226f494e2b9ecfcee25536b5659861/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9ebd79de8504a6573dce8c419ff16b10.png" group-title="Phá Làng" , 30/09 23:00 🟢 ⚽ Eintracht Frankfurt Women - Hafnarfjordur Women (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/eintracht-frankfurt-women-vs-hafnarfjordur-women-2y8m4zh5ld3vql0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/50c83b103482e17cfb7674678e26b57d/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/273f58eff475b10f0dbe022b18ada519.png" group-title="Phá Làng" , 30/09 23:00 🟢 ⚽ Lithuania - Andorra (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/lithuania-vs-andorra-965mkyh8l573r1g
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/2dd9ec500060304a883440038b665e71/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/e225b584abc63b40a47e2846d882907e.png" group-title="Phá Làng" , 30/09 23:00 🟢 ⚽ Eritrea - South Africa (LÝ LINH LỰC)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/eritrea-vs-south-africa-n54qllhnv0jwqvy
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/646367f3d093d8e2a12871afed94fbf4/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/804a96aa15251f0672dea9eb6a354705.png" group-title="Phá Làng" , 30/09 23:00 🟡 ⚽ Valerenga Women - Feyenoord Rotterdam Women (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#1l4rjnh9vp16m7v
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b793550513325d21c86ae312be932752.png" group-title="Phá Làng" , 30/09 23:00 🟢 ⚽ SK Brann Women - HJK Helsinki Women (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/sk-brann-women-vs-hjk-helsinki-women-pxwrxlhydwgwryk
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/44d46c6efd2147acaeb5dd54d55668fd/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9ebd79de8504a6573dce8c419ff16b10.png" group-title="Phá Làng" , 30/09 23:00 🟡 ⚽ Eintracht Frankfurt Women - Hafnarfjordur Women (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#2y8m4zh5ld3vql0
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/273f58eff475b10f0dbe022b18ada519.png" group-title="Phá Làng" , 30/09 23:00 🟡 ⚽ Lithuania - Andorra (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#965mkyh8l573r1g
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/020fb287c84ac1eafe3b0fedfc834fba.png" group-title="Phá Làng" , 30/09 23:00 🟢 ⚽ Rosenborg BK Women - Slovan Liberec Women (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/rosenborg-bk-women-vs-slovan-liberec-women-y0or5jh87dl2qwz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/b68bf25e1e1a39c5942cce9efdf6a122/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5883bc06453abe9f777e82fac2c0cf4a.png" group-title="Phá Làng" , 30/09 23:00 🟡 ⚽ TJ Spartak Myjava Women - PAOK Saloniki Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#jw2r09hk8dn6rz8
@@ -24,14 +40,8 @@ https://phalang.live/trang-chu#jw2r09hk8dn6rz8
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7ce68e9d6c6bc55224924c3a2df5771a.png" group-title="Phá Làng" , 30/09 23:00 🟡 ⚽ Fortuna Hjorring Women - PSV Eindhoven Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#pxwrxlhydw1wryk
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b793550513325d21c86ae312be932752.png" group-title="Phá Làng" , 30/09 23:00 🟡 ⚽ SK Brann Women - HJK Helsinki Women (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#pxwrxlhydwgwryk
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d8074a35855a7f4935e3e19222d9a9eb.png" group-title="Phá Làng" , 30/09 23:00 🟡 ⚽ SC Kalsdorf - Grazer AK (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#x7lm7phxg7wkm2w
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/020fb287c84ac1eafe3b0fedfc834fba.png" group-title="Phá Làng" , 30/09 23:00 🟡 ⚽ Rosenborg BK Women - Slovan Liberec Women (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#y0or5jh87dl2qwz
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a8844b6e338455d83cb2dccf35c6751d.png" group-title="Phá Làng" , 30/09 23:30 🟡 ⚽ Sturm Graz/Stattegg Women - VfL Wolfsburg Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#vjxm8gheyogdr6o
