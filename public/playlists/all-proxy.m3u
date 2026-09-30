@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 12:45:23 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 12:48:24 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (8 trận), Khán Đài (11 trận), Chuối Chiên (18 trận), Phá Làng (46 trận), Gà Vàng (15 trận), Sao Kê (16 trận), GaVang33 (14 trận), Bông Lau (18 trận) =====
 
@@ -22,6 +22,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/8f696da0665940d4b34e48edba4d2e3a.png" group-title="Phá Làng" , 30/09 13:00 🟢 ⚽ South Korea U23 - China U23 (LÝ LIỀU LĨNH)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F840192ad5054db5304abe228561d3866%2Fplaylist.m3u8&source=phalang
 
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/300702.png" group-title="Sao Kê" , 30/09 13:00 🟢 ⚽ South Korea U23 vs China U23 (Teppy (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx31-hd-1111%2Fplaylist.m3u8&source=saoke
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Bông Lau" , 30/09 13:00 🟢 ⚽ U23 Hàn Quốc  vs China PR U23 (Chuối Chao (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoichaohd%2Fplaylist.m3u8&source=bonglau
 
@@ -30,9 +33,6 @@ https://phalang.live/trang-chu#8yomo4h1w4dlq0j
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/6581bc34692022be4c21d98778e33df0.png" group-title="Gà Vàng" , 30/09 13:00 🟡 ⚽ Korea U23 vs China U23 (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/south-korea-u23-vs-china-u23-ngay-30-09-2026/
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/300702.png" group-title="Sao Kê" , 30/09 13:00 🟡 ⚽ South Korea U23 vs China U23 (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/south-korea-u23-vs-china-u23-6abb8e323eba0388fc1f365a.html
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/81bff08bd846db23755fe4639e3c6839.png" group-title="Phá Làng" , 30/09 14:00 ⚽ Fiji - New Caledonia (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#dj2ryoh7v4v1q1z
