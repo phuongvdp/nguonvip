@@ -1,14 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:58:12 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:01:07 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (3 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a632c7cdcfb1f9898d77898dd4ea00c8.png" group-title="Gà Vàng" , 30/09 05:30 🟢 ⚽ Botafogo SP vs Ponte Preta (SiêU QuậY)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a2a59b347bbddd62a8dc4e4.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/cd5a7e277e91426d9ad74bd09b946fde.png" group-title="Gà Vàng" , 30/09 08:00 🟡 ⚽ Mexico vs Peru (Chưa có link — chờ cập nhật)
-https://gavanglinkr.tv/truc-tiep/mexico-vs-peru-ngay-30-09-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/6eef3985d6a6d69a6e5374e27b13b35f.png" group-title="Gà Vàng" , 30/09 08:05 🟡 ⚽ Medellin Independiente vs Millonarios (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/dep-independiente-medellin-vs-millonarios-ngay-30-09-2026/
