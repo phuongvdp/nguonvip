@@ -1,18 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:29:41 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:32:14 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (7 trận), Khán Đài (11 trận), Chuối Chiên (18 trận), Phá Làng (47 trận), Gà Vàng (16 trận), Sao Kê (16 trận), GaVang33 (15 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (7 trận), Khán Đài (11 trận), Chuối Chiên (18 trận), Phá Làng (47 trận), Gà Vàng (15 trận), Sao Kê (16 trận), GaVang33 (15 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 30/09 11:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/869f9d5a3552f86ffbe7eed9c0e09d79.png" group-title="Gà Vàng" , 30/09 12:00 🟢 ⚽ Ulaangom City vs Hunters FC (Lữ Bố.vip)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/6a9776215126529dede9bf51.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea-u23.png" group-title="Giờ Vàng" , 30/09 13:00 🟢 ⚽ U23 Hàn Quốc vs U23 Trung Quốc (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
@@ -34,11 +29,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/840192ad5054db5304abe228561d3866/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/6581bc34692022be4c21d98778e33df0.png" group-title="Gà Vàng" , 30/09 13:00 🟢 ⚽ Korea U23 vs China U23 (SAITAMA)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8
-
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/300702.png" group-title="Sao Kê" , 30/09 13:00 🟢 ⚽ South Korea U23 vs China U23 (Teppy (HD))
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -52,10 +42,10 @@ https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/81bff08bd846db23755fe4639e3c6839.png" group-title="Phá Làng" , 30/09 14:00 🟡 ⚽ Fiji - New Caledonia (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#dj2ryoh7v4v1q1z
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/7778a93083d2fa50e4cb4e128f07cf5f.png" group-title="Giờ Vàng" , 30/09 14:30 🏀 New Zealand Breakers vs Cairns Taipans (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/7778a93083d2fa50e4cb4e128f07cf5f.png" group-title="Giờ Vàng" , 30/09 14:30 🟡 🏀 New Zealand Breakers vs Cairns Taipans (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-new-zealand-breakers-vs-cairns-taipans-30-09-25222270
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/n4e20cb4a61519f6a810b6b307ff8b574.png" group-title="Gà Vàng" , 30/09 14:30 🏀 New Zealand Breakers vs Cairns Taipans (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/n4e20cb4a61519f6a810b6b307ff8b574.png" group-title="Gà Vàng" , 30/09 14:30 🟡 🏀 New Zealand Breakers vs Cairns Taipans (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f5d0b3f174168088f64f65b47af718fa.png" group-title="Phá Làng" , 30/09 15:00 ⚽ Arges - CNS Cetate Deva (Chưa có link — chờ cập nhật)
@@ -106,6 +96,9 @@ https://live05.chuoichientv.me/live/1642011/uzbekistan-u23-vs-japan-u23
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/d305479c8008cb42a1bd5dff4af18891.png" group-title="Phá Làng" , 30/09 17:30 ⚽ Uzbekistan U23 - Japan U23 (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkhyvwnzqg8
 
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/4e7245e77764a6d4d68a69bd2f4c2035.png" group-title="Gà Vàng" , 30/09 17:30 ⚽ Uzbekistan U23 vs Japan U23 (Chưa có link — chờ cập nhật)
+https://gavanglinkr.tv/truc-tiep/uzbekistan-u23-vs-japan-u23-ngay-30-09-2026/
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/613636.png" group-title="Sao Kê" , 30/09 17:30 ⚽ Uzbekistan U23 vs Japan U23 (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/uzbekistan-u23-vs-japan-u23-6abb8e323eba0388fc1f365b.html
 
@@ -130,11 +123,11 @@ https://phalang.live/trang-chu#l5ergphk0wl2r8k
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e06859aea2ca9509194038297224b311.png" group-title="Phá Làng" , 30/09 19:00 ⚽ Mauritius - Djibouti (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#x7lm7phxg8gym2w
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9d4caac656f50e75750c905733ce6114.png" group-title="Gà Vàng" , 30/09 19:00 ⚽ BFF Academy U19 vs Thimphu Raven FC (Chưa có link — chờ cập nhật)
-https://gavanglinkr.tv/truc-tiep/bff-academy-u19-vs-thimphu-raven-fc-ngay-30-09-2026/
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/df321578b4f5f132345d2e6b39743126.png" group-title="Gà Vàng" , 30/09 19:00 ⚽ Hong Kong vs Brunei Darussalam (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/hong-kong-vs-brunei-darussalam-ngay-30-09-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9d4caac656f50e75750c905733ce6114.png" group-title="Gà Vàng" , 30/09 19:00 ⚽ BFF Academy U19 vs Thimphu Raven FC (Chưa có link — chờ cập nhật)
+https://gavanglinkr.tv/truc-tiep/bff-academy-u19-vs-thimphu-raven-fc-ngay-30-09-2026/
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/178671.png" group-title="Sao Kê" , 30/09 19:00 ⚽ Brunei vs Hong Kong (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/brunei-vs-hong-kong-6abb8e323eba0388fc1f3658.html
