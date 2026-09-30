@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:29:40 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:31:57 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (16 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/869f9d5a3552f86ffbe7eed9c0e09d79.png" group-title="Gà Vàng" , 30/09 12:00 🟢 ⚽ Ulaangom City vs Hunters FC (Lữ Bố.vip)
@@ -9,9 +9,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/6581bc34692022be4c21d98778e33df0.png" group-title="Gà Vàng" , 30/09 13:00 🟢 ⚽ Korea U23 vs China U23 (SAITAMA)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69f42e961f739deff81510c0.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/n4e20cb4a61519f6a810b6b307ff8b574.png" group-title="Gà Vàng" , 30/09 14:30 🟡 🏀 New Zealand Breakers vs Cairns Taipans (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/876f6160eafc92115b442945c80fdba7.png" group-title="Gà Vàng" , 30/09 15:00 🟡 ⚽ Khovd vs FC Ulaanbaatar (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/khovd-broncos-vs-fc-ulaanbaatar-ngay-30-09-2026/
