@@ -1,11 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:19:34 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:22:09 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (44 trận) =====
 
 # ----- Ngày 2026-09-30 -----
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/8a415871b15f513d5636f4fbcff42844.png" group-title="Phá Làng" , 30/09 16:00 🟢 ⚽ Timor Leste - Cambodia (LÝ LÊN LỬA (Server 1))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2Fdee834ae51bb4357b7cc67f678042119%2Findex.m3u8&source=phalang
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/8a415871b15f513d5636f4fbcff42844.png" group-title="Phá Làng" , 30/09 16:00 🟢 ⚽ Timor Leste - Cambodia (LÝ LÊN LỬA)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fa99dcb48c4ca02a6962cae84c4bc1d0b%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/21649c3d173c8f4ec9d526432ad9f088.png" group-title="Phá Làng" , 30/09 16:00 🟡 ⚽ East Bengal FC - Minerva Punjab (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66h8zn61qo9

@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:19:34 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:22:09 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (8 trận), Khán Đài (10 trận), Chuối Chiên (17 trận), Phá Làng (44 trận), Gà Vàng (14 trận), Sao Kê (15 trận), GaVang33 (16 trận), Bông Lau (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (9 trận), Khán Đài (10 trận), Chuối Chiên (17 trận), Phá Làng (44 trận), Gà Vàng (14 trận), Sao Kê (15 trận), GaVang33 (16 trận), Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/7778a93083d2fa50e4cb4e128f07cf5f.png" group-title="Giờ Vàng" , 30/09 14:30 🟢 🏀 New Zealand Breakers vs Cairns Taipans (Giovang 1)
@@ -19,10 +19,10 @@ https://ftlh5sc02iliv.vcdn.cloud/1790613111_hd/1790613111_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a5df755b89dded67b39b8bc.m3u8
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/8a415871b15f513d5636f4fbcff42844.png" group-title="Phá Làng" , 30/09 16:00 🟢 ⚽ Timor Leste - Cambodia (LÝ LÊN LỬA (Server 1))
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/8a415871b15f513d5636f4fbcff42844.png" group-title="Phá Làng" , 30/09 16:00 🟢 ⚽ Timor Leste - Cambodia (LÝ LÊN LỬA)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/timor-leste-vs-cambodia-pxwrxlhydn93ryk
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://pull.digitalcdn.net/live/dee834ae51bb4357b7cc67f678042119/index.m3u8
+https://lilive1.eu.cc/live/a99dcb48c4ca02a6962cae84c4bc1d0b/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/95801.png" group-title="Sao Kê" , 30/09 16:00 🟢 ⚽ Timor-Leste vs Cambodia (Kai (HD))
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
@@ -76,6 +76,9 @@ https://vip3.saoketv40.xyz/uzbekistan-u23-vs-japan-u23-6abb8e323eba0388fc1f365b.
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131446_7bd3d526.png" group-title="Bông Lau" , 30/09 17:30 ⚽ Uzbekistan U23 vs Japan U23 (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1642011
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/4WdeaLYg-Mc0Ip3ar.png" group-title="Giờ Vàng" , 30/09 18:00 🎾 Nuno Borges vs Novak Djokovic (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-nuno-borges-vs-novak-djokovic-30-09-e9n1zwc4h871
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/hong-kong.png" group-title="Giờ Vàng" , 30/09 19:00 ⚽ Hồng Kông vs Brunei (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-hong-kong-vs-brunei-30-09-6ab468f8b057b828a8092bd7
