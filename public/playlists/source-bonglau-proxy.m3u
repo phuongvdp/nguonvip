@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:02:18 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:05:13 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Bông Lau (16 trận) =====
 
@@ -10,7 +10,7 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132739_e67768f5.png" group-title="Bông Lau" , 30/09 07:00 🟢 ⚽ USA vs Chile (Chuối Ngao (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoingaohd%2Fplaylist.m3u8&source=bonglau
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260917_012723_b0cd7a48.png" group-title="Bông Lau" , 30/09 08:05 ⚽ Atlético Nacional vs Millonarios (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260917_012723_b0cd7a48.png" group-title="Bông Lau" , 30/09 08:05 🟡 ⚽ Atlético Nacional vs Millonarios (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1549719
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132716_11742340.png" group-title="Bông Lau" , 30/09 16:00 ⚽ Timor-Leste vs Cambodia (Chưa có link — chờ cập nhật)
