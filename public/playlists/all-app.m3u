@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:28:51 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:31:25 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (19 trận), Chuối Chiên (19 trận), Phá Làng (37 trận), Gà Vàng (7 trận), Sao Kê (18 trận), GaVang33 (21 trận), Bông Lau (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (19 trận), Chuối Chiên (20 trận), Phá Làng (36 trận), Gà Vàng (7 trận), Sao Kê (18 trận), GaVang33 (22 trận), Bông Lau (20 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Y9sYTnjl-CEPH9Bbd.png" group-title="Giờ Vàng" , 30/09 20:00 🟢 ⚽ Morocco U20 vs Algeria U20 (Giovang 1)
@@ -19,11 +19,8 @@ https://lilive1.eu.cc/live/b52093fc13486f15779112ee58a6cafc/playlist.m3u8|User-A
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/6a361dfa300bb39d857d5e6264788ccf.png" group-title="GaVang33" , 30/09 21:00 🟢 ⚽ Aktobe W vs Ajax Amsterdam Women (Gà Siêu Tốc)
 https://live2.zktsva.app/live/307240.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ce13c4a0131f5e09ada54a4f3eb90e18.png" group-title="Phá Làng" , 30/09 22:30 🟡 ⚽ Al Qadisiya SC - Salisbury City (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#zp5rzgh3y685q82
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/eritrea.png" group-title="Giờ Vàng" , 30/09 23:00 🟡 ⚽ Eritrea vs Nam Phi (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-eritrea-vs-nam-phi-30-09-6a372c0432ce87f525086b9b
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/eritrea.png" group-title="Giờ Vàng" , 30/09 23:00 🟢 ⚽ Eritrea vs Nam Phi (Giovang 1)
+https://pzhgifbkllliv.vcdn.cloud/1790776512_hd/1790776512_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/czech-republic-u21.png" group-title="Giờ Vàng" , 30/09 23:00 🟡 ⚽ U21 Cộng hòa Séc vs U21 Bulgaria (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-u21-cong-hoa-sec-vs-u21-bulgaria-30-09-683e3b421f892a5e5c0902eb
@@ -82,7 +79,7 @@ https://gavang33.me/truc-tiep/lithuania-vs-andorra-luc-2300-ngay-30-09-2026-965m
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_145302_b6e32570.png" group-title="Bông Lau" , 30/09 23:00 🟡 ⚽ Eritrea vs South Africa (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1545847
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a8844b6e338455d83cb2dccf35c6751d.png" group-title="Phá Làng" , 30/09 23:30 ⚽ Sturm Graz/Stattegg Women - VfL Wolfsburg Women (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a8844b6e338455d83cb2dccf35c6751d.png" group-title="Phá Làng" , 30/09 23:30 🟡 ⚽ Sturm Graz/Stattegg Women - VfL Wolfsburg Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#vjxm8gheyogdr6o
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/roma-cf-w.png" group-title="Giờ Vàng" , 30/09 23:45 ⚽ Nữ Roma CF vs Nữ FC Barcelona (Chưa có link — chờ cập nhật)
@@ -470,6 +467,9 @@ https://lau05.bonglautv1.pro/truc-tiep/1641714
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_193521_ec2f00c2.png" group-title="Bông Lau" , 01/10 19:30 ⚽ Malaysia vs Singapore (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1641715
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125825_d5d98786.png" group-title="Chuối Chiên" , 01/10 20:15 ⚽ Dubai United vs Hatta SC (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1636370/dubai-united-vs-hatta-sc
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/102124.png" group-title="Sao Kê" , 01/10 20:15 ⚽ Sharjah Cultural Club vs Al-Dhafra (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/sharjah-cultural-club-vs-al-dhafra-6abcd70d47921e67729eb841.html
 
@@ -478,6 +478,9 @@ https://gavang33.me/truc-tiep/dubai-united-vs-hatta-luc-2015-ngay-01-10-2026-dn1
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/c471de7682d1c900df7981bb2cf6536c.png" group-title="GaVang33" , 01/10 20:15 ⚽ Al-Sharjah vs Al Dhafra FC (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/al-sharjah-vs-al-dhafra-fc-luc-2015-ngay-01-10-2026-4wyrn4h6g3o0q86
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125825_d5d98786.png" group-title="Bông Lau" , 01/10 20:15 ⚽ Dubai United vs Hatta SC (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1636370
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646.jpg" group-title="Khán Đài" , 01/10 21:00 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/uzbekistan-vs-syria-01-10-2026-857053
@@ -490,3 +493,6 @@ https://vip3.saoketv40.xyz/al-gharafa-vs-al-mesaimeer-6abcd70d47921e67729eb842.h
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/fcac1eae493c493061e66608158b40ef.png" group-title="GaVang33" , 01/10 22:00 ⚽ Al-Gharafa Sports Club vs Al Mesaimeer Club (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/al-gharafa-sports-club-vs-al-mesaimeer-club-luc-2200-ngay-01-10-2026-6ypq3nhk64vomd7
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/bfdd500484330d63a723cbc396df762c.png" group-title="GaVang33" , 01/10 22:30 ⚽ VfB Stuttgart vs SpVgg Greuther Fürth (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/vfb-stuttgart-vs-spvgg-greuther-frth-luc-2230-ngay-01-10-2026-pxwrxlhlpe45ryk

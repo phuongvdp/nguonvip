@@ -1,16 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:28:51 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:31:25 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (37 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (36 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/6a361dfa300bb39d857d5e6264788ccf.png" group-title="Phá Làng" , 30/09 21:00 🟢 ⚽ Aktobe W - Ajax Amsterdam Women (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/aktobe-w-vs-ajax-amsterdam-women-ednm9whw1l9zryo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/b52093fc13486f15779112ee58a6cafc/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ce13c4a0131f5e09ada54a4f3eb90e18.png" group-title="Phá Làng" , 30/09 22:30 🟡 ⚽ Al Qadisiya SC - Salisbury City (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#zp5rzgh3y685q82
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/804a96aa15251f0672dea9eb6a354705.png" group-title="Phá Làng" , 30/09 23:00 🟡 ⚽ Valerenga Women - Feyenoord Rotterdam Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#1l4rjnh9vp16m7v
@@ -39,7 +36,7 @@ https://phalang.live/trang-chu#x7lm7phxg7wkm2w
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/020fb287c84ac1eafe3b0fedfc834fba.png" group-title="Phá Làng" , 30/09 23:00 🟡 ⚽ Rosenborg BK Women - Slovan Liberec Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y0or5jh87dl2qwz
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a8844b6e338455d83cb2dccf35c6751d.png" group-title="Phá Làng" , 30/09 23:30 ⚽ Sturm Graz/Stattegg Women - VfL Wolfsburg Women (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a8844b6e338455d83cb2dccf35c6751d.png" group-title="Phá Làng" , 30/09 23:30 🟡 ⚽ Sturm Graz/Stattegg Women - VfL Wolfsburg Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#vjxm8gheyogdr6o
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/09c9433cfa1c306e6b774a272da7f5a9.png" group-title="Phá Làng" , 30/09 23:45 ⚽ AS Roma Women - Barcelona Women (Chưa có link — chờ cập nhật)
