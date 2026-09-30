@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:43:34 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:46:30 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132739_e67768f5.png" group-title="Bông Lau" , 30/09 07:00 🟢 ⚽ USA vs Chile (Chuối Ngao (FHD))
@@ -10,8 +10,14 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260917_012723_b0cd7a48.png" group-title="Bông Lau" , 30/09 08:05 🟡 ⚽ Atlético Nacional vs Millonarios (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1549719
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Bông Lau" , 30/09 13:00 ⚽ U23 Hàn Quốc  vs China PR U23 (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1642010
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132716_11742340.png" group-title="Bông Lau" , 30/09 16:00 ⚽ Timor-Leste vs Cambodia (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1641712
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131446_7bd3d526.png" group-title="Bông Lau" , 30/09 17:30 ⚽ Uzbekistan U23 vs Japan U23 (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1642011
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134317_1bd3a785.png" group-title="Bông Lau" , 30/09 19:00 ⚽ Hong Kong vs Brunei (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1641713
