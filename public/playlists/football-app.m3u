@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:58:24 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:00:39 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (7 trận), Khán Đài (11 trận), Chuối Chiên (17 trận), Phá Làng (38 trận), Gà Vàng (15 trận), Sao Kê (17 trận), GaVang33 (17 trận), Bông Lau (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (7 trận), Khán Đài (11 trận), Chuối Chiên (16 trận), Phá Làng (42 trận), Gà Vàng (15 trận), Sao Kê (17 trận), GaVang33 (17 trận), Bông Lau (16 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/350ec526535f4c9a81f9d9201948d9d5.png" group-title="Gà Vàng" , 30/09 07:00 🟢 ⚽ USA vs Chile (cố tư nghiêm)
@@ -13,17 +13,11 @@ https://playback.livetl002.com/live/69b8e6f43bcf2231c35d5144.m3u8|User-Agent=Moz
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/cd5a7e277e91426d9ad74bd09b946fde.png" group-title="GaVang33" , 30/09 08:00 🟢 ⚽ Mexico vs Peru (Gà Siêu Tồ)
 https://live2.zktsva.app/live/796315.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260930_011303_48ab49d9.png" group-title="Chuối Chiên" , 30/09 08:05 🟢 ⚽ Independiente Medellín vs Millonarios (Chuối Tây (FHD))
-https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/6eef3985d6a6d69a6e5374e27b13b35f.png" group-title="Gà Vàng" , 30/09 08:05 🟢 ⚽ Medellin Independiente vs Millonarios (SiêU QuậY)
 https://playback.livetl002.com/live/6a2a59b347bbddd62a8dc4e4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/2528.png" group-title="Sao Kê" , 30/09 08:05 🟢 ⚽ Independiente Medellín vs Millonarios (Bút Chì (HD))
 https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260930_011303_48ab49d9.png" group-title="Bông Lau" , 30/09 08:05 🟢 ⚽ Independiente Medellín vs Millonarios (Chuối Tây (FHD))
-https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/belize.png" group-title="Giờ Vàng" , 30/09 09:00 🟢 ⚽ Belize vs Saint Vincent & Grenadines (Giovang 1)
 https://eqr2hdarxfliv.vcdn.cloud/1790613050_hd/1790613050_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.city
@@ -31,10 +25,10 @@ https://eqr2hdarxfliv.vcdn.cloud/1790613050_hd/1790613050_hd@720p.m3u8|User-Agen
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/cc43cae8b2c9735749cb067be62f9311.png" group-title="GaVang33" , 30/09 09:00 🟢 ⚽ Belize vs Saint Vincent and the Grenadines (Gà Siêu Kiêu)
 https://live2.zktsva.app/live/741294.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/QqFRYqe5-fmpRzHfB.png" group-title="Giờ Vàng" , 30/09 11:00 ⚽ Papua New Guinea vs Solomon Islands (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/QqFRYqe5-fmpRzHfB.png" group-title="Giờ Vàng" , 30/09 11:00 🟡 ⚽ Papua New Guinea vs Solomon Islands (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-papua-new-guinea-vs-solomon-islands-30-09-ghm81kbht47u
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8d6bb1a0e30092066499b89487620122.png" group-title="Phá Làng" , 30/09 11:00 ⚽ Papua New Guinea - Solomon Islands (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8d6bb1a0e30092066499b89487620122.png" group-title="Phá Làng" , 30/09 11:00 🟡 ⚽ Papua New Guinea - Solomon Islands (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l7oqdehjy2y8r51
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea-u23.png" group-title="Giờ Vàng" , 30/09 13:00 ⚽ U23 Hàn Quốc vs U23 Trung Quốc (Chưa có link — chờ cập nhật)
@@ -367,6 +361,18 @@ https://lau05.bonglautv1.pro/truc-tiep/1637939
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_11034.jpg" group-title="Khán Đài" , 01/10 01:00 ⚽ Durham W vs Manchester Utd W (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/durham-w-vs-manchester-utd-w-01-10-2026-836679
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d3fc648a277b23fc5c5a9e92d0617412.png" group-title="Phá Làng" , 01/10 01:00 ⚽ Leicester City U21 - Real Sociedad B (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#4jwq2ghn849om0v
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3ebfa9ac8a3dd9c8afc21515769e33e4.png" group-title="Phá Làng" , 01/10 01:00 ⚽ Glasgow Rangers Women - Hammarby Women (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#dj2ryohl83ylq1z
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2fdddf6556ad5ede31a908f5cff1babd.png" group-title="Phá Làng" , 01/10 01:00 ⚽ Nottingham Forest U21 - Sporting CP B (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#ednm9whwjk0kryo
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/21baebdf7b2048e19295fdf5dec1ea0d.png" group-title="Phá Làng" , 01/10 01:00 ⚽ Middlesbrough U21 - Juventus U21 (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#ednm9whwjk6nryo
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f59d8d3db21b4054ac9e83a15f7b2609.png" group-title="GaVang33" , 01/10 01:00 ⚽ Birmingham Women vs Liverpool Women (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/birmingham-women-vs-liverpool-women-luc-0100-ngay-01-10-2026-l5ergph49k91r8k
