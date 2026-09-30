@@ -1,14 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:08:34 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:11:32 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (38 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (37 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/804a96aa15251f0672dea9eb6a354705.png" group-title="Phá Làng" , 30/09 23:00 🟢 ⚽ Valerenga Women - Feyenoord Rotterdam Women (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F20226f494e2b9ecfcee25536b5659861%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9ebd79de8504a6573dce8c419ff16b10.png" group-title="Phá Làng" , 30/09 23:00 🟢 ⚽ Eintracht Frankfurt Women - Hafnarfjordur Women (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F50c83b103482e17cfb7674678e26b57d%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/273f58eff475b10f0dbe022b18ada519.png" group-title="Phá Làng" , 30/09 23:00 🟢 ⚽ Lithuania - Andorra (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F2dd9ec500060304a883440038b665e71%2Fplaylist.m3u8&source=phalang
