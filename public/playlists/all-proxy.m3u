@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:50:29 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:53:29 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (20 trận), Chuối Chiên (20 trận), Phá Làng (24 trận), Gà Vàng (5 trận), Sao Kê (20 trận), GaVang33 (15 trận), Bông Lau (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (20 trận), Chuối Chiên (20 trận), Phá Làng (25 trận), Gà Vàng (5 trận), Sao Kê (20 trận), GaVang33 (15 trận), Bông Lau (20 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/KX3sEGash3boj7yGR5OJ9w_96x96.png" group-title="Giờ Vàng" , 01/10 04:00 🟢 ⚽ Houston Astros vs Chicago White Sox (Giovang 1)
@@ -18,6 +18,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/new-york-red-bulls.png" group-title="Giờ Vàng" , 01/10 06:30 🟢 ⚽ New York Red Bulls vs St. Louis City (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790776895_hd%2F1790776895_hd%40720p.m3u8&source=giovang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8b8fe90668461b90ddc20516b0e6796d.png" group-title="Phá Làng" , 01/10 06:40 🟢 ⚽ New York Red Bulls - St. Louis City SC (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fb8365574dee534f85194bc3b4c14708d%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/argentina.png" group-title="Giờ Vàng" , 01/10 07:00 🟢 ⚽ Argentina vs Bolivia (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790778612_hd%2F1790778612_hd%40720p.m3u8&source=giovang
