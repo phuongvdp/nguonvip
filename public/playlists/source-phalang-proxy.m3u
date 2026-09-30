@@ -1,23 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:50:13 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:53:14 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (31 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (27 trận) =====
 
 # ----- Ngày 2026-09-30 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/804a96aa15251f0672dea9eb6a354705.png" group-title="Phá Làng" , 30/09 23:00 🟢 ⚽ Valerenga Women - Feyenoord Rotterdam Women (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F20226f494e2b9ecfcee25536b5659861%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/273f58eff475b10f0dbe022b18ada519.png" group-title="Phá Làng" , 30/09 23:00 🟢 ⚽ Lithuania - Andorra (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F2dd9ec500060304a883440038b665e71%2Fplaylist.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/e225b584abc63b40a47e2846d882907e.png" group-title="Phá Làng" , 30/09 23:00 🟢 ⚽ Eritrea - South Africa (LÝ LINH LỰC)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F646367f3d093d8e2a12871afed94fbf4%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b793550513325d21c86ae312be932752.png" group-title="Phá Làng" , 30/09 23:00 🟢 ⚽ SK Brann Women - HJK Helsinki Women (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F44d46c6efd2147acaeb5dd54d55668fd%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/020fb287c84ac1eafe3b0fedfc834fba.png" group-title="Phá Làng" , 30/09 23:00 🟢 ⚽ Rosenborg BK Women - Slovan Liberec Women (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fb68bf25e1e1a39c5942cce9efdf6a122%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a8844b6e338455d83cb2dccf35c6751d.png" group-title="Phá Làng" , 30/09 23:30 🟢 ⚽ Sturm Graz/Stattegg Women - VfL Wolfsburg Women (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F8e74c50c6fce9f7262f7608968db725b%2Fplaylist.m3u8&source=phalang
