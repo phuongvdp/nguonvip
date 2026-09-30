@@ -1,16 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:57:56 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:00:30 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (47 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (46 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/8f696da0665940d4b34e48edba4d2e3a.png" group-title="Phá Làng" , 30/09 13:00 🟢 ⚽ South Korea U23 - China U23 (LÝ LIỀU LĨNH)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F840192ad5054db5304abe228561d3866%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/81bff08bd846db23755fe4639e3c6839.png" group-title="Phá Làng" , 30/09 14:00 🟡 ⚽ Fiji - New Caledonia (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#dj2ryoh7v4v1q1z
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f5d0b3f174168088f64f65b47af718fa.png" group-title="Phá Làng" , 30/09 15:00 ⚽ Arges - CNS Cetate Deva (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f5d0b3f174168088f64f65b47af718fa.png" group-title="Phá Làng" , 30/09 15:00 🟡 ⚽ Arges - CNS Cetate Deva (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#3glrw7h4kpjdqdy
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/21649c3d173c8f4ec9d526432ad9f088.png" group-title="Phá Làng" , 30/09 16:00 ⚽ East Bengal FC - Minerva Punjab (Chưa có link — chờ cập nhật)

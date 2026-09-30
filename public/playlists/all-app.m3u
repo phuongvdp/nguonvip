@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:57:55 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:00:29 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (7 trận), Khán Đài (11 trận), Chuối Chiên (18 trận), Phá Làng (47 trận), Gà Vàng (17 trận), Sao Kê (16 trận), GaVang33 (15 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (7 trận), Khán Đài (11 trận), Chuối Chiên (18 trận), Phá Làng (46 trận), Gà Vàng (17 trận), Sao Kê (16 trận), GaVang33 (15 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 30/09 11:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -31,19 +31,16 @@ https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8|User-Agent=Mozill
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Bông Lau" , 30/09 13:00 🟢 ⚽ U23 Hàn Quốc  vs China PR U23 (Chuối Chao (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/81bff08bd846db23755fe4639e3c6839.png" group-title="Phá Làng" , 30/09 14:00 🟡 ⚽ Fiji - New Caledonia (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#dj2ryoh7v4v1q1z
-
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/7778a93083d2fa50e4cb4e128f07cf5f.png" group-title="Giờ Vàng" , 30/09 14:30 🟡 🏀 New Zealand Breakers vs Cairns Taipans (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-new-zealand-breakers-vs-cairns-taipans-30-09-25222270
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/n4e20cb4a61519f6a810b6b307ff8b574.png" group-title="Gà Vàng" , 30/09 14:30 🟡 🏀 New Zealand Breakers vs Cairns Taipans (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f5d0b3f174168088f64f65b47af718fa.png" group-title="Phá Làng" , 30/09 15:00 ⚽ Arges - CNS Cetate Deva (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f5d0b3f174168088f64f65b47af718fa.png" group-title="Phá Làng" , 30/09 15:00 🟡 ⚽ Arges - CNS Cetate Deva (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#3glrw7h4kpjdqdy
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/876f6160eafc92115b442945c80fdba7.png" group-title="Gà Vàng" , 30/09 15:00 ⚽ Khovd vs FC Ulaanbaatar (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/876f6160eafc92115b442945c80fdba7.png" group-title="Gà Vàng" , 30/09 15:00 🟡 ⚽ Khovd vs FC Ulaanbaatar (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/khovd-broncos-vs-fc-ulaanbaatar-ngay-30-09-2026/
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/timor-leste.png" group-title="Giờ Vàng" , 30/09 16:00 ⚽ Đông Timor vs Campuchia (Chưa có link — chờ cập nhật)
