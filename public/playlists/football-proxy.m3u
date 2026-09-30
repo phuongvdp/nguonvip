@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:36:18 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:39:15 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (9 trận), Khán Đài (13 trận), Chuối Chiên (15 trận), Phá Làng (34 trận), Gà Vàng (3 trận), Sao Kê (20 trận), GaVang33 (23 trận), Bông Lau (15 trận) =====
 
@@ -13,8 +13,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/czech-republic-u21.png" group-title="Giờ Vàng" , 30/09 23:00 🟢 ⚽ U21 Cộng hòa Séc vs U21 Bulgaria (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790776618_hd%2F1790776618_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9926.jpg" group-title="Khán Đài" , 30/09 23:00 🟢 ⚽ Malta U21 vs Germany U21 (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/malta-u21-vs-germany-u21-01-10-2026-607002
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9926.jpg" group-title="Khán Đài" , 30/09 23:00 🟢 ⚽ Malta U21 vs Germany U21 (Kền Kền)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa6%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3D16059952b038cc8982ab6d1980711dc9&source=khandaitv
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_145302_b6e32570.png" group-title="Chuối Chiên" , 30/09 23:00 🟢 ⚽ Eritrea vs South Africa (Trốc Tru (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Ftroctruhd%2Fplaylist.m3u8&source=chuoichientv
@@ -58,8 +58,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/roma-cf-w.png" group-title="Giờ Vàng" , 30/09 23:45 🟢 ⚽ Nữ Roma CF vs Nữ FC Barcelona (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790776693_hd%2F1790776693_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_331.jpg" group-title="Khán Đài" , 30/09 23:45 🟢 ⚽ AS Roma W vs Barcelona W (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/as-roma-w-vs-barcelona-w-30-09-2026-855182
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_331.jpg" group-title="Khán Đài" , 30/09 23:45 🟢 ⚽ AS Roma W vs Barcelona W (Enzo)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa2%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dd3bfcbaa36f949863f22cc89e1cc1afa&source=khandaitv
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133742_94d1bbd1.png" group-title="Chuối Chiên" , 30/09 23:45 🟢 ⚽ Roma W vs Barcelona W (Chuối Chao (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoichaohd%2Fplaylist.m3u8&source=chuoichientv
