@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:43:48 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:46:46 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (20 trận) =====
 
@@ -10,8 +10,8 @@ https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8|User-Agent=Mozilla
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134317_1bd3a785.png" group-title="Chuối Chiên" , 30/09 19:00 🟢 ⚽ Hong Kong vs Brunei (Chuối Nhỏ (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134341_5916abfa.png" group-title="Chuối Chiên" , 30/09 20:00 🟡 ⚽ Egypt U20 vs Tunisia U20 (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1641757/egypt-u20-vs-tunisia-u20
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134341_5916abfa.png" group-title="Chuối Chiên" , 30/09 20:00 🟢 ⚽ Egypt U20 vs Tunisia U20 (Chuối Lá (FHD))
+https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135754_18d94fc0.png" group-title="Chuối Chiên" , 30/09 20:30 🟡 ⚽ Vsetín vs Bohemians 1905 (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1636732/vsetin-vs-bohemians-1905
