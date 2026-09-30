@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:19:56 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:22:56 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (21 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (20 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131446_7bd3d526.png" group-title="Chuối Chiên" , 30/09 17:30 🟢 ⚽ Uzbekistan U23 vs Japan U23 (Chuối Kem (FHD))
@@ -9,9 +9,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134317_1bd3a785.png" group-title="Chuối Chiên" , 30/09 19:00 🟢 ⚽ Hong Kong vs Brunei (Chuối Nhỏ (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoinhohd%2Fplaylist.m3u8&source=chuoichientv
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134341_5916abfa.png" group-title="Chuối Chiên" , 30/09 20:00 🟢 ⚽ Egypt U20 vs Tunisia U20 (Chuối Lá (FHD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoilahd%2Fplaylist.m3u8&source=chuoichientv
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135754_18d94fc0.png" group-title="Chuối Chiên" , 30/09 20:30 🟢 ⚽ Vsetín vs Bohemians 1905 (Chuối Tây (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitayhd%2Fplaylist.m3u8&source=chuoichientv
