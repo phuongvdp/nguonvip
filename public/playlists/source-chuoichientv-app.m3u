@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:10:47 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:13:03 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (20 trận) =====
 
@@ -9,9 +9,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8|User-Agent=Mozilla
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_145302_b6e32570.png" group-title="Chuối Chiên" , 30/09 23:00 🟡 ⚽ Eritrea vs South Africa (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1545847/eritrea-vs-south-africa
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134326_5797be49.png" group-title="Chuối Chiên" , 30/09 23:00 🟡 ⚽ Malta U21 vs Germany U21 (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1350183/malta-u21-vs-germany-u21
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133742_94d1bbd1.png" group-title="Chuối Chiên" , 30/09 23:45 ⚽ Roma W vs Barcelona W (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1638289/roma-w-vs-barcelona-w
@@ -64,3 +61,6 @@ https://live05.chuoichientv.me/live/992345/japan-vs-qatar
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 01/10 19:30 ⚽ Indonesia vs Bangladesh (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641714/indonesia-vs-bangladesh
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_193521_ec2f00c2.png" group-title="Chuối Chiên" , 01/10 19:30 ⚽ Malaysia vs Singapore (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1641715/malaysia-vs-singapore

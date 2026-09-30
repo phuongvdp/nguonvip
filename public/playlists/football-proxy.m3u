@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:10:47 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:13:03 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (10 trận), Khán Đài (11 trận), Chuối Chiên (15 trận), Phá Làng (35 trận), Gà Vàng (5 trận), Sao Kê (18 trận), GaVang33 (21 trận), Bông Lau (15 trận) =====
 
@@ -39,9 +39,6 @@ https://khandai3.link/truc-tiep/malta-u21-vs-germany-u21-01-10-2026-607002
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_145302_b6e32570.png" group-title="Chuối Chiên" , 30/09 23:00 🟡 ⚽ Eritrea vs South Africa (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1545847/eritrea-vs-south-africa
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134326_5797be49.png" group-title="Chuối Chiên" , 30/09 23:00 🟡 ⚽ Malta U21 vs Germany U21 (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1350183/malta-u21-vs-germany-u21
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/804a96aa15251f0672dea9eb6a354705.png" group-title="Phá Làng" , 30/09 23:00 🟡 ⚽ Valerenga Women - Feyenoord Rotterdam Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#1l4rjnh9vp16m7v
@@ -90,9 +87,6 @@ https://gavang33.me/truc-tiep/lithuania-vs-andorra-luc-2300-ngay-30-09-2026-965m
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_145302_b6e32570.png" group-title="Bông Lau" , 30/09 23:00 🟡 ⚽ Eritrea vs South Africa (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1545847
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134326_5797be49.png" group-title="Bông Lau" , 30/09 23:00 🟡 ⚽ Malta U21 vs Germany U21 (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1350183
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a8844b6e338455d83cb2dccf35c6751d.png" group-title="Phá Làng" , 30/09 23:30 ⚽ Sturm Graz/Stattegg Women - VfL Wolfsburg Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#vjxm8gheyogdr6o
@@ -359,6 +353,9 @@ https://gavang33.me/truc-tiep/maldives-vs-lebanon-luc-1900-ngay-01-10-2026-l5erg
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 01/10 19:30 ⚽ Indonesia vs Bangladesh (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641714/indonesia-vs-bangladesh
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_193521_ec2f00c2.png" group-title="Chuối Chiên" , 01/10 19:30 ⚽ Malaysia vs Singapore (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1641715/malaysia-vs-singapore
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6324.png" group-title="Sao Kê" , 01/10 19:30 ⚽ Indonesia vs Bangladesh (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/indonesia-vs-bangladesh-6abcd70d47921e67729eb850.html
 
@@ -373,6 +370,9 @@ https://gavang33.me/truc-tiep/malaysia-vs-singapore-luc-1930-ngay-01-10-2026-x7l
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Bông Lau" , 01/10 19:30 ⚽ Indonesia vs Bangladesh (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1641714
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_193521_ec2f00c2.png" group-title="Bông Lau" , 01/10 19:30 ⚽ Malaysia vs Singapore (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1641715
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/102124.png" group-title="Sao Kê" , 01/10 20:15 ⚽ Sharjah Cultural Club vs Al-Dhafra (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/sharjah-cultural-club-vs-al-dhafra-6abcd70d47921e67729eb841.html
