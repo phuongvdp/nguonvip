@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:57:10 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:00:11 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (20 trận) =====
 
@@ -7,10 +7,10 @@
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142809_56274e6a.png" group-title="Chuối Chiên" , 30/09 20:30 🟢 ⚽ Morocco U20 vs Algeria U20 (Chuối Tây (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitayhd%2Fplaylist.m3u8&source=chuoichientv
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_145302_b6e32570.png" group-title="Chuối Chiên" , 30/09 23:00 ⚽ Eritrea vs South Africa (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_145302_b6e32570.png" group-title="Chuối Chiên" , 30/09 23:00 🟡 ⚽ Eritrea vs South Africa (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1545847/eritrea-vs-south-africa
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134326_5797be49.png" group-title="Chuối Chiên" , 30/09 23:00 ⚽ Malta U21 vs Germany U21 (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134326_5797be49.png" group-title="Chuối Chiên" , 30/09 23:00 🟡 ⚽ Malta U21 vs Germany U21 (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1350183/malta-u21-vs-germany-u21
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133742_94d1bbd1.png" group-title="Chuối Chiên" , 30/09 23:45 ⚽ Roma W vs Barcelona W (Chưa có link — chờ cập nhật)
