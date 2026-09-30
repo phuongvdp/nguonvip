@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:29:35 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:32:48 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (8 trận), Khán Đài (19 trận), Chuối Chiên (20 trận), Phá Làng (46 trận), Gà Vàng (12 trận), Sao Kê (18 trận), GaVang33 (17 trận), Bông Lau (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (8 trận), Khán Đài (19 trận), Chuối Chiên (20 trận), Phá Làng (46 trận), Gà Vàng (11 trận), Sao Kê (18 trận), GaVang33 (17 trận), Bông Lau (20 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://media-cdn-v2.laodong.vn/storage/newsportal/2026/5/27/1708909/Asiad-20-01.jpeg" group-title="Giờ Vàng" , 30/09 15:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -10,8 +10,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/timor-leste.png" group-title="Giờ Vàng" , 30/09 16:00 🟢 ⚽ Đông Timor vs Campuchia (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790742425_hd%2F1790742425_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_2rRVLbr.jpg" group-title="Khán Đài" , 30/09 16:00 🟢 ⚽ Timor-Leste vs Cambodia (Pháo Thủ)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa4%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dfaaa23580764370ed378ecd708c9f262&source=khandaitv
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_2rRVLbr.jpg" group-title="Khán Đài" , 30/09 16:00 🟢 ⚽ Timor-Leste vs Cambodia (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/timor-leste-vs-cambodia-30-09-2026-859869
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132716_11742340.png" group-title="Chuối Chiên" , 30/09 16:00 🟢 ⚽ Timor-Leste vs Cambodia (Chuối Sấy (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoisayhd%2Fplaylist.m3u8&source=chuoichientv
@@ -37,8 +37,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/uzbekistan-u23.png" group-title="Giờ Vàng" , 30/09 17:30 🟢 ⚽ U23 Uzbekistan vs U23 Nhật Bản (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790651690_hd%2F1790651690_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646.png" group-title="Khán Đài" , 30/09 17:30 🟢 ⚽ Uzbekistan U23 vs Japan U23 (Lee Sin)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa10%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646.png" group-title="Khán Đài" , 30/09 17:30 🟢 ⚽ Uzbekistan U23 vs Japan U23 (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/uzbekistan-u23-vs-japan-u23-30-09-2026-859313
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131446_7bd3d526.png" group-title="Chuối Chiên" , 30/09 17:30 🟢 ⚽ Uzbekistan U23 vs Japan U23 (Chuối Kem (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikemhd%2Fplaylist.m3u8&source=chuoichientv
@@ -51,9 +51,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131446_7bd3d526.png" group-title="Bông Lau" , 30/09 17:30 🟢 ⚽ Uzbekistan U23 vs Japan U23 (Chuối Kem (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikemhd%2Fplaylist.m3u8&source=bonglau
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/4e7245e77764a6d4d68a69bd2f4c2035.png" group-title="Gà Vàng" , 30/09 17:30 🟡 ⚽ Uzbekistan U23 vs Japan U23 (Chưa có link — chờ cập nhật)
-https://gavanglinkr.tv/truc-tiep/uzbekistan-u23-vs-japan-u23-ngay-30-09-2026/
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/4WdeaLYg-Mc0Ip3ar.png" group-title="Giờ Vàng" , 30/09 18:00 🟡 🎾 Nuno Borges vs Novak Djokovic (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-nuno-borges-vs-novak-djokovic-30-09-e9n1zwc4h871
