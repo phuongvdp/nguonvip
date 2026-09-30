@@ -1,9 +1,19 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:37:50 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:40:24 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (17 trận) =====
 
 # ----- Ngày 2026-09-30 -----
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/869f9d5a3552f86ffbe7eed9c0e09d79.png" group-title="Gà Vàng" , 30/09 12:00 🟢 ⚽ Ulaangom City vs Hunters FC (Lữ Bố.vip)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a9776215126529dede9bf51.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/6581bc34692022be4c21d98778e33df0.png" group-title="Gà Vàng" , 30/09 13:00 🟢 ⚽ Korea U23 vs China U23 (SAITAMA)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8
+
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/n4e20cb4a61519f6a810b6b307ff8b574.png" group-title="Gà Vàng" , 30/09 14:30 🟡 🏀 New Zealand Breakers vs Cairns Taipans (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
