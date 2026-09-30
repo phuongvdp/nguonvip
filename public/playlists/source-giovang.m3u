@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 04:30:53 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 04:33:02 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận) =====
 
@@ -9,14 +9,20 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pzhgifbkllliv.vcdn.cloud/1790777021_hd/1790777021_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/ddSOdgcM-vDimPjdq.png" group-title="Giờ Vàng" , 01/10 05:30 🟡 ⚽ Tomayapo vs Nacional Potosi (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-tomayapo-vs-nacional-potosi-01-10-1q6763p5n9r0
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/ddSOdgcM-vDimPjdq.png" group-title="Giờ Vàng" , 01/10 05:30 🟢 ⚽ Tomayapo vs Nacional Potosi (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://pzhgifbkllliv.vcdn.cloud/1790776875_hd/1790776875_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/e4fdbc941d11c2927bafb5b8978e8ea6.png" group-title="Giờ Vàng" , 01/10 06:00 🏀 Washington Mystics vs Atlanta Dream (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-washington-mystics-vs-atlanta-dream-01-10-11201475
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/e4fdbc941d11c2927bafb5b8978e8ea6.png" group-title="Giờ Vàng" , 01/10 06:00 🟢 🏀 Washington Mystics vs Atlanta Dream (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://pzhgifbkllliv.vcdn.cloud/1790776951_hd/1790776951_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/new-york-red-bulls.png" group-title="Giờ Vàng" , 01/10 06:30 ⚽ New York Red Bulls vs St. Louis City (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-new-york-red-bulls-vs-st-louis-city-01-10-6aadd0bf24d46db870f2873b
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/new-york-red-bulls.png" group-title="Giờ Vàng" , 01/10 06:30 🟢 ⚽ New York Red Bulls vs St. Louis City (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://pzhgifbkllliv.vcdn.cloud/1790776895_hd/1790776895_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/argentina.png" group-title="Giờ Vàng" , 01/10 07:00 ⚽ Argentina vs Bolivia (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-argentina-vs-bolivia-01-10-6ab85d73802222c82d0bc756
@@ -27,11 +33,11 @@ https://giovang.city/truc-tiep-new-york-yankees-vs-boston-red-sox-01-10-k5euxvdl
 #EXTINF:-1 tvg-logo="https://media-cdn-v2.laodong.vn/storage/newsportal/2026/5/27/1708909/Asiad-20-01.jpeg" group-title="Giờ Vàng" , 01/10 07:00 ⚽ ASIAD 2026 vs ASIAD 2026 (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-asiad-2026-vs-asiad-2026-01-10-s0u7uylogqjh
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/17dcd412f5ecfaa1bc4b85e6e39bc0c4.png" group-title="Giờ Vàng" , 01/10 08:00 🏀 Dallas Wings vs Golden State Valkyries (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-dallas-wings-vs-golden-state-valkyries-01-10-29101472
-
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/atletico-nacional-medellin.png" group-title="Giờ Vàng" , 01/10 08:00 ⚽ Atletico Nacional vs Atletico Junior Barranquilla (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-atletico-nacional-vs-atletico-junior-barranquilla-01-10-6a6a941a24d46db870ee563c
+
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/17dcd412f5ecfaa1bc4b85e6e39bc0c4.png" group-title="Giờ Vàng" , 01/10 08:00 🏀 Dallas Wings vs Golden State Valkyries (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-dallas-wings-vs-golden-state-valkyries-01-10-29101472
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/nqz3kJDa-YB0DoGZt.png" group-title="Giờ Vàng" , 01/10 08:00 🏐 Ấn Độ vs Pakistan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-an-do-vs-pakistan-01-10-t0icwepfho50
