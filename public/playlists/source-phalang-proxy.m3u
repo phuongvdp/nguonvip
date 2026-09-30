@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:34:17 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:37:19 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (19 trận) =====
 
 # ----- Ngày 2026-09-30 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/09c9433cfa1c306e6b774a272da7f5a9.png" group-title="Phá Làng" , 30/09 23:45 🟢 ⚽ AS Roma Women - Barcelona Women (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fa97a8c6726ccf59f6174f33fec2174ca%2Fplaylist.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fabc3fa7f297e32d91291693eb8c1404.png" group-title="Phá Làng" , 30/09 23:45 🟢 ⚽ Paris FC Women - Arsenal Women (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F6a697b1c3119c0132dbc5ab1b6d54e7e%2Fplaylist.m3u8&source=phalang
 
