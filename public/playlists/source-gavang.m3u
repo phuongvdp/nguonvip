@@ -1,9 +1,19 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:32:14 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:34:49 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (16 trận) =====
 
 # ----- Ngày 2026-09-30 -----
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/869f9d5a3552f86ffbe7eed9c0e09d79.png" group-title="Gà Vàng" , 30/09 12:00 🟢 ⚽ Ulaangom City vs Hunters FC (Lữ Bố.vip)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a9776215126529dede9bf51.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/6581bc34692022be4c21d98778e33df0.png" group-title="Gà Vàng" , 30/09 13:00 🟢 ⚽ Korea U23 vs China U23 (SAITAMA)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8
+
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/n4e20cb4a61519f6a810b6b307ff8b574.png" group-title="Gà Vàng" , 30/09 14:30 🟡 🏀 New Zealand Breakers vs Cairns Taipans (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
@@ -16,14 +26,11 @@ https://gavanglinkr.tv/truc-tiep/timor-leste-vs-cambodia-ngay-30-09-2026/
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/6581bc34692022be4c21d98778e33df0.png" group-title="Gà Vàng" , 30/09 16:00 ⚽ Korea Republic U18 vs England U18 (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/korea-republic-u18-vs-england-u18-ngay-30-09-2026/
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/4e7245e77764a6d4d68a69bd2f4c2035.png" group-title="Gà Vàng" , 30/09 17:30 ⚽ Uzbekistan U23 vs Japan U23 (Chưa có link — chờ cập nhật)
-https://gavanglinkr.tv/truc-tiep/uzbekistan-u23-vs-japan-u23-ngay-30-09-2026/
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9d4caac656f50e75750c905733ce6114.png" group-title="Gà Vàng" , 30/09 19:00 ⚽ BFF Academy U19 vs Thimphu Raven FC (Chưa có link — chờ cập nhật)
+https://gavanglinkr.tv/truc-tiep/bff-academy-u19-vs-thimphu-raven-fc-ngay-30-09-2026/
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/df321578b4f5f132345d2e6b39743126.png" group-title="Gà Vàng" , 30/09 19:00 ⚽ Hong Kong vs Brunei Darussalam (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/hong-kong-vs-brunei-darussalam-ngay-30-09-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9d4caac656f50e75750c905733ce6114.png" group-title="Gà Vàng" , 30/09 19:00 ⚽ BFF Academy U19 vs Thimphu Raven FC (Chưa có link — chờ cập nhật)
-https://gavanglinkr.tv/truc-tiep/bff-academy-u19-vs-thimphu-raven-fc-ngay-30-09-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5501524558978b8de8ee205103056894.png" group-title="Gà Vàng" , 30/09 20:30 ⚽ FC Vsetin vs Bohemians Prague 1905 (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/fc-vsetin-vs-bohemians-praha-1905-ngay-30-09-2026/
