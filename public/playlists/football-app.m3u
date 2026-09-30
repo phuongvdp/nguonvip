@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:59:40 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 09:02:35 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (7 trận), Khán Đài (11 trận), Chuối Chiên (18 trận), Phá Làng (34 trận), Gà Vàng (15 trận), Sao Kê (17 trận), GaVang33 (18 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (6 trận), Khán Đài (11 trận), Chuối Chiên (18 trận), Phá Làng (38 trận), Gà Vàng (15 trận), Sao Kê (17 trận), GaVang33 (18 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132739_e67768f5.png" group-title="Chuối Chiên" , 30/09 07:00 🟢 ⚽ USA vs Chile (Chuối Ngao (FHD))
@@ -42,9 +42,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8|User-Agent=Mozilla
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/cc43cae8b2c9735749cb067be62f9311.png" group-title="GaVang33" , 30/09 09:00 🟢 ⚽ Belize vs Saint Vincent and the Grenadines (Gà Siêu Kiêu)
 https://live2.zktsva.app/live/741294.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/belize.png" group-title="Giờ Vàng" , 30/09 09:00 🟡 ⚽ Belize vs Saint Vincent & Grenadines (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-belize-vs-saint-vincent-grenadines-30-09-6aadd0cc45163e9e3e085d1c
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/QqFRYqe5-fmpRzHfB.png" group-title="Giờ Vàng" , 30/09 11:00 ⚽ Papua New Guinea vs Solomon Islands (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-papua-new-guinea-vs-solomon-islands-30-09-ghm81kbht47u
@@ -332,6 +329,18 @@ https://lau05.bonglautv1.pro/truc-tiep/1638289
 https://lau05.bonglautv1.pro/truc-tiep/1638326
 
 # ----- Ngày 2026-10-01 -----
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6dfc28d0f38d12ff657e16fb02e040f7.png" group-title="Phá Làng" , 01/10 00:00 ⚽ Real Sociedad Women - Hearts Women (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#23xmvkh67z37qg8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9b23f8dd684dfb9adf1ba648d7b72615.png" group-title="Phá Làng" , 01/10 00:00 ⚽ Czarni Sosnowiec Women - Breidablik Women (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#318q66hxld07qo9
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/37f00618bcf4e9fec809dc09d3d08b7c.png" group-title="Phá Làng" , 01/10 00:00 ⚽ Fenerbahce SK Women - FK Minsk Women (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#4wyrn4h6g1e2q86
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/da73b87e6e89134b5a0484f5f7ba7412.png" group-title="Phá Làng" , 01/10 00:00 ⚽ Malmo Women - St. Polten Women (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#8yomo4h1njk8q0j
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_643.jpg" group-title="Khán Đài" , 01/10 00:30 ⚽ Bahrain vs Yemen (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/bahrain-vs-yemen-01-10-2026-857566
 
