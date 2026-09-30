@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:51:22 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:54:26 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (36 trận) =====
 
@@ -65,8 +65,10 @@ https://phalang.live/trang-chu#8yomo4h1njk8q0j
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e75f8b4e1baab3060dbe5ba983a3b49c.png" group-title="Phá Làng" , 01/10 00:00 🟡 ⚽ Konyaspor - Palestine (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#n54qllh45772qvy
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/13f085e7de8626efb90ee339e675085d.png" group-title="Phá Làng" , 01/10 00:30 🟡 ⚽ United Arab Emirates - Qatar (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#4wyrn4h6jlj6q86
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/13f085e7de8626efb90ee339e675085d.png" group-title="Phá Làng" , 01/10 00:30 🟢 ⚽ United Arab Emirates - Qatar (LÝ LÊN LỬA)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/united-arab-emirates-vs-qatar-4wyrn4h6jlj6q86
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/b8dca58009cefbf29ed99cb84c2abb80/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/26bdd013ee743c1725d7b6b4daa1a4ac.png" group-title="Phá Làng" , 01/10 00:30 🟡 ⚽ Bahrain - Yemen (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l5ergph4z8zkr8k
