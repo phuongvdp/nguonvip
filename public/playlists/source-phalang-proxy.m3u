@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:43:10 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:45:44 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (16 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/13f085e7de8626efb90ee339e675085d.png" group-title="Phá Làng" , 01/10 00:30 🟢 ⚽ United Arab Emirates - Qatar (LÝ LÊN LỬA)
@@ -9,9 +9,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/26bdd013ee743c1725d7b6b4daa1a4ac.png" group-title="Phá Làng" , 01/10 00:30 🟢 ⚽ Bahrain - Yemen (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fbfe8c2e31ad19ae60964efb7858d24fd%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e8e547e5a0904d879352c0788395d24f.png" group-title="Phá Làng" , 01/10 01:45 🟡 ⚽ Sporting CP Women - Brondby IF Women (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#vjxm8gheyo4dr6o
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/1ca337d59ae767236a104131b29ddcab.png" group-title="Phá Làng" , 01/10 02:00 🟢 ⚽ OL Lyonnes Women - Chelsea FC Women (LÝ LIỀU LĨNH)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fdd83a366c63462e7e6305747fa30ffad%2Fplaylist.m3u8&source=phalang

@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:43:10 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:45:44 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (24 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/584402.png" group-title="Sao Kê" , 30/09 23:45 🟢 ⚽ Roma (W) vs Barcelona (W) (Teppy (HD))
@@ -14,11 +14,11 @@ https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8|User-Agent=Mozill
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5789.png" group-title="Sao Kê" , 01/10 00:30 🟢 ⚽ UAE vs Qatar (Mơ (HD))
 https://wtyi0525.edgemaxcdn.org/live/x68-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/394119.png" group-title="Sao Kê" , 01/10 02:00 🟡 ⚽ OL Lyonnes (W) vs Chelsea (W) (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/ol-lyonnes-w-vs-chelsea-w-6abb8e323eba0388fc1f3654.html
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/394119.png" group-title="Sao Kê" , 01/10 02:00 🟢 ⚽ OL Lyonnes (W) vs Chelsea (W) (Tít (HD))
+https://wtyi0525.edgemaxcdn.org/live/x2-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1198668.png" group-title="Sao Kê" , 01/10 02:00 🟡 ⚽ Benfica (W) vs Bayern München (W) (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/benfica-w-vs-bayern-munchen-w-6abb8e323eba0388fc1f3655.html
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1198668.png" group-title="Sao Kê" , 01/10 02:00 🟢 ⚽ Benfica (W) vs Bayern München (W) (Ricky (HD))
+https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6514.png" group-title="Sao Kê" , 01/10 06:30 ⚽ Red Bull New York vs St. Louis City (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/red-bull-new-york-vs-st-louis-city-6abc5d21ad19d495b2f4dccb.html
@@ -61,3 +61,19 @@ https://vip3.saoketv40.xyz/austria-wien-w-w-vs-inter-w-6abcd70d47921e67729eb84e.
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1170164.png" group-title="Sao Kê" , 01/10 23:45 ⚽ HB Køge (W) vs Servette (W) (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/hb-k-ge-w-vs-servette-w-6abcd70d47921e67729eb84f.html
+
+# ----- Ngày 2026-10-02 -----
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5791.png" group-title="Sao Kê" , 02/10 01:45 ⚽ Ireland vs Austria (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/ireland-vs-austria-6abcd70d47921e67729eb844.html
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8570.png" group-title="Sao Kê" , 02/10 01:45 ⚽ Germany vs Serbia (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/germany-vs-serbia-6abcd70d47921e67729eb845.html
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6383.png" group-title="Sao Kê" , 02/10 01:45 ⚽ Greece vs Netherlands (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/greece-vs-netherlands-6abcd70d47921e67729eb846.html
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8238.png" group-title="Sao Kê" , 02/10 01:45 ⚽ Denmark vs Portugal (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/denmark-vs-portugal-6abcd70d47921e67729eb847.html
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5790.png" group-title="Sao Kê" , 02/10 01:45 ⚽ Wales vs Norway (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/wales-vs-norway-6abcd70d47921e67729eb848.html
