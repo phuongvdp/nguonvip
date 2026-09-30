@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:29:13 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:32:16 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (11 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (10 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/4e7245e77764a6d4d68a69bd2f4c2035.png" group-title="Gà Vàng" , 30/09 17:30 🟢 ⚽ Uzbekistan U23 vs Japan U23 (GIàng A Dân)
@@ -12,9 +12,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9d4caac656f50e75750c905733ce6114.png" group-title="Gà Vàng" , 30/09 19:00 🟢 ⚽ BFF Academy U19 vs Thimphu Raven FC (SÚP LƠ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a9a5525864ea536c2577392.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5501524558978b8de8ee205103056894.png" group-title="Gà Vàng" , 30/09 20:30 🟡 ⚽ FC Vsetin vs Bohemians Prague 1905 (Chưa có link — chờ cập nhật)
-https://gavanglinkr.tv/truc-tiep/fc-vsetin-vs-bohemians-praha-1905-ngay-30-09-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/a7afa97e4f00dcf37fe8f8f58cf34fd9.png" group-title="Gà Vàng" , 30/09 21:45 🏀 Kuwait SC vs Indian Railways (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
