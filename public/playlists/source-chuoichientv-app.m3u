@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:32:16 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:35:13 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (20 trận) =====
 
@@ -7,11 +7,8 @@
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134317_1bd3a785.png" group-title="Chuối Chiên" , 30/09 19:00 🟢 ⚽ Hong Kong vs Brunei (Chuối Nhỏ (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135754_18d94fc0.png" group-title="Chuối Chiên" , 30/09 20:30 🟢 ⚽ Vsetín vs Bohemians 1905 (Chuối Tây (FHD))
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142809_56274e6a.png" group-title="Chuối Chiên" , 30/09 20:30 🟢 ⚽ Morocco U20 vs Algeria U20 (Chuối Tây (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142809_56274e6a.png" group-title="Chuối Chiên" , 30/09 20:30 🟢 ⚽ Morocco U20 vs Algeria U20 (Chuối Lá (FHD))
-https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133224_83d53161.png" group-title="Chuối Chiên" , 30/09 22:00 ⚽ Enyimba vs Shooting Stars (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1628482/enyimba-vs-shooting-stars
@@ -64,3 +61,6 @@ https://live05.chuoichientv.me/live/997748/philippines-vs-indonesia
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Chuối Chiên" , 01/10 17:10 ⚽ Japan vs Ecuador (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/997246/japan-vs-ecuador
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Chuối Chiên" , 01/10 17:20 🏐 Japan vs Qatar (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/992345/japan-vs-qatar

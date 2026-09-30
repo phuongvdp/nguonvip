@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:32:16 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:35:13 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (18 trận) =====
 
@@ -7,7 +7,7 @@
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/178671.png" group-title="Sao Kê" , 30/09 19:00 🟢 ⚽ Brunei vs Hong Kong (Ricky (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx83-hd-1111%2Fplaylist.m3u8&source=saoke
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1528345.png" group-title="Sao Kê" , 30/09 20:30 🟢 ⚽ Vsetín vs Bohemians 1905 (Mơ (HD))
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/WteXveAN-CEPH9Bbd.png" group-title="Sao Kê" , 30/09 20:30 🟢 ⚽ Morocco U20 vs Algeria U20 (Mơ (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx68-hd-1111%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6623.png" group-title="Sao Kê" , 30/09 22:00 ⚽ Enyimba vs Shooting Stars (Chưa có link — chờ cập nhật)
