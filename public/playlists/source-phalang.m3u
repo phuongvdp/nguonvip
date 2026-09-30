@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:57:03 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 02:00:05 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (17 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/13f085e7de8626efb90ee339e675085d.png" group-title="Phá Làng" , 01/10 00:30 🟢 ⚽ United Arab Emirates - Qatar (LÝ LÊN LỬA)
@@ -14,16 +14,15 @@ https://lilive1.eu.cc/live/b8dca58009cefbf29ed99cb84c2abb80/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/bfe8c2e31ad19ae60964efb7858d24fd/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/20323c2d83190ea6fcde6b23e9e2ff0e.png" group-title="Phá Làng" , 01/10 02:00 🟢 ⚽ SL Benfica Women	 - Bayern Munchen Women (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/sl-benfica-women-vs-bayern-munchen-women-k82rekh2z9k5rep
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/1cec34b029ed6203b9fabb2d987b166d/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/1ca337d59ae767236a104131b29ddcab.png" group-title="Phá Làng" , 01/10 02:00 🟢 ⚽ OL Lyonnes Women - Chelsea FC Women (LÝ LIỀU LĨNH)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/ol-lyonnes-women-vs-chelsea-fc-women-y39mp1hdv5l2moj
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/dd83a366c63462e7e6305747fa30ffad/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/20323c2d83190ea6fcde6b23e9e2ff0e.png" group-title="Phá Làng" , 01/10 02:00 🟡 ⚽ SL Benfica Women	 - Bayern Munchen Women (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#k82rekh2z9k5rep
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/4fb80cb15f03d01029701b98095d27b6.png" group-title="Phá Làng" , 01/10 02:00 🟡 ⚽ SCU Torreense Women - Metalist 1925 Women (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#y39mp1h67851moj
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/dfe342160722829caca1e9f53f26216e.png" group-title="Phá Làng" , 01/10 04:00 ⚽ AFF Guatemala - Fraijanes FC (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6ypq3nhk63wemd7
@@ -57,3 +56,9 @@ https://phalang.live/trang-chu#802f226df9294105b790f15778b78334
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 01/10 14:00 🏐 Việt Nam - Uzbekistan (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#96ab9288e9da424a93ae821e4f34d3e9
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/016486307fcd47800a3b166cb5523f07.png" group-title="Phá Làng" , 01/10 17:00 ⚽ NK Olimpija Ljubljana - Slaven Belupo (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#318q66h8zwkzqo9
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/0553251f78c17a5cd8a102fd354e9316.png!w80" group-title="Phá Làng" , 01/10 17:00 🏐 Philippines - Indonesia (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#6945a41fa47a4df39d3f2186977efdec
