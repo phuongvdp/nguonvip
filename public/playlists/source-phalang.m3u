@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:27:39 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:30:26 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (31 trận) =====
 
@@ -55,8 +55,10 @@ https://lilive1.eu.cc/live/289cdeb77066ae9fe0ca3d172349ab5b/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/b8dca58009cefbf29ed99cb84c2abb80/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/26bdd013ee743c1725d7b6b4daa1a4ac.png" group-title="Phá Làng" , 01/10 00:30 🟡 ⚽ Bahrain - Yemen (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#l5ergph4z8zkr8k
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/26bdd013ee743c1725d7b6b4daa1a4ac.png" group-title="Phá Làng" , 01/10 00:30 🟢 ⚽ Bahrain - Yemen (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/bahrain-vs-yemen-l5ergph4z8zkr8k
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/bfe8c2e31ad19ae60964efb7858d24fd/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d3fc648a277b23fc5c5a9e92d0617412.png" group-title="Phá Làng" , 01/10 01:00 🟡 ⚽ Leicester City U21 - Real Sociedad B (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4jwq2ghn849om0v
