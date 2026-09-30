@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:41:36 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:44:08 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (7 trận), Khán Đài (12 trận), Chuối Chiên (15 trận), Phá Làng (18 trận), Gà Vàng (4 trận), Sao Kê (20 trận), GaVang33 (15 trận), Bông Lau (15 trận) =====
 
@@ -16,14 +16,14 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/argentina.png" group-title="Giờ Vàng" , 01/10 07:00 🟢 ⚽ Argentina vs Bolivia (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790778612_hd%2F1790778612_hd%40720p.m3u8&source=giovang
 
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/fddae9f15b989a7ae34fa59c7cafc9ea.png" group-title="Phá Làng" , 01/10 07:00 🟢 ⚽ Argentina - Bolivia (LÝ LONG)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F266ff1220e1c51ba3dcb04805dcaf46c%2Fplaylist.m3u8&source=phalang
+
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/ef7329946e1741b9ade4fedbf739158a.png" group-title="GaVang33" , 01/10 07:00 🟢 ⚽ Argentina vs Bolivia (Gà Siêu Quỷ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F304565.m3u8&source=gavang33
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132808_60e400eb.png" group-title="Chuối Chiên" , 01/10 07:00 🟡 ⚽ Argentina vs Bolivia (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1640511/argentina-vs-bolivia
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/fddae9f15b989a7ae34fa59c7cafc9ea.png" group-title="Phá Làng" , 01/10 07:00 🟡 ⚽ Argentina - Bolivia (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#y39mp1hdvw3ymoj
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ef7329946e1741b9ade4fedbf739158a.png" group-title="Gà Vàng" , 01/10 07:00 🟡 ⚽ Argentina vs Bolivia (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/argentina-vs-bolivia-ngay-01-10-2026/
