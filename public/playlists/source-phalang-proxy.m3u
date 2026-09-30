@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:04:40 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:07:14 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (22 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (21 trận) =====
 
 # ----- Ngày 2026-09-30 -----
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/e225b584abc63b40a47e2846d882907e.png" group-title="Phá Làng" , 30/09 23:00 🟢 ⚽ Eritrea - South Africa (LÝ LINH LỰC)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F646367f3d093d8e2a12871afed94fbf4%2Fplaylist.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a8844b6e338455d83cb2dccf35c6751d.png" group-title="Phá Làng" , 30/09 23:30 🟢 ⚽ Sturm Graz/Stattegg Women - VfL Wolfsburg Women (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F8e74c50c6fce9f7262f7608968db725b%2Fplaylist.m3u8&source=phalang
 

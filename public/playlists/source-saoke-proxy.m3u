@@ -1,9 +1,19 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:04:40 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:07:14 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (19 trận) =====
+
+# ----- Ngày 2026-09-30 -----
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/584402.png" group-title="Sao Kê" , 30/09 23:45 🟢 ⚽ Roma (W) vs Barcelona (W) (Teppy (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx31-hd-1111%2Fplaylist.m3u8&source=saoke
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/862893.png" group-title="Sao Kê" , 30/09 23:45 🟢 ⚽ Paris FC (W) vs Arsenal (W) (Kai (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx00-hd-1111%2Fplaylist.m3u8&source=saoke
 
 # ----- Ngày 2026-10-01 -----
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5789.png" group-title="Sao Kê" , 01/10 00:30 🟢 ⚽ UAE vs Qatar (Mơ (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx68-hd-1111%2Fplaylist.m3u8&source=saoke
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/394119.png" group-title="Sao Kê" , 01/10 02:00 🟡 ⚽ OL Lyonnes (W) vs Chelsea (W) (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/ol-lyonnes-w-vs-chelsea-w-6abb8e323eba0388fc1f3654.html
 
