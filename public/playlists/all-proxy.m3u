@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:23:30 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:26:04 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (20 trận), Chuối Chiên (19 trận), Phá Làng (20 trận), Gà Vàng (16 trận), Sao Kê (19 trận), GaVang33 (22 trận), Bông Lau (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (20 trận), Chuối Chiên (20 trận), Phá Làng (20 trận), Gà Vàng (16 trận), Sao Kê (19 trận), GaVang33 (22 trận), Bông Lau (20 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f7eb745a5f9b3016b083019da91b5f74.png" group-title="Gà Vàng" , 30/09 23:00 🟢 ⚽ Malta U21 vs Germany U21 (SÚP LƠ)
@@ -446,6 +446,9 @@ https://khandai3.link/truc-tiep/guinea-vs-kenya-01-10-2026-786883
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_678.jpg" group-title="Khán Đài" , 01/10 23:00 ⚽ Azerbaijan vs Liechtenstein (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/azerbaijan-vs-liechtenstein-01-10-2026-790816
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134255_4cc808b5.png" group-title="Chuối Chiên" , 01/10 23:00 ⚽ Azerbaijan vs Liechtenstein (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1528916/azerbaijan-vs-liechtenstein
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8566.png" group-title="Sao Kê" , 01/10 23:00 ⚽ Azerbaijan vs Liechtenstein (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/azerbaijan-vs-liechtenstein-6abcd70d47921e67729eb849.html
 
@@ -457,6 +460,9 @@ https://gavang33.me/truc-tiep/azerbaijan-vs-liechtenstein-luc-2300-ngay-01-10-20
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/9ff0bbc7c4dde77be85a27a1c5ba6d6c.png" group-title="GaVang33" , 01/10 23:00 ⚽ Guinea vs Kenya (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/guinea-vs-kenya-luc-2300-ngay-01-10-2026-y0or5jh87pg5qwz
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134255_4cc808b5.png" group-title="Bông Lau" , 01/10 23:00 ⚽ Azerbaijan vs Liechtenstein (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1528916
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5844.png" group-title="Sao Kê" , 01/10 23:30 ⚽ Armenia U21 vs Italy U21 (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/armenia-u21-vs-italy-u21-6abcd70d47921e67729eb843.html
