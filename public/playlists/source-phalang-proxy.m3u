@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:25:58 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:29:13 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (44 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (43 trận) =====
 
 # ----- Ngày 2026-09-30 -----
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/d305479c8008cb42a1bd5dff4af18891.png" group-title="Phá Làng" , 30/09 17:30 🟢 ⚽ Uzbekistan U23 - Japan U23 (LÝ LA LÀNG)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fe48b1be4be6d1cf7eabdbcb9a0bf0828%2Fplaylist.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/a3fc9e9d832501a64149b783cfaa3471.png" group-title="Phá Làng" , 30/09 19:00 🟢 ⚽ Hong Kong - Brunei Darussalam (LÝ LONG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F921b6de9fe03afc6e2e4b6e03a2bb70d%2Fplaylist.m3u8&source=phalang
 
