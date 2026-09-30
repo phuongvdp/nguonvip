@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:04:03 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:06:59 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (10 trận), Khán Đài (11 trận), Chuối Chiên (19 trận), Phá Làng (30 trận), Gà Vàng (3 trận), Sao Kê (17 trận), GaVang33 (18 trận), Bông Lau (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (9 trận), Khán Đài (11 trận), Chuối Chiên (19 trận), Phá Làng (30 trận), Gà Vàng (2 trận), Sao Kê (17 trận), GaVang33 (18 trận), Bông Lau (19 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a632c7cdcfb1f9898d77898dd4ea00c8.png" group-title="Gà Vàng" , 30/09 05:30 🟢 ⚽ Botafogo SP vs Ponte Preta (SiêU QuậY)
@@ -28,11 +28,6 @@ https://live2.zktsva.app/live/301238.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoingaohd/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/7a41b2cf98e8350722b096134858af8e.png" group-title="Giờ Vàng" , 30/09 07:30 🟢 🏀 New York Liberty vs Minnesota Lynx (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.city
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://eqr2hdarxfliv.vcdn.cloud/1790646212_hd/1790646212_hd@720p.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e399c54b84794822f6e5e3c02c7f3b6e.png" group-title="Phá Làng" , 30/09 08:00 🟢 ⚽ Mexico - Peru (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/mexico-vs-peru-jw2r09h54940rz8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -56,9 +51,6 @@ https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/6eef3985d6a6d69a6e5374e27b13b35f.png" group-title="Gà Vàng" , 30/09 08:05 🟡 ⚽ Medellin Independiente vs Millonarios (Chưa có link — chờ cập nhật)
-https://gavanglinkr.tv/truc-tiep/dep-independiente-medellin-vs-millonarios-ngay-30-09-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/7b4dbc4648cc965d74edfb9e95cdbd23.png" group-title="Gà Vàng" , 30/09 08:30 🟡 🏀 Paisas vs Caribbean Storm Islands (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
