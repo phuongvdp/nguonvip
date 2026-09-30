@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:15:32 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:18:28 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (20 trận) =====
 
@@ -14,8 +14,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoilahd%2Fplaylist.m3u8&source=chuoichientv
 
 # ----- Ngày 2026-10-01 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133415_27f7a7df.png" group-title="Chuối Chiên" , 01/10 00:30 🟡 ⚽ United Arab Emirates vs Qatar (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1637938/united-arab-emirates-vs-qatar
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133415_27f7a7df.png" group-title="Chuối Chiên" , 01/10 00:30 🟢 ⚽ United Arab Emirates vs Qatar (Chuối Nhỏ (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoinhohd%2Fplaylist.m3u8&source=chuoichientv
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132645_dead805a.png" group-title="Chuối Chiên" , 01/10 02:00 ⚽ Lyon W vs Chelsea W (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1638322/lyon-w-vs-chelsea-w
