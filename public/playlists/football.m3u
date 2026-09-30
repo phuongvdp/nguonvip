@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:36:36 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:39:11 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (10 trận), Khán Đài (11 trận), Chuối Chiên (15 trận), Phá Làng (34 trận), Gà Vàng (5 trận), Sao Kê (18 trận), GaVang33 (22 trận), Bông Lau (15 trận) =====
 
@@ -37,6 +37,14 @@ https://pzhgifbkllliv.vcdn.cloud/1790776512_hd/1790776512_hd@720p.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/eritrea-vs-south-africa-n54qllhnv0jwqvy
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/646367f3d093d8e2a12871afed94fbf4/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/c8c1fad8f7b657fa96c4e5da96ada7c2.png" group-title="GaVang33" , 30/09 23:00 🟢 ⚽ Eritrea vs South Africa (Gà Siêu Péo)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://live2.zktsva.app/live/303098.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f2b6806d6ed60d2d87b0dd5ae62e6f20.png" group-title="GaVang33" , 30/09 23:00 🟢 ⚽ Lithuania vs Andorra (Gà Siêu Bệu)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://live2.zktsva.app/live/289650.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/czech-republic-u21.png" group-title="Giờ Vàng" , 30/09 23:00 🟡 ⚽ U21 Cộng hòa Séc vs U21 Bulgaria (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-u21-cong-hoa-sec-vs-u21-bulgaria-30-09-683e3b421f892a5e5c0902eb
@@ -82,12 +90,6 @@ https://vip3.saoketv40.xyz/eritrea-vs-south-africa-6abb8e323eba0388fc1f364f.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5829.png" group-title="Sao Kê" , 30/09 23:00 🟡 ⚽ Malta U21 vs Germany U21 (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/malta-u21-vs-germany-u21-6abd1c8ea9ca717b9078859b.html
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/c8c1fad8f7b657fa96c4e5da96ada7c2.png" group-title="GaVang33" , 30/09 23:00 🟡 ⚽ Eritrea vs South Africa (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/eritrea-vs-south-africa-luc-2300-ngay-30-09-2026-n54qllhnv0jwqvy
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f2b6806d6ed60d2d87b0dd5ae62e6f20.png" group-title="GaVang33" , 30/09 23:00 🟡 ⚽ Lithuania vs Andorra (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/lithuania-vs-andorra-luc-2300-ngay-30-09-2026-965mkyh8l573r1g
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_145302_b6e32570.png" group-title="Bông Lau" , 30/09 23:00 🟡 ⚽ Eritrea vs South Africa (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1545847
