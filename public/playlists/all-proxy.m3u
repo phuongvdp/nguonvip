@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:31:25 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:34:01 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (19 trận), Chuối Chiên (20 trận), Phá Làng (36 trận), Gà Vàng (7 trận), Sao Kê (18 trận), GaVang33 (22 trận), Bông Lau (20 trận) =====
 
@@ -22,6 +22,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/eritrea.png" group-title="Giờ Vàng" , 30/09 23:00 🟢 ⚽ Eritrea vs Nam Phi (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790776512_hd%2F1790776512_hd%40720p.m3u8&source=giovang
 
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/e225b584abc63b40a47e2846d882907e.png" group-title="Phá Làng" , 30/09 23:00 🟢 ⚽ Eritrea - South Africa (LÝ LINH LỰC)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F646367f3d093d8e2a12871afed94fbf4%2Fplaylist.m3u8&source=phalang
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/czech-republic-u21.png" group-title="Giờ Vàng" , 30/09 23:00 🟡 ⚽ U21 Cộng hòa Séc vs U21 Bulgaria (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-u21-cong-hoa-sec-vs-u21-bulgaria-30-09-683e3b421f892a5e5c0902eb
 
@@ -42,9 +45,6 @@ https://phalang.live/trang-chu#965mkyh8l573r1g
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5883bc06453abe9f777e82fac2c0cf4a.png" group-title="Phá Làng" , 30/09 23:00 🟡 ⚽ TJ Spartak Myjava Women - PAOK Saloniki Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#jw2r09hk8dn6rz8
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/e225b584abc63b40a47e2846d882907e.png" group-title="Phá Làng" , 30/09 23:00 🟡 ⚽ Eritrea - South Africa (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#n54qllhnv0jwqvy
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7ce68e9d6c6bc55224924c3a2df5771a.png" group-title="Phá Làng" , 30/09 23:00 🟡 ⚽ Fortuna Hjorring Women - PSV Eindhoven Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#pxwrxlhydw1wryk
