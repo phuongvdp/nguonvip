@@ -1,14 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:28:36 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:31:39 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (21 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e8b03b5c083ffa4e9179571b70c1febe.png" group-title="Phá Làng" , 30/09 07:00 🟢 ⚽ USA - Chile (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F252d7e5267f662dbe6bf4188c81ee4f9%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8036ad8158264bdaa591efcb9a00ae70.png" group-title="Phá Làng" , 30/09 07:30 🟡 ⚽ San Antonio - SV Darmstadt 98 (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#6ypq3nhk6ee0md7
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e399c54b84794822f6e5e3c02c7f3b6e.png" group-title="Phá Làng" , 30/09 08:00 🟡 ⚽ Mexico - Peru (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#jw2r09h54940rz8
@@ -66,3 +63,6 @@ https://phalang.live/trang-chu#vjxm8ghkvw8vr6o
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a74fb3f828b75717545d65a1e2dbdbcf.png" group-title="Phá Làng" , 30/09 22:00 ⚽ Warri Wolves FC - Enugu Rangers International (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#ednm9whwjlgyryo
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ce13c4a0131f5e09ada54a4f3eb90e18.png" group-title="Phá Làng" , 30/09 22:30 ⚽ Al Qadisiya SC - Salisbury City (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#zp5rzgh3y685q82
