@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:26:51 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:30:05 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (21 trận), Chuối Chiên (20 trận), Phá Làng (37 trận), Gà Vàng (5 trận), Sao Kê (19 trận), GaVang33 (23 trận), Bông Lau (20 trận) =====
 
@@ -13,8 +13,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/czech-republic-u21.png" group-title="Giờ Vàng" , 30/09 23:00 🟢 ⚽ U21 Cộng hòa Séc vs U21 Bulgaria (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790776618_hd%2F1790776618_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9926.jpg" group-title="Khán Đài" , 30/09 23:00 🟢 ⚽ Malta U21 vs Germany U21 (Kền Kền)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa6%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3D16059952b038cc8982ab6d1980711dc9&source=khandaitv
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9926.jpg" group-title="Khán Đài" , 30/09 23:00 🟢 ⚽ Malta U21 vs Germany U21 (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/malta-u21-vs-germany-u21-01-10-2026-607002
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_145302_b6e32570.png" group-title="Chuối Chiên" , 30/09 23:00 🟢 ⚽ Eritrea vs South Africa (Trốc Tru (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Ftroctruhd%2Fplaylist.m3u8&source=chuoichientv
@@ -49,8 +49,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_145302_b6e32570.png" group-title="Bông Lau" , 30/09 23:00 🟢 ⚽ Eritrea vs South Africa (Trốc Tru (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Ftroctruhd%2Fplaylist.m3u8&source=bonglau
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a8844b6e338455d83cb2dccf35c6751d.png" group-title="Phá Làng" , 30/09 23:30 🟡 ⚽ Sturm Graz/Stattegg Women - VfL Wolfsburg Women (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#vjxm8gheyogdr6o
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a8844b6e338455d83cb2dccf35c6751d.png" group-title="Phá Làng" , 30/09 23:30 🟢 ⚽ Sturm Graz/Stattegg Women - VfL Wolfsburg Women (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F8e74c50c6fce9f7262f7608968db725b%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/roma-cf-w.png" group-title="Giờ Vàng" , 30/09 23:45 🟢 ⚽ Nữ Roma CF vs Nữ FC Barcelona (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790776693_hd%2F1790776693_hd%40720p.m3u8&source=giovang
@@ -116,34 +116,34 @@ https://phalang.live/trang-chu#8yomo4h1njk8q0j
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e75f8b4e1baab3060dbe5ba983a3b49c.png" group-title="Phá Làng" , 01/10 00:00 🟡 ⚽ Konyaspor - Palestine (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#n54qllh45772qvy
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_643.jpg" group-title="Khán Đài" , 01/10 00:30 ⚽ Bahrain vs Yemen (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_643.jpg" group-title="Khán Đài" , 01/10 00:30 🟡 ⚽ Bahrain vs Yemen (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/bahrain-vs-yemen-01-10-2026-857566
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_650.jpg" group-title="Khán Đài" , 01/10 00:30 ⚽ United Arab Emirates vs Qatar (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_650.jpg" group-title="Khán Đài" , 01/10 00:30 🟡 ⚽ United Arab Emirates vs Qatar (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/united-arab-emirates-vs-qatar-01-10-2026-857567
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133415_27f7a7df.png" group-title="Chuối Chiên" , 01/10 00:30 ⚽ United Arab Emirates vs Qatar (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133415_27f7a7df.png" group-title="Chuối Chiên" , 01/10 00:30 🟡 ⚽ United Arab Emirates vs Qatar (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1637938/united-arab-emirates-vs-qatar
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/13f085e7de8626efb90ee339e675085d.png" group-title="Phá Làng" , 01/10 00:30 ⚽ United Arab Emirates - Qatar (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/13f085e7de8626efb90ee339e675085d.png" group-title="Phá Làng" , 01/10 00:30 🟡 ⚽ United Arab Emirates - Qatar (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4wyrn4h6jlj6q86
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/26bdd013ee743c1725d7b6b4daa1a4ac.png" group-title="Phá Làng" , 01/10 00:30 ⚽ Bahrain - Yemen (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/26bdd013ee743c1725d7b6b4daa1a4ac.png" group-title="Phá Làng" , 01/10 00:30 🟡 ⚽ Bahrain - Yemen (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l5ergph4z8zkr8k
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5789.png" group-title="Sao Kê" , 01/10 00:30 ⚽ UAE vs Qatar (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5789.png" group-title="Sao Kê" , 01/10 00:30 🟡 ⚽ UAE vs Qatar (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/uae-vs-qatar-6abb8e323eba0388fc1f3650.html
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5901.png" group-title="Sao Kê" , 01/10 00:30 ⚽ Bahrain vs Yemen (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5901.png" group-title="Sao Kê" , 01/10 00:30 🟡 ⚽ Bahrain vs Yemen (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/bahrain-vs-yemen-6abb8e323eba0388fc1f3651.html
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/1b141c19b8516ff9a26065d66ecd7146.png" group-title="GaVang33" , 01/10 00:30 ⚽ United Arab Emirates vs Qatar (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/1b141c19b8516ff9a26065d66ecd7146.png" group-title="GaVang33" , 01/10 00:30 🟡 ⚽ United Arab Emirates vs Qatar (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/united-arab-emirates-vs-qatar-luc-0030-ngay-01-10-2026-4wyrn4h6jlj6q86
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/595e32d94437adf5bde6225b77bf1e14.png" group-title="GaVang33" , 01/10 00:30 ⚽ Bahrain vs Yemen (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/595e32d94437adf5bde6225b77bf1e14.png" group-title="GaVang33" , 01/10 00:30 🟡 ⚽ Bahrain vs Yemen (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/bahrain-vs-yemen-luc-0030-ngay-01-10-2026-l5ergph4z8zkr8k
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133415_27f7a7df.png" group-title="Bông Lau" , 01/10 00:30 ⚽ United Arab Emirates vs Qatar (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133415_27f7a7df.png" group-title="Bông Lau" , 01/10 00:30 🟡 ⚽ United Arab Emirates vs Qatar (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1637938
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_11034.jpg" group-title="Khán Đài" , 01/10 01:00 ⚽ Durham W vs Manchester Utd W (Chưa có link — chờ cập nhật)
