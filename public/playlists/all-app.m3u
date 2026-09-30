@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 12:30:34 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 12:33:32 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (8 trận), Khán Đài (11 trận), Chuối Chiên (18 trận), Phá Làng (45 trận), Gà Vàng (15 trận), Sao Kê (16 trận), GaVang33 (14 trận), Bông Lau (18 trận) =====
 
@@ -16,6 +16,9 @@ https://eqr2hdarxfliv.vcdn.cloud/1790613111_hd/1790613111_hd@720p.m3u8|User-Agen
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Chuối Chiên" , 30/09 13:00 🟢 ⚽ U23 Hàn Quốc  vs China PR U23 (Chuối Chao (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/8f696da0665940d4b34e48edba4d2e3a.png" group-title="Phá Làng" , 30/09 13:00 🟢 ⚽ South Korea U23 - China U23 (LÝ LIỀU LĨNH (Server 1))
+https://pull.digitalcdn.net/live/7af6f6c595c34e19b3475465f490189c/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/truc-tiep/south-korea-u23-vs-china-u23-zp5rzgh3y0l9q82&Origin=https://phalang.live
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Bông Lau" , 30/09 13:00 🟢 ⚽ U23 Hàn Quốc  vs China PR U23 (Chuối Chao (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://live.chuoichien.tv/
 
@@ -24,9 +27,6 @@ https://khandai3.link/truc-tiep/south-korea-u23-vs-china-u23-30-09-2026-859312
 
 #EXTINF:-1 tvg-logo="https://imgts.sportpulseapiz.com/football/team/318q66ho51pqo9j/image/small" group-title="Phá Làng" , 30/09 13:00 🟡 ⚽ Vietnam U16 - Kyrgyzstan U16 (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#8yomo4h1w4dlq0j
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/8f696da0665940d4b34e48edba4d2e3a.png" group-title="Phá Làng" , 30/09 13:00 🟡 ⚽ South Korea U23 - China U23 (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#zp5rzgh3y0l9q82
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/6581bc34692022be4c21d98778e33df0.png" group-title="Gà Vàng" , 30/09 13:00 🟡 ⚽ Korea U23 vs China U23 (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/south-korea-u23-vs-china-u23-ngay-30-09-2026/
