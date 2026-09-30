@@ -1,13 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:27:31 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:30:27 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (20 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132716_11742340.png" group-title="Chuối Chiên" , 30/09 16:00 🟢 ⚽ Timor-Leste vs Cambodia (Chuối Sấy (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131446_7bd3d526.png" group-title="Chuối Chiên" , 30/09 17:30 ⚽ Uzbekistan U23 vs Japan U23 (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131446_7bd3d526.png" group-title="Chuối Chiên" , 30/09 17:30 🟡 ⚽ Uzbekistan U23 vs Japan U23 (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1642011/uzbekistan-u23-vs-japan-u23
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134317_1bd3a785.png" group-title="Chuối Chiên" , 30/09 19:00 ⚽ Hong Kong vs Brunei (Chưa có link — chờ cập nhật)
@@ -55,6 +55,12 @@ https://live05.chuoichientv.me/live/997557/india-vs-pakistan
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Chuối Chiên" , 01/10 11:00 🏐 South Korea vs Iran (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/998840/south-korea-vs-iran
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132737_07ec8953.png" group-title="Chuối Chiên" , 01/10 13:10 ⚽ Panama vs New Zealand (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/991250/panama-vs-new-zealand
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Chuối Chiên" , 01/10 14:00 🏐 Việt Nam vs Uzbekistan (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/995056/viet-nam-vs-uzbekistan
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_130648_1906f789.png" group-title="Chuối Chiên" , 01/10 15:00 ⚽ North District vs Southern District (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1637962/north-district-vs-southern-district

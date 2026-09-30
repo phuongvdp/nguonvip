@@ -1,13 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:27:31 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:30:27 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Bông Lau (20 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132716_11742340.png" group-title="Bông Lau" , 30/09 16:00 🟢 ⚽ Timor-Leste vs Cambodia (Chuối Sấy (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoisayhd%2Fplaylist.m3u8&source=bonglau
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131446_7bd3d526.png" group-title="Bông Lau" , 30/09 17:30 ⚽ Uzbekistan U23 vs Japan U23 (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131446_7bd3d526.png" group-title="Bông Lau" , 30/09 17:30 🟡 ⚽ Uzbekistan U23 vs Japan U23 (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1642011
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134317_1bd3a785.png" group-title="Bông Lau" , 30/09 19:00 ⚽ Hong Kong vs Brunei (Chưa có link — chờ cập nhật)
@@ -55,6 +55,12 @@ https://lau05.bonglautv1.pro/truc-tiep/997557
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Bông Lau" , 01/10 11:00 🏐 South Korea vs Iran (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/998840
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132737_07ec8953.png" group-title="Bông Lau" , 01/10 13:10 ⚽ Panama vs New Zealand (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/991250
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Bông Lau" , 01/10 14:00 🏐 Việt Nam vs Uzbekistan (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/995056
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_130648_1906f789.png" group-title="Bông Lau" , 01/10 15:00 ⚽ North District vs Southern District (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1637962
