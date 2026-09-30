@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:20:23 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:22:57 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (8 trận), Khán Đài (11 trận), Chuối Chiên (15 trận), Phá Làng (34 trận), Gà Vàng (4 trận), Sao Kê (17 trận), GaVang33 (20 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (8 trận), Khán Đài (11 trận), Chuối Chiên (15 trận), Phá Làng (35 trận), Gà Vàng (4 trận), Sao Kê (17 trận), GaVang33 (20 trận), Bông Lau (15 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Y9sYTnjl-CEPH9Bbd.png" group-title="Giờ Vàng" , 30/09 20:00 🟢 ⚽ Morocco U20 vs Algeria U20 (Giovang 1)
@@ -23,6 +23,11 @@ https://wtyi0525.edgemaxcdn.org/live/x68-hd-1111/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://tructiep.bonglau.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/6a361dfa300bb39d857d5e6264788ccf.png" group-title="Phá Làng" , 30/09 21:00 🟢 ⚽ Aktobe W - Ajax Amsterdam Women (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/aktobe-w-vs-ajax-amsterdam-women-ednm9whw1l9zryo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/b52093fc13486f15779112ee58a6cafc/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/6a361dfa300bb39d857d5e6264788ccf.png" group-title="GaVang33" , 30/09 21:00 🟢 ⚽ Aktobe W vs Ajax Amsterdam Women (Gà Siêu Tốc)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
