@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:00:09 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:03:04 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (5 trận), Khán Đài (10 trận), Chuối Chiên (16 trận), Phá Làng (46 trận), Gà Vàng (8 trận), Sao Kê (17 trận), GaVang33 (16 trận), Bông Lau (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (5 trận), Khán Đài (10 trận), Chuối Chiên (16 trận), Phá Làng (47 trận), Gà Vàng (8 trận), Sao Kê (17 trận), GaVang33 (16 trận), Bông Lau (16 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://media-cdn-v2.laodong.vn/storage/newsportal/2026/5/27/1708909/Asiad-20-01.jpeg" group-title="Giờ Vàng" , 30/09 15:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -16,8 +16,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/uzbekistan-u23.png" group-title="Giờ Vàng" , 30/09 17:30 🟢 ⚽ U23 Uzbekistan vs U23 Nhật Bản (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790651690_hd%2F1790651690_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646.png" group-title="Khán Đài" , 30/09 17:30 🟢 ⚽ Uzbekistan U23 vs Japan U23 (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/uzbekistan-u23-vs-japan-u23-30-09-2026-859313
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646.png" group-title="Khán Đài" , 30/09 17:30 🟢 ⚽ Uzbekistan U23 vs Japan U23 (Lee Sin)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa10%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_131446_7bd3d526.png" group-title="Chuối Chiên" , 30/09 17:30 🟢 ⚽ Uzbekistan U23 vs Japan U23 (Chuối Kem (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikemhd%2Fplaylist.m3u8&source=chuoichientv
@@ -373,6 +373,9 @@ https://lau05.bonglautv1.pro/truc-tiep/1640511
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6368.png" group-title="Sao Kê" , 01/10 08:00 ⚽ Atlético Nacional vs Junior FC (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/atletico-nacional-vs-junior-fc-6abc5d21ad19d495b2f4dcca.html
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/eafed5361c70bffd85bedd16d0444f7a.png" group-title="Phá Làng" , 01/10 09:00 ⚽ Cook Islands - Tahiti (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#k82rekh2z6v3rep
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132737_07ec8953.png" group-title="Chuối Chiên" , 01/10 13:10 ⚽ Panama vs New Zealand (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/991250/panama-vs-new-zealand
