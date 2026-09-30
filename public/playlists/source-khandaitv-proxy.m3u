@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:59:37 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 04:02:13 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (21 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (20 trận) =====
 
 # ----- Ngày 2026-10-01 -----
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_30.jpg" group-title="Khán Đài" , 01/10 02:00 🟢 ⚽ Lyon W vs Chelsea W (Enzo)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa2%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dd3bfcbaa36f949863f22cc89e1cc1afa&source=khandaitv
-
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_Kazakhstan.svg.webp" group-title="Khán Đài" , 01/10 08:00 🏐 Kazakhstan vs Hong Kong (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/kazakhstan-vs-hong-kong
 

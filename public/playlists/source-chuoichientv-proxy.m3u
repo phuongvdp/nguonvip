@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:59:37 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 04:02:13 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (20 trận) =====
 
 # ----- Ngày 2026-10-01 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132645_dead805a.png" group-title="Chuối Chiên" , 01/10 02:00 🟢 ⚽ Lyon W vs Chelsea W (Chuối Sấy (FHD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoisayhd%2Fplaylist.m3u8&source=chuoichientv
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132808_60e400eb.png" group-title="Chuối Chiên" , 01/10 07:00 ⚽ Argentina vs Bolivia (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1640511/argentina-vs-bolivia
 
@@ -60,3 +57,10 @@ https://live05.chuoichientv.me/live/1638293/austria-wien-w-vs-inter-milano-w
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_141851_d76a5e07.png" group-title="Chuối Chiên" , 01/10 23:45 ⚽ Køge vs Servette Chênois W (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1638315/k-ge-vs-servette-chenois-w
+
+# ----- Ngày 2026-10-02 -----
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125455_9f31cc8f.png" group-title="Chuối Chiên" , 02/10 01:45 ⚽ Germany vs Serbia (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1528917/germany-vs-serbia
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134302_98ea6afc.png" group-title="Chuối Chiên" , 02/10 01:45 ⚽ Greece vs Netherlands (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1528918/greece-vs-netherlands
