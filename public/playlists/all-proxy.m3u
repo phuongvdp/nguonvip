@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:44:08 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:47:11 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (20 trận), Chuối Chiên (20 trận), Phá Làng (24 trận), Gà Vàng (5 trận), Sao Kê (20 trận), GaVang33 (15 trận), Bông Lau (20 trận) =====
 
@@ -28,23 +28,23 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png" group-title="Giờ Vàng" , 01/10 07:00 🟢 ⚽ New York Yankees vs Boston Red Sox (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790779706_hd%2F1790779706_hd%40720p.m3u8&source=giovang
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132808_60e400eb.png" group-title="Chuối Chiên" , 01/10 07:00 🟢 ⚽ Argentina vs Bolivia (Chuối Tây (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitayhd%2Fplaylist.m3u8&source=chuoichientv
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/fddae9f15b989a7ae34fa59c7cafc9ea.png" group-title="Phá Làng" , 01/10 07:00 🟢 ⚽ Argentina - Bolivia (LÝ LONG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F266ff1220e1c51ba3dcb04805dcaf46c%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/ef7329946e1741b9ade4fedbf739158a.png" group-title="GaVang33" , 01/10 07:00 🟢 ⚽ Argentina vs Bolivia (Gà Siêu Quỷ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F304565.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132808_60e400eb.png" group-title="Chuối Chiên" , 01/10 07:00 🟡 ⚽ Argentina vs Bolivia (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1640511/argentina-vs-bolivia
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132808_60e400eb.png" group-title="Bông Lau" , 01/10 07:00 🟢 ⚽ Argentina vs Bolivia (Chuối Tây (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitayhd%2Fplaylist.m3u8&source=bonglau
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ef7329946e1741b9ade4fedbf739158a.png" group-title="Gà Vàng" , 01/10 07:00 🟡 ⚽ Argentina vs Bolivia (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/argentina-vs-bolivia-ngay-01-10-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/1a8729f6837d72a8092aaabd02695c2b.png" group-title="Gà Vàng" , 01/10 07:00 🟡 ⚽ Tulsa Roughneck vs New Mexico United (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/tulsa-roughneck-vs-new-mexico-united-ngay-01-10-2026/
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132808_60e400eb.png" group-title="Bông Lau" , 01/10 07:00 🟡 ⚽ Argentina vs Bolivia (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1640511
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/atletico-nacional-medellin.png" group-title="Giờ Vàng" , 01/10 08:00 ⚽ Atletico Nacional vs Atletico Junior Barranquilla (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-atletico-nacional-vs-atletico-junior-barranquilla-01-10-6a6a941a24d46db870ee563c
