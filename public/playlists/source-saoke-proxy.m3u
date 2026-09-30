@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:13:46 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:17:00 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (20 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/613636.png" group-title="Sao Kê" , 30/09 17:30 🟢 ⚽ Uzbekistan U23 vs Japan U23 (Cà Rốt (HD))
@@ -13,8 +13,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134341_5916abfa.png" group-title="Sao Kê" , 30/09 20:00 🟢 ⚽ Egypt U20 vs Tunisia U20 (Cà Rốt (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx10-hd-1111%2Fplaylist.m3u8&source=saoke
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1528345.png" group-title="Sao Kê" , 30/09 20:30 🟡 ⚽ Vsetín vs Bohemians 1905 (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/vsetin-vs-bohemians-1905-6abb8e323eba0388fc1f3653.html
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1528345.png" group-title="Sao Kê" , 30/09 20:30 🟢 ⚽ Vsetín vs Bohemians 1905 (Mơ (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx68-hd-1111%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6623.png" group-title="Sao Kê" , 30/09 22:00 ⚽ Enyimba vs Shooting Stars (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/enyimba-vs-shooting-stars-6abb8e323eba0388fc1f3652.html
@@ -61,3 +61,6 @@ https://vip3.saoketv40.xyz/indonesia-vs-bangladesh-6abcd70d47921e67729eb850.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5823.png" group-title="Sao Kê" , 01/10 19:30 ⚽ Malaysia vs Singapore (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/malaysia-vs-singapore-6abcd70d47921e67729eb851.html
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/102124.png" group-title="Sao Kê" , 01/10 20:15 ⚽ Sharjah Cultural Club vs Al-Dhafra (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/sharjah-cultural-club-vs-al-dhafra-6abcd70d47921e67729eb841.html
