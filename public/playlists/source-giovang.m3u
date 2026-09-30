@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:59:36 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:02:08 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (6 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Y9sYTnjl-CEPH9Bbd.png" group-title="Giờ Vàng" , 30/09 20:00 🟢 ⚽ Morocco U20 vs Algeria U20 (Giovang 1)
@@ -9,11 +9,18 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1790693677_hd/1790693677_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/botswana-u23.png" group-title="Giờ Vàng" , 30/09 21:00 🟡 ⚽ Botswana U23 vs Mozambique U23 (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-botswana-u23-vs-mozambique-u23-30-09-6ab5ba6009ca9ecd470909a4
-
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/eritrea.png" group-title="Giờ Vàng" , 30/09 23:00 ⚽ Eritrea vs Nam Phi (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-eritrea-vs-nam-phi-30-09-6a372c0432ce87f525086b9b
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/czech-republic-u21.png" group-title="Giờ Vàng" , 30/09 23:00 ⚽ U21 Cộng hòa Séc vs U21 Bulgaria (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-u21-cong-hoa-sec-vs-u21-bulgaria-30-09-683e3b421f892a5e5c0902eb
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/roma-cf-w.png" group-title="Giờ Vàng" , 30/09 23:45 ⚽ Nữ Roma CF vs Nữ FC Barcelona (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-nu-roma-cf-vs-nu-fc-barcelona-30-09-6aaf22fc4e725bdee905b7f5
+
+# ----- Ngày 2026-10-01 -----
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/lyon-w.png" group-title="Giờ Vàng" , 01/10 02:00 ⚽ Nữ Lyonnais vs Nữ Chelsea FC (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-nu-lyonnais-vs-nu-chelsea-fc-01-10-6aaf22fc4e725bdee905b7f7
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/sl-benfica-w.png" group-title="Giờ Vàng" , 01/10 02:00 ⚽ Nữ Benfica vs Nữ Bayern Munich (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-nu-benfica-vs-nu-bayern-munich-01-10-6aaf22fc4e725bdee905b7f8
