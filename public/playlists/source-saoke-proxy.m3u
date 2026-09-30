@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:28:08 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:31:21 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (19 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/613636.png" group-title="Sao Kê" , 30/09 17:30 🟢 ⚽ Uzbekistan U23 vs Japan U23 (Cà Rốt (HD))
@@ -13,7 +13,7 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134341_5916abfa.png" group-title="Sao Kê" , 30/09 20:00 🟡 ⚽ Egypt U20 vs Tunisia U20 (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/egypt-u20-vs-tunisia-u20-6abc5d65593bdafdc561e808.html
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1528345.png" group-title="Sao Kê" , 30/09 20:30 ⚽ Vsetín vs Bohemians 1905 (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1528345.png" group-title="Sao Kê" , 30/09 20:30 🟡 ⚽ Vsetín vs Bohemians 1905 (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/vsetin-vs-bohemians-1905-6abb8e323eba0388fc1f3653.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6623.png" group-title="Sao Kê" , 30/09 22:00 ⚽ Enyimba vs Shooting Stars (Chưa có link — chờ cập nhật)
@@ -55,3 +55,9 @@ https://vip3.saoketv40.xyz/north-district-vs-southern-district-6abcd7b6ad19d495b
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6715.png" group-title="Sao Kê" , 01/10 17:10 ⚽ Japan vs Ecuador (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/japan-vs-ecuador-6abcd70d47921e67729eb853.html
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6324.png" group-title="Sao Kê" , 01/10 19:30 ⚽ Indonesia vs Bangladesh (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/indonesia-vs-bangladesh-6abcd70d47921e67729eb850.html
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5823.png" group-title="Sao Kê" , 01/10 19:30 ⚽ Malaysia vs Singapore (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/malaysia-vs-singapore-6abcd70d47921e67729eb851.html

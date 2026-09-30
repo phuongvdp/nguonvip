@@ -1,9 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:28:08 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:31:21 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Khán Đài (12 trận), Chuối Chiên (16 trận), Phá Làng (44 trận), Gà Vàng (8 trận), Sao Kê (17 trận), GaVang33 (17 trận), Bông Lau (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (5 trận), Khán Đài (12 trận), Chuối Chiên (16 trận), Phá Làng (44 trận), Gà Vàng (8 trận), Sao Kê (19 trận), GaVang33 (19 trận), Bông Lau (16 trận) =====
 
 # ----- Ngày 2026-09-30 -----
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/uzbekistan-u23.png" group-title="Giờ Vàng" , 30/09 17:30 🟢 ⚽ U23 Uzbekistan vs U23 Nhật Bản (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ftlh5sc02iliv.vcdn.cloud/1790651690_hd/1790651690_hd@720p.m3u8
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646.png" group-title="Khán Đài" , 30/09 17:30 🟢 ⚽ Uzbekistan U23 vs Japan U23 (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/uzbekistan-u23-vs-japan-u23-30-09-2026-859313
 
@@ -95,16 +100,16 @@ https://vip3.saoketv40.xyz/egypt-u20-vs-tunisia-u20-6abc5d65593bdafdc561e808.htm
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134341_5916abfa.png" group-title="Bông Lau" , 30/09 20:00 🟡 ⚽ Egypt U20 vs Tunisia U20 (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1641757
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135754_18d94fc0.png" group-title="Chuối Chiên" , 30/09 20:30 ⚽ Vsetín vs Bohemians 1905 (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135754_18d94fc0.png" group-title="Chuối Chiên" , 30/09 20:30 🟡 ⚽ Vsetín vs Bohemians 1905 (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1636732/vsetin-vs-bohemians-1905
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5501524558978b8de8ee205103056894.png" group-title="Gà Vàng" , 30/09 20:30 ⚽ FC Vsetin vs Bohemians Prague 1905 (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5501524558978b8de8ee205103056894.png" group-title="Gà Vàng" , 30/09 20:30 🟡 ⚽ FC Vsetin vs Bohemians Prague 1905 (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/fc-vsetin-vs-bohemians-praha-1905-ngay-30-09-2026/
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1528345.png" group-title="Sao Kê" , 30/09 20:30 ⚽ Vsetín vs Bohemians 1905 (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1528345.png" group-title="Sao Kê" , 30/09 20:30 🟡 ⚽ Vsetín vs Bohemians 1905 (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/vsetin-vs-bohemians-1905-6abb8e323eba0388fc1f3653.html
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135754_18d94fc0.png" group-title="Bông Lau" , 30/09 20:30 ⚽ Vsetín vs Bohemians 1905 (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135754_18d94fc0.png" group-title="Bông Lau" , 30/09 20:30 🟡 ⚽ Vsetín vs Bohemians 1905 (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1636732
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/botswana-u23.png" group-title="Giờ Vàng" , 30/09 21:00 ⚽ Botswana U23 vs Mozambique U23 (Chưa có link — chờ cập nhật)
@@ -431,3 +436,15 @@ https://khandai3.link/truc-tiep/malaysia-vs-singapore-01-10-2026-859004
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/debe9dfcc3e4dbea1c509ffab6bf9f0b.png" group-title="GaVang33" , 01/10 19:00 ⚽ Maldives vs Lebanon (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/maldives-vs-lebanon-luc-1900-ngay-01-10-2026-l5ergphk0yoyr8k
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6324.png" group-title="Sao Kê" , 01/10 19:30 ⚽ Indonesia vs Bangladesh (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/indonesia-vs-bangladesh-6abcd70d47921e67729eb850.html
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5823.png" group-title="Sao Kê" , 01/10 19:30 ⚽ Malaysia vs Singapore (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/malaysia-vs-singapore-6abcd70d47921e67729eb851.html
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/628f16b29939d1b060af49f66ae0f7f8.png" group-title="GaVang33" , 01/10 19:30 ⚽ Indonesia vs Bangladesh (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/indonesia-vs-bangladesh-luc-1930-ngay-01-10-2026-vjxm8ghey0jlr6o
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png" group-title="GaVang33" , 01/10 19:30 ⚽ Malaysia vs Singapore (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/malaysia-vs-singapore-luc-1930-ngay-01-10-2026-x7lm7phj4v0jm2w
