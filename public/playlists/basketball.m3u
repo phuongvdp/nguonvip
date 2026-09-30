@@ -1,13 +1,16 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:50:17 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:52:53 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (1 trận), Gà Vàng (3 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (2 trận), Gà Vàng (3 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/7778a93083d2fa50e4cb4e128f07cf5f.png" group-title="Giờ Vàng" , 30/09 14:30 🟢 🏀 New Zealand Breakers vs Cairns Taipans (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eqr2hdarxfliv.vcdn.cloud/1790701144_hd/1790701144_hd@720p.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/rRiJRJAr-UJXdVtIC.png" group-title="Giờ Vàng" , 30/09 16:30 🏀 Sydney vs Brisbane Bullets (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-sydney-vs-brisbane-bullets-30-09-v7vdcbwe4cqy
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/a7afa97e4f00dcf37fe8f8f58cf34fd9.png" group-title="Gà Vàng" , 30/09 21:45 🏀 Kuwait SC vs Indian Railways (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
