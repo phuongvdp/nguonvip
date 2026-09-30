@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:58:24 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:00:12 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (6 trận), Khán Đài (10 trận), Chuối Chiên (15 trận), Phá Làng (46 trận), Gà Vàng (11 trận), Sao Kê (15 trận), GaVang33 (16 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (6 trận), Khán Đài (10 trận), Chuối Chiên (15 trận), Phá Làng (46 trận), Gà Vàng (9 trận), Sao Kê (15 trận), GaVang33 (16 trận), Bông Lau (15 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea-u23.png" group-title="Giờ Vàng" , 30/09 15:00 🟢 ⚽ U23 Hàn Quốc vs U23 Trung Quốc (Giovang 1)
@@ -29,16 +29,7 @@ https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8|User-Agent=Mozill
 https://live2.zktsva.app/live/741294.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132716_11742340.png" group-title="Bông Lau" , 30/09 16:00 🟢 ⚽ Timor-Leste vs Cambodia (Chuối Sấy (FHD))
-https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/21649c3d173c8f4ec9d526432ad9f088.png" group-title="Phá Làng" , 30/09 16:00 🟡 ⚽ East Bengal FC - Minerva Punjab (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#318q66h8zn61qo9
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/96a83c96abbe6d0b40c72b279ebdf76e.png" group-title="Gà Vàng" , 30/09 16:00 🟡 ⚽ Timor Leste vs Cambodia (Chưa có link — chờ cập nhật)
-https://gavanglinkr.tv/truc-tiep/timor-leste-vs-cambodia-ngay-30-09-2026/
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/6581bc34692022be4c21d98778e33df0.png" group-title="Gà Vàng" , 30/09 16:00 🟡 ⚽ Korea Republic U18 vs England U18 (Chưa có link — chờ cập nhật)
-https://gavanglinkr.tv/truc-tiep/korea-republic-u18-vs-england-u18-ngay-30-09-2026/
+https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://live.chuoichien.tv/
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/uzbekistan-u23.png" group-title="Giờ Vàng" , 30/09 17:30 ⚽ U23 Uzbekistan vs U23 Nhật Bản (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-u23-uzbekistan-vs-u23-nhat-ban-30-09-6ab85d64802222c82d0bc738
@@ -391,6 +382,9 @@ https://lau05.bonglautv1.pro/truc-tiep/996175
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132808_60e400eb.png" group-title="Chuối Chiên" , 01/10 07:00 ⚽ Argentina vs Bolivia (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1640511/argentina-vs-bolivia
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/fddae9f15b989a7ae34fa59c7cafc9ea.png" group-title="Phá Làng" , 01/10 07:00 ⚽ Argentina - Bolivia (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#y39mp1hdvw3ymoj
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/ef7329946e1741b9ade4fedbf739158a.png" group-title="GaVang33" , 01/10 07:00 ⚽ Argentina vs Bolivia (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/argentina-vs-bolivia-luc-0700-ngay-01-10-2026-y39mp1hdvw3ymoj

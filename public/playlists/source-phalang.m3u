@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:58:25 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:00:12 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (46 trận) =====
 
@@ -8,9 +8,6 @@
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/timor-leste-vs-cambodia-pxwrxlhydn93ryk
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/a99dcb48c4ca02a6962cae84c4bc1d0b/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/21649c3d173c8f4ec9d526432ad9f088.png" group-title="Phá Làng" , 30/09 16:00 🟡 ⚽ East Bengal FC - Minerva Punjab (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#318q66h8zn61qo9
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/d305479c8008cb42a1bd5dff4af18891.png" group-title="Phá Làng" , 30/09 17:30 ⚽ Uzbekistan U23 - Japan U23 (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkhyvwnzqg8
@@ -144,3 +141,6 @@ https://phalang.live/trang-chu#dn1m1gh9v77dmoe
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8b8fe90668461b90ddc20516b0e6796d.png" group-title="Phá Làng" , 01/10 06:30 ⚽ New York Red Bulls - St. Louis City SC (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y0or5jh8o52yqwz
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/fddae9f15b989a7ae34fa59c7cafc9ea.png" group-title="Phá Làng" , 01/10 07:00 ⚽ Argentina - Bolivia (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#y39mp1hdvw3ymoj
