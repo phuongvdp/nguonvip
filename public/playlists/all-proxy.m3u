@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:37:18 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:40:16 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (9 trận), Khán Đài (10 trận), Chuối Chiên (17 trận), Phá Làng (46 trận), Gà Vàng (14 trận), Sao Kê (15 trận), GaVang33 (16 trận), Bông Lau (17 trận) =====
 
@@ -16,6 +16,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/timor-leste.png" group-title="Giờ Vàng" , 30/09 16:00 🟢 ⚽ Đông Timor vs Campuchia (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790742425_hd%2F1790742425_hd%40720p.m3u8&source=giovang
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132716_11742340.png" group-title="Chuối Chiên" , 30/09 16:00 🟢 ⚽ Timor-Leste vs Cambodia (Chuối Sấy (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoisayhd%2Fplaylist.m3u8&source=chuoichientv
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/8a415871b15f513d5636f4fbcff42844.png" group-title="Phá Làng" , 30/09 16:00 🟢 ⚽ Timor Leste - Cambodia (LÝ LÊN LỬA)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fa99dcb48c4ca02a6962cae84c4bc1d0b%2Fplaylist.m3u8&source=phalang
 
@@ -25,11 +28,11 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/96a83c96abbe6d0b40c72b279ebdf76e.png" group-title="GaVang33" , 30/09 16:00 🟢 ⚽ Timor Leste vs Cambodia (Gà Siêu Kiêu)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F741294.m3u8&source=gavang33
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132716_11742340.png" group-title="Bông Lau" , 30/09 16:00 🟢 ⚽ Timor-Leste vs Cambodia (Chuối Sấy (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoisayhd%2Fplaylist.m3u8&source=bonglau
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_2rRVLbr.jpg" group-title="Khán Đài" , 30/09 16:00 🟡 ⚽ Timor-Leste vs Cambodia (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/timor-leste-vs-cambodia-30-09-2026-859869
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132716_11742340.png" group-title="Chuối Chiên" , 30/09 16:00 🟡 ⚽ Timor-Leste vs Cambodia (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1641712/timor-leste-vs-cambodia
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/21649c3d173c8f4ec9d526432ad9f088.png" group-title="Phá Làng" , 30/09 16:00 🟡 ⚽ East Bengal FC - Minerva Punjab (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66h8zn61qo9
@@ -39,9 +42,6 @@ https://gavanglinkr.tv/truc-tiep/timor-leste-vs-cambodia-ngay-30-09-2026/
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/6581bc34692022be4c21d98778e33df0.png" group-title="Gà Vàng" , 30/09 16:00 🟡 ⚽ Korea Republic U18 vs England U18 (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/korea-republic-u18-vs-england-u18-ngay-30-09-2026/
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132716_11742340.png" group-title="Bông Lau" , 30/09 16:00 🟡 ⚽ Timor-Leste vs Cambodia (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1641712
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/rRiJRJAr-UJXdVtIC.png" group-title="Giờ Vàng" , 30/09 16:30 🟡 🏀 Sydney vs Brisbane Bullets (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-sydney-vs-brisbane-bullets-30-09-v7vdcbwe4cqy
