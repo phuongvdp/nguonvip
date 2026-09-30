@@ -1,20 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:56:41 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:59:36 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (2 trận), Khán Đài (10 trận), Chuối Chiên (14 trận), Phá Làng (41 trận), Gà Vàng (7 trận), Sao Kê (18 trận), GaVang33 (19 trận), Bông Lau (14 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Khán Đài (10 trận), Chuối Chiên (14 trận), Phá Làng (41 trận), Gà Vàng (4 trận), Sao Kê (18 trận), GaVang33 (19 trận), Bông Lau (14 trận) =====
 
 # ----- Ngày 2026-09-30 -----
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/4e7245e77764a6d4d68a69bd2f4c2035.png" group-title="Gà Vàng" , 30/09 17:30 🟢 ⚽ Uzbekistan U23 vs Japan U23 (GIàng A Dân)
-https://playback.livetl002.com/live/6a5b13ceb36a14387baeddaa.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
-
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/a3fc9e9d832501a64149b783cfaa3471.png" group-title="Phá Làng" , 30/09 19:00 🟢 ⚽ Hong Kong - Brunei Darussalam (LÝ LONG)
 https://lilive1.eu.cc/live/921b6de9fe03afc6e2e4b6e03a2bb70d/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/truc-tiep/hong-kong-vs-brunei-darussalam-3glrw7hnd9j3qdy&Origin=https://phalang.live
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/df321578b4f5f132345d2e6b39743126.png" group-title="Gà Vàng" , 30/09 19:00 🟢 ⚽ Hong Kong vs Brunei Darussalam (CRIS)
-https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9d4caac656f50e75750c905733ce6114.png" group-title="Gà Vàng" , 30/09 19:00 🟢 ⚽ BFF Academy U19 vs Thimphu Raven FC (SÚP LƠ)
-https://playback.livetl002.com/live/6a9a5525864ea536c2577392.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/178671.png" group-title="Sao Kê" , 30/09 19:00 🟢 ⚽ Brunei vs Hong Kong (Ricky (HD))
 https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
@@ -32,7 +23,7 @@ https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8|User-Agent=Mozilla
 https://wtyi0525.edgemaxcdn.org/live/x68-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142809_56274e6a.png" group-title="Bông Lau" , 30/09 20:30 🟢 ⚽ Morocco U20 vs Algeria U20 (Chuối Tây (FHD))
-https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
+https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/6a361dfa300bb39d857d5e6264788ccf.png" group-title="GaVang33" , 30/09 21:00 🟢 ⚽ Aktobe W vs Ajax Amsterdam Women (Gà Siêu Tốc)
 https://live2.zktsva.app/live/307240.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -66,6 +57,12 @@ https://vip3.saoketv40.xyz/enyimba-vs-shooting-stars-6abb8e323eba0388fc1f3652.ht
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ce13c4a0131f5e09ada54a4f3eb90e18.png" group-title="Phá Làng" , 30/09 22:30 ⚽ Al Qadisiya SC - Salisbury City (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#zp5rzgh3y685q82
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/eritrea.png" group-title="Giờ Vàng" , 30/09 23:00 ⚽ Eritrea vs Nam Phi (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-eritrea-vs-nam-phi-30-09-6a372c0432ce87f525086b9b
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/czech-republic-u21.png" group-title="Giờ Vàng" , 30/09 23:00 ⚽ U21 Cộng hòa Séc vs U21 Bulgaria (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-u21-cong-hoa-sec-vs-u21-bulgaria-30-09-683e3b421f892a5e5c0902eb
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9926.jpg" group-title="Khán Đài" , 30/09 23:00 ⚽ Malta U21 vs Germany U21 (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/malta-u21-vs-germany-u21-01-10-2026-607002
