@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:30:05 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:33:03 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (21 trận), Chuối Chiên (20 trận), Phá Làng (37 trận), Gà Vàng (5 trận), Sao Kê (19 trận), GaVang33 (23 trận), Bông Lau (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (21 trận), Chuối Chiên (20 trận), Phá Làng (38 trận), Gà Vàng (5 trận), Sao Kê (20 trận), GaVang33 (23 trận), Bông Lau (20 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5501524558978b8de8ee205103056894.png" group-title="Gà Vàng" , 30/09 20:30 🟢 ⚽ FC Vsetin vs Bohemians Prague 1905 (Cá MậP)
@@ -19,8 +19,10 @@ https://pzhgifbkllliv.vcdn.cloud/1790776512_hd/1790776512_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pzhgifbkllliv.vcdn.cloud/1790776618_hd/1790776618_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9926.jpg" group-title="Khán Đài" , 30/09 23:00 🟢 ⚽ Malta U21 vs Germany U21 (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/malta-u21-vs-germany-u21-01-10-2026-607002
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9926.jpg" group-title="Khán Đài" , 30/09 23:00 🟢 ⚽ Malta U21 vs Germany U21 (Kền Kền)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_145302_b6e32570.png" group-title="Chuối Chiên" , 30/09 23:00 🟢 ⚽ Eritrea vs South Africa (Trốc Tru (FHD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
@@ -75,6 +77,11 @@ https://live2.zktsva.app/live/289650.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9ebd79de8504a6573dce8c419ff16b10.png" group-title="Phá Làng" , 30/09 23:30 🟢 ⚽ Eintracht Frankfurt Women - Hafnarfjordur Women (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/eintracht-frankfurt-women-vs-hafnarfjordur-women-2y8m4zh5ld3vql0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/50c83b103482e17cfb7674678e26b57d/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a8844b6e338455d83cb2dccf35c6751d.png" group-title="Phá Làng" , 30/09 23:30 🟢 ⚽ Sturm Graz/Stattegg Women - VfL Wolfsburg Women (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/sturm-graz-stattegg-women-vs-vfl-wolfsburg-women-vjxm8gheyogdr6o
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -84,6 +91,11 @@ https://lilive1.eu.cc/live/8e74c50c6fce9f7262f7608968db725b/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pzhgifbkllliv.vcdn.cloud/1790776693_hd/1790776693_hd@720p.m3u8
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_331.jpg" group-title="Khán Đài" , 30/09 23:45 🟢 ⚽ AS Roma W vs Barcelona W (Enzo)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133742_94d1bbd1.png" group-title="Chuối Chiên" , 30/09 23:45 🟢 ⚽ Roma W vs Barcelona W (Chuối Chao (FHD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
@@ -122,9 +134,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://tructiep.bonglau.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_331.jpg" group-title="Khán Đài" , 30/09 23:45 🟡 ⚽ AS Roma W vs Barcelona W (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/as-roma-w-vs-barcelona-w-30-09-2026-855182
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/09c9433cfa1c306e6b774a272da7f5a9.png" group-title="Phá Làng" , 30/09 23:45 🟡 ⚽ AS Roma Women - Barcelona Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4jwq2ghgok2jm0v
@@ -546,3 +555,6 @@ https://gavang33.me/truc-tiep/azerbaijan-vs-liechtenstein-luc-2300-ngay-01-10-20
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/9ff0bbc7c4dde77be85a27a1c5ba6d6c.png" group-title="GaVang33" , 01/10 23:00 ⚽ Guinea vs Kenya (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/guinea-vs-kenya-luc-2300-ngay-01-10-2026-y0or5jh87pg5qwz
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5844.png" group-title="Sao Kê" , 01/10 23:30 ⚽ Armenia U21 vs Italy U21 (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/armenia-u21-vs-italy-u21-6abcd70d47921e67729eb843.html
