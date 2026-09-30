@@ -1,17 +1,35 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:05:46 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:08:42 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (2 trận), Bông Lau (2 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (6 trận), Chuối Chiên (2 trận), Bông Lau (2 trận) =====
 
 # ----- Ngày 2026-10-01 -----
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_Kazakhstan.svg.webp" group-title="Khán Đài" , 01/10 08:00 🏐 Kazakhstan vs Hong Kong (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/kazakhstan-vs-hong-kong
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_India.svg.webp" group-title="Khán Đài" , 01/10 08:00 🏐 Ấn Độ vs Pakistan (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/an-do-vs-pakistan
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Chuối Chiên" , 01/10 08:00 🏐 India vs Pakistan (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/997557/india-vs-pakistan
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Bông Lau" , 01/10 08:00 🏐 India vs Pakistan (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/997557
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images.png" group-title="Khán Đài" , 01/10 11:00 🏐 Kyrgyzstan vs Đài Loan (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/kyrgyzstan-vs-dai-loan
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_South_Korea.svg.webp" group-title="Khán Đài" , 01/10 11:00 🏐 Hàn Quốc vs Iran (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/han-quoc-vs-iran
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Chuối Chiên" , 01/10 11:00 🏐 South Korea vs Iran (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/998840/south-korea-vs-iran
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Bông Lau" , 01/10 11:00 🏐 South Korea vs Iran (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/998840
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_hdpF9Rm.jpg" group-title="Khán Đài" , 01/10 14:00 🏐 Việt Nam vs Uzbekistan (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/viet-nam-vs-uzbekistan
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_Q9mUTFM.jpg" group-title="Khán Đài" , 01/10 14:00 🏐 Thái Lan vs Trung Quốc (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/thai-lan-vs-trung-quoc
