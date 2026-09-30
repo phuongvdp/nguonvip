@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:39:15 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:42:16 30/9/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (38 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (37 trận) =====
 
 # ----- Ngày 2026-09-30 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/804a96aa15251f0672dea9eb6a354705.png" group-title="Phá Làng" , 30/09 23:00 🟢 ⚽ Valerenga Women - Feyenoord Rotterdam Women (Server 1)
@@ -18,9 +18,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/020fb287c84ac1eafe3b0fedfc834fba.png" group-title="Phá Làng" , 30/09 23:00 🟢 ⚽ Rosenborg BK Women - Slovan Liberec Women (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fb68bf25e1e1a39c5942cce9efdf6a122%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9ebd79de8504a6573dce8c419ff16b10.png" group-title="Phá Làng" , 30/09 23:30 🟢 ⚽ Eintracht Frankfurt Women - Hafnarfjordur Women (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F50c83b103482e17cfb7674678e26b57d%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a8844b6e338455d83cb2dccf35c6751d.png" group-title="Phá Làng" , 30/09 23:30 🟢 ⚽ Sturm Graz/Stattegg Women - VfL Wolfsburg Women (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F8e74c50c6fce9f7262f7608968db725b%2Fplaylist.m3u8&source=phalang
