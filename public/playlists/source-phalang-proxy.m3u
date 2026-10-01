@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:33:17 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:36:23 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (24 trận) =====
 
@@ -13,8 +13,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bfdd500484330d63a723cbc396df762c.png" group-title="Phá Làng" , 01/10 22:30 🟢 ⚽ VfB Stuttgart - SpVgg Greuther Fürth (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fd1e4aa77c14fe20c139aba297188afa2%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/fbaaac7f53bf81a2addf155599a04141.png" group-title="Phá Làng" , 01/10 23:00 🟡 ⚽ Azerbaijan - Liechtenstein (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#pxwrxlhyl8ojryk
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/fbaaac7f53bf81a2addf155599a04141.png" group-title="Phá Làng" , 01/10 23:00 🟢 ⚽ Azerbaijan - Liechtenstein (LÝ LÀNG LÁ)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F83717379d6924e6f1aab38826743602a%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/179de38366aeab18fdda88e0b2bfb1bb.png" group-title="Phá Làng" , 01/10 23:00 🟡 ⚽ Guinea - Kenya (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y0or5jh87pg5qwz
