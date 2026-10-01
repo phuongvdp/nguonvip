@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 12:07:35 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 12:10:33 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (18 trận), Chuối Chiên (19 trận), Phá Làng (38 trận), Gà Vàng (19 trận), Sao Kê (24 trận), GaVang33 (21 trận), Bông Lau (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (18 trận), Chuối Chiên (19 trận), Phá Làng (38 trận), Gà Vàng (18 trận), Sao Kê (24 trận), GaVang33 (21 trận), Bông Lau (19 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://media-cdn-v2.laodong.vn/storage/newsportal/2026/5/27/1708909/Asiad-20-01.jpeg" group-title="Giờ Vàng" , 01/10 06:30 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -59,30 +59,27 @@ https://wtyi0525.edgemaxcdn.org/live/x10-hd-1111/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9ae36debba0abd59c01de2e60fc42648.png" group-title="Gà Vàng" , 01/10 12:00 🟢 ⚽ Khovd Western vs Deren FC (KAYTI)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLL7ALhq-iF9bdJhJA0UtIC9Cg3T02IhWIhh-ox2mZkA&s=10" group-title="Giờ Vàng" , 01/10 12:30 🟢 ⚽ VietNam Men vs Spain Man (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69b8e6f43bcf2231c35d5144.m3u8
+https://pzhgifbkllliv.vcdn.cloud/1790823294_hd/1790823294_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLL7ALhq-iF9bdJhJA0UtIC9Cg3T02IhWIhh-ox2mZkA&s=10" group-title="Giờ Vàng" , 01/10 12:30 🟡 ⚽ VietNam Men vs Spain Man (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-vietnam-men-vs-spain-man-01-10-vqi4kttrpl34
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132737_07ec8953.png" group-title="Chuối Chiên" , 01/10 13:10 ⚽ Panama vs New Zealand (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132737_07ec8953.png" group-title="Chuối Chiên" , 01/10 13:10 🟡 ⚽ Panama vs New Zealand (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/991250/panama-vs-new-zealand
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aef114700ab5fcdc5baa98d53a41761a.png" group-title="Phá Làng" , 01/10 13:10 ⚽ Panama - New Zealand (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aef114700ab5fcdc5baa98d53a41761a.png" group-title="Phá Làng" , 01/10 13:10 🟡 ⚽ Panama - New Zealand (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#dn1m1gh9v3zemoe
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ec01e78e2d9d42d2905f744a38957295.png" group-title="Gà Vàng" , 01/10 13:10 ⚽ Panama vs New Zealand (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ec01e78e2d9d42d2905f744a38957295.png" group-title="Gà Vàng" , 01/10 13:10 🟡 ⚽ Panama vs New Zealand (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/panama-vs-new-zealand-ngay-01-10-2026/
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5922.png" group-title="Sao Kê" , 01/10 13:10 ⚽ Panama vs New Zealand (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5922.png" group-title="Sao Kê" , 01/10 13:10 🟡 ⚽ Panama vs New Zealand (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/panama-vs-new-zealand-6abcd70d47921e67729eb852.html
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/ec01e78e2d9d42d2905f744a38957295.png" group-title="GaVang33" , 01/10 13:10 ⚽ Panama vs New Zealand (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/ec01e78e2d9d42d2905f744a38957295.png" group-title="GaVang33" , 01/10 13:10 🟡 ⚽ Panama vs New Zealand (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/panama-vs-new-zealand-luc-1310-ngay-01-10-2026-dn1m1gh9v3zemoe
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132737_07ec8953.png" group-title="Bông Lau" , 01/10 13:10 ⚽ Panama vs New Zealand (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132737_07ec8953.png" group-title="Bông Lau" , 01/10 13:10 🟡 ⚽ Panama vs New Zealand (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/991250
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/jilBtfFG-0xLZRP53.png" group-title="Giờ Vàng" , 01/10 14:00 🏐 Việt Nam vs Uzbekistan (Chưa có link — chờ cập nhật)
