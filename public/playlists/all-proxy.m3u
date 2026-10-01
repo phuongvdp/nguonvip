@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 11:58:25 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 12:01:39 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (18 trận), Chuối Chiên (19 trận), Phá Làng (37 trận), Gà Vàng (20 trận), Sao Kê (24 trận), GaVang33 (21 trận), Bông Lau (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (18 trận), Chuối Chiên (19 trận), Phá Làng (38 trận), Gà Vàng (19 trận), Sao Kê (24 trận), GaVang33 (21 trận), Bông Lau (19 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://media-cdn-v2.laodong.vn/storage/newsportal/2026/5/27/1708909/Asiad-20-01.jpeg" group-title="Giờ Vàng" , 01/10 06:30 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -22,11 +22,11 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/xUGWvAzB-fHcbO6Ye.png" group-title="Giờ Vàng" , 01/10 11:00 🟢 🏐 Hàn Quốc vs Iran (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790779361_hd%2F1790779361_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images.png" group-title="Khán Đài" , 01/10 11:00 🟢 🏐 Kyrgyzstan vs Đài Loan (Enzo)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa2%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dd3bfcbaa36f949863f22cc89e1cc1afa&source=khandaitv
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images.png" group-title="Khán Đài" , 01/10 11:00 🟢 🏐 Kyrgyzstan vs Đài Loan (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/kyrgyzstan-vs-dai-loan
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_South_Korea.svg.webp" group-title="Khán Đài" , 01/10 11:00 🟢 🏐 Hàn Quốc vs Iran (KaKa)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa7%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_South_Korea.svg.webp" group-title="Khán Đài" , 01/10 11:00 🟢 🏐 Hàn Quốc vs Iran (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/han-quoc-vs-iran
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Chuối Chiên" , 01/10 11:00 🟢 🏐 South Korea vs Iran (Chuối Sấy (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoisayhd%2Fplaylist.m3u8&source=chuoichientv
@@ -39,9 +39,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Bông Lau" , 01/10 11:00 🟢 🏐 South Korea vs Iran (Chuối Sấy (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoisayhd%2Fplaylist.m3u8&source=bonglau
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9ae36debba0abd59c01de2e60fc42648.png" group-title="Gà Vàng" , 01/10 12:00 🟡 ⚽ Khovd Western vs Deren FC (Chưa có link — chờ cập nhật)
-https://gavanglinkr.tv/truc-tiep/khovd-western-vs-deren-fc-ngay-01-10-2026/
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLL7ALhq-iF9bdJhJA0UtIC9Cg3T02IhWIhh-ox2mZkA&s=10" group-title="Giờ Vàng" , 01/10 12:30 🟡 ⚽ VietNam Men vs Spain Man (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-vietnam-men-vs-spain-man-01-10-vqi4kttrpl34
@@ -487,6 +484,9 @@ https://phalang.live/trang-chu#4wyrn4hyzek8q86
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9b531be11cb41d4f7999fc91a943c75f.png" group-title="Phá Làng" , 02/10 02:00 ⚽ Paris Saint Germain Women - Oud Heverlee Leuven Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l5ergphk0393r8k
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5ca231d16159a5bb36151e6b274df2e7.png" group-title="Phá Làng" , 02/10 03:00 ⚽ Sporting Cristal - AD Tarma (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#l7oqdehjy0n3r51
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132742_190812ee.png" group-title="Chuối Chiên" , 02/10 05:00 ⚽ Curaçao vs Trinidad and Tobago (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1639970/curacao-vs-trinidad-and-tobago
