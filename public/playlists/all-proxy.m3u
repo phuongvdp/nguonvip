@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:13:46 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:16:43 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (18 trận), Chuối Chiên (19 trận), Phá Làng (38 trận), Gà Vàng (21 trận), Sao Kê (24 trận), GaVang33 (21 trận), Bông Lau (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (18 trận), Chuối Chiên (19 trận), Phá Làng (38 trận), Gà Vàng (22 trận), Sao Kê (24 trận), GaVang33 (21 trận), Bông Lau (19 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://media-cdn-v2.laodong.vn/storage/newsportal/2026/5/27/1708909/Asiad-20-01.jpeg" group-title="Giờ Vàng" , 01/10 06:30 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -42,6 +42,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aef114700ab5fcdc5baa98d53a41761a.png" group-title="Phá Làng" , 01/10 13:10 🟢 ⚽ Panama - New Zealand (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Ffedd6c698d5f95375afd917b7fab3f54%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ec01e78e2d9d42d2905f744a38957295.png" group-title="Gà Vàng" , 01/10 13:10 🟢 ⚽ Panama vs New Zealand (THICHDUTHU)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a704ad865997681f18c2160.m3u8&source=gavang
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5922.png" group-title="Sao Kê" , 01/10 13:10 🟢 ⚽ Panama vs New Zealand (Quang Huy (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx1-hd-1111%2Fplaylist.m3u8&source=saoke

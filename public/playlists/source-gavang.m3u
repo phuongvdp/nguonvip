@@ -1,13 +1,18 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:13:46 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:16:43 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (21 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (22 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9ae36debba0abd59c01de2e60fc42648.png" group-title="Gà Vàng" , 01/10 12:00 🟢 ⚽ Khovd Western vs Deren FC (KAYTI)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/69b8e6f43bcf2231c35d5144.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ec01e78e2d9d42d2905f744a38957295.png" group-title="Gà Vàng" , 01/10 13:10 🟢 ⚽ Panama vs New Zealand (THICHDUTHU)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a704ad865997681f18c2160.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/c8188e3985db5cee9be1f4ea436f2fc2.png" group-title="Gà Vàng" , 01/10 15:00 ⚽ Erchim vs Tuv Buganuud (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/khaan-khuns-erchim-fc-vs-central-stallions-ngay-01-10-2026/
