@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:37:34 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:40:55 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (17 trận), Chuối Chiên (18 trận), Phá Làng (37 trận), Gà Vàng (21 trận), Sao Kê (23 trận), GaVang33 (21 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (17 trận), Chuối Chiên (18 trận), Phá Làng (37 trận), Gà Vàng (21 trận), Sao Kê (23 trận), GaVang33 (21 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://media-cdn-v2.laodong.vn/storage/newsportal/2026/5/27/1708909/Asiad-20-01.jpeg" group-title="Giờ Vàng" , 01/10 06:30 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -63,11 +63,15 @@ https://pzhgifbkllliv.vcdn.cloud/1790779406_hd/1790779406_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pzhgifbkllliv.vcdn.cloud/1790779452_hd/1790779452_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_hdpF9Rm.jpg" group-title="Khán Đài" , 01/10 14:00 🟢 🏐 Việt Nam vs Uzbekistan (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/viet-nam-vs-uzbekistan
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_hdpF9Rm.jpg" group-title="Khán Đài" , 01/10 14:00 🟢 🏐 Việt Nam vs Uzbekistan (Lee Sin)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_Q9mUTFM.jpg" group-title="Khán Đài" , 01/10 14:00 🟢 🏐 Thái Lan vs Trung Quốc (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/thai-lan-vs-trung-quoc
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_Q9mUTFM.jpg" group-title="Khán Đài" , 01/10 14:00 🟢 🏐 Thái Lan vs Trung Quốc (KaKa)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Chuối Chiên" , 01/10 14:00 🟢 🏐 Việt Nam vs Uzbekistan (Chuối Tây (FHD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
@@ -395,6 +399,15 @@ https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/346d3a466b3ee4902131700743aff424.png" group-title="Gà Vàng" , 02/10 01:30 🏀 Virtus Bologna vs Olympiacos Piraeus B.C. (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/denmark.png" group-title="Giờ Vàng" , 02/10 01:45 ⚽ Đan Mạch vs Bồ Đào Nha (Chưa có link — chờ cập nhật)
+https://giovang.blog/truc-tiep-dan-mach-vs-bo-dao-nha-02-10-69f3f2b74bff4a0c310bf772
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/germany.png" group-title="Giờ Vàng" , 02/10 01:45 ⚽ Đức vs Serbia (Chưa có link — chờ cập nhật)
+https://giovang.blog/truc-tiep-duc-vs-serbia-02-10-69f3f2b74bff4a0c310bf763
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/wales.png" group-title="Giờ Vàng" , 02/10 01:45 ⚽ Wales vs Na Uy (Chưa có link — chờ cập nhật)
+https://giovang.blog/truc-tiep-wales-vs-na-uy-02-10-69f544134f51b3673a06914f
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_677.jpg" group-title="Khán Đài" , 02/10 01:45 ⚽ Ireland vs Austria (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/ireland-vs-austria-02-10-2026-790840
