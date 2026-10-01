@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:43:08 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:46:03 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (20 trận) =====
 
@@ -7,8 +7,8 @@
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/287981.png" group-title="Sao Kê" , 02/10 05:00 🟢 ⚽ Curacao vs Trinidad and Tobago (Cà Rốt (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx10-hd-1111%2Fplaylist.m3u8&source=saoke
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/262134.png" group-title="Sao Kê" , 02/10 07:00 🟡 ⚽ Dominican Republic vs Haiti (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/dominican-republic-vs-haiti-6abcd70d47921e67729eb84c.html
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/262134.png" group-title="Sao Kê" , 02/10 07:00 🟢 ⚽ Dominican Republic vs Haiti (Long Ruồi (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx1-hd-1111%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Sao Kê" , 02/10 08:00 ⚽ India vs South Korea (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/india-vs-south-korea-6abeaff840b179ea16250747.html
