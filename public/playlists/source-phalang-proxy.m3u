@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:52:32 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 09:55:06 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (28 trận) =====
 
@@ -7,8 +7,8 @@
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8941e026a8debbd82633b019552e1515.png" group-title="Phá Làng" , 01/10 08:00 🟢 ⚽ Alianza Lima - Palestino (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F02c652f1fc50e3fe67f94e89da9a8cd2%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/604a26fb4f696d522d464fc2ff0919de.png!w80" group-title="Phá Làng" , 01/10 11:00 🏐 Hàn Quốc - Iran (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#6a5f9bb7a0a841b1b0df4fe6dc8359b8
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/604a26fb4f696d522d464fc2ff0919de.png!w80" group-title="Phá Làng" , 01/10 11:00 🟢 🏐 Hàn Quốc - Iran (LÝ LÊN LỬA (Server 1))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F48f8760363914843886819765b0520c1%2Findex.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aef114700ab5fcdc5baa98d53a41761a.png" group-title="Phá Làng" , 01/10 13:10 ⚽ Panama - New Zealand (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#dn1m1gh9v3zemoe
