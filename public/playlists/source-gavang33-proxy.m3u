@@ -1,20 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:56:43 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:25:56 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (21 trận) =====
 
 # ----- Ngày 2026-10-01 -----
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/ec01e78e2d9d42d2905f744a38957295.png" group-title="GaVang33" , 01/10 13:10 🟢 ⚽ Panama vs New Zealand (Gà Siêu Bệu)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F289650.m3u8&source=gavang33
-
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/c8188e3985db5cee9be1f4ea436f2fc2.png" group-title="GaVang33" , 01/10 15:00 🟢 ⚽ Khaan Khuns-Erchim FC vs Central Stallions (Gà Siêu Tồ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F796315.m3u8&source=gavang33
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f9ce800b0fd64b339c2bcf8ec7d9ec0e.png" group-title="GaVang33" , 01/10 17:10 ⚽ Japan vs Ecuador (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/japan-vs-ecuador-luc-1710-ngay-01-10-2026-4wyrn4hyz4ndq86
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/debe9dfcc3e4dbea1c509ffab6bf9f0b.png" group-title="GaVang33" , 01/10 19:00 ⚽ Maldives vs Lebanon (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/maldives-vs-lebanon-luc-1900-ngay-01-10-2026-l5ergphk0yoyr8k
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/628f16b29939d1b060af49f66ae0f7f8.png" group-title="GaVang33" , 01/10 19:30 ⚽ Indonesia vs Bangladesh (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/indonesia-vs-bangladesh-luc-1930-ngay-01-10-2026-vjxm8ghey0jlr6o
@@ -27,6 +21,9 @@ https://gavang33.me/truc-tiep/dubai-united-vs-hatta-luc-2015-ngay-01-10-2026-dn1
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/c471de7682d1c900df7981bb2cf6536c.png" group-title="GaVang33" , 01/10 20:15 ⚽ Al-Sharjah vs Al Dhafra FC (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/al-sharjah-vs-al-dhafra-fc-luc-2015-ngay-01-10-2026-4wyrn4h6g3o0q86
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/debe9dfcc3e4dbea1c509ffab6bf9f0b.png" group-title="GaVang33" , 01/10 21:00 ⚽ Maldives vs Lebanon (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/maldives-vs-lebanon-luc-2100-ngay-01-10-2026-l5ergphk0yoyr8k
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3016a701d47246f082016705f2f7267c.png" group-title="GaVang33" , 01/10 21:00 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/uzbekistan-vs-syria-luc-2100-ngay-01-10-2026-jw2r09h549l0rz8
@@ -64,6 +61,9 @@ https://gavang33.me/truc-tiep/denmark-vs-portugal-luc-0145-ngay-02-10-2026-318q6
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/a370afda41a7ae62dcb8d1b721b92bed.png" group-title="GaVang33" , 02/10 01:45 ⚽ Israel vs Kosovo (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/israel-vs-kosovo-luc-0145-ngay-02-10-2026-dn1m1ghl9ydymoe
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/c940e50f90b9e73f42045c05d49c6e17.png" group-title="GaVang33" , 02/10 01:45 ⚽ Ireland vs Austria (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/ireland-vs-austria-luc-0145-ngay-02-10-2026-4wyrn4h6yp13q86
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/c3209b7fb56b7bc4fa2619f1248cb561.png" group-title="GaVang33" , 02/10 07:00 ⚽ Dominican Republic vs Haiti (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/dominican-republic-vs-haiti-luc-0700-ngay-02-10-2026-zp5rzghg8kzgq82
