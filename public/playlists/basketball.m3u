@@ -1,11 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:19:12 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:22:06 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (2 trận), Gà Vàng (5 trận) =====
 
 # ----- Ngày 2026-10-01 -----
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/b4775c62432e01185c4fd9669952b258.png" group-title="Giờ Vàng" , 01/10 16:30 🟡 🏀 Tasmania JackJumpers vs Melbourne United (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-tasmania-jackjumpers-vs-melbourne-united-01-10-27222272
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/b4775c62432e01185c4fd9669952b258.png" group-title="Giờ Vàng" , 01/10 16:30 🟢 🏀 Tasmania JackJumpers vs Melbourne United (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.blog/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ftlh5sc02iliv.vcdn.cloud/1790810578_hd/1790810578_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/5bb229debebf925ddf93351301f54b40.png" group-title="Gà Vàng" , 01/10 16:30 🟡 🏀 Tasmania JackJumpers vs Melbourne United (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
