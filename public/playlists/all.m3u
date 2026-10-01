@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:59:16 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:02:12 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (18 trận), Chuối Chiên (19 trận), Phá Làng (28 trận), Gà Vàng (16 trận), Sao Kê (24 trận), GaVang33 (29 trận), Bông Lau (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (18 trận), Chuối Chiên (18 trận), Phá Làng (27 trận), Gà Vàng (16 trận), Sao Kê (24 trận), GaVang33 (29 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTADC3pRGirDoA1eaQtvYds8PQ-vmcEESiPHvywMVtvYU3ERTP__FyL8m8F&s=10" group-title="Giờ Vàng" , 01/10 10:00 🟢 🎾 Beijing Open vs 2026 (Giovang 1)
@@ -9,20 +9,10 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1790780943_hd/1790780943_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Chuối Chiên" , 01/10 17:10 🟢 ⚽ Japan vs Ecuador (Chuối Chao (FHD))
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f9ce800b0fd64b339c2bcf8ec7d9ec0e.png" group-title="Gà Vàng" , 01/10 17:10 🟢 ⚽ Japan vs Ecuador (SAITAMA)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Bông Lau" , 01/10 17:10 🟢 ⚽ Japan vs Ecuador (Chuối Chao (FHD))
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/indonesia.png" group-title="Giờ Vàng" , 01/10 19:30 🟢 ⚽ Indonesia vs Bangladesh (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.rent/
@@ -97,12 +87,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/93767e57668fa184730c8020530415f0/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ece45dc55fae7ce5de34274d1839aa44.png" group-title="Phá Làng" , 01/10 20:00 🟡 ⚽ South Africa U23 - Algeria U23 (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#l7oqdehjyo83r51
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/00341629f46340bd928496510b3147f9.png" group-title="Phá Làng" , 01/10 20:00 🟡 ⚽ Juve Stabia - US Palmese (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#x7lm7phxgzv4m2w
-
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f1eb0a2465dd34309c64d113ce0c9b96.png" group-title="GaVang33" , 01/10 20:15 🟢 ⚽ Dubai United vs Hatta (Gà Siêu Nhí)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/301263.m3u8
@@ -111,43 +95,43 @@ https://live2.zktsva.app/live/301263.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/303098.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/maldives.png" group-title="Giờ Vàng" , 01/10 21:00 ⚽ Maldives vs Liban (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/maldives.png" group-title="Giờ Vàng" , 01/10 21:00 🟡 ⚽ Maldives vs Liban (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-maldives-vs-liban-01-10-6ab70be464cdca71b70d752a
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646.jpg" group-title="Khán Đài" , 01/10 21:00 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646.jpg" group-title="Khán Đài" , 01/10 21:00 🟡 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/uzbekistan-vs-syria-01-10-2026-857053
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_7ff7b895.png" group-title="Chuối Chiên" , 01/10 21:00 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_7ff7b895.png" group-title="Chuối Chiên" , 01/10 21:00 🟡 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1640512/uzbekistan-vs-syria
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ae286cec620b19e61e90a0bc55b4cdaa.png" group-title="Phá Làng" , 01/10 21:00 ⚽ VfL Wolfsburg - Havelse (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ae286cec620b19e61e90a0bc55b4cdaa.png" group-title="Phá Làng" , 01/10 21:00 🟡 ⚽ VfL Wolfsburg - Havelse (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkhyv84lqg8
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/79edbeab6d7de7ce5078c21c1bd4f7c3.png" group-title="Phá Làng" , 01/10 21:00 ⚽ Uzbekistan - Syria (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/79edbeab6d7de7ce5078c21c1bd4f7c3.png" group-title="Phá Làng" , 01/10 21:00 🟡 ⚽ Uzbekistan - Syria (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#jw2r09h549l0rz8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5de7e7b0cc4659edc7b3ea4795a6d2d5.png" group-title="Phá Làng" , 01/10 21:00 ⚽ Maldives - Lebanon (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5de7e7b0cc4659edc7b3ea4795a6d2d5.png" group-title="Phá Làng" , 01/10 21:00 🟡 ⚽ Maldives - Lebanon (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l5ergphk0yoyr8k
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/34b183430e033cba67a45d4955125f91.png" group-title="Phá Làng" , 01/10 21:00 ⚽ Karmiotissa Polemidion - Omonia 29is Maiou (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/34b183430e033cba67a45d4955125f91.png" group-title="Phá Làng" , 01/10 21:00 🟡 ⚽ Karmiotissa Polemidion - Omonia 29is Maiou (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#n54qllh457j3qvy
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/3016a701d47246f082016705f2f7267c.png" group-title="Gà Vàng" , 01/10 21:00 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/3016a701d47246f082016705f2f7267c.png" group-title="Gà Vàng" , 01/10 21:00 🟡 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/uzbekistan-vs-syria-ngay-01-10-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/03645e9c1d7fd2c48705622f52fd901e.png" group-title="Gà Vàng" , 01/10 21:00 ⚽ Wolfsburg vs Havelse (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/03645e9c1d7fd2c48705622f52fd901e.png" group-title="Gà Vàng" , 01/10 21:00 🟡 ⚽ Wolfsburg vs Havelse (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/vfl-wolfsburg-vs-havelse-ngay-01-10-2026/
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8700.png" group-title="Sao Kê" , 01/10 21:00 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8700.png" group-title="Sao Kê" , 01/10 21:00 🟡 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/uzbekistan-vs-syria-6abdb2114c1e63adf7225802.html
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/debe9dfcc3e4dbea1c509ffab6bf9f0b.png" group-title="GaVang33" , 01/10 21:00 ⚽ Maldives vs Lebanon (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/debe9dfcc3e4dbea1c509ffab6bf9f0b.png" group-title="GaVang33" , 01/10 21:00 🟡 ⚽ Maldives vs Lebanon (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/maldives-vs-lebanon-luc-2100-ngay-01-10-2026-l5ergphk0yoyr8k
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3016a701d47246f082016705f2f7267c.png" group-title="GaVang33" , 01/10 21:00 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3016a701d47246f082016705f2f7267c.png" group-title="GaVang33" , 01/10 21:00 🟡 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/uzbekistan-vs-syria-luc-2100-ngay-01-10-2026-jw2r09h549l0rz8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_7ff7b895.png" group-title="Bông Lau" , 01/10 21:00 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_7ff7b895.png" group-title="Bông Lau" , 01/10 21:00 🟡 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1640512
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/al-ettifaq.png" group-title="Giờ Vàng" , 01/10 22:00 ⚽ Al-Gharafa vs Al Mesaimeer (Chưa có link — chờ cập nhật)
@@ -468,6 +452,9 @@ https://gavang33.me/truc-tiep/nicaragua-vs-costa-rica-luc-0900-ngay-02-10-2026-1
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134318_ac29542c.png" group-title="Bông Lau" , 02/10 09:00 ⚽ Nicaragua vs Costa Rica (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1639974
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 02/10 11:00 ⚽ NGUYỄN THỊ TÂM - WU YU (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#1aab9d688de04bbaac5ac39e910025d7
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_599.jpg" group-title="Khán Đài" , 02/10 13:00 ⚽ China W vs South Korea W (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/china-w-vs-south-korea-w
