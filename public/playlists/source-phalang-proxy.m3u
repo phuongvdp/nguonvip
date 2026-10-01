@@ -1,20 +1,17 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:34:35 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:37:39 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (38 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (37 trận) =====
 
 # ----- Ngày 2026-10-01 -----
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/604a26fb4f696d522d464fc2ff0919de.png!w80" group-title="Phá Làng" , 01/10 11:00 🟢 🏐 Hàn Quốc - Iran (LÝ LÊN LỬA (Server 1))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F48f8760363914843886819765b0520c1%2Findex.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aef114700ab5fcdc5baa98d53a41761a.png" group-title="Phá Làng" , 01/10 13:10 🟢 ⚽ Panama - New Zealand (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Ffedd6c698d5f95375afd917b7fab3f54%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/3e9126e77f86c6fd0f04f67c8f149712.png!w80" group-title="Phá Làng" , 01/10 14:00 🟡 🏐 Thái Lan - Trung Quốc (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#802f226df9294105b790f15778b78334
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/3e9126e77f86c6fd0f04f67c8f149712.png!w80" group-title="Phá Làng" , 01/10 14:00 🟢 🏐 Thái Lan - Trung Quốc (LÝ LIỀU LĨNH (Server 1))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2Fe2d7cc4232214687a3c0d3f14ff18a37%2Findex.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 01/10 14:00 🟡 🏐 Việt Nam - Uzbekistan (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#96ab9288e9da424a93ae821e4f34d3e9
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 01/10 14:00 🟢 🏐 Việt Nam - Uzbekistan (LÝ LÊN LỬA (Server 1))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F9900ac047a8145d99dd413668d51204d%2Findex.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/016486307fcd47800a3b166cb5523f07.png" group-title="Phá Làng" , 01/10 17:00 ⚽ NK Olimpija Ljubljana - Slaven Belupo (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66h8zwkzqo9
