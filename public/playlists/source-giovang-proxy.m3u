@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:37:39 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:40:36 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận) =====
 
@@ -16,11 +16,11 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg091elLkS4KDlWt3J6ZF9NpsXBqez81dqTDSPq6yK5A&s=10" group-title="Giờ Vàng" , 01/10 12:30 🟢 ⚽ Skyler Woodward vs Ponco Manurung (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790823294_hd%2F1790823294_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/aEBU_ri8U6F06oTqWmKY5g_96x96.png" group-title="Giờ Vàng" , 01/10 14:00 🟢 🏐 Thái Lan vs Trung Quốc (Giovang 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790779452_hd%2F1790779452_hd%40720p.m3u8&source=giovang
-
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/jilBtfFG-0xLZRP53.png" group-title="Giờ Vàng" , 01/10 14:00 🟢 🏐 Việt Nam vs Uzbekistan (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790779406_hd%2F1790779406_hd%40720p.m3u8&source=giovang
+
+#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/aEBU_ri8U6F06oTqWmKY5g_96x96.png" group-title="Giờ Vàng" , 01/10 14:00 🟢 🏐 Thái Lan vs Trung Quốc (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790779452_hd%2F1790779452_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/b4775c62432e01185c4fd9669952b258.png" group-title="Giờ Vàng" , 01/10 16:30 🏀 Tasmania JackJumpers vs Melbourne United (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-tasmania-jackjumpers-vs-melbourne-united-01-10-27222272
