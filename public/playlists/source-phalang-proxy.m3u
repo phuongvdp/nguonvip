@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:58:03 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:01:07 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (26 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (25 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/ac598e436c3b10ba829822a82ac99bc8.png" group-title="Phá Làng" , 01/10 19:30 🟢 ⚽ Indonesia - Bangladesh (LÝ LONG)
@@ -16,11 +16,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/79edbeab6d7de7ce5078c21c1bd4f7c3.png" group-title="Phá Làng" , 01/10 21:00 🟢 ⚽ Uzbekistan - Syria (LÝ LINH LỰC)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Ffcd1f89692d4bae21dbfa93bfc615833%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ae286cec620b19e61e90a0bc55b4cdaa.png" group-title="Phá Làng" , 01/10 21:00 🟡 ⚽ VfL Wolfsburg - Havelse (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#23xmvkhyv84lqg8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5de7e7b0cc4659edc7b3ea4795a6d2d5.png" group-title="Phá Làng" , 01/10 21:00 🟡 ⚽ Maldives - Lebanon (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#l5ergphk0yoyr8k
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5de7e7b0cc4659edc7b3ea4795a6d2d5.png" group-title="Phá Làng" , 01/10 21:00 🟢 ⚽ Maldives - Lebanon (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fd3177cc2747d1f7a997db5d7d50240ed%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bfdd500484330d63a723cbc396df762c.png" group-title="Phá Làng" , 01/10 22:30 ⚽ VfB Stuttgart - SpVgg Greuther Fürth (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#pxwrxlhlpe45ryk
