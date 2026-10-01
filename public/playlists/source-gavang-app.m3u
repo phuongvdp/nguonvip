@@ -1,11 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:46:03 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:49:05 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (19 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/c8188e3985db5cee9be1f4ea436f2fc2.png" group-title="Gà Vàng" , 01/10 15:00 🟢 ⚽ Erchim vs Tuv Buganuud (SiêU QuậY)
 https://playback.livetl002.com/live/6a2a59b347bbddd62a8dc4e4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f9ce800b0fd64b339c2bcf8ec7d9ec0e.png" group-title="Gà Vàng" , 01/10 17:10 🟡 ⚽ Japan vs Ecuador (Chưa có link — chờ cập nhật)
+https://gavanglinkt.tv/truc-tiep/japan-vs-ecuador-ngay-01-10-2026/
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png" group-title="Gà Vàng" , 01/10 19:30 ⚽ Malaysia vs Singapore (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/malaysia-vs-singapore-ngay-01-10-2026/
@@ -24,9 +27,6 @@ https://gavanglinkt.tv/truc-tiep/greece-u21-vs-latvia-u21-ngay-01-10-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fcac1eae493c493061e66608158b40ef.png" group-title="Gà Vàng" , 01/10 22:00 ⚽ Al Gharafa vs Al Mesaimeer Club (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/al-gharafa-sports-club-vs-al-mesaimeer-club-ngay-01-10-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/bfdd500484330d63a723cbc396df762c.png" group-title="Gà Vàng" , 01/10 22:30 ⚽ Stuttgart vs Greuther Fürth (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/vfb-stuttgart-vs-spvgg-greuther-furth-ngay-01-10-2026/
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f06adf060c098f11e76fa2ff1565ba70.png" group-title="Gà Vàng" , 01/10 23:00 ⚽ North Macedonia U21 vs Montenegro U21 (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/north-macedonia-u21-vs-montenegro-u21-ngay-01-10-2026/
@@ -53,11 +53,11 @@ https://gavanglinkp.tv/
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/346d3a466b3ee4902131700743aff424.png" group-title="Gà Vàng" , 02/10 01:30 🏀 Virtus Bologna vs Olympiacos Piraeus B.C. (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/588f43d3d2fe15b2dad77de9f2cc5c51.png" group-title="Gà Vàng" , 02/10 01:45 ⚽ Wales vs Norway (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/wales-vs-norway-ngay-02-10-2026/
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/761ccf19be6a4fdf81880acadb81aa4c.png" group-title="Gà Vàng" , 02/10 01:45 ⚽ Germany vs Serbia (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/germany-vs-serbia-ngay-02-10-2026/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/588f43d3d2fe15b2dad77de9f2cc5c51.png" group-title="Gà Vàng" , 02/10 01:45 ⚽ Wales vs Norway (Chưa có link — chờ cập nhật)
+https://gavanglinkt.tv/truc-tiep/wales-vs-norway-ngay-02-10-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/78f11969310edf4489395e7a3c12c138.png" group-title="Gà Vàng" , 02/10 01:45 🏀 Paris vs Zalgiris Kaunas (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
