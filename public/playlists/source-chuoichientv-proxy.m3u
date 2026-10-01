@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:28:56 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:32:06 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (19 trận) =====
 
@@ -10,8 +10,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134255_4cc808b5.png" group-title="Chuối Chiên" , 01/10 23:00 🟢 ⚽ Azerbaijan vs Liechtenstein (Trốc Tru (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Ftroctruhd%2Fplaylist.m3u8&source=chuoichientv
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_140334_e7d9f1a5.png" group-title="Chuối Chiên" , 01/10 23:45 🟡 ⚽ Austria Wien W vs Inter Milano W (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1638293/austria-wien-w-vs-inter-milano-w
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_140334_e7d9f1a5.png" group-title="Chuối Chiên" , 01/10 23:45 🟢 ⚽ Austria Wien W vs Inter Milano W (Chuối Tây (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitayhd%2Fplaylist.m3u8&source=chuoichientv
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125455_9f31cc8f.png" group-title="Chuối Chiên" , 02/10 01:45 ⚽ Germany vs Serbia (Chưa có link — chờ cập nhật)
