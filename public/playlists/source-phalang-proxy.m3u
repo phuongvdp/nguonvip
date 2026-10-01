@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:58:44 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:01:26 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (22 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (23 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bfdd500484330d63a723cbc396df762c.png" group-title="Phá Làng" , 01/10 22:30 🟢 ⚽ VfB Stuttgart - SpVgg Greuther Fürth (Server 1)
@@ -13,9 +13,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/179de38366aeab18fdda88e0b2bfb1bb.png" group-title="Phá Làng" , 01/10 23:00 🟢 ⚽ Guinea - Kenya (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fb2472b3d72eac7055ed16f9ae2ff444e%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9dc9c8f928d5cafdc90a747fe0439c2d.png" group-title="Phá Làng" , 01/10 23:00 🟡 ⚽ Trabzonspor - Drogheda United (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#zp5rzgh3y5xeq82
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0454e224a578f2d2fb8e4bafc58e140e.png" group-title="Phá Làng" , 01/10 23:45 🟡 ⚽ Austria Wien Women - Inter Milan Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66h8z0elqo9
 
@@ -23,7 +20,10 @@ https://phalang.live/trang-chu#318q66h8z0elqo9
 https://phalang.live/trang-chu#dn1m1gh9vewvmoe
 
 # ----- Ngày 2026-10-02 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bfeb14c5a9727a76294491a2702f01a7.png" group-title="Phá Làng" , 02/10 00:00 ⚽ FC Liefering - St. Johann (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/62d66427d2435bb445cae63e44c6ad02.png" group-title="Phá Làng" , 02/10 00:00 🟡 ⚽ Atert Bissen - RFC de Liege (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#3glrw7h4k721qdy
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bfeb14c5a9727a76294491a2702f01a7.png" group-title="Phá Làng" , 02/10 00:00 🟡 ⚽ FC Liefering - St. Johann (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#x7lm7phxg38zm2w
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/018e260ad68bdad741c61e3171c4c608.png" group-title="Phá Làng" , 02/10 01:00 ⚽ Real Betis - AD Ceuta (Chưa có link — chờ cập nhật)
@@ -70,3 +70,6 @@ https://phalang.live/trang-chu#62dad66cbff348389c606b919a6dadff
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/fd3dd61e88396b2c01611167ed0867eb.png!w80" group-title="Phá Làng" , 02/10 13:00 ⚽ China Women - South Korea Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66h8z2g3qo9
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/8f0728585eec7b39e9f54a1fd98b1f47.png!w80" group-title="Phá Làng" , 02/10 14:00 🏐 Pakistan - Iran (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#d4f18ef3e68248199654f87160d38b23
