@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 12:58:48 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:01:43 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (19 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images.png" group-title="Khán Đài" , 01/10 11:00 🟢 🏐 Kyrgyzstan vs Đài Loan (Enzo)
@@ -10,10 +10,10 @@ https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfc
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_South_Korea.svg.webp" group-title="Khán Đài" , 01/10 11:00 🟢 🏐 Hàn Quốc vs Iran (KaKa)
 https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://khandai3.link
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_hdpF9Rm.jpg" group-title="Khán Đài" , 01/10 14:00 🏐 Việt Nam vs Uzbekistan (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_hdpF9Rm.jpg" group-title="Khán Đài" , 01/10 14:00 🟡 🏐 Việt Nam vs Uzbekistan (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/viet-nam-vs-uzbekistan
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_Q9mUTFM.jpg" group-title="Khán Đài" , 01/10 14:00 🏐 Thái Lan vs Trung Quốc (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_Q9mUTFM.jpg" group-title="Khán Đài" , 01/10 14:00 🟡 🏐 Thái Lan vs Trung Quốc (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/thai-lan-vs-trung-quoc
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_njudfFz.jpg" group-title="Khán Đài" , 01/10 17:00 🏐 Philippines vs Indonesia (Chưa có link — chờ cập nhật)
@@ -58,3 +58,6 @@ https://khandai3.link/truc-tiep/wales-vs-norway-02-10-2026-790891
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_26.jpg" group-title="Khán Đài" , 02/10 02:00 ⚽ Manchester City W vs Real Madrid W (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/manchester-city-w-vs-real-madrid-w-02-10-2026-855214
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_599.jpg" group-title="Khán Đài" , 02/10 13:00 ⚽ China W vs South Korea W (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/china-w-vs-south-korea-w
