@@ -57,6 +57,36 @@ jobs:
         with:
           node-version: '20'
 
+      # Domain các nguồn: khai báo TẤT CẢ trong MỘT biến GitHub tên SOURCE_DOMAINS
+      # (Settings > Secrets and variables > Actions > tab Variables), mỗi dòng "tên=domain".
+      # Bước này mở biến đó thành các biến môi trường thường (GIOVANG_DOMAIN, SAOKE_BASE_URL...)
+      # cho MỌI bước phía sau qua $GITHUB_ENV nên code các nguồn không phải sửa gì.
+      # Ưu tiên: dòng trong SOURCE_DOMAINS > biến riêng lẻ cũ > domain mặc định trong code.
+      # Workflow "Check Domains" cũng tự sửa biến SOURCE_DOMAINS khi tìm được domain mới.
+      # (Biến riêng lẻ bên dưới chỉ là dự phòng tương thích cũ — để trống cũng được.)
+      - name: Expand source domains (GitHub Variables)
+        run: node scripts/expand-source-domains.mjs
+        env:
+          SOURCE_DOMAINS: ${{ vars.SOURCE_DOMAINS }}
+          GIOVANG_DOMAIN: ${{ vars.GIOVANG_DOMAIN }}
+          KHANDAITV_BASE_URL: ${{ vars.KHANDAITV_BASE_URL }}
+          PHAOHOA_BASE_URL: ${{ vars.PHAOHOA_BASE_URL }}
+          GAVANG_BASE_URL: ${{ vars.GAVANG_BASE_URL }}
+          GAVANG33_DOMAIN: ${{ vars.GAVANG33_DOMAIN }}
+          SAOKE_BASE_URL: ${{ vars.SAOKE_BASE_URL }}
+          BONGLAU_DOMAIN: ${{ vars.BONGLAU_DOMAIN }}
+          PHALANG_DOMAIN: ${{ vars.PHALANG_DOMAIN }}
+          CHUOICHIENTV_WATCH_DOMAIN: ${{ vars.CHUOICHIENTV_WATCH_DOMAIN }}
+          CHUOICHIENTV_PLAYER_DOMAIN: ${{ vars.CHUOICHIENTV_PLAYER_DOMAIN || secrets.CHUOICHIENTV_PLAYER_DOMAIN }}
+          SAOKE_PLAYER_DOMAIN: ${{ vars.SAOKE_PLAYER_DOMAIN }}
+          BONGLAU_PLAYER_DOMAIN: ${{ vars.BONGLAU_PLAYER_DOMAIN }}
+          GIOVANG_LIVE_API_HOST: ${{ vars.GIOVANG_LIVE_API_HOST }}
+          SAOKE_API_DOMAIN: ${{ vars.SAOKE_API_DOMAIN }}
+          GAVANG33_API_DOMAIN: ${{ vars.GAVANG33_API_DOMAIN }}
+          PHALANG_API_BASE: ${{ vars.PHALANG_API_BASE }}
+          CHUOICHIENTV_API_BASE: ${{ vars.CHUOICHIENTV_API_BASE }}
+          BONGLAU_API_BASE: ${{ vars.BONGLAU_API_BASE }}
+
       - name: Install dependencies
         run: npm ci
 
@@ -115,7 +145,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # dung de tu goi API workflow_dispatch kich hoat lai chinh workflow nay
           # FIX (25/09/2026): Override referer cho Chuoi Chien (GitHub Actions IP bi CDN chcan)
           CHUOICHIENTV_IPTV_REFERER: ${{ secrets.CHUOICHIENTV_IPTV_REFERER }}
-          CHUOICHIENTV_PLAYER_DOMAIN: ${{ secrets.CHUOICHIENTV_PLAYER_DOMAIN }}
           # FIX (27/09/2026 — sinh thêm file "-proxy.m3u" chạy qua server
           # sống /api/proxy/hls, dùng được cho MỌI app IPTV kể cả app không
           # hỗ trợ header tuỳ chỉnh): để trống secret này thì bỏ qua, không
@@ -123,11 +152,6 @@ jobs:
           # Vercel/Render/VPS đã deploy, ví dụ https://ten-project.vercel.app
           PROXY_BASE_URL: ${{ secrets.PROXY_BASE_URL }}
 
-      # Luoi an toan cuoi cung: vong lap ben tren da tu commit/push sau MOI
-      # chu ky roi (xem GENERATE_AUTO_COMMIT), nen thong thuong buoc nay
-      # khong con gi de commit ("|| true" xu ly truong hop do). Giu lai
-      # phong khi chu ky cuoi cung (ngay truoc luc job tu dung) co thay doi
-      # chua kip push vi ly do gi do.
       - name: Commit and push (du phong)
         run: |
           git config --global user.email "actions@github.com"
