@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:41:09 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:43:49 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (24 trận), Chuối Chiên (18 trận), Phá Làng (23 trận), Gà Vàng (10 trận), Sao Kê (21 trận), GaVang33 (27 trận), Bông Lau (18 trận) =====
 
@@ -79,6 +79,12 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_140334_e7d9f1a5.png" group-title="Chuối Chiên" , 01/10 23:45 🟢 ⚽ Austria Wien W vs Inter Milano W (Chuối Tây (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitayhd%2Fplaylist.m3u8&source=chuoichientv
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0454e224a578f2d2fb8e4bafc58e140e.png" group-title="Phá Làng" , 01/10 23:45 🟢 ⚽ Austria Wien Women - Inter Milan Women (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F9f6743fcad4ede046b1d795372666c8e%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/31dc5c767bfeeba8745f8170e7c278e4.png" group-title="Phá Làng" , 01/10 23:45 🟢 ⚽ HB Koge Woman's(w) - Servette Women (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fe81730c38fdcc61a46ab3e64e9343993%2Fplaylist.m3u8&source=phalang
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1777852.png" group-title="Sao Kê" , 01/10 23:45 🟢 ⚽ Austria Wien W (W) vs Inter (W) (Kai (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx00-hd-1111%2Fplaylist.m3u8&source=saoke
 
@@ -87,12 +93,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_140334_e7d9f1a5.png" group-title="Bông Lau" , 01/10 23:45 🟢 ⚽ Austria Wien W vs Inter Milano W (Chuối Tây (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitayhd%2Fplaylist.m3u8&source=bonglau
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0454e224a578f2d2fb8e4bafc58e140e.png" group-title="Phá Làng" , 01/10 23:45 🟡 ⚽ Austria Wien Women - Inter Milan Women (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#318q66h8z0elqo9
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/31dc5c767bfeeba8745f8170e7c278e4.png" group-title="Phá Làng" , 01/10 23:45 🟡 ⚽ HB Koge Woman's(w) - Servette Women (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#dn1m1gh9vewvmoe
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/0454e224a578f2d2fb8e4bafc58e140e.png" group-title="Gà Vàng" , 01/10 23:45 🟡 ⚽ Austria Wien (w) vs Inter Milan(w) (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/austria-wien-women-vs-inter-milan-women-ngay-01-10-2026/

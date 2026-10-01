@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:41:09 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:43:49 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (24 trận), Chuối Chiên (18 trận), Phá Làng (23 trận), Gà Vàng (10 trận), Sao Kê (21 trận), GaVang33 (27 trận), Bông Lau (18 trận) =====
 
@@ -79,6 +79,12 @@ https://ftlh5sc02iliv.vcdn.cloud/1790841639_hd/1790841639_hd@720p.m3u8|User-Agen
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_140334_e7d9f1a5.png" group-title="Chuối Chiên" , 01/10 23:45 🟢 ⚽ Austria Wien W vs Inter Milano W (Chuối Tây (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0454e224a578f2d2fb8e4bafc58e140e.png" group-title="Phá Làng" , 01/10 23:45 🟢 ⚽ Austria Wien Women - Inter Milan Women (Server 1)
+https://lilive1.eu.cc/live/9f6743fcad4ede046b1d795372666c8e/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/truc-tiep/austria-wien-women-vs-inter-milan-women-318q66h8z0elqo9&Origin=https://phalang.live
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/31dc5c767bfeeba8745f8170e7c278e4.png" group-title="Phá Làng" , 01/10 23:45 🟢 ⚽ HB Koge Woman's(w) - Servette Women (Server 1)
+https://lilive1.eu.cc/live/e81730c38fdcc61a46ab3e64e9343993/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/truc-tiep/hb-koge-woman-s-w-vs-servette-women-dn1m1gh9vewvmoe&Origin=https://phalang.live
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/1777852.png" group-title="Sao Kê" , 01/10 23:45 🟢 ⚽ Austria Wien W (W) vs Inter (W) (Kai (HD))
 https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://vip3.saoketv40.xyz/azerbaijan-vs-liechtenstein-6abcd70d47921e67729eb849.html
 
@@ -87,12 +93,6 @@ https://live2.zktsva.app/live/307240.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_140334_e7d9f1a5.png" group-title="Bông Lau" , 01/10 23:45 🟢 ⚽ Austria Wien W vs Inter Milano W (Chuối Tây (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0454e224a578f2d2fb8e4bafc58e140e.png" group-title="Phá Làng" , 01/10 23:45 🟡 ⚽ Austria Wien Women - Inter Milan Women (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#318q66h8z0elqo9
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/31dc5c767bfeeba8745f8170e7c278e4.png" group-title="Phá Làng" , 01/10 23:45 🟡 ⚽ HB Koge Woman's(w) - Servette Women (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#dn1m1gh9vewvmoe
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/0454e224a578f2d2fb8e4bafc58e140e.png" group-title="Gà Vàng" , 01/10 23:45 🟡 ⚽ Austria Wien (w) vs Inter Milan(w) (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/austria-wien-women-vs-inter-milan-women-ngay-01-10-2026/
