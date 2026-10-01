@@ -1,0 +1,91 @@
+name: Check Domains
+
+# Quét xem domain các nguồn còn sống không. Domain nào chết / đã chuyển hướng ->
+# tự tìm domain mới (đã kiểm tra nội dung, chống trang rao bán) -> ghi vào biến
+# SOURCE_DOMAINS (MỘT biến chứa domain của tất cả nguồn) -> chạy lại "Generate Playlists"
+# để dùng domain mới ngay.
+# CHỈ CHẠY TAY: tab Actions > Check Domains > Run workflow. (Muốn quét định kỳ thì
+# thêm khối `schedule: - cron: '0 3 * * *'` ngay dưới `on:`.)
+#
+# CẦN 1 LẦN: tạo secret GH_VARIABLES_TOKEN (Fine-grained PAT, chọn repo này,
+# Repository permissions > Variables = Read and write). Không có secret này thì
+# workflow vẫn quét + báo cáo, nhưng KHÔNG ghi được biến (GITHUB_TOKEN mặc định
+# của GitHub không có quyền ghi Variables). Chi tiết: CHECK_DOMAINS.md
+
+on:
+  workflow_dispatch:
+    inputs:
+      auto_fix:
+        description: 'Tự ghi biến domain mới lên GitHub (tắt = chỉ quét, báo cáo)'
+        type: boolean
+        default: true
+      sources:
+        description: 'Nguồn cần quét: all hoặc danh sách cách nhau dấu phẩy (vd giovang,saoke)'
+        type: string
+        default: 'all'
+      extra_candidates:
+        description: 'Domain mới BẠN biết (cách nhau dấu phẩy) — thử đầu tiên cho nguồn nào chết'
+        type: string
+        default: ''
+      restart_generator:
+        description: 'Sau khi đổi biến, chạy lại Generate Playlists để dùng domain mới ngay'
+        type: boolean
+        default: true
+
+concurrency:
+  group: check-domains
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  actions: write # cần để chạy lại workflow Generate Playlists
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      # Script không cần cài thư viện nào (dùng fetch/dns có sẵn của Node 20).
+      - name: Scan domains
+        id: scan
+        run: node scripts/check-domains.mjs
+        env:
+          AUTO_FIX: ${{ inputs.auto_fix }}
+          SOURCES: ${{ inputs.sources }}
+          EXTRA_CANDIDATES: ${{ inputs.extra_candidates }}
+          GH_VARIABLES_TOKEN: ${{ secrets.GH_VARIABLES_TOKEN }}
+          SOURCE_DOMAINS: ${{ vars.SOURCE_DOMAINS }}
+          GIOVANG_DOMAIN: ${{ vars.GIOVANG_DOMAIN }}
+          KHANDAITV_BASE_URL: ${{ vars.KHANDAITV_BASE_URL }}
+          PHAOHOA_BASE_URL: ${{ vars.PHAOHOA_BASE_URL }}
+          GAVANG_BASE_URL: ${{ vars.GAVANG_BASE_URL }}
+          GAVANG33_DOMAIN: ${{ vars.GAVANG33_DOMAIN }}
+          SAOKE_BASE_URL: ${{ vars.SAOKE_BASE_URL }}
+          BONGLAU_DOMAIN: ${{ vars.BONGLAU_DOMAIN }}
+          PHALANG_DOMAIN: ${{ vars.PHALANG_DOMAIN }}
+          CHUOICHIENTV_WATCH_DOMAIN: ${{ vars.CHUOICHIENTV_WATCH_DOMAIN }}
+          CHUOICHIENTV_PLAYER_DOMAIN: ${{ vars.CHUOICHIENTV_PLAYER_DOMAIN || secrets.CHUOICHIENTV_PLAYER_DOMAIN }}
+          SAOKE_PLAYER_DOMAIN: ${{ vars.SAOKE_PLAYER_DOMAIN }}
+          BONGLAU_PLAYER_DOMAIN: ${{ vars.BONGLAU_PLAYER_DOMAIN }}
+          GIOVANG_LIVE_API_HOST: ${{ vars.GIOVANG_LIVE_API_HOST }}
+          SAOKE_API_DOMAIN: ${{ vars.SAOKE_API_DOMAIN }}
+          GAVANG33_API_DOMAIN: ${{ vars.GAVANG33_API_DOMAIN }}
+          PHALANG_API_BASE: ${{ vars.PHALANG_API_BASE }}
+          CHUOICHIENTV_API_BASE: ${{ vars.CHUOICHIENTV_API_BASE }}
+          BONGLAU_API_BASE: ${{ vars.BONGLAU_API_BASE }}
+
+      # Chạy chậm sau cùng: dù bước quét báo đỏ (còn nguồn chưa xử lý được) mà đã ghi
+      # được biến cho nguồn khác thì vẫn khởi động lại để dùng domain mới.
+      - name: Restart Generate Playlists
+        if: ${{ !cancelled() && steps.scan.outputs.changed == 'true' && inputs.restart_generator }}
+        run: gh workflow run validate-and-generate.yml --ref "${{ github.ref_name }}"
+        env:
+          GH_TOKEN: ${{ github.token }}
