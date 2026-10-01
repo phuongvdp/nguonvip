@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:14:19 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:17:10 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (18 trận), Chuối Chiên (18 trận), Phá Làng (27 trận), Gà Vàng (17 trận), Sao Kê (24 trận), GaVang33 (29 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (18 trận), Chuối Chiên (18 trận), Phá Làng (27 trận), Gà Vàng (15 trận), Sao Kê (24 trận), GaVang33 (30 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/indonesia.png" group-title="Giờ Vàng" , 01/10 19:30 🟢 ⚽ Indonesia vs Bangladesh (Giovang 1)
@@ -14,11 +14,15 @@ https://ftlh5sc02iliv.vcdn.cloud/1790810386_hd/1790810386_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1790810421_hd/1790810421_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_484.jpg" group-title="Khán Đài" , 01/10 19:30 🟢 ⚽ Indonesia vs Bangladesh (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/indonesia-vs-bangladesh-01-10-2026-859003
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_484.jpg" group-title="Khán Đài" , 01/10 19:30 🟢 ⚽ Indonesia vs Bangladesh (Chim Nhỏ)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_478.jpg" group-title="Khán Đài" , 01/10 19:30 🟢 ⚽ Malaysia vs Singapore (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/malaysia-vs-singapore-01-10-2026-859004
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_478.jpg" group-title="Khán Đài" , 01/10 19:30 🟢 ⚽ Malaysia vs Singapore (Tày)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 01/10 19:30 🟢 ⚽ Indonesia vs Bangladesh (Chuối Sấy (FHD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
@@ -40,16 +44,6 @@ https://lilive1.eu.cc/live/8c1891222dc59f9f6a83e66d7c969c1e/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/c854efb8a51b51209b2f7a2432f31846/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png" group-title="Gà Vàng" , 01/10 19:30 🟢 ⚽ Malaysia vs Singapore (CRIS)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/628f16b29939d1b060af49f66ae0f7f8.png" group-title="Gà Vàng" , 01/10 19:30 🟢 ⚽ Indonesia vs Bangladesh (SAITAMA)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8
-
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6324.png" group-title="Sao Kê" , 01/10 19:30 🟢 ⚽ Indonesia vs Bangladesh (Bút Chì (HD))
 #EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/japan-vs-ecuador-6abcd70d47921e67729eb853.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -69,12 +63,12 @@ https://live2.zktsva.app/live/294335.m3u8
 https://live2.zktsva.app/live/301238.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Bông Lau" , 01/10 19:30 🟢 ⚽ Indonesia vs Bangladesh (Chuối Sấy (FHD))
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-referrer=https://tructiep.bonglau.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_193521_ec2f00c2.png" group-title="Bông Lau" , 01/10 19:30 🟢 ⚽ Malaysia vs Singapore (Chuối Nhỏ (FHD))
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-referrer=https://tructiep.bonglau.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
 
@@ -553,3 +547,6 @@ https://lau05.bonglautv1.pro/truc-tiep/1640074
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/zyDlfTYA-MgUxY1Yb.png" group-title="Giờ Vàng" , 02/10 19:30 ⚽ Bryne vs Lyn (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-bryne-vs-lyn-02-10-4s35pabksefh
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/17b767b98695df2fb512e992dd8a7af4.png" group-title="GaVang33" , 02/10 20:15 ⚽ Al-Wasl SC vs Ittihad Kalba FC (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/al-wasl-sc-vs-ittihad-kalba-fc-luc-2015-ngay-02-10-2026-l7oqdehg7p88r51
