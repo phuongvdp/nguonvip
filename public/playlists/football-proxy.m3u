@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:05:04 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:08:14 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (19 trận), Chuối Chiên (19 trận), Phá Làng (29 trận), Gà Vàng (14 trận), Sao Kê (25 trận), GaVang33 (30 trận), Bông Lau (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (19 trận), Chuối Chiên (19 trận), Phá Làng (29 trận), Gà Vàng (13 trận), Sao Kê (25 trận), GaVang33 (30 trận), Bông Lau (19 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_540.jpg" group-title="Khán Đài" , 01/10 17:10 🟢 ⚽ Japan vs Ecuador (Lee Sin)
@@ -12,9 +12,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/1ed9ede7058ba5986340f0f324e59a47.png" group-title="Phá Làng" , 01/10 17:10 🟢 ⚽ Japan - Ecuador (LÝ LA LÀNG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Faad5dbe1adf2fe14afe5d96cb146c4b6%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f9ce800b0fd64b339c2bcf8ec7d9ec0e.png" group-title="Gà Vàng" , 01/10 17:10 🟢 ⚽ Japan vs Ecuador (SAITAMA)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69f42e961f739deff81510c0.m3u8&source=gavang
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6715.png" group-title="Sao Kê" , 01/10 17:10 🟢 ⚽ Japan vs Ecuador (Tít (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx2-hd-1111%2Fplaylist.m3u8&source=saoke

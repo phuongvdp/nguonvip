@@ -1,13 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:05:04 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:08:14 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (31 trận) =====
 
 # ----- Ngày 2026-10-01 -----
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/0553251f78c17a5cd8a102fd354e9316.png!w80" group-title="Phá Làng" , 01/10 17:00 🟢 🏐 Philippines - Indonesia (LÝ LINH LỰC (Server 1))
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/philippines-vs-indonesia-6945a41fa47a4df39d3f2186977efdec
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://pull.digitalcdn.net/live/ac40ea8602f441279c102c17af815891/index.m3u8
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/0553251f78c17a5cd8a102fd354e9316.png!w80" group-title="Phá Làng" , 01/10 17:00 🟢 🏐 Philippines - Indonesia (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#6945a41fa47a4df39d3f2186977efdec
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/1ed9ede7058ba5986340f0f324e59a47.png" group-title="Phá Làng" , 01/10 17:10 🟢 ⚽ Japan - Ecuador (LÝ LA LÀNG)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/japan-vs-ecuador-4wyrn4hyz4ndq86
