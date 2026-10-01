@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:31:14 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:34:17 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (6 trận), Khán Đài (13 trận), Chuối Chiên (16 trận), Phá Làng (33 trận), Gà Vàng (16 trận), Sao Kê (23 trận), GaVang33 (21 trận), Bông Lau (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (8 trận), Khán Đài (13 trận), Chuối Chiên (16 trận), Phá Làng (33 trận), Gà Vàng (16 trận), Sao Kê (23 trận), GaVang33 (21 trận), Bông Lau (16 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132737_07ec8953.png" group-title="Chuối Chiên" , 01/10 13:10 🟢 ⚽ Panama vs New Zealand (Chuối Chao (FHD))
@@ -25,6 +25,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Sao Kê" , 01/10 14:00 🟢 ⚽ Việt Nam vs Uzbekistan (Teppy (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx31-hd-1111%2Fplaylist.m3u8&source=saoke
 
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/c8188e3985db5cee9be1f4ea436f2fc2.png" group-title="GaVang33" , 01/10 15:00 🟢 ⚽ Khaan Khuns-Erchim FC vs Central Stallions (Gà Siêu Tồ)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F796315.m3u8&source=gavang33
+
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/c8188e3985db5cee9be1f4ea436f2fc2.png" group-title="Gà Vàng" , 01/10 15:00 🟡 ⚽ Erchim vs Tuv Buganuud (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/khaan-khuns-erchim-fc-vs-central-stallions-ngay-01-10-2026/
 
@@ -33,9 +36,6 @@ https://vip3.saoketv40.xyz/north-district-vs-southern-district-6abcd7b6ad19d495b
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/c8188e3985db5cee9be1f4ea436f2fc2.png!w60" group-title="Sao Kê" , 01/10 15:00 🟡 ⚽ Khaan Khuns-Erchim FC vs Central Stallions (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/khaan-khuns-erchim-fc-vs-central-stallions-6abdb2918bb9fae0f7fbdd8f.html
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/c8188e3985db5cee9be1f4ea436f2fc2.png" group-title="GaVang33" , 01/10 15:00 🟡 ⚽ Khaan Khuns-Erchim FC vs Central Stallions (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/khaan-khuns-erchim-fc-vs-central-stallions-luc-1500-ngay-01-10-2026-2y8m4zh5l2e1ql0
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/016486307fcd47800a3b166cb5523f07.png" group-title="Phá Làng" , 01/10 17:00 ⚽ NK Olimpija Ljubljana - Slaven Belupo (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66h8zwkzqo9
@@ -192,6 +192,12 @@ https://gavanglinkt.tv/truc-tiep/vfb-stuttgart-vs-spvgg-greuther-furth-ngay-01-1
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/bfdd500484330d63a723cbc396df762c.png" group-title="GaVang33" , 01/10 22:30 ⚽ VfB Stuttgart vs SpVgg Greuther Fürth (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/vfb-stuttgart-vs-spvgg-greuther-frth-luc-2230-ngay-01-10-2026-pxwrxlhlpe45ryk
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/guinea.png" group-title="Giờ Vàng" , 01/10 23:00 ⚽ Guinea vs Kenya (Chưa có link — chờ cập nhật)
+https://giovang.blog/truc-tiep-guinea-vs-kenya-01-10-6a35da18dbc86fdf90016039
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/azerbaijan.png" group-title="Giờ Vàng" , 01/10 23:00 ⚽ Azerbaijan vs Liechtenstein (Chưa có link — chờ cập nhật)
+https://giovang.blog/truc-tiep-azerbaijan-vs-liechtenstein-01-10-69f3f2b74bff4a0c310bf790
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_722.jpg" group-title="Khán Đài" , 01/10 23:00 ⚽ Guinea vs Kenya (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/guinea-vs-kenya-01-10-2026-786883
