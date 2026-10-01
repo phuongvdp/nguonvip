@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:58:23 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:01:36 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (17 trận), Chuối Chiên (18 trận), Phá Làng (21 trận), Gà Vàng (6 trận), Sao Kê (21 trận), GaVang33 (27 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (17 trận), Chuối Chiên (18 trận), Phá Làng (20 trận), Gà Vàng (6 trận), Sao Kê (21 trận), GaVang33 (27 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/8ba6b4f123aa2cf2832d19b58bf194ef.png" group-title="Gà Vàng" , 01/10 22:00 🟢 ⚽ Greece U21 vs Latvia U21 (Cá MậP)
@@ -141,17 +141,16 @@ https://live2.zktsva.app/live/307240.m3u8
 https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
 
 # ----- Ngày 2026-10-02 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/62d66427d2435bb445cae63e44c6ad02.png" group-title="Phá Làng" , 02/10 00:00 🟡 ⚽ Atert Bissen - RFC de Liege (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#3glrw7h4k721qdy
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bfeb14c5a9727a76294491a2702f01a7.png" group-title="Phá Làng" , 02/10 00:00 🟡 ⚽ FC Liefering - St. Johann (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#x7lm7phxg38zm2w
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/hungary-u21.png" group-title="Giờ Vàng" , 02/10 00:00 🟢 ⚽ U21 Hungary vs U21 Lithuania (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.rent/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ftlh5sc02iliv.vcdn.cloud/1790840549_hd/1790840549_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/af47207f36a49c89502312138e54f6a7.png" group-title="GaVang33" , 02/10 00:15 🟢 ⚽ Al-Shamal Sports Club vs Muaither SC (Gà Siêu Tồ)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/796315.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/018e260ad68bdad741c61e3171c4c608.png" group-title="Phá Làng" , 02/10 01:00 ⚽ Real Betis - AD Ceuta (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/018e260ad68bdad741c61e3171c4c608.png" group-title="Phá Làng" , 02/10 01:00 🟡 ⚽ Real Betis - AD Ceuta (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y0or5jh9xz68qwz
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/denmark.png" group-title="Giờ Vàng" , 02/10 01:45 ⚽ Đan Mạch vs Bồ Đào Nha (Chưa có link — chờ cập nhật)
@@ -357,6 +356,9 @@ https://khandai3.link/truc-tiep/viet-nam-vs-pakistan-02-10-2026-859009
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_479.jpg" group-title="Khán Đài" , 02/10 15:00 ⚽ Việt Nam vs Pakistan (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/viet-nam-vs-pakistan-02-10-2026-180836
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/940bb92f83d40985137748d0d3aeb213.png" group-title="Phá Làng" , 02/10 15:00 ⚽ Lokomotiv Plovdiv - Arda (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#l5ergphk0wnvr8k
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_358dda20.png" group-title="Chuối Chiên" , 02/10 16:00 ⚽ Thailand vs Philippines (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641716/thailand-vs-philippines
