@@ -1,20 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:58:11 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:01:24 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (16 trận), Chuối Chiên (15 trận), Phá Làng (32 trận), Gà Vàng (14 trận), Sao Kê (20 trận), GaVang33 (26 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (16 trận), Chuối Chiên (15 trận), Phá Làng (31 trận), Gà Vàng (14 trận), Sao Kê (19 trận), GaVang33 (27 trận), Bông Lau (15 trận) =====
 
 # ----- Ngày 2026-10-01 -----
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/c8188e3985db5cee9be1f4ea436f2fc2.png!w60" group-title="Sao Kê" , 01/10 15:00 🟢 ⚽ Khaan Khuns-Erchim FC vs Central Stallions (Mơ (HD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx68-hd-1111%2Fplaylist.m3u8&source=saoke
-
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/c8188e3985db5cee9be1f4ea436f2fc2.png" group-title="GaVang33" , 01/10 15:00 🟢 ⚽ Khaan Khuns-Erchim FC vs Central Stallions (Gà Siêu Tồ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F796315.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/016486307fcd47800a3b166cb5523f07.png" group-title="Phá Làng" , 01/10 17:00 🟡 ⚽ NK Olimpija Ljubljana - Slaven Belupo (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#318q66h8zwkzqo9
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_540.jpg" group-title="Khán Đài" , 01/10 17:10 🟢 ⚽ Japan vs Ecuador (Lee Sin)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa10%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_540.jpg" group-title="Khán Đài" , 01/10 17:10 🟢 ⚽ Japan vs Ecuador (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/japan-vs-ecuador
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Chuối Chiên" , 01/10 17:10 🟢 ⚽ Japan vs Ecuador (Chuối Chao (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoichaohd%2Fplaylist.m3u8&source=chuoichientv
@@ -469,3 +463,6 @@ https://gavang33.me/truc-tiep/thailand-vs-philippines-luc-1600-ngay-02-10-2026-y
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/14b75c2d38d88b747c19de8ea5509d16.png" group-title="GaVang33" , 02/10 16:00 ⚽ Vietnam vs Pakistan (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/vietnam-vs-pakistan-luc-1600-ngay-02-10-2026-23xmvkh672dlqg8
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/895a263ae5237d0edbaf850a907a59b0.png" group-title="GaVang33" , 02/10 17:00 ⚽ 1. FC Nürnberg vs FC Ingolstadt (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/1-fc-nrnberg-vs-fc-ingolstadt-luc-1700-ngay-02-10-2026-ednm9wh580ewryo
