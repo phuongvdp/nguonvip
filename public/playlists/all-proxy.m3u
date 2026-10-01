@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:54:10 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:57:06 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (20 trận), Chuối Chiên (20 trận), Phá Làng (30 trận), Gà Vàng (24 trận), Sao Kê (25 trận), GaVang33 (15 trận), Bông Lau (20 trận) =====
 
@@ -75,6 +75,9 @@ https://phalang.live/trang-chu#k82rekh2z6v3rep
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b6abc1cdf2df183dbe5aea9b8dcbda4b.png" group-title="Gà Vàng" , 01/10 09:00 🟡 ⚽ Sacramento Republic FC vs Las Vegas Lights (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/sacramento-republic-fc-vs-las-vegas-lights-ngay-01-10-2026/
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScASzyMboTqvaXcsCvqZO4pouOAu1HBj0MKVDdJhRvOY8MuXuWxc8j6CA&s=10" group-title="Giờ Vàng" , 01/10 09:15 🟢 🎾 Tokyo Open vs 2026 (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790781031_hd%2F1790781031_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTADC3pRGirDoA1eaQtvYds8PQ-vmcEESiPHvywMVtvYU3ERTP__FyL8m8F&s=10" group-title="Giờ Vàng" , 01/10 10:00 🎾 Beijing Open vs 2026 (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-beijing-open-vs-2026-01-10-wcw23uj5ldtg
@@ -318,9 +321,6 @@ https://gavang33.me/truc-tiep/uzbekistan-vs-syria-luc-2100-ngay-01-10-2026-jw2r0
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_7ff7b895.png" group-title="Bông Lau" , 01/10 21:00 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1640512
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScASzyMboTqvaXcsCvqZO4pouOAu1HBj0MKVDdJhRvOY8MuXuWxc8j6CA&s=10" group-title="Giờ Vàng" , 01/10 21:15 🟢 🎾 Tokyo Open vs 2026 (Giovang 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790781031_hd%2F1790781031_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/al-ettifaq.png" group-title="Giờ Vàng" , 01/10 22:00 ⚽ Al-Gharafa vs Al Mesaimeer (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-al-gharafa-vs-al-mesaimeer-01-10-s0o5rb17kycl
