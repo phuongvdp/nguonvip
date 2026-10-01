@@ -1,20 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:57:06 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 09:00:01 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (30 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (29 trận) =====
 
 # ----- Ngày 2026-10-01 -----
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/fddae9f15b989a7ae34fa59c7cafc9ea.png" group-title="Phá Làng" , 01/10 07:00 🟢 ⚽ Argentina - Bolivia (LÝ LONG)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F266ff1220e1c51ba3dcb04805dcaf46c%2Fplaylist.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8941e026a8debbd82633b019552e1515.png" group-title="Phá Làng" , 01/10 08:00 🟢 ⚽ Alianza Lima - Palestino (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F02c652f1fc50e3fe67f94e89da9a8cd2%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/cd44171aa5aeb84d7375aa924d4fe543.png!w80" group-title="Phá Làng" , 01/10 08:00 🟢 🏐 Ấn Độ  -  Pakistan (LÝ LIỀU LĨNH (Server 1))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F0a817a9df60c4222bc751cbfa71c070a%2Findex.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/eafed5361c70bffd85bedd16d0444f7a.png" group-title="Phá Làng" , 01/10 09:00 🟡 ⚽ Cook Islands - Tahiti (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#k82rekh2z6v3rep
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/604a26fb4f696d522d464fc2ff0919de.png!w80" group-title="Phá Làng" , 01/10 11:00 🏐 Hàn Quốc - Iran (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6a5f9bb7a0a841b1b0df4fe6dc8359b8
@@ -93,3 +87,7 @@ https://phalang.live/trang-chu#318q66h8z0elqo9
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/31dc5c767bfeeba8745f8170e7c278e4.png" group-title="Phá Làng" , 01/10 23:45 ⚽ HB Koge Woman's(w) - Servette Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#dn1m1gh9vewvmoe
+
+# ----- Ngày 2026-10-02 -----
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bfeb14c5a9727a76294491a2702f01a7.png" group-title="Phá Làng" , 02/10 00:00 ⚽ FC Liefering - St. Johann (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#x7lm7phxg38zm2w
