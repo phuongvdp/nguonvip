@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:32:30 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:35:02 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (29 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (30 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/628f16b29939d1b060af49f66ae0f7f8.png" group-title="GaVang33" , 01/10 19:30 🟢 ⚽ Indonesia vs Bangladesh (Gà Siêu Gáy)
@@ -20,8 +20,13 @@ https://live2.zktsva.app/live/301263.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/303098.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3016a701d47246f082016705f2f7267c.png" group-title="GaVang33" , 01/10 21:00 🟡 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/uzbekistan-vs-syria-luc-2100-ngay-01-10-2026-jw2r09h549l0rz8
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/debe9dfcc3e4dbea1c509ffab6bf9f0b.png" group-title="GaVang33" , 01/10 21:00 🟢 ⚽ Maldives vs Lebanon (Gà Siêu Tốc)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://live2.zktsva.app/live/307240.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3016a701d47246f082016705f2f7267c.png" group-title="GaVang33" , 01/10 21:00 🟢 ⚽ Uzbekistan vs Syria (Gà Siêu Bệu)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://live2.zktsva.app/live/289650.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/fcac1eae493c493061e66608158b40ef.png" group-title="GaVang33" , 01/10 22:00 ⚽ Al-Gharafa Sports Club vs Al Mesaimeer Club (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/al-gharafa-sports-club-vs-al-mesaimeer-club-luc-2200-ngay-01-10-2026-6ypq3nhk64vomd7
