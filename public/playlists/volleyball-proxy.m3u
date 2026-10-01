@@ -1,17 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 12:10:33 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 12:13:37 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Khán Đài (6 trận), Chuối Chiên (3 trận), Phá Làng (5 trận), Bông Lau (3 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Chuối Chiên (3 trận), Phá Làng (5 trận), Bông Lau (3 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/xUGWvAzB-fHcbO6Ye.png" group-title="Giờ Vàng" , 01/10 11:00 🟢 🏐 Hàn Quốc vs Iran (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790779361_hd%2F1790779361_hd%40720p.m3u8&source=giovang
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images.png" group-title="Khán Đài" , 01/10 11:00 🟢 🏐 Kyrgyzstan vs Đài Loan (Enzo)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa2%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dd3bfcbaa36f949863f22cc89e1cc1afa&source=khandaitv
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_South_Korea.svg.webp" group-title="Khán Đài" , 01/10 11:00 🟢 🏐 Hàn Quốc vs Iran (KaKa)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa7%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Chuối Chiên" , 01/10 11:00 🟢 🏐 South Korea vs Iran (Chuối Sấy (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoisayhd%2Fplaylist.m3u8&source=chuoichientv
@@ -28,12 +22,6 @@ https://giovang.city/truc-tiep-viet-nam-vs-uzbekistan-01-10-bqkq79ft8aap
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/aEBU_ri8U6F06oTqWmKY5g_96x96.png" group-title="Giờ Vàng" , 01/10 14:00 🏐 Thái Lan vs Trung Quốc (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-thai-lan-vs-trung-quoc-01-10-uxxpa72npyyw
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_hdpF9Rm.jpg" group-title="Khán Đài" , 01/10 14:00 🏐 Việt Nam vs Uzbekistan (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/viet-nam-vs-uzbekistan
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_Q9mUTFM.jpg" group-title="Khán Đài" , 01/10 14:00 🏐 Thái Lan vs Trung Quốc (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/thai-lan-vs-trung-quoc
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Chuối Chiên" , 01/10 14:00 🏐 Việt Nam vs Uzbekistan (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/995056/viet-nam-vs-uzbekistan
 
@@ -46,17 +34,11 @@ https://phalang.live/trang-chu#96ab9288e9da424a93ae821e4f34d3e9
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Bông Lau" , 01/10 14:00 🏐 Việt Nam vs Uzbekistan (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/995056
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_njudfFz.jpg" group-title="Khán Đài" , 01/10 17:00 🏐 Philippines vs Indonesia (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/philippines-vs-indonesia
-
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/0553251f78c17a5cd8a102fd354e9316.png!w80" group-title="Phá Làng" , 01/10 17:00 🏐 Philippines - Indonesia (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6945a41fa47a4df39d3f2186977efdec
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/jgOunSg5-dtzqTXTK.png" group-title="Giờ Vàng" , 01/10 17:20 🏐 Japan vs Qatar (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-japan-vs-qatar-01-10-pq7hwxe766vl
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Khán Đài" , 01/10 17:20 🏐 Nhật Bản vs Qatar (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/nhat-ban-vs-qatar
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Chuối Chiên" , 01/10 17:20 🏐 Japan vs Qatar (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/992345/japan-vs-qatar
