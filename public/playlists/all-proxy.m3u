@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:45:23 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:48:18 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (20 trận), Chuối Chiên (20 trận), Phá Làng (29 trận), Gà Vàng (25 trận), Sao Kê (25 trận), GaVang33 (15 trận), Bông Lau (20 trận) =====
 
@@ -67,20 +67,20 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Bông Lau" , 01/10 08:00 🟢 🏐 India vs Pakistan (Chuối Kem (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikemhd%2Fplaylist.m3u8&source=bonglau
 
-#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/iM_hcWzccgEfD4bo-sp6Wg_96x96.png" group-title="Giờ Vàng" , 01/10 09:00 🟡 ⚽ San Diego Padres vs Chicago Cubs (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-san-diego-padres-vs-chicago-cubs-01-10-mh5n65ftqvgo
+#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/iM_hcWzccgEfD4bo-sp6Wg_96x96.png" group-title="Giờ Vàng" , 01/10 09:00 🟢 ⚽ San Diego Padres vs Chicago Cubs (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790779757_hd%2F1790779757_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTADC3pRGirDoA1eaQtvYds8PQ-vmcEESiPHvywMVtvYU3ERTP__FyL8m8F&s=10" group-title="Giờ Vàng" , 01/10 09:00 🟡 🎾 Beijing Open vs 2026 (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-beijing-open-vs-2026-01-10-wcw23uj5ldtg
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScASzyMboTqvaXcsCvqZO4pouOAu1HBj0MKVDdJhRvOY8MuXuWxc8j6CA&s=10" group-title="Giờ Vàng" , 01/10 09:00 🟡 🎾 Tokyo Open vs 2026 (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-tokyo-open-vs-2026-01-10-yo9o97ecn3ju
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScASzyMboTqvaXcsCvqZO4pouOAu1HBj0MKVDdJhRvOY8MuXuWxc8j6CA&s=10" group-title="Giờ Vàng" , 01/10 09:00 🟢 🎾 Tokyo Open vs 2026 (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790781031_hd%2F1790781031_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/eafed5361c70bffd85bedd16d0444f7a.png" group-title="Phá Làng" , 01/10 09:00 🟡 ⚽ Cook Islands - Tahiti (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#k82rekh2z6v3rep
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b6abc1cdf2df183dbe5aea9b8dcbda4b.png" group-title="Gà Vàng" , 01/10 09:00 🟡 ⚽ Sacramento Republic FC vs Las Vegas Lights (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/sacramento-republic-fc-vs-las-vegas-lights-ngay-01-10-2026/
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTADC3pRGirDoA1eaQtvYds8PQ-vmcEESiPHvywMVtvYU3ERTP__FyL8m8F&s=10" group-title="Giờ Vàng" , 01/10 10:00 🎾 Beijing Open vs 2026 (Chưa có link — chờ cập nhật)
+https://giovang.city/truc-tiep-beijing-open-vs-2026-01-10-wcw23uj5ldtg
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/QgrBggHG-4b37MkS4.png" group-title="Giờ Vàng" , 01/10 11:00 🏐 Kyrgyzstan vs Đài Bắc Trung Hoa (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-kyrgyzstan-vs-dai-bac-trung-hoa-01-10-ek7o9k7dih8s
