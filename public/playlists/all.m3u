@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:38:18 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:41:09 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (24 trận), Chuối Chiên (19 trận), Phá Làng (23 trận), Gà Vàng (10 trận), Sao Kê (21 trận), GaVang33 (27 trận), Bông Lau (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (24 trận), Chuối Chiên (18 trận), Phá Làng (23 trận), Gà Vàng (10 trận), Sao Kê (21 trận), GaVang33 (27 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/greece-u21.png" group-title="Giờ Vàng" , 01/10 22:00 🟢 ⚽ U21 Hy Lạp vs U21 Latvia (Giovang 1)
@@ -23,17 +23,25 @@ https://lilive1.eu.cc/live/d1e4aa77c14fe20c139aba297188afa2/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/301263.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/guinea.png" group-title="Giờ Vàng" , 01/10 23:00 🟢 ⚽ Guinea vs Kenya (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-guinea-vs-kenya-01-10-6a35da18dbc86fdf90016039
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/guinea.png" group-title="Giờ Vàng" , 01/10 23:00 🟢 ⚽ Guinea vs Kenya (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.rent/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ftlh5sc02iliv.vcdn.cloud/1790839884_hd/1790839884_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/azerbaijan.png" group-title="Giờ Vàng" , 01/10 23:00 🟢 ⚽ Azerbaijan vs Liechtenstein (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-azerbaijan-vs-liechtenstein-01-10-69f3f2b74bff4a0c310bf790
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/azerbaijan.png" group-title="Giờ Vàng" , 01/10 23:00 🟢 ⚽ Azerbaijan vs Liechtenstein (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.rent/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ftlh5sc02iliv.vcdn.cloud/1790839928_hd/1790839928_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/3cf0f296f43dd0a1184d339fd24c97af.png" group-title="Giờ Vàng" , 01/10 23:00 🟢 🏀 Hapoel Tel-Aviv vs Real Madrid Teka (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-hapoel-tel-aviv-vs-real-madrid-teka-01-10-39292271
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/3cf0f296f43dd0a1184d339fd24c97af.png" group-title="Giờ Vàng" , 01/10 23:00 🟢 🏀 Hapoel Tel-Aviv vs Real Madrid Teka (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.rent/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ftlh5sc02iliv.vcdn.cloud/1790840005_hd/1790840005_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/north-macedonia-u21.png" group-title="Giờ Vàng" , 01/10 23:00 🟢 ⚽ U21 FYR Macedonia vs U21 Montenegro (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-u21-fyr-macedonia-vs-u21-montenegro-01-10-683ce9d16fa477d4b303700d
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/north-macedonia-u21.png" group-title="Giờ Vàng" , 01/10 23:00 🟢 ⚽ U21 FYR Macedonia vs U21 Montenegro (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.rent/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ftlh5sc02iliv.vcdn.cloud/1790841543_hd/1790841543_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_722.jpg" group-title="Khán Đài" , 01/10 23:00 🟢 ⚽ Guinea vs Kenya (Tiểu Mây)
 #EXTVLCOPT:http-referrer=https://khandai3.link
@@ -65,6 +73,11 @@ https://lilive1.eu.cc/live/83717379d6924e6f1aab38826743602a/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/b2472b3d72eac7055ed16f9ae2ff444e/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f06adf060c098f11e76fa2ff1565ba70.png" group-title="Gà Vàng" , 01/10 23:00 🟢 ⚽ North Macedonia U21 vs Montenegro U21 (khang hi)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a7c0d8f65997681f18cacc4.m3u8
+
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f653d5976458f0dcce2b3939259acffa.png" group-title="Gà Vàng" , 01/10 23:00 🟢 ⚽ Azerbaijan vs Liechtenstein (CRIS)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -74,11 +87,6 @@ https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a439a7fb89dded67b208b87.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f06adf060c098f11e76fa2ff1565ba70.png" group-title="Gà Vàng" , 01/10 23:00 🟢 ⚽ North Macedonia U21 vs Montenegro U21 (khang hi)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/6a7c0d8f65997681f18cacc4.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8566.png" group-title="Sao Kê" , 01/10 23:00 🟢 ⚽ Azerbaijan vs Liechtenstein (Teppy (HD))
 #EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/azerbaijan-vs-liechtenstein-6abcd70d47921e67729eb849.html
@@ -199,9 +207,6 @@ https://live05.chuoichientv.me/live/1528919/denmark-vs-portugal
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134251_66ec2f9b.png" group-title="Chuối Chiên" , 02/10 01:45 ⚽ Wales vs Norway (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1528920/wales-vs-norway
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134253_78be98da.png" group-title="Chuối Chiên" , 02/10 01:45 ⚽ Rep. Of Ireland vs Austria (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1528921/rep-of-ireland-vs-austria
-
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260928/35948785ecc1ab3418a2d1527620f809.png" group-title="Phá Làng" , 02/10 01:45 ⚽ Denmark - Portugal (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66hx8ydpqo9
 
@@ -279,9 +284,6 @@ https://lau05.bonglautv1.pro/truc-tiep/1528919
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134251_66ec2f9b.png" group-title="Bông Lau" , 02/10 01:45 ⚽ Wales vs Norway (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1528920
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134253_78be98da.png" group-title="Bông Lau" , 02/10 01:45 ⚽ Rep. Of Ireland vs Austria (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1528921
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_26.jpg" group-title="Khán Đài" , 02/10 02:00 ⚽ Manchester City W vs Real Madrid W (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/manchester-city-w-vs-real-madrid-w-02-10-2026-855214
