@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:56:01 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:58:43 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (23 trận), Chuối Chiên (17 trận), Phá Làng (23 trận), Gà Vàng (15 trận), Sao Kê (20 trận), GaVang33 (27 trận), Bông Lau (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (23 trận), Chuối Chiên (17 trận), Phá Làng (22 trận), Gà Vàng (15 trận), Sao Kê (20 trận), GaVang33 (27 trận), Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png" group-title="Gà Vàng" , 01/10 19:30 🟢 ⚽ Malaysia vs Singapore (CRIS)
@@ -9,9 +9,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/628f16b29939d1b060af49f66ae0f7f8.png" group-title="Gà Vàng" , 01/10 19:30 🟢 ⚽ Indonesia vs Bangladesh (SAITAMA)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69f42e961f739deff81510c0.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/79edbeab6d7de7ce5078c21c1bd4f7c3.png" group-title="Phá Làng" , 01/10 21:00 🟢 ⚽ Uzbekistan - Syria (LÝ LINH LỰC)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Ffcd1f89692d4bae21dbfa93bfc615833%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/3016a701d47246f082016705f2f7267c.png" group-title="Gà Vàng" , 01/10 21:00 🟢 ⚽ Uzbekistan vs Syria (ĐOÀN DỰ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a5df755b89dded67b39b8bc.m3u8&source=gavang
@@ -64,6 +61,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/fbaaac7f53bf81a2addf155599a04141.png" group-title="Phá Làng" , 01/10 23:00 🟢 ⚽ Azerbaijan - Liechtenstein (LÝ LÀNG LÁ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F83717379d6924e6f1aab38826743602a%2Fplaylist.m3u8&source=phalang
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/179de38366aeab18fdda88e0b2bfb1bb.png" group-title="Phá Làng" , 01/10 23:00 🟢 ⚽ Guinea - Kenya (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fb2472b3d72eac7055ed16f9ae2ff444e%2Fplaylist.m3u8&source=phalang
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8566.png" group-title="Sao Kê" , 01/10 23:00 🟢 ⚽ Azerbaijan vs Liechtenstein (Teppy (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx31-hd-1111%2Fplaylist.m3u8&source=saoke
 
@@ -81,9 +81,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134306_f1a5fd10.png" group-title="Bông Lau" , 01/10 23:00 🟢 ⚽ Guinea vs Kenya (Chuối Kem (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikemhd%2Fplaylist.m3u8&source=bonglau
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/179de38366aeab18fdda88e0b2bfb1bb.png" group-title="Phá Làng" , 01/10 23:00 🟡 ⚽ Guinea - Kenya (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#y0or5jh87pg5qwz
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9dc9c8f928d5cafdc90a747fe0439c2d.png" group-title="Phá Làng" , 01/10 23:00 🟡 ⚽ Trabzonspor - Drogheda United (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#zp5rzgh3y5xeq82

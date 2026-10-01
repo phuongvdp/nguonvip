@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:56:01 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:58:43 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (23 trận), Chuối Chiên (17 trận), Phá Làng (23 trận), Gà Vàng (15 trận), Sao Kê (20 trận), GaVang33 (27 trận), Bông Lau (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (23 trận), Chuối Chiên (17 trận), Phá Làng (22 trận), Gà Vàng (15 trận), Sao Kê (20 trận), GaVang33 (27 trận), Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png" group-title="Gà Vàng" , 01/10 19:30 🟢 ⚽ Malaysia vs Singapore (CRIS)
@@ -13,11 +13,6 @@ https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/79edbeab6d7de7ce5078c21c1bd4f7c3.png" group-title="Phá Làng" , 01/10 21:00 🟢 ⚽ Uzbekistan - Syria (LÝ LINH LỰC)
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/uzbekistan-vs-syria-jw2r09h549l0rz8
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/fcd1f89692d4bae21dbfa93bfc615833/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/3016a701d47246f082016705f2f7267c.png" group-title="Gà Vàng" , 01/10 21:00 🟢 ⚽ Uzbekistan vs Syria (ĐOÀN DỰ)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
@@ -101,6 +96,11 @@ https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/83717379d6924e6f1aab38826743602a/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/179de38366aeab18fdda88e0b2bfb1bb.png" group-title="Phá Làng" , 01/10 23:00 🟢 ⚽ Guinea - Kenya (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/guinea-vs-kenya-y0or5jh87pg5qwz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/b2472b3d72eac7055ed16f9ae2ff444e/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8566.png" group-title="Sao Kê" , 01/10 23:00 🟢 ⚽ Azerbaijan vs Liechtenstein (Teppy (HD))
 #EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/indonesia-vs-bangladesh-6abcd70d47921e67729eb850.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -128,9 +128,6 @@ https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://tructiep.bonglau.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/179de38366aeab18fdda88e0b2bfb1bb.png" group-title="Phá Làng" , 01/10 23:00 🟡 ⚽ Guinea - Kenya (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#y0or5jh87pg5qwz
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9dc9c8f928d5cafdc90a747fe0439c2d.png" group-title="Phá Làng" , 01/10 23:00 🟡 ⚽ Trabzonspor - Drogheda United (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#zp5rzgh3y5xeq82
