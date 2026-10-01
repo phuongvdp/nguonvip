@@ -1,51 +1,34 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:30:30 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 05:12:15 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (19 trận) =====
 
-# ----- Ngày 2026-10-01 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134306_f1a5fd10.png" group-title="Chuối Chiên" , 01/10 23:00 🟢 ⚽ Guinea vs Kenya (Chuối Kem (FHD))
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134255_4cc808b5.png" group-title="Chuối Chiên" , 01/10 23:00 🟢 ⚽ Azerbaijan vs Liechtenstein (Trốc Tru (FHD))
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+# ----- Ngày 2026-10-02 -----
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132742_190812ee.png" group-title="Chuối Chiên" , 02/10 05:00 🟢 ⚽ Curaçao vs Trinidad and Tobago (Trốc Tru (FHD))
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_140334_e7d9f1a5.png" group-title="Chuối Chiên" , 01/10 23:45 🟢 ⚽ Austria Wien W vs Inter Milano W (Chuối Tây (FHD))
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Chuối Chiên" , 02/10 08:00 🏐 India vs South Korea (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/992553/india-vs-south-korea
 
-# ----- Ngày 2026-10-02 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125455_9f31cc8f.png" group-title="Chuối Chiên" , 02/10 01:45 ⚽ Germany vs Serbia (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1528917/germany-vs-serbia
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Chuối Chiên" , 02/10 11:00 🏐 Qatar vs Thailand (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/991866/qatar-vs-thailand
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134302_98ea6afc.png" group-title="Chuối Chiên" , 02/10 01:45 ⚽ Greece vs Netherlands (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1528918/greece-vs-netherlands
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125453_4487c0dd.png" group-title="Chuối Chiên" , 02/10 01:45 ⚽ Denmark vs Portugal (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1528919/denmark-vs-portugal
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134251_66ec2f9b.png" group-title="Chuối Chiên" , 02/10 01:45 ⚽ Wales vs Norway (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1528920/wales-vs-norway
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132742_190812ee.png" group-title="Chuối Chiên" , 02/10 05:00 ⚽ Curaçao vs Trinidad and Tobago (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1639970/curacao-vs-trinidad-and-tobago
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132743_ec3a781d.png" group-title="Chuối Chiên" , 02/10 07:00 ⚽ Dominican Republic vs Haiti (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1639973/dominican-republic-vs-haiti
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134318_ac29542c.png" group-title="Chuối Chiên" , 02/10 09:00 ⚽ Nicaragua vs Costa Rica (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1639974/nicaragua-vs-costa-rica
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135226_b632be79.png" group-title="Chuối Chiên" , 02/10 14:00 🏐 Pakistan vs Iran (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/996357/pakistan-vs-iran
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_358dda20.png" group-title="Chuối Chiên" , 02/10 16:00 ⚽ Thailand vs Philippines (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641716/thailand-vs-philippines
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Chuối Chiên" , 02/10 16:00 ⚽ Việt Nam vs Pakistan (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1641717/viet-nam-vs-pakistan
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Chuối Chiên" , 02/10 17:00 🏐 Việt Nam vs Indonesia (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/993965/viet-nam-vs-indonesia
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Chuối Chiên" , 02/10 17:20 🏐 Japan vs China (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/998711/japan-vs-china
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Chuối Chiên" , 02/10 18:00 ⚽ South Korea vs Venezuela (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1629003/south-korea-vs-venezuela
@@ -64,3 +47,19 @@ https://live05.chuoichientv.me/live/1528930/cyprus-vs-armenia
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134253_26d0ea1f.png" group-title="Chuối Chiên" , 02/10 23:00 ⚽ Latvia vs Montenegro (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1545608/latvia-vs-montenegro
+
+# ----- Ngày 2026-10-03 -----
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125447_e304fc82.png" group-title="Chuối Chiên" , 03/10 01:45 ⚽ France vs Italy (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1528924/france-vs-italy
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125446_7256014f.png" group-title="Chuối Chiên" , 03/10 01:45 ⚽ Belgium vs Türkiye (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1528925/belgium-vs-turkiye
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125458_a2e2b5c9.png" group-title="Chuối Chiên" , 03/10 01:45 ⚽ Hungary vs Georgia (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1528926/hungary-vs-georgia
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134300_f7c99abe.png" group-title="Chuối Chiên" , 03/10 01:45 ⚽ Bosnia & Herzegovina vs Sweden (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1528929/bosnia-herzegovina-vs-sweden
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134320_9577df1f.png" group-title="Chuối Chiên" , 03/10 04:00 ⚽ St. Kitts and Nevis vs Cuba (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1639976/st-kitts-and-nevis-vs-cuba
