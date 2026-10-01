@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:44:50 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:47:29 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (13 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (14 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png" group-title="Gà Vàng" , 01/10 19:30 🟢 ⚽ Malaysia vs Singapore (CRIS)
@@ -13,6 +13,9 @@ https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a5df755b89dded67b39b8bc.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/03645e9c1d7fd2c48705622f52fd901e.png" group-title="Gà Vàng" , 01/10 21:00 🟢 ⚽ Wolfsburg vs Havelse (Chưa có link — chờ cập nhật)
+https://gavanglinkt.tv/truc-tiep/vfl-wolfsburg-vs-havelse-ngay-01-10-2026/
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f06adf060c098f11e76fa2ff1565ba70.png" group-title="Gà Vàng" , 01/10 23:00 🟡 ⚽ North Macedonia U21 vs Montenegro U21 (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/north-macedonia-u21-vs-montenegro-u21-ngay-01-10-2026/
@@ -29,7 +32,7 @@ https://gavanglinkp.tv/
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/13d8532225dea4fca8e0ebdfb27b83e4.png" group-title="Gà Vàng" , 01/10 23:30 🟡 ⚽ Armenia U21 vs Italy U21 (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/armenia-u21-vs-italy-u21-ngay-01-10-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/0454e224a578f2d2fb8e4bafc58e140e.png" group-title="Gà Vàng" , 01/10 23:45 ⚽ Austria Wien (w) vs Inter Milan(w) (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/0454e224a578f2d2fb8e4bafc58e140e.png" group-title="Gà Vàng" , 01/10 23:45 🟡 ⚽ Austria Wien (w) vs Inter Milan(w) (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/austria-wien-women-vs-inter-milan-women-ngay-01-10-2026/
 
 # ----- Ngày 2026-10-02 -----
