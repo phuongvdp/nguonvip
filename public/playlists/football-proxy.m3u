@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:43:17 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:46:16 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (19 trận), Chuối Chiên (18 trận), Phá Làng (30 trận), Gà Vàng (13 trận), Sao Kê (26 trận), GaVang33 (29 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (19 trận), Chuối Chiên (18 trận), Phá Làng (30 trận), Gà Vàng (13 trận), Sao Kê (25 trận), GaVang33 (29 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_540.jpg" group-title="Khán Đài" , 01/10 17:10 🟢 ⚽ Japan vs Ecuador (Lee Sin)
@@ -21,9 +21,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Bông Lau" , 01/10 17:10 🟢 ⚽ Japan vs Ecuador (Chuối Chao (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoichaohd%2Fplaylist.m3u8&source=bonglau
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Sao Kê" , 01/10 17:20 🟢 ⚽ Japan vs Qatar (Kai (HD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx00-hd-1111%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d61c4e6d16164c34a14047c6df3fdcf7.png" group-title="Phá Làng" , 01/10 19:00 🟡 ⚽ Jahn Regensburg - WSG Tirol (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#n54qllh45z8xqvy
