@@ -1,6 +1,6 @@
 import { createHttpClient } from '@/src/utils/httpClient';
 import { slugifyVi } from '@/src/utils/slug';
-import { fetchRenderedHtml } from '@/src/utils/browserFetch';
+import { fetchRenderedHtml, fetchFirstRequestHeaders } from '@/src/utils/browserFetch';
 
 // Trang web: đổi tên miền tuỳ ý qua GIOVANG_DOMAIN (không cần sửa code).
 // API JSON danh sách trận lại nằm ở 1 domain CDN/backend riêng dùng chung
@@ -10,7 +10,20 @@ import { fetchRenderedHtml } from '@/src/utils/browserFetch';
 //   - live.json: CHỈ chứa trận đang live (status_code LIVE/1H/2H/HT/...)
 //   - all.json : chứa MỌI trận (NS chưa đá, FT kết thúc, PEND bị hoãn...,
 //     và cả LIVE) — đây mới là nguồn cho tab "sắp diễn ra"/"hôm nay"/...
-const BASE_URL = process.env.GIOVANG_DOMAIN || 'https://giovang.city';
+// FIX (30/09/2026 — "link Giờ Vàng không xem được"): kiểm tra thực tế cho thấy
+// giovang.city đã REDIRECT hẳn sang https://giovang.blog/ (canonical + mọi
+// link trong trang đều là giovang.blog; trang còn nhắc mirror giovang.cv).
+// Playlist vẫn gửi Referer https://giovang.city -> CDN phát (vcdn.cloud) không
+// còn nhận domain cũ làm Referer. Domain mặc định đổi sang giovang.blog; ngoài
+// ra ensureSiteOrigin() tự theo redirect để lần sau đổi domain KHÔNG cần sửa
+// code, và detectPlayerReferer() lấy Referer THẬT từ trình duyệt (xem dưới).
+const BASE_URL = String(process.env.GIOVANG_DOMAIN || 'https://giovang.blog').replace(/\/+$/, '');
+const SITE_CHECK_TTL_MS = 6 * 60 * 60 * 1000; // theo dõi redirect domain 6 tiếng/lần
+const DETECT_REFERER_TIMEOUT_MS = 12000; // ngắn để không kéo dài tổng thời gian quét
+const DETECT_REFERER_TTL_MS = 2 * 60 * 60 * 1000; // domain player không đổi liên tục cỡ phút
+const DETECT_FAIL_BACKOFF_MS = 10 * 60 * 1000; // dò lỗi -> nghỉ 10 phút, không mở trình duyệt cho từng trận
+const detectCache = globalThis.__giovangRefererDetectCache || { value: null, detectedAt: 0, failedAt: 0, inFlight: null };
+globalThis.__giovangRefererDetectCache = detectCache;
 const LIVE_API_HOST = process.env.GIOVANG_LIVE_API_HOST || 'https://live-api.keonhacaitp.one';
 const LIVE_JSON_PATH = '/storage/livestream/live.json';
 const ALL_JSON_PATH = '/storage/livestream/all.json';
@@ -62,6 +75,59 @@ class GiovangService {
     });
     this.cache = new Map();
     this.lastDiagnostics = null;
+    this.siteOrigin = BASE_URL; // domain THẬT sau redirect (cập nhật bởi ensureSiteOrigin)
+    this.siteCheckedAt = 0;
+  }
+
+  /** Theo redirect của trang chủ để biết domain thật đang dùng (giovang.city -> giovang.blog...). */
+  async ensureSiteOrigin() {
+    if (Date.now() - this.siteCheckedAt < SITE_CHECK_TTL_MS) return this.siteOrigin;
+    this.siteCheckedAt = Date.now(); // đặt trước: lỗi cũng không bị thử lại dồn dập
+    try {
+      const res = await this.client.get(`${BASE_URL}/`, { timeout: 8000, maxRedirects: 5, responseType: 'text', headers: { Accept: 'text/html' } });
+      const finalUrl = res?.request?.res?.responseUrl || res?.request?._redirectable?._currentUrl || '';
+      const origin = /^https?:\/\//i.test(finalUrl) ? new URL(finalUrl).origin : '';
+      if (origin && origin !== this.siteOrigin) {
+        console.log(`[giovang] domain thật sau redirect: ${this.siteOrigin} -> ${origin}`);
+        this.siteOrigin = origin;
+      }
+    } catch (err) {
+      console.warn('[giovang] ensureSiteOrigin lỗi (giữ domain hiện tại):', err.message);
+    }
+    return this.siteOrigin;
+  }
+
+  /**
+   * Referer THẬT mà player của trang gửi cho CDN phát (vcdn.cloud...) — lấy bằng
+   * trình duyệt headless mở 1 trang trận, cùng cách Sao Kê đang dùng. Cache 2
+   * tiếng; dò lỗi thì nghỉ 10 phút (trả null -> dùng `${siteOrigin}/`).
+   */
+  async detectPlayerReferer(pageUrl) {
+    if (detectCache.value && Date.now() - detectCache.detectedAt < DETECT_REFERER_TTL_MS) return detectCache.value;
+    if (detectCache.inFlight) return detectCache.inFlight;
+    if (!pageUrl || Date.now() - detectCache.failedAt < DETECT_FAIL_BACKOFF_MS) return null;
+    detectCache.inFlight = (async () => {
+      try {
+        const found = await fetchFirstRequestHeaders(pageUrl, /\.m3u8(\?|$)/i, { timeoutMs: DETECT_REFERER_TIMEOUT_MS });
+        const referer = found?.headers?.referer || found?.headers?.Referer || null;
+        if (referer && /^https?:\/\//i.test(referer)) {
+          detectCache.value = referer;
+          detectCache.detectedAt = Date.now();
+          console.log(`[giovang] tự dò được Referer thật từ trình duyệt: ${referer}`);
+          return referer;
+        }
+        detectCache.failedAt = Date.now();
+        console.warn('[giovang] mở trang bằng trình duyệt xong nhưng không bắt được request .m3u8 nào — dùng Referer = domain trang');
+        return null;
+      } catch (error) {
+        detectCache.failedAt = Date.now();
+        console.warn('[giovang] dò Referer bằng trình duyệt thất bại (dùng Referer = domain trang):', error.message);
+        return null;
+      } finally {
+        detectCache.inFlight = null;
+      }
+    })();
+    return detectCache.inFlight;
   }
 
   async cached(key, loader, ttl = 20 * 1000) {
@@ -83,7 +149,7 @@ class GiovangService {
       .filter(Boolean)
       .join('-')
       .replace(/-+/g, '-');
-    return `${BASE_URL}/truc-tiep-${slug}`;
+    return `${this.siteOrigin}/truc-tiep-${slug}`;
   }
 
   normalizeMatch(m) {
@@ -169,6 +235,7 @@ class GiovangService {
    * khi trùng id vì nó cập nhật sát thời gian thực hơn.
    */
   async fetchAllMatches() {
+    await this.ensureSiteOrigin(); // trước normalizeMatch -> liveUrl đúng domain thật
     const [liveList, allList] = await Promise.all([
       this.fetchJson(LIVE_JSON_PATH, 'liveJson').catch((err) => {
         this.lastDiagnostics = { ...this.lastDiagnostics, liveJson: { error: err.message } };
@@ -218,6 +285,7 @@ class GiovangService {
   }
 
   async getMatchDetail(idOrUrl) {
+    await this.ensureSiteOrigin();
     const rawId = String(idOrUrl || '').replace(/^giovang_/, '');
     const detailUrl = /^https?:\/\//i.test(rawId) ? rawId : null;
 
@@ -228,7 +296,7 @@ class GiovangService {
       const cachedLive = this.cache.get('matches:live')?.value?.matches || [];
       const cachedAll = this.cache.get('matches:all')?.value?.matches || [];
       const found = [...cachedLive, ...cachedAll].find((m) => m.originalId === rawId || m.matchId === `giovang_${rawId}`);
-      targetUrl = found?.stream?.liveUrl || `${BASE_URL}/?livestream=${encodeURIComponent(rawId)}`;
+      targetUrl = found?.stream?.liveUrl || `${this.siteOrigin}/?livestream=${encodeURIComponent(rawId)}`;
     }
 
     let html = '';
@@ -266,6 +334,13 @@ class GiovangService {
       }
     }
 
+    // Referer gắn cho MỌI link của trận: Referer thật dò từ trình duyệt (nếu có),
+    // không thì `${domain thật}/` (kiểu trình duyệt thật luôn có dấu "/" cuối).
+    // m3uPlaylist.js ưu tiên stream.referer này hơn danh sách ứng viên hardcode.
+    const referer = hlsUrls.length
+      ? ((await this.detectPlayerReferer(targetUrl)) || `${this.siteOrigin}/`)
+      : null;
+
     const streams = hlsUrls.map((url, index) => ({
       id: `giovang_${rawId}_${index + 1}`,
       streamerName: `Giovang ${index + 1}`,
@@ -273,6 +348,7 @@ class GiovangService {
       m3u8Url: url,
       playUrl: url,
       format: 'hls',
+      referer,
     }));
 
     return {

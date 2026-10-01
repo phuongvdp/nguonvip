@@ -119,7 +119,7 @@ function readDetectedReferers(source) {
 
 const REFERER_BY_SOURCE = {
   phaohoa: process.env.PHAOHOA_DOMAIN || process.env.PHAOHOA_BASE_URL || 'https://phaohoa1.live',
-  giovang: process.env.GIOVANG_DOMAIN || 'https://giovang.city',
+  giovang: process.env.GIOVANG_DOMAIN || 'https://giovang.blog', // giovang.city đã redirect sang giovang.blog (30/09/2026)
   khandaitv: process.env.KHANDAITV_DOMAIN || process.env.KHANDAITV_BASE_URL || 'https://khandai3.link',
   // FIX (25/09/2026 — bắt được request THẬT từ DevTools, xem chú thích ở
   // REFERER_CANDIDATES_BY_SOURCE bên dưới): domain player CHUẨN không phải
@@ -135,7 +135,7 @@ const REFERER_BY_SOURCE = {
   // hotlink. Trận "Server 1" trơn lấy link thẳng từ source_live có sẵn
   // trong danh sách (CDN khác, không kiểm tra Referer) nên vẫn phát được dù
   // Referer sai — không liên quan gì tới việc thiếu entry này.
-  phalang: 'https://phalang.live',
+  phalang: String(process.env.PHALANG_DOMAIN || 'https://phalang.live').replace(/\/+$/, ''),
   // FIX (24/09/2026 — "nguồn Gà Vàng có trận xem được, có trận lỗi không xem
   // được"): thiếu hẳn entry 'gavang' ở đây (chỉ được thêm vào bản sao
   // REFERER_CANDIDATES_BY_SOURCE trong m3uPlaylist.js) nên mọi link Gà Vàng
@@ -210,7 +210,7 @@ const REFERER_CANDIDATES_BY_SOURCE = {
     null
   ],
   phaohoa: [REFERER_BY_SOURCE.phaohoa, null],
-  giovang: [REFERER_BY_SOURCE.giovang, null],
+  giovang: [`${REFERER_BY_SOURCE.giovang}/`, REFERER_BY_SOURCE.giovang, null], // có "/" cuối trước, giống trình duyệt thật
   khandaitv: [REFERER_BY_SOURCE.khandaitv, null],
   // domain hiển thị thật của Phá Làng là phalang.live (xem FIX 18/09/2026 ở
   // phalang.service.js) — thử kèm/không dấu "/" cuối rồi mới tới không gửi

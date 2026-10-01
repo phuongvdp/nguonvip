@@ -29,7 +29,8 @@ import { getBrowser } from '@/src/utils/browserFetch';
 //      dùng limit lớn (200) + tự phân trang qua `total` trả về để chắc chắn
 //      lấy hết mọi trận trong 1 lần quét, không chỉ trang đầu.
 const PHALANG_API_BASE = process.env.PHALANG_API_BASE || 'https://api.plapi202624081158.com';
-const PHALANG_SITE_ORIGIN = 'https://phalang.live';
+// Đổi domain qua biến PHALANG_DOMAIN (GitHub Variables) — workflow "Check Domains" tự cập nhật khi domain chết.
+const PHALANG_SITE_ORIGIN = String(process.env.PHALANG_DOMAIN || 'https://phalang.live').replace(/\/+$/, '');
 const PHALANG_LIST_PAGE_SIZE = 200;
 // FIX (24/09/2026 — "bị mất các trận International Friendly, UEFA Nations
 // League... có trên trang chủ Phá Làng mà danh sách nguồn không có"): log thật

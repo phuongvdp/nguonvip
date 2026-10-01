@@ -1,0 +1,20 @@
+# Mỗi dòng: tên=domain. Dòng bắt đầu bằng # là ghi chú. Xoá/để trống 1 dòng = dùng domain mặc định trong code.
+# Quét tự động: workflow "Check Domains" sẽ tự sửa dòng nào có domain chết.
+giovang=https://giovang.blog
+khandaitv=https://khandai3.link
+phaohoa=https://phaohoa1.live
+gavang=https://gavanglinkp.tv
+gavang33=https://gavang33.me
+saoke=https://vip3.saoketv40.xyz
+bonglau=https://lau05.bonglautv1.pro
+phalang=https://phalang.live
+# chuoichientv=https://live05.chuoichientv.me   # tuỳ chọn: bỏ # sẽ ÉP cố định domain này (mặc định code tự dò liveNN.chuoichientv.me)
+chuoichientv-player=https://live.chuoichien.tv
+saoke-player=https://sk.mediastation.live
+bonglau-player=https://live.chuoichien.tv
+giovang-api=https://live-api.keonhacaitp.one
+saoke-api=https://skapi.66887979.xyz
+gavang33-api=https://gavangtv-api.adviceme.io
+phalang-api=https://api.plapi202624081158.com
+chuoichientv-api=https://api-v2.chuoichientv.net/v2
+bonglau-api=https://api-v2.chuoichientv.net/v2
