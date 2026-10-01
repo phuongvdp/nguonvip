@@ -1,14 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:48:18 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:51:15 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (25 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (24 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/2b07d9809a6440ab21139c1b6d9a0155.png" group-title="Gà Vàng" , 01/10 06:30 🟢 ⚽ Rhode Island vs Indy Eleven (MáN NúI)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69cf6331585c5992182f4160.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/8b8fe90668461b90ddc20516b0e6796d.png" group-title="Gà Vàng" , 01/10 06:40 🟢 ⚽ New York Red Bulls vs St. Louis City SC (A Long)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69ef10b47146e04fbe6d4363.m3u8&source=gavang
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/1a8729f6837d72a8092aaabd02695c2b.png" group-title="Gà Vàng" , 01/10 07:00 🟢 ⚽ Tulsa Roughneck vs New Mexico United (cố tư nghiêm)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69a1aaa7230584579e2d5ce1.m3u8&source=gavang

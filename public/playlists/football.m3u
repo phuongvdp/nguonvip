@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:48:18 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:51:15 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (7 trận), Khán Đài (12 trận), Chuối Chiên (16 trận), Phá Làng (23 trận), Gà Vàng (20 trận), Sao Kê (25 trận), GaVang33 (15 trận), Bông Lau (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (7 trận), Khán Đài (12 trận), Chuối Chiên (16 trận), Phá Làng (24 trận), Gà Vàng (19 trận), Sao Kê (25 trận), GaVang33 (15 trận), Bông Lau (16 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6706.png" group-title="Sao Kê" , 01/10 06:00 🟢 ⚽ Argentina vs Bolivia (Bút Chì (HD))
@@ -13,11 +13,6 @@ https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/69cf6331585c5992182f4160.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/8b8fe90668461b90ddc20516b0e6796d.png" group-title="Gà Vàng" , 01/10 06:40 🟢 ⚽ New York Red Bulls vs St. Louis City SC (A Long)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69ef10b47146e04fbe6d4363.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/argentina.png" group-title="Giờ Vàng" , 01/10 07:00 🟢 ⚽ Argentina vs Bolivia (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.city
@@ -57,6 +52,11 @@ https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.city
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1790778710_hd/1790778710_hd@720p.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8941e026a8debbd82633b019552e1515.png" group-title="Phá Làng" , 01/10 08:00 🟢 ⚽ Alianza Lima - Palestino (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/alianza-lima-vs-palestino-318q66h8zw2jqo9
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/02c652f1fc50e3fe67f94e89da9a8cd2/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/4ee24366d09a9239bb2c4207a5008111.png" group-title="Gà Vàng" , 01/10 08:00 🟢 ⚽ Atletico Nacional Medellin vs Atletico Junior Barranquilla (KAYTI)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
