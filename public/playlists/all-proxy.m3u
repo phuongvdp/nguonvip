@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:43:31 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:46:33 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (18 trận), Chuối Chiên (19 trận), Phá Làng (28 trận), Gà Vàng (20 trận), Sao Kê (24 trận), GaVang33 (21 trận), Bông Lau (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (18 trận), Chuối Chiên (19 trận), Phá Làng (35 trận), Gà Vàng (20 trận), Sao Kê (24 trận), GaVang33 (21 trận), Bông Lau (19 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://media-cdn-v2.laodong.vn/storage/newsportal/2026/5/27/1708909/Asiad-20-01.jpeg" group-title="Giờ Vàng" , 01/10 06:30 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -31,17 +31,17 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_South_Korea.svg.webp" group-title="Khán Đài" , 01/10 11:00 🟢 🏐 Hàn Quốc vs Iran (KaKa)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa7%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Chuối Chiên" , 01/10 11:00 🟢 🏐 South Korea vs Iran (Chuối Sấy (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoisayhd%2Fplaylist.m3u8&source=chuoichientv
+
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/604a26fb4f696d522d464fc2ff0919de.png!w80" group-title="Phá Làng" , 01/10 11:00 🟢 🏐 Hàn Quốc - Iran (LÝ LÊN LỬA (Server 1))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F48f8760363914843886819765b0520c1%2Findex.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Chuối Chiên" , 01/10 11:00 🟡 🏐 South Korea vs Iran (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/998840/south-korea-vs-iran
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Sao Kê" , 01/10 11:00 🟢 ⚽ South Korea vs Iran (Cà Rốt (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx10-hd-1111%2Fplaylist.m3u8&source=saoke
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Sao Kê" , 01/10 11:00 🟡 ⚽ South Korea vs Iran (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/south-korea-vs-iran-6abdabb842ecb1c2b82df640.html
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Bông Lau" , 01/10 11:00 🟡 🏐 South Korea vs Iran (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/998840
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Bông Lau" , 01/10 11:00 🟢 🏐 South Korea vs Iran (Chuối Sấy (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoisayhd%2Fplaylist.m3u8&source=bonglau
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9ae36debba0abd59c01de2e60fc42648.png" group-title="Gà Vàng" , 01/10 12:00 ⚽ Khovd Western vs Deren FC (Chưa có link — chờ cập nhật)
 https://gavanglinkr.tv/truc-tiep/khovd-western-vs-deren-fc-ngay-01-10-2026/
@@ -412,6 +412,27 @@ https://live05.chuoichientv.me/live/1528920/wales-vs-norway
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134253_78be98da.png" group-title="Chuối Chiên" , 02/10 01:45 ⚽ Rep. Of Ireland vs Austria (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1528921/rep-of-ireland-vs-austria
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260928/35948785ecc1ab3418a2d1527620f809.png" group-title="Phá Làng" , 02/10 01:45 ⚽ Denmark - Portugal (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#318q66hx8ydpqo9
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c9949ae5d534fe930eae666413d32239.png" group-title="Phá Làng" , 02/10 01:45 ⚽ Ireland - Austria (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#4wyrn4h6yp13q86
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f0221343111004aa15623603a9e8a443.png" group-title="Phá Làng" , 02/10 01:45 ⚽ Malta - Gibraltar (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#6ypq3nhvkyozmd7
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/610f2c7d5da683ba1d7cc25878cdab9d.png" group-title="Phá Làng" , 02/10 01:45 ⚽ Greece - Netherlands (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#965mkyhk8d9wr1g
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b0dc1effcd883299ca8ec96dd720d30c.png" group-title="Phá Làng" , 02/10 01:45 ⚽ Israel - Kosovo (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#dn1m1ghl9ydymoe
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260928/05cccc76eafd42c059a8324965ba00fa.png" group-title="Phá Làng" , 02/10 01:45 ⚽ Wales - Norway (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#k82rekhg2pddrep
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260928/5d2c793abbe2476546af6934a2ee1566.png" group-title="Phá Làng" , 02/10 01:45 ⚽ Germany - Serbia (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#y39mp1h6dg8emoj
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/78f11969310edf4489395e7a3c12c138.png" group-title="Gà Vàng" , 02/10 01:45 🏀 Paris vs Zalgiris Kaunas (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
