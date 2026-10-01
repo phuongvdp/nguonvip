@@ -1,76 +1,78 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:08:14 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:13:48 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTADC3pRGirDoA1eaQtvYds8PQ-vmcEESiPHvywMVtvYU3ERTP__FyL8m8F&s=10" group-title="Giờ Vàng" , 01/10 10:00 🟢 🎾 Beijing Open vs 2026 (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.blog/
+#EXTVLCOPT:http-referrer=https://giovang.rent/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1790780943_hd/1790780943_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/indonesia.png" group-title="Giờ Vàng" , 01/10 19:30 🟢 ⚽ Indonesia vs Bangladesh (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.blog/
+#EXTVLCOPT:http-referrer=https://giovang.rent/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1790810386_hd/1790810386_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/malaysia.png" group-title="Giờ Vàng" , 01/10 19:30 🟡 ⚽ Malaysia vs Singapore (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-malaysia-vs-singapore-01-10-6ab468f8b057b828a8092bd1
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/malaysia.png" group-title="Giờ Vàng" , 01/10 19:30 🟢 ⚽ Malaysia vs Singapore (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.rent/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ftlh5sc02iliv.vcdn.cloud/1790810421_hd/1790810421_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/maldives.png" group-title="Giờ Vàng" , 01/10 21:00 ⚽ Maldives vs Liban (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-maldives-vs-liban-01-10-6ab70be464cdca71b70d752a
+https://giovang.rent/truc-tiep-maldives-vs-liban-01-10-6ab70be464cdca71b70d752a
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/al-ettifaq.png" group-title="Giờ Vàng" , 01/10 22:00 ⚽ Al-Gharafa vs Al Mesaimeer (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-al-gharafa-vs-al-mesaimeer-01-10-s0o5rb17kycl
+https://giovang.rent/truc-tiep-al-gharafa-vs-al-mesaimeer-01-10-s0o5rb17kycl
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/guinea.png" group-title="Giờ Vàng" , 01/10 23:00 ⚽ Guinea vs Kenya (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-guinea-vs-kenya-01-10-6a35da18dbc86fdf90016039
+https://giovang.rent/truc-tiep-guinea-vs-kenya-01-10-6a35da18dbc86fdf90016039
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/azerbaijan.png" group-title="Giờ Vàng" , 01/10 23:00 ⚽ Azerbaijan vs Liechtenstein (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-azerbaijan-vs-liechtenstein-01-10-69f3f2b74bff4a0c310bf790
+https://giovang.rent/truc-tiep-azerbaijan-vs-liechtenstein-01-10-69f3f2b74bff4a0c310bf790
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/3cf0f296f43dd0a1184d339fd24c97af.png" group-title="Giờ Vàng" , 01/10 23:00 🏀 Hapoel Tel-Aviv vs Real Madrid Teka (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-hapoel-tel-aviv-vs-real-madrid-teka-01-10-39292271
+https://giovang.rent/truc-tiep-hapoel-tel-aviv-vs-real-madrid-teka-01-10-39292271
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/north-macedonia-u21.png" group-title="Giờ Vàng" , 01/10 23:00 ⚽ U21 FYR Macedonia vs U21 Montenegro (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-u21-fyr-macedonia-vs-u21-montenegro-01-10-683ce9d16fa477d4b303700d
+https://giovang.rent/truc-tiep-u21-fyr-macedonia-vs-u21-montenegro-01-10-683ce9d16fa477d4b303700d
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/armenia-u21.png" group-title="Giờ Vàng" , 01/10 23:30 ⚽ U21 Armenia vs U21 Ý (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-u21-armenia-vs-u21-y-01-10-683b98524bc32556c602744a
+https://giovang.rent/truc-tiep-u21-armenia-vs-u21-y-01-10-683b98524bc32556c602744a
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/hungary-u21.png" group-title="Giờ Vàng" , 02/10 00:00 ⚽ U21 Hungary vs U21 Lithuania (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-u21-hungary-vs-u21-lithuania-02-10-683e3b421f892a5e5c09030c
+https://giovang.rent/truc-tiep-u21-hungary-vs-u21-lithuania-02-10-683e3b421f892a5e5c09030c
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/denmark.png" group-title="Giờ Vàng" , 02/10 01:45 ⚽ Đan Mạch vs Bồ Đào Nha (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-dan-mach-vs-bo-dao-nha-02-10-69f3f2b74bff4a0c310bf772
+https://giovang.rent/truc-tiep-dan-mach-vs-bo-dao-nha-02-10-69f3f2b74bff4a0c310bf772
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/germany.png" group-title="Giờ Vàng" , 02/10 01:45 ⚽ Đức vs Serbia (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-duc-vs-serbia-02-10-69f3f2b74bff4a0c310bf763
+https://giovang.rent/truc-tiep-duc-vs-serbia-02-10-69f3f2b74bff4a0c310bf763
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/wales.png" group-title="Giờ Vàng" , 02/10 01:45 ⚽ Wales vs Na Uy (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-wales-vs-na-uy-02-10-69f544134f51b3673a06914f
+https://giovang.rent/truc-tiep-wales-vs-na-uy-02-10-69f544134f51b3673a06914f
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/curacao.png" group-title="Giờ Vàng" , 02/10 05:00 ⚽ Curacao vs Trinidad & Tobago (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-curacao-vs-trinidad-tobago-02-10-6aaf224e4e725bdee905b7c3
+https://giovang.rent/truc-tiep-curacao-vs-trinidad-tobago-02-10-6aaf224e4e725bdee905b7c3
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/dominican-republic.png" group-title="Giờ Vàng" , 02/10 07:00 ⚽ Cộng hòa Dominican vs Haiti (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-cong-hoa-dominican-vs-haiti-02-10-6aaf224e4e725bdee905b7c4
+https://giovang.rent/truc-tiep-cong-hoa-dominican-vs-haiti-02-10-6aaf224e4e725bdee905b7c4
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsqdTH__j8ZyL9n_qA27lsijgSN1LcBIHOiCPk5EpdoQ&s=10" group-title="Giờ Vàng" , 02/10 08:00 ⚽ Inter Bogotá vs Deportiva Once Caldas (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-inter-bogota-vs-deportiva-once-caldas-02-10-6ab9ae1124d46db870ba1db9
+https://giovang.rent/truc-tiep-inter-bogota-vs-deportiva-once-caldas-02-10-6ab9ae1124d46db870ba1db9
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/nicaragua.png" group-title="Giờ Vàng" , 02/10 09:00 ⚽ Nicaragua vs Costa Rica (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-nicaragua-vs-costa-rica-02-10-6aaf224e4e725bdee905b7c5
+https://giovang.rent/truc-tiep-nicaragua-vs-costa-rica-02-10-6aaf224e4e725bdee905b7c5
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/thailand.png" group-title="Giờ Vàng" , 02/10 15:00 ⚽ Thái Lan vs Philippines (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-thai-lan-vs-philippines-02-10-6ab468f8b057b828a8092bd4
+https://giovang.rent/truc-tiep-thai-lan-vs-philippines-02-10-6ab468f8b057b828a8092bd4
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/vietnam.png" group-title="Giờ Vàng" , 02/10 15:00 ⚽ Việt Nam vs Pakistan (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-viet-nam-vs-pakistan-02-10-6ab468f8b057b828a8092bd5
+https://giovang.rent/truc-tiep-viet-nam-vs-pakistan-02-10-6ab468f8b057b828a8092bd5
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg-QFVk7ywVZkSYvxmUj-esyt7lv4--MPtntztVQQP_OWo7Lp7-XvpMB8&s=10" group-title="Giờ Vàng" , 02/10 15:00 🏎️ Gulf Air Bahrain Grand Prix vs Gulf Air Bahrain Grand Prix (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-gulf-air-bahrain-grand-prix-vs-gulf-air-bahrain-grand-prix-02-10-v68ny63irrsg
+https://giovang.rent/truc-tiep-gulf-air-bahrain-grand-prix-vs-gulf-air-bahrain-grand-prix-02-10-v68ny63irrsg
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/8Oc9LNYg-Miq8CSN4.png" group-title="Giờ Vàng" , 02/10 19:00 ⚽ Dejan vs Persipura (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-dejan-vs-persipura-02-10-m6tjtypisckh
+https://giovang.rent/truc-tiep-dejan-vs-persipura-02-10-m6tjtypisckh

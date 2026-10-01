@@ -1,9 +1,12 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:08:14 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:13:48 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (18 trận) =====
 
 # ----- Ngày 2026-10-01 -----
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f9ce800b0fd64b339c2bcf8ec7d9ec0e.png" group-title="Gà Vàng" , 01/10 17:10 🟢 ⚽ Japan vs Ecuador (SAITAMA)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69f42e961f739deff81510c0.m3u8&source=gavang
+
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png" group-title="Gà Vàng" , 01/10 19:30 🟡 ⚽ Malaysia vs Singapore (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/malaysia-vs-singapore-ngay-01-10-2026/
 
