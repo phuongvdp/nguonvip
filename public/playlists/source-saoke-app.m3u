@@ -1,14 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:40:39 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:43:12 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (22 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (24 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6706.png" group-title="Sao Kê" , 01/10 06:00 🟢 ⚽ Argentina vs Bolivia (Bút Chì (HD))
 https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Sao Kê" , 01/10 08:00 🟡 ⚽ India vs Pakistan (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/india-vs-pakistan-6abdab7a7c3358e7967481a6.html
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Sao Kê" , 01/10 08:00 🟢 ⚽ India vs Pakistan (Teppy (HD))
+https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png" group-title="Sao Kê" , 01/10 11:00 ⚽ South Korea vs Iran (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/south-korea-vs-iran-6abdabb842ecb1c2b82df640.html
@@ -16,11 +16,17 @@ https://vip3.saoketv40.xyz/south-korea-vs-iran-6abdabb842ecb1c2b82df640.html
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5922.png" group-title="Sao Kê" , 01/10 13:10 ⚽ Panama vs New Zealand (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/panama-vs-new-zealand-6abcd70d47921e67729eb852.html
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Sao Kê" , 01/10 14:00 ⚽ Việt Nam vs Uzbekistan (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/viet-nam-vs-uzbekistan-6abdabd7de556d2632834ece.html
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_130648_1906f789.png" group-title="Sao Kê" , 01/10 15:00 ⚽ North District vs Southern District (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/north-district-vs-southern-district-6abcd7b6ad19d495b2fd34d7.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6715.png" group-title="Sao Kê" , 01/10 17:10 ⚽ Japan vs Ecuador (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/japan-vs-ecuador-6abcd70d47921e67729eb853.html
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Sao Kê" , 01/10 17:20 ⚽ Japan vs Qatar (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/japan-vs-qatar-6abdabefad19d495b215f5da.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6324.png" group-title="Sao Kê" , 01/10 19:30 ⚽ Indonesia vs Bangladesh (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/indonesia-vs-bangladesh-6abcd70d47921e67729eb850.html

@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:40:39 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:43:12 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (20 trận), Chuối Chiên (20 trận), Phá Làng (26 trận), Gà Vàng (3 trận), Sao Kê (22 trận), GaVang33 (15 trận), Bông Lau (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (20 trận), Chuối Chiên (20 trận), Phá Làng (26 trận), Gà Vàng (3 trận), Sao Kê (24 trận), GaVang33 (15 trận), Bông Lau (20 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/e4fdbc941d11c2927bafb5b8978e8ea6.png" group-title="Giờ Vàng" , 01/10 06:00 🟢 🏀 Washington Mystics vs Atlanta Dream (Giovang 1)
@@ -78,13 +78,25 @@ https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Chuối Chiên" , 01/10 08:00 🟢 🏐 India vs Pakistan (Chuối Kem (FHD))
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/cd44171aa5aeb84d7375aa924d4fe543.png!w80" group-title="Phá Làng" , 01/10 08:00 🟢 🏐 Ấn Độ  -  Pakistan (LÝ LIỀU LĨNH (Server 1))
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/an-do-vs-pakistan-665465053eef4da1b635291708120123
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pull.digitalcdn.net/live/0a817a9df60c4222bc751cbfa71c070a/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Chuối Chiên" , 01/10 08:00 🟡 🏐 India vs Pakistan (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/997557/india-vs-pakistan
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Sao Kê" , 01/10 08:00 🟢 ⚽ India vs Pakistan (Teppy (HD))
+#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Bông Lau" , 01/10 08:00 🟢 🏐 India vs Pakistan (Chuối Kem (FHD))
+#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8941e026a8debbd82633b019552e1515.png" group-title="Phá Làng" , 01/10 08:00 🟡 ⚽ Alianza Lima - Palestino (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66h8zw2jqo9
@@ -94,12 +106,6 @@ https://gavanglinkr.tv/truc-tiep/atletico-nacional-medellin-vs-atletico-junior-b
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/58709b9e7964e03c28ebe777ef823eca.png" group-title="Gà Vàng" , 01/10 08:00 🟡 🏀 Dallas Wings vs Golden State Valkyries (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Sao Kê" , 01/10 08:00 🟡 ⚽ India vs Pakistan (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/india-vs-pakistan-6abdab7a7c3358e7967481a6.html
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Bông Lau" , 01/10 08:00 🟡 🏐 India vs Pakistan (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/997557
 
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/iM_hcWzccgEfD4bo-sp6Wg_96x96.png" group-title="Giờ Vàng" , 01/10 09:00 ⚽ San Diego Padres vs Chicago Cubs (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-san-diego-padres-vs-chicago-cubs-01-10-mh5n65ftqvgo
@@ -176,6 +182,9 @@ https://phalang.live/trang-chu#802f226df9294105b790f15778b78334
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 01/10 14:00 🏐 Việt Nam - Uzbekistan (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#96ab9288e9da424a93ae821e4f34d3e9
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Sao Kê" , 01/10 14:00 ⚽ Việt Nam vs Uzbekistan (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/viet-nam-vs-uzbekistan-6abdabd7de556d2632834ece.html
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Bông Lau" , 01/10 14:00 🏐 Việt Nam vs Uzbekistan (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/995056
 
@@ -238,6 +247,9 @@ https://live05.chuoichientv.me/live/992345/japan-vs-qatar
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 01/10 17:20 🏐 Nhật Bản - Qatar (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#3b69817d72d14b51b081335e9560cb20
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Sao Kê" , 01/10 17:20 ⚽ Japan vs Qatar (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/japan-vs-qatar-6abdabefad19d495b215f5da.html
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Bông Lau" , 01/10 17:20 🏐 Japan vs Qatar (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/992345
