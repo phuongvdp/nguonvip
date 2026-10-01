@@ -1,19 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:56:29 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:58:45 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (17 trận), Chuối Chiên (18 trận), Phá Làng (22 trận), Gà Vàng (13 trận), Sao Kê (20 trận), GaVang33 (28 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (17 trận), Chuối Chiên (18 trận), Phá Làng (22 trận), Gà Vàng (10 trận), Sao Kê (20 trận), GaVang33 (28 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-10-01 -----
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png" group-title="Gà Vàng" , 01/10 19:30 🟢 ⚽ Malaysia vs Singapore (CRIS)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/628f16b29939d1b060af49f66ae0f7f8.png" group-title="Gà Vàng" , 01/10 19:30 🟢 ⚽ Indonesia vs Bangladesh (SAITAMA)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f1eb0a2465dd34309c64d113ce0c9b96.png" group-title="GaVang33" , 01/10 20:15 🟢 ⚽ Dubai United vs Hatta (Gà Siêu Nhí)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/301263.m3u8
@@ -51,11 +41,6 @@ https://lilive1.eu.cc/live/d3177cc2747d1f7a997db5d7d50240ed/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a5df755b89dded67b39b8bc.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/03645e9c1d7fd2c48705622f52fd901e.png" group-title="Gà Vàng" , 01/10 21:00 🟢 ⚽ Wolfsburg vs Havelse (Lữ Bố.vip)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/6a9776215126529dede9bf51.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8700.png" group-title="Sao Kê" , 01/10 21:00 🟢 ⚽ Uzbekistan vs Syria (Ricky (HD))
 #EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/indonesia-vs-bangladesh-6abcd70d47921e67729eb850.html
