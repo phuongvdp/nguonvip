@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:54:34 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:57:06 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (19 trận) =====
 
 # ----- Ngày 2026-10-02 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132742_190812ee.png" group-title="Chuối Chiên" , 02/10 05:00 🟢 ⚽ Curaçao vs Trinidad and Tobago (Trốc Tru (FHD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Ftroctruhd%2Fplaylist.m3u8&source=chuoichientv
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Chuối Chiên" , 02/10 08:00 🏐 India vs South Korea (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/992553/india-vs-south-korea
 
