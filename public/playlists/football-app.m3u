@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:59:33 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:02:53 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (16 trận), Chuối Chiên (15 trận), Phá Làng (32 trận), Gà Vàng (15 trận), Sao Kê (20 trận), GaVang33 (21 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (16 trận), Chuối Chiên (15 trận), Phá Làng (32 trận), Gà Vàng (15 trận), Sao Kê (20 trận), GaVang33 (23 trận), Bông Lau (15 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ec01e78e2d9d42d2905f744a38957295.png" group-title="Gà Vàng" , 01/10 13:10 🟢 ⚽ Panama vs New Zealand (THICHDUTHU)
@@ -13,7 +13,7 @@ https://wtyi0525.edgemaxcdn.org/live/x68-hd-1111/playlist.m3u8|User-Agent=Mozill
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/c8188e3985db5cee9be1f4ea436f2fc2.png" group-title="GaVang33" , 01/10 15:00 🟢 ⚽ Khaan Khuns-Erchim FC vs Central Stallions (Gà Siêu Tồ)
 https://live2.zktsva.app/live/796315.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/016486307fcd47800a3b166cb5523f07.png" group-title="Phá Làng" , 01/10 17:00 ⚽ NK Olimpija Ljubljana - Slaven Belupo (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/016486307fcd47800a3b166cb5523f07.png" group-title="Phá Làng" , 01/10 17:00 🟡 ⚽ NK Olimpija Ljubljana - Slaven Belupo (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66h8zwkzqo9
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_540.jpg" group-title="Khán Đài" , 01/10 17:10 ⚽ Japan vs Ecuador (Chưa có link — chờ cập nhật)
@@ -457,3 +457,9 @@ https://khandai3.link/truc-tiep/viet-nam-vs-pakistan-02-10-2026-859009
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_479.jpg" group-title="Khán Đài" , 02/10 15:00 ⚽ Việt Nam vs Pakistan (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/viet-nam-vs-pakistan-02-10-2026-180836
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/43b2dd1c93748297cfbbea4d31247641.png" group-title="GaVang33" , 02/10 16:00 ⚽ Thailand vs Philippines (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/thailand-vs-philippines-luc-1600-ngay-02-10-2026-y0or5jh875e9qwz
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/14b75c2d38d88b747c19de8ea5509d16.png" group-title="GaVang33" , 02/10 16:00 ⚽ Vietnam vs Pakistan (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/vietnam-vs-pakistan-luc-1600-ngay-02-10-2026-23xmvkh672dlqg8
