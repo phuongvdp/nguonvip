@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:43:05 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:46:03 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (20 trận) =====
 
@@ -7,8 +7,8 @@
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/c8188e3985db5cee9be1f4ea436f2fc2.png!w60" group-title="Sao Kê" , 01/10 15:00 🟢 ⚽ Khaan Khuns-Erchim FC vs Central Stallions (Mơ (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx68-hd-1111%2Fplaylist.m3u8&source=saoke
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6715.png" group-title="Sao Kê" , 01/10 17:10 🟡 ⚽ Japan vs Ecuador (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/japan-vs-ecuador-6abcd70d47921e67729eb853.html
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6715.png" group-title="Sao Kê" , 01/10 17:10 🟢 ⚽ Japan vs Ecuador (Tít (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx2-hd-1111%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Sao Kê" , 01/10 17:20 🟡 ⚽ Japan vs Qatar (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/japan-vs-qatar-6abdabefad19d495b215f5da.html
