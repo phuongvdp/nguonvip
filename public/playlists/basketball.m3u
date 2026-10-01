@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:37:41 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:40:39 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (3 trận), Gà Vàng (1 trận) =====
 
@@ -9,8 +9,10 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pzhgifbkllliv.vcdn.cloud/1790776951_hd/1790776951_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/17dcd412f5ecfaa1bc4b85e6e39bc0c4.png" group-title="Giờ Vàng" , 01/10 08:00 🟡 🏀 Dallas Wings vs Golden State Valkyries (Chưa có link — chờ cập nhật)
-https://giovang.city/truc-tiep-dallas-wings-vs-golden-state-valkyries-01-10-29101472
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/17dcd412f5ecfaa1bc4b85e6e39bc0c4.png" group-title="Giờ Vàng" , 01/10 08:00 🟢 🏀 Dallas Wings vs Golden State Valkyries (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.city
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://pzhgifbkllliv.vcdn.cloud/1790778791_hd/1790778791_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/58709b9e7964e03c28ebe777ef823eca.png" group-title="Gà Vàng" , 01/10 08:00 🟡 🏀 Dallas Wings vs Golden State Valkyries (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
