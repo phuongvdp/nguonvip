@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:46:16 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:49:18 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (1 trận), Phá Làng (1 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (1 trận), Phá Làng (2 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_njudfFz.jpg" group-title="Khán Đài" , 01/10 17:00 🟢 🏐 Philippines vs Indonesia (Enzo)
@@ -9,3 +9,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/0553251f78c17a5cd8a102fd354e9316.png!w80" group-title="Phá Làng" , 01/10 17:00 🟢 🏐 Philippines - Indonesia (LÝ LINH LỰC (Server 1))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2Fac40ea8602f441279c102c17af815891%2Findex.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 01/10 17:20 🟢 🏐 Nhật Bản - Qatar (LÝ LÊN LỬA (Server 1))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2Fd6c6bbffd7254518977b34601967294f%2Findex.m3u8&source=phalang

@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:46:15 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:49:18 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (20 trận), Chuối Chiên (18 trận), Phá Làng (31 trận), Gà Vàng (17 trận), Sao Kê (25 trận), GaVang33 (29 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (20 trận), Chuối Chiên (18 trận), Phá Làng (32 trận), Gà Vàng (17 trận), Sao Kê (25 trận), GaVang33 (29 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTADC3pRGirDoA1eaQtvYds8PQ-vmcEESiPHvywMVtvYU3ERTP__FyL8m8F&s=10" group-title="Giờ Vàng" , 01/10 10:00 🟢 🎾 Beijing Open vs 2026 (Giovang 1)
@@ -33,6 +33,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Bông Lau" , 01/10 17:10 🟢 ⚽ Japan vs Ecuador (Chuối Chao (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoichaohd%2Fplaylist.m3u8&source=bonglau
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 01/10 17:20 🟢 🏐 Nhật Bản - Qatar (LÝ LÊN LỬA (Server 1))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2Fd6c6bbffd7254518977b34601967294f%2Findex.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d61c4e6d16164c34a14047c6df3fdcf7.png" group-title="Phá Làng" , 01/10 19:00 🟡 ⚽ Jahn Regensburg - WSG Tirol (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#n54qllh45z8xqvy

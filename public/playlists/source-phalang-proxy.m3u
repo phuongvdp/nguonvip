@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:46:16 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:49:18 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (31 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (32 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/0553251f78c17a5cd8a102fd354e9316.png!w80" group-title="Phá Làng" , 01/10 17:00 🟢 🏐 Philippines - Indonesia (LÝ LINH LỰC (Server 1))
@@ -9,6 +9,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/1ed9ede7058ba5986340f0f324e59a47.png" group-title="Phá Làng" , 01/10 17:10 🟢 ⚽ Japan - Ecuador (LÝ LA LÀNG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Faad5dbe1adf2fe14afe5d96cb146c4b6%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 01/10 17:20 🟢 🏐 Nhật Bản - Qatar (LÝ LÊN LỬA (Server 1))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2Fd6c6bbffd7254518977b34601967294f%2Findex.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d61c4e6d16164c34a14047c6df3fdcf7.png" group-title="Phá Làng" , 01/10 19:00 🟡 ⚽ Jahn Regensburg - WSG Tirol (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#n54qllh45z8xqvy
