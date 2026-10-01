@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:42:22 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:44:54 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (27 trận) =====
 
@@ -19,11 +19,13 @@ https://lilive1.eu.cc/live/c854efb8a51b51209b2f7a2432f31846/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/93767e57668fa184730c8020530415f0/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/79edbeab6d7de7ce5078c21c1bd4f7c3.png" group-title="Phá Làng" , 01/10 21:00 🟢 ⚽ Uzbekistan - Syria (LÝ LINH LỰC)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/uzbekistan-vs-syria-jw2r09h549l0rz8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/fcd1f89692d4bae21dbfa93bfc615833/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ae286cec620b19e61e90a0bc55b4cdaa.png" group-title="Phá Làng" , 01/10 21:00 🟡 ⚽ VfL Wolfsburg - Havelse (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkhyv84lqg8
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/79edbeab6d7de7ce5078c21c1bd4f7c3.png" group-title="Phá Làng" , 01/10 21:00 🟡 ⚽ Uzbekistan - Syria (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#jw2r09h549l0rz8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5de7e7b0cc4659edc7b3ea4795a6d2d5.png" group-title="Phá Làng" , 01/10 21:00 🟡 ⚽ Maldives - Lebanon (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l5ergphk0yoyr8k

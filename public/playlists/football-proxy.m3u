@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:42:21 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:44:54 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (18 trận), Chuối Chiên (18 trận), Phá Làng (27 trận), Gà Vàng (13 trận), Sao Kê (24 trận), GaVang33 (30 trận), Bông Lau (18 trận) =====
 
@@ -61,6 +61,12 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/c471de7682d1c900df7981bb2cf6536c.png" group-title="GaVang33" , 01/10 20:15 🟢 ⚽ Al-Sharjah vs Al Dhafra FC (Gà Siêu Péo)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F303098.m3u8&source=gavang33
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646.jpg" group-title="Khán Đài" , 01/10 21:00 🟢 ⚽ Uzbekistan vs Syria (Pháo Thủ)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa4%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dfaaa23580764370ed378ecd708c9f262&source=khandaitv
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/79edbeab6d7de7ce5078c21c1bd4f7c3.png" group-title="Phá Làng" , 01/10 21:00 🟢 ⚽ Uzbekistan - Syria (LÝ LINH LỰC)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Ffcd1f89692d4bae21dbfa93bfc615833%2Fplaylist.m3u8&source=phalang
+
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/debe9dfcc3e4dbea1c509ffab6bf9f0b.png" group-title="GaVang33" , 01/10 21:00 🟢 ⚽ Maldives vs Lebanon (Gà Siêu Tốc)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F307240.m3u8&source=gavang33
 
@@ -70,17 +76,11 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/maldives.png" group-title="Giờ Vàng" , 01/10 21:00 🟡 ⚽ Maldives vs Liban (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-maldives-vs-liban-01-10-6ab70be464cdca71b70d752a
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646.jpg" group-title="Khán Đài" , 01/10 21:00 🟡 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/uzbekistan-vs-syria-01-10-2026-857053
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_7ff7b895.png" group-title="Chuối Chiên" , 01/10 21:00 🟡 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1640512/uzbekistan-vs-syria
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ae286cec620b19e61e90a0bc55b4cdaa.png" group-title="Phá Làng" , 01/10 21:00 🟡 ⚽ VfL Wolfsburg - Havelse (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkhyv84lqg8
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/79edbeab6d7de7ce5078c21c1bd4f7c3.png" group-title="Phá Làng" , 01/10 21:00 🟡 ⚽ Uzbekistan - Syria (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#jw2r09h549l0rz8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5de7e7b0cc4659edc7b3ea4795a6d2d5.png" group-title="Phá Làng" , 01/10 21:00 🟡 ⚽ Maldives - Lebanon (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l5ergphk0yoyr8k
