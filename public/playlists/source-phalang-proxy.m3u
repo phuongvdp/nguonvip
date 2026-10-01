@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:28:50 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:31:55 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (33 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (34 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/0553251f78c17a5cd8a102fd354e9316.png!w80" group-title="Phá Làng" , 01/10 17:00 🟢 🏐 Philippines - Indonesia (LÝ LINH LỰC (Server 1))
@@ -13,10 +13,10 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 01/10 17:20 🟢 🏐 Nhật Bản - Qatar (LÝ LÊN LỬA (Server 1))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2Fd6c6bbffd7254518977b34601967294f%2Findex.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f075728e0041f014a218bf4472550b34.png" group-title="Phá Làng" , 01/10 18:30 ⚽ KAS Eupen - Alemannia Aachen (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f075728e0041f014a218bf4472550b34.png" group-title="Phá Làng" , 01/10 18:30 🟡 ⚽ KAS Eupen - Alemannia Aachen (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#vjxm8ghkv535r6o
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b92181f7b08a7e27bd8d18bc41e69b3f.png" group-title="Phá Làng" , 01/10 18:30 ⚽ VfB Stuttgart II - Würzburger Kickers (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b92181f7b08a7e27bd8d18bc41e69b3f.png" group-title="Phá Làng" , 01/10 18:30 🟡 ⚽ VfB Stuttgart II - Würzburger Kickers (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#vjxm8ghkv5w7r6o
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d61c4e6d16164c34a14047c6df3fdcf7.png" group-title="Phá Làng" , 01/10 19:00 ⚽ Jahn Regensburg - WSG Tirol (Chưa có link — chờ cập nhật)
@@ -103,3 +103,6 @@ https://phalang.live/trang-chu#l5ergphk0393r8k
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5ca231d16159a5bb36151e6b274df2e7.png" group-title="Phá Làng" , 02/10 03:00 ⚽ Sporting Cristal - AD Tarma (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l7oqdehjy0n3r51
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cef1725baaf3f3be0cb7215c5f39d162.png" group-title="Phá Làng" , 02/10 08:30 ⚽ Seattle Sounders - Sporting Kansas City (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#dn1m1ghl0g4pmoe
