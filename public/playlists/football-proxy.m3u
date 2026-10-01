@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:44:54 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:47:27 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (18 trận), Chuối Chiên (18 trận), Phá Làng (27 trận), Gà Vàng (13 trận), Sao Kê (24 trận), GaVang33 (30 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (18 trận), Chuối Chiên (18 trận), Phá Làng (27 trận), Gà Vàng (11 trận), Sao Kê (24 trận), GaVang33 (30 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/indonesia.png" group-title="Giờ Vàng" , 01/10 19:30 🟢 ⚽ Indonesia vs Bangladesh (Giovang 1)
@@ -27,12 +27,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/5518c15ddc8a8e32fba5700455b30327.png" group-title="Phá Làng" , 01/10 19:30 🟢 ⚽ Malaysia - Singapore (LÝ LA LÀNG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fc854efb8a51b51209b2f7a2432f31846%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/9e5b39abe0157cedd650c0d0c5cbd767.png" group-title="Gà Vàng" , 01/10 19:30 🟢 ⚽ Malaysia vs Singapore (CRIS)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69aa9525f5ec459ae275b43f.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/628f16b29939d1b060af49f66ae0f7f8.png" group-title="Gà Vàng" , 01/10 19:30 🟢 ⚽ Indonesia vs Bangladesh (SAITAMA)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69f42e961f739deff81510c0.m3u8&source=gavang
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6324.png" group-title="Sao Kê" , 01/10 19:30 🟢 ⚽ Indonesia vs Bangladesh (Bút Chì (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx22-hd-1111%2Fplaylist.m3u8&source=saoke
@@ -64,8 +58,14 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646.jpg" group-title="Khán Đài" , 01/10 21:00 🟢 ⚽ Uzbekistan vs Syria (Pháo Thủ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa4%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dfaaa23580764370ed378ecd708c9f262&source=khandaitv
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_7ff7b895.png" group-title="Chuối Chiên" , 01/10 21:00 🟢 ⚽ Uzbekistan vs Syria (Chuối Lá (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoilahd%2Fplaylist.m3u8&source=chuoichientv
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260927/79edbeab6d7de7ce5078c21c1bd4f7c3.png" group-title="Phá Làng" , 01/10 21:00 🟢 ⚽ Uzbekistan - Syria (LÝ LINH LỰC)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Ffcd1f89692d4bae21dbfa93bfc615833%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8700.png" group-title="Sao Kê" , 01/10 21:00 🟢 ⚽ Uzbekistan vs Syria (Ricky (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx83-hd-1111%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/debe9dfcc3e4dbea1c509ffab6bf9f0b.png" group-title="GaVang33" , 01/10 21:00 🟢 ⚽ Maldives vs Lebanon (Gà Siêu Tốc)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F307240.m3u8&source=gavang33
@@ -73,11 +73,11 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3016a701d47246f082016705f2f7267c.png" group-title="GaVang33" , 01/10 21:00 🟢 ⚽ Uzbekistan vs Syria (Gà Siêu Bệu)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F289650.m3u8&source=gavang33
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_7ff7b895.png" group-title="Bông Lau" , 01/10 21:00 🟢 ⚽ Uzbekistan vs Syria (Chuối Lá (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoilahd%2Fplaylist.m3u8&source=bonglau
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/maldives.png" group-title="Giờ Vàng" , 01/10 21:00 🟡 ⚽ Maldives vs Liban (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-maldives-vs-liban-01-10-6ab70be464cdca71b70d752a
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_7ff7b895.png" group-title="Chuối Chiên" , 01/10 21:00 🟡 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1640512/uzbekistan-vs-syria
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ae286cec620b19e61e90a0bc55b4cdaa.png" group-title="Phá Làng" , 01/10 21:00 🟡 ⚽ VfL Wolfsburg - Havelse (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkhyv84lqg8
@@ -93,12 +93,6 @@ https://gavanglinkt.tv/truc-tiep/uzbekistan-vs-syria-ngay-01-10-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/03645e9c1d7fd2c48705622f52fd901e.png" group-title="Gà Vàng" , 01/10 21:00 🟡 ⚽ Wolfsburg vs Havelse (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/vfl-wolfsburg-vs-havelse-ngay-01-10-2026/
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8700.png" group-title="Sao Kê" , 01/10 21:00 🟡 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/uzbekistan-vs-syria-6abdb2114c1e63adf7225802.html
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_7ff7b895.png" group-title="Bông Lau" , 01/10 21:00 🟡 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1640512
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/al-ettifaq.png" group-title="Giờ Vàng" , 01/10 22:00 ⚽ Al-Gharafa vs Al Mesaimeer (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-al-gharafa-vs-al-mesaimeer-01-10-s0o5rb17kycl

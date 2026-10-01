@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:44:54 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:47:27 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (24 trận) =====
 
@@ -10,8 +10,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5823.png" group-title="Sao Kê" , 01/10 19:30 🟢 ⚽ Malaysia vs Singapore (Mơ (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx68-hd-1111%2Fplaylist.m3u8&source=saoke
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8700.png" group-title="Sao Kê" , 01/10 21:00 🟡 ⚽ Uzbekistan vs Syria (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/uzbekistan-vs-syria-6abdb2114c1e63adf7225802.html
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8700.png" group-title="Sao Kê" , 01/10 21:00 🟢 ⚽ Uzbekistan vs Syria (Ricky (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx83-hd-1111%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/101897.png" group-title="Sao Kê" , 01/10 22:00 ⚽ Al-Gharafa vs Al Mesaimeer (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/al-gharafa-vs-al-mesaimeer-6abcd70d47921e67729eb842.html
