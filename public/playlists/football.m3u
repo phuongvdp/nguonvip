@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:43:49 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:46:39 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (17 trận), Chuối Chiên (18 trận), Phá Làng (21 trận), Gà Vàng (7 trận), Sao Kê (21 trận), GaVang33 (27 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (17 trận), Chuối Chiên (18 trận), Phá Làng (21 trận), Gà Vàng (6 trận), Sao Kê (21 trận), GaVang33 (27 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/greece-u21.png" group-title="Giờ Vàng" , 01/10 22:00 🟢 ⚽ U21 Hy Lạp vs U21 Latvia (Giovang 1)
@@ -68,11 +68,6 @@ https://lilive1.eu.cc/live/83717379d6924e6f1aab38826743602a/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/b2472b3d72eac7055ed16f9ae2ff444e/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f06adf060c098f11e76fa2ff1565ba70.png" group-title="Gà Vàng" , 01/10 23:00 🟢 ⚽ North Macedonia U21 vs Montenegro U21 (khang hi)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/6a7c0d8f65997681f18cacc4.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f653d5976458f0dcce2b3939259acffa.png" group-title="Gà Vàng" , 01/10 23:00 🟢 ⚽ Azerbaijan vs Liechtenstein (CRIS)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -82,6 +77,11 @@ https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a439a7fb89dded67b208b87.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f06adf060c098f11e76fa2ff1565ba70.png" group-title="Gà Vàng" , 01/10 23:00 🟢 ⚽ North Macedonia U21 vs Montenegro U21 (khang hi)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/6a7c0d8f65997681f18cacc4.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8566.png" group-title="Sao Kê" , 01/10 23:00 🟢 ⚽ Azerbaijan vs Liechtenstein (Teppy (HD))
 #EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/azerbaijan-vs-liechtenstein-6abcd70d47921e67729eb849.html
@@ -144,9 +144,6 @@ https://live2.zktsva.app/live/307240.m3u8
 #EXTVLCOPT:http-referrer=https://tructiep.bonglau.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/0454e224a578f2d2fb8e4bafc58e140e.png" group-title="Gà Vàng" , 01/10 23:45 🟡 ⚽ Austria Wien (w) vs Inter Milan(w) (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/austria-wien-women-vs-inter-milan-women-ngay-01-10-2026/
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/hungary-u21.png" group-title="Giờ Vàng" , 02/10 00:00 🟡 ⚽ U21 Hungary vs U21 Lithuania (Chưa có link — chờ cập nhật)
