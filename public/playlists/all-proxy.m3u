@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:06:55 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:09:55 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (17 trận), Chuối Chiên (18 trận), Phá Làng (37 trận), Gà Vàng (22 trận), Sao Kê (23 trận), GaVang33 (21 trận), Bông Lau (18 trận) =====
 
@@ -16,7 +16,7 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9ae36debba0abd59c01de2e60fc42648.png" group-title="Gà Vàng" , 01/10 12:00 🟢 ⚽ Khovd Western vs Deren FC (KAYTI)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69b8e6f43bcf2231c35d5144.m3u8&source=gavang
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjpCcpmdZ_Zi7aRAaiA8kDIHfl4g_SOY-kCFcylIYFXg&s=10" group-title="Giờ Vàng" , 01/10 12:30 🟢 ⚽ Nam Phạm vs Kledio Kaci (Giovang 1)
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYUR66vjmzLtedaSXT3hkqFz8HAX43_SIecXU-569ODg&s" group-title="Giờ Vàng" , 01/10 12:30 🟢 ⚽ Nam Phạm vs Kledio Kaci (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790823294_hd%2F1790823294_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132737_07ec8953.png" group-title="Chuối Chiên" , 01/10 13:10 🟢 ⚽ Panama vs New Zealand (Chuối Chao (FHD))
