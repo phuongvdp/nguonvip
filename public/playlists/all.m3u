@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:07:36 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:10:33 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (18 trận), Chuối Chiên (19 trận), Phá Làng (38 trận), Gà Vàng (22 trận), Sao Kê (24 trận), GaVang33 (21 trận), Bông Lau (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (15 trận), Khán Đài (18 trận), Chuối Chiên (19 trận), Phá Làng (38 trận), Gà Vàng (21 trận), Sao Kê (24 trận), GaVang33 (21 trận), Bông Lau (19 trận) =====
 
 # ----- Ngày 2026-10-01 -----
 #EXTINF:-1 tvg-logo="https://media-cdn-v2.laodong.vn/storage/newsportal/2026/5/27/1708909/Asiad-20-01.jpeg" group-title="Giờ Vàng" , 01/10 06:30 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -64,6 +64,11 @@ https://pzhgifbkllliv.vcdn.cloud/1790823294_hd/1790823294_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aef114700ab5fcdc5baa98d53a41761a.png" group-title="Phá Làng" , 01/10 13:10 🟢 ⚽ Panama - New Zealand (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/panama-vs-new-zealand-dn1m1gh9v3zemoe
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/fedd6c698d5f95375afd917b7fab3f54/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5922.png" group-title="Sao Kê" , 01/10 13:10 🟢 ⚽ Panama vs New Zealand (Quang Huy (HD))
 #EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/south-korea-vs-iran-6abdabb842ecb1c2b82df640.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -77,12 +82,6 @@ https://live2.zktsva.app/live/289650.m3u8
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aef114700ab5fcdc5baa98d53a41761a.png" group-title="Phá Làng" , 01/10 13:10 🟡 ⚽ Panama - New Zealand (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#dn1m1gh9v3zemoe
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ec01e78e2d9d42d2905f744a38957295.png" group-title="Gà Vàng" , 01/10 13:10 🟡 ⚽ Panama vs New Zealand (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/panama-vs-new-zealand-ngay-01-10-2026/
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/jilBtfFG-0xLZRP53.png" group-title="Giờ Vàng" , 01/10 14:00 🟡 🏐 Việt Nam vs Uzbekistan (Chưa có link — chờ cập nhật)
 https://giovang.city/truc-tiep-viet-nam-vs-uzbekistan-01-10-bqkq79ft8aap
