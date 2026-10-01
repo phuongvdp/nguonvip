@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 05:27:05 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 05:30:01 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (15 trận), Chuối Chiên (14 trận), Phá Làng (58 trận), Gà Vàng (7 trận), Sao Kê (19 trận), GaVang33 (23 trận), Bông Lau (14 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (15 trận), Chuối Chiên (14 trận), Phá Làng (60 trận), Gà Vàng (7 trận), Sao Kê (19 trận), GaVang33 (23 trận), Bông Lau (14 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/curacao.png" group-title="Giờ Vàng" , 02/10 05:00 🟢 ⚽ Curacao vs Trinidad & Tobago (Giovang 1)
@@ -22,7 +22,7 @@ https://live2.zktsva.app/live/301263.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132742_190812ee.png" group-title="Bông Lau" , 02/10 05:00 🟢 ⚽ Curaçao vs Trinidad and Tobago (Trốc Tru (FHD))
 https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://live.chuoichien.tv/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/ed16dd3c5970174b77eb04b0ea5b0960.png" group-title="Gà Vàng" , 02/10 06:30 ⚽ Athletic Club vs Sport Club Recife PE (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/ed16dd3c5970174b77eb04b0ea5b0960.png" group-title="Gà Vàng" , 02/10 06:30 🟡 ⚽ Athletic Club vs Sport Club Recife PE (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/athletic-club-vs-sport-club-do-recife-ngay-02-10-2026/
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/dominican-republic.png" group-title="Giờ Vàng" , 02/10 07:00 ⚽ Cộng hòa Dominican vs Haiti (Chưa có link — chờ cập nhật)
@@ -348,6 +348,12 @@ https://phalang.live/trang-chu#l7oqdehg7p88r51
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/17b767b98695df2fb512e992dd8a7af4.png" group-title="GaVang33" , 02/10 20:15 ⚽ Al-Wasl SC vs Ittihad Kalba FC (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/al-wasl-sc-vs-ittihad-kalba-fc-luc-2015-ngay-02-10-2026-l7oqdehg7p88r51
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fe636189a2f3db78d0554c34f0bdaae6.png" group-title="Phá Làng" , 02/10 20:30 ⚽ Eintracht Frankfurt - Eintracht Braunschweig (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#6ypq3nhk67ngmd7
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6a0aead3d2dbefd2c1629fd0b3233d88.png" group-title="Phá Làng" , 02/10 20:30 ⚽ Wolfsberger AC - ASK Voitsberg (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#8yomo4hyeg45q0j
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/kazakhstan.png" group-title="Giờ Vàng" , 02/10 21:00 ⚽ Kazakhstan vs Moldova (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-kazakhstan-vs-moldova-02-10-69f7e7425c39b5554409bf6b
