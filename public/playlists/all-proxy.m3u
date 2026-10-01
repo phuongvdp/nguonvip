@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:55:15 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:58:23 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (24 trận), Chuối Chiên (18 trận), Phá Làng (23 trận), Gà Vàng (9 trận), Sao Kê (21 trận), GaVang33 (27 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận), Khán Đài (24 trận), Chuối Chiên (18 trận), Phá Làng (23 trận), Gà Vàng (9 trận), Sao Kê (21 trận), GaVang33 (27 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-10-01 -----
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/greece-u21.png" group-title="Giờ Vàng" , 01/10 22:00 🟢 ⚽ U21 Hy Lạp vs U21 Latvia (Giovang 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790862754_hd%2F1790862754_hd%40720p.m3u8&source=giovang
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/8ba6b4f123aa2cf2832d19b58bf194ef.png" group-title="Gà Vàng" , 01/10 22:00 🟢 ⚽ Greece U21 vs Latvia U21 (Cá MậP)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a0c7c4b1ae4d6db02433c48.m3u8&source=gavang
 
@@ -305,6 +302,12 @@ https://gavang33.me/truc-tiep/nicaragua-vs-costa-rica-luc-0900-ngay-02-10-2026-1
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134318_ac29542c.png" group-title="Bông Lau" , 02/10 09:00 ⚽ Nicaragua vs Costa Rica (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1639974
 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTADC3pRGirDoA1eaQtvYds8PQ-vmcEESiPHvywMVtvYU3ERTP__FyL8m8F&s=10" group-title="Giờ Vàng" , 02/10 10:00 🎾 Beijing Open vs 2026 (Chưa có link — chờ cập nhật)
+https://giovang.rent/truc-tiep-beijing-open-vs-2026-02-10-zu153ebowssu
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png" group-title="Giờ Vàng" , 02/10 11:00 🏐 Qatar vs Thái Lan (Chưa có link — chờ cập nhật)
+https://giovang.rent/truc-tiep-qatar-vs-thai-lan-02-10-dkopjwofv1ve
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_TkTkw3i.jpg" group-title="Khán Đài" , 02/10 11:00 🏐 Qatar vs Thái Lan (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/qatar-vs-thai-lan
 
@@ -322,6 +325,9 @@ https://khandai3.link/truc-tiep/china-w-vs-south-korea-w
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/fd3dd61e88396b2c01611167ed0867eb.png!w80" group-title="Phá Làng" , 02/10 13:00 ⚽ China Women - South Korea Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66h8z2g3qo9
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/iran.png" group-title="Giờ Vàng" , 02/10 14:00 🏐 Iran vs Pakistan (Chưa có link — chờ cập nhật)
+https://giovang.rent/truc-tiep-iran-vs-pakistan-02-10-0uaf4m7mv0up
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/download_sbv5hbq.png" group-title="Khán Đài" , 02/10 14:00 🏐 Pakistan vs Iran (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/pakistan-vs-iran
