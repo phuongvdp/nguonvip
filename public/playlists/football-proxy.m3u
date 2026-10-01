@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:44:12 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:47:09 1/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (18 trận), Chuối Chiên (19 trận), Phá Làng (28 trận), Gà Vàng (12 trận), Sao Kê (24 trận), GaVang33 (29 trận), Bông Lau (19 trận) =====
 
@@ -19,11 +19,11 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/malaysia.png" group-title="Giờ Vàng" , 01/10 19:30 🟢 ⚽ Malaysia vs Singapore (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790810421_hd%2F1790810421_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_484.jpg" group-title="Khán Đài" , 01/10 19:30 🟢 ⚽ Indonesia vs Bangladesh (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/indonesia-vs-bangladesh-01-10-2026-859003
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_484.jpg" group-title="Khán Đài" , 01/10 19:30 🟢 ⚽ Indonesia vs Bangladesh (Chim Nhỏ)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa5%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3D67cc5bcdcabb081229f5406e5b07483d&source=khandaitv
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_478.jpg" group-title="Khán Đài" , 01/10 19:30 🟢 ⚽ Malaysia vs Singapore (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/malaysia-vs-singapore-01-10-2026-859004
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_478.jpg" group-title="Khán Đài" , 01/10 19:30 🟢 ⚽ Malaysia vs Singapore (Tày)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa8%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif" group-title="Chuối Chiên" , 01/10 19:30 🟢 ⚽ Indonesia vs Bangladesh (Chuối Sấy (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoisayhd%2Fplaylist.m3u8&source=chuoichientv
@@ -64,11 +64,11 @@ https://phalang.live/trang-chu#x7lm7phxgzv4m2w
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/44094c112b3fd7f48ddb77b0dfdc2b62.png" group-title="Phá Làng" , 01/10 20:00 🟡 ⚽ Dunajska Streda - Puskas Akademia FC (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y0or5jh9xng9qwz
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f1eb0a2465dd34309c64d113ce0c9b96.png" group-title="GaVang33" , 01/10 20:15 🟡 ⚽ Dubai United vs Hatta (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/dubai-united-vs-hatta-luc-2015-ngay-01-10-2026-dn1m1ghl6jpomoe
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f1eb0a2465dd34309c64d113ce0c9b96.png" group-title="GaVang33" , 01/10 20:15 🟢 ⚽ Dubai United vs Hatta (Gà Siêu Nhí)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F301263.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/c471de7682d1c900df7981bb2cf6536c.png" group-title="GaVang33" , 01/10 20:15 🟡 ⚽ Al-Sharjah vs Al Dhafra FC (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/al-sharjah-vs-al-dhafra-fc-luc-2015-ngay-01-10-2026-4wyrn4h6g3o0q86
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/c471de7682d1c900df7981bb2cf6536c.png" group-title="GaVang33" , 01/10 20:15 🟢 ⚽ Al-Sharjah vs Al Dhafra FC (Gà Siêu Péo)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F303098.m3u8&source=gavang33
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/maldives.png" group-title="Giờ Vàng" , 01/10 21:00 ⚽ Maldives vs Liban (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-maldives-vs-liban-01-10-6ab70be464cdca71b70d752a
