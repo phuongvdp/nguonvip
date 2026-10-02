@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:58:23 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:01:29 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (22 trận) =====
 
 # ----- Ngày 2026-10-02 -----
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8265.png" group-title="Sao Kê" , 02/10 21:00 🟢 ⚽ Kazakhstan vs Moldova (Cà Rốt (HD))
-https://wtyi0525.edgemaxcdn.org/live/x10-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://vip3.saoketv40.xyz/kazakhstan-vs-moldova-6abe354742ecb1c2b83700f6.html
-
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5793.png" group-title="Sao Kê" , 02/10 23:00 🟢 ⚽ Cyprus vs Armenia (Ricky (HD))
 https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://vip3.saoketv40.xyz/kazakhstan-vs-moldova-6abe354742ecb1c2b83700f6.html
 
@@ -61,3 +58,15 @@ https://vip3.saoketv40.xyz/india-vs-brazil-6abf7062b9c200d560485f0c.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/9865.png" group-title="Sao Kê" , 03/10 21:15 ⚽ Almería vs Burgos CF (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/almeria-vs-burgos-cf-6abf7062b9c200d560485f09.html
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10155.png" group-title="Sao Kê" , 03/10 23:00 ⚽ Croatia vs England (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/croatia-vs-england-6abf7062b9c200d560485f02.html
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10057.png" group-title="Sao Kê" , 03/10 23:00 ⚽ Belarus vs San Marino (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/belarus-vs-san-marino-6abf7062b9c200d560485f05.html
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8261.png" group-title="Sao Kê" , 03/10 23:00 ⚽ Estonia vs Luxembourg (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/estonia-vs-luxembourg-6abf7062b9c200d560485f06.html
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8536.png" group-title="Sao Kê" , 03/10 23:00 ⚽ Iceland vs Bulgaria (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/iceland-vs-bulgaria-6abf7062b9c200d560485f07.html
