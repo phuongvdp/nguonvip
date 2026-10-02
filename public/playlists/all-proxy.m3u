@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:54:35 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:57:32 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (14 trận), Chuối Chiên (16 trận), Phá Làng (51 trận), Gà Vàng (17 trận), Sao Kê (20 trận), GaVang33 (26 trận), Bông Lau (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (14 trận), Chuối Chiên (16 trận), Phá Làng (50 trận), Gà Vàng (17 trận), Sao Kê (20 trận), GaVang33 (26 trận), Bông Lau (16 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTADC3pRGirDoA1eaQtvYds8PQ-vmcEESiPHvywMVtvYU3ERTP__FyL8m8F&s=10" group-title="Giờ Vàng" , 02/10 14:00 🟢 🎾 Beijing Open vs 2026 (Giovang 1)
@@ -39,9 +39,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/8MkHmtRq-xpPmazWa.png" group-title="Sao Kê" , 02/10 17:30 🟢 ⚽ North Korea W vs Japan W (Mơ (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx68-hd-1111%2Fplaylist.m3u8&source=saoke
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/a3f9a9a7e81748828ce092f0dd488479.png!w80" group-title="Phá Làng" , 02/10 18:00 🟢 ⚽ South Korea - Venezuela (LÝ LONG)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F64e9e712250bc744cdbda2014f879b8a%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a3f9a9a7e81748828ce092f0dd488479.png" group-title="Gà Vàng" , 02/10 18:00 🟢 ⚽ South Korea vs Venezuela (MáN NúI)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69cf6331585c5992182f4160.m3u8&source=gavang
