@@ -86,6 +86,22 @@ function collectRawMatches(node, seen, out, depth = 0) {
 let rawMatchesCache = { data: null, fetchedAt: 0, pending: null };
 const RAW_CACHE_TTL_MS = 20 * 1000; // đủ nhanh cho tỉ số live, đủ lâu để đỡ mở trình duyệt liên tục
 
+// FIX (02/10/2026 — "cứ quét ra 0 trận rồi lại quét ra bình thường, lặp đi lặp lại"):
+// trình duyệt headless vượt Cloudflare KHÔNG chắc 100% mỗi lần (xem ghi chú
+// bên dưới) — có lượt kẹt ở trang "Just a moment..." nên ra 0 trận, lượt sau
+// lại qua được. Lỗi gốc: lượt rỗng đó vẫn bị LƯU vào cache như một kết quả hợp
+// lệ và GHI ĐÈ dữ liệu tốt vừa lấy được -> workflow quét mỗi 2 phút sinh ra
+// playlist 0 trận (mọi kênh Khán Đài biến mất khỏi VLC/app) rồi lại đầy lại.
+// Cách sửa: nhớ riêng "lần quét tốt gần nhất" (lastGood); lượt nào ra rỗng/lỗi
+// thì DÙNG LẠI dữ liệu đó thay vì trả rỗng, tối đa STALE_MAX_MS (mặc định 15
+// phút, đổi bằng env KHANDAITV_STALE_MAX_MS) — quá hạn mà vẫn rỗng mới thừa
+// nhận là hết trận/lỗi thật để không giữ dữ liệu cũ mãi.
+let lastGood = { data: null, at: 0 };
+const STALE_MAX_MS = (() => {
+  const raw = String(process.env.KHANDAITV_STALE_MAX_MS ?? '').trim();
+  return raw !== '' && Number.isFinite(Number(raw)) && Number(raw) >= 0 ? Number(raw) : 15 * 60 * 1000;
+})();
+
 class KhanDaiTvService {
   getFullUrl(url) {
     if (!url) return '';
@@ -151,18 +167,39 @@ class KhanDaiTvService {
       return out;
     };
 
+    // Dữ liệu cũ còn dùng được (trong hạn STALE_MAX_MS) hoặc null.
+    const staleData = () => {
+      const age = Date.now() - lastGood.at;
+      return lastGood.data && lastGood.data.length && age <= STALE_MAX_MS ? { data: lastGood.data, ageSec: Math.round(age / 1000) } : null;
+    };
+
     const task = (async () => {
       try {
         let out = await attemptFetch('lần 1');
         if (!out.length) {
           out = await attemptFetch('lần 2 (thử lại)');
         }
+        if (out.length) {
+          lastGood = { data: out, at: Date.now() };
+          rawMatchesCache = { data: out, fetchedAt: Date.now(), pending: null };
+          return out;
+        }
+        // Rỗng sau 2 lần thử: KHÔNG ghi đè dữ liệu tốt — dùng lại bản gần nhất.
+        const stale = staleData();
+        if (stale) {
+          console.warn(`[khandaitv] lần quét này ra 0 trận — dùng lại ${stale.data.length} trận của lần quét tốt cách đây ${stale.ageSec}s (tối đa ${Math.round(STALE_MAX_MS / 1000)}s)`);
+          rawMatchesCache = { data: stale.data, fetchedAt: Date.now(), pending: null };
+          return stale.data;
+        }
         rawMatchesCache = { data: out, fetchedAt: Date.now(), pending: null };
         return out;
       } catch (error) {
         console.error('Error fetching KhanDaiTV via browser [build-marker-v2]:', error.message);
-        rawMatchesCache = { data: rawMatchesCache.data || [], fetchedAt: rawMatchesCache.data ? Date.now() : 0, pending: null };
-        return rawMatchesCache.data;
+        const stale = staleData();
+        const data = stale ? stale.data : (rawMatchesCache.data || []);
+        if (stale) console.warn(`[khandaitv] lỗi khi quét — dùng lại ${stale.data.length} trận của lần quét tốt cách đây ${stale.ageSec}s`);
+        rawMatchesCache = { data, fetchedAt: data.length ? Date.now() : 0, pending: null };
+        return data;
       }
     })();
 

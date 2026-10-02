@@ -58,8 +58,22 @@ Tab **Actions → Check Domains → Run workflow**. Các ô:
 - `sources`: `all` hoặc danh sách key, ví dụ `giovang,saoke` (gồm cả domain API/player của nguồn đó).
 - `extra_candidates`: domain mới bạn **biết** (cách nhau dấu phẩy) — được thử đầu tiên cho nguồn nào chết.
 - `restart_generator`: đổi biến xong thì chạy lại `Generate Playlists`.
+- `save_snapshot`: lưu danh sách domain hiện tại vào file trong git (xem mục "Bản lưu domain trong git" bên dưới).
 
 Kết quả hiện ở mục **Summary** của lần chạy (bảng: nguồn, biến, domain hiện tại, trạng thái, domain mới, hành động).
+
+### Bản lưu domain trong git
+Sau mỗi lần quét, workflow lưu **domain hiện tại của tất cả nguồn** vào 2 file rồi commit lên git:
+- `data/source-domains.txt` — cùng định dạng biến `SOURCE_DOMAINS`. **Dán nguyên nội dung vào biến `SOURCE_DOMAINS` là khôi phục lại được** (hoặc dùng làm bản sao lưu khi lỡ xoá biến).
+- `data/source-domains.json` — domain hiện tại, nguồn gốc (`SOURCE_DOMAINS` / biến riêng lẻ / mặc định), trạng thái lần quét gần nhất và **lịch sử đổi domain** (từ → sang, lý do, thời điểm; giữ 200 mục gần nhất).
+
+Quy tắc ghi file:
+- Chỉ ghi và commit khi **domain thật sự thay đổi** so với lần lưu trước (lần đầu chưa có file thì tạo luôn). Chỉ đổi trạng thái 🟢/🟡 thì không commit, nên không sinh commit thừa.
+- Lưu theo **thực tế đang dùng**: tìm thấy domain mới nhưng ghi biến thất bại (thiếu token...) thì file vẫn giữ domain cũ.
+- Bạn tự sửa tay `SOURCE_DOMAINS` rồi bấm Check Domains thì file cũng theo kịp và ghi vào lịch sử.
+- Commit do `github-actions` đẩy lên, nội dung `chore: cap nhat danh sach domain nguon [skip ci]`; không tự kích hoạt workflow khác. Workflow Generate cũng commit liên tục nên bước này tự `pull --rebase` và thử lại tối đa 5 lần.
+- Tắt bằng cách bỏ tick `save_snapshot`.
+- Nếu bước commit báo `Permission denied` hoặc bị từ chối: vào repo **Settings → Actions → General → Workflow permissions** chọn **Read and write permissions**; nếu nhánh chính có bảo vệ (branch protection) cho phép `github-actions` đẩy trực tiếp.
 
 ### Trạng thái
 | Trạng thái | Ý nghĩa | Có tự đổi biến? |

@@ -296,6 +296,7 @@ export async function run({ env = process.env, prober = createProber(), fetchImp
       else found = await discover(entry, cur, prober, { extra, env });
       if (found.url) {
         row.newUrl = found.url;
+        row.via = found.via;
         const line = `${entry.key}=${found.url}`;
         if (!entry.autoFix) {
           row.action = `đề xuất: thêm dòng \`${line}\` vào biến ${SOURCE_DOMAINS_VAR} (nguồn này không tự ghi — xem CHECK_DOMAINS.md)`;
@@ -356,14 +357,83 @@ export async function run({ env = process.env, prober = createProber(), fetchImp
   return { rows, changed, unresolved, autoFix };
 }
 
+// ----------------- lưu danh sách domain hiện tại vào file (để commit lên git) -----------------
+// data/source-domains.txt  : cùng định dạng biến SOURCE_DOMAINS — dán nguyên vào biến để KHÔI PHỤC/khai báo lại
+// data/source-domains.json : domain hiện tại + trạng thái lần quét gần nhất + LỊCH SỬ đổi domain (200 mục gần nhất)
+// Chỉ ghi khi domain thật sự THAY ĐỔI so với lần lưu trước (hoặc lần đầu chưa có file) -> không tạo commit thừa.
+const HISTORY_LIMIT = 200;
+
+function domainOrigin(entry, env) {
+  if (parseSourceDomains(env[SOURCE_DOMAINS_VAR]).map[entry.envVar]) return 'SOURCE_DOMAINS';
+  if (stripSlash(env[entry.envVar])) return 'biến riêng lẻ';
+  return 'mặc định';
+}
+
+export function computeSnapshot({ rows, env = process.env, prev = null, now = new Date() }) {
+  const rowByKey = new Map(rows.map((r) => [r.entry.key, r]));
+  const iso = now.toISOString();
+  const domains = {};
+  for (const e of SOURCES) {
+    const row = rowByKey.get(e.key);
+    const applied = !!row && row.action.startsWith('✅') && !!row.newUrl;
+    domains[e.key] = {
+      url: applied ? row.newUrl : row ? row.cur : currentUrlOf(e, env),
+      envVar: e.envVar,
+      role: e.role,
+      status: row ? row.state : prev?.domains?.[e.key]?.status || 'chưa quét',
+      from: applied ? 'SOURCE_DOMAINS' : domainOrigin(e, env)
+    };
+  }
+  const prevUrls = prev?.domains ? Object.fromEntries(Object.entries(prev.domains).map(([k, v]) => [k, v?.url])) : null;
+  const changedKeys = SOURCES.map((e) => e.key).filter((k) => !prevUrls || prevUrls[k] !== domains[k].url);
+  if (!changedKeys.length) return { changed: false, changedKeys: [], json: null, txt: null };
+
+  const history = Array.isArray(prev?.history) ? [...prev.history] : [];
+  if (!prevUrls) {
+    history.push({ at: iso, source: '(tất cả)', from: null, to: null, via: 'tạo bản lưu đầu tiên' });
+  } else {
+    for (const k of changedKeys) {
+      history.push({ at: iso, source: k, from: prevUrls[k] ?? null, to: domains[k].url, via: rowByKey.get(k)?.via || 'sửa tay biến SOURCE_DOMAINS hoặc nguồn khác' });
+    }
+  }
+  const json = { version: 1, updatedAt: iso, domains, history: history.slice(-HISTORY_LIMIT) };
+
+  const lines = [
+    `# Domain các nguồn hiện tại — workflow "Check Domains" tự cập nhật lúc ${iso}`,
+    '# Dán nguyên nội dung này vào biến GitHub SOURCE_DOMAINS để khôi phục/khai báo lại. Lịch sử: data/source-domains.json'
+  ];
+  for (const e of SOURCES) {
+    const d = domains[e.key];
+    // Trang xem Chuối Chiên: nếu chưa ghim thì để ghi chú (code tự dò liveNN.chuoichientv.me; ghim sẽ ÉP cố định)
+    const pinned = !(e.key === 'chuoichientv' && d.from === 'mặc định');
+    lines.push(`${pinned ? '' : '# '}${e.key}=${d.url}`);
+  }
+  return { changed: true, changedKeys, json, txt: lines.join('\n') + '\n' };
+}
+
+export function saveSnapshotIfChanged({ dir = 'data', rows, env = process.env, now = new Date() }) {
+  const jsonPath = `${dir}/source-domains.json`;
+  const txtPath = `${dir}/source-domains.txt`;
+  let prev = null;
+  try { prev = JSON.parse(fs.readFileSync(jsonPath, 'utf8')); } catch { /* chưa có file / hỏng -> coi như lần đầu */ }
+  const snap = computeSnapshot({ rows, env, prev, now });
+  if (snap.changed) {
+    fs.mkdirSync(dir, { recursive: true });
+    fs.writeFileSync(jsonPath, JSON.stringify(snap.json, null, 2) + '\n');
+    fs.writeFileSync(txtPath, snap.txt);
+  }
+  return { changed: snap.changed, changedKeys: snap.changedKeys, files: [txtPath, jsonPath] };
+}
+
 const ICON = { alive: '🟢 sống', moved: '🟠 đã chuyển', blocked: '🟡 bị chặn bot', suspect: '🟡 nghi ngờ', degraded: '🟡 lỗi tạm', down: '🔴 chết' };
 
-export function renderSummary({ rows, changed, unresolved, autoFix }) {
+export function renderSummary({ rows, changed, unresolved, autoFix, snapshot = null }) {
   const esc = (s) => String(s ?? '').replace(/\|/g, '\\|');
   const lines = [
     '## Kết quả quét domain',
     '',
     `Chế độ: ${autoFix ? 'tự sửa (auto_fix)' : 'chỉ quét'} · Biến đã ghi: ${changed.length ? changed.join(', ') : 'không'} · Chưa xử lý được: ${unresolved}`,
+    ...(snapshot ? [`Bản lưu domain trong git: ${snapshot.changed ? `đã cập nhật ${snapshot.files.join(' + ')} (${snapshot.changedKeys.join(', ')})` : 'không đổi'}`] : []),
     '',
     '| Nguồn | Tên trong biến | Domain hiện tại | Trạng thái | Domain mới | Hành động |',
     '|---|---|---|---|---|---|'
@@ -376,11 +446,23 @@ export function renderSummary({ rows, changed, unresolved, autoFix }) {
 
 async function main() {
   const out = await run();
-  const md = renderSummary(out);
+  const saveOn = !/^(0|false|no|off)$/i.test(String(process.env.SAVE_SNAPSHOT ?? '1').trim() || '1');
+  let snapshot = null;
+  if (saveOn) {
+    try {
+      snapshot = saveSnapshotIfChanged({ dir: process.env.SNAPSHOT_DIR || 'data', rows: out.rows });
+    } catch (err) {
+      console.error('Không lưu được bản domain vào file:', err.message); // không làm hỏng kết quả quét
+    }
+  }
+  const md = renderSummary({ ...out, snapshot });
   if (process.env.GITHUB_STEP_SUMMARY) fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, md);
   console.log('\n' + md);
   if (process.env.GITHUB_OUTPUT) {
-    fs.appendFileSync(process.env.GITHUB_OUTPUT, `changed=${out.changed.length ? 'true' : 'false'}\nchanged_vars=${out.changed.join(',')}\nunresolved=${out.unresolved}\n`);
+    fs.appendFileSync(
+      process.env.GITHUB_OUTPUT,
+      `changed=${out.changed.length ? 'true' : 'false'}\nchanged_vars=${out.changed.join(',')}\nunresolved=${out.unresolved}\nsnapshot_changed=${snapshot?.changed ? 'true' : 'false'}\n`
+    );
   }
   process.exit(out.unresolved > 0 ? 1 : 0);
 }
