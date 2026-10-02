@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:01:29 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:04:32 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (15 trận), Chuối Chiên (17 trận), Phá Làng (31 trận), Gà Vàng (3 trận), Sao Kê (22 trận), GaVang33 (25 trận), Bông Lau (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (15 trận), Chuối Chiên (17 trận), Phá Làng (31 trận), Gà Vàng (3 trận), Sao Kê (21 trận), GaVang33 (25 trận), Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fe636189a2f3db78d0554c34f0bdaae6.png" group-title="Gà Vàng" , 02/10 21:00 🟢 ⚽ Eintracht Frankfurt vs Eintracht Braunschweig (ĐOÀN DỰ)
@@ -45,9 +45,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5793.png" group-title="Sao Kê" , 02/10 23:00 🟢 ⚽ Cyprus vs Armenia (Ricky (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx83-hd-1111%2Fplaylist.m3u8&source=saoke
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5795.png" group-title="Sao Kê" , 02/10 23:00 🟢 ⚽ Latvia vs Montenegro (Tít (HD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx2-hd-1111%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/5b52e27a9d5bf294f5b593c4c071500e.png" group-title="GaVang33" , 02/10 23:00 🟢 ⚽ Latvia vs Montenegro (Gà Siêu Bệu)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F289650.m3u8&source=gavang33
