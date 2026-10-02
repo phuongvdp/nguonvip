@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:55:16 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:58:20 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (14 trận), Chuối Chiên (14 trận), Phá Làng (62 trận), Gà Vàng (12 trận), Sao Kê (20 trận), GaVang33 (27 trận), Bông Lau (14 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (14 trận), Chuối Chiên (14 trận), Phá Làng (62 trận), Gà Vàng (12 trận), Sao Kê (20 trận), GaVang33 (26 trận), Bông Lau (14 trận) =====
 
 # ----- Ngày 2026-10-02 -----
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/thailand.png" group-title="Giờ Vàng" , 02/10 16:00 🟢 ⚽ Thái Lan vs Philippines (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.rent/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ftlh5sc02iliv.vcdn.cloud/1790776573_hd/1790776573_hd@720p.m3u8
-
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_480.jpg" group-title="Khán Đài" , 02/10 16:00 🟢 ⚽ Thái Lan vs Philippines (Chim Nhỏ)
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -38,10 +33,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/69ef10b47146e04fbe6d4363.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/43b2dd1c93748297cfbbea4d31247641.png" group-title="GaVang33" , 02/10 16:40 🟢 ⚽ Thailand vs Philippines (Gà Ô Long)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://live2.zktsva.app/live/432017.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/6dc3eb40ea6dc46078c680ca9d456356.png" group-title="Gà Vàng" , 02/10 17:00 🟢 ⚽ Reilac Shiga FC vs Roasso Kumamoto (KAYTI)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
@@ -115,25 +106,6 @@ https://live2.zktsva.app/live/301238.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1790925173_hd/1790925173_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132801_10d04719.png" group-title="Chuối Chiên" , 02/10 19:00 🟢 ⚽ Congo DR vs Uganda (Chuối Lá (FHD))
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6321.png" group-title="Sao Kê" , 02/10 19:00 🟢 ⚽ DR Congo vs Uganda (Bút Chì (HD))
-#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/thailand-vs-philippines-6abe354742ecb1c2b83700fd.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/28e94925fdcc848f86a544a1cedcceed.png" group-title="GaVang33" , 02/10 19:00 🟢 ⚽ LOSC Lille vs Zulte-Waregem (Gà Siêu Péo)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://live2.zktsva.app/live/303098.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132801_10d04719.png" group-title="Bông Lau" , 02/10 19:00 🟢 ⚽ Congo DR vs Uganda (Chuối Lá (FHD))
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/305c1d59bdbe8bd8e267a58514ead1c5.png" group-title="Phá Làng" , 02/10 19:00 🟡 ⚽ SV Wehen Wiesbaden - Karlsruher SC (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66h8zgkdqo9
 
@@ -157,6 +129,9 @@ https://phalang.live/trang-chu#vjxm8ghkvep6r6o
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/141bcf6ab6d0bc7b8c67dc5eeb9f347d.png" group-title="Phá Làng" , 02/10 19:00 🟡 ⚽ FC Shakhtar Donetsk - Kryvbas (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#x7lm7phxgj9ym2w
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/6051d2f0d56acc4f5f8faffdb57f9f99.png" group-title="GaVang33" , 02/10 19:00 🟡 ⚽ Dejan FC vs Persipura Jayapura (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/dejan-fc-vs-persipura-jayapura-luc-1900-ngay-02-10-2026-pxwrxlhydww7ryk
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/zyDlfTYA-MgUxY1Yb.png" group-title="Giờ Vàng" , 02/10 19:30 🟡 ⚽ Bryne vs Lyn (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-bryne-vs-lyn-02-10-4s35pabksefh
@@ -203,6 +178,9 @@ https://giovang.rent/truc-tiep-al-ain-vs-ajman-02-10-vh0txqjxzee2
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/WSOq3hFG-K8vlWhPS.png" group-title="Giờ Vàng" , 02/10 20:15 ⚽ Al Wasl vs Ittihad Kalba (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-al-wasl-vs-ittihad-kalba-02-10-1z12zczc6kw0
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125815_c1ce473c.png" group-title="Chuối Chiên" , 02/10 20:15 ⚽ Al Ain vs Ajman (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1636372/al-ain-vs-ajman
+
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/17b767b98695df2fb512e992dd8a7af4.png!w80" group-title="Phá Làng" , 02/10 20:15 ⚽ Al-Wasl SC - Ittihad Kalba FC (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l7oqdehg7p88r51
 
@@ -212,8 +190,14 @@ https://gavanglinkt.tv/truc-tiep/al-ain-fc-vs-ajman-ngay-02-10-2026/
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/17b767b98695df2fb512e992dd8a7af4.png" group-title="Gà Vàng" , 02/10 20:15 ⚽ Al-Wasl SC vs Ittihad Kalba FC (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/al-wasl-sc-vs-ittihad-kalba-fc-ngay-02-10-2026/
 
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/102117.png" group-title="Sao Kê" , 02/10 20:15 ⚽ Al-Ain vs Ajman (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/al-ain-vs-ajman-6abf9ba2120e1dea52dc270b.html
+
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/17b767b98695df2fb512e992dd8a7af4.png" group-title="GaVang33" , 02/10 20:15 ⚽ Al-Wasl SC vs Ittihad Kalba FC (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/al-wasl-sc-vs-ittihad-kalba-fc-luc-2015-ngay-02-10-2026-l7oqdehg7p88r51
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125815_c1ce473c.png" group-title="Bông Lau" , 02/10 20:15 ⚽ Al Ain vs Ajman (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1636372
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/eintracht-frankfurt.png" group-title="Giờ Vàng" , 02/10 20:30 ⚽ Eintracht Frankfurt vs Eintr. Braunschweig (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-eintracht-frankfurt-vs-eintr-braunschweig-02-10-6abaff9124d46db8707d139b
