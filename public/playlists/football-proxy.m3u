@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:45:06 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:47:39 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (12 trận), Chuối Chiên (15 trận), Phá Làng (38 trận), Gà Vàng (7 trận), Sao Kê (18 trận), GaVang33 (25 trận), Bông Lau (15 trận) =====
 
@@ -52,6 +52,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/0b01c7d68feb22290f3b0da91bef689d.png!w80" group-title="Phá Làng" , 02/10 21:00 🟢 ⚽ Kazakhstan - Moldova (LÝ LINH LỰC)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F68d6339749adc313f8b769bd4e8d3154%2Fplaylist.m3u8&source=phalang
 
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8265.png" group-title="Sao Kê" , 02/10 21:00 🟢 ⚽ Kazakhstan vs Moldova (Cà Rốt (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx10-hd-1111%2Fplaylist.m3u8&source=saoke
+
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/0b01c7d68feb22290f3b0da91bef689d.png" group-title="GaVang33" , 02/10 21:00 🟢 ⚽ Kazakhstan vs Moldova (Gà Siêu Tồ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F796315.m3u8&source=gavang33
 
@@ -63,9 +66,6 @@ https://phalang.live/trang-chu#1l4rjnhny4k0m7v
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/29ab912e8f02b285213c5c7b77874777.png" group-title="Phá Làng" , 02/10 21:00 🟡 ⚽ MFK Karviná - Stal Rzeszow (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4wyrn4hyzl9pq86
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8265.png" group-title="Sao Kê" , 02/10 21:00 🟡 ⚽ Kazakhstan vs Moldova (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/kazakhstan-vs-moldova-6abe354742ecb1c2b83700f6.html
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b0e714d5d5e53a5df63a022e3361de0e.png" group-title="Phá Làng" , 02/10 21:30 🟡 ⚽ Aarau - Young Boys (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#3glrw7h4k3ppqdy
