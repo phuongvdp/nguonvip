@@ -1,0 +1,141 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-02T01:18:30.719Z",
+  "domains": {
+    "giovang": {
+      "url": "https://giovang.blog",
+      "envVar": "GIOVANG_DOMAIN",
+      "role": "site",
+      "status": "moved",
+      "from": "mặc định"
+    },
+    "khandaitv": {
+      "url": "https://khandai3.link",
+      "envVar": "KHANDAITV_BASE_URL",
+      "role": "site",
+      "status": "blocked",
+      "from": "mặc định"
+    },
+    "phaohoa": {
+      "url": "https://phaohoa1.live",
+      "envVar": "PHAOHOA_BASE_URL",
+      "role": "site",
+      "status": "down",
+      "from": "mặc định"
+    },
+    "gavang": {
+      "url": "https://gavanglinkp.tv",
+      "envVar": "GAVANG_BASE_URL",
+      "role": "site",
+      "status": "moved",
+      "from": "mặc định"
+    },
+    "gavang33": {
+      "url": "https://gavang33.me",
+      "envVar": "GAVANG33_DOMAIN",
+      "role": "site",
+      "status": "alive",
+      "from": "mặc định"
+    },
+    "saoke": {
+      "url": "https://vip3.saoketv40.xyz",
+      "envVar": "SAOKE_BASE_URL",
+      "role": "site",
+      "status": "alive",
+      "from": "mặc định"
+    },
+    "bonglau": {
+      "url": "https://lau05.bonglautv1.pro",
+      "envVar": "BONGLAU_DOMAIN",
+      "role": "site",
+      "status": "down",
+      "from": "mặc định"
+    },
+    "phalang": {
+      "url": "https://phalang.live",
+      "envVar": "PHALANG_DOMAIN",
+      "role": "site",
+      "status": "moved",
+      "from": "mặc định"
+    },
+    "chuoichientv": {
+      "url": "https://live05.chuoichientv.me",
+      "envVar": "CHUOICHIENTV_WATCH_DOMAIN",
+      "role": "site",
+      "status": "moved",
+      "from": "mặc định"
+    },
+    "chuoichientv-player": {
+      "url": "https://live.chuoichien.tv",
+      "envVar": "CHUOICHIENTV_PLAYER_DOMAIN",
+      "role": "player",
+      "status": "alive",
+      "from": "mặc định"
+    },
+    "saoke-player": {
+      "url": "https://sk.mediastation.live",
+      "envVar": "SAOKE_PLAYER_DOMAIN",
+      "role": "player",
+      "status": "alive",
+      "from": "mặc định"
+    },
+    "bonglau-player": {
+      "url": "https://live.chuoichien.tv",
+      "envVar": "BONGLAU_PLAYER_DOMAIN",
+      "role": "player",
+      "status": "alive",
+      "from": "mặc định"
+    },
+    "giovang-api": {
+      "url": "https://live-api.keonhacaitp.one",
+      "envVar": "GIOVANG_LIVE_API_HOST",
+      "role": "api",
+      "status": "alive",
+      "from": "mặc định"
+    },
+    "saoke-api": {
+      "url": "https://skapi.66887979.xyz",
+      "envVar": "SAOKE_API_DOMAIN",
+      "role": "api",
+      "status": "blocked",
+      "from": "mặc định"
+    },
+    "gavang33-api": {
+      "url": "https://gavangtv-api.adviceme.io",
+      "envVar": "GAVANG33_API_DOMAIN",
+      "role": "api",
+      "status": "alive",
+      "from": "mặc định"
+    },
+    "phalang-api": {
+      "url": "https://api.plapi202624081158.com",
+      "envVar": "PHALANG_API_BASE",
+      "role": "api",
+      "status": "alive",
+      "from": "mặc định"
+    },
+    "chuoichientv-api": {
+      "url": "https://api-v2.chuoichientv.net/v2",
+      "envVar": "CHUOICHIENTV_API_BASE",
+      "role": "api",
+      "status": "blocked",
+      "from": "mặc định"
+    },
+    "bonglau-api": {
+      "url": "https://api-v2.chuoichientv.net/v2",
+      "envVar": "BONGLAU_API_BASE",
+      "role": "api",
+      "status": "blocked",
+      "from": "mặc định"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-02T01:18:30.719Z",
+      "source": "(tất cả)",
+      "from": null,
+      "to": null,
+      "via": "tạo bản lưu đầu tiên"
+    }
+  ]
+}
