@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:30:39 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:33:35 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận), Khán Đài (21 trận), Chuối Chiên (17 trận), Phá Làng (122 trận), Gà Vàng (11 trận), Sao Kê (21 trận), GaVang33 (20 trận), Bông Lau (17 trận) =====
 
@@ -28,6 +28,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/7a9a6275e29e0f51ea68ba1ec740bf1e.png" group-title="Gà Vàng" , 03/10 06:45 🟡 ⚽ Juventude vs Operario Ferroviario PR (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/esporte-clube-juventude-vs-operario-ferroviario-pr-ngay-03-10-2026/
 
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 03/10 07:00 🟢 🏐 Việt Nam - Thái Lan (LÝ LIỀU LĨNH (Server 1))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F51cc499d1fb84b1287ca214d86b57736%2Findex.m3u8&source=phalang
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/martinique.png" group-title="Giờ Vàng" , 03/10 07:00 🟡 ⚽ Martinique vs Honduras (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-martinique-vs-honduras-03-10-6aaf224e4e725bdee905b7cb
 
@@ -36,9 +39,6 @@ https://live05.chuoichientv.me/live/1638597/colombia-vs-paraguay
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e75cc11ef16eb4b01574a92b1487addb.png" group-title="Phá Làng" , 03/10 07:00 🟡 ⚽ Colombia - Paraguay (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#3glrw7h4k6weqdy
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 03/10 07:00 🟡 🏐 Việt Nam - Thái Lan (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#d1ffa074a5224d17a66fffa89ef5cdf9
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f3f2e9c5843d2acfa65bc79088902d53.png" group-title="Phá Làng" , 03/10 07:00 🟡 ⚽ Papua New Guinea Women - Vanuatu Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y0or5jh9x835qwz

@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:30:39 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:33:35 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (122 trận) =====
 
@@ -7,11 +7,11 @@
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/31f5171de0e1404fdebcef19cd7cd409.png" group-title="Phá Làng" , 03/10 06:00 🟢 ⚽ São Paulo - SP - Santos FC - SP (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F082b5cefa7ec32b9290e7e89b01e914d%2Fplaylist.m3u8&source=phalang
 
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 03/10 07:00 🟢 🏐 Việt Nam - Thái Lan (LÝ LIỀU LĨNH (Server 1))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F51cc499d1fb84b1287ca214d86b57736%2Findex.m3u8&source=phalang
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e75cc11ef16eb4b01574a92b1487addb.png" group-title="Phá Làng" , 03/10 07:00 🟡 ⚽ Colombia - Paraguay (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#3glrw7h4k6weqdy
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 03/10 07:00 🟡 🏐 Việt Nam - Thái Lan (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#d1ffa074a5224d17a66fffa89ef5cdf9
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f3f2e9c5843d2acfa65bc79088902d53.png" group-title="Phá Làng" , 03/10 07:00 🟡 ⚽ Papua New Guinea Women - Vanuatu Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y0or5jh9x835qwz
