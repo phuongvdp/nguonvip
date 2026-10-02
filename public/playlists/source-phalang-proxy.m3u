@@ -1,14 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:51:33 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:54:35 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (52 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (51 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/b6b90237b3ebd1e462a5d11dbc5c4dae.png!w80" group-title="Phá Làng" , 02/10 17:30 🟢 ⚽ North Korea Women - Japan Women (LÝ LINH LỰC)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F36d08fb9965e86cd2c7fcf66503a4e0c%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/51e1cbc15a7ae90e176b1c1dfb096928.png" group-title="Phá Làng" , 02/10 18:00 🟢 ⚽ VfL Bochum 1848 - VfL Osnabrück (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F7655c78fcd20ea53dd933e22c9152818%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/a3f9a9a7e81748828ce092f0dd488479.png!w80" group-title="Phá Làng" , 02/10 18:00 🟢 ⚽ South Korea - Venezuela (LÝ LONG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F64e9e712250bc744cdbda2014f879b8a%2Fplaylist.m3u8&source=phalang
@@ -46,8 +43,8 @@ https://phalang.live/trang-chu#y0or5jh9x8gpqwz
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/21fdafedb4eed8612da51c6c236b3d63.png" group-title="Phá Làng" , 02/10 20:00 🟡 ⚽ Omonia Nicosia FC - Olympiakos Nicosia FC (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y0or5jh9xn2oqwz
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/17b767b98695df2fb512e992dd8a7af4.png!w80" group-title="Phá Làng" , 02/10 20:15 🟡 ⚽ Al-Wasl SC - Ittihad Kalba FC (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#l7oqdehg7p88r51
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/17b767b98695df2fb512e992dd8a7af4.png!w80" group-title="Phá Làng" , 02/10 20:15 🟢 ⚽ Al-Wasl SC - Ittihad Kalba FC (LÝ LA LÀNG)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Faf1e3c5362ae48452c6e328062a5800b%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fe636189a2f3db78d0554c34f0bdaae6.png" group-title="Phá Làng" , 02/10 20:30 🟡 ⚽ Eintracht Frankfurt - Eintracht Braunschweig (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6ypq3nhk67ngmd7

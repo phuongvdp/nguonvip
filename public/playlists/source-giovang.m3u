@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:51:33 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:54:35 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận) =====
 
@@ -29,8 +29,10 @@ https://ftlh5sc02iliv.vcdn.cloud/1790904574_hd/1790904574_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1790904813_hd/1790904813_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/WSOq3hFG-K8vlWhPS.png" group-title="Giờ Vàng" , 02/10 20:15 🟡 ⚽ Al Wasl vs Ittihad Kalba (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-al-wasl-vs-ittihad-kalba-02-10-1z12zczc6kw0
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/WSOq3hFG-K8vlWhPS.png" group-title="Giờ Vàng" , 02/10 20:15 🟢 ⚽ Al Wasl vs Ittihad Kalba (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.rent/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ftlh5sc02iliv.vcdn.cloud/1790904878_hd/1790904878_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/eintracht-frankfurt.png" group-title="Giờ Vàng" , 02/10 20:30 🟢 ⚽ Eintracht Frankfurt vs Eintr. Braunschweig (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.rent/
