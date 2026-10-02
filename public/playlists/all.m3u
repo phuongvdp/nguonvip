@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:42:27 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:45:22 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (24 trận), Khán Đài (23 trận), Chuối Chiên (18 trận), Phá Làng (33 trận), Gà Vàng (11 trận), Sao Kê (22 trận), GaVang33 (25 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (23 trận), Chuối Chiên (18 trận), Phá Làng (33 trận), Gà Vàng (10 trận), Sao Kê (22 trận), GaVang33 (25 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-10-02 -----
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/0CZOhXDa-8zUcYY2j.png" group-title="Giờ Vàng" , 02/10 22:45 🟢 ⚽ Shabab Al-Ahli Dubai vs Al Nasr (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.rent/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ftlh5sc02iliv.vcdn.cloud/1790904928_hd/1790904928_hd@720p.m3u8
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/05e87b1dbb904915a4a97fc095b73d20.png" group-title="Gà Vàng" , 02/10 22:45 🟢 ⚽ Shabab AlAhli vs Al-Nasr Dubai (Lữ Bố.vip)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -111,9 +106,6 @@ https://lilive1.eu.cc/live/17b72c06c9f5e9b21d40342adba6aa74/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/741294.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/db53bc0d4afbe09232f7e9372f56ff27.png" group-title="Gà Vàng" , 03/10 00:45 🟡 🏀 Fenerbahçe Tarfin vs Dubai (Chưa có link — chờ cập nhật)
-https://gavanglinkp.tv/
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/99a5187dc20d019f4fd223a6a6de80a6.png" group-title="Gà Vàng" , 03/10 01:00 🟡 🏀 Bayern Munchen vs Partizan Mozzart Bet Beograd (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
@@ -129,115 +121,115 @@ https://phalang.live/trang-chu#y39mp1hdvz1xmoj
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/bf44e2bb47f8a0dfd3929ff1c4ac8b16.png" group-title="Gà Vàng" , 03/10 01:30 🟡 🏀 Baskonia Vitoria vs Olimpia Milano (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/bosnia-and-herzegovina.png" group-title="Giờ Vàng" , 03/10 01:45 ⚽ Bosnia & Herzegovina vs Thụy Điển (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/bosnia-and-herzegovina.png" group-title="Giờ Vàng" , 03/10 01:45 🟡 ⚽ Bosnia & Herzegovina vs Thụy Điển (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-bosnia-herzegovina-vs-thuy-dien-03-10-69f7e7425c39b5554409bf62
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/hungary.png" group-title="Giờ Vàng" , 03/10 01:45 ⚽ Hungary vs Georgia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/hungary.png" group-title="Giờ Vàng" , 03/10 01:45 🟡 ⚽ Hungary vs Georgia (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-hungary-vs-georgia-03-10-69f7e7425c39b5554409bf55
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/belgium.png" group-title="Giờ Vàng" , 03/10 01:45 ⚽ Bỉ vs Thổ Nhĩ Kỳ (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/belgium.png" group-title="Giờ Vàng" , 03/10 01:45 🟡 ⚽ Bỉ vs Thổ Nhĩ Kỳ (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-bi-vs-tho-nhi-ky-03-10-69f3f2b74bff4a0c310bf75c
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/france.png" group-title="Giờ Vàng" , 03/10 01:45 ⚽ Pháp vs Ý (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/france.png" group-title="Giờ Vàng" , 03/10 01:45 🟡 ⚽ Pháp vs Ý (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-phap-vs-y-03-10-69f3f2b74bff4a0c310bf75b
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_685.jpg" group-title="Khán Đài" , 03/10 01:45 ⚽ Bosnia & Herzegovina vs Sweden (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_685.jpg" group-title="Khán Đài" , 03/10 01:45 🟡 ⚽ Bosnia & Herzegovina vs Sweden (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/bosnia-herzegovina-vs-sweden-03-10-2026-790842
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_18.jpg" group-title="Khán Đài" , 03/10 01:45 ⚽ Poland vs Romania (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_18.jpg" group-title="Khán Đài" , 03/10 01:45 🟡 ⚽ Poland vs Romania (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/poland-vs-romania-03-10-2026-790844
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_12.jpg" group-title="Khán Đài" , 03/10 01:45 ⚽ Ukraine vs Northern Ireland (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_12.jpg" group-title="Khán Đài" , 03/10 01:45 🟡 ⚽ Ukraine vs Northern Ireland (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/ukraine-vs-northern-ireland-03-10-2026-790845
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_6.jpg" group-title="Khán Đài" , 03/10 01:45 ⚽ Belgium vs Turkey (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_6.jpg" group-title="Khán Đài" , 03/10 01:45 🟡 ⚽ Belgium vs Turkey (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/belgium-vs-turkey-03-10-2026-790892
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_22.jpg" group-title="Khán Đài" , 03/10 01:45 ⚽ France vs Italy (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_22.jpg" group-title="Khán Đài" , 03/10 01:45 🟡 ⚽ France vs Italy (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/france-vs-italy-03-10-2026-790893
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125447_e304fc82.png" group-title="Chuối Chiên" , 03/10 01:45 ⚽ France vs Italy (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125447_e304fc82.png" group-title="Chuối Chiên" , 03/10 01:45 🟡 ⚽ France vs Italy (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1528924/france-vs-italy
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125446_7256014f.png" group-title="Chuối Chiên" , 03/10 01:45 ⚽ Belgium vs Türkiye (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125446_7256014f.png" group-title="Chuối Chiên" , 03/10 01:45 🟡 ⚽ Belgium vs Türkiye (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1528925/belgium-vs-turkiye
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125458_a2e2b5c9.png" group-title="Chuối Chiên" , 03/10 01:45 ⚽ Hungary vs Georgia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125458_a2e2b5c9.png" group-title="Chuối Chiên" , 03/10 01:45 🟡 ⚽ Hungary vs Georgia (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1528926/hungary-vs-georgia
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134300_f7c99abe.png" group-title="Chuối Chiên" , 03/10 01:45 ⚽ Bosnia & Herzegovina vs Sweden (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134300_f7c99abe.png" group-title="Chuối Chiên" , 03/10 01:45 🟡 ⚽ Bosnia & Herzegovina vs Sweden (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1528929/bosnia-herzegovina-vs-sweden
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7e2715cb1a79a2947617c86e6b17f8e0.png" group-title="Phá Làng" , 03/10 01:45 ⚽ Bosnia and Herzegovina - Sweden (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7e2715cb1a79a2947617c86e6b17f8e0.png" group-title="Phá Làng" , 03/10 01:45 🟡 ⚽ Bosnia and Herzegovina - Sweden (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkh6y1j0qg8
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/2b52663814d2e24428bc0588164e5495.png" group-title="Phá Làng" , 03/10 01:45 ⚽ France - Italy (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/2b52663814d2e24428bc0588164e5495.png" group-title="Phá Làng" , 03/10 01:45 🟡 ⚽ France - Italy (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#3glrw7hn425zqdy
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/19eeefdc072e675e1be2a9786cfba016.png" group-title="Phá Làng" , 03/10 01:45 ⚽ Faroe Islands - Slovakia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/19eeefdc072e675e1be2a9786cfba016.png" group-title="Phá Làng" , 03/10 01:45 🟡 ⚽ Faroe Islands - Slovakia (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4jwq2ghngyjnm0v
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/4abe2701a77864141daa484a0941e6a7.png" group-title="Phá Làng" , 03/10 01:45 ⚽ Poland - Romania (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/4abe2701a77864141daa484a0941e6a7.png" group-title="Phá Làng" , 03/10 01:45 🟡 ⚽ Poland - Romania (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#n54qllhn4g61qvy
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/b2cd543f1eebd11fbafccbe54a1d28a1.png" group-title="Phá Làng" , 03/10 01:45 ⚽ Belgium - Turkiye (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/b2cd543f1eebd11fbafccbe54a1d28a1.png" group-title="Phá Làng" , 03/10 01:45 🟡 ⚽ Belgium - Turkiye (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#vjxm8ghekd6xr6o
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/19ad3a8df7411246f92daa1087782263.png" group-title="Phá Làng" , 03/10 01:45 ⚽ Ukraine - Northern Ireland (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/19ad3a8df7411246f92daa1087782263.png" group-title="Phá Làng" , 03/10 01:45 🟡 ⚽ Ukraine - Northern Ireland (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#x7lm7phjxye5m2w
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/dd1a0ce3bfdd4b32cc4cddee0445c912.png" group-title="Phá Làng" , 03/10 01:45 ⚽ Hungary - Georgia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/dd1a0ce3bfdd4b32cc4cddee0445c912.png" group-title="Phá Làng" , 03/10 01:45 🟡 ⚽ Hungary - Georgia (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y0or5jh89ykjqwz
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/70ded7a479aa84ea26b4677f99485f88.png" group-title="Gà Vàng" , 03/10 01:45 ⚽ France vs Italy (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/70ded7a479aa84ea26b4677f99485f88.png" group-title="Gà Vàng" , 03/10 01:45 🟡 ⚽ France vs Italy (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/france-vs-italy-ngay-03-10-2026/
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/1f47cef5e38c952f94c5d61726027439.png" group-title="Gà Vàng" , 03/10 01:45 ⚽ Poland vs Romania (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/1f47cef5e38c952f94c5d61726027439.png" group-title="Gà Vàng" , 03/10 01:45 🟡 ⚽ Poland vs Romania (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/poland-vs-romania-ngay-03-10-2026/
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8263.png" group-title="Sao Kê" , 03/10 01:45 ⚽ Belgium vs Turkiye (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8263.png" group-title="Sao Kê" , 03/10 01:45 🟡 ⚽ Belgium vs Turkiye (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/belgium-vs-turkiye-6abe354742ecb1c2b83700ef.html
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6723.png" group-title="Sao Kê" , 03/10 01:45 ⚽ France vs Italy (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6723.png" group-title="Sao Kê" , 03/10 01:45 🟡 ⚽ France vs Italy (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/france-vs-italy-6abe354742ecb1c2b83700f0.html
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8565.png" group-title="Sao Kê" , 03/10 01:45 ⚽ Hungary vs Georgia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8565.png" group-title="Sao Kê" , 03/10 01:45 🟡 ⚽ Hungary vs Georgia (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/hungary-vs-georgia-6abe354742ecb1c2b83700f1.html
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10106.png" group-title="Sao Kê" , 03/10 01:45 ⚽ Bosnia and Herzegovina vs Sweden (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10106.png" group-title="Sao Kê" , 03/10 01:45 🟡 ⚽ Bosnia and Herzegovina vs Sweden (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/bosnia-and-herzegovina-vs-sweden-6abe354742ecb1c2b83700f2.html
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8568.png" group-title="Sao Kê" , 03/10 01:45 ⚽ Poland vs Romania (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8568.png" group-title="Sao Kê" , 03/10 01:45 🟡 ⚽ Poland vs Romania (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/poland-vs-romania-6abe354742ecb1c2b83700f3.html
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/70ded7a479aa84ea26b4677f99485f88.png" group-title="GaVang33" , 03/10 01:45 ⚽ France vs Italy (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/70ded7a479aa84ea26b4677f99485f88.png" group-title="GaVang33" , 03/10 01:45 🟡 ⚽ France vs Italy (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/france-vs-italy-luc-0145-ngay-03-10-2026-3glrw7hn425zqdy
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/ea0e9d2d1bda4cbfaf226902ea55a3eb.png" group-title="GaVang33" , 03/10 01:45 ⚽ Belgium vs Turkiye (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/ea0e9d2d1bda4cbfaf226902ea55a3eb.png" group-title="GaVang33" , 03/10 01:45 🟡 ⚽ Belgium vs Turkiye (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/belgium-vs-turkiye-luc-0145-ngay-03-10-2026-vjxm8ghekd6xr6o
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/5de6f7a36339ef5bedc3dc8741a1e222.png" group-title="GaVang33" , 03/10 01:45 ⚽ Ukraine vs Northern Ireland (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/5de6f7a36339ef5bedc3dc8741a1e222.png" group-title="GaVang33" , 03/10 01:45 🟡 ⚽ Ukraine vs Northern Ireland (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/ukraine-vs-northern-ireland-luc-0145-ngay-03-10-2026-x7lm7phjxye5m2w
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/22b55de76e6a8c7258e4661e8343ff3e.png" group-title="GaVang33" , 03/10 01:45 ⚽ Hungary vs Georgia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/22b55de76e6a8c7258e4661e8343ff3e.png" group-title="GaVang33" , 03/10 01:45 🟡 ⚽ Hungary vs Georgia (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/hungary-vs-georgia-luc-0145-ngay-03-10-2026-y0or5jh89ykjqwz
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/1f47cef5e38c952f94c5d61726027439.png" group-title="GaVang33" , 03/10 01:45 ⚽ Poland vs Romania (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/1f47cef5e38c952f94c5d61726027439.png" group-title="GaVang33" , 03/10 01:45 🟡 ⚽ Poland vs Romania (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/poland-vs-romania-luc-0145-ngay-03-10-2026-n54qllhn4g61qvy
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/290d84b729b946cb974902162ff7064e.png" group-title="GaVang33" , 03/10 01:45 ⚽ Bosnia and Herzegovina vs Sweden (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/290d84b729b946cb974902162ff7064e.png" group-title="GaVang33" , 03/10 01:45 🟡 ⚽ Bosnia and Herzegovina vs Sweden (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/bosnia-and-herzegovina-vs-sweden-luc-0145-ngay-03-10-2026-23xmvkh6y1j0qg8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125447_e304fc82.png" group-title="Bông Lau" , 03/10 01:45 ⚽ France vs Italy (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125447_e304fc82.png" group-title="Bông Lau" , 03/10 01:45 🟡 ⚽ France vs Italy (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1528924
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125446_7256014f.png" group-title="Bông Lau" , 03/10 01:45 ⚽ Belgium vs Türkiye (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125446_7256014f.png" group-title="Bông Lau" , 03/10 01:45 🟡 ⚽ Belgium vs Türkiye (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1528925
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125458_a2e2b5c9.png" group-title="Bông Lau" , 03/10 01:45 ⚽ Hungary vs Georgia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125458_a2e2b5c9.png" group-title="Bông Lau" , 03/10 01:45 🟡 ⚽ Hungary vs Georgia (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1528926
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134300_f7c99abe.png" group-title="Bông Lau" , 03/10 01:45 ⚽ Bosnia & Herzegovina vs Sweden (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134300_f7c99abe.png" group-title="Bông Lau" , 03/10 01:45 🟡 ⚽ Bosnia & Herzegovina vs Sweden (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1528929
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/549ce13fbc76b68b13cf9ae378a0ff7b.png" group-title="Phá Làng" , 03/10 02:30 ⚽ Alebrijes de Oaxaca III - Aragon FC (Chưa có link — chờ cập nhật)
