@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:19:44 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:22:46 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (21 trận), Chuối Chiên (16 trận), Phá Làng (36 trận), Gà Vàng (7 trận), Sao Kê (21 trận), GaVang33 (22 trận), Bông Lau (16 trận) =====
 
@@ -40,6 +40,9 @@ https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8|User-Agent=Mozill
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125458_a2e2b5c9.png" group-title="Chuối Chiên" , 03/10 01:45 🟢 ⚽ Hungary vs Georgia (Chuối Nhỏ (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134300_f7c99abe.png" group-title="Chuối Chiên" , 03/10 01:45 🟢 ⚽ Bosnia & Herzegovina vs Sweden (Chuối Lá (FHD))
+https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/2b52663814d2e24428bc0588164e5495.png" group-title="Phá Làng" , 03/10 01:45 🟢 ⚽ France - Italy (LÝ LONG)
 https://lilive1.eu.cc/live/d85c387ade875307fdcd084c77bc13ac/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/truc-tiep/france-vs-italy-3glrw7hn425zqdy&Origin=https://phalang.live
@@ -86,6 +89,9 @@ https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8|User-Agent=Mozill
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125458_a2e2b5c9.png" group-title="Bông Lau" , 03/10 01:45 🟢 ⚽ Hungary vs Georgia (Chuối Nhỏ (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134300_f7c99abe.png" group-title="Bông Lau" , 03/10 01:45 🟢 ⚽ Bosnia & Herzegovina vs Sweden (Chuối Lá (FHD))
+https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/bosnia-and-herzegovina.png" group-title="Giờ Vàng" , 03/10 01:45 🟡 ⚽ Bosnia & Herzegovina vs Thụy Điển (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-bosnia-herzegovina-vs-thuy-dien-03-10-69f7e7425c39b5554409bf62
 
@@ -110,9 +116,6 @@ https://khandai3.link/truc-tiep/france-vs-italy-03-10-2026-790893
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125447_e304fc82.png" group-title="Chuối Chiên" , 03/10 01:45 🟡 ⚽ France vs Italy (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1528924/france-vs-italy
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134300_f7c99abe.png" group-title="Chuối Chiên" , 03/10 01:45 🟡 ⚽ Bosnia & Herzegovina vs Sweden (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1528929/bosnia-herzegovina-vs-sweden
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7e2715cb1a79a2947617c86e6b17f8e0.png" group-title="Phá Làng" , 03/10 01:45 🟡 ⚽ Bosnia and Herzegovina - Sweden (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkh6y1j0qg8
 
@@ -133,9 +136,6 @@ https://gavanglinkt.tv/truc-tiep/poland-vs-romania-ngay-03-10-2026/
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125447_e304fc82.png" group-title="Bông Lau" , 03/10 01:45 🟡 ⚽ France vs Italy (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1528924
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134300_f7c99abe.png" group-title="Bông Lau" , 03/10 01:45 🟡 ⚽ Bosnia & Herzegovina vs Sweden (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1528929
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/549ce13fbc76b68b13cf9ae378a0ff7b.png" group-title="Phá Làng" , 03/10 02:30 ⚽ Alebrijes de Oaxaca III - Aragon FC (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#965mkyh8lkn3r1g
