@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 02:29:19 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 02:32:16 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (46 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (48 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d20ed1da4f299cc3ef0e1e9eb06eced1.png" group-title="Phá Làng" , 03/10 01:30 🟢 ⚽ Sevilla FC - Aston Villa (Server 1)
@@ -43,9 +43,6 @@ https://lilive1.eu.cc/live/e101549399f12df6a1a2937d01d2ff1a/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/hungary-vs-georgia-y0or5jh89ykjqwz
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/3134116cc14af8075514bbee2252211d/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/549ce13fbc76b68b13cf9ae378a0ff7b.png" group-title="Phá Làng" , 03/10 02:30 🟡 ⚽ Alebrijes de Oaxaca III - Aragon FC (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#965mkyh8lkn3r1g
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3905b384c70611da83fd5969389cc558.png" group-title="Phá Làng" , 03/10 05:00 ⚽ Artesanos Metepec FC II - Grupo Sherwood (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66h8zxjkqo9
@@ -157,3 +154,12 @@ https://phalang.live/trang-chu#6854344e79334a88b21ffc6ae2f7218e
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 03/10 17:20 🏐 Nhật Bản - Iran (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#9c530eb305f34981aecc45ef8196db37
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fd06ba41a2de13ab86456debdc68a330.png" group-title="Phá Làng" , 03/10 17:30 ⚽ FC Minsk - Arsenal Dzerzhinsk (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#4jwq2ghgongzm0v
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b0fa01690e4a5c944c861b245b42d5b4.png" group-title="Phá Làng" , 03/10 17:30 ⚽ Jagiellonia Bialystok - Polonia Warszawa (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#4jwq2ghgonp1m0v
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/02598ff81c211b703b81e49cf632688b.png" group-title="Phá Làng" , 03/10 17:30 ⚽ South Korea U23 - Japan U23 (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#ednm9wh58633ryo
