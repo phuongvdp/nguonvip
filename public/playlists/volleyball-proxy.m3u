@@ -1,20 +1,8 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:42:08 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:45:06 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (1 trận), Chuối Chiên (2 trận), Bông Lau (2 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (1 trận) =====
 
 # ----- Ngày 2026-10-02 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Chuối Chiên" , 02/10 17:00 🟢 🏐 Việt Nam vs Indonesia (Chuối Kem (FHD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikemhd%2Fplaylist.m3u8&source=chuoichientv
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Bông Lau" , 02/10 17:00 🟢 🏐 Việt Nam vs Indonesia (Chuối Kem (FHD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikemhd%2Fplaylist.m3u8&source=bonglau
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Chuối Chiên" , 02/10 17:20 🟢 🏐 Japan vs China (Chuối Tây (FHD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitayhd%2Fplaylist.m3u8&source=chuoichientv
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Bông Lau" , 02/10 17:20 🟢 🏐 Japan vs China (Chuối Tây (FHD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitayhd%2Fplaylist.m3u8&source=bonglau
-
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/image.webp" group-title="Khán Đài" , 02/10 22:30 🏐 MKS Kalisz (W) vs Budowlani (W) (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/mks-kalisz-w-vs-budowlani-w
