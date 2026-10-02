@@ -1,14 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:54:13 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:56:45 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (33 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (32 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/2c5a6c94ba9dea2c9a656407e1b9bd8c.png!w80" group-title="Phá Làng" , 02/10 23:00 🟢 ⚽ Cyprus - Armenia (LÝ LÀNG LÁ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F2f7845227778e395acb0141c8bbfdfcc%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/11687eed43d484fff5e64198dde6c358.png" group-title="Phá Làng" , 02/10 23:00 🟢 ⚽ Serbia U21 - Russia U21 (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F2e7e78a01b1bba4ae03be764a1639a76%2Fplaylist.m3u8&source=phalang
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f4a20fb2ff268799ad07c8593295231c.png" group-title="Phá Làng" , 03/10 00:00 🟢 ⚽ Stade Lavallois MFC - Stade Rennais FC (Server 1)
