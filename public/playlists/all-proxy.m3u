@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:37:47 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:40:19 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (39 trận), Khán Đài (21 trận), Chuối Chiên (18 trận), Phá Làng (91 trận), Gà Vàng (22 trận), Sao Kê (20 trận), GaVang33 (25 trận), Bông Lau (18 trận) =====
 
@@ -22,6 +22,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png" group-title="Giờ Vàng" , 02/10 11:00 🟢 🏐 Qatar vs Thái Lan (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790873602_hd%2F1790873602_hd%40720p.m3u8&source=giovang
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_TkTkw3i.jpg" group-title="Khán Đài" , 02/10 11:00 🟢 🏐 Qatar vs Thái Lan (KaKa)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa7%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
+
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 02/10 11:00 🟢 ⚽ NGUYỄN THỊ TÂM - WU YU (LÝ LA LÀNG (Server 1))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2Fc4a38bde55c148d1a075e6754f5a1ddf%2Findex.m3u8&source=phalang
 
@@ -30,9 +33,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Sao Kê" , 02/10 11:00 🟢 ⚽ Qatar vs Thailand (Cà Rốt (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx10-hd-1111%2Fplaylist.m3u8&source=saoke
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_TkTkw3i.jpg" group-title="Khán Đài" , 02/10 11:00 🟡 🏐 Qatar vs Thái Lan (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/qatar-vs-thai-lan
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646_P1KUFYE.png" group-title="Khán Đài" , 02/10 11:00 🟡 🏐 Uzbekistan vs Philippines (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/uzbekistan-vs-philippines
