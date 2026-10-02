@@ -1,29 +1,23 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:54:33 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:40:00 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (27 trận) =====
 
 # ----- Ngày 2026-10-02 -----
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/14b75c2d38d88b747c19de8ea5509d16.png" group-title="GaVang33" , 02/10 16:00 🟢 ⚽ Vietnam vs Pakistan (Gà Siêu Phệ + Gà Siêu Gáy)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F294335.m3u8&source=gavang33
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/43b2dd1c93748297cfbbea4d31247641.png" group-title="GaVang33" , 02/10 16:00 🟢 ⚽ Thailand vs Philippines (Gà Ô Long)
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/43b2dd1c93748297cfbbea4d31247641.png" group-title="GaVang33" , 02/10 16:40 🟢 ⚽ Thailand vs Philippines (Gà Ô Long)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F432017.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/895a263ae5237d0edbaf850a907a59b0.png" group-title="GaVang33" , 02/10 17:00 ⚽ 1. FC Nürnberg vs FC Ingolstadt (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/1-fc-nrnberg-vs-fc-ingolstadt-luc-1700-ngay-02-10-2026-ednm9wh580ewryo
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/895a263ae5237d0edbaf850a907a59b0.png" group-title="GaVang33" , 02/10 17:00 🟢 ⚽ 1. FC Nürnberg vs FC Ingolstadt (Gà Siêu Kiêu)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F741294.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/a3f9a9a7e81748828ce092f0dd488479.png" group-title="GaVang33" , 02/10 18:00 ⚽ South Korea vs Venezuela (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/south-korea-vs-venezuela-luc-1800-ngay-02-10-2026-6ypq3nhv9976md7
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/a3f9a9a7e81748828ce092f0dd488479.png" group-title="GaVang33" , 02/10 18:00 🟢 ⚽ South Korea vs Venezuela (Gà Siêu Bệu)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F289650.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/65ee743f20fa7db286fdeda4d33c6980.png" group-title="GaVang33" , 02/10 18:00 ⚽ 1. FC Heidenheim 1846 vs Würzburger Kickers (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/1-fc-heidenheim-1846-vs-wrzburger-kickers-luc-1800-ngay-02-10-2026-y39mp1hdv49omoj
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/445ef89e5620a875f7c2eaddd033e39d.png" group-title="GaVang33" , 02/10 18:35 🟢 ⚽ China vs Palestine (Gà Siêu Ngố)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F301238.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/445ef89e5620a875f7c2eaddd033e39d.png" group-title="GaVang33" , 02/10 18:35 ⚽ China vs Palestine (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/china-vs-palestine-luc-1835-ngay-02-10-2026-zp5rzghgnk2xq82
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/28e94925fdcc848f86a544a1cedcceed.png" group-title="GaVang33" , 02/10 19:00 ⚽ LOSC Lille vs Zulte-Waregem (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/losc-lille-vs-zulte-waregem-luc-1900-ngay-02-10-2026-k82rekh2zx1jrep
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/28e94925fdcc848f86a544a1cedcceed.png" group-title="GaVang33" , 02/10 19:00 🟢 ⚽ LOSC Lille vs Zulte-Waregem (Gà Siêu Péo)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F303098.m3u8&source=gavang33
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/17b767b98695df2fb512e992dd8a7af4.png" group-title="GaVang33" , 02/10 20:15 ⚽ Al-Wasl SC vs Ittihad Kalba FC (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/al-wasl-sc-vs-ittihad-kalba-fc-luc-2015-ngay-02-10-2026-l7oqdehg7p88r51
@@ -85,3 +79,9 @@ https://gavang33.me/truc-tiep/machida-zelvia-vs-kyoto-sanga-luc-1400-ngay-03-10-
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3b748d71ceee359ab6cdd2b169d617a9.png" group-title="GaVang33" , 03/10 15:00 ⚽ Ulsan Citizens vs Siheung City (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/ulsan-citizens-vs-siheung-city-luc-1500-ngay-03-10-2026-y39mp1h66ye1moj
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/d272859d78eb8ca7a14753f4293fbf45.png" group-title="GaVang33" , 03/10 17:00 ⚽ Kashiwa Reysol vs Gamba Osaka (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/kashiwa-reysol-vs-gamba-osaka-luc-1700-ngay-03-10-2026-318q66hxp4j2qo9
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/6508946c9a5fe22a8784b905b25e8c79.png" group-title="GaVang33" , 03/10 18:00 ⚽ SC Freiburg vs Luzern (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/sc-freiburg-vs-luzern-luc-1800-ngay-03-10-2026-y39mp1hdvzopmoj
