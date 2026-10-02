@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:51:12 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:54:13 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (15 trận), Chuối Chiên (18 trận), Phá Làng (30 trận), Gà Vàng (6 trận), Sao Kê (22 trận), GaVang33 (24 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (15 trận), Chuối Chiên (18 trận), Phá Làng (29 trận), Gà Vàng (6 trận), Sao Kê (22 trận), GaVang33 (24 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/05e87b1dbb904915a4a97fc095b73d20.png" group-title="Gà Vàng" , 02/10 22:45 🟢 ⚽ Shabab AlAhli vs Al-Nasr Dubai (Lữ Bố.vip)
@@ -33,9 +33,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/11687eed43d484fff5e64198dde6c358.png" group-title="Phá Làng" , 02/10 23:00 🟢 ⚽ Serbia U21 - Russia U21 (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F2e7e78a01b1bba4ae03be764a1639a76%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/07870f1c7aff43eaee0bb426c285a59b.png" group-title="Phá Làng" , 02/10 23:00 🟢 ⚽ Latvia - Montenegro (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F0d712781433c5d5069527e24101366f0%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/5b52e27a9d5bf294f5b593c4c071500e.png" group-title="Gà Vàng" , 02/10 23:00 🟢 ⚽ Latvia vs Montenegro (CRIS)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69aa9525f5ec459ae275b43f.m3u8&source=gavang

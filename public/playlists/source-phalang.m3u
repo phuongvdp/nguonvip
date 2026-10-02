@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:51:12 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:54:13 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (34 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (33 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/2c5a6c94ba9dea2c9a656407e1b9bd8c.png!w80" group-title="Phá Làng" , 02/10 23:00 🟢 ⚽ Cyprus - Armenia (LÝ LÀNG LÁ)
@@ -13,11 +13,6 @@ https://lilive1.eu.cc/live/2f7845227778e395acb0141c8bbfdfcc/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/serbia-u21-vs-russia-u21-pxwrxlhlpeg0ryk
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/2e7e78a01b1bba4ae03be764a1639a76/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/07870f1c7aff43eaee0bb426c285a59b.png" group-title="Phá Làng" , 02/10 23:00 🟢 ⚽ Latvia - Montenegro (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/latvia-vs-montenegro-zp5rzghg3v96q82
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/0d712781433c5d5069527e24101366f0/playlist.m3u8
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f4a20fb2ff268799ad07c8593295231c.png" group-title="Phá Làng" , 03/10 00:00 🟢 ⚽ Stade Lavallois MFC - Stade Rennais FC (Server 1)
