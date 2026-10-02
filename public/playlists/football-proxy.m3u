@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:29:47 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:32:22 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (28 trận), Khán Đài (15 trận), Chuối Chiên (14 trận), Phá Làng (87 trận), Gà Vàng (15 trận), Sao Kê (20 trận), GaVang33 (25 trận), Bông Lau (14 trận) =====
 
@@ -9,9 +9,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.c
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/seattle-sounders.png" group-title="Giờ Vàng" , 02/10 08:30 🟢 ⚽ Seattle Sounders vs Sporting Kansas City (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790873385_hd%2F1790873385_hd%40720p.m3u8&source=giovang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cef1725baaf3f3be0cb7215c5f39d162.png" group-title="Phá Làng" , 02/10 08:40 🟢 ⚽ Seattle Sounders - Sporting Kansas City (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fe56c01721b35a0f8a0ebd2da823b0f82%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/cef1725baaf3f3be0cb7215c5f39d162.png" group-title="Gà Vàng" , 02/10 08:40 🟢 ⚽ Seattle Sounders vs Sporting Kansas City (SiêU QuậY)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a2a59b347bbddd62a8dc4e4.m3u8&source=gavang
@@ -508,6 +505,9 @@ https://phalang.live/trang-chu#pxwrxlhlpx3lryk
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/15fa1fad1fc582dd65403f6f950b1e21.png" group-title="GaVang33" , 03/10 00:30 ⚽ Andorra U21 vs Moldova U21 (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/andorra-u21-vs-moldova-u21-luc-0030-ngay-03-10-2026-6ypq3nhv0ppomd7
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d20ed1da4f299cc3ef0e1e9eb06eced1.png" group-title="Phá Làng" , 03/10 01:30 ⚽ Sevilla FC - Aston Villa (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#y39mp1hdvz1xmoj
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/bosnia-and-herzegovina.png" group-title="Giờ Vàng" , 03/10 01:45 ⚽ Bosnia & Herzegovina vs Thụy Điển (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-bosnia-herzegovina-vs-thuy-dien-03-10-69f7e7425c39b5554409bf62

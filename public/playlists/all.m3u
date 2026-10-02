@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:29:47 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:32:22 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (41 trận), Khán Đài (21 trận), Chuối Chiên (18 trận), Phá Làng (91 trận), Gà Vàng (22 trận), Sao Kê (20 trận), GaVang33 (25 trận), Bông Lau (18 trận) =====
 
@@ -18,11 +18,6 @@ https://ftlh5sc02iliv.vcdn.cloud/1790873474_hd/1790873474_hd@720p.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.rent/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1790873385_hd/1790873385_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cef1725baaf3f3be0cb7215c5f39d162.png" group-title="Phá Làng" , 02/10 08:40 🟢 ⚽ Seattle Sounders - Sporting Kansas City (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/seattle-sounders-vs-sporting-kansas-city-dn1m1ghl0g4pmoe
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/e56c01721b35a0f8a0ebd2da823b0f82/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/cef1725baaf3f3be0cb7215c5f39d162.png" group-title="Gà Vàng" , 02/10 08:40 🟢 ⚽ Seattle Sounders vs Sporting Kansas City (SiêU QuậY)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
@@ -635,6 +630,9 @@ https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/66a3b6f332d172f2d12f116cdbca063c.png" group-title="Gà Vàng" , 03/10 01:15 🏀 Panathinaikos AKTOR B.C. vs Maccabi Tel Aviv (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d20ed1da4f299cc3ef0e1e9eb06eced1.png" group-title="Phá Làng" , 03/10 01:30 ⚽ Sevilla FC - Aston Villa (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#y39mp1hdvz1xmoj
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/bf44e2bb47f8a0dfd3929ff1c4ac8b16.png" group-title="Gà Vàng" , 03/10 01:30 🏀 Baskonia Vitoria vs Olimpia Milano (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/

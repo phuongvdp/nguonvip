@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:29:47 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:32:22 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (91 trận) =====
 
 # ----- Ngày 2026-10-02 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cef1725baaf3f3be0cb7215c5f39d162.png" group-title="Phá Làng" , 02/10 08:40 🟢 ⚽ Seattle Sounders - Sporting Kansas City (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fe56c01721b35a0f8a0ebd2da823b0f82%2Fplaylist.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 02/10 11:00 🟢 ⚽ NGUYỄN THỊ TÂM - WU YU (LÝ LA LÀNG (Server 1))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2Fc4a38bde55c148d1a075e6754f5a1ddf%2Findex.m3u8&source=phalang
 
@@ -277,3 +274,6 @@ https://phalang.live/trang-chu#dn1m1gh9v25wmoe
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f4a20fb2ff268799ad07c8593295231c.png" group-title="Phá Làng" , 03/10 00:00 ⚽ Stade Lavallois MFC - Stade Rennais FC (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#pxwrxlhlpx3lryk
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d20ed1da4f299cc3ef0e1e9eb06eced1.png" group-title="Phá Làng" , 03/10 01:30 ⚽ Sevilla FC - Aston Villa (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#y39mp1hdvz1xmoj
