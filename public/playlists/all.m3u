@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 11:28:34 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 11:31:39 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (37 trận), Khán Đài (21 trận), Chuối Chiên (18 trận), Phá Làng (108 trận), Gà Vàng (22 trận), Sao Kê (20 trận), GaVang33 (24 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (37 trận), Khán Đài (21 trận), Chuối Chiên (18 trận), Phá Làng (109 trận), Gà Vàng (22 trận), Sao Kê (20 trận), GaVang33 (24 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/cef1725baaf3f3be0cb7215c5f39d162.png" group-title="Gà Vàng" , 02/10 08:40 🟢 ⚽ Seattle Sounders vs Sporting Kansas City (SiêU QuậY)
@@ -49,7 +49,7 @@ https://wtyi0525.edgemaxcdn.org/live/x10-hd-1111/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLL7ALhq-iF9bdJhJA0UtIC9Cg3T02IhWIhh-ox2mZkA&s=10" group-title="Giờ Vàng" , 02/10 12:30 ⚽ VietNam Men vs Spain Man (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLL7ALhq-iF9bdJhJA0UtIC9Cg3T02IhWIhh-ox2mZkA&s=10" group-title="Giờ Vàng" , 02/10 12:30 🟡 ⚽ VietNam Men vs Spain Man (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-vietnam-men-vs-spain-man-02-10-vqi4kttrpl34
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/china-w.png" group-title="Giờ Vàng" , 02/10 13:00 ⚽ China W vs South Korea W (Chưa có link — chờ cập nhật)
@@ -66,6 +66,9 @@ https://phalang.live/trang-chu#318q66h8z2g3qo9
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/fd3dd61e88396b2c01611167ed0867eb.png" group-title="Gà Vàng" , 02/10 13:00 ⚽ China(w) vs South Korea(w) (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/china-women-vs-south-korea-women-ngay-02-10-2026/
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/27c6501fdf7add13ddbf288df88fedec.png" group-title="Phá Làng" , 02/10 13:30 ⚽ Hapoel Tel Aviv - Hapoel Haifa (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#2y8m4zhv0515ql0
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTADC3pRGirDoA1eaQtvYds8PQ-vmcEESiPHvywMVtvYU3ERTP__FyL8m8F&s=10" group-title="Giờ Vàng" , 02/10 14:00 🎾 Beijing Open vs 2026 (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-beijing-open-vs-2026-02-10-wcw23uj5ldtg
