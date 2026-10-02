@@ -7,6 +7,9 @@ name: Check Domains
 # CHỈ CHẠY TAY: tab Actions > Check Domains > Run workflow. (Muốn quét định kỳ thì
 # thêm khối `schedule: - cron: '0 3 * * *'` ngay dưới `on:`.)
 #
+# Sau khi quét, domain hiện tại được lưu vào data/source-domains.txt + .json và commit lên git
+# (chỉ khi domain thay đổi; tắt bằng ô save_snapshot).
+#
 # CẦN 1 LẦN: tạo secret GH_VARIABLES_TOKEN (Fine-grained PAT, chọn repo này,
 # Repository permissions > Variables = Read and write). Không có secret này thì
 # workflow vẫn quét + báo cáo, nhưng KHÔNG ghi được biến (GITHUB_TOKEN mặc định
@@ -31,14 +34,18 @@ on:
         description: 'Sau khi đổi biến, chạy lại Generate Playlists để dùng domain mới ngay'
         type: boolean
         default: true
+      save_snapshot:
+        description: 'Lưu danh sách domain hiện tại vào data/source-domains.txt + .json rồi commit lên git (chỉ commit khi domain có thay đổi)'
+        type: boolean
+        default: true
 
 concurrency:
   group: check-domains
   cancel-in-progress: false
 
 permissions:
-  contents: read
-  actions: write # cần để chạy lại workflow Generate Playlists
+  contents: write # cần để commit file lưu domain (data/source-domains.*)
+  actions: write  # cần để chạy lại workflow Generate Playlists
 
 jobs:
   check:
@@ -61,6 +68,7 @@ jobs:
           AUTO_FIX: ${{ inputs.auto_fix }}
           SOURCES: ${{ inputs.sources }}
           EXTRA_CANDIDATES: ${{ inputs.extra_candidates }}
+          SAVE_SNAPSHOT: ${{ inputs.save_snapshot }}
           GH_VARIABLES_TOKEN: ${{ secrets.GH_VARIABLES_TOKEN }}
           SOURCE_DOMAINS: ${{ vars.SOURCE_DOMAINS }}
           GIOVANG_DOMAIN: ${{ vars.GIOVANG_DOMAIN }}
@@ -81,6 +89,26 @@ jobs:
           PHALANG_API_BASE: ${{ vars.PHALANG_API_BASE }}
           CHUOICHIENTV_API_BASE: ${{ vars.CHUOICHIENTV_API_BASE }}
           BONGLAU_API_BASE: ${{ vars.BONGLAU_API_BASE }}
+
+      # Lưu danh sách domain HIỆN TẠI vào git (data/source-domains.txt = dán lại được vào biến
+      # SOURCE_DOMAINS để khôi phục; data/source-domains.json = trạng thái + lịch sử đổi domain).
+      # Script chỉ ghi file khi domain thay đổi nên chỉ commit khi cần. Commit do GITHUB_TOKEN
+      # đẩy lên KHÔNG tự kích hoạt workflow khác. Workflow Generate cũng commit liên tục nên
+      # có vòng thử lại pull --rebase để tránh đụng nhau.
+      - name: Commit domain snapshot
+        if: ${{ !cancelled() && steps.scan.outputs.snapshot_changed == 'true' }}
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add data/source-domains.txt data/source-domains.json
+          git commit -m "chore: cap nhat danh sach domain nguon [skip ci]" || { echo "Không có gì để commit"; exit 0; }
+          for i in 1 2 3 4 5; do
+            if git pull --rebase origin "${{ github.ref_name }}" && git push origin "HEAD:${{ github.ref_name }}"; then
+              echo "Đã đẩy file domain lên git (lần thử $i)"; exit 0
+            fi
+            echo "Đẩy lỗi (lần $i), thử lại..."; sleep $((i * 4))
+          done
+          echo "::error::Không đẩy được file domain lên git sau 5 lần"; exit 1
 
       # Chạy chậm sau cùng: dù bước quét báo đỏ (còn nguồn chưa xử lý được) mà đã ghi
       # được biến cho nguồn khác thì vẫn khởi động lại để dùng domain mới.
