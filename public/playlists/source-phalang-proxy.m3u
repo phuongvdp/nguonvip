@@ -1,20 +1,26 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:27:19 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:29:36 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (103 trận) =====
 
 # ----- Ngày 2026-10-02 -----
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/915a6e769bd0c93676a9af430295c3a6.png" group-title="Phá Làng" , 02/10 15:30 🟢 ⚽ FK Arsenal Česká Lípa - FK Viagem Ústí nad Labem (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F229cd921939b4d4e9ca4e34939cd2abe%2Fplaylist.m3u8&source=phalang
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a568766c6a9883fa021d0469ec813dc2.png" group-title="Phá Làng" , 02/10 15:30 🟡 ⚽ Petrolul Ploiesti - Afumati (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkhyv63zqg8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/915a6e769bd0c93676a9af430295c3a6.png" group-title="Phá Làng" , 02/10 15:30 🟡 ⚽ FK Arsenal Česká Lípa - FK Viagem Ústí nad Labem (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#6ypq3nhk63jlmd7
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/14b75c2d38d88b747c19de8ea5509d16.png!w80" group-title="Phá Làng" , 02/10 16:00 🟢 ⚽ Vietnam - Pakistan (LÝ LA LÀNG)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fd85a0dd027fca0403b56ed5eb9f13055%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/14b75c2d38d88b747c19de8ea5509d16.png!w80" group-title="Phá Làng" , 02/10 16:00 🟢 ⚽ Vietnam - Pakistan (LÝ LONG (Server 1))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F5e9da67fcacd4795b768d30c489c96ca%2Findex.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/43b2dd1c93748297cfbbea4d31247641.png!w80" group-title="Phá Làng" , 02/10 16:00 🟢 ⚽ Thailand - Philippines (LÝ LÀNG LÁ)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fef134c35b49711e52a67c0640f8bfdd6%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9fb247c43a1c4b07d1f2534ea6b9c07a.png" group-title="Phá Làng" , 02/10 16:00 🟡 ⚽ AS Saint-Étienne - FC Sion (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#1l4rjnhnylejm7v
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/14b75c2d38d88b747c19de8ea5509d16.png!w80" group-title="Phá Làng" , 02/10 16:00 🟡 ⚽ Vietnam - Pakistan (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#23xmvkh672dlqg8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/17f25472211b78b396faf8c420e7ea8c.png" group-title="Phá Làng" , 02/10 16:00 🟡 ⚽ Admira Wacker - Austria Vienna (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkhyvp92qg8
@@ -27,9 +33,6 @@ https://phalang.live/trang-chu#4wyrn4hyz6v0q86
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a3a8ce76c2e08c8944e744ec0fe6b300.png" group-title="Phá Làng" , 02/10 16:00 🟡 ⚽ FC Zbrojovka Brno - MFK Skalica (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#965mkyh8lykgr1g
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/14b75c2d38d88b747c19de8ea5509d16.png!w80" group-title="Phá Làng" , 02/10 16:00 🟡 ⚽ Vietnam - Pakistan (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#a1a09201abd44dfe8d50ce7001982b3f
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ad19e99776cc85fe8675d87971620f86.png" group-title="Phá Làng" , 02/10 16:00 🟡 ⚽ FC Zlín - 1.SK Prostějov (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#jw2r09h542wjrz8
@@ -51,9 +54,6 @@ https://phalang.live/trang-chu#pxwrxlhlp5kvryk
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6e770639e316afd0a0db733a97c9400e.png" group-title="Phá Làng" , 02/10 16:00 🟡 ⚽ FK Mladá Boleslav - Fotbal Příbram (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#vjxm8ghkvlz9r6o
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/43b2dd1c93748297cfbbea4d31247641.png!w80" group-title="Phá Làng" , 02/10 16:00 🟡 ⚽ Thailand - Philippines (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#y0or5jh875e9qwz
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/89fe091b9d35d31a31f16c4b233ddd6e.jpg" group-title="Phá Làng" , 02/10 16:00 🟡 ⚽ KFC Komarno - FC Ajka (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y39mp1hdvz6pmoj
