@@ -1,23 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:34:41 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:37:47 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (41 trận), Khán Đài (21 trận), Chuối Chiên (18 trận), Phá Làng (91 trận), Gà Vàng (22 trận), Sao Kê (20 trận), GaVang33 (25 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (39 trận), Khán Đài (21 trận), Chuối Chiên (18 trận), Phá Làng (91 trận), Gà Vàng (22 trận), Sao Kê (20 trận), GaVang33 (25 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS_IH32DVNx93gl9bC16jRCszOVgU2zy2ns7uv_Kp9fg&s=10" group-title="Giờ Vàng" , 02/10 07:15 🟢 ⚽ Cleveland Browns vs Pittburgh Steelers (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.rent/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1790874150_hd/1790874150_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/cbf9424df17d6e06d655dca78651d329.png" group-title="Giờ Vàng" , 02/10 08:00 🟢 🏀 Las Vegas Aces vs Indiana Fever (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.rent/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ftlh5sc02iliv.vcdn.cloud/1790873474_hd/1790873474_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/seattle-sounders.png" group-title="Giờ Vàng" , 02/10 08:30 🟢 ⚽ Seattle Sounders vs Sporting Kansas City (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.rent/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ftlh5sc02iliv.vcdn.cloud/1790873385_hd/1790873385_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/cef1725baaf3f3be0cb7215c5f39d162.png" group-title="Gà Vàng" , 02/10 08:40 🟢 ⚽ Seattle Sounders vs Sporting Kansas City (SiêU QuậY)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
@@ -38,6 +28,11 @@ https://ftlh5sc02iliv.vcdn.cloud/1790899773_hd/1790899773_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/301263.m3u8
 
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png" group-title="Giờ Vàng" , 02/10 11:00 🟢 🏐 Qatar vs Thái Lan (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.rent/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ftlh5sc02iliv.vcdn.cloud/1790873602_hd/1790873602_hd@720p.m3u8
+
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 02/10 11:00 🟢 ⚽ NGUYỄN THỊ TÂM - WU YU (LÝ LA LÀNG (Server 1))
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/nguyen-thi-tam-vs-wu-yu-1aab9d688de04bbaac5ac39e910025d7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -52,9 +47,6 @@ https://pull.digitalcdn.net/live/503eb9850b0f4a2eac471b6305e6b183/index.m3u8
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://wtyi0525.edgemaxcdn.org/live/x10-hd-1111/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png" group-title="Giờ Vàng" , 02/10 11:00 🟡 🏐 Qatar vs Thái Lan (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-qatar-vs-thai-lan-02-10-dkopjwofv1ve
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_TkTkw3i.jpg" group-title="Khán Đài" , 02/10 11:00 🟡 🏐 Qatar vs Thái Lan (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/qatar-vs-thai-lan

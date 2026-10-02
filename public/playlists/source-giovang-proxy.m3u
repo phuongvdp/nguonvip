@@ -1,17 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:34:41 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:37:47 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (41 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (39 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS_IH32DVNx93gl9bC16jRCszOVgU2zy2ns7uv_Kp9fg&s=10" group-title="Giờ Vàng" , 02/10 07:15 🟢 ⚽ Cleveland Browns vs Pittburgh Steelers (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790874150_hd%2F1790874150_hd%40720p.m3u8&source=giovang
-
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/cbf9424df17d6e06d655dca78651d329.png" group-title="Giờ Vàng" , 02/10 08:00 🟢 🏀 Las Vegas Aces vs Indiana Fever (Giovang 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790873474_hd%2F1790873474_hd%40720p.m3u8&source=giovang
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/seattle-sounders.png" group-title="Giờ Vàng" , 02/10 08:30 🟢 ⚽ Seattle Sounders vs Sporting Kansas City (Giovang 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790873385_hd%2F1790873385_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/nicaragua.png" group-title="Giờ Vàng" , 02/10 09:00 🟢 ⚽ Nicaragua vs Costa Rica (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790906503_hd%2F1790906503_hd%40720p.m3u8&source=giovang
@@ -19,8 +13,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScASzyMboTqvaXcsCvqZO4pouOAu1HBj0MKVDdJhRvOY8MuXuWxc8j6CA&s=10" group-title="Giờ Vàng" , 02/10 09:00 🟢 🎾 tokyo Open vs 2026 (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790899773_hd%2F1790899773_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png" group-title="Giờ Vàng" , 02/10 11:00 🟡 🏐 Qatar vs Thái Lan (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-qatar-vs-thai-lan-02-10-dkopjwofv1ve
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png" group-title="Giờ Vàng" , 02/10 11:00 🟢 🏐 Qatar vs Thái Lan (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790873602_hd%2F1790873602_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLL7ALhq-iF9bdJhJA0UtIC9Cg3T02IhWIhh-ox2mZkA&s=10" group-title="Giờ Vàng" , 02/10 12:30 ⚽ VietNam Men vs Spain Man (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-vietnam-men-vs-spain-man-02-10-vqi4kttrpl34
