@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:41:00 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:43:33 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (15 trận), Chuối Chiên (18 trận), Phá Làng (51 trận), Gà Vàng (10 trận), Sao Kê (25 trận), GaVang33 (25 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (12 trận), Chuối Chiên (16 trận), Phá Làng (50 trận), Gà Vàng (10 trận), Sao Kê (25 trận), GaVang33 (25 trận), Bông Lau (16 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/bosnia-and-herzegovina.png" group-title="Giờ Vàng" , 03/10 01:45 🟢 ⚽ Bosnia & Herzegovina vs Thụy Điển (Giovang 1)
@@ -9,24 +9,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.c
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/france.png" group-title="Giờ Vàng" , 03/10 01:45 🟢 ⚽ Pháp vs Ý (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790909245_hd%2F1790909245_hd%40720p.m3u8&source=giovang
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_685.jpg" group-title="Khán Đài" , 03/10 01:45 🟢 ⚽ Bosnia & Herzegovina vs Sweden (Enzo)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa2%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dd3bfcbaa36f949863f22cc89e1cc1afa&source=khandaitv
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_12.jpg" group-title="Khán Đài" , 03/10 01:45 🟢 ⚽ Ukraine vs Northern Ireland (Pháo Thủ)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa4%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dfaaa23580764370ed378ecd708c9f262&source=khandaitv
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_22.jpg" group-title="Khán Đài" , 03/10 01:45 🟢 ⚽ France vs Italy (Chim Nhỏ)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa5%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3D67cc5bcdcabb081229f5406e5b07483d&source=khandaitv
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125447_e304fc82.png" group-title="Chuối Chiên" , 03/10 01:45 🟢 ⚽ France vs Italy (Chuối Ngao (FHD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoingaohd%2Fplaylist.m3u8&source=chuoichientv
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134300_f7c99abe.png" group-title="Chuối Chiên" , 03/10 01:45 🟢 ⚽ Bosnia & Herzegovina vs Sweden (Chuối Lá (FHD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoilahd%2Fplaylist.m3u8&source=chuoichientv
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/2b52663814d2e24428bc0588164e5495.png" group-title="Phá Làng" , 03/10 01:45 🟢 ⚽ France - Italy (LÝ LONG)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fd85c387ade875307fdcd084c77bc13ac%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6723.png" group-title="Sao Kê" , 03/10 01:45 🟢 ⚽ France vs Italy (Ricky (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx83-hd-1111%2Fplaylist.m3u8&source=saoke
@@ -46,8 +28,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/70ded7a479aa84ea26b4677f99485f88.png" group-title="GaVang33" , 03/10 01:45 🟢 ⚽ France vs Italy (Gà Siêu Quỷ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F304565.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/ea0e9d2d1bda4cbfaf226902ea55a3eb.png" group-title="GaVang33" , 03/10 01:45 🟢 ⚽ Belgium vs Turkiye (Gà Ô Long)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F432017.m3u8&source=gavang33
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/ea0e9d2d1bda4cbfaf226902ea55a3eb.png" group-title="GaVang33" , 03/10 01:45 🟢 ⚽ Belgium vs Turkiye (Gà Siêu Son)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F306290.m3u8&source=gavang33
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/1f47cef5e38c952f94c5d61726027439.png" group-title="GaVang33" , 03/10 01:45 🟢 ⚽ Poland vs Romania (Gà Siêu Tồ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F796315.m3u8&source=gavang33
@@ -57,12 +39,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/22b55de76e6a8c7258e4661e8343ff3e.png" group-title="GaVang33" , 03/10 01:45 🟢 ⚽ Hungary vs Georgia (Gà Siêu Nhí)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F301263.m3u8&source=gavang33
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125447_e304fc82.png" group-title="Bông Lau" , 03/10 01:45 🟢 ⚽ France vs Italy (Chuối Ngao (FHD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoingaohd%2Fplaylist.m3u8&source=bonglau
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134300_f7c99abe.png" group-title="Bông Lau" , 03/10 01:45 🟢 ⚽ Bosnia & Herzegovina vs Sweden (Chuối Lá (FHD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoilahd%2Fplaylist.m3u8&source=bonglau
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134320_9577df1f.png" group-title="Chuối Chiên" , 03/10 04:00 🟡 ⚽ St. Kitts and Nevis vs Cuba (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1639976/st-kitts-and-nevis-vs-cuba
