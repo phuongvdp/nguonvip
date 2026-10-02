@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:41:07 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:44:15 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (107 trận) =====
 
@@ -7,8 +7,8 @@
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/fd3dd61e88396b2c01611167ed0867eb.png!w80" group-title="Phá Làng" , 02/10 13:00 🟢 ⚽ China Women - South Korea Women (LÝ LINH LỰC)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F0d2915478e28423d39d70dc5da3bd937%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/8f0728585eec7b39e9f54a1fd98b1f47.png!w80" group-title="Phá Làng" , 02/10 14:00 🟡 🏐 Pakistan - Iran (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#d4f18ef3e68248199654f87160d38b23
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/8f0728585eec7b39e9f54a1fd98b1f47.png!w80" group-title="Phá Làng" , 02/10 14:00 🟢 🏐 Pakistan - Iran (LÝ LÊN LỬA (Server 1))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F0396f8c2324a4210ae4f793c2ab3500b%2Findex.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a568766c6a9883fa021d0469ec813dc2.png" group-title="Phá Làng" , 02/10 15:00 ⚽ Petrolul Ploiesti - Afumati (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#23xmvkhyv63zqg8
