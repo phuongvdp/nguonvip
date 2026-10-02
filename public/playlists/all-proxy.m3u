@@ -1,14 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:25:57 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:28:34 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (40 trận), Khán Đài (20 trận), Chuối Chiên (17 trận), Phá Làng (107 trận), Gà Vàng (23 trận), Sao Kê (18 trận), GaVang33 (25 trận), Bông Lau (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (39 trận), Khán Đài (20 trận), Chuối Chiên (17 trận), Phá Làng (107 trận), Gà Vàng (23 trận), Sao Kê (18 trận), GaVang33 (25 trận), Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScASzyMboTqvaXcsCvqZO4pouOAu1HBj0MKVDdJhRvOY8MuXuWxc8j6CA&s=10" group-title="Giờ Vàng" , 02/10 09:00 🟢 🎾 tokyo Open vs 2026 (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790899773_hd%2F1790899773_hd%40720p.m3u8&source=giovang
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLL7ALhq-iF9bdJhJA0UtIC9Cg3T02IhWIhh-ox2mZkA&s=10" group-title="Giờ Vàng" , 02/10 12:30 🟢 ⚽ VietNam Men vs Spain Man (Giovang 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790823294_hd%2F1790823294_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 02/10 13:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1789838904_hd%2F1789838904_hd%40720p.m3u8&source=giovang
@@ -58,11 +55,11 @@ https://phalang.live/trang-chu#l5ergphk0wnvr8k
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/915a6e769bd0c93676a9af430295c3a6.png" group-title="Phá Làng" , 02/10 15:30 ⚽ FK Arsenal Česká Lípa - FK Viagem Ústí nad Labem (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6ypq3nhk63jlmd7
 
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/vietnam.png" group-title="Giờ Vàng" , 02/10 16:00 🟢 ⚽ Việt Nam vs Pakistan (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790911406_hd%2F1790911406_hd%40720p.m3u8&source=giovang
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/thailand.png" group-title="Giờ Vàng" , 02/10 16:00 ⚽ Thái Lan vs Philippines (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-thai-lan-vs-philippines-02-10-6ab468f8b057b828a8092bd4
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/vietnam.png" group-title="Giờ Vàng" , 02/10 16:00 ⚽ Việt Nam vs Pakistan (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-viet-nam-vs-pakistan-02-10-6ab468f8b057b828a8092bd5
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/trenkwalder-admira-wacker.png" group-title="Giờ Vàng" , 02/10 16:00 ⚽ FC Trenkwalder Admira vs Austria Wien (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-fc-trenkwalder-admira-vs-austria-wien-02-10-6abaff8f24d46db8707d112e
