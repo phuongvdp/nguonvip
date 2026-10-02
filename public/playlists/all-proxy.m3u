@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:43:25 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:46:21 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (31 trận), Khán Đài (17 trận), Chuối Chiên (16 trận), Phá Làng (65 trận), Gà Vàng (18 trận), Sao Kê (20 trận), GaVang33 (27 trận), Bông Lau (16 trận) =====
 
@@ -10,8 +10,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/thailand.png" group-title="Giờ Vàng" , 02/10 16:00 🟢 ⚽ Thái Lan vs Philippines (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790776573_hd%2F1790776573_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_480.jpg" group-title="Khán Đài" , 02/10 16:00 🟢 ⚽ Thái Lan vs Philippines (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/thai-lan-vs-philippines-02-10-2026-859008
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_480.jpg" group-title="Khán Đài" , 02/10 16:00 🟢 ⚽ Thái Lan vs Philippines (Chim Nhỏ)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa5%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3D67cc5bcdcabb081229f5406e5b07483d&source=khandaitv
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_358dda20.png" group-title="Chuối Chiên" , 02/10 16:00 🟢 ⚽ Thailand vs Philippines (Chuối Sấy (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoisayhd%2Fplaylist.m3u8&source=chuoichientv
@@ -34,8 +34,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/43b2dd1c93748297cfbbea4d31247641.png" group-title="GaVang33" , 02/10 16:40 🟢 ⚽ Thailand vs Philippines (Gà Ô Long)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F432017.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_hdpF9Rm.jpg" group-title="Khán Đài" , 02/10 17:00 🟢 🏐 Việt Nam vs Indonesia (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/viet-nam-vs-indonesia
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_hdpF9Rm.jpg" group-title="Khán Đài" , 02/10 17:00 🟢 🏐 Việt Nam vs Indonesia (Lee Sin)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa10%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Chuối Chiên" , 02/10 17:00 🟢 🏐 Việt Nam vs Indonesia (Chuối Kem (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikemhd%2Fplaylist.m3u8&source=chuoichientv
@@ -58,8 +58,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/jLvlBTeM-QNrz0V5B.png" group-title="Giờ Vàng" , 02/10 17:20 🟢 🎾 Trung Quốc vs Nhật Bản (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790904488_hd%2F1790904488_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Khán Đài" , 02/10 17:20 🟢 🏐 Nhật Bản vs Trung Quốc (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/nhat-ban-vs-trung-quoc
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Khán Đài" , 02/10 17:20 🟢 🏐 Nhật Bản vs Trung Quốc (KaKa)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa7%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Chuối Chiên" , 02/10 17:20 🟢 🏐 Japan vs China (Chuối Tây (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitayhd%2Fplaylist.m3u8&source=chuoichientv
@@ -76,8 +76,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/tYIRtYDa-xpPmazWa.png" group-title="Giờ Vàng" , 02/10 17:30 🟢 ⚽ North Korea W vs Japan W (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790904627_hd%2F1790904627_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_31639.jpg" group-title="Khán Đài" , 02/10 17:30 🟢 ⚽ North Korea W vs Japan W (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/north-korea-w-vs-japan-w-02-10-2026-860331
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_31639.jpg" group-title="Khán Đài" , 02/10 17:30 🟢 ⚽ North Korea W vs Japan W (Kền Kền)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa6%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3D16059952b038cc8982ab6d1980711dc9&source=khandaitv
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/b6b90237b3ebd1e462a5d11dbc5c4dae.png!w80" group-title="Phá Làng" , 02/10 17:30 🟢 ⚽ North Korea Women - Japan Women (LÝ LINH LỰC)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F36d08fb9965e86cd2c7fcf66503a4e0c%2Fplaylist.m3u8&source=phalang
@@ -112,11 +112,17 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/8Oc9LNYg-Miq8CSN4.png" group-title="Giờ Vàng" , 02/10 19:00 🟢 ⚽ Dejan vs Persipura (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790925173_hd%2F1790925173_hd%40720p.m3u8&source=giovang
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132801_10d04719.png" group-title="Chuối Chiên" , 02/10 19:00 🟢 ⚽ Congo DR vs Uganda (Chuối Lá (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoilahd%2Fplaylist.m3u8&source=chuoichientv
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6321.png" group-title="Sao Kê" , 02/10 19:00 🟢 ⚽ DR Congo vs Uganda (Bút Chì (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx22-hd-1111%2Fplaylist.m3u8&source=saoke
+
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/28e94925fdcc848f86a544a1cedcceed.png" group-title="GaVang33" , 02/10 19:00 🟢 ⚽ LOSC Lille vs Zulte-Waregem (Gà Siêu Péo)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F303098.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132801_10d04719.png" group-title="Chuối Chiên" , 02/10 19:00 🟡 ⚽ Congo DR vs Uganda (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1640074/congo-dr-vs-uganda
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132801_10d04719.png" group-title="Bông Lau" , 02/10 19:00 🟢 ⚽ Congo DR vs Uganda (Chuối Lá (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoilahd%2Fplaylist.m3u8&source=bonglau
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/305c1d59bdbe8bd8e267a58514ead1c5.png" group-title="Phá Làng" , 02/10 19:00 🟡 ⚽ SV Wehen Wiesbaden - Karlsruher SC (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66h8zgkdqo9
@@ -141,12 +147,6 @@ https://phalang.live/trang-chu#vjxm8ghkvep6r6o
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/141bcf6ab6d0bc7b8c67dc5eeb9f347d.png" group-title="Phá Làng" , 02/10 19:00 🟡 ⚽ FC Shakhtar Donetsk - Kryvbas (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#x7lm7phxgj9ym2w
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6321.png" group-title="Sao Kê" , 02/10 19:00 🟡 ⚽ DR Congo vs Uganda (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/dr-congo-vs-uganda-6abe354742ecb1c2b8370100.html
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132801_10d04719.png" group-title="Bông Lau" , 02/10 19:00 🟡 ⚽ Congo DR vs Uganda (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1640074
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/zyDlfTYA-MgUxY1Yb.png" group-title="Giờ Vàng" , 02/10 19:30 🟡 ⚽ Bryne vs Lyn (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-bryne-vs-lyn-02-10-4s35pabksefh
