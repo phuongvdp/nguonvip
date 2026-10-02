@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:26:59 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:30:07 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (33 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (32 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/2c5a6c94ba9dea2c9a656407e1b9bd8c.png!w80" group-title="Phá Làng" , 02/10 23:00 🟢 ⚽ Cyprus - Armenia (LÝ LÀNG LÁ)
@@ -12,9 +12,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/07870f1c7aff43eaee0bb426c285a59b.png" group-title="Phá Làng" , 02/10 23:00 🟢 ⚽ Latvia - Montenegro (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F0d712781433c5d5069527e24101366f0%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/4d0c08c569625beed5821775b20806b4.png" group-title="Phá Làng" , 02/10 23:30 🟡 ⚽ 1. FC Saarbrücken - Nancy (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#dj2ryoh7vx28q1z
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5fdd2b55d4743b3e52a90e25aab2ab83.png" group-title="Phá Làng" , 03/10 00:00 🟡 ⚽ Necaxa II - Cefor Promotora San Luis (Chưa có link — chờ cập nhật)
