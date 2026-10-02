@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:42:14 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:45:29 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (15 trận), Chuối Chiên (14 trận), Phá Làng (99 trận), Gà Vàng (16 trận), Sao Kê (18 trận), GaVang33 (27 trận), Bông Lau (14 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (26 trận), Khán Đài (15 trận), Chuối Chiên (14 trận), Phá Làng (99 trận), Gà Vàng (16 trận), Sao Kê (18 trận), GaVang33 (27 trận), Bông Lau (14 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/fd3dd61e88396b2c01611167ed0867eb.png" group-title="Gà Vàng" , 02/10 13:00 🟢 ⚽ China(w) vs South Korea(w) (MeoMeo)
@@ -19,10 +19,10 @@ https://ftlh5sc02iliv.vcdn.cloud/1790776573_hd/1790776573_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1790911406_hd/1790911406_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/trenkwalder-admira-wacker.png" group-title="Giờ Vàng" , 02/10 16:00 🟢 ⚽ FC Trenkwalder Admira vs Austria Wien (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.rent/
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_480.jpg" group-title="Khán Đài" , 02/10 16:00 🟢 ⚽ Thái Lan vs Philippines (Chim Nhỏ)
+#EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ftlh5sc02iliv.vcdn.cloud/1790904974_hd/1790904974_hd@720p.m3u8
+https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_479.jpg" group-title="Khán Đài" , 02/10 16:00 🟢 ⚽ Việt Nam vs Pakistan (Pháo Thủ)
 #EXTVLCOPT:http-referrer=https://khandai3.link
@@ -69,13 +69,13 @@ https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://wtyi0525.edgemaxcdn.org/live/x2-hd-1111/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/43b2dd1c93748297cfbbea4d31247641.png" group-title="GaVang33" , 02/10 16:00 🟢 ⚽ Thailand vs Philippines (Gà Ô Long)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://live2.zktsva.app/live/432017.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/14b75c2d38d88b747c19de8ea5509d16.png" group-title="GaVang33" , 02/10 16:00 🟢 ⚽ Vietnam vs Pakistan (Gà Siêu Quỷ)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/304565.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/43b2dd1c93748297cfbbea4d31247641.png" group-title="GaVang33" , 02/10 16:00 🟢 ⚽ Thailand vs Philippines (Gà Ô Long)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://live2.zktsva.app/live/432017.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_358dda20.png" group-title="Bông Lau" , 02/10 16:00 🟢 ⚽ Thailand vs Philippines (Chuối Sấy (FHD))
 #EXTVLCOPT:http-referrer=https://tructiep.bonglau.live/
@@ -86,9 +86,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://tructiep.bonglau.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_480.jpg" group-title="Khán Đài" , 02/10 16:00 🟡 ⚽ Thái Lan vs Philippines (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/thai-lan-vs-philippines-02-10-2026-859008
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9fb247c43a1c4b07d1f2534ea6b9c07a.png" group-title="Phá Làng" , 02/10 16:00 🟡 ⚽ AS Saint-Étienne - FC Sion (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#1l4rjnhnylejm7v
