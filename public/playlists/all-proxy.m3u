@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 04:07:03 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 04:10:05 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (28 trận), Khán Đài (21 trận), Chuối Chiên (16 trận), Phá Làng (66 trận), Gà Vàng (14 trận), Sao Kê (20 trận), GaVang33 (20 trận), Bông Lau (16 trận) =====
 
@@ -22,8 +22,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134320_9577df1f.png" group-title="Bông Lau" , 03/10 04:00 🟢 ⚽ St. Kitts and Nevis vs Cuba (Trốc Tru (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Ftroctruhd%2Fplaylist.m3u8&source=bonglau
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/suriname.png" group-title="Giờ Vàng" , 03/10 05:00 🟡 ⚽ Suriname vs Guatemala (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-suriname-vs-guatemala-03-10-6aaf224e4e725bdee905b7ca
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/suriname.png" group-title="Giờ Vàng" , 03/10 05:00 🟢 ⚽ Suriname vs Guatemala (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790909273_hd%2F1790909273_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3905b384c70611da83fd5969389cc558.png" group-title="Phá Làng" , 03/10 05:00 🟡 ⚽ Artesanos Metepec FC II - Grupo Sherwood (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66h8zxjkqo9
