@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:06:35 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:09:49 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (15 trận), Chuối Chiên (17 trận), Phá Làng (40 trận), Gà Vàng (16 trận), Sao Kê (20 trận), GaVang33 (26 trận), Bông Lau (17 trận) =====
 
@@ -25,8 +25,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/tYIRtYDa-xpPmazWa.png" group-title="Giờ Vàng" , 02/10 17:30 🟢 ⚽ North Korea W vs Japan W (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790904627_hd%2F1790904627_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_31639.jpg" group-title="Khán Đài" , 02/10 17:30 🟢 ⚽ North Korea W vs Japan W (Kền Kền)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa6%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3D16059952b038cc8982ab6d1980711dc9&source=khandaitv
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_31639.jpg" group-title="Khán Đài" , 02/10 17:30 🟢 ⚽ North Korea W vs Japan W (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/north-korea-w-vs-japan-w-02-10-2026-860331
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/b6b90237b3ebd1e462a5d11dbc5c4dae.png!w80" group-title="Phá Làng" , 02/10 17:30 🟢 ⚽ North Korea Women - Japan Women (LÝ LINH LỰC)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F36d08fb9965e86cd2c7fcf66503a4e0c%2Fplaylist.m3u8&source=phalang
@@ -43,8 +43,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/d6e217ac051f3258b82d74a932d11ada.png" group-title="Giờ Vàng" , 02/10 18:30 🟢 🏀 Perth Wildcats vs South East Melbourne Phoenix (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790904574_hd%2F1790904574_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_639.jpg" group-title="Khán Đài" , 02/10 18:35 🟢 ⚽ China vs Palestine (Tiểu Mây)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa9%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_639.jpg" group-title="Khán Đài" , 02/10 18:35 🟢 ⚽ China vs Palestine (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/china-vs-palestine-02-10-2026-853085
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/445ef89e5620a875f7c2eaddd033e39d.png" group-title="GaVang33" , 02/10 18:35 🟢 ⚽ China vs Palestine (Gà Siêu Ngố)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F301238.m3u8&source=gavang33
