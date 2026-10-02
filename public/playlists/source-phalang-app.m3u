@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:40:00 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:43:25 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (64 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (65 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/43b2dd1c93748297cfbbea4d31247641.png!w80" group-title="Phá Làng" , 02/10 16:40 🟢 ⚽ Thailand - Philippines (LÝ LÀNG LÁ)
@@ -21,6 +21,9 @@ https://lilive1.eu.cc/live/7655c78fcd20ea53dd933e22c9152818/playlist.m3u8|User-A
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/a3f9a9a7e81748828ce092f0dd488479.png!w80" group-title="Phá Làng" , 02/10 18:00 🟢 ⚽ South Korea - Venezuela (LÝ LONG)
 https://lilive1.eu.cc/live/64e9e712250bc744cdbda2014f879b8a/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/truc-tiep/south-korea-vs-venezuela-6ypq3nhv9976md7&Origin=https://phalang.live
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/db4411a3c4ce1d0f092f5b9d1df08664.png" group-title="Phá Làng" , 02/10 18:00 🟢 ⚽ FC Augsburg - Hertha Berlin (Server 1)
+https://lilive1.eu.cc/live/376e7ba6a946d40afdb53171eb961f37/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/truc-tiep/fc-augsburg-vs-hertha-berlin-l5ergphk0l83r8k&Origin=https://phalang.live
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/305c1d59bdbe8bd8e267a58514ead1c5.png" group-title="Phá Làng" , 02/10 19:00 🟡 ⚽ SV Wehen Wiesbaden - Karlsruher SC (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66h8zgkdqo9
