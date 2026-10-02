@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:48:51 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:51:50 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (12 trận), Chuối Chiên (15 trận), Phá Làng (28 trận), Gà Vàng (7 trận), Sao Kê (19 trận), GaVang33 (22 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (12 trận), Chuối Chiên (15 trận), Phá Làng (28 trận), Gà Vàng (7 trận), Sao Kê (19 trận), GaVang33 (22 trận), Bông Lau (15 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/cedb12f9c001f1b1cb11bc532967c33e.png" group-title="Gà Vàng" , 02/10 20:15 🟢 ⚽ Al Ain FC vs Ajman (MáN NúI)
@@ -13,11 +13,6 @@ https://playback.livetl002.com/live/69cf6331585c5992182f4160.m3u8
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a2a59b347bbddd62a8dc4e4.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/eintracht-frankfurt.png" group-title="Giờ Vàng" , 02/10 20:30 🟢 ⚽ Eintracht Frankfurt vs Eintr. Braunschweig (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.rent/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ftlh5sc02iliv.vcdn.cloud/1790905262_hd/1790905262_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/kazakhstan.png" group-title="Giờ Vàng" , 02/10 21:00 🟢 ⚽ Kazakhstan vs Moldova (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.rent/
@@ -102,6 +97,11 @@ https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/2c5a6c94ba9dea2c9a656407e1b9bd8c.png!w80" group-title="Phá Làng" , 02/10 23:00 🟢 ⚽ Cyprus - Armenia (LÝ LÀNG LÁ)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/cyprus-vs-armenia-1l4rjnh9no04m7v
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/2f7845227778e395acb0141c8bbfdfcc/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5793.png" group-title="Sao Kê" , 02/10 23:00 🟢 ⚽ Cyprus vs Armenia (Ricky (HD))
 #EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/kazakhstan-vs-moldova-6abe354742ecb1c2b83700f6.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -129,9 +129,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://tructiep.bonglau.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/2c5a6c94ba9dea2c9a656407e1b9bd8c.png!w80" group-title="Phá Làng" , 02/10 23:00 🟡 ⚽ Cyprus - Armenia (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#1l4rjnh9no04m7v
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/89b40b4dba68bc2b6ef4e82dd8e156bd.png" group-title="Phá Làng" , 02/10 23:00 🟡 ⚽ Grenoble - Stade Ouchy (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#2y8m4zhv063jql0

@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:48:51 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:51:50 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (31 trận) =====
 
@@ -14,8 +14,10 @@ https://lilive1.eu.cc/live/68d6339749adc313f8b769bd4e8d3154/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/14bc21f1fc6a5715747489254f4ddff3/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/2c5a6c94ba9dea2c9a656407e1b9bd8c.png!w80" group-title="Phá Làng" , 02/10 23:00 🟡 ⚽ Cyprus - Armenia (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#1l4rjnh9no04m7v
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/2c5a6c94ba9dea2c9a656407e1b9bd8c.png!w80" group-title="Phá Làng" , 02/10 23:00 🟢 ⚽ Cyprus - Armenia (LÝ LÀNG LÁ)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/cyprus-vs-armenia-1l4rjnh9no04m7v
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/2f7845227778e395acb0141c8bbfdfcc/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/89b40b4dba68bc2b6ef4e82dd8e156bd.png" group-title="Phá Làng" , 02/10 23:00 🟡 ⚽ Grenoble - Stade Ouchy (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#2y8m4zhv063jql0
