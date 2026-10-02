@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:15:38 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:18:33 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (23 trận), Chuối Chiên (18 trận), Phá Làng (30 trận), Gà Vàng (11 trận), Sao Kê (22 trận), GaVang33 (25 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (23 trận), Chuối Chiên (18 trận), Phá Làng (30 trận), Gà Vàng (11 trận), Sao Kê (22 trận), GaVang33 (25 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/0CZOhXDa-8zUcYY2j.png" group-title="Giờ Vàng" , 02/10 22:45 🟢 ⚽ Shabab Al-Ahli Dubai vs Al Nasr (Giovang 1)
@@ -33,11 +33,15 @@ https://pzhgifbkllliv.vcdn.cloud/1790908998_hd/1790908998_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pzhgifbkllliv.vcdn.cloud/1790909049_hd/1790909049_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_697.jpg" group-title="Khán Đài" , 02/10 23:00 🟢 ⚽ Cyprus vs Armenia (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/cyprus-vs-armenia-02-10-2026-790937
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_697.jpg" group-title="Khán Đài" , 02/10 23:00 🟢 ⚽ Cyprus vs Armenia (Kền Kền)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_694.jpg" group-title="Khán Đài" , 02/10 23:00 🟢 ⚽ Latvia vs Montenegro (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/latvia-vs-montenegro-02-10-2026-790938
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_694.jpg" group-title="Khán Đài" , 02/10 23:00 🟢 ⚽ Latvia vs Montenegro (Tiểu Mây)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134258_7f759e07.png" group-title="Chuối Chiên" , 02/10 23:00 🟢 ⚽ Cyprus vs Armenia (Chuối Nhỏ (FHD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
@@ -344,6 +348,9 @@ https://giovang.rent/truc-tiep-ca-la-paz-vs-venados-03-10-knvbg6hh95vd
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/7e16680bbd661fd90dbf08501ae7a98e.png" group-title="GaVang33" , 03/10 10:00 ⚽ Club Atletico La Paz vs Venados FC Yucatán (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/club-atletico-la-paz-vs-venados-fc-yucatan-luc-1000-ngay-03-10-2026-318q66hxyj22qo9
 
+#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/aEBU_ri8U6F06oTqWmKY5g_96x96.png" group-title="Giờ Vàng" , 03/10 11:00 🏐 Thái Lan vs Ấn Độ (Chưa có link — chờ cập nhật)
+https://giovang.rent/truc-tiep-thai-lan-vs-an-do-03-10-rydpk7dw9yo1
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_Q9mUTFM.jpg" group-title="Khán Đài" , 03/10 11:00 🏐 Thái Lan vs Ấn Độ (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/thai-lan-vs-an-do
 
@@ -376,6 +383,9 @@ https://vip3.saoketv40.xyz/china-u23-vs-uzbekistan-u23-6abf7062b9c200d560485f0f.
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTyQbV7R_wsuY6OfdPSIu1WhPyrDH-xXNobnjpwe0mzw&s=10" group-title="Giờ Vàng" , 03/10 14:00 ⚽ Machida Zelvia vs Kyoto Sanga (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-machida-zelvia-vs-kyoto-sanga-03-10-l4mwp2fvcukx
+
+#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 14:00 🏐 Pakistan vs Trung Quốc (Chưa có link — chờ cập nhật)
+https://giovang.rent/truc-tiep-pakistan-vs-trung-quoc-03-10-aypu5oxinqxy
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_Kazakhstan.svg.webp" group-title="Khán Đài" , 03/10 14:00 🏐 Kazakhstan vs Indonesia (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/kazakhstan-vs-indonesia
