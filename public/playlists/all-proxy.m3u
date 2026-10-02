@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:44:41 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:47:39 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (34 trận), Khán Đài (22 trận), Chuối Chiên (18 trận), Phá Làng (86 trận), Gà Vàng (24 trận), Sao Kê (21 trận), GaVang33 (24 trận), Bông Lau (18 trận) =====
 
@@ -34,8 +34,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/nqz3kJDa-YB0DoGZt.png" group-title="Giờ Vàng" , 02/10 08:00 🟢 🏐 Ấn Độ vs Hàn Quốc (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790873545_hd%2F1790873545_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_India.svg.webp" group-title="Khán Đài" , 02/10 08:00 🟢 🏐 Ấn Độ vs Hàn Quốc (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/an-do-vs-han-quoc
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_India.svg.webp" group-title="Khán Đài" , 02/10 08:00 🟢 🏐 Ấn Độ vs Hàn Quốc (Tày)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa8%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Chuối Chiên" , 02/10 08:00 🟢 🏐 India vs South Korea (Chuối Kem (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikemhd%2Fplaylist.m3u8&source=chuoichientv
@@ -92,7 +92,7 @@ https://giovang.rent/truc-tiep-china-w-vs-south-korea-w-02-10-omjl50r526zx
 https://giovang.rent/truc-tiep-asiad-2026-vs-asiad-2026-02-10-asooi3g7yvxg
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_599.jpg" group-title="Khán Đài" , 02/10 13:00 ⚽ China W vs South Korea W (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/china-w-vs-south-korea-w
+https://khandai3.link/truc-tiep/china-w-vs-south-korea-w-02-10-2026-860330
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/fd3dd61e88396b2c01611167ed0867eb.png!w80" group-title="Phá Làng" , 02/10 13:00 ⚽ China Women - South Korea Women (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66h8z2g3qo9
@@ -311,7 +311,7 @@ https://lau05.bonglautv1.pro/truc-tiep/998711
 https://giovang.rent/truc-tiep-north-korea-w-vs-japan-w-02-10-ckpqb2xlp71a
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_31639.jpg" group-title="Khán Đài" , 02/10 17:30 ⚽ North Korea W vs Japan W (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/north-korea-w-vs-japan-w
+https://khandai3.link/truc-tiep/north-korea-w-vs-japan-w-02-10-2026-860331
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/dc0e43b95c6676c54415bac168472aa4.png" group-title="Phá Làng" , 02/10 17:30 ⚽ Juventus - Cremonese (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#2y8m4zhv06kgql0
