@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:08:05 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:10:59 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (21 trận) =====
 
@@ -7,8 +7,8 @@
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6723.png" group-title="Sao Kê" , 03/10 01:45 🟢 ⚽ France vs Italy (Ricky (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx83-hd-1111%2Fplaylist.m3u8&source=saoke
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8263.png" group-title="Sao Kê" , 03/10 01:45 🟡 ⚽ Belgium vs Turkiye (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/belgium-vs-turkiye-6abe354742ecb1c2b83700ef.html
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8263.png" group-title="Sao Kê" , 03/10 01:45 🟢 ⚽ Belgium vs Turkiye (Cà Rốt (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx10-hd-1111%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8565.png" group-title="Sao Kê" , 03/10 01:45 🟡 ⚽ Hungary vs Georgia (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/hungary-vs-georgia-6abe354742ecb1c2b83700f1.html
