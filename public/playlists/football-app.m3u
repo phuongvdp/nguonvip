@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:33:35 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:36:33 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (12 trận), Chuối Chiên (17 trận), Phá Làng (114 trận), Gà Vàng (10 trận), Sao Kê (21 trận), GaVang33 (20 trận), Bông Lau (17 trận) =====
 
@@ -28,6 +28,12 @@ https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8|User-Agent=Mozilla
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/7a9a6275e29e0f51ea68ba1ec740bf1e.png" group-title="Gà Vàng" , 03/10 06:45 🟡 ⚽ Juventude vs Operario Ferroviario PR (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/esporte-clube-juventude-vs-operario-ferroviario-pr-ngay-03-10-2026/
 
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/414440d40757c0f0ad4d6bf00a62f667.png" group-title="GaVang33" , 03/10 07:00 🟢 ⚽ Martinique vs Honduras (Gà Siêu Péo)
+https://live2.zktsva.app/live/303098.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/ef2635db12914681ae86ece2d97bd6c2.png" group-title="GaVang33" , 03/10 07:00 🟢 ⚽ Colombia vs Paraguay (Gà Siêu Kiêu)
+https://live2.zktsva.app/live/741294.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/martinique.png" group-title="Giờ Vàng" , 03/10 07:00 🟡 ⚽ Martinique vs Honduras (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-martinique-vs-honduras-03-10-6aaf224e4e725bdee905b7cb
 
@@ -46,12 +52,6 @@ https://gavanglinkt.tv/truc-tiep/colombia-vs-paraguay-ngay-03-10-2026/
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8258.png" group-title="Sao Kê" , 03/10 07:00 🟡 ⚽ Colombia vs Paraguay (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/colombia-vs-paraguay-6abe354742ecb1c2b8370101.html
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/414440d40757c0f0ad4d6bf00a62f667.png" group-title="GaVang33" , 03/10 07:00 🟡 ⚽ Martinique vs Honduras (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/martinique-vs-honduras-luc-0700-ngay-03-10-2026-8yomo4h1npvvq0j
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/ef2635db12914681ae86ece2d97bd6c2.png" group-title="GaVang33" , 03/10 07:00 🟡 ⚽ Colombia vs Paraguay (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/colombia-vs-paraguay-luc-0700-ngay-03-10-2026-3glrw7h4k6weqdy
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132807_7f305cf9.png" group-title="Bông Lau" , 03/10 07:00 🟡 ⚽ Colombia vs Paraguay (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1638597
 
@@ -64,7 +64,7 @@ https://gavanglinkt.tv/truc-tiep/independiente-rivadavia-vs-gimnasia-la-plata-ng
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9ed2c4f6adc51975cdbd2a93093e6a43.png" group-title="Gà Vàng" , 03/10 07:30 🟡 ⚽ Boca Juniors vs Union Santa Fe (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/boca-juniors-vs-club-atletico-union-ngay-03-10-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/84f85d4178e4287ed8ad5f76ad4c5e46.png" group-title="Gà Vàng" , 03/10 07:35 ⚽ Fortaleza vs Nautico (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/84f85d4178e4287ed8ad5f76ad4c5e46.png" group-title="Gà Vàng" , 03/10 07:35 🟡 ⚽ Fortaleza vs Nautico (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/fortaleza-vs-nautico-pe-ngay-03-10-2026/
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/deportivo-cali.png" group-title="Giờ Vàng" , 03/10 07:45 ⚽ Deportivo Cali vs Alianza Petrolera (Chưa có link — chờ cập nhật)
