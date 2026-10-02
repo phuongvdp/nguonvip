@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 05:28:02 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 05:31:00 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (28 trận), Khán Đài (21 trận), Chuối Chiên (17 trận), Phá Làng (76 trận), Gà Vàng (10 trận), Sao Kê (21 trận), GaVang33 (20 trận), Bông Lau (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (28 trận), Khán Đài (21 trận), Chuối Chiên (17 trận), Phá Làng (79 trận), Gà Vàng (9 trận), Sao Kê (21 trận), GaVang33 (20 trận), Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134320_9577df1f.png" group-title="Chuối Chiên" , 03/10 04:00 🟢 ⚽ St. Kitts and Nevis vs Cuba (Trốc Tru (FHD))
@@ -15,9 +15,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/suriname.png" group-title="Giờ Vàng" , 03/10 05:00 🟢 ⚽ Suriname vs Guatemala (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790909273_hd%2F1790909273_hd%40720p.m3u8&source=giovang
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/e2f40e16499b22e942a5bd1d1d2398d3.png" group-title="Gà Vàng" , 03/10 05:30 🟡 ⚽ Sao Bernardo vs CRB (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/sao-bernardo-vs-crb-al-ngay-03-10-2026/
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125536_698c7d26.png" group-title="Chuối Chiên" , 03/10 06:00 🟡 ⚽ Sao Paulo vs Santos (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1492318/sao-paulo-vs-santos
@@ -34,7 +31,7 @@ https://vip3.saoketv40.xyz/sao-paulo-vs-santos-6ac004342f0c9283874d02eb.html
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125536_698c7d26.png" group-title="Bông Lau" , 03/10 06:00 🟡 ⚽ Sao Paulo vs Santos (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1492318
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9d3195be22d95cf5d35790272afc724a.png" group-title="Gà Vàng" , 03/10 06:30 ⚽ Londrina PR vs Criciuma (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9d3195be22d95cf5d35790272afc724a.png" group-title="Gà Vàng" , 03/10 06:30 🟡 ⚽ Londrina PR vs Criciuma (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/londrina-pr-vs-criciuma-ngay-03-10-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/7a9a6275e29e0f51ea68ba1ec740bf1e.png" group-title="Gà Vàng" , 03/10 06:45 ⚽ Juventude vs Operario Ferroviario PR (Chưa có link — chờ cập nhật)
@@ -480,6 +477,15 @@ https://gavang33.me/truc-tiep/finland-vs-albania-luc-2000-ngay-03-10-2026-ednm9w
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Bông Lau" , 03/10 20:00 ⚽ Finland vs Albania (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1528932
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/65503b155488a643de688e8dfa849b1f.png" group-title="Phá Làng" , 03/10 20:30 ⚽ FC St. Pauli - Borussia Monchengladbach (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#965mkyh8l23wr1g
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7d869f45894b0c8a3cdf8ade8c568a06.png" group-title="Phá Làng" , 03/10 20:30 ⚽ VfL Osnabrück - Djurgardens (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#ednm9wh582z5ryo
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e74894fcaad7e4f5c3a42847571373af.png" group-title="Phá Làng" , 03/10 20:30 ⚽ WSG Tirol B - FC Wacker Innsbruck (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#l5ergphk04ver8k
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Chuối Chiên" , 03/10 21:00 ⚽ India vs Brazil (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1632355/india-vs-brazil
