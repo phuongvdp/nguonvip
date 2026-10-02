@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:45:38 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:48:35 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (12 trận), Chuối Chiên (17 trận), Phá Làng (114 trận), Gà Vàng (9 trận), Sao Kê (21 trận), GaVang33 (20 trận), Bông Lau (17 trận) =====
 
@@ -25,17 +25,23 @@ https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8|User-Agent=Mozill
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125536_698c7d26.png" group-title="Bông Lau" , 03/10 06:00 🟢 ⚽ Sao Paulo vs Santos (Chuối Tây (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://live.chuoichien.tv/
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132807_7f305cf9.png" group-title="Chuối Chiên" , 03/10 07:00 🟢 ⚽ Colombia vs Paraguay (Chuối Kem (FHD))
+https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8258.png" group-title="Sao Kê" , 03/10 07:00 🟢 ⚽ Colombia vs Paraguay (Tít (HD))
+https://wtyi0525.edgemaxcdn.org/live/x2-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://vip3.saoketv40.xyz/st-kitts-and-nevis-vs-cuba-6abe354742ecb1c2b83700fb.html
+
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/ef2635db12914681ae86ece2d97bd6c2.png" group-title="GaVang33" , 03/10 07:00 🟢 ⚽ Colombia vs Paraguay (Gà Siêu Kiêu)
 https://live2.zktsva.app/live/741294.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/414440d40757c0f0ad4d6bf00a62f667.png" group-title="GaVang33" , 03/10 07:00 🟢 ⚽ Martinique vs Honduras (Gà Siêu Péo)
 https://live2.zktsva.app/live/303098.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132807_7f305cf9.png" group-title="Bông Lau" , 03/10 07:00 🟢 ⚽ Colombia vs Paraguay (Chuối Kem (FHD))
+https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://live.chuoichien.tv/
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/martinique.png" group-title="Giờ Vàng" , 03/10 07:00 🟡 ⚽ Martinique vs Honduras (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-martinique-vs-honduras-03-10-6aaf224e4e725bdee905b7cb
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132807_7f305cf9.png" group-title="Chuối Chiên" , 03/10 07:00 🟡 ⚽ Colombia vs Paraguay (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1638597/colombia-vs-paraguay
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e75cc11ef16eb4b01574a92b1487addb.png" group-title="Phá Làng" , 03/10 07:00 🟡 ⚽ Colombia - Paraguay (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#3glrw7h4k6weqdy
@@ -45,12 +51,6 @@ https://phalang.live/trang-chu#y0or5jh9x835qwz
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ef2635db12914681ae86ece2d97bd6c2.png" group-title="Gà Vàng" , 03/10 07:00 🟡 ⚽ Colombia vs Paraguay (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/colombia-vs-paraguay-ngay-03-10-2026/
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8258.png" group-title="Sao Kê" , 03/10 07:00 🟡 ⚽ Colombia vs Paraguay (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/colombia-vs-paraguay-6abe354742ecb1c2b8370101.html
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132807_7f305cf9.png" group-title="Bông Lau" , 03/10 07:00 🟡 ⚽ Colombia vs Paraguay (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1638597
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/independiente-rivadavia.png" group-title="Giờ Vàng" , 03/10 07:30 🟡 ⚽ Independiente Rivadavia vs Gimnasia LP (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-independiente-rivadavia-vs-gimnasia-lp-03-10-6ab9ae1824d46db870ba2482
