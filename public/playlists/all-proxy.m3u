@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:51:31 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:54:32 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (37 trận), Khán Đài (18 trận), Chuối Chiên (17 trận), Phá Làng (101 trận), Gà Vàng (23 trận), Sao Kê (18 trận), GaVang33 (27 trận), Bông Lau (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (37 trận), Khán Đài (18 trận), Chuối Chiên (17 trận), Phá Làng (101 trận), Gà Vàng (23 trận), Sao Kê (19 trận), GaVang33 (27 trận), Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScASzyMboTqvaXcsCvqZO4pouOAu1HBj0MKVDdJhRvOY8MuXuWxc8j6CA&s=10" group-title="Giờ Vàng" , 02/10 09:00 🟢 🎾 tokyo Open vs 2026 (Giovang 1)
@@ -49,8 +49,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/43b2dd1c93748297cfbbea4d31247641.png!w80" group-title="Phá Làng" , 02/10 16:00 🟢 ⚽ Thailand - Philippines (LÝ LÀNG LÁ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fef134c35b49711e52a67c0640f8bfdd6%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5894.png" group-title="Sao Kê" , 02/10 16:00 🟢 ⚽ Vietnam vs Pakistan (Ricky (HD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx83-hd-1111%2Fplaylist.m3u8&source=saoke
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5894.png" group-title="Sao Kê" , 02/10 16:00 🟢 ⚽ Vietnam vs Pakistan (Tít (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx2-hd-1111%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5788.png" group-title="Sao Kê" , 02/10 16:00 🟢 ⚽ Thailand vs Philippines (Tít (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx2-hd-1111%2Fplaylist.m3u8&source=saoke
@@ -760,6 +760,9 @@ https://giovang.rent/truc-tiep-trung-quoc-vs-uzbekistan-03-10-rcep848bfe7s
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9462.jpg" group-title="Khán Đài" , 03/10 13:00 ⚽ China U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/china-u23-vs-uzbekistan-u23-03-10-2026-860365
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/317240.png" group-title="Sao Kê" , 03/10 13:00 ⚽ China U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/china-u23-vs-uzbekistan-u23-6abf7062b9c200d560485f0f.html
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTyQbV7R_wsuY6OfdPSIu1WhPyrDH-xXNobnjpwe0mzw&s=10" group-title="Giờ Vàng" , 03/10 14:00 ⚽ Machida Zelvia vs Kyoto Sanga (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-machida-zelvia-vs-kyoto-sanga-03-10-l4mwp2fvcukx

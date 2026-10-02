@@ -1,11 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:51:32 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:54:33 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (19 trận) =====
 
 # ----- Ngày 2026-10-02 -----
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5894.png" group-title="Sao Kê" , 02/10 16:00 🟢 ⚽ Vietnam vs Pakistan (Ricky (HD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx83-hd-1111%2Fplaylist.m3u8&source=saoke
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5894.png" group-title="Sao Kê" , 02/10 16:00 🟢 ⚽ Vietnam vs Pakistan (Tít (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx2-hd-1111%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5788.png" group-title="Sao Kê" , 02/10 16:00 🟢 ⚽ Thailand vs Philippines (Tít (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx2-hd-1111%2Fplaylist.m3u8&source=saoke
@@ -58,3 +58,6 @@ https://vip3.saoketv40.xyz/colombia-vs-paraguay-6abe354742ecb1c2b8370101.html
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6327.png" group-title="Sao Kê" , 03/10 09:00 ⚽ El Salvador vs Jamaica (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/el-salvador-vs-jamaica-6abe354742ecb1c2b83700fa.html
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/317240.png" group-title="Sao Kê" , 03/10 13:00 ⚽ China U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/china-u23-vs-uzbekistan-u23-6abf7062b9c200d560485f0f.html
