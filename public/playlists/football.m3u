@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:48:03 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:51:04 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (12 trận), Chuối Chiên (16 trận), Phá Làng (32 trận), Gà Vàng (9 trận), Sao Kê (20 trận), GaVang33 (24 trận), Bông Lau (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (12 trận), Chuối Chiên (16 trận), Phá Làng (32 trận), Gà Vàng (6 trận), Sao Kê (20 trận), GaVang33 (24 trận), Bông Lau (16 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/dS0NzAil-OKa9P8WR.png" group-title="Giờ Vàng" , 02/10 20:15 🟢 ⚽ Al Ain vs Ajman (Giovang 1)
@@ -23,16 +23,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/al-wasl-sc-vs-ittihad-kalba-fc-l7oqdehg7p88r51
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/af1e3c5362ae48452c6e328062a5800b/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/cedb12f9c001f1b1cb11bc532967c33e.png" group-title="Gà Vàng" , 02/10 20:15 🟢 ⚽ Al Ain FC vs Ajman (MáN NúI)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69cf6331585c5992182f4160.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/17b767b98695df2fb512e992dd8a7af4.png" group-title="Gà Vàng" , 02/10 20:15 🟢 ⚽ Al-Wasl SC vs Ittihad Kalba FC (SiêU QuậY)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/6a2a59b347bbddd62a8dc4e4.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/102117.png" group-title="Sao Kê" , 02/10 20:15 🟢 ⚽ Al-Ain vs Ajman (Bút Chì (HD))
 #EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/kazakhstan-vs-moldova-6abe354742ecb1c2b83700f6.html
@@ -77,11 +67,6 @@ https://lilive1.eu.cc/live/e6b253c1f4615304f656739e29c03479/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/kazakhstan-vs-moldova-8yomo4h1ylokq0j
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/68d6339749adc313f8b769bd4e8d3154/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fe636189a2f3db78d0554c34f0bdaae6.png" group-title="Gà Vàng" , 02/10 21:00 🟢 ⚽ Eintracht Frankfurt vs Eintracht Braunschweig (ĐOÀN DỰ)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/6a5df755b89dded67b39b8bc.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8265.png" group-title="Sao Kê" , 02/10 21:00 🟢 ⚽ Kazakhstan vs Moldova (Cà Rốt (HD))
 #EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/kazakhstan-vs-moldova-6abe354742ecb1c2b83700f6.html
