@@ -1,14 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 11:19:03 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 11:22:20 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận), Khán Đài (15 trận), Chuối Chiên (14 trận), Phá Làng (105 trận), Gà Vàng (15 trận), Sao Kê (20 trận), GaVang33 (24 trận), Bông Lau (14 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận), Khán Đài (15 trận), Chuối Chiên (14 trận), Phá Làng (104 trận), Gà Vàng (15 trận), Sao Kê (20 trận), GaVang33 (24 trận), Bông Lau (14 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/cef1725baaf3f3be0cb7215c5f39d162.png" group-title="Gà Vàng" , 02/10 08:40 🟢 ⚽ Seattle Sounders vs Sporting Kansas City (SiêU QuậY)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a2a59b347bbddd62a8dc4e4.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 02/10 11:00 🟢 ⚽ NGUYỄN THỊ TÂM - WU YU (LÝ LA LÀNG (Server 1))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2Fc4a38bde55c148d1a075e6754f5a1ddf%2Findex.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Sao Kê" , 02/10 11:00 🟢 ⚽ Qatar vs Thailand (Cà Rốt (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx10-hd-1111%2Fplaylist.m3u8&source=saoke

@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 11:19:03 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 11:22:20 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (37 trận), Khán Đài (21 trận), Chuối Chiên (18 trận), Phá Làng (109 trận), Gà Vàng (22 trận), Sao Kê (20 trận), GaVang33 (24 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (37 trận), Khán Đài (21 trận), Chuối Chiên (18 trận), Phá Làng (108 trận), Gà Vàng (22 trận), Sao Kê (20 trận), GaVang33 (24 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/cef1725baaf3f3be0cb7215c5f39d162.png" group-title="Gà Vàng" , 02/10 08:40 🟢 ⚽ Seattle Sounders vs Sporting Kansas City (SiêU QuậY)
@@ -19,25 +19,16 @@ https://ftlh5sc02iliv.vcdn.cloud/1790899773_hd/1790899773_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1790873602_hd/1790873602_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_TkTkw3i.jpg" group-title="Khán Đài" , 02/10 11:00 🟢 🏐 Qatar vs Thái Lan (KaKa)
-#EXTVLCOPT:http-referrer=https://khandai3.link
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_TkTkw3i.jpg" group-title="Khán Đài" , 02/10 11:00 🟢 🏐 Qatar vs Thái Lan (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/qatar-vs-thai-lan
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646_P1KUFYE.png" group-title="Khán Đài" , 02/10 11:00 🟢 🏐 Uzbekistan vs Philippines (Enzo)
-#EXTVLCOPT:http-referrer=https://khandai3.link
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646_P1KUFYE.png" group-title="Khán Đài" , 02/10 11:00 🟢 🏐 Uzbekistan vs Philippines (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/uzbekistan-vs-philippines
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Chuối Chiên" , 02/10 11:00 🟢 🏐 Qatar vs Thailand (Chuối Tây (FHD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 02/10 11:00 🟢 ⚽ NGUYỄN THỊ TÂM - WU YU (LÝ LA LÀNG (Server 1))
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/nguyen-thi-tam-vs-wu-yu-1aab9d688de04bbaac5ac39e910025d7
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://pull.digitalcdn.net/live/c4a38bde55c148d1a075e6754f5a1ddf/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/24bea3e10580aa94c883db6647fb25ac.png!w80" group-title="Phá Làng" , 02/10 11:00 🟢 🏐 Qatar - Thái Lan (LÝ LIỀU LĨNH (Server 1))
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/qatar-vs-thai-lan-62dad66cbff348389c606b919a6dadff

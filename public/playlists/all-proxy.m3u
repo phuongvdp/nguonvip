@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 11:19:03 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 11:22:20 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (37 trận), Khán Đài (21 trận), Chuối Chiên (18 trận), Phá Làng (109 trận), Gà Vàng (22 trận), Sao Kê (20 trận), GaVang33 (24 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (37 trận), Khán Đài (21 trận), Chuối Chiên (18 trận), Phá Làng (108 trận), Gà Vàng (22 trận), Sao Kê (20 trận), GaVang33 (24 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/cef1725baaf3f3be0cb7215c5f39d162.png" group-title="Gà Vàng" , 02/10 08:40 🟢 ⚽ Seattle Sounders vs Sporting Kansas City (SiêU QuậY)
@@ -13,17 +13,14 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png" group-title="Giờ Vàng" , 02/10 11:00 🟢 🏐 Qatar vs Thái Lan (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790873602_hd%2F1790873602_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_TkTkw3i.jpg" group-title="Khán Đài" , 02/10 11:00 🟢 🏐 Qatar vs Thái Lan (KaKa)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa7%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_TkTkw3i.jpg" group-title="Khán Đài" , 02/10 11:00 🟢 🏐 Qatar vs Thái Lan (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/qatar-vs-thai-lan
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646_P1KUFYE.png" group-title="Khán Đài" , 02/10 11:00 🟢 🏐 Uzbekistan vs Philippines (Enzo)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa2%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dd3bfcbaa36f949863f22cc89e1cc1afa&source=khandaitv
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646_P1KUFYE.png" group-title="Khán Đài" , 02/10 11:00 🟢 🏐 Uzbekistan vs Philippines (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/uzbekistan-vs-philippines
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Chuối Chiên" , 02/10 11:00 🟢 🏐 Qatar vs Thailand (Chuối Tây (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitayhd%2Fplaylist.m3u8&source=chuoichientv
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 02/10 11:00 🟢 ⚽ NGUYỄN THỊ TÂM - WU YU (LÝ LA LÀNG (Server 1))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2Fc4a38bde55c148d1a075e6754f5a1ddf%2Findex.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/24bea3e10580aa94c883db6647fb25ac.png!w80" group-title="Phá Làng" , 02/10 11:00 🟢 🏐 Qatar - Thái Lan (LÝ LIỀU LĨNH (Server 1))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F503eb9850b0f4a2eac471b6305e6b183%2Findex.m3u8&source=phalang
