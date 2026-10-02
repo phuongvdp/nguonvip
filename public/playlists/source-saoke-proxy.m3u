@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:01:16 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:04:12 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (21 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (20 trận) =====
 
 # ----- Ngày 2026-10-02 -----
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5788.png" group-title="Sao Kê" , 02/10 16:00 🟢 ⚽ Thailand vs Philippines (Ricky (HD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx83-hd-1111%2Fplaylist.m3u8&source=saoke
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Sao Kê" , 02/10 17:00 🟢 ⚽ Việt Nam vs Indonesia (Kai (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx00-hd-1111%2Fplaylist.m3u8&source=saoke
 
