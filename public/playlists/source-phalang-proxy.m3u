@@ -1,26 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:38:27 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:41:00 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (63 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (58 trận) =====
 
 # ----- Ngày 2026-10-03 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7e2715cb1a79a2947617c86e6b17f8e0.png" group-title="Phá Làng" , 03/10 01:45 🟢 ⚽ Bosnia and Herzegovina - Sweden (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Ff5cbcd1b7f55327444dc46543f1b681d%2Fplaylist.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/2b52663814d2e24428bc0588164e5495.png" group-title="Phá Làng" , 03/10 01:45 🟢 ⚽ France - Italy (LÝ LONG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fd85c387ade875307fdcd084c77bc13ac%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/4abe2701a77864141daa484a0941e6a7.png" group-title="Phá Làng" , 03/10 01:45 🟢 ⚽ Poland - Romania (LÝ LIỀU LĨNH)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F7e54200e282b3b5eab035f1411efdd4b%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/b2cd543f1eebd11fbafccbe54a1d28a1.png" group-title="Phá Làng" , 03/10 01:45 🟢 ⚽ Belgium - Turkiye (LÝ LA LÀNG)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fd1917f0591f9ded22b3987f8ce75f742%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/19ad3a8df7411246f92daa1087782263.png" group-title="Phá Làng" , 03/10 01:45 🟢 ⚽ Ukraine - Northern Ireland (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fe101549399f12df6a1a2937d01d2ff1a%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/dd1a0ce3bfdd4b32cc4cddee0445c912.png" group-title="Phá Làng" , 03/10 01:45 🟢 ⚽ Hungary - Georgia (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F3134116cc14af8075514bbee2252211d%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3905b384c70611da83fd5969389cc558.png" group-title="Phá Làng" , 03/10 05:00 ⚽ Artesanos Metepec FC II - Grupo Sherwood (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66h8zxjkqo9
