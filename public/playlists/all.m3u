@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:04:58 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:08:01 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (40 trận), Khán Đài (20 trận), Chuối Chiên (17 trận), Phá Làng (107 trận), Gà Vàng (23 trận), Sao Kê (19 trận), GaVang33 (25 trận), Bông Lau (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (40 trận), Khán Đài (20 trận), Chuối Chiên (17 trận), Phá Làng (107 trận), Gà Vàng (23 trận), Sao Kê (18 trận), GaVang33 (25 trận), Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScASzyMboTqvaXcsCvqZO4pouOAu1HBj0MKVDdJhRvOY8MuXuWxc8j6CA&s=10" group-title="Giờ Vàng" , 02/10 09:00 🟢 🎾 tokyo Open vs 2026 (Giovang 1)
@@ -63,11 +63,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/pakistan-vs-iran-d4f18ef3e68248199654f87160d38b23
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pull.digitalcdn.net/live/0396f8c2324a4210ae4f793c2ab3500b/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135226_b632be79.png" group-title="Sao Kê" , 02/10 14:00 🟢 ⚽ Pakistan vs Iran (Long Ruồi (HD))
-#EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/qatar-vs-thailand-6abefe36064126fa445abf15.html
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135226_b632be79.png" group-title="Bông Lau" , 02/10 14:00 🟢 🏐 Pakistan vs Iran (Chuối Kem (FHD))
 #EXTVLCOPT:http-referrer=https://tructiep.bonglau.live/
