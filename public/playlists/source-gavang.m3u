@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:57:06 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:00:06 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (7 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (5 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/b5e51cdfe1a14bdf8289260933b2d405.png" group-title="Gà Vàng" , 02/10 05:00 🟢 ⚽ Curacao vs Trinidad and Tobago (KAYTI)
@@ -9,19 +9,13 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/69b8e6f43bcf2231c35d5144.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/87668a20b488fbb0e1fcb9210165cfd8.png" group-title="Gà Vàng" , 02/10 07:00 🟡 ⚽ Gremio Novorizontino vs Goiás EC (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/gremio-novorizontino-vs-goias-esporte-clube-ngay-02-10-2026/
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/c3209b7fb56b7bc4fa2619f1248cb561.png" group-title="Gà Vàng" , 02/10 07:00 🟡 ⚽ Dominican Republic vs Haiti (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/dominican-republic-vs-haiti-ngay-02-10-2026/
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/df9d41a492e324ad411a3e39c7935352.png" group-title="Gà Vàng" , 02/10 07:15 🟡 ⚽ CA Platense vs Estudiantes La Plata (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/ca-platense-vs-estudiantes-la-plata-ngay-02-10-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/941d154df4d52cab518d2deae12dc83b.png" group-title="Gà Vàng" , 02/10 08:00 ⚽ La Equidad vs Deportiva Once Caldas (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/941d154df4d52cab518d2deae12dc83b.png" group-title="Gà Vàng" , 02/10 08:00 🟡 ⚽ La Equidad vs Deportiva Once Caldas (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/internacional-de-bogota-vs-deportiva-once-caldas-ngay-02-10-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/ce8ab1125fdb3fdbd8c09dba8c437c49.png" group-title="Gà Vàng" , 02/10 08:00 🏀 Las Vegas Aces vs Indiana Fever (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/ce8ab1125fdb3fdbd8c09dba8c437c49.png" group-title="Gà Vàng" , 02/10 08:00 🟡 🏀 Las Vegas Aces vs Indiana Fever (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/cef1725baaf3f3be0cb7215c5f39d162.png" group-title="Gà Vàng" , 02/10 08:30 ⚽ Seattle Sounders vs Sporting Kansas City (Chưa có link — chờ cập nhật)
