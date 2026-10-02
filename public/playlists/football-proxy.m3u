@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:38:54 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:42:08 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (13 trận), Chuối Chiên (15 trận), Phá Làng (39 trận), Gà Vàng (7 trận), Sao Kê (18 trận), GaVang33 (26 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (13 trận), Chuối Chiên (15 trận), Phá Làng (38 trận), Gà Vàng (7 trận), Sao Kê (18 trận), GaVang33 (25 trận), Bông Lau (15 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/b6b90237b3ebd1e462a5d11dbc5c4dae.png" group-title="Gà Vàng" , 02/10 17:30 🟢 ⚽ Korea DPR(w) vs Japan(w) (cố tư nghiêm)
@@ -9,9 +9,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_639.jpg" group-title="Khán Đài" , 02/10 18:35 🟢 ⚽ China vs Palestine (Tiểu Mây)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa9%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/445ef89e5620a875f7c2eaddd033e39d.png" group-title="GaVang33" , 02/10 18:35 🟢 ⚽ China vs Palestine (Gà Siêu Ngố)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F301238.m3u8&source=gavang33
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ce2254e0a7265890ab854715971b1871.png" group-title="Phá Làng" , 02/10 19:00 🟢 ⚽ SK Sigma Olomouc - MSK Zilina (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Feea70860bd2f53d5e948a30e6437a1e9%2Fplaylist.m3u8&source=phalang
@@ -45,9 +42,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/eintracht-frankfurt.png" group-title="Giờ Vàng" , 02/10 20:30 🟢 ⚽ Eintracht Frankfurt vs Eintr. Braunschweig (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790905262_hd%2F1790905262_hd%40720p.m3u8&source=giovang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fe636189a2f3db78d0554c34f0bdaae6.png" group-title="Phá Làng" , 02/10 20:30 🟢 ⚽ Eintracht Frankfurt - Eintracht Braunschweig (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fe6b253c1f4615304f656739e29c03479%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_686.jpg" group-title="Khán Đài" , 02/10 21:00 🟢 ⚽ Kazakhstan vs Moldova (Enzo)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa2%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dd3bfcbaa36f949863f22cc89e1cc1afa&source=khandaitv
