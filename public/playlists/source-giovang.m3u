@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 12:30:35 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 12:33:34 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (39 trận) =====
 
@@ -19,8 +19,10 @@ https://ftlh5sc02iliv.vcdn.cloud/1790873602_hd/1790873602_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1790823294_hd/1790823294_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/china-w.png" group-title="Giờ Vàng" , 02/10 13:00 🟡 ⚽ China W vs South Korea W (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-china-w-vs-south-korea-w-02-10-omjl50r526zx
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/china-w.png" group-title="Giờ Vàng" , 02/10 13:00 🟢 ⚽ China W vs South Korea W (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.rent/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://pzhgifbkllliv.vcdn.cloud/1790903744_hd/1790903744_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 02/10 13:00 🟡 ⚽ ASIAD 2026 vs ASIAD 2026 (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-asiad-2026-vs-asiad-2026-02-10-asooi3g7yvxg
