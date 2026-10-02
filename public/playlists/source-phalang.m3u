@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:41:30 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:44:25 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (37 trận) =====
 
@@ -14,10 +14,20 @@ https://lilive1.eu.cc/live/17b72c06c9f5e9b21d40342adba6aa74/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/3aa92be4e73d1e63aea1da5ea2852791/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7e2715cb1a79a2947617c86e6b17f8e0.png" group-title="Phá Làng" , 03/10 01:45 🟢 ⚽ Bosnia and Herzegovina - Sweden (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/bosnia-and-herzegovina-vs-sweden-23xmvkh6y1j0qg8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/f5cbcd1b7f55327444dc46543f1b681d/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/2b52663814d2e24428bc0588164e5495.png" group-title="Phá Làng" , 03/10 01:45 🟢 ⚽ France - Italy (LÝ LONG)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/france-vs-italy-3glrw7hn425zqdy
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/d85c387ade875307fdcd084c77bc13ac/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/19eeefdc072e675e1be2a9786cfba016.png" group-title="Phá Làng" , 03/10 01:45 🟢 ⚽ Faroe Islands - Slovakia (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/faroe-islands-vs-slovakia-4jwq2ghngyjnm0v
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/1aca3ad4a6caf12fc72ab9b96881e3cc/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/4abe2701a77864141daa484a0941e6a7.png" group-title="Phá Làng" , 03/10 01:45 🟢 ⚽ Poland - Romania (LÝ LIỀU LĨNH)
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/poland-vs-romania-n54qllhn4g61qvy
@@ -29,17 +39,15 @@ https://lilive1.eu.cc/live/7e54200e282b3b5eab035f1411efdd4b/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/d1917f0591f9ded22b3987f8ce75f742/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7e2715cb1a79a2947617c86e6b17f8e0.png" group-title="Phá Làng" , 03/10 01:45 🟡 ⚽ Bosnia and Herzegovina - Sweden (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#23xmvkh6y1j0qg8
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/19ad3a8df7411246f92daa1087782263.png" group-title="Phá Làng" , 03/10 01:45 🟢 ⚽ Ukraine - Northern Ireland (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/ukraine-vs-northern-ireland-x7lm7phjxye5m2w
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/e101549399f12df6a1a2937d01d2ff1a/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/19eeefdc072e675e1be2a9786cfba016.png" group-title="Phá Làng" , 03/10 01:45 🟡 ⚽ Faroe Islands - Slovakia (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#4jwq2ghngyjnm0v
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/19ad3a8df7411246f92daa1087782263.png" group-title="Phá Làng" , 03/10 01:45 🟡 ⚽ Ukraine - Northern Ireland (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#x7lm7phjxye5m2w
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/dd1a0ce3bfdd4b32cc4cddee0445c912.png" group-title="Phá Làng" , 03/10 01:45 🟡 ⚽ Hungary - Georgia (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#y0or5jh89ykjqwz
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/dd1a0ce3bfdd4b32cc4cddee0445c912.png" group-title="Phá Làng" , 03/10 01:45 🟢 ⚽ Hungary - Georgia (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/hungary-vs-georgia-y0or5jh89ykjqwz
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/3134116cc14af8075514bbee2252211d/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/549ce13fbc76b68b13cf9ae378a0ff7b.png" group-title="Phá Làng" , 03/10 02:30 🟡 ⚽ Alebrijes de Oaxaca III - Aragon FC (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#965mkyh8lkn3r1g
