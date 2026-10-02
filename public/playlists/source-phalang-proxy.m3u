@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:10:05 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:13:18 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (57 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (56 trận) =====
 
 # ----- Ngày 2026-10-02 -----
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 02/10 17:00 🟢 🏐 Việt Nam - Indonesia (LÝ LIỀU LĨNH (Server 1))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F5cca4649b1dd4826b28f117ba67c6e23%2Findex.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 02/10 17:20 🟢 🏐 Nhật Bản - Trung Quốc (LÝ LÊN LỬA (Server 1))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2Ffdffac894a8144b69da2102c1413c607%2Findex.m3u8&source=phalang
 

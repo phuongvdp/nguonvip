@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:10:05 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:13:18 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (57 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (56 trận) =====
 
 # ----- Ngày 2026-10-02 -----
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 02/10 17:00 🟢 🏐 Việt Nam - Indonesia (LÝ LIỀU LĨNH (Server 1))
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/viet-nam-vs-indonesia-d0f9a0d9587642858d03d23faba80006
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://pull.digitalcdn.net/live/5cca4649b1dd4826b28f117ba67c6e23/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 02/10 17:20 🟢 🏐 Nhật Bản - Trung Quốc (LÝ LÊN LỬA (Server 1))
 #EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/nhat-ban-vs-trung-quoc-d818ee81a1bc40999ee2f36649863cd7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
