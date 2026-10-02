@@ -1,11 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:09:30 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:12:25 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (8 trận), Phá Làng (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (1 trận), Khán Đài (8 trận), Phá Làng (4 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 03/10 07:00 🏐 Việt Nam - Thái Lan (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#d1ffa074a5224d17a66fffa89ef5cdf9
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/xUGWvAzB-fHcbO6Ye.png" group-title="Giờ Vàng" , 03/10 08:00 🏐 Hàn Quốc vs Qatar (Chưa có link — chờ cập nhật)
+https://giovang.rent/truc-tiep-han-quoc-vs-qatar-03-10-pwy2qru602ua
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_TkTkw3i.jpg" group-title="Khán Đài" , 03/10 08:00 🏐 Qatar vs Hàn Quốc (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/qatar-vs-han-quoc
