@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:26:51 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:29:48 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (40 trận) =====
 
@@ -13,8 +13,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/17b767b98695df2fb512e992dd8a7af4.png!w80" group-title="Phá Làng" , 02/10 20:15 🟢 ⚽ Al-Wasl SC - Ittihad Kalba FC (LÝ LA LÀNG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Faf1e3c5362ae48452c6e328062a5800b%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fe636189a2f3db78d0554c34f0bdaae6.png" group-title="Phá Làng" , 02/10 20:30 🟡 ⚽ Eintracht Frankfurt - Eintracht Braunschweig (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#6ypq3nhk67ngmd7
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fe636189a2f3db78d0554c34f0bdaae6.png" group-title="Phá Làng" , 02/10 20:30 🟢 ⚽ Eintracht Frankfurt - Eintracht Braunschweig (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fe6b253c1f4615304f656739e29c03479%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6a0aead3d2dbefd2c1629fd0b3233d88.png" group-title="Phá Làng" , 02/10 20:30 🟡 ⚽ Wolfsberger AC - ASK Voitsberg (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#8yomo4hyeg45q0j
