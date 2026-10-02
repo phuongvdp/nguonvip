@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:13:56 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:16:08 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (15 trận), Chuối Chiên (15 trận), Phá Làng (69 trận), Gà Vàng (4 trận), Sao Kê (20 trận), GaVang33 (24 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (15 trận), Chuối Chiên (15 trận), Phá Làng (69 trận), Gà Vàng (3 trận), Sao Kê (20 trận), GaVang33 (24 trận), Bông Lau (15 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/b5e51cdfe1a14bdf8289260933b2d405.png" group-title="Gà Vàng" , 02/10 05:00 🟢 ⚽ Curacao vs Trinidad and Tobago (KAYTI)
@@ -18,9 +18,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS_IH32DVNx93gl9bC16jRCszOVgU2zy2ns7uv_Kp9fg&s=10" group-title="Giờ Vàng" , 02/10 07:15 🟢 ⚽ Cleveland Browns vs Pittburgh Steelers (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790874150_hd%2F1790874150_hd%40720p.m3u8&source=giovang
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/df9d41a492e324ad411a3e39c7935352.png" group-title="Gà Vàng" , 02/10 07:15 🟡 ⚽ CA Platense vs Estudiantes La Plata (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/ca-platense-vs-estudiantes-la-plata-ngay-02-10-2026/
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsqdTH__j8ZyL9n_qA27lsijgSN1LcBIHOiCPk5EpdoQ&s=10" group-title="Giờ Vàng" , 02/10 08:00 🟡 ⚽ Inter Bogotá vs Deportiva Once Caldas (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-inter-bogota-vs-deportiva-once-caldas-02-10-6ab9ae1124d46db870ba1db9
