@@ -1,14 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:29:36 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:32:13 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (103 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (102 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/915a6e769bd0c93676a9af430295c3a6.png" group-title="Phá Làng" , 02/10 15:30 🟢 ⚽ FK Arsenal Česká Lípa - FK Viagem Ústí nad Labem (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F229cd921939b4d4e9ca4e34939cd2abe%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a568766c6a9883fa021d0469ec813dc2.png" group-title="Phá Làng" , 02/10 15:30 🟡 ⚽ Petrolul Ploiesti - Afumati (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#23xmvkhyv63zqg8
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/14b75c2d38d88b747c19de8ea5509d16.png!w80" group-title="Phá Làng" , 02/10 16:00 🟢 ⚽ Vietnam - Pakistan (LÝ LA LÀNG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fd85a0dd027fca0403b56ed5eb9f13055%2Fplaylist.m3u8&source=phalang
@@ -61,10 +58,10 @@ https://phalang.live/trang-chu#y39mp1hdvz6pmoj
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0f66aafde07d8ce9a2ad882abfbe4aac.png" group-title="Phá Làng" , 02/10 16:00 🟡 ⚽ Gornik Zabrze - Odra Opole (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#zp5rzgh3y64dq82
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b452d34b5c021778fedac390fde5e963.png" group-title="Phá Làng" , 02/10 16:30 ⚽ Lugano - Hellas Verona (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b452d34b5c021778fedac390fde5e963.png" group-title="Phá Làng" , 02/10 16:30 🟡 ⚽ Lugano - Hellas Verona (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#1l4rjnhnyj5pm7v
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c85e626f9676ad5e4dcc8cdc3fbd6852.png" group-title="Phá Làng" , 02/10 16:30 ⚽ Rakow Czestochowa - Polonia Bytom (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c85e626f9676ad5e4dcc8cdc3fbd6852.png" group-title="Phá Làng" , 02/10 16:30 🟡 ⚽ Rakow Czestochowa - Polonia Bytom (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4jwq2ghgozpjm0v
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5b8479ebddd13feeef3165a1393aad19.png" group-title="Phá Làng" , 02/10 17:00 ⚽ AC Sparta Praha - FC Vysočina Jihlava (Chưa có link — chờ cập nhật)
