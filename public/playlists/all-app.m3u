@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:42:35 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:45:38 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận), Khán Đài (21 trận), Chuối Chiên (17 trận), Phá Làng (122 trận), Gà Vàng (11 trận), Sao Kê (21 trận), GaVang33 (20 trận), Bông Lau (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận), Khán Đài (21 trận), Chuối Chiên (17 trận), Phá Làng (122 trận), Gà Vàng (10 trận), Sao Kê (21 trận), GaVang33 (20 trận), Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/suriname.png" group-title="Giờ Vàng" , 03/10 05:00 🟢 ⚽ Suriname vs Guatemala (Giovang 1)
@@ -24,9 +24,6 @@ https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8|User-Agent=Mozill
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125536_698c7d26.png" group-title="Bông Lau" , 03/10 06:00 🟢 ⚽ Sao Paulo vs Santos (Chuối Tây (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://live.chuoichien.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/7a9a6275e29e0f51ea68ba1ec740bf1e.png" group-title="Gà Vàng" , 03/10 06:45 🟡 ⚽ Juventude vs Operario Ferroviario PR (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/esporte-clube-juventude-vs-operario-ferroviario-pr-ngay-03-10-2026/
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 03/10 07:00 🟢 🏐 Việt Nam - Thái Lan (LÝ LIỀU LĨNH (Server 1))
 https://pull.digitalcdn.net/live/51cc499d1fb84b1287ca214d86b57736/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/truc-tiep/viet-nam-vs-thai-lan-d1ffa074a5224d17a66fffa89ef5cdf9&Origin=https://phalang.live
@@ -70,10 +67,10 @@ https://gavanglinkt.tv/truc-tiep/boca-juniors-vs-club-atletico-union-ngay-03-10-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/84f85d4178e4287ed8ad5f76ad4c5e46.png" group-title="Gà Vàng" , 03/10 07:35 🟡 ⚽ Fortaleza vs Nautico (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/fortaleza-vs-nautico-pe-ngay-03-10-2026/
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/deportivo-cali.png" group-title="Giờ Vàng" , 03/10 07:45 ⚽ Deportivo Cali vs Alianza Petrolera (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/deportivo-cali.png" group-title="Giờ Vàng" , 03/10 07:45 🟡 ⚽ Deportivo Cali vs Alianza Petrolera (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-deportivo-cali-vs-alianza-petrolera-03-10-6ab9ae1824d46db870ba2491
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b997a2811a0caed43ff38b631a708420.png" group-title="Gà Vàng" , 03/10 07:45 ⚽ Deportivo Cali vs Alianza Fútbol Club (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b997a2811a0caed43ff38b631a708420.png" group-title="Gà Vàng" , 03/10 07:45 🟡 ⚽ Deportivo Cali vs Alianza Fútbol Club (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/deportivo-cali-vs-alianza-futbol-club-ngay-03-10-2026/
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzsOYIOsX07EGftC-0YU85JEWhVV8eqZgHxa90ejwO9w&s=10" group-title="Giờ Vàng" , 03/10 08:00 ⚽ Correcaminos UAT vs Cruz Azul Hidalgo (Chưa có link — chờ cập nhật)

@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:42:36 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:45:38 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (11 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (10 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/47174721b260fae6e833329c13c9f2ee.png" group-title="Gà Vàng" , 03/10 05:15 🟢 ⚽ CA Independiente vs Instituto (cố tư nghiêm)
@@ -13,9 +13,6 @@ https://playback.livetl002.com/live/69a1aaa7230584579e2d5ce1.m3u8
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a704ad865997681f18c2160.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/7a9a6275e29e0f51ea68ba1ec740bf1e.png" group-title="Gà Vàng" , 03/10 06:45 🟡 ⚽ Juventude vs Operario Ferroviario PR (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/esporte-clube-juventude-vs-operario-ferroviario-pr-ngay-03-10-2026/
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ef2635db12914681ae86ece2d97bd6c2.png" group-title="Gà Vàng" , 03/10 07:00 🟡 ⚽ Colombia vs Paraguay (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/colombia-vs-paraguay-ngay-03-10-2026/
@@ -29,7 +26,7 @@ https://gavanglinkt.tv/truc-tiep/boca-juniors-vs-club-atletico-union-ngay-03-10-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/84f85d4178e4287ed8ad5f76ad4c5e46.png" group-title="Gà Vàng" , 03/10 07:35 🟡 ⚽ Fortaleza vs Nautico (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/fortaleza-vs-nautico-pe-ngay-03-10-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b997a2811a0caed43ff38b631a708420.png" group-title="Gà Vàng" , 03/10 07:45 ⚽ Deportivo Cali vs Alianza Fútbol Club (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b997a2811a0caed43ff38b631a708420.png" group-title="Gà Vàng" , 03/10 07:45 🟡 ⚽ Deportivo Cali vs Alianza Fútbol Club (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/deportivo-cali-vs-alianza-futbol-club-ngay-03-10-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/380d81d4050b81debf9a5500239e96d0.png" group-title="Gà Vàng" , 03/10 08:00 🏀 Golden State Valkyries vs Dallas Wings (Chưa có link — chờ cập nhật)
