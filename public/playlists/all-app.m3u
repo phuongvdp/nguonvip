@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:16:47 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:19:44 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (21 trận), Chuối Chiên (16 trận), Phá Làng (36 trận), Gà Vàng (7 trận), Sao Kê (21 trận), GaVang33 (23 trận), Bông Lau (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (21 trận), Chuối Chiên (16 trận), Phá Làng (36 trận), Gà Vàng (7 trận), Sao Kê (21 trận), GaVang33 (22 trận), Bông Lau (16 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/05e87b1dbb904915a4a97fc095b73d20.png" group-title="Gà Vàng" , 02/10 22:45 🟢 ⚽ Shabab AlAhli vs Al-Nasr Dubai (Lữ Bố.vip)
@@ -31,6 +31,9 @@ https://gavanglinkp.tv/
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/belgium.png" group-title="Giờ Vàng" , 03/10 01:45 🟢 ⚽ Bỉ vs Thổ Nhĩ Kỳ (Giovang 1)
 https://pzhgifbkllliv.vcdn.cloud/1790909187_hd/1790909187_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_18.jpg" group-title="Khán Đài" , 03/10 01:45 🟢 ⚽ Poland vs Romania (Lee Sin)
+https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://khandai3.link
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125446_7256014f.png" group-title="Chuối Chiên" , 03/10 01:45 🟢 ⚽ Belgium vs Türkiye (Chuối Chao (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
@@ -62,6 +65,21 @@ https://wtyi0525.edgemaxcdn.org/live/x68-hd-1111/playlist.m3u8|User-Agent=Mozill
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8568.png" group-title="Sao Kê" , 03/10 01:45 🟢 ⚽ Poland vs Romania (Bút Chì (HD))
 https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://vip3.saoketv40.xyz/cyprus-vs-armenia-6abe354742ecb1c2b83700f4.html
 
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/70ded7a479aa84ea26b4677f99485f88.png" group-title="GaVang33" , 03/10 01:45 🟢 ⚽ France vs Italy (Gà Siêu Quỷ)
+https://live2.zktsva.app/live/304565.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/ea0e9d2d1bda4cbfaf226902ea55a3eb.png" group-title="GaVang33" , 03/10 01:45 🟢 ⚽ Belgium vs Turkiye (Gà Ô Long)
+https://live2.zktsva.app/live/432017.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/22b55de76e6a8c7258e4661e8343ff3e.png" group-title="GaVang33" , 03/10 01:45 🟢 ⚽ Hungary vs Georgia (Gà Siêu Nhí)
+https://live2.zktsva.app/live/301263.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/1f47cef5e38c952f94c5d61726027439.png" group-title="GaVang33" , 03/10 01:45 🟢 ⚽ Poland vs Romania (Gà Siêu Tồ)
+https://live2.zktsva.app/live/796315.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/290d84b729b946cb974902162ff7064e.png" group-title="GaVang33" , 03/10 01:45 🟢 ⚽ Bosnia and Herzegovina vs Sweden (Gà Siêu Tốc)
+https://live2.zktsva.app/live/307240.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125446_7256014f.png" group-title="Bông Lau" , 03/10 01:45 🟢 ⚽ Belgium vs Türkiye (Chuối Chao (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
@@ -79,9 +97,6 @@ https://giovang.rent/truc-tiep-phap-vs-y-03-10-69f3f2b74bff4a0c310bf75b
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_685.jpg" group-title="Khán Đài" , 03/10 01:45 🟡 ⚽ Bosnia & Herzegovina vs Sweden (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/bosnia-herzegovina-vs-sweden-03-10-2026-790842
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_18.jpg" group-title="Khán Đài" , 03/10 01:45 🟡 ⚽ Poland vs Romania (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/poland-vs-romania-03-10-2026-790844
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_12.jpg" group-title="Khán Đài" , 03/10 01:45 🟡 ⚽ Ukraine vs Northern Ireland (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/ukraine-vs-northern-ireland-03-10-2026-790845
@@ -115,24 +130,6 @@ https://gavanglinkt.tv/truc-tiep/france-vs-italy-ngay-03-10-2026/
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/1f47cef5e38c952f94c5d61726027439.png" group-title="Gà Vàng" , 03/10 01:45 🟡 ⚽ Poland vs Romania (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/poland-vs-romania-ngay-03-10-2026/
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/70ded7a479aa84ea26b4677f99485f88.png" group-title="GaVang33" , 03/10 01:45 🟡 ⚽ France vs Italy (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/france-vs-italy-luc-0145-ngay-03-10-2026-3glrw7hn425zqdy
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/ea0e9d2d1bda4cbfaf226902ea55a3eb.png" group-title="GaVang33" , 03/10 01:45 🟡 ⚽ Belgium vs Turkiye (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/belgium-vs-turkiye-luc-0145-ngay-03-10-2026-vjxm8ghekd6xr6o
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/5de6f7a36339ef5bedc3dc8741a1e222.png" group-title="GaVang33" , 03/10 01:45 🟡 ⚽ Ukraine vs Northern Ireland (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/ukraine-vs-northern-ireland-luc-0145-ngay-03-10-2026-x7lm7phjxye5m2w
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/22b55de76e6a8c7258e4661e8343ff3e.png" group-title="GaVang33" , 03/10 01:45 🟡 ⚽ Hungary vs Georgia (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/hungary-vs-georgia-luc-0145-ngay-03-10-2026-y0or5jh89ykjqwz
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/1f47cef5e38c952f94c5d61726027439.png" group-title="GaVang33" , 03/10 01:45 🟡 ⚽ Poland vs Romania (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/poland-vs-romania-luc-0145-ngay-03-10-2026-n54qllhn4g61qvy
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/290d84b729b946cb974902162ff7064e.png" group-title="GaVang33" , 03/10 01:45 🟡 ⚽ Bosnia and Herzegovina vs Sweden (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/bosnia-and-herzegovina-vs-sweden-luc-0145-ngay-03-10-2026-23xmvkh6y1j0qg8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125447_e304fc82.png" group-title="Bông Lau" , 03/10 01:45 🟡 ⚽ France vs Italy (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1528924
