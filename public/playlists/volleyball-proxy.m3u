@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:03:27 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:06:03 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (1 trận), Phá Làng (1 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (1 trận), Phá Làng (2 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/image.webp" group-title="Khán Đài" , 02/10 22:30 🏐 MKS Kalisz (W) vs Budowlani (W) (Chưa có link — chờ cập nhật)
@@ -10,3 +10,6 @@ https://khandai3.link/truc-tiep/mks-kalisz-w-vs-budowlani-w
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 03/10 07:00 🏐 Việt Nam - Thái Lan (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#d1ffa074a5224d17a66fffa89ef5cdf9
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/3e9126e77f86c6fd0f04f67c8f149712.png!w80" group-title="Phá Làng" , 03/10 11:00 🏐 Thái Lan - Ấn Độ (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#24ecc940d4f04a3eaf149b745ca6a923
