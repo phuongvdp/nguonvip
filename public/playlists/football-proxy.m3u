@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 05:42:54 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 05:45:51 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (12 trận), Chuối Chiên (17 trận), Phá Làng (71 trận), Gà Vàng (8 trận), Sao Kê (21 trận), GaVang33 (20 trận), Bông Lau (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (12 trận), Chuối Chiên (17 trận), Phá Làng (71 trận), Gà Vàng (12 trận), Sao Kê (21 trận), GaVang33 (20 trận), Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134320_9577df1f.png" group-title="Chuối Chiên" , 03/10 04:00 🟢 ⚽ St. Kitts and Nevis vs Cuba (Trốc Tru (FHD))
@@ -15,6 +15,12 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/suriname.png" group-title="Giờ Vàng" , 03/10 05:00 🟢 ⚽ Suriname vs Guatemala (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790909273_hd%2F1790909273_hd%40720p.m3u8&source=giovang
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/47174721b260fae6e833329c13c9f2ee.png" group-title="Gà Vàng" , 03/10 05:15 🟢 ⚽ CA Independiente vs Instituto (cố tư nghiêm)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69a1aaa7230584579e2d5ce1.m3u8&source=gavang
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/e2f40e16499b22e942a5bd1d1d2398d3.png" group-title="Gà Vàng" , 03/10 05:30 🟢 ⚽ Sao Bernardo vs CRB (THICHDUTHU)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a704ad865997681f18c2160.m3u8&source=gavang
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125536_698c7d26.png" group-title="Chuối Chiên" , 03/10 06:00 🟡 ⚽ Sao Paulo vs Santos (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1492318/sao-paulo-vs-santos
@@ -34,7 +40,7 @@ https://lau05.bonglautv1.pro/truc-tiep/1492318
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9d3195be22d95cf5d35790272afc724a.png" group-title="Gà Vàng" , 03/10 06:30 🟡 ⚽ Londrina PR vs Criciuma (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/londrina-pr-vs-criciuma-ngay-03-10-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/7a9a6275e29e0f51ea68ba1ec740bf1e.png" group-title="Gà Vàng" , 03/10 06:45 ⚽ Juventude vs Operario Ferroviario PR (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/7a9a6275e29e0f51ea68ba1ec740bf1e.png" group-title="Gà Vàng" , 03/10 06:45 🟡 ⚽ Juventude vs Operario Ferroviario PR (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/esporte-clube-juventude-vs-operario-ferroviario-pr-ngay-03-10-2026/
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/martinique.png" group-title="Giờ Vàng" , 03/10 07:00 ⚽ Martinique vs Honduras (Chưa có link — chờ cập nhật)
@@ -301,6 +307,9 @@ https://phalang.live/trang-chu#y0or5jh9x6wzqwz
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/42396d18444156e640c37476c2b41b93.png" group-title="Phá Làng" , 03/10 18:30 ⚽ Crystal Palace - Bristol City (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y0or5jh9x81pqwz
 
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/aa54b4b022f88b8566c7834ee5fc3e12.png" group-title="Gà Vàng" , 03/10 18:30 ⚽ Brentwood Town vs Dagenham Redbridge (Chưa có link — chờ cập nhật)
+https://gavanglinkt.tv/truc-tiep/brentwood-town-vs-dagenham-redbridge-ngay-03-10-2026/
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133419_dd306d1b.png" group-title="Chuối Chiên" , 03/10 19:00 ⚽ Albacete vs Eibar (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1569948/albacete-vs-eibar
 
@@ -405,6 +414,9 @@ https://phalang.live/trang-chu#l5ergphk04ver8k
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Chuối Chiên" , 03/10 21:00 ⚽ India vs Brazil (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1632355/india-vs-brazil
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/766ec2f36993da2e44fa8c055e65b6de.png" group-title="Gà Vàng" , 03/10 21:00 ⚽ Trafford vs Atherton Collieries (Chưa có link — chờ cập nhật)
+https://gavanglinkt.tv/truc-tiep/trafford-vs-atherton-collieries-ngay-03-10-2026/
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6329.png" group-title="Sao Kê" , 03/10 21:00 ⚽ India vs Brazil (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/india-vs-brazil-6abf7062b9c200d560485f0c.html
