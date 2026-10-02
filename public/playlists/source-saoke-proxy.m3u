@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:58:33 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:01:35 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (20 trận) =====
 
@@ -10,10 +10,10 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8265.png" group-title="Sao Kê" , 02/10 21:00 🟢 ⚽ Kazakhstan vs Moldova (Cà Rốt (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx10-hd-1111%2Fplaylist.m3u8&source=saoke
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5793.png" group-title="Sao Kê" , 02/10 23:00 ⚽ Cyprus vs Armenia (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5793.png" group-title="Sao Kê" , 02/10 23:00 🟡 ⚽ Cyprus vs Armenia (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/cyprus-vs-armenia-6abe354742ecb1c2b83700f4.html
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5795.png" group-title="Sao Kê" , 02/10 23:00 ⚽ Latvia vs Montenegro (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5795.png" group-title="Sao Kê" , 02/10 23:00 🟡 ⚽ Latvia vs Montenegro (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/latvia-vs-montenegro-6abe354742ecb1c2b83700f5.html
 
 # ----- Ngày 2026-10-03 -----
