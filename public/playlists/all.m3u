@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:13:29 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:16:18 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (22 trận), Chuối Chiên (18 trận), Phá Làng (84 trận), Gà Vàng (25 trận), Sao Kê (21 trận), GaVang33 (24 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-10-02 -----
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/ed16dd3c5970174b77eb04b0ea5b0960.png" group-title="Gà Vàng" , 02/10 06:30 🟢 ⚽ Athletic Club vs Sport Club Recife PE (A Long)
-#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69ef10b47146e04fbe6d4363.m3u8
-
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/dominican-republic.png" group-title="Giờ Vàng" , 02/10 07:00 🟢 ⚽ Cộng hòa Dominican vs Haiti (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.rent/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -78,8 +73,10 @@ https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/seattle-sounders.png" group-title="Giờ Vàng" , 02/10 08:30 🟡 ⚽ Seattle Sounders vs Sporting Kansas City (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-seattle-sounders-vs-sporting-kansas-city-02-10-6a97676124d46db8705bc6f2
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/seattle-sounders.png" group-title="Giờ Vàng" , 02/10 08:30 🟢 ⚽ Seattle Sounders vs Sporting Kansas City (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.rent/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ftlh5sc02iliv.vcdn.cloud/1790873385_hd/1790873385_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cef1725baaf3f3be0cb7215c5f39d162.png" group-title="Phá Làng" , 02/10 08:30 🟡 ⚽ Seattle Sounders - Sporting Kansas City (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#dn1m1ghl0g4pmoe
@@ -389,6 +386,9 @@ https://phalang.live/trang-chu#2y8m4zhv06z4ql0
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_639.jpg" group-title="Khán Đài" , 02/10 18:35 ⚽ China vs Palestine (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/china-vs-palestine-02-10-2026-853085
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/445ef89e5620a875f7c2eaddd033e39d.png" group-title="Gà Vàng" , 02/10 18:35 ⚽ China vs Palestine (Chưa có link — chờ cập nhật)
+https://gavanglinkt.tv/truc-tiep/china-vs-palestine-ngay-02-10-2026/
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/445ef89e5620a875f7c2eaddd033e39d.png" group-title="GaVang33" , 02/10 18:35 ⚽ China vs Palestine (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/china-vs-palestine-luc-1835-ngay-02-10-2026-zp5rzghgnk2xq82

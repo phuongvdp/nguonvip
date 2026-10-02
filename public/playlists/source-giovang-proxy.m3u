@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:13:29 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:16:18 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận) =====
 
@@ -19,8 +19,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/nqz3kJDa-YB0DoGZt.png" group-title="Giờ Vàng" , 02/10 08:00 🟢 🏐 Ấn Độ vs Hàn Quốc (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790873545_hd%2F1790873545_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/seattle-sounders.png" group-title="Giờ Vàng" , 02/10 08:30 🟡 ⚽ Seattle Sounders vs Sporting Kansas City (Chưa có link — chờ cập nhật)
-https://giovang.blog/truc-tiep-seattle-sounders-vs-sporting-kansas-city-02-10-6a97676124d46db8705bc6f2
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/seattle-sounders.png" group-title="Giờ Vàng" , 02/10 08:30 🟢 ⚽ Seattle Sounders vs Sporting Kansas City (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790873385_hd%2F1790873385_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/nicaragua.png" group-title="Giờ Vàng" , 02/10 09:00 🟡 ⚽ Nicaragua vs Costa Rica (Chưa có link — chờ cập nhật)
 https://giovang.blog/truc-tiep-nicaragua-vs-costa-rica-02-10-6aaf224e4e725bdee905b7c5
