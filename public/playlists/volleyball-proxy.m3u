@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:33:36 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:36:32 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (2 trận), Chuối Chiên (2 trận), Phá Làng (1 trận), Bông Lau (2 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (2 trận), Chuối Chiên (2 trận), Bông Lau (2 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Chuối Chiên" , 02/10 17:00 🟢 🏐 Việt Nam vs Indonesia (Chuối Kem (FHD))
@@ -15,9 +15,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Chuối Chiên" , 02/10 17:20 🟢 🏐 Japan vs China (Chuối Tây (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitayhd%2Fplaylist.m3u8&source=chuoichientv
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 02/10 17:20 🟢 🏐 Nhật Bản - Trung Quốc (LÝ LÊN LỬA (Server 1))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2Ffdffac894a8144b69da2102c1413c607%2Findex.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Bông Lau" , 02/10 17:20 🟢 🏐 Japan vs China (Chuối Tây (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitayhd%2Fplaylist.m3u8&source=bonglau

@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:33:36 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:36:32 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (54 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (53 trận) =====
 
 # ----- Ngày 2026-10-02 -----
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 02/10 17:20 🟢 🏐 Nhật Bản - Trung Quốc (LÝ LÊN LỬA (Server 1))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2Ffdffac894a8144b69da2102c1413c607%2Findex.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/b6b90237b3ebd1e462a5d11dbc5c4dae.png!w80" group-title="Phá Làng" , 02/10 17:30 🟢 ⚽ North Korea Women - Japan Women (LÝ LINH LỰC)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F36d08fb9965e86cd2c7fcf66503a4e0c%2Fplaylist.m3u8&source=phalang
 
