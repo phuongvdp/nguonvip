@@ -1,9 +1,12 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:06:02 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:09:04 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (12 trận), Chuối Chiên (16 trận), Phá Làng (36 trận), Gà Vàng (6 trận), Sao Kê (19 trận), GaVang33 (24 trận), Bông Lau (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (12 trận), Chuối Chiên (16 trận), Phá Làng (36 trận), Gà Vàng (7 trận), Sao Kê (19 trận), GaVang33 (24 trận), Bông Lau (16 trận) =====
 
 # ----- Ngày 2026-10-02 -----
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a3f9a9a7e81748828ce092f0dd488479.png" group-title="Gà Vàng" , 02/10 18:00 🟢 ⚽ South Korea vs Venezuela (MáN NúI)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69cf6331585c5992182f4160.m3u8&source=gavang
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fa7a1484f5cae6f025ba822ca42c70a9.png" group-title="Phá Làng" , 02/10 19:30 🟢 ⚽ Grasshopper - Yverdon (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F1f34c877e79e25f2b683c33a51ce1af2%2Fplaylist.m3u8&source=phalang
 
