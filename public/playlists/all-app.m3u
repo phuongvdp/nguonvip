@@ -1,18 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 05:15:35 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 05:19:05 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (28 trận), Khán Đài (21 trận), Chuối Chiên (17 trận), Phá Làng (76 trận), Gà Vàng (13 trận), Sao Kê (21 trận), GaVang33 (20 trận), Bông Lau (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (28 trận), Khán Đài (21 trận), Chuối Chiên (17 trận), Phá Làng (76 trận), Gà Vàng (10 trận), Sao Kê (21 trận), GaVang33 (20 trận), Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-10-03 -----
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/70ded7a479aa84ea26b4677f99485f88.png" group-title="Gà Vàng" , 03/10 01:45 🟢 ⚽ France vs Italy (SAITAMA)
-https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/5de6f7a36339ef5bedc3dc8741a1e222.png" group-title="Gà Vàng" , 03/10 01:45 🟢 ⚽ Ukraine vs Northern Ireland (NGƯỜI KIẾN)
-https://playback.livetl002.com/live/6a439a7fb89dded67b208b87.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/290d84b729b946cb974902162ff7064e.png" group-title="Gà Vàng" , 03/10 01:45 🟢 ⚽ Bosnia Herzegovina vs Sweden (Lữ Bố.vip)
-https://playback.livetl002.com/live/6a9776215126529dede9bf51.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134320_9577df1f.png" group-title="Chuối Chiên" , 03/10 04:00 🟢 ⚽ St. Kitts and Nevis vs Cuba (Trốc Tru (FHD))
 https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
@@ -280,6 +271,9 @@ https://phalang.live/trang-chu#2y8m4zhv0w3oql0
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d272859d78eb8ca7a14753f4293fbf45.png" group-title="Phá Làng" , 03/10 17:00 ⚽ Kashiwa Reysol - Gamba Osaka (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66hxp4j2qo9
 
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/dd0a8169c1c22efabb56434f3631159b.png!w80" group-title="Phá Làng" , 03/10 17:00 🏐 "Đài Loan TQ - Việt Nam  " (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#6854344e79334a88b21ffc6ae2f7218e
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c44fca0a4232a01fc936277c51f0fdcb.png" group-title="Phá Làng" , 03/10 17:00 ⚽ FK Zalgiris Vilnius - FK Panevezys (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#n54qllh45742qvy
 
@@ -291,9 +285,6 @@ https://phalang.live/trang-chu#y0or5jh8k8zxqwz
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b8aa61e17010156bad2d99ec4279b047.png" group-title="Phá Làng" , 03/10 17:00 ⚽ Orebro SK - Nordic United FC (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y0or5jh9xn9xqwz
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/dd0a8169c1c22efabb56434f3631159b.png!w80" group-title="Phá Làng" , 03/10 17:00 🏐 "Đài Loan TQ - Việt Nam  " (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#6854344e79334a88b21ffc6ae2f7218e
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6322.png" group-title="Sao Kê" , 03/10 17:00 ⚽ Hong Kong vs Cambodia (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/hong-kong-vs-cambodia-6abf7062b9c200d560485f0d.html
