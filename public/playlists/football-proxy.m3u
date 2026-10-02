@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:13:37 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:16:11 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (12 trận), Chuối Chiên (16 trận), Phá Làng (37 trận), Gà Vàng (9 trận), Sao Kê (19 trận), GaVang33 (24 trận), Bông Lau (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (12 trận), Chuối Chiên (16 trận), Phá Làng (37 trận), Gà Vàng (6 trận), Sao Kê (20 trận), GaVang33 (24 trận), Bông Lau (16 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fa7a1484f5cae6f025ba822ca42c70a9.png" group-title="Phá Làng" , 02/10 19:30 🟢 ⚽ Grasshopper - Yverdon (Server 1)
@@ -18,12 +18,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/17b767b98695df2fb512e992dd8a7af4.png!w80" group-title="Phá Làng" , 02/10 20:15 🟢 ⚽ Al-Wasl SC - Ittihad Kalba FC (LÝ LA LÀNG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Faf1e3c5362ae48452c6e328062a5800b%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/cedb12f9c001f1b1cb11bc532967c33e.png" group-title="Gà Vàng" , 02/10 20:15 🟢 ⚽ Al Ain FC vs Ajman (MáN NúI)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69cf6331585c5992182f4160.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/17b767b98695df2fb512e992dd8a7af4.png" group-title="Gà Vàng" , 02/10 20:15 🟢 ⚽ Al-Wasl SC vs Ittihad Kalba FC (SiêU QuậY)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a2a59b347bbddd62a8dc4e4.m3u8&source=gavang
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/102117.png" group-title="Sao Kê" , 02/10 20:15 🟢 ⚽ Al-Ain vs Ajman (Bút Chì (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx22-hd-1111%2Fplaylist.m3u8&source=saoke
@@ -51,9 +45,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/0b01c7d68feb22290f3b0da91bef689d.png!w80" group-title="Phá Làng" , 02/10 21:00 🟢 ⚽ Kazakhstan - Moldova (LÝ LINH LỰC)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F68d6339749adc313f8b769bd4e8d3154%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fe636189a2f3db78d0554c34f0bdaae6.png" group-title="Gà Vàng" , 02/10 21:00 🟢 ⚽ Eintracht Frankfurt vs Eintracht Braunschweig (ĐOÀN DỰ)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a5df755b89dded67b39b8bc.m3u8&source=gavang
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8265.png" group-title="Sao Kê" , 02/10 21:00 🟢 ⚽ Kazakhstan vs Moldova (Cà Rốt (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx10-hd-1111%2Fplaylist.m3u8&source=saoke
@@ -463,3 +454,6 @@ https://vip3.saoketv40.xyz/india-vs-brazil-6abf7062b9c200d560485f0c.html
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Bông Lau" , 03/10 21:00 ⚽ India vs Brazil (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1632355
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/9865.png" group-title="Sao Kê" , 03/10 21:15 ⚽ Almería vs Burgos CF (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/almeria-vs-burgos-cf-6abf7062b9c200d560485f09.html
