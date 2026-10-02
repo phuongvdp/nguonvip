@@ -1,11 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:44:53 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:48:02 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-10-02 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Bông Lau" , 02/10 08:00 🟡 🏐 India vs South Korea (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/992553
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Bông Lau" , 02/10 08:00 🟢 🏐 India vs South Korea (Chuối Kem (FHD))
+https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://live.chuoichien.tv/
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Bông Lau" , 02/10 11:00 🏐 Qatar vs Thailand (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/991866
