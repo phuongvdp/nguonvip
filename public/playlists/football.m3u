@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:46:15 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:48:51 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (12 trận), Chuối Chiên (15 trận), Phá Làng (29 trận), Gà Vàng (7 trận), Sao Kê (19 trận), GaVang33 (22 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (12 trận), Chuối Chiên (15 trận), Phá Làng (28 trận), Gà Vàng (7 trận), Sao Kê (19 trận), GaVang33 (22 trận), Bông Lau (15 trận) =====
 
 # ----- Ngày 2026-10-02 -----
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/17b767b98695df2fb512e992dd8a7af4.png!w80" group-title="Phá Làng" , 02/10 20:15 🟢 ⚽ Al-Wasl SC - Ittihad Kalba FC (LÝ LA LÀNG)
-#EXTVLCOPT:http-referrer=https://phalang.live/truc-tiep/al-wasl-sc-vs-ittihad-kalba-fc-l7oqdehg7p88r51
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/af1e3c5362ae48452c6e328062a5800b/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/cedb12f9c001f1b1cb11bc532967c33e.png" group-title="Gà Vàng" , 02/10 20:15 🟢 ⚽ Al Ain FC vs Ajman (MáN NúI)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -102,6 +97,11 @@ https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134253_26d0ea1f.png" group-title="Chuối Chiên" , 02/10 23:00 🟢 ⚽ Latvia vs Montenegro (Trốc Tru (FHD))
+#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5793.png" group-title="Sao Kê" , 02/10 23:00 🟢 ⚽ Cyprus vs Armenia (Ricky (HD))
 #EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/kazakhstan-vs-moldova-6abe354742ecb1c2b83700f6.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -125,8 +125,10 @@ https://live2.zktsva.app/live/303098.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134253_26d0ea1f.png" group-title="Chuối Chiên" , 02/10 23:00 🟡 ⚽ Latvia vs Montenegro (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1545608/latvia-vs-montenegro
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134253_26d0ea1f.png" group-title="Bông Lau" , 02/10 23:00 🟢 ⚽ Latvia vs Montenegro (Trốc Tru (FHD))
+#EXTVLCOPT:http-referrer=https://tructiep.bonglau.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/2c5a6c94ba9dea2c9a656407e1b9bd8c.png!w80" group-title="Phá Làng" , 02/10 23:00 🟡 ⚽ Cyprus - Armenia (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#1l4rjnh9no04m7v
@@ -160,9 +162,6 @@ https://gavanglinkt.tv/truc-tiep/latvia-vs-montenegro-ngay-02-10-2026/
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/2c5a6c94ba9dea2c9a656407e1b9bd8c.png" group-title="Gà Vàng" , 02/10 23:00 🟡 ⚽ Cyprus vs Armenia (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/cyprus-vs-armenia-ngay-02-10-2026/
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134253_26d0ea1f.png" group-title="Bông Lau" , 02/10 23:00 🟡 ⚽ Latvia vs Montenegro (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1545608
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/4d0c08c569625beed5821775b20806b4.png" group-title="Phá Làng" , 02/10 23:30 🟡 ⚽ 1. FC Saarbrücken - Nancy (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#dj2ryoh7vx28q1z
