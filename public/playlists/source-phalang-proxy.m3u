@@ -1,14 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:28:44 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:32:14 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (36 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (37 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f4a20fb2ff268799ad07c8593295231c.png" group-title="Phá Làng" , 03/10 00:00 🟢 ⚽ Stade Lavallois MFC - Stade Rennais FC (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F17b72c06c9f5e9b21d40342adba6aa74%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d20ed1da4f299cc3ef0e1e9eb06eced1.png" group-title="Phá Làng" , 03/10 01:30 🟡 ⚽ Sevilla FC - Aston Villa (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#y39mp1hdvz1xmoj
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d20ed1da4f299cc3ef0e1e9eb06eced1.png" group-title="Phá Làng" , 03/10 01:30 🟢 ⚽ Sevilla FC - Aston Villa (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F3aa92be4e73d1e63aea1da5ea2852791%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/2b52663814d2e24428bc0588164e5495.png" group-title="Phá Làng" , 03/10 01:45 🟢 ⚽ France - Italy (LÝ LONG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fd85c387ade875307fdcd084c77bc13ac%2Fplaylist.m3u8&source=phalang
@@ -31,7 +31,7 @@ https://phalang.live/trang-chu#x7lm7phjxye5m2w
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/dd1a0ce3bfdd4b32cc4cddee0445c912.png" group-title="Phá Làng" , 03/10 01:45 🟡 ⚽ Hungary - Georgia (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y0or5jh89ykjqwz
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/549ce13fbc76b68b13cf9ae378a0ff7b.png" group-title="Phá Làng" , 03/10 02:30 ⚽ Alebrijes de Oaxaca III - Aragon FC (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/549ce13fbc76b68b13cf9ae378a0ff7b.png" group-title="Phá Làng" , 03/10 02:30 🟡 ⚽ Alebrijes de Oaxaca III - Aragon FC (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#965mkyh8lkn3r1g
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3905b384c70611da83fd5969389cc558.png" group-title="Phá Làng" , 03/10 05:00 ⚽ Artesanos Metepec FC II - Grupo Sherwood (Chưa có link — chờ cập nhật)
@@ -111,3 +111,6 @@ https://phalang.live/trang-chu#965mkyh8ly70r1g
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/92cc8702aeb25510aeca93022432699d.png" group-title="Phá Làng" , 03/10 16:00 ⚽ NK Osijek - Bijelo Brdo (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#zp5rzgh3yg4pq82
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7ff892bf59463a54fa406496ca8e4f3f.png" group-title="Phá Làng" , 03/10 16:30 ⚽ SK Artis Brno - Trencin (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#dj2ryoh7vek6q1z
