@@ -1,18 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:06:03 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:09:05 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (3 trận), Khán Đài (7 trận), Chuối Chiên (5 trận), Phá Làng (4 trận), Bông Lau (5 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (3 trận), Chuối Chiên (5 trận), Phá Làng (4 trận), Bông Lau (5 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/nqz3kJDa-YB0DoGZt.png" group-title="Giờ Vàng" , 02/10 08:00 🟢 🏐 Ấn Độ vs Hàn Quốc (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.rent/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1790873545_hd/1790873545_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_India.svg.webp" group-title="Khán Đài" , 02/10 08:00 🟢 🏐 Ấn Độ vs Hàn Quốc (Tày)
-#EXTVLCOPT:http-referrer=https://khandai3.link
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Chuối Chiên" , 02/10 08:00 🟢 🏐 India vs South Korea (Chuối Kem (FHD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
@@ -27,12 +22,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png" group-title="Giờ Vàng" , 02/10 11:00 🏐 Qatar vs Thái Lan (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-qatar-vs-thai-lan-02-10-dkopjwofv1ve
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_TkTkw3i.jpg" group-title="Khán Đài" , 02/10 11:00 🏐 Qatar vs Thái Lan (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/qatar-vs-thai-lan
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_646_P1KUFYE.png" group-title="Khán Đài" , 02/10 11:00 🏐 Uzbekistan vs Philippines (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/uzbekistan-vs-philippines
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Chuối Chiên" , 02/10 11:00 🏐 Qatar vs Thailand (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/991866/qatar-vs-thailand
 
@@ -45,9 +34,6 @@ https://lau05.bonglautv1.pro/truc-tiep/991866
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/iran.png" group-title="Giờ Vàng" , 02/10 14:00 🏐 Iran vs Pakistan (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-iran-vs-pakistan-02-10-0uaf4m7mv0up
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/download_sbv5hbq.png" group-title="Khán Đài" , 02/10 14:00 🏐 Pakistan vs Iran (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/pakistan-vs-iran
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135226_b632be79.png" group-title="Chuối Chiên" , 02/10 14:00 🏐 Pakistan vs Iran (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/996357/pakistan-vs-iran
 
@@ -56,9 +42,6 @@ https://phalang.live/trang-chu#d4f18ef3e68248199654f87160d38b23
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_135226_b632be79.png" group-title="Bông Lau" , 02/10 14:00 🏐 Pakistan vs Iran (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/996357
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_hdpF9Rm.jpg" group-title="Khán Đài" , 02/10 17:00 🏐 Việt Nam vs Indonesia (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/viet-nam-vs-indonesia
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Chuối Chiên" , 02/10 17:00 🏐 Việt Nam vs Indonesia (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/993965/viet-nam-vs-indonesia
@@ -69,9 +52,6 @@ https://phalang.live/trang-chu#d0f9a0d9587642858d03d23faba80006
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Bông Lau" , 02/10 17:00 🏐 Việt Nam vs Indonesia (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/993965
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Khán Đài" , 02/10 17:20 🏐 Nhật Bản vs Trung Quốc (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/nhat-ban-vs-trung-quoc
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Chuối Chiên" , 02/10 17:20 🏐 Japan vs China (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/998711/japan-vs-china
 
@@ -80,6 +60,3 @@ https://phalang.live/trang-chu#d818ee81a1bc40999ee2f36649863cd7
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Bông Lau" , 02/10 17:20 🏐 Japan vs China (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/998711
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/image.webp" group-title="Khán Đài" , 02/10 22:30 🏐 MKS Kalisz (W) vs Budowlani (W) (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/mks-kalisz-w-vs-budowlani-w
