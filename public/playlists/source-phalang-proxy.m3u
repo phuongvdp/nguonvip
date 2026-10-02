@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:58:07 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:00:50 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (32 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (30 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/2c5a6c94ba9dea2c9a656407e1b9bd8c.png!w80" group-title="Phá Làng" , 02/10 23:00 🟢 ⚽ Cyprus - Armenia (LÝ LÀNG LÁ)
@@ -14,20 +14,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F0d712781433c5d5069527e24101366f0%2Fplaylist.m3u8&source=phalang
 
 # ----- Ngày 2026-10-03 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5fdd2b55d4743b3e52a90e25aab2ab83.png" group-title="Phá Làng" , 03/10 00:00 🟡 ⚽ Necaxa II - Cefor Promotora San Luis (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#1l4rjnhny9kym7v
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/579db6e95905545973035e6eab8df2cd.png" group-title="Phá Làng" , 03/10 00:00 🟡 ⚽ Real Sociedad - Athletic Club (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#dn1m1gh9v25wmoe
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/a022ed7bfd35bbde3873b8acf3aa3420.png" group-title="Phá Làng" , 03/10 00:00 🟡 ⚽ Aztecas AMF - CDM FC (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#n54qllh45n8oqvy
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f4a20fb2ff268799ad07c8593295231c.png" group-title="Phá Làng" , 03/10 00:00 🟡 ⚽ Stade Lavallois MFC - Stade Rennais FC (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#pxwrxlhlpx3lryk
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d7f9ac6cceee4a1d472eea59be7f8581.png" group-title="Phá Làng" , 03/10 00:00 🟡 ⚽ RC Deportivo - FC Porto (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#y0or5jh9x8x5qwz
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f4a20fb2ff268799ad07c8593295231c.png" group-title="Phá Làng" , 03/10 00:00 🟢 ⚽ Stade Lavallois MFC - Stade Rennais FC (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F17b72c06c9f5e9b21d40342adba6aa74%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d20ed1da4f299cc3ef0e1e9eb06eced1.png" group-title="Phá Làng" , 03/10 01:30 ⚽ Sevilla FC - Aston Villa (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#y39mp1hdvz1xmoj
@@ -100,3 +88,9 @@ https://phalang.live/trang-chu#dn1m1ghlz380moe
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80" group-title="Phá Làng" , 03/10 14:00 🏐 Trung Quốc - Pakistan (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6a197b5c00924e67a3f9fa8a38560330
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/275c4eca0c3dd431c353013d073479b9.png" group-title="Phá Làng" , 03/10 15:00 ⚽ Chindia Targoviste - Petrolul Ploiesti (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#dj2ryoh7v1l9q1z
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f5d0b3f174168088f64f65b47af718fa.png" group-title="Phá Làng" , 03/10 15:00 ⚽ Arges - CSM Slatina (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#dn1m1gh9vp49moe
