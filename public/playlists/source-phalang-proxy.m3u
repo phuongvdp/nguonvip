@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:26:27 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:29:28 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (39 trận) =====
 
@@ -13,8 +13,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/0b01c7d68feb22290f3b0da91bef689d.png!w80" group-title="Phá Làng" , 02/10 21:00 🟢 ⚽ Kazakhstan - Moldova (LÝ LINH LỰC)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F68d6339749adc313f8b769bd4e8d3154%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b0e714d5d5e53a5df63a022e3361de0e.png" group-title="Phá Làng" , 02/10 21:30 🟡 ⚽ Aarau - Young Boys (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#3glrw7h4k3ppqdy
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b0e714d5d5e53a5df63a022e3361de0e.png" group-title="Phá Làng" , 02/10 21:30 🟢 ⚽ Aarau - Young Boys (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F14bc21f1fc6a5715747489254f4ddff3%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/06f2336044e0d18e30d7a8ed145fc1a4.png" group-title="Phá Làng" , 02/10 21:30 🟡 ⚽ FC HOGO Hertha Wels - SV Austria Salzburg (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4jwq2ghgoe7ym0v
