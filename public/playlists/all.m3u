@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:29:28 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:32:01 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận), Khán Đài (13 trận), Chuối Chiên (16 trận), Phá Làng (39 trận), Gà Vàng (12 trận), Sao Kê (20 trận), GaVang33 (24 trận), Bông Lau (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận), Khán Đài (13 trận), Chuối Chiên (16 trận), Phá Làng (35 trận), Gà Vàng (12 trận), Sao Kê (20 trận), GaVang33 (24 trận), Bông Lau (16 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTADC3pRGirDoA1eaQtvYds8PQ-vmcEESiPHvywMVtvYU3ERTP__FyL8m8F&s=10" group-title="Giờ Vàng" , 02/10 14:00 🟢 🎾 Beijing Open vs 2026 (Giovang 1)
@@ -97,17 +97,9 @@ https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/14bc21f1fc6a5715747489254f4ddff3/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/06f2336044e0d18e30d7a8ed145fc1a4.png" group-title="Phá Làng" , 02/10 21:30 🟡 ⚽ FC HOGO Hertha Wels - SV Austria Salzburg (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#4jwq2ghgoe7ym0v
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/006fb97cc07bfc196e708a8a20c8a065.png" group-title="Phá Làng" , 02/10 21:30 🟡 ⚽ HSK Zrinjski Mostar - Jadran LP (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#l5ergphk0w44r8k
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9a07394b2cdca16ac436a056d2acd4c9.png" group-title="Phá Làng" , 02/10 21:30 🟡 ⚽ Pendikspor - Galatasaray (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#n54qllh457opqvy
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/abda9f7f0edc2f83f8f6988365cd4b52.png" group-title="Phá Làng" , 02/10 21:30 🟡 ⚽ FSV luckenwalde - 1.FC Magdeburg II (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#pxwrxlhlpx3eryk
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/2fbdd77210d6beb40c3bd1bd026f63ed.png" group-title="GaVang33" , 02/10 22:00 🟢 ⚽ Mauritius vs Sri Lanka (Gà Siêu Tốc)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://live2.zktsva.app/live/307240.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e06859aea2ca9509194038297224b311.png" group-title="Phá Làng" , 02/10 22:00 🟡 ⚽ Mauritius - Sri Lanka (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#1l4rjnhny9zom7v
@@ -115,16 +107,13 @@ https://phalang.live/trang-chu#1l4rjnhny9zom7v
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1104db2780ed29254b7e14041fe0e3a7.png" group-title="Phá Làng" , 02/10 22:00 🟡 ⚽ Ermis Aradippou - Nea Salamis (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#l5ergphk08p1r8k
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/2fbdd77210d6beb40c3bd1bd026f63ed.png" group-title="GaVang33" , 02/10 22:00 🟡 ⚽ Mauritius vs Sri Lanka (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/mauritius-vs-sri-lanka-luc-2200-ngay-02-10-2026-1l4rjnhny9zom7v
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/image.webp" group-title="Khán Đài" , 02/10 22:30 🏐 MKS Kalisz (W) vs Budowlani (W) (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/image.webp" group-title="Khán Đài" , 02/10 22:30 🟡 🏐 MKS Kalisz (W) vs Budowlani (W) (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/mks-kalisz-w-vs-budowlani-w
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/625f6bad4acc37546d2f2373b89b7c89.png" group-title="Phá Làng" , 02/10 22:30 ⚽ Brondby IF - IK Sirius FK (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/625f6bad4acc37546d2f2373b89b7c89.png" group-title="Phá Làng" , 02/10 22:30 🟡 ⚽ Brondby IF - IK Sirius FK (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#jw2r09h54k10rz8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/4e07d3ac5c7d1f02fba7fa4c14c8ee76.png" group-title="Phá Làng" , 02/10 22:30 ⚽ Red Bull Salzburg - FC Blau Weiss Linz (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/4e07d3ac5c7d1f02fba7fa4c14c8ee76.png" group-title="Phá Làng" , 02/10 22:30 🟡 ⚽ Red Bull Salzburg - FC Blau Weiss Linz (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#vjxm8ghkv5w5r6o
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/0CZOhXDa-8zUcYY2j.png" group-title="Giờ Vàng" , 02/10 22:45 ⚽ Shabab Al-Ahli Dubai vs Al Nasr (Chưa có link — chờ cập nhật)
