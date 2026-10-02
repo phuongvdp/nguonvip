@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:32:22 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:34:41 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (41 trận), Khán Đài (21 trận), Chuối Chiên (18 trận), Phá Làng (91 trận), Gà Vàng (22 trận), Sao Kê (20 trận), GaVang33 (25 trận), Bông Lau (18 trận) =====
 
@@ -31,6 +31,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/24bea3e10580aa94c883db6647fb25ac.png!w80" group-title="Phá Làng" , 02/10 11:00 🟢 🏐 Qatar - Thái Lan (LÝ LIỀU LĨNH (Server 1))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F503eb9850b0f4a2eac471b6305e6b183%2Findex.m3u8&source=phalang
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Sao Kê" , 02/10 11:00 🟢 ⚽ Qatar vs Thailand (Cà Rốt (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx10-hd-1111%2Fplaylist.m3u8&source=saoke
+
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png" group-title="Giờ Vàng" , 02/10 11:00 🟡 🏐 Qatar vs Thái Lan (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-qatar-vs-thai-lan-02-10-dkopjwofv1ve
 
@@ -42,9 +45,6 @@ https://khandai3.link/truc-tiep/uzbekistan-vs-philippines
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Chuối Chiên" , 02/10 11:00 🟡 🏐 Qatar vs Thailand (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/991866/qatar-vs-thailand
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Sao Kê" , 02/10 11:00 🟡 ⚽ Qatar vs Thailand (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/qatar-vs-thailand-6abefe36064126fa445abf15.html
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Bông Lau" , 02/10 11:00 🟡 🏐 Qatar vs Thailand (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/991866

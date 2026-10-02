@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:32:22 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:34:41 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (28 trận), Khán Đài (15 trận), Chuối Chiên (14 trận), Phá Làng (87 trận), Gà Vàng (15 trận), Sao Kê (20 trận), GaVang33 (25 trận), Bông Lau (14 trận) =====
 
@@ -33,8 +33,10 @@ https://live2.zktsva.app/live/301263.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pull.digitalcdn.net/live/c4a38bde55c148d1a075e6754f5a1ddf/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Sao Kê" , 02/10 11:00 🟡 ⚽ Qatar vs Thailand (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/qatar-vs-thailand-6abefe36064126fa445abf15.html
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Sao Kê" , 02/10 11:00 🟢 ⚽ Qatar vs Thailand (Cà Rốt (HD))
+#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://wtyi0525.edgemaxcdn.org/live/x10-hd-1111/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/china-w.png" group-title="Giờ Vàng" , 02/10 13:00 ⚽ China W vs South Korea W (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-china-w-vs-south-korea-w-02-10-omjl50r526zx
