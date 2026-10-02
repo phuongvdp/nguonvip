@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:58:20 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:01:16 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (26 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (27 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/895a263ae5237d0edbaf850a907a59b0.png" group-title="GaVang33" , 02/10 17:00 🟢 ⚽ 1. FC Nürnberg vs FC Ingolstadt (Gà Siêu Kiêu)
@@ -16,8 +16,9 @@ https://live2.zktsva.app/live/289650.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/301238.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/6051d2f0d56acc4f5f8faffdb57f9f99.png" group-title="GaVang33" , 02/10 19:00 🟡 ⚽ Dejan FC vs Persipura Jayapura (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/dejan-fc-vs-persipura-jayapura-luc-1900-ngay-02-10-2026-pxwrxlhydww7ryk
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/6051d2f0d56acc4f5f8faffdb57f9f99.png" group-title="GaVang33" , 02/10 19:00 🟢 ⚽ Dejan FC vs Persipura Jayapura (Gà Siêu Péo)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://live2.zktsva.app/live/303098.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/17b767b98695df2fb512e992dd8a7af4.png" group-title="GaVang33" , 02/10 20:15 ⚽ Al-Wasl SC vs Ittihad Kalba FC (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/al-wasl-sc-vs-ittihad-kalba-fc-luc-2015-ngay-02-10-2026-l7oqdehg7p88r51
@@ -85,3 +86,6 @@ https://gavang33.me/truc-tiep/kashiwa-reysol-vs-gamba-osaka-luc-1700-ngay-03-10-
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/6508946c9a5fe22a8784b905b25e8c79.png" group-title="GaVang33" , 03/10 18:00 ⚽ SC Freiburg vs Luzern (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/sc-freiburg-vs-luzern-luc-1800-ngay-03-10-2026-y39mp1hdvzopmoj
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/a2f731e9147f64082f22b9a561425308.png" group-title="GaVang33" , 03/10 19:00 ⚽ Albacete Balompié SAD vs Eibar (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/albacete-balompie-sad-vs-eibar-luc-1900-ngay-03-10-2026-6ypq3nhvoe4ymd7
