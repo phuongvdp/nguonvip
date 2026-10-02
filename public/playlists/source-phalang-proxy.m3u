@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:17:15 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:20:32 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (35 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (34 trận) =====
 
 # ----- Ngày 2026-10-02 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b0e714d5d5e53a5df63a022e3361de0e.png" group-title="Phá Làng" , 02/10 21:30 🟢 ⚽ Aarau - Young Boys (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F14bc21f1fc6a5715747489254f4ddff3%2Fplaylist.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/2c5a6c94ba9dea2c9a656407e1b9bd8c.png!w80" group-title="Phá Làng" , 02/10 23:00 🟢 ⚽ Cyprus - Armenia (LÝ LÀNG LÁ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F2f7845227778e395acb0141c8bbfdfcc%2Fplaylist.m3u8&source=phalang
 
