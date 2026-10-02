@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:37:04 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:39:57 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (38 trận), Khán Đài (18 trận), Chuối Chiên (16 trận), Phá Làng (102 trận), Gà Vàng (23 trận), Sao Kê (18 trận), GaVang33 (27 trận), Bông Lau (16 trận) =====
 
@@ -28,6 +28,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/vietnam.png" group-title="Giờ Vàng" , 02/10 16:00 🟢 ⚽ Việt Nam vs Pakistan (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790911406_hd%2F1790911406_hd%40720p.m3u8&source=giovang
 
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/trenkwalder-admira-wacker.png" group-title="Giờ Vàng" , 02/10 16:00 🟢 ⚽ FC Trenkwalder Admira vs Austria Wien (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790904974_hd%2F1790904974_hd%40720p.m3u8&source=giovang
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_479.jpg" group-title="Khán Đài" , 02/10 16:00 🟢 ⚽ Việt Nam vs Pakistan (Tày)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa8%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
 
@@ -46,6 +49,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/43b2dd1c93748297cfbbea4d31247641.png!w80" group-title="Phá Làng" , 02/10 16:00 🟢 ⚽ Thailand - Philippines (LÝ LÀNG LÁ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fef134c35b49711e52a67c0640f8bfdd6%2Fplaylist.m3u8&source=phalang
 
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5894.png" group-title="Sao Kê" , 02/10 16:00 🟢 ⚽ Vietnam vs Pakistan (Ricky (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx83-hd-1111%2Fplaylist.m3u8&source=saoke
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5788.png" group-title="Sao Kê" , 02/10 16:00 🟢 ⚽ Thailand vs Philippines (Tít (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx2-hd-1111%2Fplaylist.m3u8&source=saoke
 
@@ -60,9 +66,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Bông Lau" , 02/10 16:00 🟢 ⚽ Việt Nam vs Pakistan (Chuối Nhỏ (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoinhohd%2Fplaylist.m3u8&source=bonglau
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/trenkwalder-admira-wacker.png" group-title="Giờ Vàng" , 02/10 16:00 🟡 ⚽ FC Trenkwalder Admira vs Austria Wien (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-fc-trenkwalder-admira-vs-austria-wien-02-10-6abaff8f24d46db8707d112e
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_480.jpg" group-title="Khán Đài" , 02/10 16:00 🟡 ⚽ Thái Lan vs Philippines (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/thai-lan-vs-philippines-02-10-2026-859008
@@ -117,9 +120,6 @@ https://gavanglinkt.tv/truc-tiep/thailand-vs-philippines-ngay-02-10-2026/
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/14b75c2d38d88b747c19de8ea5509d16.png" group-title="Gà Vàng" , 02/10 16:00 🟡 ⚽ Vietnam vs Pakistan (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/vietnam-vs-pakistan-ngay-02-10-2026/
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5894.png" group-title="Sao Kê" , 02/10 16:00 🟡 ⚽ Vietnam vs Pakistan (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/vietnam-vs-pakistan-6abe354742ecb1c2b83700fc.html
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/e97aa6ff62044e05b1dc126043568a18.png" group-title="Giờ Vàng" , 02/10 16:30 🟡 🏀 Illawarra Hawks vs Adelaide 36ers (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-illawarra-hawks-vs-adelaide-36ers-02-10-28222273
