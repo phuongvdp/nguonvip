@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 02:59:42 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:02:37 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (7 trận), Khán Đài (9 trận), Phá Làng (6 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (7 trận), Khán Đài (9 trận), Phá Làng (7 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 03/10 07:00 🏐 Việt Nam - Thái Lan (Chưa có link — chờ cập nhật)
@@ -60,6 +60,9 @@ https://phalang.live/trang-chu#9c530eb305f34981aecc45ef8196db37
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/image_2.webp" group-title="Khán Đài" , 03/10 18:00 🏐 Vakifbank vs Besiktas (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/vakifbank-vs-besiktas
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/bf7d5b85601e54fc26df7d6605e3dd01.png!w80" group-title="Phá Làng" , 03/10 18:00 🏐 Vakifbank Nữ - Besiktas Nữ (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#c109409685384cf68e8965eb2b67c643
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/rPFpfgDa-vRpcHup9.png" group-title="Giờ Vàng" , 03/10 20:00 🏐 Nilufer Bld. vs Eczacibasi (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-nilufer-bld-vs-eczacibasi-03-10-k9j81v0gyph6
