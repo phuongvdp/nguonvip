@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 05:45:51 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 05:48:48 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (28 trận), Khán Đài (21 trận), Chuối Chiên (17 trận), Phá Làng (79 trận), Gà Vàng (13 trận), Sao Kê (21 trận), GaVang33 (20 trận), Bông Lau (17 trận) =====
 
@@ -22,20 +22,20 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/e2f40e16499b22e942a5bd1d1d2398d3.png" group-title="Gà Vàng" , 03/10 05:30 🟢 ⚽ Sao Bernardo vs CRB (THICHDUTHU)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a704ad865997681f18c2160.m3u8&source=gavang
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125536_698c7d26.png" group-title="Chuối Chiên" , 03/10 06:00 🟡 ⚽ Sao Paulo vs Santos (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1492318/sao-paulo-vs-santos
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125536_698c7d26.png" group-title="Chuối Chiên" , 03/10 06:00 🟢 ⚽ Sao Paulo vs Santos (Chuối Tây (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitayhd%2Fplaylist.m3u8&source=chuoichientv
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10277.png" group-title="Sao Kê" , 03/10 06:00 🟢 ⚽ São Paulo vs Santos (Bút Chì (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx22-hd-1111%2Fplaylist.m3u8&source=saoke
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125536_698c7d26.png" group-title="Bông Lau" , 03/10 06:00 🟢 ⚽ Sao Paulo vs Santos (Chuối Tây (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitayhd%2Fplaylist.m3u8&source=bonglau
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/31f5171de0e1404fdebcef19cd7cd409.png" group-title="Phá Làng" , 03/10 06:00 🟡 ⚽ São Paulo - SP - Santos FC - SP (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#x7lm7phj3k0ym2w
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/31f5171de0e1404fdebcef19cd7cd409.png" group-title="Gà Vàng" , 03/10 06:00 🟡 ⚽ Sao Paulo vs Santos (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/sao-paulo-sp-vs-santos-fc-sp-ngay-03-10-2026/
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10277.png" group-title="Sao Kê" , 03/10 06:00 🟡 ⚽ São Paulo vs Santos (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/sao-paulo-vs-santos-6ac004342f0c9283874d02eb.html
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125536_698c7d26.png" group-title="Bông Lau" , 03/10 06:00 🟡 ⚽ Sao Paulo vs Santos (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1492318
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9d3195be22d95cf5d35790272afc724a.png" group-title="Gà Vàng" , 03/10 06:30 🟡 ⚽ Londrina PR vs Criciuma (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/londrina-pr-vs-criciuma-ngay-03-10-2026/
