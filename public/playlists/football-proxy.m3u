@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:17:48 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:20:05 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (12 trận), Chuối Chiên (15 trận), Phá Làng (32 trận), Gà Vàng (9 trận), Sao Kê (20 trận), GaVang33 (24 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (19 trận), Khán Đài (12 trận), Chuối Chiên (15 trận), Phá Làng (32 trận), Gà Vàng (9 trận), Sao Kê (20 trận), GaVang33 (23 trận), Bông Lau (15 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/dS0NzAil-OKa9P8WR.png" group-title="Giờ Vàng" , 02/10 20:15 🟢 ⚽ Al Ain vs Ajman (Giovang 1)
@@ -18,9 +18,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/102117.png" group-title="Sao Kê" , 02/10 20:15 🟢 ⚽ Al-Ain vs Ajman (Bút Chì (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx22-hd-1111%2Fplaylist.m3u8&source=saoke
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/17b767b98695df2fb512e992dd8a7af4.png" group-title="GaVang33" , 02/10 20:15 🟢 ⚽ Al-Wasl SC vs Ittihad Kalba FC (Gà Siêu Kiêu)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F741294.m3u8&source=gavang33
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/eintracht-frankfurt.png" group-title="Giờ Vàng" , 02/10 20:30 🟢 ⚽ Eintracht Frankfurt vs Eintr. Braunschweig (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790905262_hd%2F1790905262_hd%40720p.m3u8&source=giovang
@@ -64,14 +61,14 @@ https://phalang.live/trang-chu#vjxm8ghkv5w5r6o
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/0CZOhXDa-8zUcYY2j.png" group-title="Giờ Vàng" , 02/10 22:45 🟢 ⚽ Shabab Al-Ahli Dubai vs Al Nasr (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790904928_hd%2F1790904928_hd%40720p.m3u8&source=giovang
 
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/05e87b1dbb904915a4a97fc095b73d20.png" group-title="GaVang33" , 02/10 22:45 🟢 ⚽ Shabab Al Ahli vs Al-Nasr Dubai (Gà Siêu Nhí)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F301263.m3u8&source=gavang33
+
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/05e87b1dbb904915a4a97fc095b73d20.png" group-title="Gà Vàng" , 02/10 22:45 🟡 ⚽ Shabab AlAhli vs Al-Nasr Dubai (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/shabab-al-ahli-vs-al-nasr-dubai-ngay-02-10-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/e1113e780b7ceaee329d95bedc2de575.png" group-title="Gà Vàng" , 02/10 22:45 🟡 ⚽ Khorfakkan vs Al-Jazira(UAE) (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/khor-fakkan-ssc-vs-al-jazirauae-ngay-02-10-2026/
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/05e87b1dbb904915a4a97fc095b73d20.png" group-title="GaVang33" , 02/10 22:45 🟡 ⚽ Shabab Al Ahli vs Al-Nasr Dubai (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/shabab-al-ahli-vs-al-nasr-dubai-luc-2245-ngay-02-10-2026-dj2ryohl8oe1q1z
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/cyprus.png" group-title="Giờ Vàng" , 02/10 23:00 🟡 ⚽ Đảo Síp vs Armenia (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-dao-sip-vs-armenia-02-10-69f7e7425c39b5554409bf65
