@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:20:05 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:22:38 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (3 trận), Phá Làng (3 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (7 trận), Phá Làng (3 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/image.webp" group-title="Khán Đài" , 02/10 22:30 🟢 🏐 MKS Kalisz (W) vs Budowlani (W) (KaKa)
@@ -22,3 +22,15 @@ https://khandai3.link/truc-tiep/thai-lan-vs-an-do
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/3e9126e77f86c6fd0f04f67c8f149712.png!w80" group-title="Phá Làng" , 03/10 11:00 🏐 Thái Lan - Ấn Độ (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#24ecc940d4f04a3eaf149b745ca6a923
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_Kazakhstan.svg.webp" group-title="Khán Đài" , 03/10 14:00 🏐 Kazakhstan vs Indonesia (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/kazakhstan-vs-indonesia
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_OOrZwnR.jpg" group-title="Khán Đài" , 03/10 14:00 🏐 Trung Quốc vs Pakistan (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/trung-quoc-vs-pakistan
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_hdpF9Rm.jpg" group-title="Khán Đài" , 03/10 17:00 🏐 Việt Nam vs Đài Loan (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/viet-nam-vs-dai-loan
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Khán Đài" , 03/10 17:20 🏐 Nhật Bản vs Iran (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/nhat-ban-vs-iran
