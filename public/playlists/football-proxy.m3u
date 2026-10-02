@@ -1,11 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 11:47:13 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 11:50:29 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận), Khán Đài (15 trận), Chuối Chiên (14 trận), Phá Làng (105 trận), Gà Vàng (14 trận), Sao Kê (20 trận), GaVang33 (24 trận), Bông Lau (14 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Sao Kê" , 02/10 11:00 🟢 ⚽ Qatar vs Thailand (Cà Rốt (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx10-hd-1111%2Fplaylist.m3u8&source=saoke
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/fd3dd61e88396b2c01611167ed0867eb.png!w80" group-title="Phá Làng" , 02/10 13:00 🟢 ⚽ China Women - South Korea Women (LÝ LINH LỰC)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F0d2915478e28423d39d70dc5da3bd937%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/china-w.png" group-title="Giờ Vàng" , 02/10 13:00 ⚽ China W vs South Korea W (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-china-w-vs-south-korea-w-02-10-omjl50r526zx
@@ -15,9 +18,6 @@ https://giovang.rent/truc-tiep-asiad-2026-vs-asiad-2026-02-10-asooi3g7yvxg
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_599.jpg" group-title="Khán Đài" , 02/10 13:00 ⚽ China W vs South Korea W (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/china-w-vs-south-korea-w-02-10-2026-860330
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/football/team/fd3dd61e88396b2c01611167ed0867eb.png!w80" group-title="Phá Làng" , 02/10 13:00 ⚽ China Women - South Korea Women (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#318q66h8z2g3qo9
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/fd3dd61e88396b2c01611167ed0867eb.png" group-title="Gà Vàng" , 02/10 13:00 ⚽ China(w) vs South Korea(w) (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/china-women-vs-south-korea-women-ngay-02-10-2026/
