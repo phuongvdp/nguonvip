@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:16:20 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:18:57 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (103 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (102 trận) =====
 
 # ----- Ngày 2026-10-02 -----
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/8f0728585eec7b39e9f54a1fd98b1f47.png!w80" group-title="Phá Làng" , 02/10 14:00 🟢 🏐 Pakistan - Iran (LÝ LÊN LỬA (Server 1))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F0396f8c2324a4210ae4f793c2ab3500b%2Findex.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/915a6e769bd0c93676a9af430295c3a6.png" group-title="Phá Làng" , 02/10 15:30 🟡 ⚽ FK Arsenal Česká Lípa - FK Viagem Ústí nad Labem (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#6ypq3nhk63jlmd7
 
