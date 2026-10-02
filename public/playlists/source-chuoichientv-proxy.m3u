@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:57:33 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:00:34 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (17 trận) =====
 
 # ----- Ngày 2026-10-02 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_142852_6270222c.png" group-title="Chuối Chiên" , 02/10 17:00 🟢 🏐 Việt Nam vs Indonesia (Chuối Kem (FHD))
@@ -13,7 +13,7 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125815_c1ce473c.png" group-title="Chuối Chiên" , 02/10 20:15 🟡 ⚽ Al Ain vs Ajman (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1636372/al-ain-vs-ajman
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134255_1b35202d.png" group-title="Chuối Chiên" , 02/10 21:00 ⚽ Kazakhstan vs Moldova (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134255_1b35202d.png" group-title="Chuối Chiên" , 02/10 21:00 🟡 ⚽ Kazakhstan vs Moldova (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1528923/kazakhstan-vs-moldova
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134258_7f759e07.png" group-title="Chuối Chiên" , 02/10 23:00 ⚽ Cyprus vs Armenia (Chưa có link — chờ cập nhật)
@@ -52,3 +52,6 @@ https://live05.chuoichientv.me/live/1567447/machida-zelvia-vs-kyoto-sanga
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133419_dd306d1b.png" group-title="Chuối Chiên" , 03/10 19:00 ⚽ Albacete vs Eibar (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1569948/albacete-vs-eibar
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Chuối Chiên" , 03/10 20:00 ⚽ Finland vs Albania (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1528932/finland-vs-albania
