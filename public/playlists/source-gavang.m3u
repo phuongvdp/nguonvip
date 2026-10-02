@@ -1,13 +1,28 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:09:05 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:13:29 2/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (22 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (25 trận) =====
 
 # ----- Ngày 2026-10-02 -----
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/ed16dd3c5970174b77eb04b0ea5b0960.png" group-title="Gà Vàng" , 02/10 06:30 🟢 ⚽ Athletic Club vs Sport Club Recife PE (A Long)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69ef10b47146e04fbe6d4363.m3u8
+
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/87668a20b488fbb0e1fcb9210165cfd8.png" group-title="Gà Vàng" , 02/10 07:00 🟢 ⚽ Gremio Novorizontino vs Goiás EC (MáN NúI)
 #EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/69cf6331585c5992182f4160.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/c3209b7fb56b7bc4fa2619f1248cb561.png" group-title="Gà Vàng" , 02/10 07:00 🟢 ⚽ Dominican Republic vs Haiti (MeoMeo)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69be75e0a0a45974afb67776.m3u8
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/df9d41a492e324ad411a3e39c7935352.png" group-title="Gà Vàng" , 02/10 07:15 🟢 ⚽ CA Platense vs Estudiantes La Plata (cố tư nghiêm)
+#EXTVLCOPT:http-referrer=https://gavanglinkp.tv/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://playback.livetl002.com/live/69a1aaa7230584579e2d5ce1.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/cef1725baaf3f3be0cb7215c5f39d162.png" group-title="Gà Vàng" , 02/10 08:30 🟡 ⚽ Seattle Sounders vs Sporting Kansas City (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/seattle-sounders-vs-sporting-kansas-city-ngay-02-10-2026/
