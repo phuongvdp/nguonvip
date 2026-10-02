@@ -1,13 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 05:57:47 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:00:46 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (17 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125536_698c7d26.png" group-title="Chuối Chiên" , 03/10 06:00 🟢 ⚽ Sao Paulo vs Santos (Chuối Tây (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitayhd%2Fplaylist.m3u8&source=chuoichientv
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132807_7f305cf9.png" group-title="Chuối Chiên" , 03/10 07:00 ⚽ Colombia vs Paraguay (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132807_7f305cf9.png" group-title="Chuối Chiên" , 03/10 07:00 🟡 ⚽ Colombia vs Paraguay (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1638597/colombia-vs-paraguay
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132741_d7b2cf85.png" group-title="Chuối Chiên" , 03/10 09:00 ⚽ El Salvador vs Jamaica (Chưa có link — chờ cập nhật)
@@ -52,3 +52,6 @@ https://live05.chuoichientv.me/live/1640077/ivory-coast-vs-cameroon
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125542_d8ff9d63.png" group-title="Chuối Chiên" , 04/10 04:30 ⚽ Atletico-MG vs RB Bragantino (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1492310/atletico-mg-vs-rb-bragantino
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_143653_72f0bbb2.png" group-title="Chuối Chiên" , 04/10 06:00 ⚽ Querétaro W vs Atlético San Luis W (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1603385/queretaro-w-vs-atletico-san-luis-w

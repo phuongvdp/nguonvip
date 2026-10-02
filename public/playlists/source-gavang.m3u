@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 05:57:47 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:00:46 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (13 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (12 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/47174721b260fae6e833329c13c9f2ee.png" group-title="Gà Vàng" , 03/10 05:15 🟢 ⚽ CA Independiente vs Instituto (cố tư nghiêm)
@@ -14,16 +14,13 @@ https://playback.livetl002.com/live/69a1aaa7230584579e2d5ce1.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a704ad865997681f18c2160.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/31f5171de0e1404fdebcef19cd7cd409.png" group-title="Gà Vàng" , 03/10 06:00 🟡 ⚽ Sao Paulo vs Santos (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/sao-paulo-sp-vs-santos-fc-sp-ngay-03-10-2026/
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9d3195be22d95cf5d35790272afc724a.png" group-title="Gà Vàng" , 03/10 06:30 🟡 ⚽ Londrina PR vs Criciuma (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/londrina-pr-vs-criciuma-ngay-03-10-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/7a9a6275e29e0f51ea68ba1ec740bf1e.png" group-title="Gà Vàng" , 03/10 06:45 🟡 ⚽ Juventude vs Operario Ferroviario PR (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/esporte-clube-juventude-vs-operario-ferroviario-pr-ngay-03-10-2026/
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ef2635db12914681ae86ece2d97bd6c2.png" group-title="Gà Vàng" , 03/10 07:00 ⚽ Colombia vs Paraguay (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ef2635db12914681ae86ece2d97bd6c2.png" group-title="Gà Vàng" , 03/10 07:00 🟡 ⚽ Colombia vs Paraguay (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/colombia-vs-paraguay-ngay-03-10-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5183f8cdb38f7cb0bb24f2c9a7eda619.png" group-title="Gà Vàng" , 03/10 07:30 ⚽ Independiente Rivadavia vs Gimnasia La Plata (Chưa có link — chờ cập nhật)
