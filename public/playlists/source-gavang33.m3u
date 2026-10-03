@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:47:19 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:54:17 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (21 trận) =====
 
@@ -12,8 +12,9 @@ https://live2.zktsva.app/live/432017.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/301263.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/aa54b4b022f88b8566c7834ee5fc3e12.png" group-title="GaVang33" , 03/10 18:30 🟡 ⚽ Brentwood Town vs Dagenham   Redbridge (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/brentwood-town-vs-dagenham-redbridge-luc-1830-ngay-03-10-2026-y0or5jh9x6wzqwz
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/aa54b4b022f88b8566c7834ee5fc3e12.png" group-title="GaVang33" , 03/10 18:30 🟢 ⚽ Brentwood Town vs Dagenham   Redbridge (Gà Siêu Tốc)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://live2.zktsva.app/live/307240.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/a2f731e9147f64082f22b9a561425308.png" group-title="GaVang33" , 03/10 19:00 ⚽ Albacete Balompié SAD vs Eibar (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/albacete-balompie-sad-vs-eibar-luc-1900-ngay-03-10-2026-6ypq3nhvoe4ymd7
