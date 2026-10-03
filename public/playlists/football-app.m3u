@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:48:50 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:51:56 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (11 trận), Chuối Chiên (10 trận), Phá Làng (23 trận), Gà Vàng (13 trận), Sao Kê (12 trận), GaVang33 (25 trận), Bông Lau (10 trận) =====
 
@@ -52,6 +52,15 @@ https://live2.zktsva.app/live/796315.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3874dcd109e646cbe7c5e8fb2bd41548.png" group-title="Phá Làng" , 03/10 22:55 🟡 ⚽ Saudi Arabia - Qatar (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#pxwrxlhy636kryk
 
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/croatia.png" group-title="Giờ Vàng" , 03/10 23:00 🟢 ⚽ Croatia vs Anh (Giovang 1)
+https://pzhgifbkllliv.vcdn.cloud/1791011626_hd/1791011626_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/iceland.png" group-title="Giờ Vàng" , 03/10 23:00 🟢 ⚽ Iceland vs Bulgaria (Giovang 1)
+https://pzhgifbkllliv.vcdn.cloud/1791011695_hd/1791011695_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/belarus.png" group-title="Giờ Vàng" , 03/10 23:00 🟢 ⚽ Belarus vs San Marino (Giovang 1)
+https://pzhgifbkllliv.vcdn.cloud/1791014870_hd/1791014870_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125448_7dd16e8b.png" group-title="Chuối Chiên" , 03/10 23:00 🟢 ⚽ Croatia vs England (Chuối Nhỏ (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
@@ -75,15 +84,6 @@ https://live2.zktsva.app/live/303098.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125448_7dd16e8b.png" group-title="Bông Lau" , 03/10 23:00 🟢 ⚽ Croatia vs England (Chuối Nhỏ (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://live.chuoichien.tv/
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/croatia.png" group-title="Giờ Vàng" , 03/10 23:00 🟡 ⚽ Croatia vs Anh (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-croatia-vs-anh-03-10-69f3f2b74bff4a0c310bf76a
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/iceland.png" group-title="Giờ Vàng" , 03/10 23:00 🟡 ⚽ Iceland vs Bulgaria (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-iceland-vs-bulgaria-03-10-69f3f2b74bff4a0c310bf78d
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/belarus.png" group-title="Giờ Vàng" , 03/10 23:00 🟡 ⚽ Belarus vs San Marino (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-belarus-vs-san-marino-03-10-69f3f2b74bff4a0c310bf782
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_14.jpg" group-title="Khán Đài" , 03/10 23:00 🟡 ⚽ Croatia vs England (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/croatia-vs-england-03-10-2026-790894
