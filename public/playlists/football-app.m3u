@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:15:37 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:18:49 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (11 trận), Chuối Chiên (15 trận), Phá Làng (124 trận), Gà Vàng (20 trận), Sao Kê (18 trận), GaVang33 (21 trận), Bông Lau (15 trận) =====
 
@@ -13,8 +13,8 @@ https://ftlh5sc02iliv.vcdn.cloud/1790966693_hd/1790966693_hd@720p.m3u8|User-Agen
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/hong-kong.png" group-title="Giờ Vàng" , 03/10 17:00 🟢 ⚽ Hồng Kông vs Campuchia (Giovang 1)
 https://pzhgifbkllliv.vcdn.cloud/1791019536_hd/1791019536_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/download_IAaCYjl.png" group-title="Khán Đài" , 03/10 17:00 🟢 ⚽ Hong Kong vs Cambodia (Pháo Thủ)
-https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://khandai3.link
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/download_IAaCYjl.png" group-title="Khán Đài" , 03/10 17:00 🟢 ⚽ Hong Kong vs Cambodia (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/hong-kong-vs-cambodia-03-10-2026-860506
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134317_1bd3a785.png" group-title="Chuối Chiên" , 03/10 17:00 🟢 ⚽ Hong Kong vs Cambodia (Chuối Nhỏ (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
@@ -55,8 +55,11 @@ https://wtyi0525.edgemaxcdn.org/live/x10-hd-1111/playlist.m3u8|User-Agent=Mozill
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea-u23.png" group-title="Giờ Vàng" , 03/10 17:30 🟢 ⚽ Hàn Quốc vs Nhật Bản (Giovang 1)
 https://ftlh5sc02iliv.vcdn.cloud/1790966773_hd/1790966773_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images_8kF19fZ.jpg" group-title="Khán Đài" , 03/10 17:30 🟢 ⚽ South Korea U23 vs Japan U23 (Lee Sin)
-https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://khandai3.link
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images_8kF19fZ.jpg" group-title="Khán Đài" , 03/10 17:30 🟢 ⚽ South Korea U23 vs Japan U23 (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/south-korea-u23-vs-japan-u23-03-10-2026-860366
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Chuối Chiên" , 03/10 17:30 🟢 ⚽ U23 Hàn Quốc  vs Japan U23 (Chuối Ngao (FHD))
+https://gckc0525.edgemaxcdn.org/live/chuoingaohd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/02598ff81c211b703b81e49cf632688b.png" group-title="Phá Làng" , 03/10 17:30 🟢 ⚽ South Korea U23 - Japan U23 (LÝ LA LÀNG)
 https://lilive1.eu.cc/live/dafe34d6e084ce4a90c18fda523466df/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/south-korea-u23-vs-japan-u23-ednm9wh58633ryo&Origin=https://phalang1.live
@@ -64,8 +67,8 @@ https://lilive1.eu.cc/live/dafe34d6e084ce4a90c18fda523466df/playlist.m3u8|User-A
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/300702.png" group-title="Sao Kê" , 03/10 17:30 🟢 ⚽ South Korea U23 vs Japan U23 (Teppy (HD))
 https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://vip3.saoketv40.xyz/south-korea-u23-vs-japan-u23-6abf7062b9c200d560485f10.html
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Chuối Chiên" , 03/10 17:30 🟡 ⚽ U23 Hàn Quốc  vs Japan U23 (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1643349/u23-han-quoc-vs-japan-u23
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Bông Lau" , 03/10 17:30 🟢 ⚽ U23 Hàn Quốc  vs Japan U23 (Chuối Ngao (FHD))
+https://gckc0525.edgemaxcdn.org/live/chuoingaohd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fd06ba41a2de13ab86456debdc68a330.png" group-title="Phá Làng" , 03/10 17:30 🟡 ⚽ FC Minsk - Arsenal Dzerzhinsk (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#4jwq2ghgongzm0v
@@ -75,9 +78,6 @@ https://phalang1.live/trang-chu#4jwq2ghgonp1m0v
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/6581bc34692022be4c21d98778e33df0.png" group-title="Gà Vàng" , 03/10 17:30 🟡 ⚽ Korea U23 vs Japan U23 (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/south-korea-u23-vs-japan-u23-ngay-03-10-2026/
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Bông Lau" , 03/10 17:30 🟡 ⚽ U23 Hàn Quốc  vs Japan U23 (Chưa có link — chờ cập nhật)
-https://lau06.bonglautv1.org/truc-tiep/1643349
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0c1fd660c61fbfae819c5e37ba0e1e45.png" group-title="Phá Làng" , 03/10 18:00 🟡 ⚽ Racing Genk - Fortuna Sittard (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#318q66h8zw1gqo9
