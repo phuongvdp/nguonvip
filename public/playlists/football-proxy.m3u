@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 02:09:05 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 02:11:41 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (15 trận), Chuối Chiên (7 trận), Phá Làng (16 trận), Gà Vàng (13 trận), Sao Kê (8 trận), GaVang33 (21 trận), Bông Lau (7 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (15 trận), Chuối Chiên (7 trận), Phá Làng (15 trận), Gà Vàng (13 trận), Sao Kê (7 trận), GaVang33 (21 trận), Bông Lau (7 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a1b3eb19ca424555b5c61384059d21f7.png" group-title="Gà Vàng" , 03/10 23:00 🟢 ⚽ Croatia vs England (CRIS)
@@ -94,12 +94,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_738.jpg" group-title="Khán Đài" , 04/10 02:00 🟢 ⚽ Ivory Coast vs Cameroon (Pháo Thủ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa4%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dfaaa23580764370ed378ecd708c9f262&source=khandaitv
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/db5f54482ae28e132611f4c928b6f672.png" group-title="Phá Làng" , 04/10 02:00 🟢 ⚽ Cote d'Ivoire - Cameroon (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F0503a353317bdf9ff9f5bda52f196821%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6629.png" group-title="Sao Kê" , 04/10 02:00 🟢 ⚽ Cameroon vs Ivory Coast (Mơ (HD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx68-hd-1111%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/17962554eedf40e0af9df1fc346ce09e.png" group-title="GaVang33" , 04/10 02:00 🟢 ⚽ Cote d'Ivoire vs Cameroon (Gà Siêu Bệu)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F289650.m3u8&source=gavang33
