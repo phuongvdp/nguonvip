@@ -1,11 +1,8 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:42:57 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:46:02 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (2 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (1 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwvnWRBNvGnO1GVEQTNkkJgE_aJlxZDxa0iNQWy_06A&s" group-title="Giờ Vàng" , 03/10 10:00 🟢 🎾 ATP Beijing Open vs ATP Beijing Open (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790988213_hd%2F1790988213_hd%40720p.m3u8&source=giovang
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/zPdeWyDr-pOTe4nSM.png" group-title="Giờ Vàng" , 03/10 18:45 🟡 🎾 Francisco Cenrundolo vs Jakub Mensik (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-francisco-cenrundolo-vs-jakub-mensik-03-10-zu80fioaocpd
