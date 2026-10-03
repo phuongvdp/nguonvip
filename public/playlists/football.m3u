@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:26:57 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:30:02 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (11 trận), Chuối Chiên (15 trận), Phá Làng (124 trận), Gà Vàng (20 trận), Sao Kê (18 trận), GaVang33 (21 trận), Bông Lau (15 trận) =====
 
@@ -92,10 +92,8 @@ https://ftlh5sc02iliv.vcdn.cloud/1790966773_hd/1790966773_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Chuối Chiên" , 03/10 17:30 🟢 ⚽ U23 Hàn Quốc  vs Japan U23 (Chuối Ngao (FHD))
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoingaohd/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Chuối Chiên" , 03/10 17:30 🟢 ⚽ U23 Hàn Quốc  vs Japan U23 (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1643349/u23-han-quoc-vs-japan-u23
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/02598ff81c211b703b81e49cf632688b.png" group-title="Phá Làng" , 03/10 17:30 🟢 ⚽ South Korea U23 - Japan U23 (LÝ LA LÀNG)
 #EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/south-korea-u23-vs-japan-u23-ednm9wh58633ryo
@@ -107,10 +105,8 @@ https://lilive1.eu.cc/live/dafe34d6e084ce4a90c18fda523466df/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Bông Lau" , 03/10 17:30 🟢 ⚽ U23 Hàn Quốc  vs Japan U23 (Chuối Ngao (FHD))
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoingaohd/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Bông Lau" , 03/10 17:30 🟢 ⚽ U23 Hàn Quốc  vs Japan U23 (Chưa có link — chờ cập nhật)
+https://lau06.bonglautv1.org/truc-tiep/1643349
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fd06ba41a2de13ab86456debdc68a330.png" group-title="Phá Làng" , 03/10 17:30 🟡 ⚽ FC Minsk - Arsenal Dzerzhinsk (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#4jwq2ghgongzm0v
@@ -154,25 +150,25 @@ https://phalang1.live/trang-chu#pxwrxlhlpxgdryk
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6508946c9a5fe22a8784b905b25e8c79.png" group-title="Phá Làng" , 03/10 18:00 🟡 ⚽ SC Freiburg - Luzern (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#y39mp1hdvzopmoj
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d4aace06743a4a5df8221771f870f077.png" group-title="Phá Làng" , 03/10 18:30 ⚽ Fakel Voronezh - FK Vitebsk (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d4aace06743a4a5df8221771f870f077.png" group-title="Phá Làng" , 03/10 18:30 🟡 ⚽ Fakel Voronezh - FK Vitebsk (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#8yomo4hye38oq0j
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/487d9eecf77605c17123cc81e37313f3.png" group-title="Phá Làng" , 03/10 18:30 ⚽ Hammarby - Vasteras SK FK (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/487d9eecf77605c17123cc81e37313f3.png" group-title="Phá Làng" , 03/10 18:30 🟡 ⚽ Hammarby - Vasteras SK FK (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#l5ergphk0l39r8k
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d49ab93fbac0f4602293bac98b94d9c0.png" group-title="Phá Làng" , 03/10 18:30 ⚽ Lech Poznan - Energie Cottbus (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d49ab93fbac0f4602293bac98b94d9c0.png" group-title="Phá Làng" , 03/10 18:30 🟡 ⚽ Lech Poznan - Energie Cottbus (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#vjxm8ghkvever6o
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aa54b4b022f88b8566c7834ee5fc3e12.png" group-title="Phá Làng" , 03/10 18:30 ⚽ Brentwood Town - Dagenham   Redbridge (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aa54b4b022f88b8566c7834ee5fc3e12.png" group-title="Phá Làng" , 03/10 18:30 🟡 ⚽ Brentwood Town - Dagenham   Redbridge (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#y0or5jh9x6wzqwz
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/42396d18444156e640c37476c2b41b93.png" group-title="Phá Làng" , 03/10 18:30 ⚽ Crystal Palace - Bristol City (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/42396d18444156e640c37476c2b41b93.png" group-title="Phá Làng" , 03/10 18:30 🟡 ⚽ Crystal Palace - Bristol City (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#y0or5jh9x81pqwz
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/d745193354f961e58538fdd1a5ebc6f3.png" group-title="Gà Vàng" , 03/10 18:30 ⚽ Chesterfield vs Tranmere Rovers (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/d745193354f961e58538fdd1a5ebc6f3.png" group-title="Gà Vàng" , 03/10 18:30 🟡 ⚽ Chesterfield vs Tranmere Rovers (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/chesterfield-vs-tranmere-rovers-ngay-03-10-2026/
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/aa54b4b022f88b8566c7834ee5fc3e12.png" group-title="GaVang33" , 03/10 18:30 ⚽ Brentwood Town vs Dagenham   Redbridge (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/aa54b4b022f88b8566c7834ee5fc3e12.png" group-title="GaVang33" , 03/10 18:30 🟡 ⚽ Brentwood Town vs Dagenham   Redbridge (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/brentwood-town-vs-dagenham-redbridge-luc-1830-ngay-03-10-2026-y0or5jh9x6wzqwz
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133419_dd306d1b.png" group-title="Chuối Chiên" , 03/10 19:00 ⚽ Albacete vs Eibar (Chưa có link — chờ cập nhật)
