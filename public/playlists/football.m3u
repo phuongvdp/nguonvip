@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:58:41 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 04:01:14 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (11 trận), Chuối Chiên (4 trận), Phá Làng (12 trận), Gà Vàng (13 trận), Sao Kê (4 trận), GaVang33 (17 trận), Bông Lau (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (11 trận), Chuối Chiên (4 trận), Phá Làng (14 trận), Gà Vàng (13 trận), Sao Kê (4 trận), GaVang33 (16 trận), Bông Lau (4 trận) =====
 
 # ----- Ngày 2026-10-04 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/49a35dd00c51fc958ebf44054bce4c48.png" group-title="Gà Vàng" , 04/10 00:45 🟢 ⚽ Defensa Y Justicia vs CA San Lorenzo (khang hi)
@@ -28,10 +28,6 @@ https://playback.livetl002.com/live/6a5b13ceb36a14387baeddaa.m3u8
 #EXTVLCOPT:http-referrer=https://gavanglinkt.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a9a5525864ea536c2577392.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/17962554eedf40e0af9df1fc346ce09e.png" group-title="GaVang33" , 04/10 02:00 🟢 ⚽ Cote d'Ivoire vs Cameroon (Gà Siêu Bệu)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://live2.zktsva.app/live/289650.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/40f17f08ff7bb44a641273044db78c64.png" group-title="Gà Vàng" , 04/10 04:05 🟡 ⚽ Deportes Tolima vs Boyaca Chico (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/deportes-tolima-vs-boyaca-chico-ngay-04-10-2026/
@@ -181,6 +177,12 @@ https://giovang.rent/truc-tiep-real-sociedad-b-vs-granada-cf-04-10-6ab9ae3124d46
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_7216.jpg" group-title="Khán Đài" , 04/10 19:00 ⚽ Real Sociedad B vs Granada CF (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/real-sociedad-b-vs-granada-cf-04-10-2026-799272
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3d44285b3ea2ff20d72778ad3245cf70.png" group-title="Phá Làng" , 04/10 19:00 ⚽ CSKA Moscow - Arsenal Tula (Chưa có link — chờ cập nhật)
+https://phalang1.live/trang-chu#23xmvkhyv8e8qg8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d29164c8a90c597e5333f1bf14f289f2.png" group-title="Phá Làng" , 04/10 19:00 ⚽ Real Sociedad B - Granada CF (Chưa có link — chờ cập nhật)
+https://phalang1.live/trang-chu#zp5rzghg940zq82
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/d29164c8a90c597e5333f1bf14f289f2.png" group-title="GaVang33" , 04/10 19:00 ⚽ Real Sociedad B vs Granada CF (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/real-sociedad-b-vs-granada-cf-luc-1900-ngay-04-10-2026-zp5rzghg940zq82
