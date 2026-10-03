@@ -1,36 +1,27 @@
 #EXTM3U
-# Cập nhật lần cuối: 02:25:26 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 02:28:06 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (34 trận), Khán Đài (22 trận), Chuối Chiên (7 trận), Phá Làng (16 trận), Gà Vàng (14 trận), Sao Kê (7 trận), GaVang33 (21 trận), Bông Lau (7 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (34 trận), Khán Đài (22 trận), Chuối Chiên (7 trận), Phá Làng (16 trận), Gà Vàng (20 trận), Sao Kê (7 trận), GaVang33 (21 trận), Bông Lau (7 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/0OsJt6Fa-CxYUcq3p.png" group-title="Giờ Vàng" , 03/10 23:00 🟢 ⚽ Ben Whittaker vs Conor Wallace (Giovang 1)
 https://ftlh5sc02iliv.vcdn.cloud/1791013750_hd/1791013750_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a1b3eb19ca424555b5c61384059d21f7.png" group-title="Gà Vàng" , 03/10 23:00 🟢 ⚽ Croatia vs England (CRIS)
-https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/447d5c2ba3e790ec434c0bee994095ed.png" group-title="Gà Vàng" , 03/10 23:00 🟢 ⚽ Belarus vs San Marino (SAITAMA)
-https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/430fda3112134b44b54eeba89eec5189.png" group-title="Gà Vàng" , 03/10 23:00 🟢 ⚽ Iceland vs Bulgaria (SÚP LƠ)
-https://playback.livetl002.com/live/6a9a5525864ea536c2577392.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/350035841e1182bf4389c52752d8bd0d.png" group-title="Gà Vàng" , 03/10 23:00 🟢 ⚽ Estonia vs Luxembourg (GIàng A Dân)
-https://playback.livetl002.com/live/6a5b13ceb36a14387baeddaa.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/13ad117ddb310052841244f0d1ed3c1e.png" group-title="Gà Vàng" , 03/10 23:30 🟢 ⚽ Cadiz CF vs Leganes (Cá MậP)
-https://playback.livetl002.com/live/6a0c7c4b1ae4d6db02433c48.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
-
 # ----- Ngày 2026-10-04 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/CMe9zXzS-QNrz0V5B.png" group-title="Giờ Vàng" , 04/10 00:00 🟢 ⚽ Cleverland Guardians vs Chicago White Sox (Giovang 1)
 https://ftlh5sc02iliv.vcdn.cloud/1791015016_hd/1791015016_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/49a35dd00c51fc958ebf44054bce4c48.png" group-title="Gà Vàng" , 04/10 00:45 🟢 ⚽ Defensa Y Justicia vs CA San Lorenzo (khang hi)
+https://playback.livetl002.com/live/6a7c0d8f65997681f18cacc4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/canada.png" group-title="Giờ Vàng" , 04/10 01:00 🟢 ⚽ Canada vs Peru (Giovang 1)
 https://pzhgifbkllliv.vcdn.cloud/1791012160_hd/1791012160_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0c7660683be3429ea77999657fa17d79.png" group-title="Phá Làng" , 04/10 01:15 🟢 ⚽ Canada - Peru (Server 1)
 https://lilive1.eu.cc/live/bd667a172fbc9765d04f0ba1fe4a4bcd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/canada-vs-peru-ednm9wh58x99ryo&Origin=https://phalang1.live
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/336e1c9ab6894a3b893c1ef45235a164.png" group-title="Gà Vàng" , 04/10 01:15 🟢 ⚽ Canada vs Peru (Lữ Bố.vip)
+https://playback.livetl002.com/live/6a9776215126529dede9bf51.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/336e1c9ab6894a3b893c1ef45235a164.png" group-title="GaVang33" , 04/10 01:15 🟢 ⚽ Canada vs Peru (Gà Siêu Péo)
 https://live2.zktsva.app/live/303098.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -77,6 +68,15 @@ https://lilive1.eu.cc/live/6a311bb20b31a673c9b236d05976c0aa/playlist.m3u8|User-A
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/78e57b771bb363598680a056a7d26c0a.png" group-title="Phá Làng" , 04/10 01:45 🟢 ⚽ North Macedonia - Scotland (Server 1)
 https://lilive1.eu.cc/live/9ec95b791cd8617d377ea1ea396f1c1b/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/north-macedonia-vs-scotland-vjxm8ghekddxr6o&Origin=https://phalang1.live
 
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/9c1958aa257c4a318f87cb4b2d79fa11.png" group-title="Gà Vàng" , 04/10 01:45 🟢 ⚽ Spain vs Czechia (SAITAMA)
+https://playback.livetl002.com/live/69f42e961f739deff81510c0.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/fad87ff2077540c8a951ade88a87901d.png" group-title="Gà Vàng" , 04/10 01:45 🟢 ⚽ Switzerland vs Slovenia (GIàng A Dân)
+https://playback.livetl002.com/live/6a5b13ceb36a14387baeddaa.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f06adf060c098f11e76fa2ff1565ba70.png" group-title="Gà Vàng" , 04/10 01:45 🟢 ⚽ North Macedonia vs Scotland (SÚP LƠ)
+https://playback.livetl002.com/live/6a9a5525864ea536c2577392.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6720.png" group-title="Sao Kê" , 04/10 01:45 🟢 ⚽ Spain vs Czechia (Ricky (HD))
 https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
 
@@ -106,6 +106,12 @@ https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8|User-Agent=Mozilla
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_738.jpg" group-title="Khán Đài" , 04/10 02:00 🟢 ⚽ Ivory Coast vs Cameroon (Pháo Thủ)
 https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://khandai3.link
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b34cb4a1d0579ac2df94f7d9abea2ae7.png" group-title="Gà Vàng" , 04/10 02:00 🟢 ⚽ Atletico Clube Goianiense vs America MG (Cá MậP)
+https://playback.livetl002.com/live/6a0c7c4b1ae4d6db02433c48.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/3190d6d022fe9b36c65d83cf98e16d15.png" group-title="Gà Vàng" , 04/10 02:00 🟢 ⚽ Aguilas Doradas vs Jaguares de Cordoba (NGƯỜI KIẾN)
+https://playback.livetl002.com/live/6a439a7fb89dded67b208b87.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/17962554eedf40e0af9df1fc346ce09e.png" group-title="GaVang33" , 04/10 02:00 🟢 ⚽ Cote d'Ivoire vs Cameroon (Gà Siêu Bệu)
 https://live2.zktsva.app/live/289650.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -173,6 +179,9 @@ https://live05.chuoichientv.me/live/1640514/argentina-vs-burkina-faso
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e5e5e0f67481324ebdbd65d65890b2b8.png" group-title="Phá Làng" , 04/10 07:00 ⚽ Argentina - Burkina Faso (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#y39mp1hdvw5ymoj
 
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ef7329946e1741b9ade4fedbf739158a.png" group-title="Gà Vàng" , 04/10 07:00 ⚽ Argentina vs Burkina Faso (Chưa có link — chờ cập nhật)
+https://gavanglinkt.tv/truc-tiep/argentina-vs-burkina-faso-ngay-04-10-2026/
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6706.png" group-title="Sao Kê" , 04/10 07:00 ⚽ Argentina vs Burkina Faso (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/argentina-vs-burkina-faso-6abf70758117d47caf8cefb1.html
 
@@ -196,6 +205,9 @@ https://live05.chuoichientv.me/live/1629004/usa-vs-mexico
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e8b03b5c083ffa4e9179571b70c1febe.png" group-title="Phá Làng" , 04/10 09:00 ⚽ USA - Mexico (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#k82rekh2z693rep
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/350ec526535f4c9a81f9d9201948d9d5.png" group-title="Gà Vàng" , 04/10 09:00 ⚽ USA vs Mexico (Chưa có link — chờ cập nhật)
+https://gavanglinkt.tv/truc-tiep/usa-vs-mexico-ngay-04-10-2026/
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/cc43cae8b2c9735749cb067be62f9311.png" group-title="GaVang33" , 04/10 09:00 ⚽ Belize vs French Guiana (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/belize-vs-french-guiana-luc-0900-ngay-04-10-2026-jw2r09hk8zn4rz8
@@ -226,6 +238,12 @@ https://giovang.rent/truc-tiep-south-east-melbourne-phoenix-vs-illawarra-hawks-0
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/OfjQEPjl-EZcCkAic.png" group-title="Giờ Vàng" , 04/10 11:00 🎾 Carlos Alcaraz vs Denis Shapovalov (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-carlos-alcaraz-vs-denis-shapovalov-04-10-mpq5kyp7ofcm
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/2a2a5d251c157be485891c94a1e1a495.png" group-title="Gà Vàng" , 04/10 11:00 ⚽ Consadole Sapporo vs Iwaki FC (Chưa có link — chờ cập nhật)
+https://gavanglinkt.tv/truc-tiep/hokkaido-consadole-sapporo-vs-iwaki-fc-ngay-04-10-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/3b0ad7d22d856a34a523cf4cecde0789.png" group-title="Gà Vàng" , 04/10 11:00 ⚽ Vanraure Hachinohe FC vs Yokohama FC (Chưa có link — chờ cập nhật)
+https://gavanglinkt.tv/truc-tiep/vanraure-hachinohe-fc-vs-yokohama-fc-ngay-04-10-2026/
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/ad13a8e4c726a65f277f7da7a19a4126.png" group-title="Giờ Vàng" , 04/10 12:00 🏀 Wonju Dongbu Promy vs Goyang Orions (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-wonju-dongbu-promy-vs-goyang-orions-04-10-23750375
