@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:06:41 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:09:37 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (15 trận), Chuối Chiên (7 trận), Phá Làng (17 trận), Gà Vàng (16 trận), Sao Kê (7 trận), GaVang33 (21 trận), Bông Lau (7 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (15 trận), Chuối Chiên (7 trận), Phá Làng (16 trận), Gà Vàng (16 trận), Sao Kê (7 trận), GaVang33 (21 trận), Bông Lau (7 trận) =====
 
 # ----- Ngày 2026-10-04 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/49a35dd00c51fc958ebf44054bce4c48.png" group-title="Gà Vàng" , 04/10 00:45 🟢 ⚽ Defensa Y Justicia vs CA San Lorenzo (khang hi)
@@ -13,11 +13,6 @@ https://playback.livetl002.com/live/6a7c0d8f65997681f18cacc4.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.rent/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pzhgifbkllliv.vcdn.cloud/1791012160_hd/1791012160_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0c7660683be3429ea77999657fa17d79.png" group-title="Phá Làng" , 04/10 01:15 🟢 ⚽ Canada - Peru (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/canada-vs-peru-ednm9wh58x99ryo
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/bd667a172fbc9765d04f0ba1fe4a4bcd/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/336e1c9ab6894a3b893c1ef45235a164.png" group-title="Gà Vàng" , 04/10 01:15 🟢 ⚽ Canada vs Peru (Lữ Bố.vip)
 #EXTVLCOPT:http-referrer=https://gavanglinkt.tv/
