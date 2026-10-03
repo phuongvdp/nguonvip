@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:01:00 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:03:56 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (142 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (145 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/095833a8f2a539c9e27ac3170b659237.png" group-title="Phá Làng" , 03/10 13:00 🟢 ⚽ China U23 - Uzbekistan U23 (LÝ LÀNG LÁ)
@@ -13,6 +13,11 @@ https://lilive1.eu.cc/live/982cfe09137f0b0c36f28936096e90f6/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/trung-quoc-vs-pakistan-6a197b5c00924e67a3f9fa8a38560330
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pull.digitalcdn.net/live/314476d9151449c28e0df687f4325047/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png" group-title="Phá Làng" , 03/10 14:00 🟢 ⚽ Machida Zelvia - Kyoto Sanga (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/machida-zelvia-vs-kyoto-sanga-dn1m1ghlz380moe
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/c32683b2370f90d6590d9cde8faf1c6b/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e087c9b939975c0cb726253fc3c3e418.png" group-title="Phá Làng" , 03/10 15:30 🟡 ⚽ Slavia Sofia - Botev Vratsa (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#2y8m4zhv065dql0
@@ -95,6 +100,9 @@ https://phalang1.live/trang-chu#318q66h8zxvoqo9
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1536c802e3079f79b1fdbc57949eb1d3.png" group-title="Phá Làng" , 03/10 18:00 ⚽ Videoton FC Fehérvár - Ujpest FC (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#4jwq2ghgoew7m0v
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d84614f172a18a18947a7567a9625b45.png" group-title="Phá Làng" , 03/10 18:00 ⚽ Halmstads - Osters IF (Chưa có link — chờ cập nhật)
+https://phalang1.live/trang-chu#6ypq3nhk6702md7
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/339c6acafe9c245dc5d8627c60528ca2.png" group-title="Phá Làng" , 03/10 18:00 ⚽ Malmo FF - Nordsjaelland (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#965mkyh8lywgr1g
 
@@ -145,6 +153,9 @@ https://phalang1.live/trang-chu#3glrw7h4k79vqdy
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b44f12592cdcea91812d0d9322114305.png" group-title="Phá Làng" , 03/10 19:00 ⚽ Fomboni FC - 15 de Agosto (Gnq) (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#3glrw7hnv9w6qdy
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e35b0a18753ac961970248dffe403b14.png" group-title="Phá Làng" , 03/10 19:00 ⚽ Ethiopia Women - Seychelles Women (Chưa có link — chờ cập nhật)
+https://phalang1.live/trang-chu#4jwq2ghgogxkm0v
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/04de1da212214d9bac3830890e9c6fc5.png" group-title="Phá Làng" , 03/10 19:00 ⚽ IK Brage - Degerfors IF (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#6ypq3nhk638ymd7
