@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:48:23 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:51:24 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận), Khán Đài (18 trận), Chuối Chiên (4 trận), Phá Làng (13 trận), Gà Vàng (15 trận), Sao Kê (7 trận), GaVang33 (17 trận), Bông Lau (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (18 trận), Chuối Chiên (4 trận), Phá Làng (13 trận), Gà Vàng (15 trận), Sao Kê (4 trận), GaVang33 (17 trận), Bông Lau (4 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/0OsJt6Fa-CxYUcq3p.png" group-title="Giờ Vàng" , 03/10 23:00 🟢 ⚽ Ben Whittaker vs Conor Wallace (Giovang 1)
@@ -35,21 +35,6 @@ https://playback.livetl002.com/live/6a5b13ceb36a14387baeddaa.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a9a5525864ea536c2577392.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6720.png" group-title="Sao Kê" , 04/10 01:45 🟢 ⚽ Spain vs Czechia (Ricky (HD))
-#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8260.png" group-title="Sao Kê" , 04/10 01:45 🟢 ⚽ North Macedonia vs Scotland (Tít (HD))
-#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://wtyi0525.edgemaxcdn.org/live/x2-hd-1111/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6717.png" group-title="Sao Kê" , 04/10 01:45 🟢 ⚽ Switzerland vs Slovenia (Bút Chì (HD))
-#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_738.jpg" group-title="Khán Đài" , 04/10 02:00 🟢 ⚽ Ivory Coast vs Cameroon (Pháo Thủ)
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -74,6 +59,9 @@ https://gavanglinkt.tv/truc-tiep/deportivo-maldonado-vs-central-espanol-ngay-04-
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/40f17f08ff7bb44a641273044db78c64.png" group-title="Gà Vàng" , 04/10 04:05 🟡 ⚽ Deportes Tolima vs Boyaca Chico (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/deportes-tolima-vs-boyaca-chico-ngay-04-10-2026/
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/atletico-mineiro.png" group-title="Giờ Vàng" , 04/10 04:30 🟡 ⚽ Atletico Mineiro vs Bragantino SP (Chưa có link — chờ cập nhật)
+https://giovang.rent/truc-tiep-atletico-mineiro-vs-bragantino-sp-04-10-6a60081e24d46db870322581
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125542_d8ff9d63.png" group-title="Chuối Chiên" , 04/10 04:30 🟡 ⚽ Atletico-MG vs RB Bragantino (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1492310/atletico-mg-vs-rb-bragantino
