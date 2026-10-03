@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:44:34 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:47:32 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Bông Lau (14 trận) =====
 
@@ -10,8 +10,8 @@ https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8|User-Agent=Mozilla
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133419_dd306d1b.png" group-title="Bông Lau" , 03/10 19:00 🟢 ⚽ Albacete vs Eibar (Chuối Lá (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://live.chuoichien.tv/
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Bông Lau" , 03/10 20:00 🟡 ⚽ Finland vs Albania (Chưa có link — chờ cập nhật)
-https://lau06.bonglautv1.org/truc-tiep/1528932
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Bông Lau" , 03/10 20:00 🟢 ⚽ Finland vs Albania (Chuối Kem (FHD))
+https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://live.chuoichien.tv/
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Bông Lau" , 03/10 21:00 ⚽ India vs Brazil (Chưa có link — chờ cập nhật)
 https://lau06.bonglautv1.org/truc-tiep/1632355
