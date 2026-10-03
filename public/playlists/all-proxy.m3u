@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:56:50 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:59:56 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận), Khán Đài (14 trận), Chuối Chiên (13 trận), Phá Làng (94 trận), Gà Vàng (18 trận), Sao Kê (14 trận), GaVang33 (24 trận), Bông Lau (13 trận) =====
 
@@ -61,6 +61,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Chuối Chiên" , 03/10 20:00 🟢 ⚽ Finland vs Albania (Chuối Kem (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikemhd%2Fplaylist.m3u8&source=chuoichientv
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/12c180baf632b3936c187f6ceee5f2b0.png" group-title="Phá Làng" , 03/10 20:00 🟢 ⚽ SC Austria Lustenau - Schalke 04 (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fd557702161770edf1f6bc6d8e3780688%2Fplaylist.m3u8&source=phalang
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/8c0ae90610760cd13ded8c9450e4bd99.png" group-title="Phá Làng" , 03/10 20:00 🟢 ⚽ Finland - Albania (LÝ LÀNG LÁ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F0da76af9b265263aa4066bf5ef60889a%2Fplaylist.m3u8&source=phalang
 
@@ -75,9 +78,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Bông Lau" , 03/10 20:00 🟢 ⚽ Finland vs Albania (Chuối Kem (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikemhd%2Fplaylist.m3u8&source=bonglau
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/12c180baf632b3936c187f6ceee5f2b0.png" group-title="Phá Làng" , 03/10 20:00 🟡 ⚽ SC Austria Lustenau - Schalke 04 (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#3glrw7h4k7g1qdy
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8c03e57af9e8bec20a3ed2f5aaddf78b.png" group-title="Phá Làng" , 03/10 20:00 🟡 ⚽ AJ Auxerre - Clermont (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#dj2ryoh7v7jlq1z

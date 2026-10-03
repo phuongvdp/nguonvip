@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:56:50 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:59:56 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (94 trận) =====
 
@@ -14,6 +14,11 @@ https://lilive1.eu.cc/live/db7558be2fd58b1e75e078779e27dc3b/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/672644714be5367976f3862459ac5a5c/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/12c180baf632b3936c187f6ceee5f2b0.png" group-title="Phá Làng" , 03/10 20:00 🟢 ⚽ SC Austria Lustenau - Schalke 04 (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/sc-austria-lustenau-vs-schalke-04-3glrw7h4k7g1qdy
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/d557702161770edf1f6bc6d8e3780688/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/8c0ae90610760cd13ded8c9450e4bd99.png" group-title="Phá Làng" , 03/10 20:00 🟢 ⚽ Finland - Albania (LÝ LÀNG LÁ)
 #EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/finland-vs-albania-ednm9whw5y45ryo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -23,9 +28,6 @@ https://lilive1.eu.cc/live/0da76af9b265263aa4066bf5ef60889a/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/nilufer-bld-nu-vs-eczacibasi-nu-25e14d4604ed43f5aebf3f8d0cb23cdc
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pull.digitalcdn.net/live/4f4ca130001b4d378b922bf641b6120b/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/12c180baf632b3936c187f6ceee5f2b0.png" group-title="Phá Làng" , 03/10 20:00 🟡 ⚽ SC Austria Lustenau - Schalke 04 (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#3glrw7h4k7g1qdy
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/8c03e57af9e8bec20a3ed2f5aaddf78b.png" group-title="Phá Làng" , 03/10 20:00 🟡 ⚽ AJ Auxerre - Clermont (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#dj2ryoh7v7jlq1z
