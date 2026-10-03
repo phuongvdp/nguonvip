@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:05:25 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:09:24 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (21 trận), Khán Đài (19 trận), Chuối Chiên (19 trận), Phá Làng (147 trận), Gà Vàng (19 trận), Sao Kê (20 trận), GaVang33 (19 trận), Bông Lau (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (19 trận), Chuối Chiên (19 trận), Phá Làng (147 trận), Gà Vàng (19 trận), Sao Kê (20 trận), GaVang33 (19 trận), Bông Lau (19 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -15,9 +15,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.c
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwvnWRBNvGnO1GVEQTNkkJgE_aJlxZDxa0iNQWy_06A&s" group-title="Giờ Vàng" , 03/10 10:00 🟢 🎾 ATP Beijing Open vs ATP Beijing Open (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790988213_hd%2F1790988213_hd%40720p.m3u8&source=giovang
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/fujieda-myfc.png" group-title="Giờ Vàng" , 03/10 12:00 🟢 ⚽ Fujieda MYFC vs Shonan Bellmare (Giovang 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790780421_hd%2F1790780421_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a4bfaa33f9e24bdb4a4952a0b4aab142.png" group-title="Gà Vàng" , 03/10 12:00 🟢 ⚽ Albirex Niigata vs Tokushima Vortis (KAYTI)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69b8e6f43bcf2231c35d5144.m3u8&source=gavang
@@ -76,14 +73,14 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/30683c359531664a5b97f129c047fcdc.png" group-title="Gà Vàng" , 03/10 14:30 🟡 🏀 Anyang JungKwanJang Red Boosters vs Ulsan Mobis Phoebus (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg-QFVk7ywVZkSYvxmUj-esyt7lv4--MPtntztVQQP_OWo7Lp7-XvpMB8&s=10" group-title="Giờ Vàng" , 03/10 15:00 🟡 🏎️ Gulf Air Bahrain Grand Prix vs Gulf Air Bahrain Grand Prix (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-gulf-air-bahrain-grand-prix-vs-gulf-air-bahrain-grand-prix-03-10-v68ny63irrsg
-
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/oita-trinita.png" group-title="Giờ Vàng" , 03/10 15:00 🟡 ⚽ Oita Trinita vs Yamagata Montedio (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-oita-trinita-vs-yamagata-montedio-03-10-6ab9ae1924d46db870ba25d7
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/tochigi-city.png" group-title="Giờ Vàng" , 03/10 15:00 🟡 ⚽ Tochigi City vs Imabari FC (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-tochigi-city-vs-imabari-fc-03-10-6ab9ae1924d46db870ba25df
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg-QFVk7ywVZkSYvxmUj-esyt7lv4--MPtntztVQQP_OWo7Lp7-XvpMB8&s=10" group-title="Giờ Vàng" , 03/10 15:00 🟡 🏎️ Gulf Air Bahrain Grand Prix vs Gulf Air Bahrain Grand Prix (Chưa có link — chờ cập nhật)
+https://giovang.rent/truc-tiep-gulf-air-bahrain-grand-prix-vs-gulf-air-bahrain-grand-prix-03-10-v68ny63irrsg
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/275c4eca0c3dd431c353013d073479b9.png" group-title="Phá Làng" , 03/10 15:00 🟡 ⚽ Chindia Targoviste - Petrolul Ploiesti (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#dj2ryoh7v1l9q1z
