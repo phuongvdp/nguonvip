@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:34:08 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:37:05 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (12 trận), Chuối Chiên (16 trận), Phá Làng (142 trận), Gà Vàng (18 trận), Sao Kê (20 trận), GaVang33 (19 trận), Bông Lau (16 trận) =====
 
@@ -37,14 +37,14 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png" group-title="GaVang33" , 03/10 14:00 🟢 ⚽ Machida Zelvia vs Kyoto Sanga (Gà Siêu Tồ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F796315.m3u8&source=gavang33
 
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/tochigi-city.png" group-title="Giờ Vàng" , 03/10 15:00 🟢 ⚽ Tochigi City vs Imabari FC (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790966665_hd%2F1790966665_hd%40720p.m3u8&source=giovang
+
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3b748d71ceee359ab6cdd2b169d617a9.png" group-title="GaVang33" , 03/10 15:00 🟢 ⚽ Ulsan Citizens vs Siheung City (Gà Siêu Kiêu)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F741294.m3u8&source=gavang33
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/oita-trinita.png" group-title="Giờ Vàng" , 03/10 15:00 🟡 ⚽ Oita Trinita vs Yamagata Montedio (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-oita-trinita-vs-yamagata-montedio-03-10-6ab9ae1924d46db870ba25d7
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/tochigi-city.png" group-title="Giờ Vàng" , 03/10 15:00 🟡 ⚽ Tochigi City vs Imabari FC (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-tochigi-city-vs-imabari-fc-03-10-6ab9ae1924d46db870ba25df
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/275c4eca0c3dd431c353013d073479b9.png" group-title="Phá Làng" , 03/10 15:00 🟡 ⚽ Chindia Targoviste - Petrolul Ploiesti (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#dj2ryoh7v1l9q1z
