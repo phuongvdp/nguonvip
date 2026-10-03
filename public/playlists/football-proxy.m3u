@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 12:27:12 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 12:30:23 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (10 trận), Khán Đài (12 trận), Chuối Chiên (16 trận), Phá Làng (142 trận), Gà Vàng (20 trận), Sao Kê (21 trận), GaVang33 (19 trận), Bông Lau (16 trận) =====
 
@@ -19,8 +19,11 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6b55a647c6ffe4016e025e9f46144d3f.png" group-title="Phá Làng" , 03/10 12:10 🟢 ⚽ Australia U23 - South Korea U23 (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F2ea09a6a6d93932a96fd9321523b3e93%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/china-u23.png" group-title="Giờ Vàng" , 03/10 13:00 🟡 ⚽ Trung Quốc vs Uzbekistan (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-trung-quoc-vs-uzbekistan-03-10-rcep848bfe7s
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/china-u23.png" group-title="Giờ Vàng" , 03/10 13:00 🟢 ⚽ Trung Quốc vs Uzbekistan (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790780582_hd%2F1790780582_hd%40720p.m3u8&source=giovang
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/095833a8f2a539c9e27ac3170b659237.png" group-title="Phá Làng" , 03/10 13:00 🟢 ⚽ China U23 - Uzbekistan U23 (LÝ LÀNG LÁ)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F982cfe09137f0b0c36f28936096e90f6%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9462.jpg" group-title="Khán Đài" , 03/10 13:00 🟡 ⚽ China U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/china-u23-vs-uzbekistan-u23-03-10-2026-860365
@@ -30,9 +33,6 @@ https://live05.chuoichientv.me/live/1643348/china-pr-u23-vs-uzbekistan-u23
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/43f9c122bf617d349407a95d4f709a0d.png" group-title="Phá Làng" , 03/10 13:00 🟡 ⚽ Perth Glory - Adelaide United (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#318q66h8z6oxqo9
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/095833a8f2a539c9e27ac3170b659237.png" group-title="Phá Làng" , 03/10 13:00 🟡 ⚽ China U23 - Uzbekistan U23 (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#4jwq2ghgo632m0v
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/e51f03da53b2f36fc922a7ce18a07476.png" group-title="Gà Vàng" , 03/10 13:00 🟡 ⚽ China U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/china-u23-vs-uzbekistan-u23-ngay-03-10-2026/
