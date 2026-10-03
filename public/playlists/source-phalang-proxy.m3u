@@ -1,20 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:52:01 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:54:37 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (17 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3874dcd109e646cbe7c5e8fb2bd41548.png" group-title="Phá Làng" , 03/10 22:55 🟢 ⚽ Saudi Arabia - Qatar (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F2cf1b7f90e829bb2b64935efc2b265e5%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6cff443cdf72b6dbe440a7814ff9c171.png" group-title="Phá Làng" , 03/10 23:00 🟢 ⚽ Iceland - Bulgaria (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Ffbe6dde151cf1f2c1873cad7b800b034%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bb7e6346a3860008e4ff266ba3b655e8.png" group-title="Phá Làng" , 03/10 23:00 🟢 ⚽ Stade Brestois 29 - Monza (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F9ba3b7af77ebb4cad866d8987fa26314%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5d4accc327a59e55e8138a47ef726e1f.png" group-title="Phá Làng" , 03/10 23:00 🟢 ⚽ Estonia - Luxembourg (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F15aa4802cb59cff27d9fcc25c03a434e%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/0dd224173cbbce9636adbc9e309aec6f.png" group-title="Phá Làng" , 03/10 23:00 🟢 ⚽ Croatia - England (LÝ LONG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fb6f5df2e120738cfa4dc27beea5882ed%2Fplaylist.m3u8&source=phalang

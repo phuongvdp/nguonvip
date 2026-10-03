@@ -1,11 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:52:01 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:54:37 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Bông Lau (9 trận) =====
-
-# ----- Ngày 2026-10-03 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125448_7dd16e8b.png" group-title="Bông Lau" , 03/10 23:00 🟢 ⚽ Croatia vs England (Chuối Nhỏ (FHD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoinhohd%2Fplaylist.m3u8&source=bonglau
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Bông Lau (8 trận) =====
 
 # ----- Ngày 2026-10-04 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125449_8711159b.png" group-title="Bông Lau" , 04/10 01:45 🟡 ⚽ Spain vs Czech Republic (Chưa có link — chờ cập nhật)
