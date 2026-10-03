@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:08:19 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:10:31 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (20 trận), Chuối Chiên (19 trận), Phá Làng (141 trận), Gà Vàng (36 trận), Sao Kê (20 trận), GaVang33 (21 trận), Bông Lau (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (28 trận), Khán Đài (20 trận), Chuối Chiên (20 trận), Phá Làng (142 trận), Gà Vàng (36 trận), Sao Kê (21 trận), GaVang33 (21 trận), Bông Lau (20 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -51,6 +51,9 @@ https://vip3.saoketv40.xyz/thailand-vs-india-6ac04d41721fced7755d0b83.html
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_358dda20.png" group-title="Bông Lau" , 03/10 11:00 🟡 🏐 Thailand vs India (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/999726
+
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9XChDCfKbWISkRuuQ4jx3Jvg4R6ZC5GV3futpLieB9Q&s=10" group-title="Giờ Vàng" , 03/10 11:30 🏎️ F1 vs Bahrain (Chưa có link — chờ cập nhật)
+https://giovang.rent/truc-tiep-f1-vs-bahrain-03-10-bkbp3pykekjd
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/582d7f08840a43e28c42fb66b6c52f28.png" group-title="Gà Vàng" , 03/10 11:35 🏀 Shimane Susanoo Magic vs Nagoya Diamond Dolphins (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/
@@ -402,6 +405,9 @@ https://phalang1.live/trang-chu#6ypq3nhvoe4ymd7
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/294d4b093dbc96a6636d976ce2b3be6f.png" group-title="Phá Làng" , 03/10 19:00 ⚽ NK Natron Maglaj - FK Zeljeznicar (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#dj2ryoh7vejvq1z
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e8fd16a4ffed34f582ba56be5d8ca271.png" group-title="Phá Làng" , 03/10 19:00 ⚽ Pelister Bitola - Bregalnica Stip (Chưa có link — chờ cập nhật)
+https://phalang1.live/trang-chu#n54qllh4545yqvy
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9e421f7303c803d3c69440526ebe92a7.png" group-title="Phá Làng" , 03/10 19:00 ⚽ FC Viktoria Köln - FC Köln (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#pxwrxlhlp5n4ryk
@@ -913,3 +919,12 @@ https://gavang33.me/truc-tiep/usa-vs-mexico-luc-0900-ngay-04-10-2026-k82rekh2z69
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132739_e67768f5.png" group-title="Bông Lau" , 04/10 09:00 ⚽ USA vs Mexico (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1629004
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_143656_72f0bbb2.png" group-title="Chuối Chiên" , 04/10 10:10 ⚽ Necaxa W vs Cruz Azul W (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1603387/necaxa-w-vs-cruz-azul-w
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/980708.png" group-title="Sao Kê" , 04/10 10:10 ⚽ Necaxa (W) vs Cruz Azul (W) (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/necaxa-w-vs-cruz-azul-w-6abf70758117d47caf8cefb0.html
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_143656_72f0bbb2.png" group-title="Bông Lau" , 04/10 10:10 ⚽ Necaxa W vs Cruz Azul W (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1603387
