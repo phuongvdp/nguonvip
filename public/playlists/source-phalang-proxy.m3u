@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:05:35 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:12:14 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (127 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (128 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/693af0d277fe3179594695614dce8666.png" group-title="Phá Làng" , 03/10 16:00 🟢 ⚽ AS Monaco - Pisa (Server 1)
@@ -15,6 +15,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261002/91a80f58f89ac6422bbbf080147640fd.png" group-title="Phá Làng" , 03/10 17:00 🟢 ⚽ Hong Kong - Cambodia (LÝ LINH LỰC)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fb0b2be1d057755b8a75796f4f94cf1f4%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c764da226267244055d08a48e0a773f2.png" group-title="Phá Làng" , 03/10 17:00 🟢 ⚽ Veres  - Kudrivka (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F7abeb36ca34f85e5e6af0904a1b7ebfd%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 03/10 17:20 🟢 🏐 Nhật Bản - Iran (LÝ LÊN LỬA (Server 1))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F9ebf9b79758e46cfaebfedcc8dc4a674%2Findex.m3u8&source=phalang

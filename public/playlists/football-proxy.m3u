@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:05:35 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:12:14 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (11 trận), Chuối Chiên (15 trận), Phá Làng (123 trận), Gà Vàng (17 trận), Sao Kê (18 trận), GaVang33 (21 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (11 trận), Chuối Chiên (15 trận), Phá Làng (124 trận), Gà Vàng (17 trận), Sao Kê (18 trận), GaVang33 (21 trận), Bông Lau (15 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/61e08ae9a3b69ce77f30bf51e71b2a77.png" group-title="Gà Vàng" , 03/10 14:00 🟢 ⚽ Ventforet Kofu vs Kataller Toyama (khang hi)
@@ -36,6 +36,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261002/91a80f58f89ac6422bbbf080147640fd.png" group-title="Phá Làng" , 03/10 17:00 🟢 ⚽ Hong Kong - Cambodia (LÝ LINH LỰC)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fb0b2be1d057755b8a75796f4f94cf1f4%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c764da226267244055d08a48e0a773f2.png" group-title="Phá Làng" , 03/10 17:00 🟢 ⚽ Veres  - Kudrivka (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F7abeb36ca34f85e5e6af0904a1b7ebfd%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250627_220721_a791691e.png" group-title="Sao Kê" , 03/10 17:00 🟢 ⚽ Chinese Taipei vs Việt Nam (Kai (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx00-hd-1111%2Fplaylist.m3u8&source=saoke

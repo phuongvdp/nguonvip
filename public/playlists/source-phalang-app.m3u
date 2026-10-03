@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:05:35 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:12:14 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (127 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (128 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/693af0d277fe3179594695614dce8666.png" group-title="Phá Làng" , 03/10 16:00 🟢 ⚽ AS Monaco - Pisa (Server 1)
@@ -15,6 +15,9 @@ https://pull.digitalcdn.net/live/35df9e6f01bd4c4da75d05f83d683940/index.m3u8|Use
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261002/91a80f58f89ac6422bbbf080147640fd.png" group-title="Phá Làng" , 03/10 17:00 🟢 ⚽ Hong Kong - Cambodia (LÝ LINH LỰC)
 https://lilive1.eu.cc/live/b0b2be1d057755b8a75796f4f94cf1f4/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/hong-kong-vs-cambodia-vjxm8ghkvln9r6o&Origin=https://phalang1.live
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c764da226267244055d08a48e0a773f2.png" group-title="Phá Làng" , 03/10 17:00 🟢 ⚽ Veres  - Kudrivka (Server 1)
+https://lilive1.eu.cc/live/7abeb36ca34f85e5e6af0904a1b7ebfd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/veres-vs-kudrivka-y0or5jh8k8zxqwz&Origin=https://phalang1.live
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 03/10 17:20 🟢 🏐 Nhật Bản - Iran (LÝ LÊN LỬA (Server 1))
 https://pull.digitalcdn.net/live/9ebf9b79758e46cfaebfedcc8dc4a674/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/nhat-ban-vs-iran-9c530eb305f34981aecc45ef8196db37&Origin=https://phalang1.live
