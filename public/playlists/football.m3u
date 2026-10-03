@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:22:58 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:26:00 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (11 trận), Chuối Chiên (14 trận), Phá Làng (95 trận), Gà Vàng (18 trận), Sao Kê (16 trận), GaVang33 (23 trận), Bông Lau (14 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (11 trận), Chuối Chiên (13 trận), Phá Làng (95 trận), Gà Vàng (18 trận), Sao Kê (16 trận), GaVang33 (23 trận), Bông Lau (13 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/kashiwa-reysol.png" group-title="Giờ Vàng" , 03/10 17:00 🟢 ⚽ Kashiwa Reysol vs Gamba Osaka (Giovang 1)
@@ -37,15 +37,8 @@ https://wtyi0525.edgemaxcdn.org/live/x10-hd-1111/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1790966773_hd/1790966773_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images_8kF19fZ.jpg" group-title="Khán Đài" , 03/10 17:30 🟢 ⚽ South Korea U23 vs Japan U23 (Lee Sin)
-#EXTVLCOPT:http-referrer=https://khandai3.link
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Chuối Chiên" , 03/10 17:30 🟢 ⚽ U23 Hàn Quốc  vs Japan U23 (Camry (FHD))
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/camryhd/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images_8kF19fZ.jpg" group-title="Khán Đài" , 03/10 17:30 🟢 ⚽ South Korea U23 vs Japan U23 (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/south-korea-u23-vs-japan-u23-03-10-2026-860366
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/02598ff81c211b703b81e49cf632688b.png" group-title="Phá Làng" , 03/10 17:30 🟢 ⚽ South Korea U23 - Japan U23 (LÝ LA LÀNG)
 #EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/south-korea-u23-vs-japan-u23-ednm9wh58633ryo
@@ -61,11 +54,6 @@ https://playback.livetl002.com/live/69aa9525f5ec459ae275b43f.m3u8
 #EXTVLCOPT:http-referrer=https://sk.mediastation.live/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Bông Lau" , 03/10 17:30 🟢 ⚽ U23 Hàn Quốc  vs Japan U23 (Camry (FHD))
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/camryhd/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1800be60204966114d63970b5d0873da.png" group-title="Phá Làng" , 03/10 18:00 🟢 ⚽ Hannover 96 - SC Verl (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/hannover-96-vs-sc-verl-k82rekh2zwe6rep
@@ -104,8 +92,10 @@ https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fcafc8131a8bb3ae49f77a1378ee1166.png" group-title="Gà Vàng" , 03/10 19:30 🟡 ⚽ Strommen vs Sandnes Ulf (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/strommen-vs-sandnes-ulf-ngay-03-10-2026/
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/finland.png" group-title="Giờ Vàng" , 03/10 20:00 🟡 ⚽ Phần Lan vs Albania (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-phan-lan-vs-albania-03-10-69f2a1a2bb398665fd0908e1
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/finland.png" group-title="Giờ Vàng" , 03/10 20:00 🟢 ⚽ Phần Lan vs Albania (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.rent/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ftlh5sc02iliv.vcdn.cloud/1790966861_hd/1790966861_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_8.jpg" group-title="Khán Đài" , 03/10 20:00 🟡 ⚽ Finland vs Albania (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/finland-vs-albania-03-10-2026-790940
