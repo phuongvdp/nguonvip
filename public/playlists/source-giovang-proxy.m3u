@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:49:50 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:52:26 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận) =====
 
@@ -28,8 +28,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/iran.png" group-title="Giờ Vàng" , 03/10 17:20 🟡 🏐 Iran vs Nhật Bản (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-iran-vs-nhat-ban-03-10-lbwt390xmhlb
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea-u23.png" group-title="Giờ Vàng" , 03/10 17:30 🟡 ⚽ Hàn Quốc vs Nhật Bản (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-han-quoc-vs-nhat-ban-03-10-u6fiwz5ggwyg
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea-u23.png" group-title="Giờ Vàng" , 03/10 17:30 🟢 ⚽ Hàn Quốc vs Nhật Bản (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790966773_hd%2F1790966773_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/finland.png" group-title="Giờ Vàng" , 03/10 20:00 ⚽ Phần Lan vs Albania (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-phan-lan-vs-albania-03-10-69f2a1a2bb398665fd0908e1

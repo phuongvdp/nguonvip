@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:49:50 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:52:26 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (14 trận), Khán Đài (11 trận), Chuối Chiên (15 trận), Phá Làng (131 trận), Gà Vàng (19 trận), Sao Kê (18 trận), GaVang33 (20 trận), Bông Lau (15 trận) =====
 
@@ -124,8 +124,15 @@ https://gavanglinkt.tv/truc-tiep/kashiwa-reysol-vs-gamba-osaka-ngay-03-10-2026/
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Sao Kê" , 03/10 17:20 🟡 ⚽ Japan vs Iran (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/japan-vs-iran-6ac04f40316d23e0189870b1.html
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea-u23.png" group-title="Giờ Vàng" , 03/10 17:30 🟡 ⚽ Hàn Quốc vs Nhật Bản (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-han-quoc-vs-nhat-ban-03-10-u6fiwz5ggwyg
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea-u23.png" group-title="Giờ Vàng" , 03/10 17:30 🟢 ⚽ Hàn Quốc vs Nhật Bản (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.rent/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ftlh5sc02iliv.vcdn.cloud/1790966773_hd/1790966773_hd@720p.m3u8
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/02598ff81c211b703b81e49cf632688b.png" group-title="Phá Làng" , 03/10 17:30 🟢 ⚽ South Korea U23 - Japan U23 (LÝ LA LÀNG)
+#EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/south-korea-u23-vs-japan-u23-ednm9wh58633ryo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/dafe34d6e084ce4a90c18fda523466df/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images_8kF19fZ.jpg" group-title="Khán Đài" , 03/10 17:30 🟡 ⚽ South Korea U23 vs Japan U23 (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/south-korea-u23-vs-japan-u23-03-10-2026-860366
@@ -138,9 +145,6 @@ https://phalang1.live/trang-chu#4jwq2ghgongzm0v
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b0fa01690e4a5c944c861b245b42d5b4.png" group-title="Phá Làng" , 03/10 17:30 🟡 ⚽ Jagiellonia Bialystok - Polonia Warszawa (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#4jwq2ghgonp1m0v
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/02598ff81c211b703b81e49cf632688b.png" group-title="Phá Làng" , 03/10 17:30 🟡 ⚽ South Korea U23 - Japan U23 (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#ednm9wh58633ryo
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/6581bc34692022be4c21d98778e33df0.png" group-title="Gà Vàng" , 03/10 17:30 🟡 ⚽ Korea U23 vs Japan U23 (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/south-korea-u23-vs-japan-u23-ngay-03-10-2026/
