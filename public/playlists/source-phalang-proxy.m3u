@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:59:24 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:02:24 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (35 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (27 trận) =====
 
 # ----- Ngày 2026-10-03 -----
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/8c0ae90610760cd13ded8c9450e4bd99.png" group-title="Phá Làng" , 03/10 20:00 🟢 ⚽ Finland - Albania (LÝ LÀNG LÁ)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F0da76af9b265263aa4066bf5ef60889a%2Fplaylist.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b44ed2e934bbbae323265d36aeaa6d29.png!w80" group-title="Phá Làng" , 03/10 20:00 🟢 🏐 Nilufer Bld. Nữ - Eczacibasi Nữ (LÝ LÊN LỬA (Server 1))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F4f4ca130001b4d378b922bf641b6120b%2Findex.m3u8&source=phalang
 
@@ -19,58 +16,37 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fe3068bbe94dd5f423e9b9a6135d8c40.png" group-title="Phá Làng" , 03/10 22:00 🟢 ⚽ Russia - Namibia (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Ff87cb6741a4cc8f52543c83bd5d49e68%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/eb9b870a25645ded21a7d5e41c207b0a.png" group-title="Phá Làng" , 03/10 22:00 🟡 ⚽ GKS Katowice - FC Baník Ostrava (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#3glrw7h4k7e1qdy
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/991e9e890a049a942e038a042edc2e07.png" group-title="Phá Làng" , 03/10 22:00 🟡 ⚽ Ayema - Association Sportive de la Vallée de l'Ouémé FC (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#3glrw7hnvgj9qdy
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/217e7a62682f9082db7eb2ac4dd4509d.png" group-title="Phá Làng" , 03/10 22:00 🟡 ⚽ Pantheres - Espoir FC Savalou (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#8yomo4h1d675q0j
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bddaeae0cb6deca762a495cf9938bd98.png" group-title="Phá Làng" , 03/10 22:00 🟡 ⚽ ASPAC Cotonou - Dragons (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#dn1m1ghlwgevmoe
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/39c449b37c97ea11e6127478ced3f18f.png" group-title="Phá Làng" , 03/10 22:00 🟡 ⚽ USS Krake - Damissa (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#pxwrxlhyk01lryk
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/709f693365f30926be88929adfeae9f9.png" group-title="Phá Làng" , 03/10 22:00 🟡 ⚽ KV Mechelen - FC Karpaty Lviv (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#vjxm8ghkvlojr6o
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/69321474944fe8251752f8c08ed55866.png" group-title="Phá Làng" , 03/10 22:00 🟡 ⚽ LOTO - Buffles du Borgou (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#x7lm7phj12wdm2w
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/803da3d362e8645e8e6706f33885853a.png" group-title="Phá Làng" , 03/10 22:30 🟡 ⚽ CD Baztan - Atletico Calatayud (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#pxwrxlhyd68eryk
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3874dcd109e646cbe7c5e8fb2bd41548.png" group-title="Phá Làng" , 03/10 22:55 🟡 ⚽ Saudi Arabia - Qatar (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#pxwrxlhy636kryk
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f09820909d495c69ac09e8548fe99694.png" group-title="Phá Làng" , 03/10 23:00 ⚽ CD Ceuta 6 de Junio - UB Lebrijana (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f09820909d495c69ac09e8548fe99694.png" group-title="Phá Làng" , 03/10 23:00 🟡 ⚽ CD Ceuta 6 de Junio - UB Lebrijana (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#2y8m4zh5l2y1ql0
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6cff443cdf72b6dbe440a7814ff9c171.png" group-title="Phá Làng" , 03/10 23:00 ⚽ Iceland - Bulgaria (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6cff443cdf72b6dbe440a7814ff9c171.png" group-title="Phá Làng" , 03/10 23:00 🟡 ⚽ Iceland - Bulgaria (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#4wyrn4h6ypn3q86
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bb7e6346a3860008e4ff266ba3b655e8.png" group-title="Phá Làng" , 03/10 23:00 ⚽ Stade Brestois 29 - Monza (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/bb7e6346a3860008e4ff266ba3b655e8.png" group-title="Phá Làng" , 03/10 23:00 🟡 ⚽ Stade Brestois 29 - Monza (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#4wyrn4hyzx51q86
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/14215ad91a839ba1b4f216001eb02d91.png" group-title="Phá Làng" , 03/10 23:00 ⚽ Turan Tovuz - Fenerbahce (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/14215ad91a839ba1b4f216001eb02d91.png" group-title="Phá Làng" , 03/10 23:00 🟡 ⚽ Turan Tovuz - Fenerbahce (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#dn1m1gh9v2ggmoe
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d99113680ca229c549fa4818a9014288.png" group-title="Phá Làng" , 03/10 23:00 ⚽ Belarus - San Marino (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d99113680ca229c549fa4818a9014288.png" group-title="Phá Làng" , 03/10 23:00 🟡 ⚽ Belarus - San Marino (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#dn1m1ghl9yzymoe
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/66da06a48ee33d0e7b80e3a5233e4fcb.png" group-title="Phá Làng" , 03/10 23:00 ⚽ CD Tedeon - CD Anaitasuna FT (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/66da06a48ee33d0e7b80e3a5233e4fcb.png" group-title="Phá Làng" , 03/10 23:00 🟡 ⚽ CD Tedeon - CD Anaitasuna FT (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#l5ergph4gzx3r8k
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5d4accc327a59e55e8138a47ef726e1f.png" group-title="Phá Làng" , 03/10 23:00 ⚽ Estonia - Luxembourg (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5d4accc327a59e55e8138a47ef726e1f.png" group-title="Phá Làng" , 03/10 23:00 🟡 ⚽ Estonia - Luxembourg (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#l5ergph4kx69r8k
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/02ec38de08e5725d895f41a5cd63e1c7.png" group-title="Phá Làng" , 03/10 23:00 ⚽ AEK Larnaca - Apollon Limassol FC (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/02ec38de08e5725d895f41a5cd63e1c7.png" group-title="Phá Làng" , 03/10 23:00 🟡 ⚽ AEK Larnaca - Apollon Limassol FC (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#l5ergphk0w76r8k
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/0dd224173cbbce9636adbc9e309aec6f.png" group-title="Phá Làng" , 03/10 23:00 ⚽ Croatia - England (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/0dd224173cbbce9636adbc9e309aec6f.png" group-title="Phá Làng" , 03/10 23:00 🟡 ⚽ Croatia - England (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#y39mp1h6dgnemoj
 
 # ----- Ngày 2026-10-04 -----

@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:59:24 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:02:24 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Khán Đài (5 trận), Phá Làng (1 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Khán Đài (7 trận), Phá Làng (1 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/rPFpfgDa-vRpcHup9.png" group-title="Giờ Vàng" , 03/10 20:00 🟢 🏐 Nilufer Bld. vs Eczacibasi (Giovang 1)
@@ -40,3 +40,9 @@ https://giovang.rent/truc-tiep-scandicci-nu-vs-chieri-76-nu-04-10-sttvqsnygthc
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_4898.png" group-title="Khán Đài" , 04/10 21:00 🏐 Scandicci vs Chieri (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/scandicci-vs-chieri
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Imocovolley.png" group-title="Khán Đài" , 04/10 22:00 🏐 Imoco vs Cuneo (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/imoco-vs-cuneo
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/20200107221627Logo_UYBA_Volley.png" group-title="Khán Đài" , 04/10 22:00 🏐 UYBA vs Novara (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/uyba-vs-novara
