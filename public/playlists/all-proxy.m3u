@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:43:48 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:46:52 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (19 trận), Chuối Chiên (19 trận), Phá Làng (149 trận), Gà Vàng (21 trận), Sao Kê (20 trận), GaVang33 (19 trận), Bông Lau (19 trận) =====
 
@@ -31,8 +31,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/china-u23.png" group-title="Giờ Vàng" , 03/10 13:00 🟢 ⚽ Trung Quốc vs Uzbekistan (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790780582_hd%2F1790780582_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9462.jpg" group-title="Khán Đài" , 03/10 13:00 🟢 ⚽ China U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/china-u23-vs-uzbekistan-u23-03-10-2026-860365
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9462.jpg" group-title="Khán Đài" , 03/10 13:00 🟢 ⚽ China U23 vs Uzbekistan U23 (Tày)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa8%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134337_d547f1b2.png" group-title="Chuối Chiên" , 03/10 13:00 🟢 ⚽ China PR U23 vs Uzbekistan U23 (Chuối Chao (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoichaohd%2Fplaylist.m3u8&source=chuoichientv
@@ -52,17 +52,20 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/nuUeFiwS-0peDsUzn.png" group-title="Giờ Vàng" , 03/10 14:00 🟢 🏐 Kazakhstan vs Indonesia (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790961206_hd%2F1790961206_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_Kazakhstan.svg.webp" group-title="Khán Đài" , 03/10 14:00 🟢 🏐 Kazakhstan vs Indonesia (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/kazakhstan-vs-indonesia
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_Kazakhstan.svg.webp" group-title="Khán Đài" , 03/10 14:00 🟢 🏐 Kazakhstan vs Indonesia (Tiểu Mây)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa9%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_OOrZwnR.jpg" group-title="Khán Đài" , 03/10 14:00 🟢 🏐 Trung Quốc vs Pakistan (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/trung-quoc-vs-pakistan
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_OOrZwnR.jpg" group-title="Khán Đài" , 03/10 14:00 🟢 🏐 Trung Quốc vs Pakistan (KaKa)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa7%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Chuối Chiên" , 03/10 14:00 🟢 🏐 China vs Pakistan (Chuối Sấy (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoisayhd%2Fplaylist.m3u8&source=chuoichientv
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80" group-title="Phá Làng" , 03/10 14:00 🟢 🏐 Trung Quốc - Pakistan (LÝ LÊN LỬA (Server 1))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F314476d9151449c28e0df687f4325047%2Findex.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Sao Kê" , 03/10 14:00 🟢 ⚽ China vs Pakistan (Long Ruồi (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx1-hd-1111%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png" group-title="GaVang33" , 03/10 14:00 🟢 ⚽ Machida Zelvia vs Kyoto Sanga (Gà Siêu Tồ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F796315.m3u8&source=gavang33
@@ -84,9 +87,6 @@ https://gavanglinkt.tv/truc-tiep/ventforet-kofu-vs-kataller-toyama-ngay-03-10-20
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png" group-title="Gà Vàng" , 03/10 14:00 🟡 ⚽ Machida Zelvia vs Kyoto Sanga (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/machida-zelvia-vs-kyoto-sanga-ngay-03-10-2026/
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Sao Kê" , 03/10 14:00 🟡 ⚽ China vs Pakistan (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/china-vs-pakistan-6ac04f0deaab1e8b951a7f33.html
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/fd1ef26f7174d02a5a30dbe9e69b45f9.png" group-title="Giờ Vàng" , 03/10 14:30 🟡 🏀 Brisbane Bullets vs Tasmania JackJumpers (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-brisbane-bullets-vs-tasmania-jackjumpers-03-10-10322276

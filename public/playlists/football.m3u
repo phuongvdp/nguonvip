@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:43:48 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:46:52 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (10 trận), Khán Đài (12 trận), Chuối Chiên (16 trận), Phá Làng (144 trận), Gà Vàng (19 trận), Sao Kê (20 trận), GaVang33 (19 trận), Bông Lau (16 trận) =====
 
@@ -29,8 +29,10 @@ https://lilive1.eu.cc/live/2ea09a6a6d93932a96fd9321523b3e93/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pzhgifbkllliv.vcdn.cloud/1790780582_hd/1790780582_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9462.jpg" group-title="Khán Đài" , 03/10 13:00 🟢 ⚽ China U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/china-u23-vs-uzbekistan-u23-03-10-2026-860365
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9462.jpg" group-title="Khán Đài" , 03/10 13:00 🟢 ⚽ China U23 vs Uzbekistan U23 (Tày)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134337_d547f1b2.png" group-title="Chuối Chiên" , 03/10 13:00 🟢 ⚽ China PR U23 vs Uzbekistan U23 (Chuối Chao (FHD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
@@ -52,6 +54,11 @@ https://wtyi0525.edgemaxcdn.org/live/x2-hd-1111/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Sao Kê" , 03/10 14:00 🟢 ⚽ China vs Pakistan (Long Ruồi (HD))
+#EXTVLCOPT:http-referrer=https://sk.mediastation.live/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://wtyi0525.edgemaxcdn.org/live/x1-hd-1111/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png" group-title="GaVang33" , 03/10 14:00 🟢 ⚽ Machida Zelvia vs Kyoto Sanga (Gà Siêu Tồ)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/796315.m3u8
@@ -70,9 +77,6 @@ https://gavanglinkt.tv/truc-tiep/ventforet-kofu-vs-kataller-toyama-ngay-03-10-20
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png" group-title="Gà Vàng" , 03/10 14:00 🟡 ⚽ Machida Zelvia vs Kyoto Sanga (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/machida-zelvia-vs-kyoto-sanga-ngay-03-10-2026/
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Sao Kê" , 03/10 14:00 🟡 ⚽ China vs Pakistan (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/china-vs-pakistan-6ac04f0deaab1e8b951a7f33.html
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/oita-trinita.png" group-title="Giờ Vàng" , 03/10 15:00 ⚽ Oita Trinita vs Yamagata Montedio (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-oita-trinita-vs-yamagata-montedio-03-10-6ab9ae1924d46db870ba25d7
