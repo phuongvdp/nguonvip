@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:40:20 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:43:38 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (11 trận), Chuối Chiên (13 trận), Phá Làng (78 trận), Gà Vàng (17 trận), Sao Kê (14 trận), GaVang33 (26 trận), Bông Lau (13 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (11 trận), Chuối Chiên (13 trận), Phá Làng (79 trận), Gà Vàng (17 trận), Sao Kê (14 trận), GaVang33 (26 trận), Bông Lau (13 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/d272859d78eb8ca7a14753f4293fbf45.png" group-title="GaVang33" , 03/10 17:00 🟢 ⚽ Kashiwa Reysol vs Gamba Osaka (Gà Siêu Nhí)
@@ -12,6 +12,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133419_dd306d1b.png" group-title="Chuối Chiên" , 03/10 19:00 🟢 ⚽ Albacete vs Eibar (Chuối Lá (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoilahd%2Fplaylist.m3u8&source=chuoichientv
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5cf9048be5c1b4c7b7cb573230467256.png" group-title="Phá Làng" , 03/10 19:00 🟢 ⚽ FC Pari Nizhniy Novgorod - Rotor Volgograd (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F2c4152434a30120c91da4c20ef1fcc7d%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/5f371fba064362ca54b15d0429869494.png" group-title="Phá Làng" , 03/10 19:00 🟢 ⚽ Albacete Balompié SAD - Eibar (LÝ LONG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F672644714be5367976f3862459ac5a5c%2Fplaylist.m3u8&source=phalang
@@ -66,6 +69,9 @@ https://gavanglinkt.tv/truc-tiep/liverpool-uru-vs-club-atletico-progreso-ngay-03
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/india.png" group-title="Giờ Vàng" , 03/10 21:00 🟢 ⚽ Ấn Độ vs Brazil (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1791025202_hd%2F1791025202_hd%40720p.m3u8&source=giovang
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/705d1a1b1eb532bc7ea002915b95101f.png" group-title="Phá Làng" , 03/10 21:00 🟢 ⚽ India - Brazil (LÝ LA LÀNG)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F6fef4306b6d5ed9e117ed5198e899d03%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Chuối Chiên" , 03/10 21:00 🟡 ⚽ India vs Brazil (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1632355/india-vs-brazil
@@ -135,9 +141,6 @@ https://phalang1.live/trang-chu#dn1m1gh9v7x5moe
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/03770b48c47d5bbb0c02cc5130b25ece.png" group-title="Phá Làng" , 03/10 21:00 🟡 ⚽ Morecambe - Darlington (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#ednm9wh58xolryo
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/705d1a1b1eb532bc7ea002915b95101f.png" group-title="Phá Làng" , 03/10 21:00 🟡 ⚽ India - Brazil (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#ednm9whwnj4xryo
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/766ec2f36993da2e44fa8c055e65b6de.png" group-title="Phá Làng" , 03/10 21:00 🟡 ⚽ Trafford - Atherton Collieries (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#jw2r09h5493lrz8

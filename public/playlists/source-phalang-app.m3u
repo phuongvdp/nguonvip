@@ -1,9 +1,12 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:40:20 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:43:38 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (79 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (80 trận) =====
 
 # ----- Ngày 2026-10-03 -----
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5cf9048be5c1b4c7b7cb573230467256.png" group-title="Phá Làng" , 03/10 19:00 🟢 ⚽ FC Pari Nizhniy Novgorod - Rotor Volgograd (Server 1)
+https://lilive1.eu.cc/live/2c4152434a30120c91da4c20ef1fcc7d/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/fc-pari-nizhniy-novgorod-vs-rotor-volgograd-2y8m4zhv0wg3ql0&Origin=https://phalang1.live
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/5f371fba064362ca54b15d0429869494.png" group-title="Phá Làng" , 03/10 19:00 🟢 ⚽ Albacete Balompié SAD - Eibar (LÝ LONG)
 https://lilive1.eu.cc/live/672644714be5367976f3862459ac5a5c/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/albacete-balompie-sad-vs-eibar-6ypq3nhvoe4ymd7&Origin=https://phalang1.live
 
@@ -18,6 +21,9 @@ https://pull.digitalcdn.net/live/4f4ca130001b4d378b922bf641b6120b/index.m3u8|Use
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/65503b155488a643de688e8dfa849b1f.png" group-title="Phá Làng" , 03/10 20:30 🟢 ⚽ FC St. Pauli - Borussia Monchengladbach (Server 1)
 https://lilive1.eu.cc/live/14e168ba3a74eb1e2bc316ecb22282ce/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/fc-st-pauli-vs-borussia-monchengladbach-965mkyh8l23wr1g&Origin=https://phalang1.live
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/705d1a1b1eb532bc7ea002915b95101f.png" group-title="Phá Làng" , 03/10 21:00 🟢 ⚽ India - Brazil (LÝ LA LÀNG)
+https://lilive1.eu.cc/live/6fef4306b6d5ed9e117ed5198e899d03/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/india-vs-brazil-ednm9whwnj4xryo&Origin=https://phalang1.live
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7385db9a3f11415bc0e9e2625fae3734.png" group-title="Phá Làng" , 03/10 21:00 🟡 ⚽ Kettering Town - Worcester City (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#1l4rjnhny5ggm7v
@@ -84,9 +90,6 @@ https://phalang1.live/trang-chu#dn1m1gh9v7x5moe
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/03770b48c47d5bbb0c02cc5130b25ece.png" group-title="Phá Làng" , 03/10 21:00 🟡 ⚽ Morecambe - Darlington (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#ednm9wh58xolryo
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/705d1a1b1eb532bc7ea002915b95101f.png" group-title="Phá Làng" , 03/10 21:00 🟡 ⚽ India - Brazil (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#ednm9whwnj4xryo
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/766ec2f36993da2e44fa8c055e65b6de.png" group-title="Phá Làng" , 03/10 21:00 🟡 ⚽ Trafford - Atherton Collieries (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#jw2r09h5493lrz8
