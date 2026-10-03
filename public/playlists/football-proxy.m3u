@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:27:37 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:30:37 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (11 trận), Chuối Chiên (15 trận), Phá Làng (112 trận), Gà Vàng (20 trận), Sao Kê (18 trận), GaVang33 (21 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (11 trận), Chuối Chiên (15 trận), Phá Làng (108 trận), Gà Vàng (19 trận), Sao Kê (18 trận), GaVang33 (20 trận), Bông Lau (15 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/kashiwa-reysol.png" group-title="Giờ Vàng" , 03/10 17:00 🟢 ⚽ Kashiwa Reysol vs Gamba Osaka (Giovang 1)
@@ -73,26 +73,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1800be60204966114d63970b5d0873da.png" group-title="Phá Làng" , 03/10 18:00 🟢 ⚽ Hannover 96 - SC Verl (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F48f62b9d94d297e578174438685a1530%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/aa54b4b022f88b8566c7834ee5fc3e12.png" group-title="GaVang33" , 03/10 18:30 🟢 ⚽ Brentwood Town vs Dagenham   Redbridge (Gà Siêu Tốc)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F307240.m3u8&source=gavang33
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d4aace06743a4a5df8221771f870f077.png" group-title="Phá Làng" , 03/10 18:30 🟡 ⚽ Fakel Voronezh - FK Vitebsk (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#8yomo4hye38oq0j
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/487d9eecf77605c17123cc81e37313f3.png" group-title="Phá Làng" , 03/10 18:30 🟡 ⚽ Hammarby - Vasteras SK FK (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#l5ergphk0l39r8k
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d49ab93fbac0f4602293bac98b94d9c0.png" group-title="Phá Làng" , 03/10 18:30 🟡 ⚽ Lech Poznan - Energie Cottbus (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#vjxm8ghkvever6o
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aa54b4b022f88b8566c7834ee5fc3e12.png" group-title="Phá Làng" , 03/10 18:30 🟡 ⚽ Brentwood Town - Dagenham   Redbridge (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#y0or5jh9x6wzqwz
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/42396d18444156e640c37476c2b41b93.png" group-title="Phá Làng" , 03/10 18:30 🟡 ⚽ Crystal Palace - Bristol City (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#y0or5jh9x81pqwz
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/d745193354f961e58538fdd1a5ebc6f3.png" group-title="Gà Vàng" , 03/10 18:30 🟡 ⚽ Chesterfield vs Tranmere Rovers (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/chesterfield-vs-tranmere-rovers-ngay-03-10-2026/
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aa54b4b022f88b8566c7834ee5fc3e12.png" group-title="Phá Làng" , 03/10 18:30 🟢 ⚽ Brentwood Town - Dagenham   Redbridge (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fdb7558be2fd58b1e75e078779e27dc3b%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133419_dd306d1b.png" group-title="Chuối Chiên" , 03/10 19:00 🟡 ⚽ Albacete vs Eibar (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1569948/albacete-vs-eibar
@@ -142,7 +124,7 @@ https://gavang33.me/truc-tiep/albacete-balompie-sad-vs-eibar-luc-1900-ngay-03-10
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133419_dd306d1b.png" group-title="Bông Lau" , 03/10 19:00 🟡 ⚽ Albacete vs Eibar (Chưa có link — chờ cập nhật)
 https://lau06.bonglautv1.org/truc-tiep/1569948
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fcafc8131a8bb3ae49f77a1378ee1166.png" group-title="Gà Vàng" , 03/10 19:30 ⚽ Strommen vs Sandnes Ulf (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fcafc8131a8bb3ae49f77a1378ee1166.png" group-title="Gà Vàng" , 03/10 19:30 🟡 ⚽ Strommen vs Sandnes Ulf (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/strommen-vs-sandnes-ulf-ngay-03-10-2026/
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/finland.png" group-title="Giờ Vàng" , 03/10 20:00 ⚽ Phần Lan vs Albania (Chưa có link — chờ cập nhật)
