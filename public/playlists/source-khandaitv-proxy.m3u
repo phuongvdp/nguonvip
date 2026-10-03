@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:56:07 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:58:41 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (17 trận) =====
 
 # ----- Ngày 2026-10-04 -----
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_738.jpg" group-title="Khán Đài" , 04/10 02:00 🟢 ⚽ Ivory Coast vs Cameroon (Pháo Thủ)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa4%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dfaaa23580764370ed378ecd708c9f262&source=khandaitv
-
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_7694_CsCkv9g.png" group-title="Khán Đài" , 04/10 17:00 🏐 Fenerbahce vs Manisa BB (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/fenerbahce-vs-manisa-bb
 
