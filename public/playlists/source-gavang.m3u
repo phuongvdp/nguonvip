@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:58:03 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:01:00 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (17 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a4bfaa33f9e24bdb4a4952a0b4aab142.png" group-title="Gà Vàng" , 03/10 12:00 🟢 ⚽ Albirex Niigata vs Tokushima Vortis (KAYTI)
@@ -13,12 +13,6 @@ https://playback.livetl002.com/live/69b8e6f43bcf2231c35d5144.m3u8
 #EXTVLCOPT:http-referrer=https://gavanglinkt.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a01a2511e8555d7a3685f5c.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/68bbaa087749b718f6399542f3f51e6d.png" group-title="Gà Vàng" , 03/10 15:00 🟡 ⚽ Oita Trinita vs Montedio Yamagata (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/oita-trinita-vs-montedio-yamagata-ngay-03-10-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/0587c755424c4e6290e45f9c52fb7b13.png" group-title="Gà Vàng" , 03/10 15:00 🟡 ⚽ Tochigi City vs Imabari FC (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/tochigi-city-vs-fc-imabari-ngay-03-10-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a707913a6243a0bf393035cbdbfbccf0.png" group-title="Gà Vàng" , 03/10 17:00 ⚽ Veres vs Kudrivka (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/veres-vs-kudrivka-ngay-03-10-2026/
