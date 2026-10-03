@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:56:24 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:01:27 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (23 trận), Khán Đài (19 trận), Chuối Chiên (19 trận), Phá Làng (149 trận), Gà Vàng (21 trận), Sao Kê (20 trận), GaVang33 (19 trận), Bông Lau (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (19 trận), Chuối Chiên (19 trận), Phá Làng (148 trận), Gà Vàng (19 trận), Sao Kê (20 trận), GaVang33 (19 trận), Bông Lau (19 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -64,6 +64,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80" group-title="Phá Làng" , 03/10 14:00 🟢 🏐 Trung Quốc - Pakistan (LÝ LÊN LỬA (Server 1))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F314476d9151449c28e0df687f4325047%2Findex.m3u8&source=phalang
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png" group-title="Phá Làng" , 03/10 14:00 🟢 ⚽ Machida Zelvia - Kyoto Sanga (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fc32683b2370f90d6590d9cde8faf1c6b%2Fplaylist.m3u8&source=phalang
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Sao Kê" , 03/10 14:00 🟢 ⚽ China vs Pakistan (Long Ruồi (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx1-hd-1111%2Fplaylist.m3u8&source=saoke
 
@@ -73,49 +76,34 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Bông Lau" , 03/10 14:00 🟢 🏐 China vs Pakistan (Chuối Sấy (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoisayhd%2Fplaylist.m3u8&source=bonglau
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTyQbV7R_wsuY6OfdPSIu1WhPyrDH-xXNobnjpwe0mzw&s=10" group-title="Giờ Vàng" , 03/10 14:00 🟡 ⚽ Machida Zelvia vs Kyoto Sanga (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-machida-zelvia-vs-kyoto-sanga-03-10-l4mwp2fvcukx
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9594e7abdcb42f6e8a178db6d4f37a94.png" group-title="Phá Làng" , 03/10 14:00 🟡 ⚽ Ararat Yerevan - Ararat-Armenia FC (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#1l4rjnhny9nlm7v
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png" group-title="Phá Làng" , 03/10 14:00 🟡 ⚽ Machida Zelvia - Kyoto Sanga (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#dn1m1ghlz380moe
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/61e08ae9a3b69ce77f30bf51e71b2a77.png" group-title="Gà Vàng" , 03/10 14:00 🟡 ⚽ Ventforet Kofu vs Kataller Toyama (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/ventforet-kofu-vs-kataller-toyama-ngay-03-10-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png" group-title="Gà Vàng" , 03/10 14:00 🟡 ⚽ Machida Zelvia vs Kyoto Sanga (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/machida-zelvia-vs-kyoto-sanga-ngay-03-10-2026/
-
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/fd1ef26f7174d02a5a30dbe9e69b45f9.png" group-title="Giờ Vàng" , 03/10 14:30 🟡 🏀 Brisbane Bullets vs Tasmania JackJumpers (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-brisbane-bullets-vs-tasmania-jackjumpers-03-10-10322276
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/30683c359531664a5b97f129c047fcdc.png" group-title="Gà Vàng" , 03/10 14:30 🟡 🏀 Anyang JungKwanJang Red Boosters vs Ulsan Mobis Phoebus (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg-QFVk7ywVZkSYvxmUj-esyt7lv4--MPtntztVQQP_OWo7Lp7-XvpMB8&s=10" group-title="Giờ Vàng" , 03/10 15:00 🏎️ Gulf Air Bahrain Grand Prix vs Gulf Air Bahrain Grand Prix (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg-QFVk7ywVZkSYvxmUj-esyt7lv4--MPtntztVQQP_OWo7Lp7-XvpMB8&s=10" group-title="Giờ Vàng" , 03/10 15:00 🟡 🏎️ Gulf Air Bahrain Grand Prix vs Gulf Air Bahrain Grand Prix (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-gulf-air-bahrain-grand-prix-vs-gulf-air-bahrain-grand-prix-03-10-v68ny63irrsg
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/oita-trinita.png" group-title="Giờ Vàng" , 03/10 15:00 ⚽ Oita Trinita vs Yamagata Montedio (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/oita-trinita.png" group-title="Giờ Vàng" , 03/10 15:00 🟡 ⚽ Oita Trinita vs Yamagata Montedio (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-oita-trinita-vs-yamagata-montedio-03-10-6ab9ae1924d46db870ba25d7
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/tochigi-city.png" group-title="Giờ Vàng" , 03/10 15:00 ⚽ Tochigi City vs Imabari FC (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/tochigi-city.png" group-title="Giờ Vàng" , 03/10 15:00 🟡 ⚽ Tochigi City vs Imabari FC (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-tochigi-city-vs-imabari-fc-03-10-6ab9ae1924d46db870ba25df
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/275c4eca0c3dd431c353013d073479b9.png" group-title="Phá Làng" , 03/10 15:00 ⚽ Chindia Targoviste - Petrolul Ploiesti (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/275c4eca0c3dd431c353013d073479b9.png" group-title="Phá Làng" , 03/10 15:00 🟡 ⚽ Chindia Targoviste - Petrolul Ploiesti (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#dj2ryoh7v1l9q1z
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f5d0b3f174168088f64f65b47af718fa.png" group-title="Phá Làng" , 03/10 15:00 ⚽ Arges - CSM Slatina (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f5d0b3f174168088f64f65b47af718fa.png" group-title="Phá Làng" , 03/10 15:00 🟡 ⚽ Arges - CSM Slatina (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#dn1m1gh9vp49moe
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/68bbaa087749b718f6399542f3f51e6d.png" group-title="Gà Vàng" , 03/10 15:00 ⚽ Oita Trinita vs Montedio Yamagata (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/68bbaa087749b718f6399542f3f51e6d.png" group-title="Gà Vàng" , 03/10 15:00 🟡 ⚽ Oita Trinita vs Montedio Yamagata (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/oita-trinita-vs-montedio-yamagata-ngay-03-10-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/0587c755424c4e6290e45f9c52fb7b13.png" group-title="Gà Vàng" , 03/10 15:00 ⚽ Tochigi City vs Imabari FC (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/0587c755424c4e6290e45f9c52fb7b13.png" group-title="Gà Vàng" , 03/10 15:00 🟡 ⚽ Tochigi City vs Imabari FC (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/tochigi-city-vs-fc-imabari-ngay-03-10-2026/
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3b748d71ceee359ab6cdd2b169d617a9.png" group-title="GaVang33" , 03/10 15:00 ⚽ Ulsan Citizens vs Siheung City (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3b748d71ceee359ab6cdd2b169d617a9.png" group-title="GaVang33" , 03/10 15:00 🟡 ⚽ Ulsan Citizens vs Siheung City (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/ulsan-citizens-vs-siheung-city-luc-1500-ngay-03-10-2026-y39mp1h66ye1moj
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e087c9b939975c0cb726253fc3c3e418.png" group-title="Phá Làng" , 03/10 15:30 ⚽ Slavia Sofia - Botev Vratsa (Chưa có link — chờ cập nhật)

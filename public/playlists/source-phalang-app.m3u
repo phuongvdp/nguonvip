@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:56:24 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:01:47 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (149 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (148 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6b55a647c6ffe4016e025e9f46144d3f.png" group-title="Phá Làng" , 03/10 12:10 🟢 ⚽ Australia U23 - South Korea U23 (Server 1)
@@ -13,16 +13,13 @@ https://lilive1.eu.cc/live/982cfe09137f0b0c36f28936096e90f6/playlist.m3u8|User-A
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80" group-title="Phá Làng" , 03/10 14:00 🟢 🏐 Trung Quốc - Pakistan (LÝ LÊN LỬA (Server 1))
 https://pull.digitalcdn.net/live/314476d9151449c28e0df687f4325047/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/trung-quoc-vs-pakistan-6a197b5c00924e67a3f9fa8a38560330&Origin=https://phalang1.live
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9594e7abdcb42f6e8a178db6d4f37a94.png" group-title="Phá Làng" , 03/10 14:00 🟡 ⚽ Ararat Yerevan - Ararat-Armenia FC (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#1l4rjnhny9nlm7v
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png" group-title="Phá Làng" , 03/10 14:00 🟢 ⚽ Machida Zelvia - Kyoto Sanga (Server 1)
+https://lilive1.eu.cc/live/c32683b2370f90d6590d9cde8faf1c6b/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/machida-zelvia-vs-kyoto-sanga-dn1m1ghlz380moe&Origin=https://phalang1.live
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png" group-title="Phá Làng" , 03/10 14:00 🟡 ⚽ Machida Zelvia - Kyoto Sanga (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#dn1m1ghlz380moe
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/275c4eca0c3dd431c353013d073479b9.png" group-title="Phá Làng" , 03/10 15:00 ⚽ Chindia Targoviste - Petrolul Ploiesti (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/275c4eca0c3dd431c353013d073479b9.png" group-title="Phá Làng" , 03/10 15:00 🟡 ⚽ Chindia Targoviste - Petrolul Ploiesti (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#dj2ryoh7v1l9q1z
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f5d0b3f174168088f64f65b47af718fa.png" group-title="Phá Làng" , 03/10 15:00 ⚽ Arges - CSM Slatina (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f5d0b3f174168088f64f65b47af718fa.png" group-title="Phá Làng" , 03/10 15:00 🟡 ⚽ Arges - CSM Slatina (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#dn1m1gh9vp49moe
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e087c9b939975c0cb726253fc3c3e418.png" group-title="Phá Làng" , 03/10 15:30 ⚽ Slavia Sofia - Botev Vratsa (Chưa có link — chờ cập nhật)
