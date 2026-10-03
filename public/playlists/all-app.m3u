@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:27:48 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:30:45 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (19 trận), Chuối Chiên (18 trận), Phá Làng (144 trận), Gà Vàng (21 trận), Sao Kê (19 trận), GaVang33 (19 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (31 trận), Khán Đài (19 trận), Chuối Chiên (18 trận), Phá Làng (141 trận), Gà Vàng (21 trận), Sao Kê (19 trận), GaVang33 (20 trận), Bông Lau (18 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -67,15 +67,6 @@ https://playback.livetl002.com/live/6a704ad865997681f18c2160.m3u8|User-Agent=Moz
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3b748d71ceee359ab6cdd2b169d617a9.png" group-title="GaVang33" , 03/10 15:00 🟢 ⚽ Ulsan Citizens vs Siheung City (Gà Siêu Kiêu)
 https://live2.zktsva.app/live/741294.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e087c9b939975c0cb726253fc3c3e418.png" group-title="Phá Làng" , 03/10 15:30 🟡 ⚽ Slavia Sofia - Botev Vratsa (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#2y8m4zhv065dql0
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5517b8865aa5280667bd899f6810d466.png" group-title="Phá Làng" , 03/10 15:30 🟡 ⚽ Lokomotiv Moscow - FC Orenburg (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#8yomo4hye31oq0j
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/92157b3833b66ce1be772afeb73fc0e1.png" group-title="Phá Làng" , 03/10 15:30 🟡 ⚽ FC Otelul Galati - FC Bacau (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#n54qllh45n1eqvy
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2947fe2f42551a5b7eccca7fc948f879.png" group-title="Phá Làng" , 03/10 16:00 🟡 ⚽ Toulouse FC - Pau FC (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#23xmvkhyv69dqg8
 
@@ -91,10 +82,10 @@ https://phalang1.live/trang-chu#965mkyh8ly70r1g
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/92cc8702aeb25510aeca93022432699d.png" group-title="Phá Làng" , 03/10 16:00 🟡 ⚽ NK Osijek - Bijelo Brdo (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#zp5rzgh3yg4pq82
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/21d2a46a9599ab792dc3a7884839072f.png" group-title="Giờ Vàng" , 03/10 16:30 🏀 Melbourne United vs Cairns Taipans (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/21d2a46a9599ab792dc3a7884839072f.png" group-title="Giờ Vàng" , 03/10 16:30 🟡 🏀 Melbourne United vs Cairns Taipans (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-melbourne-united-vs-cairns-taipans-03-10-11322277
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7ff892bf59463a54fa406496ca8e4f3f.png" group-title="Phá Làng" , 03/10 16:30 ⚽ SK Artis Brno - Trencin (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7ff892bf59463a54fa406496ca8e4f3f.png" group-title="Phá Làng" , 03/10 16:30 🟡 ⚽ SK Artis Brno - Trencin (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#dj2ryoh7vek6q1z
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/kashiwa-reysol.png" group-title="Giờ Vàng" , 03/10 17:00 ⚽ Kashiwa Reysol vs Gamba Osaka (Chưa có link — chờ cập nhật)
@@ -868,3 +859,9 @@ https://vip3.saoketv40.xyz/necaxa-w-vs-cruz-azul-w-6abf70758117d47caf8cefb0.html
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_143656_72f0bbb2.png" group-title="Bông Lau" , 04/10 10:10 ⚽ Necaxa W vs Cruz Azul W (Chưa có link — chờ cập nhật)
 https://lau06.bonglautv1.org/truc-tiep/1603387
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/ERrhauyS-2sRnFBPj.png" group-title="Giờ Vàng" , 04/10 15:30 ⚽ Barito Putera vs Persela (Chưa có link — chờ cập nhật)
+https://giovang.rent/truc-tiep-barito-putera-vs-persela-04-10-k20w13z8ti4q
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/631d7950b866054f174c8d7389418f3b.png" group-title="GaVang33" , 04/10 15:30 ⚽ Barito Putera vs Persela Lamongan (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/barito-putera-vs-persela-lamongan-luc-1530-ngay-04-10-2026-x7lm7phj4dd3m2w

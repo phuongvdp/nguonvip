@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:27:48 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:30:46 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (144 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (141 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80" group-title="Phá Làng" , 03/10 14:00 🟢 🏐 Trung Quốc - Pakistan (LÝ LÊN LỬA (Server 1))
@@ -13,15 +13,6 @@ https://pull.digitalcdn.net/live/314476d9151449c28e0df687f4325047/index.m3u8
 #EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/machida-zelvia-vs-kyoto-sanga-dn1m1ghlz380moe
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/c32683b2370f90d6590d9cde8faf1c6b/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e087c9b939975c0cb726253fc3c3e418.png" group-title="Phá Làng" , 03/10 15:30 🟡 ⚽ Slavia Sofia - Botev Vratsa (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#2y8m4zhv065dql0
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5517b8865aa5280667bd899f6810d466.png" group-title="Phá Làng" , 03/10 15:30 🟡 ⚽ Lokomotiv Moscow - FC Orenburg (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#8yomo4hye31oq0j
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/92157b3833b66ce1be772afeb73fc0e1.png" group-title="Phá Làng" , 03/10 15:30 🟡 ⚽ FC Otelul Galati - FC Bacau (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#n54qllh45n1eqvy
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/2947fe2f42551a5b7eccca7fc948f879.png" group-title="Phá Làng" , 03/10 16:00 🟡 ⚽ Toulouse FC - Pau FC (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#23xmvkhyv69dqg8
@@ -38,7 +29,7 @@ https://phalang1.live/trang-chu#965mkyh8ly70r1g
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/92cc8702aeb25510aeca93022432699d.png" group-title="Phá Làng" , 03/10 16:00 🟡 ⚽ NK Osijek - Bijelo Brdo (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#zp5rzgh3yg4pq82
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7ff892bf59463a54fa406496ca8e4f3f.png" group-title="Phá Làng" , 03/10 16:30 ⚽ SK Artis Brno - Trencin (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7ff892bf59463a54fa406496ca8e4f3f.png" group-title="Phá Làng" , 03/10 16:30 🟡 ⚽ SK Artis Brno - Trencin (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#dj2ryoh7vek6q1z
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f4e1f24b1926a5646c522cd99e4c9358.png" group-title="Phá Làng" , 03/10 17:00 ⚽ FC Bukovyna Chernivtsi - FK Epitsentr Dunayivtsi (Chưa có link — chờ cập nhật)
