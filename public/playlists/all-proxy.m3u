@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:44:40 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:47:21 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (34 trận), Khán Đài (17 trận), Chuối Chiên (7 trận), Phá Làng (15 trận), Gà Vàng (19 trận), Sao Kê (8 trận), GaVang33 (22 trận), Bông Lau (7 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (35 trận), Khán Đài (22 trận), Chuối Chiên (7 trận), Phá Làng (15 trận), Gà Vàng (16 trận), Sao Kê (8 trận), GaVang33 (22 trận), Bông Lau (7 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/344c0d0b85274807ba668a603ef5a05e.png" group-title="GaVang33" , 03/10 22:55 🟢 ⚽ Saudi Arabia vs Qatar (Gà Siêu Tồ)
@@ -107,17 +107,11 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125452_c8ee16a6.png" group-title="Bông Lau" , 04/10 01:45 🟢 ⚽ Switzerland vs Slovenia (Chuối Tây (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitayhd%2Fplaylist.m3u8&source=bonglau
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/9c1958aa257c4a318f87cb4b2d79fa11.png" group-title="Gà Vàng" , 04/10 01:45 🟡 ⚽ Spain vs Czechia (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/spain-vs-czechia-ngay-04-10-2026/
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/fad87ff2077540c8a951ade88a87901d.png" group-title="Gà Vàng" , 04/10 01:45 🟡 ⚽ Switzerland vs Slovenia (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/switzerland-vs-slovenia-ngay-04-10-2026/
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f06adf060c098f11e76fa2ff1565ba70.png" group-title="Gà Vàng" , 04/10 01:45 🟡 ⚽ North Macedonia vs Scotland (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/north-macedonia-vs-scotland-ngay-04-10-2026/
-
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_738.jpg" group-title="Khán Đài" , 04/10 02:00 🟢 ⚽ Ivory Coast vs Cameroon (Pháo Thủ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa4%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dfaaa23580764370ed378ecd708c9f262&source=khandaitv
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6629.png" group-title="Sao Kê" , 04/10 02:00 🟢 ⚽ Cameroon vs Ivory Coast (Mơ (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx68-hd-1111%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/db5f54482ae28e132611f4c928b6f672.png" group-title="Phá Làng" , 04/10 02:00 🟡 ⚽ Cote d'Ivoire - Cameroon (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#965mkyh8l543r1g
@@ -130,9 +124,6 @@ https://gavanglinkt.tv/truc-tiep/atletico-clube-goianiense-vs-america-mg-ngay-04
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/3190d6d022fe9b36c65d83cf98e16d15.png" group-title="Gà Vàng" , 04/10 02:00 🟡 ⚽ Aguilas Doradas vs Jaguares de Cordoba (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/aguilas-doradas-vs-jaguares-de-cordoba-ngay-04-10-2026/
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6629.png" group-title="Sao Kê" , 04/10 02:00 🟡 ⚽ Cameroon vs Ivory Coast (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/cameroon-vs-ivory-coast-6abf7062b9c200d560485f0e.html
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/17962554eedf40e0af9df1fc346ce09e.png" group-title="GaVang33" , 04/10 02:00 🟡 ⚽ Cote d'Ivoire vs Cameroon (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/cote-divoire-vs-cameroon-luc-0200-ngay-04-10-2026-965mkyh8l543r1g
@@ -269,6 +260,9 @@ https://giovang.rent/truc-tiep-vegalta-sendai-vs-jubilo-iwata-04-10-6ab9ae3024d4
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/6a6d3d4063e675d1ce3e701153e3f367.png" group-title="Giờ Vàng" , 04/10 13:00 🏀 Adelaide 36ers vs New Zealand Breakers (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-adelaide-36ers-vs-new-zealand-breakers-04-10-13322279
 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9XChDCfKbWISkRuuQ4jx3Jvg4R6ZC5GV3futpLieB9Q&s=10" group-title="Giờ Vàng" , 04/10 14:00 🏎️ F1 vs Bahrain Grand Prix (Chưa có link — chờ cập nhật)
+https://giovang.rent/truc-tiep-f1-vs-bahrain-grand-prix-04-10-o863zg6rgxw6
+
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/2cf065fbe1f93fb229c981c1d88d9618.png" group-title="Giờ Vàng" , 04/10 14:30 🏀 Busan KTF Magicwings vs Seoul Samsung Thunders (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-busan-ktf-magicwings-vs-seoul-samsung-thunders-04-10-24750376
 
@@ -391,3 +385,19 @@ https://khandai3.link/truc-tiep/las-palmas-vs-valladolid-04-10-2026-799271
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/eff9bb17ae54a84068dfc3b9f1f628cb.png" group-title="GaVang33" , 04/10 23:30 ⚽ UD Las Palmas vs Real Valladolid CF (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/ud-las-palmas-vs-real-valladolid-cf-luc-2330-ngay-04-10-2026-23xmvkh6j9woqg8
+
+# ----- Ngày 2026-10-05 -----
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_677.jpg" group-title="Khán Đài" , 05/10 01:45 ⚽ Ireland vs Israel (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/ireland-vs-israel-05-10-2026-790849
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_679.jpg" group-title="Khán Đài" , 05/10 01:45 ⚽ Greece vs Germany (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/greece-vs-germany-05-10-2026-790896
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_10.jpg" group-title="Khán Đài" , 05/10 01:45 ⚽ Netherlands vs Serbia (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/netherlands-vs-serbia-05-10-2026-790897
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_23.jpg" group-title="Khán Đài" , 05/10 01:45 ⚽ Portugal vs Norway (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/portugal-vs-norway-05-10-2026-790898
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_4.jpg" group-title="Khán Đài" , 05/10 01:45 ⚽ Wales vs Denmark (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/wales-vs-denmark-05-10-2026-790899
