@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:52:26 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:55:01 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (16 trận), Chuối Chiên (17 trận), Phá Làng (135 trận), Gà Vàng (20 trận), Sao Kê (18 trận), GaVang33 (20 trận), Bông Lau (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (16 trận), Chuối Chiên (17 trận), Phá Làng (135 trận), Gà Vàng (20 trận), Sao Kê (18 trận), GaVang33 (19 trận), Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -15,9 +15,6 @@ https://playback.livetl002.com/live/6a7c0d8f65997681f18cacc4.m3u8|User-Agent=Moz
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png" group-title="Gà Vàng" , 03/10 14:00 🟢 ⚽ Machida Zelvia vs Kyoto Sanga (A Long)
 https://playback.livetl002.com/live/69ef10b47146e04fbe6d4363.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png" group-title="GaVang33" , 03/10 14:00 🟢 ⚽ Machida Zelvia vs Kyoto Sanga (Gà Siêu Tồ)
-https://live2.zktsva.app/live/796315.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/tochigi-city.png" group-title="Giờ Vàng" , 03/10 15:00 🟢 ⚽ Tochigi City vs Imabari FC (Giovang 1)
 https://ftlh5sc02iliv.vcdn.cloud/1790966665_hd/1790966665_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
@@ -61,6 +58,9 @@ https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8|User-Agent=Mozilla
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/dd0a8169c1c22efabb56434f3631159b.png!w80" group-title="Phá Làng" , 03/10 17:00 🟢 🏐 "Đài Loan TQ - Việt Nam  " (LÝ LIỀU LĨNH (Server 1))
 https://pull.digitalcdn.net/live/35df9e6f01bd4c4da75d05f83d683940/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/dai-loan-tq-vs-viet-nam-6854344e79334a88b21ffc6ae2f7218e&Origin=https://phalang1.live
 
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261002/91a80f58f89ac6422bbbf080147640fd.png" group-title="Phá Làng" , 03/10 17:00 🟢 ⚽ Hong Kong - Cambodia (LÝ LINH LỰC)
+https://lilive1.eu.cc/live/b0b2be1d057755b8a75796f4f94cf1f4/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/hong-kong-vs-cambodia-vjxm8ghkvln9r6o&Origin=https://phalang1.live
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250627_220721_a791691e.png" group-title="Sao Kê" , 03/10 17:00 🟢 ⚽ Chinese Taipei vs Việt Nam (Kai (HD))
 https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://vip3.saoketv40.xyz/china-u23-vs-uzbekistan-u23-6abf7062b9c200d560485f0f.html
 
@@ -100,9 +100,6 @@ https://phalang1.live/trang-chu#n54qllh45742qvy
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1f7ff6cd75b881208e1252b83ec607de.png" group-title="Phá Làng" , 03/10 17:00 🟡 ⚽ Ruch Chorzow - Lechia Gdansk (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#pxwrxlhlplp5ryk
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/06912a73406be434e0d995cce8880ab0.png" group-title="Phá Làng" , 03/10 17:00 🟡 ⚽ Hong Kong - Cambodia (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#vjxm8ghkvln9r6o
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c764da226267244055d08a48e0a773f2.png" group-title="Phá Làng" , 03/10 17:00 🟡 ⚽ Veres  - Kudrivka (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#y0or5jh8k8zxqwz
 
@@ -115,11 +112,11 @@ https://gavanglinkt.tv/truc-tiep/veres-vs-kudrivka-ngay-03-10-2026/
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/d272859d78eb8ca7a14753f4293fbf45.png" group-title="Gà Vàng" , 03/10 17:00 🟡 ⚽ Kashiwa Reysol vs Gamba Osaka (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/kashiwa-reysol-vs-gamba-osaka-ngay-03-10-2026/
 
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/iran.png" group-title="Giờ Vàng" , 03/10 17:20 🟢 🏐 Iran vs Nhật Bản (Giovang 1)
+https://ftlh5sc02iliv.vcdn.cloud/1790967120_hd/1790967120_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
+
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 03/10 17:20 🟢 🏐 Nhật Bản - Iran (LÝ LÊN LỬA (Server 1))
 https://pull.digitalcdn.net/live/9ebf9b79758e46cfaebfedcc8dc4a674/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/nhat-ban-vs-iran-9c530eb305f34981aecc45ef8196db37&Origin=https://phalang1.live
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/iran.png" group-title="Giờ Vàng" , 03/10 17:20 🟡 🏐 Iran vs Nhật Bản (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-iran-vs-nhat-ban-03-10-lbwt390xmhlb
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Khán Đài" , 03/10 17:20 🟡 🏐 Nhật Bản vs Iran (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/nhat-ban-vs-iran

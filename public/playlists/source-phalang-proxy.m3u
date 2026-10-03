@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:52:26 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:55:01 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (135 trận) =====
 
@@ -9,6 +9,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/dd0a8169c1c22efabb56434f3631159b.png!w80" group-title="Phá Làng" , 03/10 17:00 🟢 🏐 "Đài Loan TQ - Việt Nam  " (LÝ LIỀU LĨNH (Server 1))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F35df9e6f01bd4c4da75d05f83d683940%2Findex.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261002/91a80f58f89ac6422bbbf080147640fd.png" group-title="Phá Làng" , 03/10 17:00 🟢 ⚽ Hong Kong - Cambodia (LÝ LINH LỰC)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fb0b2be1d057755b8a75796f4f94cf1f4%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f4e1f24b1926a5646c522cd99e4c9358.png" group-title="Phá Làng" , 03/10 17:00 🟡 ⚽ FC Bukovyna Chernivtsi - FK Epitsentr Dunayivtsi (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#1l4rjnhny95km7v
@@ -30,9 +33,6 @@ https://phalang1.live/trang-chu#n54qllh45742qvy
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1f7ff6cd75b881208e1252b83ec607de.png" group-title="Phá Làng" , 03/10 17:00 🟡 ⚽ Ruch Chorzow - Lechia Gdansk (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#pxwrxlhlplp5ryk
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/06912a73406be434e0d995cce8880ab0.png" group-title="Phá Làng" , 03/10 17:00 🟡 ⚽ Hong Kong - Cambodia (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#vjxm8ghkvln9r6o
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c764da226267244055d08a48e0a773f2.png" group-title="Phá Làng" , 03/10 17:00 🟡 ⚽ Veres  - Kudrivka (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#y0or5jh8k8zxqwz
