@@ -234,7 +234,15 @@ async function resolveIptvReferer(url, source) {
   const remembered = workingRefererByHost.get(cacheKey);
   if (remembered !== undefined) return remembered;
 
-  for (const referer of candidates) {
+  // FIX (03/10/2026): Sao Kê — link HD edgemaxcdn.org cần Referer là domain
+  // nguồn (saoke=... trong source domain), không phải player sk.mediastation.live.
+  let ordered = candidates;
+  if (source === 'saoke' && /edgemaxcdn/i.test(host)) {
+    const siteRef = `${String(process.env.SAOKE_DOMAIN || process.env.SAOKE_BASE_URL || 'https://vip3.saoketv40.xyz').replace(/\/+$/, '')}/`;
+    ordered = [siteRef, ...candidates.filter((r) => r !== siteRef)];
+  }
+
+  for (const referer of ordered) {
     // eslint-disable-next-line no-await-in-loop
     const ok = await probeReferer(url, referer);
     if (ok) {

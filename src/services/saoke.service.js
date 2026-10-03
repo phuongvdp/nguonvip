@@ -16,6 +16,10 @@ const SAOKE_SITE_URL = process.env.SAOKE_DOMAIN || process.env.SAOKE_BASE_URL ||
 // nhiều (22 trận lúc kiểm tra, so với 16 của bản Nuxt payload), là JSON
 // thuần, KHÔNG cần giải mã gì cả (khác hẳn __NUXT_DATA__ trước đây) — bỏ
 // toàn bộ phần giải mã Nuxt phức tạp, gọi thẳng API này cho gọn và đủ hơn.
+// Domain player (chỉ dùng làm Referer cho link SD trên hdplaylink). Lấy từ
+// source domain (saoke-player=... -> SAOKE_PLAYER_DOMAIN), không hardcode cứng.
+const SAOKE_PLAYER_URL = String(process.env.SAOKE_PLAYER_DOMAIN || 'https://sk.mediastation.live').replace(/\/+$/, '');
+
 const SAOKE_API_BASE_URL = process.env.SAOKE_API_DOMAIN || 'https://skapi.66887979.xyz';
 
 const client = createHttpClient(
@@ -92,7 +96,20 @@ function normalizeQualityLabel(name, url) {
   return /hdplaylink/i.test(url || '') ? 'SD' : '';
 }
 
-function buildCommentators(blvs, referer) {
+// FIX (03/10/2026 — "Sao Kê không xem được", link HD edgemaxcdn 403): Referer
+// phải đi theo TỪNG CDN chứ không dùng 1 giá trị chung cho cả trận:
+//  - HD (edgemaxcdn.org): Referer = trang chi tiết của chính trận đó trên
+//    domain nguồn (saoke=... trong source domain), vd
+//    https://vip3.saoketv40.xyz/<slug>.html — đúng như link phát được người
+//    dùng cung cấp (#EXTVLCOPT:http-referrer=...saoketv40.xyz/...html).
+//    Trước đây gắn nhầm Referer player sk.mediastation.live -> CDN từ chối.
+//  - SD (hdplaylink): giữ Referer player (đã xác nhận 27/09/2026).
+function refererForLink(url, detectedReferer, detailUrl) {
+  if (detectCdn(url) === 'EDGEMAX') return detailUrl || `${SAOKE_SITE_URL}/`;
+  return detectedReferer || `${SAOKE_PLAYER_URL}/`;
+}
+
+function buildCommentators(blvs, referer, detailUrl) {
   const list = [];
   const preferHd = !/^(0|false)$/i.test(String(process.env.SAOKE_PREFER_HD || ''));
   const rankOf = (h) => {
@@ -122,7 +139,7 @@ function buildCommentators(blvs, referer) {
         // Referer THẬT tự dò được (nếu có) — xem detectPlayerReferer() bên
         // dưới. null nếu chưa dò được/dò lỗi, m3uPlaylist.js sẽ tự rơi về
         // danh sách ứng viên hardcode (REFERER_CANDIDATES_BY_SOURCE.saoke).
-        referer: referer || null
+        referer: refererForLink(h.url, referer, detailUrl)
       });
     }
   }
@@ -221,7 +238,9 @@ function normalizeMatch(m, referer) {
   const isLive = m?.status === 'live';
   const isFinished = m?.status === 'finished' || m?.status === 'ft';
   const isUpcoming = !isLive && !isFinished;
-  const commentators = isLive ? buildCommentators(m?.blvs, referer) : [];
+  const slug = m?.slug || m?.nameNoUtf8 || m?._id || '';
+  const detailUrl = slug ? `${SAOKE_SITE_URL}/${slug}.html` : '';
+  const commentators = isLive ? buildCommentators(m?.blvs, referer, detailUrl) : [];
 
   const timeStr = matchDate.toLocaleTimeString('vi-VN', {
     hour: '2-digit',
@@ -232,8 +251,6 @@ function normalizeMatch(m, referer) {
   const dateStr = matchDate.toLocaleDateString('en-CA', { timeZone: 'Asia/Ho_Chi_Minh' });
   const dd = String(matchDate.getDate()).padStart(2, '0');
   const mm = String(matchDate.getMonth() + 1).padStart(2, '0');
-  const slug = m?.slug || m?.nameNoUtf8 || m?._id || '';
-  const detailUrl = slug ? `${SAOKE_SITE_URL}/${slug}.html` : '';
 
   return {
     matchId: `sk_${m?._id || slug}`,

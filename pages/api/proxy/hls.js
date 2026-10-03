@@ -266,6 +266,13 @@ function refererCandidatesFor(source, target) {
     // target không parse được thì bỏ qua bước ưu tiên theo cache, vẫn thử
     // tuần tự các ứng viên còn lại như bình thường.
   }
+  // FIX (03/10/2026): Sao Kê — link HD trên edgemaxcdn.org cần Referer là
+  // domain nguồn (SAOKE_SITE), KHÔNG phải player sk.mediastation.live (dành
+  // cho hdplaylink). Đẩy domain nguồn lên đầu khi đích là edgemaxcdn.
+  if (source === 'saoke' && /edgemaxcdn/i.test(host)) {
+    const siteRef = `${SAOKE_SITE}/`;
+    list = [siteRef, ...list.filter((r) => r !== siteRef)];
+  }
   const remembered = host && workingRefererByHost.has(host) ? workingRefererByHost.get(host) : undefined;
   if (remembered !== undefined && list.includes(remembered)) {
     // Đẩy ứng viên đã từng thắng lên đầu danh sách để thử trước tiên.
