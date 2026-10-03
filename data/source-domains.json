@@ -1,13 +1,14 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-02T01:18:30.719Z",
+  "updatedAt": "2026-10-03T07:10:25.004Z",
   "domains": {
     "giovang": {
       "url": "https://giovang.blog",
       "envVar": "GIOVANG_DOMAIN",
       "role": "site",
       "status": "moved",
-      "from": "mặc định"
+      "from": "mặc định",
+      "found": "https://giovang.rent"
     },
     "khandaitv": {
       "url": "https://khandai3.link",
@@ -28,7 +29,8 @@
       "envVar": "GAVANG_BASE_URL",
       "role": "site",
       "status": "moved",
-      "from": "mặc định"
+      "from": "mặc định",
+      "found": "https://gavanglinkt.tv"
     },
     "gavang33": {
       "url": "https://gavang33.me",
@@ -49,21 +51,24 @@
       "envVar": "BONGLAU_DOMAIN",
       "role": "site",
       "status": "down",
-      "from": "mặc định"
+      "from": "mặc định",
+      "found": "https://lau06.bonglautv1.org"
     },
     "phalang": {
       "url": "https://phalang.live",
       "envVar": "PHALANG_DOMAIN",
       "role": "site",
       "status": "moved",
-      "from": "mặc định"
+      "from": "mặc định",
+      "found": "https://phalang1.live"
     },
     "chuoichientv": {
       "url": "https://live05.chuoichientv.me",
       "envVar": "CHUOICHIENTV_WATCH_DOMAIN",
       "role": "site",
       "status": "moved",
-      "from": "mặc định"
+      "from": "mặc định",
+      "found": "https://live08.chuoichientv.me"
     },
     "chuoichientv-player": {
       "url": "https://live.chuoichien.tv",
@@ -136,6 +141,41 @@
       "from": null,
       "to": null,
       "via": "tạo bản lưu đầu tiên"
+    },
+    {
+      "at": "2026-10-03T07:10:25.004Z",
+      "source": "giovang",
+      "from": "https://giovang.blog",
+      "to": "https://giovang.blog",
+      "via": "chuyển hướng của chính trang"
+    },
+    {
+      "at": "2026-10-03T07:10:25.004Z",
+      "source": "gavang",
+      "from": "https://gavanglinkp.tv",
+      "to": "https://gavanglinkp.tv",
+      "via": "chuyển hướng của chính trang"
+    },
+    {
+      "at": "2026-10-03T07:10:25.004Z",
+      "source": "bonglau",
+      "from": "https://lau05.bonglautv1.pro",
+      "to": "https://lau05.bonglautv1.pro",
+      "via": "biến thể tên/đuôi"
+    },
+    {
+      "at": "2026-10-03T07:10:25.004Z",
+      "source": "phalang",
+      "from": "https://phalang.live",
+      "to": "https://phalang.live",
+      "via": "chuyển hướng của chính trang"
+    },
+    {
+      "at": "2026-10-03T07:10:25.004Z",
+      "source": "chuoichientv",
+      "from": "https://live05.chuoichientv.me",
+      "to": "https://live05.chuoichientv.me",
+      "via": "chuyển hướng của chính trang"
     }
   ]
 }
