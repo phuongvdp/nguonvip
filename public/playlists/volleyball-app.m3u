@@ -1,11 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:24:49 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:27:59 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (7 trận), Khán Đài (9 trận), Chuối Chiên (5 trận), Phá Làng (7 trận), Bông Lau (5 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 03/10 07:00 🟢 🏐 Việt Nam - Thái Lan (LÝ LIỀU LĨNH (Server 1))
-https://pull.digitalcdn.net/live/51cc499d1fb84b1287ca214d86b57736/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang.live/truc-tiep/viet-nam-vs-thai-lan-d1ffa074a5224d17a66fffa89ef5cdf9&Origin=https://phalang.live
+https://pull.digitalcdn.net/live/51cc499d1fb84b1287ca214d86b57736/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/viet-nam-vs-thai-lan-d1ffa074a5224d17a66fffa89ef5cdf9&Origin=https://phalang1.live
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/xUGWvAzB-fHcbO6Ye.png" group-title="Giờ Vàng" , 03/10 08:00 🟢 🏐 Hàn Quốc vs Qatar (Giovang 1)
 https://pzhgifbkllliv.vcdn.cloud/1790960822_hd/1790960822_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
@@ -29,7 +29,7 @@ https://khandai3.link/truc-tiep/thai-lan-vs-an-do
 https://live05.chuoichientv.me/live/999726/thailand-vs-india
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/3e9126e77f86c6fd0f04f67c8f149712.png!w80" group-title="Phá Làng" , 03/10 11:00 🏐 Thái Lan - Ấn Độ (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#24ecc940d4f04a3eaf149b745ca6a923
+https://phalang1.live/trang-chu#24ecc940d4f04a3eaf149b745ca6a923
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_358dda20.png" group-title="Bông Lau" , 03/10 11:00 🏐 Thailand vs India (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/999726
@@ -50,7 +50,7 @@ https://khandai3.link/truc-tiep/trung-quoc-vs-pakistan
 https://live05.chuoichientv.me/live/991304/china-vs-pakistan
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80" group-title="Phá Làng" , 03/10 14:00 🏐 Trung Quốc - Pakistan (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#6a197b5c00924e67a3f9fa8a38560330
+https://phalang1.live/trang-chu#6a197b5c00924e67a3f9fa8a38560330
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Bông Lau" , 03/10 14:00 🏐 China vs Pakistan (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/991304
@@ -65,7 +65,7 @@ https://khandai3.link/truc-tiep/viet-nam-vs-dai-loan
 https://live05.chuoichientv.me/live/993804/chinese-taipei-vs-viet-nam
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/dd0a8169c1c22efabb56434f3631159b.png!w80" group-title="Phá Làng" , 03/10 17:00 🏐 "Đài Loan TQ - Việt Nam  " (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#6854344e79334a88b21ffc6ae2f7218e
+https://phalang1.live/trang-chu#6854344e79334a88b21ffc6ae2f7218e
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250627_220721_a791691e.png" group-title="Bông Lau" , 03/10 17:00 🏐 Chinese Taipei vs Việt Nam (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/993804
@@ -80,7 +80,7 @@ https://khandai3.link/truc-tiep/nhat-ban-vs-iran
 https://live05.chuoichientv.me/live/993785/japan-vs-iran
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 03/10 17:20 🏐 Nhật Bản - Iran (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#9c530eb305f34981aecc45ef8196db37
+https://phalang1.live/trang-chu#9c530eb305f34981aecc45ef8196db37
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Bông Lau" , 03/10 17:20 🏐 Japan vs Iran (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/993785
@@ -89,7 +89,7 @@ https://lau05.bonglautv1.pro/truc-tiep/993785
 https://khandai3.link/truc-tiep/vakifbank-vs-besiktas
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/bf7d5b85601e54fc26df7d6605e3dd01.png!w80" group-title="Phá Làng" , 03/10 18:00 🏐 Vakifbank Nữ - Besiktas Nữ (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#c109409685384cf68e8965eb2b67c643
+https://phalang1.live/trang-chu#c109409685384cf68e8965eb2b67c643
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/rPFpfgDa-vRpcHup9.png" group-title="Giờ Vàng" , 03/10 20:00 🏐 Nilufer Bld. vs Eczacibasi (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-nilufer-bld-vs-eczacibasi-03-10-k9j81v0gyph6
@@ -98,7 +98,7 @@ https://giovang.rent/truc-tiep-nilufer-bld-vs-eczacibasi-03-10-k9j81v0gyph6
 https://khandai3.link/truc-tiep/nilufer-vs-eczacibasi
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b44ed2e934bbbae323265d36aeaa6d29.png!w80" group-title="Phá Làng" , 03/10 20:00 🏐 Nilufer Bld. Nữ - Eczacibasi Nữ (Chưa có link — chờ cập nhật)
-https://phalang.live/trang-chu#25e14d4604ed43f5aebf3f8d0cb23cdc
+https://phalang1.live/trang-chu#25e14d4604ed43f5aebf3f8d0cb23cdc
 
 # ----- Ngày 2026-10-04 -----
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/image_6.webp" group-title="Khán Đài" , 04/10 01:30 🏐 Vero Volley Milano vs Firenze (Chưa có link — chờ cập nhật)
