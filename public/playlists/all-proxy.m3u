@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:33:24 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:36:23 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận), Khán Đài (18 trận), Chuối Chiên (11 trận), Phá Làng (24 trận), Gà Vàng (14 trận), Sao Kê (12 trận), GaVang33 (25 trận), Bông Lau (11 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (28 trận), Khán Đài (18 trận), Chuối Chiên (11 trận), Phá Làng (24 trận), Gà Vàng (14 trận), Sao Kê (12 trận), GaVang33 (25 trận), Bông Lau (11 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/rPFpfgDa-vRpcHup9.png" group-title="Giờ Vàng" , 03/10 20:00 🟢 🏐 Nilufer Bld. vs Eczacibasi (Giovang 1)
@@ -61,6 +61,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3874dcd109e646cbe7c5e8fb2bd41548.png" group-title="Phá Làng" , 03/10 22:55 🟡 ⚽ Saudi Arabia - Qatar (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#pxwrxlhy636kryk
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125448_7dd16e8b.png" group-title="Chuối Chiên" , 03/10 23:00 🟢 ⚽ Croatia vs England (Chuối Nhỏ (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoinhohd%2Fplaylist.m3u8&source=chuoichientv
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/0dd224173cbbce9636adbc9e309aec6f.png" group-title="Phá Làng" , 03/10 23:00 🟢 ⚽ Croatia - England (LÝ LONG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fb6f5df2e120738cfa4dc27beea5882ed%2Fplaylist.m3u8&source=phalang
 
@@ -73,6 +76,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/430fda3112134b44b54eeba89eec5189.png" group-title="GaVang33" , 03/10 23:00 🟢 ⚽ Iceland vs Bulgaria (Gà Siêu Péo)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F303098.m3u8&source=gavang33
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125448_7dd16e8b.png" group-title="Bông Lau" , 03/10 23:00 🟢 ⚽ Croatia vs England (Chuối Nhỏ (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoinhohd%2Fplaylist.m3u8&source=bonglau
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/croatia.png" group-title="Giờ Vàng" , 03/10 23:00 🟡 ⚽ Croatia vs Anh (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-croatia-vs-anh-03-10-69f3f2b74bff4a0c310bf76a
 
@@ -81,9 +87,6 @@ https://giovang.rent/truc-tiep-iceland-vs-bulgaria-03-10-69f3f2b74bff4a0c310bf78
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/belarus.png" group-title="Giờ Vàng" , 03/10 23:00 🟡 ⚽ Belarus vs San Marino (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-belarus-vs-san-marino-03-10-69f3f2b74bff4a0c310bf782
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/O0k3SqZA-4QFp2rHo.png" group-title="Giờ Vàng" , 03/10 23:00 🟡 🏀 Joventut Badalona vs MoraBanc Andorra (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-joventut-badalona-vs-morabanc-andorra-03-10-iz96q9h3d2kx
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/0OsJt6Fa-CxYUcq3p.png" group-title="Giờ Vàng" , 03/10 23:00 🟡 ⚽ Ben Whittaker vs Conor Wallace (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-ben-whittaker-vs-conor-wallace-03-10-8cphq0hi2c0q
@@ -99,9 +102,6 @@ https://khandai3.link/truc-tiep/estonia-vs-luxembourg-03-10-2026-790942
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_704.jpg" group-title="Khán Đài" , 03/10 23:00 🟡 ⚽ Iceland vs Bulgaria (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/iceland-vs-bulgaria-03-10-2026-790943
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125448_7dd16e8b.png" group-title="Chuối Chiên" , 03/10 23:00 🟡 ⚽ Croatia vs England (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1528933/croatia-vs-england
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f09820909d495c69ac09e8548fe99694.png" group-title="Phá Làng" , 03/10 23:00 🟡 ⚽ CD Ceuta 6 de Junio - UB Lebrijana (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#2y8m4zh5l2y1ql0
@@ -147,9 +147,6 @@ https://vip3.saoketv40.xyz/iceland-vs-bulgaria-6abf7062b9c200d560485f07.html
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/350035841e1182bf4389c52752d8bd0d.png" group-title="GaVang33" , 03/10 23:00 🟡 ⚽ Estonia vs Luxembourg (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/estonia-vs-luxembourg-luc-2300-ngay-03-10-2026-l5ergph4kx69r8k
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125448_7dd16e8b.png" group-title="Bông Lau" , 03/10 23:00 🟡 ⚽ Croatia vs England (Chưa có link — chờ cập nhật)
-https://lau06.bonglautv1.org/truc-tiep/1528933
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133420_1ffc8b38.png" group-title="Chuối Chiên" , 03/10 23:30 🟡 ⚽ Cadiz vs Leganes (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1569950/cadiz-vs-leganes
