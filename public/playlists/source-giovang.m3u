@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 02:28:06 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 02:30:48 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (34 trận) =====
 
@@ -25,15 +25,15 @@ https://pzhgifbkllliv.vcdn.cloud/1791012160_hd/1791012160_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pzhgifbkllliv.vcdn.cloud/1791015231_hd/1791015231_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/north-macedonia.png" group-title="Giờ Vàng" , 04/10 01:45 🟢 ⚽ Bắc Macedonia vs Scotland (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.rent/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://pzhgifbkllliv.vcdn.cloud/1791011852_hd/1791011852_hd@720p.m3u8
-
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/spain.png" group-title="Giờ Vàng" , 04/10 01:45 🟢 ⚽ Tây Ban Nha vs Cộng hòa Séc (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.rent/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pzhgifbkllliv.vcdn.cloud/1791012075_hd/1791012075_hd@720p.m3u8
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/north-macedonia.png" group-title="Giờ Vàng" , 04/10 01:45 🟢 ⚽ Bắc Macedonia vs Scotland (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.rent/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://pzhgifbkllliv.vcdn.cloud/1791011852_hd/1791011852_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/jcQ7UvyB-dWl7UQ2D.png" group-title="Giờ Vàng" , 04/10 03:00 🟡 ⚽ Silva vs Wang (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-silva-vs-wang-04-10-bwi9yp6ebiw9
