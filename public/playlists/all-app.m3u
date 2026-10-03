@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:26:00 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:29:18 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (16 trận), Chuối Chiên (14 trận), Phá Làng (96 trận), Gà Vàng (19 trận), Sao Kê (16 trận), GaVang33 (23 trận), Bông Lau (14 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (15 trận), Chuối Chiên (14 trận), Phá Làng (96 trận), Gà Vàng (19 trận), Sao Kê (16 trận), GaVang33 (23 trận), Bông Lau (14 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -39,9 +39,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8|User-Agent=Mozilla
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea-u23.png" group-title="Giờ Vàng" , 03/10 17:30 🟢 ⚽ Hàn Quốc vs Nhật Bản (Giovang 1)
 https://ftlh5sc02iliv.vcdn.cloud/1790966773_hd/1790966773_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images_8kF19fZ.jpg" group-title="Khán Đài" , 03/10 17:30 🟢 ⚽ South Korea U23 vs Japan U23 (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/south-korea-u23-vs-japan-u23-03-10-2026-860366
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/02598ff81c211b703b81e49cf632688b.png" group-title="Phá Làng" , 03/10 17:30 🟢 ⚽ South Korea U23 - Japan U23 (LÝ LA LÀNG)
 https://lilive1.eu.cc/live/dafe34d6e084ce4a90c18fda523466df/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/south-korea-u23-vs-japan-u23-ednm9wh58633ryo&Origin=https://phalang1.live
@@ -82,11 +79,11 @@ https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8|User-Agent=Mozilla/
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fcafc8131a8bb3ae49f77a1378ee1166.png" group-title="Gà Vàng" , 03/10 19:30 🟡 ⚽ Strommen vs Sandnes Ulf (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/strommen-vs-sandnes-ulf-ngay-03-10-2026/
 
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/rPFpfgDa-vRpcHup9.png" group-title="Giờ Vàng" , 03/10 20:00 🟢 🏐 Nilufer Bld. vs Eczacibasi (Giovang 1)
+https://ftlh5sc02iliv.vcdn.cloud/1790967183_hd/1790967183_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/finland.png" group-title="Giờ Vàng" , 03/10 20:00 🟢 ⚽ Phần Lan vs Albania (Giovang 1)
 https://ftlh5sc02iliv.vcdn.cloud/1790966861_hd/1790966861_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/rPFpfgDa-vRpcHup9.png" group-title="Giờ Vàng" , 03/10 20:00 🟡 🏐 Nilufer Bld. vs Eczacibasi (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-nilufer-bld-vs-eczacibasi-03-10-k9j81v0gyph6
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_8.jpg" group-title="Khán Đài" , 03/10 20:00 🟡 ⚽ Finland vs Albania (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/finland-vs-albania-03-10-2026-790940
