@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:13:36 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:18:46 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (20 trận), Khán Đài (19 trận), Chuối Chiên (19 trận), Phá Làng (147 trận), Gà Vàng (19 trận), Sao Kê (20 trận), GaVang33 (19 trận), Bông Lau (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (22 trận), Khán Đài (19 trận), Chuối Chiên (19 trận), Phá Làng (147 trận), Gà Vàng (20 trận), Sao Kê (20 trận), GaVang33 (19 trận), Bông Lau (19 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -30,6 +30,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/095833a8f2a539c9e27ac3170b659237.png" group-title="Phá Làng" , 03/10 13:00 🟢 ⚽ China U23 - Uzbekistan U23 (LÝ LÀNG LÁ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F982cfe09137f0b0c36f28936096e90f6%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/e51f03da53b2f36fc922a7ce18a07476.png" group-title="Gà Vàng" , 03/10 13:00 🟢 ⚽ China U23 vs Uzbekistan U23 (RIO)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a01a2511e8555d7a3685f5c.m3u8&source=gavang
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/317240.png" group-title="Sao Kê" , 03/10 13:00 🟢 ⚽ China U23 vs Uzbekistan U23 (Tít (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx2-hd-1111%2Fplaylist.m3u8&source=saoke
@@ -197,10 +200,10 @@ https://gavang33.me/truc-tiep/kashiwa-reysol-vs-gamba-osaka-luc-1700-ngay-03-10-
 https://gavang33.me/truc-tiep/hong-kong-vs-cambodia-luc-1700-ngay-03-10-2026-vjxm8ghkvln9r6o
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250627_220721_a791691e.png" group-title="Bông Lau" , 03/10 17:00 🏐 Chinese Taipei vs Việt Nam (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/993804
+https://lau06.bonglautv1.org/truc-tiep/993804
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134317_1bd3a785.png" group-title="Bông Lau" , 03/10 17:00 ⚽ Hong Kong vs Cambodia (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1643350
+https://lau06.bonglautv1.org/truc-tiep/1643350
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/iran.png" group-title="Giờ Vàng" , 03/10 17:20 🏐 Iran vs Nhật Bản (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-iran-vs-nhat-ban-03-10-lbwt390xmhlb
@@ -218,7 +221,7 @@ https://phalang1.live/trang-chu#9c530eb305f34981aecc45ef8196db37
 https://vip3.saoketv40.xyz/japan-vs-iran-6ac04f40316d23e0189870b1.html
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Bông Lau" , 03/10 17:20 🏐 Japan vs Iran (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/993785
+https://lau06.bonglautv1.org/truc-tiep/993785
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea-u23.png" group-title="Giờ Vàng" , 03/10 17:30 ⚽ Hàn Quốc vs Nhật Bản (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-han-quoc-vs-nhat-ban-03-10-u6fiwz5ggwyg
@@ -245,7 +248,7 @@ https://gavanglinkt.tv/truc-tiep/south-korea-u23-vs-japan-u23-ngay-03-10-2026/
 https://vip3.saoketv40.xyz/south-korea-u23-vs-japan-u23-6abf7062b9c200d560485f10.html
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Bông Lau" , 03/10 17:30 ⚽ U23 Hàn Quốc  vs Japan U23 (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1643349
+https://lau06.bonglautv1.org/truc-tiep/1643349
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/image_2.webp" group-title="Khán Đài" , 03/10 18:00 🏐 Vakifbank vs Besiktas (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/vakifbank-vs-besiktas
@@ -353,7 +356,7 @@ https://vip3.saoketv40.xyz/albacete-vs-eibar-6abf7062b9c200d560485f08.html
 https://gavang33.me/truc-tiep/albacete-balompie-sad-vs-eibar-luc-1900-ngay-03-10-2026-6ypq3nhvoe4ymd7
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133419_dd306d1b.png" group-title="Bông Lau" , 03/10 19:00 ⚽ Albacete vs Eibar (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1569948
+https://lau06.bonglautv1.org/truc-tiep/1569948
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fcafc8131a8bb3ae49f77a1378ee1166.png" group-title="Gà Vàng" , 03/10 19:30 ⚽ Strommen vs Sandnes Ulf (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/strommen-vs-sandnes-ulf-ngay-03-10-2026/
@@ -428,7 +431,7 @@ https://vip3.saoketv40.xyz/finland-vs-albania-6abf7062b9c200d560485f04.html
 https://gavang33.me/truc-tiep/finland-vs-albania-luc-2000-ngay-03-10-2026-ednm9whw5y45ryo
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Bông Lau" , 03/10 20:00 ⚽ Finland vs Albania (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1528932
+https://lau06.bonglautv1.org/truc-tiep/1528932
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/65503b155488a643de688e8dfa849b1f.png" group-title="Phá Làng" , 03/10 20:30 ⚽ FC St. Pauli - Borussia Monchengladbach (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#965mkyh8l23wr1g
@@ -596,7 +599,7 @@ https://gavanglinkt.tv/truc-tiep/india-vs-brazil-ngay-03-10-2026/
 https://vip3.saoketv40.xyz/india-vs-brazil-6abf7062b9c200d560485f0c.html
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Bông Lau" , 03/10 21:00 ⚽ India vs Brazil (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1632355
+https://lau06.bonglautv1.org/truc-tiep/1632355
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/eb9b870a25645ded21a7d5e41c207b0a.png" group-title="Phá Làng" , 03/10 22:00 ⚽ GKS Katowice - FC Baník Ostrava (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#3glrw7h4k7e1qdy
@@ -630,6 +633,12 @@ https://phalang1.live/trang-chu#pxwrxlhyd68eryk
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3874dcd109e646cbe7c5e8fb2bd41548.png" group-title="Phá Làng" , 03/10 22:55 ⚽ Saudi Arabia - Qatar (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#pxwrxlhy636kryk
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/croatia.png" group-title="Giờ Vàng" , 03/10 23:00 ⚽ Croatia vs Anh (Chưa có link — chờ cập nhật)
+https://giovang.rent/truc-tiep-croatia-vs-anh-03-10-69f3f2b74bff4a0c310bf76a
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/iceland.png" group-title="Giờ Vàng" , 03/10 23:00 ⚽ Iceland vs Bulgaria (Chưa có link — chờ cập nhật)
+https://giovang.rent/truc-tiep-iceland-vs-bulgaria-03-10-69f3f2b74bff4a0c310bf78d
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_14.jpg" group-title="Khán Đài" , 03/10 23:00 ⚽ Croatia vs England (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/croatia-vs-england-03-10-2026-790894
@@ -695,7 +704,7 @@ https://gavang33.me/truc-tiep/iceland-vs-bulgaria-luc-2300-ngay-03-10-2026-4wyrn
 https://gavang33.me/truc-tiep/estonia-vs-luxembourg-luc-2300-ngay-03-10-2026-l5ergph4kx69r8k
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125448_7dd16e8b.png" group-title="Bông Lau" , 03/10 23:00 ⚽ Croatia vs England (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1528933
+https://lau06.bonglautv1.org/truc-tiep/1528933
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133420_1ffc8b38.png" group-title="Chuối Chiên" , 03/10 23:30 ⚽ Cadiz vs Leganes (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1569950/cadiz-vs-leganes
@@ -704,7 +713,7 @@ https://live05.chuoichientv.me/live/1569950/cadiz-vs-leganes
 https://vip3.saoketv40.xyz/cadiz-vs-leganes-6abf7062b9c200d560485f0a.html
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133420_1ffc8b38.png" group-title="Bông Lau" , 03/10 23:30 ⚽ Cadiz vs Leganes (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1569950
+https://lau06.bonglautv1.org/truc-tiep/1569950
 
 # ----- Ngày 2026-10-04 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0c7660683be3429ea77999657fa17d79.png" group-title="Phá Làng" , 04/10 01:00 ⚽ Canada - Peru (Chưa có link — chờ cập nhật)
@@ -765,10 +774,10 @@ https://gavang33.me/truc-tiep/switzerland-vs-slovenia-luc-0145-ngay-04-10-2026-3
 https://gavang33.me/truc-tiep/north-macedonia-vs-scotland-luc-0145-ngay-04-10-2026-vjxm8ghekddxr6o
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125449_8711159b.png" group-title="Bông Lau" , 04/10 01:45 ⚽ Spain vs Czech Republic (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1528936
+https://lau06.bonglautv1.org/truc-tiep/1528936
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260531_193336_3393bc73.png" group-title="Bông Lau" , 04/10 01:45 ⚽ FYR Macedonia vs Scotland (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1545660
+https://lau06.bonglautv1.org/truc-tiep/1545660
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_738.jpg" group-title="Khán Đài" , 04/10 02:00 ⚽ Ivory Coast vs Cameroon (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/ivory-coast-vs-cameroon-04-10-2026-855589
@@ -789,7 +798,7 @@ https://vip3.saoketv40.xyz/cameroon-vs-ivory-coast-6abf7062b9c200d560485f0e.html
 https://gavang33.me/truc-tiep/cote-divoire-vs-cameroon-luc-0200-ngay-04-10-2026-965mkyh8l543r1g
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132759_08d32594.png" group-title="Bông Lau" , 04/10 02:00 ⚽ Ivory Coast vs Cameroon (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1640077
+https://lau06.bonglautv1.org/truc-tiep/1640077
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125542_d8ff9d63.png" group-title="Chuối Chiên" , 04/10 04:30 ⚽ Atletico-MG vs RB Bragantino (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1492310/atletico-mg-vs-rb-bragantino
@@ -801,7 +810,7 @@ https://phalang1.live/trang-chu#l7oqdehg8n41r51
 https://vip3.saoketv40.xyz/atletico-mg-vs-rb-bragantino-6abf7062b9c200d560485eff.html
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125542_d8ff9d63.png" group-title="Bông Lau" , 04/10 04:30 ⚽ Atletico-MG vs RB Bragantino (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1492310
+https://lau06.bonglautv1.org/truc-tiep/1492310
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/3f61db02c20eb73e5f27948b3122f2fb.png" group-title="Giờ Vàng" , 04/10 06:00 🏀 Toronto Raptors vs Miami Heat (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-toronto-raptors-vs-miami-heat-04-10-13022276
@@ -813,7 +822,7 @@ https://live05.chuoichientv.me/live/1603385/queretaro-w-vs-atletico-san-luis-w
 https://gavanglinkt.tv/
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_143653_72f0bbb2.png" group-title="Bông Lau" , 04/10 06:00 ⚽ Querétaro W vs Atlético San Luis W (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1603385
+https://lau06.bonglautv1.org/truc-tiep/1603385
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132808_60e400eb.png" group-title="Chuối Chiên" , 04/10 07:00 ⚽ Argentina vs Burkina Faso (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1640514/argentina-vs-burkina-faso
@@ -825,7 +834,7 @@ https://vip3.saoketv40.xyz/argentina-vs-burkina-faso-6abf70758117d47caf8cefb1.ht
 https://gavang33.me/truc-tiep/argentina-vs-burkina-faso-luc-0700-ngay-04-10-2026-y39mp1hdvw5ymoj
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132808_60e400eb.png" group-title="Bông Lau" , 04/10 07:00 ⚽ Argentina vs Burkina Faso (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1640514
+https://lau06.bonglautv1.org/truc-tiep/1640514
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/980699.png" group-title="Sao Kê" , 04/10 08:06 ⚽ Club Tijuana (W) vs Atlante (W) (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/club-tijuana-w-vs-atlante-w-6abf70758117d47caf8cefaf.html
@@ -840,7 +849,7 @@ https://gavang33.me/truc-tiep/belize-vs-french-guiana-luc-0900-ngay-04-10-2026-j
 https://gavang33.me/truc-tiep/usa-vs-mexico-luc-0900-ngay-04-10-2026-k82rekh2z693rep
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132739_e67768f5.png" group-title="Bông Lau" , 04/10 09:00 ⚽ USA vs Mexico (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1629004
+https://lau06.bonglautv1.org/truc-tiep/1629004
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_143656_72f0bbb2.png" group-title="Chuối Chiên" , 04/10 10:10 ⚽ Necaxa W vs Cruz Azul W (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1603387/necaxa-w-vs-cruz-azul-w
@@ -849,4 +858,4 @@ https://live05.chuoichientv.me/live/1603387/necaxa-w-vs-cruz-azul-w
 https://vip3.saoketv40.xyz/necaxa-w-vs-cruz-azul-w-6abf70758117d47caf8cefb0.html
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_143656_72f0bbb2.png" group-title="Bông Lau" , 04/10 10:10 ⚽ Necaxa W vs Cruz Azul W (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1603387
+https://lau06.bonglautv1.org/truc-tiep/1603387
