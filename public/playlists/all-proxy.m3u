@@ -1,16 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 04:14:09 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 04:17:09 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (17 trận), Chuối Chiên (4 trận), Phá Làng (15 trận), Gà Vàng (13 trận), Sao Kê (4 trận), GaVang33 (16 trận), Bông Lau (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (17 trận), Chuối Chiên (4 trận), Phá Làng (15 trận), Gà Vàng (12 trận), Sao Kê (4 trận), GaVang33 (16 trận), Bông Lau (4 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/0OsJt6Fa-CxYUcq3p.png" group-title="Giờ Vàng" , 03/10 23:00 🟢 ⚽ Ben Whittaker vs Conor Wallace (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1791013750_hd%2F1791013750_hd%40720p.m3u8&source=giovang
 
 # ----- Ngày 2026-10-04 -----
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/49a35dd00c51fc958ebf44054bce4c48.png" group-title="Gà Vàng" , 04/10 00:45 🟢 ⚽ Defensa Y Justicia vs CA San Lorenzo (khang hi)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a7c0d8f65997681f18cacc4.m3u8&source=gavang
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/336e1c9ab6894a3b893c1ef45235a164.png" group-title="Gà Vàng" , 04/10 01:15 🟢 ⚽ Canada vs Peru (Lữ Bố.vip)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a9776215126529dede9bf51.m3u8&source=gavang
 
@@ -32,8 +29,14 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/atletico-mineiro.png" group-title="Giờ Vàng" , 04/10 04:30 🟢 ⚽ Atletico Mineiro vs Bragantino SP (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1791041818_hd%2F1791041818_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125542_d8ff9d63.png" group-title="Chuối Chiên" , 04/10 04:30 🟡 ⚽ Atletico-MG vs RB Bragantino (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1492310/atletico-mg-vs-rb-bragantino
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125542_d8ff9d63.png" group-title="Chuối Chiên" , 04/10 04:30 🟢 ⚽ Atletico-MG vs RB Bragantino (Trốc Tru (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Ftroctruhd%2Fplaylist.m3u8&source=chuoichientv
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10272.png" group-title="Sao Kê" , 04/10 04:30 🟢 ⚽ Atlético-MG vs RB Bragantino (Teppy (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx31-hd-1111%2Fplaylist.m3u8&source=saoke
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125542_d8ff9d63.png" group-title="Bông Lau" , 04/10 04:30 🟢 ⚽ Atletico-MG vs RB Bragantino (Trốc Tru (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Ftroctruhd%2Fplaylist.m3u8&source=bonglau
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/079e86cebd6511ce807cc6073a3e26ee.png" group-title="Phá Làng" , 04/10 04:30 🟡 ⚽ Atlético Mineiro - MG - Red Bull Bragantino (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#l7oqdehg8n41r51
@@ -43,12 +46,6 @@ https://gavanglinkt.tv/truc-tiep/atletico-mineiro-mg-vs-red-bull-bragantino-ngay
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a632c7cdcfb1f9898d77898dd4ea00c8.png" group-title="Gà Vàng" , 04/10 04:30 🟡 ⚽ Botafogo SP vs Vila Nova (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/botafogo-sp-vs-vila-nova-ngay-04-10-2026/
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10272.png" group-title="Sao Kê" , 04/10 04:30 🟡 ⚽ Atlético-MG vs RB Bragantino (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/atletico-mg-vs-rb-bragantino-6abf7062b9c200d560485eff.html
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125542_d8ff9d63.png" group-title="Bông Lau" , 04/10 04:30 🟡 ⚽ Atletico-MG vs RB Bragantino (Chưa có link — chờ cập nhật)
-https://lau06.bonglautv1.org/truc-tiep/1492310
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png" group-title="Giờ Vàng" , 04/10 05:30 ⚽ New York Yankees vs Tampa Bay Rays (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-new-york-yankees-vs-tampa-bay-rays-04-10-d6e8z9500a5h
