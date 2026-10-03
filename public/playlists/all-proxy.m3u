@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:39:56 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:42:56 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (33 trận), Khán Đài (17 trận), Chuối Chiên (17 trận), Phá Làng (111 trận), Gà Vàng (20 trận), Sao Kê (18 trận), GaVang33 (20 trận), Bông Lau (17 trận) =====
 
@@ -118,7 +118,7 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aa54b4b022f88b8566c7834ee5fc3e12.png" group-title="Phá Làng" , 03/10 18:30 🟢 ⚽ Brentwood Town - Dagenham   Redbridge (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fdb7558be2fd58b1e75e078779e27dc3b%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 group-title="Giờ Vàng" , 03/10 18:45 🟡 🎾 Francisco Cenrundolo vs Jakub Mensik (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/zPdeWyDr-pOTe4nSM.png" group-title="Giờ Vàng" , 03/10 18:45 🟡 🎾 Francisco Cenrundolo vs Jakub Mensik (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-francisco-cenrundolo-vs-jakub-mensik-03-10-zu80fioaocpd
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133419_dd306d1b.png" group-title="Chuối Chiên" , 03/10 19:00 🟢 ⚽ Albacete vs Eibar (Chuối Lá (FHD))
