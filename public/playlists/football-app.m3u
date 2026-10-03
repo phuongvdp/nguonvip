@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:35:58 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:38:57 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (12 trận), Chuối Chiên (17 trận), Phá Làng (122 trận), Gà Vàng (5 trận), Sao Kê (23 trận), GaVang33 (21 trận), Bông Lau (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (12 trận), Chuối Chiên (17 trận), Phá Làng (122 trận), Gà Vàng (4 trận), Sao Kê (23 trận), GaVang33 (21 trận), Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-10-03 -----
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/47174721b260fae6e833329c13c9f2ee.png" group-title="Gà Vàng" , 03/10 05:15 🟢 ⚽ CA Independiente vs Instituto (cố tư nghiêm)
-https://playback.livetl002.com/live/69a1aaa7230584579e2d5ce1.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/e2f40e16499b22e942a5bd1d1d2398d3.png" group-title="Gà Vàng" , 03/10 05:30 🟢 ⚽ Sao Bernardo vs CRB (THICHDUTHU)
 https://playback.livetl002.com/live/6a704ad865997681f18c2160.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkp.tv/
 
@@ -52,11 +49,11 @@ https://giovang.rent/truc-tiep-deportivo-cali-vs-alianza-petrolera-03-10-6ab9ae1
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b997a2811a0caed43ff38b631a708420.png" group-title="Gà Vàng" , 03/10 07:45 🟡 ⚽ Deportivo Cali vs Alianza Fútbol Club (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/deportivo-cali-vs-alianza-futbol-club-ngay-03-10-2026/
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Sao Kê" , 03/10 08:00 🟢 ⚽ Qatar vs South Korea (Cà Rốt (HD))
+https://wtyi0525.edgemaxcdn.org/live/x10-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://vip3.saoketv40.xyz/st-kitts-and-nevis-vs-cuba-6abe354742ecb1c2b83700fb.html
+
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzsOYIOsX07EGftC-0YU85JEWhVV8eqZgHxa90ejwO9w&s=10" group-title="Giờ Vàng" , 03/10 08:00 🟡 ⚽ Correcaminos UAT vs Cruz Azul Hidalgo (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-correcaminos-uat-vs-cruz-azul-hidalgo-03-10-63pmk7on7787
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Sao Kê" , 03/10 08:00 🟡 ⚽ Qatar vs South Korea (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/qatar-vs-south-korea-6ac04d1bcd18e214e6cbf689.html
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/el-salvador.png" group-title="Giờ Vàng" , 03/10 09:00 ⚽ El Salvador vs Jamaica (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-el-salvador-vs-jamaica-03-10-6aaf224e4e725bdee905b7cc
