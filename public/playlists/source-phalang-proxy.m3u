@@ -1,11 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:24:09 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:26:22 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (142 trận) =====
 
 # ----- Ngày 2026-10-03 -----
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/3e9126e77f86c6fd0f04f67c8f149712.png!w80" group-title="Phá Làng" , 03/10 11:00 🟡 🏐 Thái Lan - Ấn Độ (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#24ecc940d4f04a3eaf149b745ca6a923
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/3e9126e77f86c6fd0f04f67c8f149712.png!w80" group-title="Phá Làng" , 03/10 11:00 🟢 🏐 Thái Lan - Ấn Độ (LÝ LINH LỰC (Server 1))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2Fd38d7dbbdeb64778a299a13af37330b8%2Findex.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6b55a647c6ffe4016e025e9f46144d3f.png" group-title="Phá Làng" , 03/10 12:00 ⚽ Australia U23 - South Korea U23 (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#vjxm8ghkv346r6o

@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:24:08 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:26:22 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (28 trận), Khán Đài (20 trận), Chuối Chiên (20 trận), Phá Làng (142 trận), Gà Vàng (35 trận), Sao Kê (21 trận), GaVang33 (21 trận), Bông Lau (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (20 trận), Chuối Chiên (20 trận), Phá Làng (142 trận), Gà Vàng (35 trận), Sao Kê (21 trận), GaVang33 (21 trận), Bông Lau (20 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -9,9 +9,6 @@ https://ftlh5sc02iliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8|User-Agen
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/deportivo-cali.png" group-title="Giờ Vàng" , 03/10 07:45 🟢 ⚽ Deportivo Cali vs Alianza Petrolera (Giovang 1)
 https://pzhgifbkllliv.vcdn.cloud/1790959788_hd/1790959788_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
-
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png" group-title="Giờ Vàng" , 03/10 08:00 🟢 🏀 Golden State Valkyries vs Dallas Wings (Giovang 1)
-https://pzhgifbkllliv.vcdn.cloud/1790960636_hd/1790960636_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/671U0L9r-0CHCDEUd.png" group-title="Giờ Vàng" , 03/10 08:00 🟢 ⚽ Erdogan vs Elliott (Giovang 1)
 https://ftlh5sc02iliv.vcdn.cloud/1790991481_hd/1790991481_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
@@ -34,17 +31,17 @@ https://ftlh5sc02iliv.vcdn.cloud/1790988213_hd/1790988213_hd@720p.m3u8|User-Agen
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/7e16680bbd661fd90dbf08501ae7a98e.png" group-title="GaVang33" , 03/10 10:00 🟢 ⚽ Club Atletico La Paz vs Venados FC Yucatán (Gà Siêu Tồ)
 https://live2.zktsva.app/live/796315.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/aEBU_ri8U6F06oTqWmKY5g_96x96.png" group-title="Giờ Vàng" , 03/10 11:00 🟡 🏐 Thái Lan vs Ấn Độ (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-thai-lan-vs-an-do-03-10-rydpk7dw9yo1
+#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/aEBU_ri8U6F06oTqWmKY5g_96x96.png" group-title="Giờ Vàng" , 03/10 11:00 🟢 🏐 Thái Lan vs Ấn Độ (Giovang 1)
+https://pzhgifbkllliv.vcdn.cloud/1790960953_hd/1790960953_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/3e9126e77f86c6fd0f04f67c8f149712.png!w80" group-title="Phá Làng" , 03/10 11:00 🟢 🏐 Thái Lan - Ấn Độ (LÝ LINH LỰC (Server 1))
+https://pull.digitalcdn.net/live/d38d7dbbdeb64778a299a13af37330b8/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/thai-lan-vs-an-do-24ecc940d4f04a3eaf149b745ca6a923&Origin=https://phalang1.live
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_Q9mUTFM.jpg" group-title="Khán Đài" , 03/10 11:00 🟡 🏐 Thái Lan vs Ấn Độ (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/thai-lan-vs-an-do
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_358dda20.png" group-title="Chuối Chiên" , 03/10 11:00 🟡 🏐 Thailand vs India (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/999726/thailand-vs-india
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/3e9126e77f86c6fd0f04f67c8f149712.png!w80" group-title="Phá Làng" , 03/10 11:00 🟡 🏐 Thái Lan - Ấn Độ (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#24ecc940d4f04a3eaf149b745ca6a923
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_358dda20.png" group-title="Sao Kê" , 03/10 11:00 🟡 ⚽ Thailand vs India (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/thailand-vs-india-6ac04d41721fced7755d0b83.html
