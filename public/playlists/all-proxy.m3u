@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 23:29:04 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:31:43 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (20 trận), Chuối Chiên (9 trận), Phá Làng (20 trận), Gà Vàng (10 trận), Sao Kê (11 trận), GaVang33 (25 trận), Bông Lau (9 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (21 trận), Chuối Chiên (9 trận), Phá Làng (20 trận), Gà Vàng (9 trận), Sao Kê (11 trận), GaVang33 (26 trận), Bông Lau (9 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/051be0a9b61dedb583315fb75eaa8308.png" group-title="Gà Vàng" , 03/10 20:55 🟢 ⚽ Liverpool URU vs Club Atletico Progreso (SÚP LƠ)
@@ -96,9 +96,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8385.png" group-title="Sao Kê" , 03/10 23:30 🟢 ⚽ Cádiz vs Leganés (Kai (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx00-hd-1111%2Fplaylist.m3u8&source=saoke
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/13ad117ddb310052841244f0d1ed3c1e.png" group-title="Gà Vàng" , 03/10 23:30 🟡 ⚽ Cadiz CF vs Leganes (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/cadiz-cf-vs-cd-leganes-ngay-03-10-2026/
 
 # ----- Ngày 2026-10-04 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/CMe9zXzS-QNrz0V5B.png" group-title="Giờ Vàng" , 04/10 00:00 🟡 ⚽ Cleverland Guardians vs Chicago White Sox (Chưa có link — chờ cập nhật)
@@ -397,3 +394,9 @@ https://gavang33.me/truc-tiep/kosovo-vs-austria-luc-2300-ngay-04-10-2026-x7lm7ph
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f7eb745a5f9b3016b083019da91b5f74.png" group-title="GaVang33" , 04/10 23:00 ⚽ Malta vs Andorra (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/malta-vs-andorra-luc-2300-ngay-04-10-2026-n54qllhn4gg4qvy
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_7289.jpg" group-title="Khán Đài" , 04/10 23:30 ⚽ Las Palmas vs Valladolid (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/las-palmas-vs-valladolid-04-10-2026-799271
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/eff9bb17ae54a84068dfc3b9f1f628cb.png" group-title="GaVang33" , 04/10 23:30 ⚽ UD Las Palmas vs Real Valladolid CF (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/ud-las-palmas-vs-real-valladolid-cf-luc-2330-ngay-04-10-2026-23xmvkh6j9woqg8
