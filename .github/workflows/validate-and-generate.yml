@@ -63,11 +63,14 @@ jobs:
       # cho MỌI bước phía sau qua $GITHUB_ENV nên code các nguồn không phải sửa gì.
       # Ưu tiên: dòng trong SOURCE_DOMAINS > biến riêng lẻ cũ > domain mặc định trong code.
       # Workflow "Check Domains" cũng tự sửa biến SOURCE_DOMAINS khi tìm được domain mới.
+      # Bước này còn TỰ THEO REDIRECT: domain trang web nào đang chuyển hướng sang domain khác (và trang
+      # đích đúng là nguồn đó) thì dùng domain mới ngay cho lần chạy, kèm cảnh báo nên cập nhật biến.
       # (Biến riêng lẻ bên dưới chỉ là dự phòng tương thích cũ — để trống cũng được.)
       - name: Expand source domains (GitHub Variables)
         run: node scripts/expand-source-domains.mjs
         env:
           SOURCE_DOMAINS: ${{ vars.SOURCE_DOMAINS }}
+          FOLLOW_REDIRECTS: ${{ vars.FOLLOW_REDIRECTS }} # đặt biến GitHub FOLLOW_REDIRECTS=0 để TẮT tự theo redirect
           GIOVANG_DOMAIN: ${{ vars.GIOVANG_DOMAIN }}
           KHANDAITV_BASE_URL: ${{ vars.KHANDAITV_BASE_URL }}
           PHAOHOA_BASE_URL: ${{ vars.PHAOHOA_BASE_URL }}
