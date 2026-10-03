@@ -1,21 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:20:59 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:23:52 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (11 trận), Chuối Chiên (4 trận), Phá Làng (25 trận), Gà Vàng (8 trận), Sao Kê (4 trận), GaVang33 (16 trận), Bông Lau (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (11 trận), Chuối Chiên (4 trận), Phá Làng (25 trận), Sao Kê (4 trận), GaVang33 (16 trận), Bông Lau (4 trận) =====
 
 # ----- Ngày 2026-10-04 -----
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a9e3f5956f84947cbd6503823dcffbb0.png" group-title="Gà Vàng" , 04/10 03:00 🟢 ⚽ Cuiaba vs Ponte Preta (khang hi)
-https://playback.livetl002.com/live/6a7c0d8f65997681f18cacc4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/2d87cf3b426597f02435e2c72e8def93.png" group-title="Gà Vàng" , 04/10 03:00 🟢 ⚽ Atletico Tucuman vs CA Barracas Central (THICHDUTHU)
-https://playback.livetl002.com/live/6a704ad865997681f18c2160.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/845eed665066a19144dad9f96e550b50.png" group-title="Gà Vàng" , 04/10 03:00 🟢 ⚽ CA Newell's Old Boys vs CA Lanús (RIO)
-https://playback.livetl002.com/live/6a01a2511e8555d7a3685f5c.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/40f17f08ff7bb44a641273044db78c64.png" group-title="Gà Vàng" , 04/10 04:05 🟢 ⚽ Deportes Tolima vs Boyaca Chico (SiêU QuậY)
-https://playback.livetl002.com/live/6a2a59b347bbddd62a8dc4e4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125542_d8ff9d63.png" group-title="Chuối Chiên" , 04/10 04:30 🟢 ⚽ Atletico-MG vs RB Bragantino (Trốc Tru (FHD))
 https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
@@ -40,9 +28,6 @@ https://giovang.rent/truc-tiep-fc-tulsa-vs-sacramento-republic-fc-04-10-6ab9ae2f
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132808_60e400eb.png" group-title="Chuối Chiên" , 04/10 07:00 🟡 ⚽ Argentina vs Burkina Faso (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1640514/argentina-vs-burkina-faso
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ef7329946e1741b9ade4fedbf739158a.png" group-title="Gà Vàng" , 04/10 07:00 🟡 ⚽ Argentina vs Burkina Faso (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/argentina-vs-burkina-faso-ngay-04-10-2026/
-
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6706.png" group-title="Sao Kê" , 04/10 07:00 🟡 ⚽ Argentina vs Burkina Faso (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/argentina-vs-burkina-faso-6abf70758117d47caf8cefb1.html
 
@@ -64,9 +49,6 @@ https://live05.chuoichientv.me/live/1629004/usa-vs-mexico
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e8b03b5c083ffa4e9179571b70c1febe.png" group-title="Phá Làng" , 04/10 09:00 ⚽ USA - Mexico (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#k82rekh2z693rep
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/350ec526535f4c9a81f9d9201948d9d5.png" group-title="Gà Vàng" , 04/10 09:00 ⚽ USA vs Mexico (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/usa-vs-mexico-ngay-04-10-2026/
-
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/cc43cae8b2c9735749cb067be62f9311.png" group-title="GaVang33" , 04/10 09:00 ⚽ Belize vs French Guiana (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/belize-vs-french-guiana-luc-0900-ngay-04-10-2026-jw2r09hk8zn4rz8
 
@@ -87,12 +69,6 @@ https://lau06.bonglautv1.org/truc-tiep/1603387
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/consadole-sapporo.png" group-title="Giờ Vàng" , 04/10 11:00 ⚽ Consadole Sapporo vs Iwaki FC (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-consadole-sapporo-vs-iwaki-fc-04-10-6ab9ae3024d46db870ba4417
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/2a2a5d251c157be485891c94a1e1a495.png" group-title="Gà Vàng" , 04/10 11:00 ⚽ Consadole Sapporo vs Iwaki FC (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/hokkaido-consadole-sapporo-vs-iwaki-fc-ngay-04-10-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/3b0ad7d22d856a34a523cf4cecde0789.png" group-title="Gà Vàng" , 04/10 11:00 ⚽ Vanraure Hachinohe FC vs Yokohama FC (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/vanraure-hachinohe-fc-vs-yokohama-fc-ngay-04-10-2026/
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5568ced004ac6d705da33b97a1379069.png" group-title="Phá Làng" , 04/10 12:00 ⚽ Nojima Stella Kanagawa Sagamihara - RB Omiya Ardija Ventus (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#23xmvkh67j62qg8
