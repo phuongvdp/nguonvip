@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:41:06 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:44:03 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (31 trận), Khán Đài (21 trận), Chuối Chiên (6 trận), Phá Làng (16 trận), Gà Vàng (15 trận), Sao Kê (7 trận), GaVang33 (20 trận), Bông Lau (6 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (19 trận), Chuối Chiên (5 trận), Phá Làng (13 trận), Gà Vàng (15 trận), Sao Kê (7 trận), GaVang33 (20 trận), Bông Lau (5 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/0OsJt6Fa-CxYUcq3p.png" group-title="Giờ Vàng" , 03/10 23:00 🟢 ⚽ Ben Whittaker vs Conor Wallace (Giovang 1)
@@ -20,11 +20,6 @@ https://playback.livetl002.com/live/6a7c0d8f65997681f18cacc4.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/6a9776215126529dede9bf51.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/spain.png" group-title="Giờ Vàng" , 04/10 01:45 🟢 ⚽ Tây Ban Nha vs Cộng hòa Séc (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.rent/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://pzhgifbkllliv.vcdn.cloud/1791012075_hd/1791012075_hd@720p.m3u8
-
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/north-macedonia.png" group-title="Giờ Vàng" , 04/10 01:45 🟢 ⚽ Bắc Macedonia vs Scotland (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.rent/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -33,36 +28,10 @@ https://pzhgifbkllliv.vcdn.cloud/1791011852_hd/1791011852_hd@720p.m3u8
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_11.jpg" group-title="Khán Đài" , 04/10 01:45 🟢 ⚽ North Macedonia vs Scotland (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/north-macedonia-vs-scotland-04-10-2026-790846
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_2.jpg" group-title="Khán Đài" , 04/10 01:45 🟢 ⚽ Switzerland vs Slovenia (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/switzerland-vs-slovenia-04-10-2026-790847
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_19.jpg" group-title="Khán Đài" , 04/10 01:45 🟢 ⚽ Spain vs Czech Republic (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/spain-vs-czech-republic-04-10-2026-790895
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125449_8711159b.png" group-title="Chuối Chiên" , 04/10 01:45 🟢 ⚽ Spain vs Czech Republic (Chuối Chao (FHD))
-#EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260531_193336_3393bc73.png" group-title="Chuối Chiên" , 04/10 01:45 🟢 ⚽ FYR Macedonia vs Scotland (Chuối Nhỏ (FHD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/a99e389a0921b70b567fd9c3f4510591.png" group-title="Phá Làng" , 04/10 01:45 🟢 ⚽ Switzerland - Slovenia (LÝ LIỀU LĨNH)
-#EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/switzerland-vs-slovenia-318q66hx8yppqo9
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/a83f2f1bc58ecb3bbddcf4b07a964fed/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/c9ab934c9ff00a42174245081924b57c.png" group-title="Phá Làng" , 04/10 01:45 🟢 ⚽ Spain - Czechia (LÝ LA LÀNG)
-#EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/spain-vs-czechia-k82rekhg2p4drep
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/6a311bb20b31a673c9b236d05976c0aa/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/78e57b771bb363598680a056a7d26c0a.png" group-title="Phá Làng" , 04/10 01:45 🟢 ⚽ North Macedonia - Scotland (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/north-macedonia-vs-scotland-vjxm8ghekddxr6o
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/9ec95b791cd8617d377ea1ea396f1c1b/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/9c1958aa257c4a318f87cb4b2d79fa11.png" group-title="Gà Vàng" , 04/10 01:45 🟢 ⚽ Spain vs Czechia (SAITAMA)
 #EXTVLCOPT:http-referrer=https://gavanglinkt.tv/
@@ -106,18 +75,15 @@ https://live2.zktsva.app/live/432017.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/301238.m3u8
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125449_8711159b.png" group-title="Bông Lau" , 04/10 01:45 🟢 ⚽ Spain vs Czech Republic (Chuối Chao (FHD))
-#EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260531_193336_3393bc73.png" group-title="Bông Lau" , 04/10 01:45 🟢 ⚽ FYR Macedonia vs Scotland (Chuối Nhỏ (FHD))
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_738.jpg" group-title="Khán Đài" , 04/10 02:00 🟢 ⚽ Ivory Coast vs Cameroon (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/ivory-coast-vs-cameroon-04-10-2026-855589
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_738.jpg" group-title="Khán Đài" , 04/10 02:00 🟢 ⚽ Ivory Coast vs Cameroon (Pháo Thủ)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/17962554eedf40e0af9df1fc346ce09e.png" group-title="GaVang33" , 04/10 02:00 🟢 ⚽ Cote d'Ivoire vs Cameroon (Gà Siêu Bệu)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
