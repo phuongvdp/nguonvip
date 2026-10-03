@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:19:08 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:21:43 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (20 trận) =====
 
@@ -10,11 +10,11 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3b748d71ceee359ab6cdd2b169d617a9.png" group-title="GaVang33" , 03/10 15:00 🟢 ⚽ Ulsan Citizens vs Siheung City (Gà Siêu Kiêu)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F741294.m3u8&source=gavang33
 
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/df321578b4f5f132345d2e6b39743126.png" group-title="GaVang33" , 03/10 17:00 🟢 ⚽ Hong Kong vs Cambodia (Gà Ô Long)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F432017.m3u8&source=gavang33
+
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/d272859d78eb8ca7a14753f4293fbf45.png" group-title="GaVang33" , 03/10 17:00 🟡 ⚽ Kashiwa Reysol vs Gamba Osaka (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/kashiwa-reysol-vs-gamba-osaka-luc-1700-ngay-03-10-2026-318q66hxp4j2qo9
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/df321578b4f5f132345d2e6b39743126.png" group-title="GaVang33" , 03/10 17:00 🟡 ⚽ Hong Kong vs Cambodia (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/hong-kong-vs-cambodia-luc-1700-ngay-03-10-2026-vjxm8ghkvln9r6o
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/aa54b4b022f88b8566c7834ee5fc3e12.png" group-title="GaVang33" , 03/10 18:30 ⚽ Brentwood Town vs Dagenham   Redbridge (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/brentwood-town-vs-dagenham-redbridge-luc-1830-ngay-03-10-2026-y0or5jh9x6wzqwz
