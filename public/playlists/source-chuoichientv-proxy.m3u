@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 03:29:01 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:31:57 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Chuối Chiên (7 trận) =====
 
@@ -13,7 +13,7 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125452_c8ee16a6.png" group-title="Chuối Chiên" , 04/10 01:45 🟢 ⚽ Switzerland vs Slovenia (Chuối Tây (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitayhd%2Fplaylist.m3u8&source=chuoichientv
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125542_d8ff9d63.png" group-title="Chuối Chiên" , 04/10 04:30 ⚽ Atletico-MG vs RB Bragantino (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125542_d8ff9d63.png" group-title="Chuối Chiên" , 04/10 04:30 🟡 ⚽ Atletico-MG vs RB Bragantino (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1492310/atletico-mg-vs-rb-bragantino
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132808_60e400eb.png" group-title="Chuối Chiên" , 04/10 07:00 ⚽ Argentina vs Burkina Faso (Chưa có link — chờ cập nhật)
