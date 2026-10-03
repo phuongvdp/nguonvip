@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:52:31 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:55:41 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (15 trận), Chuối Chiên (13 trận), Phá Làng (80 trận), Gà Vàng (18 trận), Sao Kê (14 trận), GaVang33 (25 trận), Bông Lau (13 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (15 trận), Chuối Chiên (13 trận), Phá Làng (79 trận), Gà Vàng (17 trận), Sao Kê (14 trận), GaVang33 (25 trận), Bông Lau (13 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -15,9 +15,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133419_dd306d1b.png" group-title="Chuối Chiên" , 03/10 19:00 🟢 ⚽ Albacete vs Eibar (Chuối Lá (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoilahd%2Fplaylist.m3u8&source=chuoichientv
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5cf9048be5c1b4c7b7cb573230467256.png" group-title="Phá Làng" , 03/10 19:00 🟢 ⚽ FC Pari Nizhniy Novgorod - Rotor Volgograd (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F2c4152434a30120c91da4c20ef1fcc7d%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/5f371fba064362ca54b15d0429869494.png" group-title="Phá Làng" , 03/10 19:00 🟢 ⚽ Albacete Balompié SAD - Eibar (LÝ LONG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F672644714be5367976f3862459ac5a5c%2Fplaylist.m3u8&source=phalang
@@ -75,9 +72,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/65503b155488a643de688e8dfa849b1f.png" group-title="Phá Làng" , 03/10 20:30 🟢 ⚽ FC St. Pauli - Borussia Monchengladbach (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F14e168ba3a74eb1e2bc316ecb22282ce%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/051be0a9b61dedb583315fb75eaa8308.png" group-title="Gà Vàng" , 03/10 20:55 🟡 ⚽ Liverpool URU vs Club Atletico Progreso (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/liverpool-uru-vs-club-atletico-progreso-ngay-03-10-2026/
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/india.png" group-title="Giờ Vàng" , 03/10 21:00 🟢 ⚽ Ấn Độ vs Brazil (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1791025202_hd%2F1791025202_hd%40720p.m3u8&source=giovang
