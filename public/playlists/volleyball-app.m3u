@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:30:05 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:33:01 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (7 trận), Khán Đài (9 trận), Phá Làng (8 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (7 trận), Khán Đài (9 trận), Chuối Chiên (2 trận), Phá Làng (8 trận), Bông Lau (2 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 03/10 07:00 🟢 🏐 Việt Nam - Thái Lan (LÝ LIỀU LĨNH (Server 1))
@@ -13,8 +13,14 @@ https://giovang.rent/truc-tiep-han-quoc-vs-qatar-03-10-pwy2qru602ua
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_TkTkw3i.jpg" group-title="Khán Đài" , 03/10 08:00 🟡 🏐 Qatar vs Hàn Quốc (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/qatar-vs-han-quoc
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Chuối Chiên" , 03/10 08:00 🟡 🏐 Qatar vs South Korea (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/995020/qatar-vs-south-korea
+
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/24bea3e10580aa94c883db6647fb25ac.png!w80" group-title="Phá Làng" , 03/10 08:00 🟡 🏐 Qatar - Hàn Quốc (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#e0a0aca861e94d2783476963f9ac15bd
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Bông Lau" , 03/10 08:00 🟡 🏐 Qatar vs South Korea (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/995020
 
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/aEBU_ri8U6F06oTqWmKY5g_96x96.png" group-title="Giờ Vàng" , 03/10 11:00 🏐 Thái Lan vs Ấn Độ (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-thai-lan-vs-an-do-03-10-rydpk7dw9yo1
@@ -22,8 +28,14 @@ https://giovang.rent/truc-tiep-thai-lan-vs-an-do-03-10-rydpk7dw9yo1
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_Q9mUTFM.jpg" group-title="Khán Đài" , 03/10 11:00 🏐 Thái Lan vs Ấn Độ (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/thai-lan-vs-an-do
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_358dda20.png" group-title="Chuối Chiên" , 03/10 11:00 🏐 Thailand vs India (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/999726/thailand-vs-india
+
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/3e9126e77f86c6fd0f04f67c8f149712.png!w80" group-title="Phá Làng" , 03/10 11:00 🏐 Thái Lan - Ấn Độ (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#24ecc940d4f04a3eaf149b745ca6a923
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_358dda20.png" group-title="Bông Lau" , 03/10 11:00 🏐 Thailand vs India (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/999726
 
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 14:00 🏐 Pakistan vs Trung Quốc (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-pakistan-vs-trung-quoc-03-10-aypu5oxinqxy

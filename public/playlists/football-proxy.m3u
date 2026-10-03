@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:30:05 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:33:01 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (12 trận), Chuối Chiên (18 trận), Phá Làng (121 trận), Gà Vàng (8 trận), Sao Kê (22 trận), GaVang33 (21 trận), Bông Lau (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (12 trận), Chuối Chiên (17 trận), Phá Làng (122 trận), Gà Vàng (6 trận), Sao Kê (22 trận), GaVang33 (21 trận), Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/47174721b260fae6e833329c13c9f2ee.png" group-title="Gà Vàng" , 03/10 05:15 🟢 ⚽ CA Independiente vs Instituto (cố tư nghiêm)
@@ -46,12 +46,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/independiente-rivadavia.png" group-title="Giờ Vàng" , 03/10 07:30 🟢 ⚽ Independiente Rivadavia vs Gimnasia LP (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790959750_hd%2F1790959750_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/5183f8cdb38f7cb0bb24f2c9a7eda619.png" group-title="Gà Vàng" , 03/10 07:30 🟡 ⚽ Independiente Rivadavia vs Gimnasia La Plata (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/independiente-rivadavia-vs-gimnasia-la-plata-ngay-03-10-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9ed2c4f6adc51975cdbd2a93093e6a43.png" group-title="Gà Vàng" , 03/10 07:30 🟡 ⚽ Boca Juniors vs Union Santa Fe (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/boca-juniors-vs-club-atletico-union-ngay-03-10-2026/
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/84f85d4178e4287ed8ad5f76ad4c5e46.png" group-title="Gà Vàng" , 03/10 07:35 🟡 ⚽ Fortaleza vs Nautico (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/fortaleza-vs-nautico-pe-ngay-03-10-2026/
 
@@ -67,9 +61,6 @@ https://giovang.rent/truc-tiep-correcaminos-uat-vs-cruz-azul-hidalgo-03-10-63pmk
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/el-salvador.png" group-title="Giờ Vàng" , 03/10 09:00 ⚽ El Salvador vs Jamaica (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-el-salvador-vs-jamaica-03-10-6aaf224e4e725bdee905b7cc
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132741_d7b2cf85.png" group-title="Chuối Chiên" , 03/10 09:00 ⚽ El Salvador vs Jamaica (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1639981/el-salvador-vs-jamaica
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cff411edceeeb7c1677d9db65ce47164.png" group-title="Phá Làng" , 03/10 09:00 ⚽ Pachuca - Mexico U23 (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#pxwrxlhlpyj0ryk
 
@@ -78,9 +69,6 @@ https://vip3.saoketv40.xyz/el-salvador-vs-jamaica-6abe354742ecb1c2b83700fa.html
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3c7f7c2dae5b4e1dd398cffb26391a58.png" group-title="GaVang33" , 03/10 09:00 ⚽ El Salvador vs Jamaica (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/el-salvador-vs-jamaica-luc-0900-ngay-03-10-2026-ednm9whw1nzpryo
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132741_d7b2cf85.png" group-title="Bông Lau" , 03/10 09:00 ⚽ El Salvador vs Jamaica (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1639981
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/c/ca/Atl%C3%A9tico_La_Paz_Logo.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" group-title="Giờ Vàng" , 03/10 10:00 ⚽ CA La Paz vs Venados (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-ca-la-paz-vs-venados-03-10-knvbg6hh95vd
@@ -555,6 +543,9 @@ https://phalang.live/trang-chu#x7lm7phj12wdm2w
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/cd-baztan.png" group-title="Giờ Vàng" , 03/10 22:30 ⚽ CD Baztan vs Atletico Calatayud (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-cd-baztan-vs-atletico-calatayud-03-10-6aa498131f7a2190510195c5
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/803da3d362e8645e8e6706f33885853a.png" group-title="Phá Làng" , 03/10 22:30 ⚽ CD Baztan - Atletico Calatayud (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#pxwrxlhyd68eryk
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_14.jpg" group-title="Khán Đài" , 03/10 23:00 ⚽ Croatia vs England (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/croatia-vs-england-03-10-2026-790894
