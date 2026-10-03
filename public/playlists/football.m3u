@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:52:58 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:56:15 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (11 trận), Chuối Chiên (12 trận), Phá Làng (34 trận), Gà Vàng (12 trận), Sao Kê (13 trận), GaVang33 (25 trận), Bông Lau (12 trận) =====
 
@@ -24,8 +24,10 @@ https://playback.livetl002.com/live/69be75e0a0a45974afb67776.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1790966861_hd/1790966861_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_8.jpg" group-title="Khán Đài" , 03/10 20:00 🟢 ⚽ Finland vs Albania (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/finland-vs-albania-03-10-2026-790940
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_8.jpg" group-title="Khán Đài" , 03/10 20:00 🟢 ⚽ Finland vs Albania (Kền Kền)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Chuối Chiên" , 03/10 20:00 🟢 ⚽ Finland vs Albania (Chuối Kem (FHD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
@@ -129,10 +131,10 @@ https://giovang.rent/truc-tiep-cd-baztan-vs-atletico-calatayud-03-10-6aa498131f7
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/803da3d362e8645e8e6706f33885853a.png" group-title="Phá Làng" , 03/10 22:30 🟡 ⚽ CD Baztan - Atletico Calatayud (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#pxwrxlhyd68eryk
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3874dcd109e646cbe7c5e8fb2bd41548.png" group-title="Phá Làng" , 03/10 22:55 ⚽ Saudi Arabia - Qatar (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3874dcd109e646cbe7c5e8fb2bd41548.png" group-title="Phá Làng" , 03/10 22:55 🟡 ⚽ Saudi Arabia - Qatar (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#pxwrxlhy636kryk
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/344c0d0b85274807ba668a603ef5a05e.png" group-title="GaVang33" , 03/10 22:55 ⚽ Saudi Arabia vs Qatar (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/344c0d0b85274807ba668a603ef5a05e.png" group-title="GaVang33" , 03/10 22:55 🟡 ⚽ Saudi Arabia vs Qatar (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/saudi-arabia-vs-qatar-luc-2255-ngay-03-10-2026-pxwrxlhy636kryk
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/croatia.png" group-title="Giờ Vàng" , 03/10 23:00 ⚽ Croatia vs Anh (Chưa có link — chờ cập nhật)
