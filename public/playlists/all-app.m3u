@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 15:55:51 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 15:58:05 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (31 trận), Khán Đài (16 trận), Chuối Chiên (17 trận), Phá Làng (140 trận), Gà Vàng (21 trận), Sao Kê (18 trận), GaVang33 (20 trận), Bông Lau (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (28 trận), Khán Đài (16 trận), Chuối Chiên (17 trận), Phá Làng (139 trận), Gà Vàng (21 trận), Sao Kê (18 trận), GaVang33 (20 trận), Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -12,12 +12,6 @@ https://ftlh5sc02iliv.vcdn.cloud/1790988213_hd/1790988213_hd@720p.m3u8|User-Agen
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/e51f03da53b2f36fc922a7ce18a07476.png" group-title="Gà Vàng" , 03/10 13:00 🟢 ⚽ China U23 vs Uzbekistan U23 (RIO)
 https://playback.livetl002.com/live/6a01a2511e8555d7a3685f5c.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/nuUeFiwS-0peDsUzn.png" group-title="Giờ Vàng" , 03/10 14:00 🟢 🏐 Kazakhstan vs Indonesia (Giovang 1)
-https://pzhgifbkllliv.vcdn.cloud/1790961206_hd/1790961206_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png" group-title="Phá Làng" , 03/10 14:00 🟢 ⚽ Machida Zelvia - Kyoto Sanga (Server 1)
-https://lilive1.eu.cc/live/c32683b2370f90d6590d9cde8faf1c6b/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/machida-zelvia-vs-kyoto-sanga-dn1m1ghlz380moe&Origin=https://phalang1.live
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/61e08ae9a3b69ce77f30bf51e71b2a77.png" group-title="Gà Vàng" , 03/10 14:00 🟢 ⚽ Ventforet Kofu vs Kataller Toyama (khang hi)
 https://playback.livetl002.com/live/6a7c0d8f65997681f18cacc4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
@@ -746,9 +740,6 @@ https://lau06.bonglautv1.org/truc-tiep/1528936
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260531_193336_3393bc73.png" group-title="Bông Lau" , 04/10 01:45 ⚽ FYR Macedonia vs Scotland (Chưa có link — chờ cập nhật)
 https://lau06.bonglautv1.org/truc-tiep/1545660
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/ivory-coast.png" group-title="Giờ Vàng" , 04/10 02:00 ⚽ Bờ Biển Ngà vs Cameroon (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-bo-bien-nga-vs-cameroon-04-10-6ab9ae2e24d46db870ba40fd
-
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_738.jpg" group-title="Khán Đài" , 04/10 02:00 ⚽ Ivory Coast vs Cameroon (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/ivory-coast-vs-cameroon-04-10-2026-855589
 
@@ -772,9 +763,6 @@ https://lau06.bonglautv1.org/truc-tiep/1640077
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/jcQ7UvyB-dWl7UQ2D.png" group-title="Giờ Vàng" , 04/10 03:00 ⚽ Silva vs Wang (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-silva-vs-wang-04-10-bwi9yp6ebiw9
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png" group-title="Giờ Vàng" , 04/10 03:00 ⚽ Los Angeles Dodgers vs Atlanta Braves (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-los-angeles-dodgers-vs-atlanta-braves-04-10-zhdopk2w5f96
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125542_d8ff9d63.png" group-title="Chuối Chiên" , 04/10 04:30 ⚽ Atletico-MG vs RB Bragantino (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1492310/atletico-mg-vs-rb-bragantino
