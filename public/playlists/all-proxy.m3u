@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:33:01 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:35:58 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận), Khán Đài (21 trận), Chuối Chiên (19 trận), Phá Làng (130 trận), Gà Vàng (7 trận), Sao Kê (22 trận), GaVang33 (21 trận), Bông Lau (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận), Khán Đài (21 trận), Chuối Chiên (19 trận), Phá Làng (130 trận), Gà Vàng (6 trận), Sao Kê (23 trận), GaVang33 (21 trận), Bông Lau (19 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/47174721b260fae6e833329c13c9f2ee.png" group-title="Gà Vàng" , 03/10 05:15 🟢 ⚽ CA Independiente vs Instituto (cố tư nghiêm)
@@ -52,9 +52,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/independiente-rivadavia.png" group-title="Giờ Vàng" , 03/10 07:30 🟢 ⚽ Independiente Rivadavia vs Gimnasia LP (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790959750_hd%2F1790959750_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/84f85d4178e4287ed8ad5f76ad4c5e46.png" group-title="Gà Vàng" , 03/10 07:35 🟡 ⚽ Fortaleza vs Nautico (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/fortaleza-vs-nautico-pe-ngay-03-10-2026/
-
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/deportivo-cali.png" group-title="Giờ Vàng" , 03/10 07:45 🟡 ⚽ Deportivo Cali vs Alianza Petrolera (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-deportivo-cali-vs-alianza-petrolera-03-10-6ab9ae1824d46db870ba2491
 
@@ -82,6 +79,9 @@ https://phalang.live/trang-chu#e0a0aca861e94d2783476963f9ac15bd
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/380d81d4050b81debf9a5500239e96d0.png" group-title="Gà Vàng" , 03/10 08:00 🟡 🏀 Golden State Valkyries vs Dallas Wings (Chưa có link — chờ cập nhật)
 https://gavanglinkp.tv/
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Sao Kê" , 03/10 08:00 🟡 ⚽ Qatar vs South Korea (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/qatar-vs-south-korea-6ac04d1bcd18e214e6cbf689.html
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Bông Lau" , 03/10 08:00 🟡 🏐 Qatar vs South Korea (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/995020
 
@@ -90,9 +90,6 @@ https://giovang.rent/truc-tiep-el-salvador-vs-jamaica-03-10-6aaf224e4e725bdee905
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cff411edceeeb7c1677d9db65ce47164.png" group-title="Phá Làng" , 03/10 09:00 ⚽ Pachuca - Mexico U23 (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#pxwrxlhlpyj0ryk
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6327.png" group-title="Sao Kê" , 03/10 09:00 ⚽ El Salvador vs Jamaica (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/el-salvador-vs-jamaica-6abe354742ecb1c2b83700fa.html
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3c7f7c2dae5b4e1dd398cffb26391a58.png" group-title="GaVang33" , 03/10 09:00 ⚽ El Salvador vs Jamaica (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/el-salvador-vs-jamaica-luc-0900-ngay-03-10-2026-ednm9whw1nzpryo
@@ -114,6 +111,9 @@ https://live05.chuoichientv.me/live/999726/thailand-vs-india
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/3e9126e77f86c6fd0f04f67c8f149712.png!w80" group-title="Phá Làng" , 03/10 11:00 🏐 Thái Lan - Ấn Độ (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#24ecc940d4f04a3eaf149b745ca6a923
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_358dda20.png" group-title="Sao Kê" , 03/10 11:00 ⚽ Thailand vs India (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/thailand-vs-india-6ac04d41721fced7755d0b83.html
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_358dda20.png" group-title="Bông Lau" , 03/10 11:00 🏐 Thailand vs India (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/999726
