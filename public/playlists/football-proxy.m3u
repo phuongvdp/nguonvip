@@ -1,14 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:09:44 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:12:48 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (12 trận), Chuối Chiên (15 trận), Phá Làng (131 trận), Gà Vàng (23 trận), Sao Kê (23 trận), GaVang33 (21 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (12 trận), Chuối Chiên (15 trận), Phá Làng (131 trận), Gà Vàng (23 trận), Sao Kê (22 trận), GaVang33 (21 trận), Bông Lau (15 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/31f5171de0e1404fdebcef19cd7cd409.png" group-title="Gà Vàng" , 03/10 06:00 🟢 ⚽ Sao Paulo vs Santos (RIO)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a01a2511e8555d7a3685f5c.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10277.png" group-title="Sao Kê" , 03/10 06:00 🟢 ⚽ São Paulo vs Santos (Bút Chì (HD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx22-hd-1111%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/9d3195be22d95cf5d35790272afc724a.png" group-title="Gà Vàng" , 03/10 06:30 🟢 ⚽ Londrina PR vs Criciuma (khang hi)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a7c0d8f65997681f18cacc4.m3u8&source=gavang
