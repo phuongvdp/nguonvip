@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:27:53 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:31:05 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (15 trận), Chuối Chiên (13 trận), Phá Làng (81 trận), Gà Vàng (18 trận), Sao Kê (14 trận), GaVang33 (25 trận), Bông Lau (13 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (15 trận), Chuối Chiên (13 trận), Phá Làng (79 trận), Gà Vàng (18 trận), Sao Kê (14 trận), GaVang33 (26 trận), Bông Lau (13 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -76,14 +76,8 @@ https://live2.zktsva.app/live/289650.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Bông Lau" , 03/10 20:00 🟢 ⚽ Finland vs Albania (Chuối Kem (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://live.chuoichien.tv/
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/65503b155488a643de688e8dfa849b1f.png" group-title="Phá Làng" , 03/10 20:30 🟡 ⚽ FC St. Pauli - Borussia Monchengladbach (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#965mkyh8l23wr1g
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7d869f45894b0c8a3cdf8ade8c568a06.png" group-title="Phá Làng" , 03/10 20:30 🟡 ⚽ VfL Osnabrück - Djurgardens (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#ednm9wh582z5ryo
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e74894fcaad7e4f5c3a42847571373af.png" group-title="Phá Làng" , 03/10 20:30 🟡 ⚽ WSG Tirol B - FC Wacker Innsbruck (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#l5ergphk04ver8k
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/65503b155488a643de688e8dfa849b1f.png" group-title="Phá Làng" , 03/10 20:30 🟢 ⚽ FC St. Pauli - Borussia Monchengladbach (Server 1)
+https://lilive1.eu.cc/live/14e168ba3a74eb1e2bc316ecb22282ce/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/fc-st-pauli-vs-borussia-monchengladbach-965mkyh8l23wr1g&Origin=https://phalang1.live
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/051be0a9b61dedb583315fb75eaa8308.png" group-title="Gà Vàng" , 03/10 20:55 🟡 ⚽ Liverpool URU vs Club Atletico Progreso (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/liverpool-uru-vs-club-atletico-progreso-ngay-03-10-2026/
@@ -631,3 +625,6 @@ https://khandai3.link/truc-tiep/aras-kargo-vs-zeren-spor
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f653d5976458f0dcce2b3939259acffa.png" group-title="GaVang33" , 04/10 20:00 ⚽ Azerbaijan vs Lithuania (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/azerbaijan-vs-lithuania-luc-2000-ngay-04-10-2026-x7lm7phjxyy5m2w
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/90f52b30fbdf2ac568ca1d48c07f2bc3.png" group-title="GaVang33" , 04/10 20:30 ⚽ Hamburger SV vs FC Copenhagen (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/hamburger-sv-vs-fc-copenhagen-luc-2030-ngay-04-10-2026-y0or5jh9xz23qwz

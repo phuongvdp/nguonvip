@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:27:53 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:31:05 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (81 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (79 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/5f371fba064362ca54b15d0429869494.png" group-title="Phá Làng" , 03/10 19:00 🟢 ⚽ Albacete Balompié SAD - Eibar (LÝ LONG)
@@ -16,14 +16,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b44ed2e934bbbae323265d36aeaa6d29.png!w80" group-title="Phá Làng" , 03/10 20:00 🟢 🏐 Nilufer Bld. Nữ - Eczacibasi Nữ (LÝ LÊN LỬA (Server 1))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F4f4ca130001b4d378b922bf641b6120b%2Findex.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/65503b155488a643de688e8dfa849b1f.png" group-title="Phá Làng" , 03/10 20:30 🟡 ⚽ FC St. Pauli - Borussia Monchengladbach (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#965mkyh8l23wr1g
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7d869f45894b0c8a3cdf8ade8c568a06.png" group-title="Phá Làng" , 03/10 20:30 🟡 ⚽ VfL Osnabrück - Djurgardens (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#ednm9wh582z5ryo
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e74894fcaad7e4f5c3a42847571373af.png" group-title="Phá Làng" , 03/10 20:30 🟡 ⚽ WSG Tirol B - FC Wacker Innsbruck (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#l5ergphk04ver8k
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/65503b155488a643de688e8dfa849b1f.png" group-title="Phá Làng" , 03/10 20:30 🟢 ⚽ FC St. Pauli - Borussia Monchengladbach (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F14e168ba3a74eb1e2bc316ecb22282ce%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7385db9a3f11415bc0e9e2625fae3734.png" group-title="Phá Làng" , 03/10 21:00 🟡 ⚽ Kettering Town - Worcester City (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#1l4rjnhny5ggm7v
