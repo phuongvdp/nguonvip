@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:50:57 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:54:09 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (31 trận), Khán Đài (21 trận), Chuối Chiên (20 trận), Phá Làng (130 trận), Gà Vàng (29 trận), Sao Kê (26 trận), GaVang33 (21 trận), Bông Lau (20 trận) =====
 
@@ -67,11 +67,17 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/deportivo-cali.png" group-title="Giờ Vàng" , 03/10 07:45 🟢 ⚽ Deportivo Cali vs Alianza Petrolera (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790959788_hd%2F1790959788_hd%40720p.m3u8&source=giovang
 
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png" group-title="Giờ Vàng" , 03/10 08:00 🟢 🏀 Golden State Valkyries vs Dallas Wings (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790960636_hd%2F1790960636_hd%40720p.m3u8&source=giovang
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/xUGWvAzB-fHcbO6Ye.png" group-title="Giờ Vàng" , 03/10 08:00 🟢 🏐 Hàn Quốc vs Qatar (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790960822_hd%2F1790960822_hd%40720p.m3u8&source=giovang
+
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzsOYIOsX07EGftC-0YU85JEWhVV8eqZgHxa90ejwO9w&s=10" group-title="Giờ Vàng" , 03/10 08:00 🟢 ⚽ Correcaminos UAT vs Cruz Azul Hidalgo (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790780201_hd%2F1790780201_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_TkTkw3i.jpg" group-title="Khán Đài" , 03/10 08:00 🟢 🏐 Qatar vs Hàn Quốc (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/qatar-vs-han-quoc
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_TkTkw3i.jpg" group-title="Khán Đài" , 03/10 08:00 🟢 🏐 Qatar vs Hàn Quốc (Tiểu Mây)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa9%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Chuối Chiên" , 03/10 08:00 🟢 🏐 Qatar vs South Korea (Chuối Kem (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikemhd%2Fplaylist.m3u8&source=chuoichientv
@@ -81,12 +87,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Bông Lau" , 03/10 08:00 🟢 🏐 Qatar vs South Korea (Chuối Kem (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikemhd%2Fplaylist.m3u8&source=bonglau
-
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png" group-title="Giờ Vàng" , 03/10 08:00 🟡 🏀 Golden State Valkyries vs Dallas Wings (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-golden-state-valkyries-vs-dallas-wings-03-10-39442470
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/xUGWvAzB-fHcbO6Ye.png" group-title="Giờ Vàng" , 03/10 08:00 🟡 🏐 Hàn Quốc vs Qatar (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-han-quoc-vs-qatar-03-10-pwy2qru602ua
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/24bea3e10580aa94c883db6647fb25ac.png!w80" group-title="Phá Làng" , 03/10 08:00 🟡 🏐 Qatar - Hàn Quốc (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#e0a0aca861e94d2783476963f9ac15bd
