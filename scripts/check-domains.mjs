@@ -11,6 +11,8 @@
 //   AUTO_FIX            1/true (mặc định) = ghi biến khi tìm được domain mới; 0/false = chỉ quét
 //   SOURCES             "all" (mặc định) hoặc danh sách key cách nhau dấu phẩy, vd "giovang,saoke"
 //   EXTRA_CANDIDATES    domain bạn BIẾT là mới (cách nhau dấu phẩy) — thử đầu tiên cho mọi nguồn chết
+//   DISCOVER_BUDGET_MS  thời gian tối đa tìm domain mới cho MỖI nguồn, mặc định 150000 (150 giây)
+//   EXTRA_TLDS          đuôi tên miền muốn thử thêm, vd "lat,wiki,bz" (thử đầu tiên, trước danh sách có sẵn)
 //   <BIẾN>_CANDIDATES   ứng viên riêng cho 1 nguồn, vd GIOVANG_DOMAIN_CANDIDATES=giovang.cv,giovang.tv
 //   GH_VARIABLES_TOKEN  PAT có quyền ghi Variables của repo (GITHUB_TOKEN mặc định KHÔNG ghi được biến)
 //   GITHUB_REPOSITORY   owner/repo (GitHub Actions tự có)
@@ -19,41 +21,58 @@ import fs from 'node:fs';
 import dns from 'node:dns/promises';
 import { pathToFileURL } from 'node:url';
 import { SOURCES, parseSourceDomains, updateSourceDomainsText } from './source-domains.mjs';
+import { UA, PARKED_RE, CF_CHALLENGE_RE, stripSlash, normHost, hostOf, originOf } from './domain-utils.mjs';
 
-const UA =
-  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
+export { hostOf, originOf };
 
 export { SOURCES };
 
-const TLDS = ['com', 'net', 'org', 'tv', 'live', 'link', 'cc', 'cv', 'me', 'vip', 'xyz', 'site', 'pro', 'online', 'club', 'info', 'app', 'digital', 'blog', 'city', 'one', 'top', 'co', 'io', 'fun', 'win', 'bet'];
-const COMBO_TLDS = ['com', 'net', 'tv', 'live', 'link', 'cc', 'me', 'vip', 'xyz', 'pro'];
-const MAX_VARIANTS = 140;
+// Đuôi tên miền thử khi đổi đuôi (giữ tên). Xếp theo mức phổ biến của trang xem bóng đá/IPTV Việt Nam: các đuôi
+// đứng trước được thử trước. Thêm đuôi riêng bằng ô extra_tlds của workflow (hoặc env EXTRA_TLDS).
+export const TLDS = [
+  'com', 'net', 'tv', 'live', 'link', 'cc', 'xyz', 'top', 'vip', 'me', 'site', 'online', 'club', 'pro', 'info', 'app',
+  'blog', 'city', 'one', 'cv', 'co', 'io', 'fun', 'win', 'bet', 'org', 'digital',
+  'asia', 'vn', 'com.vn', 'net.vn', 'store', 'today', 'news', 'sport', 'sports', 'football', 'cam', 'lol', 'wiki',
+  'life', 'world', 'pw', 'ws', 'is', 'to', 'in', 'gg', 'ai', 'dev', 'page', 'shop', 'space', 'website', 'tech',
+  'work', 'zone', 'run', 'studio', 'media', 'network', 'press', 'social', 'plus', 'mobi', 'biz', 'name', 'buzz',
+  'click', 'cyou', 'icu', 'sbs', 'rest', 'bar', 'best', 'group', 'team', 'fan', 'wtf', 'ink', 'stream', 'watch',
+  'video', 'tube', 'moe', 'ooo', 'pics', 'red', 'blue', 'gold', 'casa', 'center', 'chat', 'fyi', 'guru', 'host',
+  'agency', 'art', 'company', 'email', 'bio', 'cloud', 'codes', 'eu', 'us', 'uk', 'de', 'fr', 'ru', 'jp', 'kr', 'th',
+  'id', 'tw', 'hk', 'sg', 'my', 'ph'
+];
+const COMBO_TLDS = ['com', 'net', 'tv', 'live', 'link', 'cc', 'me', 'vip', 'xyz', 'pro', 'top', 'site', 'online', 'club'];
+// Hậu tố hay gặp khi nguồn đổi tên nhẹ: giovang -> giovangtv / giovanglive / giovang2 ...
+const AFFIXES = ['tv', 'live', 'vip', 'hd', 'vn', 'plus', 'online', '1', '2', '3'];
+const AFFIX_TLDS = ['com', 'net', 'tv', 'live', 'link', 'cc', 'xyz', 'vip', 'top', 'me', 'site', 'online', 'club'];
+// Đuôi 2 tầng cần tách đúng (phalang.com.vn -> nhãn "phalang", đuôi "com.vn").
+const MULTI_TLDS = ['com.vn', 'net.vn', 'org.vn', 'info.vn', 'biz.vn', 'edu.vn', 'gov.vn', 'co.uk', 'com.au', 'co.jp', 'co.kr', 'com.sg', 'com.my', 'com.hk', 'com.tw', 'co.th', 'co.id', 'com.br', 'co.in'];
+const MAX_VARIANTS = 420;
 
-// Trang đỗ tên miền / rao bán / hết hạn -> coi như CHẾT dù trả HTTP 200.
-const PARKED_RE =
-  /(domain (is )?for sale|buy this domain|this domain (may be|is) (for sale|parked|available)|domain (name )?(has )?expired|parked (free|domain)|sedo\.com\/search|dan\.com\/buy|afternic|parkingcrew|hugedomains|bodis\.com|tên miền (này )?(đã )?hết hạn|domain registration|renew your domain)/i;
-const CF_CHALLENGE_RE = /(just a moment|attention required|cf-browser-verification|challenge-platform|enable javascript and cookies)/i;
+// Trang thể thao thật có hàng loạt từ khoá này; trang lạ nhiều chữ mà không có -> không phải nguồn bóng đá.
+const SPORTS_RE = /(trực tiếp|truc tiep|bóng đá|bong da|xem bóng|lịch thi đấu|lich thi dau|kèo|bình luận viên|\bblv\b|livestream|live stream|football|soccer|sports?|đá bóng|vòng đấu|giải đấu|ngoại hạng|premier league|champions league|v-league|match)/i;
+function visibleText(html) {
+  return String(html || '').replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<[^>]+>/gi, ' ').replace(/\s+/g, ' ').trim();
+}
 
 const defaultSleep = (ms) => new Promise((r) => setTimeout(r, ms));
-const stripSlash = (u) => String(u || '').trim().replace(/\/+$/, '');
 const SOURCE_DOMAINS_VAR = 'SOURCE_DOMAINS';
-const normHost = (h) => String(h || '').toLowerCase().replace(/^www\./, '');
-
-export function hostOf(url) {
-  try { return new URL(/^https?:\/\//i.test(url) ? url : `https://${url}`).hostname; } catch { return ''; }
-}
-export function originOf(url) {
-  try { return new URL(/^https?:\/\//i.test(url) ? url : `https://${url}`).origin; } catch { return ''; }
-}
 
 // --------------------------- tạo ứng viên domain ---------------------------
-export function generateVariants(host) {
-  const parts = String(host || '').toLowerCase().split('.').filter(Boolean);
-  if (parts.length < 2) return [];
-  const tld = parts[parts.length - 1];
-  const labels = parts.slice(0, -1);
+export function splitHost(host) {
+  const h = String(host || '').toLowerCase();
+  const multi = MULTI_TLDS.find((m) => h.endsWith(`.${m}`));
+  if (multi) return { labels: h.slice(0, -(multi.length + 1)).split('.').filter(Boolean), tld: multi };
+  const parts = h.split('.').filter(Boolean);
+  return { labels: parts.slice(0, -1), tld: parts[parts.length - 1] || '' };
+}
+
+export function generateVariants(host, { brand = '', extraTlds = [] } = {}) {
+  const { labels, tld } = splitHost(host);
+  if (!labels.length || !tld) return [];
+  const own = `${labels.join('.')}.${tld}`;
   const out = [];
   const add = (ls, t) => out.push(`${ls.join('.')}.${t}`);
+  const tlds = [...new Set([...extraTlds.map((t) => String(t).trim().toLowerCase().replace(/^\./, '')).filter(Boolean), ...TLDS])];
 
   // Các nguồn hay xoay SỐ trong tên (khandai3 -> khandai4, lau05 -> lau06, saoketv40 -> saoketv41).
   const digitVariants = (label) => {
@@ -83,11 +102,15 @@ export function generateVariants(host) {
     const i = labels.length - 1;
     for (let n = 1; n <= 5; n++) { const ls = [...labels]; ls[i] = `${labels[i]}${n}`; digitSets.push(ls); }
   }
-  for (const ls of digitSets) add(ls, tld);                                   // 1) đổi số, giữ đuôi
-  for (const t of TLDS) if (t !== tld) add(labels, t);                        // 2) đổi đuôi, giữ tên
+  for (const ls of digitSets) add(ls, tld);                                              // 1) đổi số, giữ đuôi
+  for (const t of tlds) if (t !== tld) add(labels, t);                                   // 2) đổi đuôi, giữ tên
   for (const ls of digitSets.slice(0, 4)) for (const t of COMBO_TLDS) if (t !== tld) add(ls, t); // 3) cả hai
+  // 4) ghép tên nguồn với hậu tố (tv/live/vip/...) trên các đuôi phổ biến
+  const root = String(brand || '').toLowerCase() || labels[labels.length - 1].replace(/\d+/g, '');
+  if (root) {
+    for (const t of [tld, ...AFFIX_TLDS]) for (const a of AFFIXES) add([`${root}${a}`], t);
+  }
 
-  const own = parts.join('.');
   return [...new Set(out)].filter((h) => h !== own).slice(0, MAX_VARIANTS);
 }
 
@@ -136,12 +159,18 @@ export function createProber({ fetchImpl = globalThis.fetch, lookupImpl = (h) =>
       const hit = (entry.keywords || []).some((k) => lower.includes(k.toLowerCase()));
       const finalHost = hostOf(r.finalUrl);
       const moved = finalHost && normHost(finalHost) !== normHost(currentHost);
+      // Trang có NHIỀU chữ mà không chứa bất kỳ từ khoá thể thao nào (trực tiếp, bóng đá, kèo, ...) thì chắc chắn
+      // không phải trang xem bóng đá dù có nhắc tên nguồn (vd domain bị người khác mua lại). SPA rỗng thì bỏ qua kiểm tra này.
+      const text = visibleText(body);
+      const notSports = text.length > 3000 && !SPORTS_RE.test(text);
       if (moved) {
-        return hit
-          ? { state: 'moved', reason: `chuyển hướng sang ${originOf(r.finalUrl)}`, newOrigin: originOf(r.finalUrl) }
-          : { state: 'suspect', reason: `chuyển hướng sang ${originOf(r.finalUrl)} nhưng nội dung không giống nguồn` };
+        if (!hit) return { state: 'suspect', reason: `chuyển hướng sang ${originOf(r.finalUrl)} nhưng nội dung không giống nguồn` };
+        if (notSports) return { state: 'suspect', reason: `chuyển hướng sang ${originOf(r.finalUrl)} nhưng đó không phải trang thể thao` };
+        return { state: 'moved', reason: `chuyển hướng sang ${originOf(r.finalUrl)}`, newOrigin: originOf(r.finalUrl) };
       }
-      return hit ? { state: 'alive', reason: `HTTP ${r.status}` } : { state: 'suspect', reason: `HTTP ${r.status} nhưng nội dung không thấy tên nguồn (trang bị đổi nội dung?)` };
+      if (!hit) return { state: 'suspect', reason: `HTTP ${r.status} nhưng nội dung không thấy tên nguồn (trang bị đổi nội dung?)` };
+      if (notSports) return { state: 'suspect', reason: `HTTP ${r.status} nhưng nội dung không phải trang thể thao (domain bị đổi chủ?)` };
+      return { state: 'alive', reason: `HTTP ${r.status}` };
     }
     if (r.status >= 500) return { state: 'degraded', reason: `HTTP ${r.status} (lỗi máy chủ — có thể tạm thời)` };
     if (entry.role !== 'site') return { state: 'alive', reason: `HTTP ${r.status} (có phản hồi)` };
@@ -152,8 +181,9 @@ export function createProber({ fetchImpl = globalThis.fetch, lookupImpl = (h) =>
     return { state: 'blocked', reason: `HTTP ${r.status} (không kết luận được)` };
   }
 
-  async function check(entry, url) {
-    const r = await probeWithRetry(url);
+  // retry:false dùng cho ứng viên sinh tự động (hàng trăm domain) để không tốn thêm thời gian chờ thử lại.
+  async function check(entry, url, { retry = true } = {}) {
+    const r = retry ? await probeWithRetry(url) : await httpProbe(url);
     return { ...classify(r, entry, hostOf(url)), status: r.ok ? r.status : null, finalUrl: r.ok ? r.finalUrl : null };
   }
 
@@ -181,16 +211,22 @@ const splitList = (s) => String(s || '').split(/[,\s]+/).map((x) => x.trim()).fi
 // ------------------------- tìm domain thay thế -------------------------
 // Thử theo nhóm ưu tiên, nhóm nào có kết quả HỢP LỆ thì dừng. Domain mới phải: phân giải được DNS,
 // trả 2xx/3xx, KHÔNG phải trang đỗ tên miền, và nội dung có tên nguồn (chống domain bị người khác mua).
-export async function discover(entry, currentUrl, prober, { extra = [], env = process.env } = {}) {
+export async function discover(entry, currentUrl, prober, { extra = [], extraTlds = [], env = process.env } = {}) {
   const curHost = normHost(hostOf(currentUrl));
+  const budgetRaw = Number(env.DISCOVER_BUDGET_MS);
+  const budgetMs = Number.isFinite(budgetRaw) && budgetRaw > 0 ? budgetRaw : 150000; // mặc định 150 giây/nguồn
+  const deadline = Date.now() + budgetMs;
+  const expired = () => Date.now() > deadline;
   const groups = [
     ['extra', extra],
     ['biến ứng viên', splitList(env[`${entry.envVar}_CANDIDATES`])],
     ['mirror đã biết', entry.candidates || []],
-    ['biến thể tên/đuôi', generateVariants(curHost)]
+    ['biến thể tên/đuôi', generateVariants(curHost, { brand: entry.brand, extraTlds })]
   ];
   const unverified = [];
   const seen = new Set([curHost]);
+  let tried = 0;
+  let timedOut = false;
   for (const [via, list] of groups) {
     const hosts = [];
     for (const item of list) {
@@ -198,19 +234,23 @@ export async function discover(entry, currentUrl, prober, { extra = [], env = pr
       if (h && !seen.has(h)) { seen.add(h); hosts.push(h); }
     }
     if (!hosts.length) continue;
-    const resolvable = (await mapPool(hosts, 16, async (h) => ((await prober.resolvesDns(h)) ? h : null))).filter(Boolean);
+    if (expired()) { timedOut = true; break; }
+    const resolvable = (await mapPool(hosts, 16, async (h) => (expired() ? null : (await prober.resolvesDns(h)) ? h : null))).filter(Boolean);
+    const many = via === 'biến thể tên/đuôi'; // hàng trăm ứng viên: không thử lại khi lỗi mạng
     const results = await mapPool(resolvable, 6, async (h) => {
-      const res = await prober.check(entry, `https://${h}`);
+      if (expired()) { timedOut = true; return { host: h, state: 'skipped' }; }
+      tried += 1;
+      const res = await prober.check(entry, `https://${h}`, { retry: !many });
       return { host: h, ...res };
     });
     for (const r of results) if (r.state === 'blocked') unverified.push(r.host);
     const good = results.find((r) => r.state === 'alive' || r.state === 'moved');
     if (good) {
       const url = good.state === 'moved' ? good.newOrigin : `https://${good.host}`;
-      return { url, via, unverified };
+      return { url, via, unverified, tried, timedOut };
     }
   }
-  return { url: null, via: null, unverified };
+  return { url: null, via: null, unverified, tried, timedOut };
 }
 
 // ------------------------- ghi GitHub Variables -------------------------
@@ -274,6 +314,7 @@ export async function run({ env = process.env, prober = createProber(), fetchImp
   const only = splitList(env.SOURCES).map((s) => s.toLowerCase());
   const filter = only.length && !only.includes('all') ? (e) => only.some((k) => e.key === k || e.key.startsWith(`${k}-`)) : () => true;
   const extra = splitList(env.EXTRA_CANDIDATES);
+  const extraTlds = splitList(env.EXTRA_TLDS);
   const token = env.GH_VARIABLES_TOKEN || '';
   const repo = env.GITHUB_REPOSITORY || '';
 
@@ -293,7 +334,7 @@ export async function run({ env = process.env, prober = createProber(), fetchImp
     if (needsNew) {
       let found;
       if (res.state === 'moved') found = { url: res.newOrigin, via: 'chuyển hướng của chính trang', unverified: [] };
-      else found = await discover(entry, cur, prober, { extra, env });
+      else found = await discover(entry, cur, prober, { extra, extraTlds, env });
       if (found.url) {
         row.newUrl = found.url;
         row.via = found.via;
@@ -307,7 +348,7 @@ export async function run({ env = process.env, prober = createProber(), fetchImp
         }
         log(`[${entry.key}] domain mới: ${found.url} (${found.via})`);
       } else {
-        row.action = `❌ không tìm được domain thay thế${found.unverified?.length ? ` (domain bị chặn bot, chưa xác minh được: ${found.unverified.slice(0, 5).join(', ')})` : ''} — hãy chạy lại với ô extra_candidates`;
+        row.action = `❌ không tìm được domain thay thế${found.timedOut ? ' (hết thời gian tìm, mới thử ' + found.tried + ' ứng viên có phân giải DNS)' : ''}${found.unverified?.length ? ` (domain bị chặn bot, chưa xác minh được: ${found.unverified.slice(0, 5).join(', ')})` : ''} — hãy chạy lại với ô extra_candidates hoặc extra_tlds`;
         log(`[${entry.key}] ${row.action}`);
       }
     } else if (res.state === 'down') {

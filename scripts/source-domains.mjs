@@ -18,16 +18,18 @@
 //   player = domain player/Referer   (chỉ quét + báo cáo)
 //   api    = domain API              (chỉ quét + báo cáo; còn sống = có phản hồi HTTP bất kỳ)
 // envVar phải TRÙNG tên biến code đang đọc (xem services/*.js, m3uPlaylist.js).
+// brand = chuỗi đặc trưng trong TÊN MIỀN của nguồn (khandai3.link -> "khandai"); dùng để tin domain mới
+// khi trang chuyển hướng/đổi domain mà nội dung là SPA rỗng hoặc bị Cloudflare chặn (không đọc được chữ).
 // ---------------------------------------------------------------------------
 export const SOURCES = [
-  { key: 'giovang', label: 'Giờ Vàng', role: 'site', envVar: 'GIOVANG_DOMAIN', defaultUrl: 'https://giovang.blog', keywords: ['giovang', 'giờ vàng', 'gio vang'], candidates: ['https://giovang.cv', 'https://giovang.blog', 'https://giovang.city'], autoFix: true },
-  { key: 'khandaitv', label: 'Khán Đài', role: 'site', envVar: 'KHANDAITV_BASE_URL', defaultUrl: 'https://khandai3.link', keywords: ['khandai', 'khán đài', 'khan dai'], autoFix: true },
-  { key: 'phaohoa', label: 'Pháo Hoa', role: 'site', envVar: 'PHAOHOA_BASE_URL', defaultUrl: 'https://phaohoa1.live', keywords: ['phaohoa', 'pháo hoa', 'phao hoa'], autoFix: true },
-  { key: 'gavang', label: 'Gà Vàng', role: 'site', envVar: 'GAVANG_BASE_URL', defaultUrl: 'https://gavanglinkp.tv', keywords: ['gavang', 'gà vàng', 'ga vang'], autoFix: true },
-  { key: 'gavang33', label: 'Gà Vàng 33', role: 'site', envVar: 'GAVANG33_DOMAIN', defaultUrl: 'https://gavang33.me', keywords: ['gavang', 'gà vàng', 'ga vang'], autoFix: true },
-  { key: 'saoke', label: 'Sao Kê', role: 'site', envVar: 'SAOKE_BASE_URL', defaultUrl: 'https://vip3.saoketv40.xyz', keywords: ['saoke', 'sao kê', 'sao ke'], autoFix: true },
-  { key: 'bonglau', label: 'Bông Lau', role: 'site', envVar: 'BONGLAU_DOMAIN', defaultUrl: 'https://lau05.bonglautv1.pro', keywords: ['bonglau', 'bong lau', 'bóng lậu', 'bóng lầu', 'bòng lau'], autoFix: true },
-  { key: 'phalang', label: 'Phá Làng', role: 'site', envVar: 'PHALANG_DOMAIN', defaultUrl: 'https://phalang.live', keywords: ['phalang', 'phá làng', 'pha lang'], autoFix: true },
+  { key: 'giovang', brand: 'giovang', label: 'Giờ Vàng', role: 'site', envVar: 'GIOVANG_DOMAIN', defaultUrl: 'https://giovang.blog', keywords: ['giovang', 'giờ vàng', 'gio vang'], candidates: ['https://giovang.cv', 'https://giovang.blog', 'https://giovang.city'], autoFix: true },
+  { key: 'khandaitv', brand: 'khandai', label: 'Khán Đài', role: 'site', envVar: 'KHANDAITV_BASE_URL', defaultUrl: 'https://khandai3.link', keywords: ['khandai', 'khán đài', 'khan dai'], autoFix: true },
+  { key: 'phaohoa', brand: 'phaohoa', label: 'Pháo Hoa', role: 'site', envVar: 'PHAOHOA_BASE_URL', defaultUrl: 'https://phaohoa1.live', keywords: ['phaohoa', 'pháo hoa', 'phao hoa'], autoFix: true },
+  { key: 'gavang', brand: 'gavang', label: 'Gà Vàng', role: 'site', envVar: 'GAVANG_BASE_URL', defaultUrl: 'https://gavanglinkp.tv', keywords: ['gavang', 'gà vàng', 'ga vang'], autoFix: true },
+  { key: 'gavang33', brand: 'gavang', label: 'Gà Vàng 33', role: 'site', envVar: 'GAVANG33_DOMAIN', defaultUrl: 'https://gavang33.me', keywords: ['gavang', 'gà vàng', 'ga vang'], autoFix: true },
+  { key: 'saoke', brand: 'saoke', label: 'Sao Kê', role: 'site', envVar: 'SAOKE_BASE_URL', defaultUrl: 'https://vip3.saoketv40.xyz', keywords: ['saoke', 'sao kê', 'sao ke'], autoFix: true },
+  { key: 'bonglau', brand: 'bonglau', label: 'Bông Lau', role: 'site', envVar: 'BONGLAU_DOMAIN', defaultUrl: 'https://lau05.bonglautv1.pro', keywords: ['bonglau', 'bong lau', 'bóng lậu', 'bóng lầu', 'bòng lau'], autoFix: true },
+  { key: 'phalang', brand: 'phalang', label: 'Phá Làng', role: 'site', envVar: 'PHALANG_DOMAIN', defaultUrl: 'https://phalang.live', keywords: ['phalang', 'phá làng', 'pha lang'], autoFix: true },
   // Chuối Chiên: code TỰ DÒ liveNN.chuoichientv.me; biến *_WATCH_DOMAIN sẽ ÉP cố định 1 domain
   // nên script KHÔNG tự ghi biến này (chỉ báo cáo).
   { key: 'chuoichientv', label: 'Chuối Chiên (trang xem)', role: 'site', envVar: 'CHUOICHIENTV_WATCH_DOMAIN', defaultUrl: 'https://live05.chuoichientv.me', keywords: ['chuoichien', 'chuối chiên', 'chuoi chien'], autoFix: false },
