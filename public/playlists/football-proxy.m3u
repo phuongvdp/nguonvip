@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:56:15 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:59:24 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (11 trận), Chuối Chiên (12 trận), Phá Làng (34 trận), Gà Vàng (12 trận), Sao Kê (13 trận), GaVang33 (25 trận), Bông Lau (12 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (11 trận), Chuối Chiên (11 trận), Phá Làng (34 trận), Gà Vàng (12 trận), Sao Kê (13 trận), GaVang33 (25 trận), Bông Lau (11 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/d745193354f961e58538fdd1a5ebc6f3.png" group-title="Gà Vàng" , 03/10 18:30 🟢 ⚽ Chesterfield vs Tranmere Rovers (cố tư nghiêm)
@@ -16,11 +16,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/finland.png" group-title="Giờ Vàng" , 03/10 20:00 🟢 ⚽ Phần Lan vs Albania (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790966861_hd%2F1790966861_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_8.jpg" group-title="Khán Đài" , 03/10 20:00 🟢 ⚽ Finland vs Albania (Kền Kền)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa6%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3D16059952b038cc8982ab6d1980711dc9&source=khandaitv
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Chuối Chiên" , 03/10 20:00 🟢 ⚽ Finland vs Albania (Chuối Kem (FHD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikemhd%2Fplaylist.m3u8&source=chuoichientv
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_8.jpg" group-title="Khán Đài" , 03/10 20:00 🟢 ⚽ Finland vs Albania (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/finland-vs-albania-03-10-2026-790940
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/8c0ae90610760cd13ded8c9450e4bd99.png" group-title="Phá Làng" , 03/10 20:00 🟢 ⚽ Finland - Albania (LÝ LÀNG LÁ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F0da76af9b265263aa4066bf5ef60889a%2Fplaylist.m3u8&source=phalang
@@ -33,9 +30,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3c0b84f6c8ee0d929021de10cbb8cc69.png" group-title="GaVang33" , 03/10 20:00 🟢 ⚽ Finland vs Albania (Gà Siêu Bệu)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F289650.m3u8&source=gavang33
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Bông Lau" , 03/10 20:00 🟢 ⚽ Finland vs Albania (Chuối Kem (FHD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoikemhd%2Fplaylist.m3u8&source=bonglau
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/65503b155488a643de688e8dfa849b1f.png" group-title="Phá Làng" , 03/10 20:30 🟢 ⚽ FC St. Pauli - Borussia Monchengladbach (Server 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F14e168ba3a74eb1e2bc316ecb22282ce%2Fplaylist.m3u8&source=phalang
@@ -64,14 +58,14 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/russia.png" group-title="Giờ Vàng" , 03/10 22:00 🟢 ⚽ Nga vs Namibia (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1791034312_hd%2F1791034312_hd%40720p.m3u8&source=giovang
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fe3068bbe94dd5f423e9b9a6135d8c40.png" group-title="Phá Làng" , 03/10 22:00 🟢 ⚽ Russia - Namibia (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Ff87cb6741a4cc8f52543c83bd5d49e68%2Fplaylist.m3u8&source=phalang
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/eb9b870a25645ded21a7d5e41c207b0a.png" group-title="Phá Làng" , 03/10 22:00 🟡 ⚽ GKS Katowice - FC Baník Ostrava (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#3glrw7h4k7e1qdy
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/991e9e890a049a942e038a042edc2e07.png" group-title="Phá Làng" , 03/10 22:00 🟡 ⚽ Ayema - Association Sportive de la Vallée de l'Ouémé FC (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#3glrw7hnvgj9qdy
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fe3068bbe94dd5f423e9b9a6135d8c40.png" group-title="Phá Làng" , 03/10 22:00 🟡 ⚽ Russia - Namibia (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#4jwq2ghgopk4m0v
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/217e7a62682f9082db7eb2ac4dd4509d.png" group-title="Phá Làng" , 03/10 22:00 🟡 ⚽ Pantheres - Espoir FC Savalou (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#8yomo4h1d675q0j

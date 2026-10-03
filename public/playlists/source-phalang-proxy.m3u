@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:56:15 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:59:24 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (35 trận) =====
 
@@ -16,14 +16,14 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/705d1a1b1eb532bc7ea002915b95101f.png" group-title="Phá Làng" , 03/10 21:00 🟢 ⚽ India - Brazil (LÝ LA LÀNG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F6fef4306b6d5ed9e117ed5198e899d03%2Fplaylist.m3u8&source=phalang
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fe3068bbe94dd5f423e9b9a6135d8c40.png" group-title="Phá Làng" , 03/10 22:00 🟢 ⚽ Russia - Namibia (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Ff87cb6741a4cc8f52543c83bd5d49e68%2Fplaylist.m3u8&source=phalang
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/eb9b870a25645ded21a7d5e41c207b0a.png" group-title="Phá Làng" , 03/10 22:00 🟡 ⚽ GKS Katowice - FC Baník Ostrava (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#3glrw7h4k7e1qdy
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/991e9e890a049a942e038a042edc2e07.png" group-title="Phá Làng" , 03/10 22:00 🟡 ⚽ Ayema - Association Sportive de la Vallée de l'Ouémé FC (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#3glrw7hnvgj9qdy
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fe3068bbe94dd5f423e9b9a6135d8c40.png" group-title="Phá Làng" , 03/10 22:00 🟡 ⚽ Russia - Namibia (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#4jwq2ghgopk4m0v
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/217e7a62682f9082db7eb2ac4dd4509d.png" group-title="Phá Làng" , 03/10 22:00 🟡 ⚽ Pantheres - Espoir FC Savalou (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#8yomo4h1d675q0j
