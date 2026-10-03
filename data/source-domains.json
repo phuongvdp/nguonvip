@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-03T09:29:15.713Z",
+  "updatedAt": "2026-10-03T22:35:46.096Z",
   "domains": {
     "giovang": {
       "url": "https://giovang.rent",
@@ -59,11 +59,12 @@
       "from": "SOURCE_DOMAINS"
     },
     "chuoichientv": {
-      "url": "https://live08.chuoichientv.me",
+      "url": "https://live05.chuoichientv.me",
       "envVar": "CHUOICHIENTV_WATCH_DOMAIN",
       "role": "site",
-      "status": "alive",
-      "from": "SOURCE_DOMAINS"
+      "status": "moved",
+      "from": "mặc định",
+      "found": "https://live08.chuoichientv.me"
     },
     "chuoichientv-player": {
       "url": "https://live.chuoichien.tv",
@@ -206,6 +207,13 @@
       "from": "https://live05.chuoichientv.me",
       "to": "https://live08.chuoichientv.me",
       "via": "sửa tay biến SOURCE_DOMAINS hoặc nguồn khác"
+    },
+    {
+      "at": "2026-10-03T22:35:46.096Z",
+      "source": "chuoichientv",
+      "from": "https://live08.chuoichientv.me",
+      "to": "https://live05.chuoichientv.me",
+      "via": "chuyển hướng của chính trang"
     }
   ]
 }
