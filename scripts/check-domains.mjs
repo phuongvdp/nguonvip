@@ -309,6 +309,21 @@ export function currentUrlOf(entry, env = process.env) {
   return combined || stripSlash(env[entry.envVar]) || entry.defaultUrl;
 }
 
+// Nội dung khởi tạo cho biến SOURCE_DOMAINS khi biến đang trống: liệt kê ĐỦ domain hiện tại của mọi nguồn,
+// để lúc bạn bấm sửa biến trên GitHub là thấy sẵn từng dòng, khỏi phải gõ lại.
+export function seedSourceDomainsText(env = process.env) {
+  const lines = [
+    '# Mỗi dòng: tên=domain. Dòng bắt đầu bằng # là ghi chú. Xoá 1 dòng = nguồn đó dùng domain mặc định trong code.',
+    '# Workflow "Check Domains" tự sửa dòng nào có domain chết; bạn cũng sửa tay được.'
+  ];
+  for (const e of SOURCES) {
+    if (e.key === 'chuoichientv' && currentUrlOf(e, env) === e.defaultUrl) {
+      lines.push(`# ${e.key}=${e.defaultUrl}   # tuỳ chọn: bỏ # sẽ ÉP cố định domain này (mặc định code tự dò liveNN.chuoichientv.me)`);
+    } else lines.push(`${e.key}=${currentUrlOf(e, env)}`);
+  }
+  return lines.join('\n') + '\n';
+}
+
 export async function run({ env = process.env, prober = createProber(), fetchImpl = globalThis.fetch, log = console.log } = {}) {
   const autoFix = !/^(0|false|no|off)$/i.test(String(env.AUTO_FIX ?? '1').trim() || '1');
   const only = splitList(env.SOURCES).map((s) => s.toLowerCase());
@@ -374,6 +389,7 @@ export async function run({ env = process.env, prober = createProber(), fetchImp
       else if (got.status === 'missing') { base = ''; exists = false; }
       else failReason = got.reason;
     }
+    if (!failReason && base.trim() === '') base = seedSourceDomainsText(env);
     let text = base;
     if (!failReason) {
       for (const p of pending) {
@@ -391,6 +407,16 @@ export async function run({ env = process.env, prober = createProber(), fetchImp
       log(`[${p.row.entry.key}] ${p.row.action}`);
     }
     if (result.applied) changed.push(SOURCE_DOMAINS_VAR);
+  }
+
+  // Biến SOURCE_DOMAINS chưa có / đang trống -> điền sẵn đủ domain hiện tại của mọi nguồn (chỉ khi cho phép tự ghi).
+  if (!pending.length && autoFix && token && repo) {
+    const ctx = { token, repo, fetchImpl };
+    const got = await getRepoVariable(SOURCE_DOMAINS_VAR, ctx);
+    if (got.status === 'missing' || (got.status === 'ok' && String(got.value).trim() === '')) {
+      const res = await writeRepoVariable(SOURCE_DOMAINS_VAR, seedSourceDomainsText(env), got.status === 'ok', ctx);
+      log(res.applied ? `Đã điền sẵn danh sách domain vào biến ${SOURCE_DOMAINS_VAR}` : `Không điền sẵn được biến ${SOURCE_DOMAINS_VAR}: ${res.reason}`);
+    }
   }
 
   const unresolved = rows.filter((r) => r.state === 'down' && !r.action.startsWith('✅')).length
@@ -424,9 +450,13 @@ export function computeSnapshot({ rows, env = process.env, prev = null, now = ne
       status: row ? row.state : prev?.domains?.[e.key]?.status || 'chưa quét',
       from: applied ? 'SOURCE_DOMAINS' : domainOrigin(e, env)
     };
+    // Tìm thấy domain mới nhưng CHƯA áp dụng được (thiếu token ghi biến / auto_fix tắt / nguồn không tự ghi)
+    // -> vẫn lưu vào file để không mất kết quả quét.
+    if (row && row.newUrl && !applied) domains[e.key].found = row.newUrl;
   }
   const prevUrls = prev?.domains ? Object.fromEntries(Object.entries(prev.domains).map(([k, v]) => [k, v?.url])) : null;
-  const changedKeys = SOURCES.map((e) => e.key).filter((k) => !prevUrls || prevUrls[k] !== domains[k].url);
+  const prevFound = prev?.domains ? Object.fromEntries(Object.entries(prev.domains).map(([k, v]) => [k, v?.found || ''])) : {};
+  const changedKeys = SOURCES.map((e) => e.key).filter((k) => !prevUrls || prevUrls[k] !== domains[k].url || (prevFound[k] || '') !== (domains[k].found || ''));
   if (!changedKeys.length) return { changed: false, changedKeys: [], json: null, txt: null };
 
   const history = Array.isArray(prev?.history) ? [...prev.history] : [];
@@ -448,6 +478,7 @@ export function computeSnapshot({ rows, env = process.env, prev = null, now = ne
     // Trang xem Chuối Chiên: nếu chưa ghim thì để ghi chú (code tự dò liveNN.chuoichientv.me; ghim sẽ ÉP cố định)
     const pinned = !(e.key === 'chuoichientv' && d.from === 'mặc định');
     lines.push(`${pinned ? '' : '# '}${e.key}=${d.url}`);
+    if (d.found) lines.push(`# TÌM THẤY domain mới (CHƯA áp dụng — bỏ dấu # rồi dán vào biến SOURCE_DOMAINS để dùng): ${e.key}=${d.found}`);
   }
   return { changed: true, changedKeys, json, txt: lines.join('\n') + '\n' };
 }
