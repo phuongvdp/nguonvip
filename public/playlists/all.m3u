@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:03:20 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:05:34 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (17 trận), Chuối Chiên (17 trận), Phá Làng (127 trận), Gà Vàng (18 trận), Sao Kê (18 trận), GaVang33 (21 trận), Bông Lau (17 trận) =====
 
@@ -127,6 +127,11 @@ https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1790967120_hd/1790967120_hd@720p.m3u8
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Khán Đài" , 03/10 17:20 🟢 🏐 Nhật Bản vs Iran (KaKa)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Chuối Chiên" , 03/10 17:20 🟢 🏐 Japan vs Iran (Chuối Tây (FHD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -147,13 +152,15 @@ https://wtyi0525.edgemaxcdn.org/live/x10-hd-1111/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Khán Đài" , 03/10 17:20 🟡 🏐 Nhật Bản vs Iran (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/nhat-ban-vs-iran
-
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea-u23.png" group-title="Giờ Vàng" , 03/10 17:30 🟢 ⚽ Hàn Quốc vs Nhật Bản (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.rent/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1790966773_hd/1790966773_hd@720p.m3u8
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images_8kF19fZ.jpg" group-title="Khán Đài" , 03/10 17:30 🟢 ⚽ South Korea U23 vs Japan U23 (Lee Sin)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/02598ff81c211b703b81e49cf632688b.png" group-title="Phá Làng" , 03/10 17:30 🟢 ⚽ South Korea U23 - Japan U23 (LÝ LA LÀNG)
 #EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/south-korea-u23-vs-japan-u23-ednm9wh58633ryo
@@ -164,9 +171,6 @@ https://lilive1.eu.cc/live/dafe34d6e084ce4a90c18fda523466df/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/chinese-taipei-vs-viet-nam-6ac04f261000ad03ce1d3cdc.html
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images_8kF19fZ.jpg" group-title="Khán Đài" , 03/10 17:30 🟡 ⚽ South Korea U23 vs Japan U23 (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/south-korea-u23-vs-japan-u23-03-10-2026-860366
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Chuối Chiên" , 03/10 17:30 🟡 ⚽ U23 Hàn Quốc  vs Japan U23 (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1643349/u23-han-quoc-vs-japan-u23
