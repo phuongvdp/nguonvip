@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:35:16 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:38:17 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (14 trận), Chuối Chiên (14 trận), Phá Làng (95 trận), Gà Vàng (18 trận), Sao Kê (15 trận), GaVang33 (23 trận), Bông Lau (14 trận) =====
 
@@ -112,6 +112,11 @@ https://ftlh5sc02iliv.vcdn.cloud/1790967183_hd/1790967183_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9
 
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/image_4.webp" group-title="Khán Đài" , 03/10 20:00 🟢 🏐 Nilufer vs Eczacibasi (KaKa)
+#EXTVLCOPT:http-referrer=https://khandai3.link
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/8c0ae90610760cd13ded8c9450e4bd99.png" group-title="Phá Làng" , 03/10 20:00 🟢 ⚽ Finland - Albania (LÝ LÀNG LÁ)
 #EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/finland-vs-albania-ednm9whw5y45ryo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -125,9 +130,6 @@ https://pull.digitalcdn.net/live/4f4ca130001b4d378b922bf641b6120b/index.m3u8
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3c0b84f6c8ee0d929021de10cbb8cc69.png" group-title="GaVang33" , 03/10 20:00 🟢 ⚽ Finland vs Albania (Gà Siêu Bệu)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/289650.m3u8
-
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/image_4.webp" group-title="Khán Đài" , 03/10 20:00 🟡 🏐 Nilufer vs Eczacibasi (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/nilufer-vs-eczacibasi
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png" group-title="Chuối Chiên" , 03/10 20:00 🟡 ⚽ Finland vs Albania (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1528932/finland-vs-albania
