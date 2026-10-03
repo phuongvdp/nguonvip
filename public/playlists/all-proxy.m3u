@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:43:04 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:45:13 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (17 trận), Chuối Chiên (3 trận), Phá Làng (25 trận), Gà Vàng (8 trận), Sao Kê (3 trận), GaVang33 (16 trận), Bông Lau (3 trận) =====
 
@@ -22,23 +22,23 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/fc-tulsa.png" group-title="Giờ Vàng" , 04/10 07:00 🟢 ⚽ FC Tulsa vs Sacramento Republic FC (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1791051657_hd%2F1791051657_hd%40720p.m3u8&source=giovang
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132808_60e400eb.png" group-title="Chuối Chiên" , 04/10 07:00 🟢 ⚽ Argentina vs Burkina Faso (Chuối Chao (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoichaohd%2Fplaylist.m3u8&source=chuoichientv
+
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/xQCUe9zB-AmY8ktbk.png" group-title="Phá Làng" , 04/10 07:00 🟢 ⚽ Argentina - Burkina Faso (LÝ LONG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fdd793602ef1b41f97d9b56da277f0ede%2Fplaylist.m3u8&source=phalang
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6706.png" group-title="Sao Kê" , 04/10 07:00 🟢 ⚽ Argentina vs Burkina Faso (Bút Chì (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx22-hd-1111%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/ef7329946e1741b9ade4fedbf739158a.png" group-title="GaVang33" , 04/10 07:00 🟢 ⚽ Argentina vs Burkina Faso (Gà Siêu Phệ + Gà Siêu Quỷ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F304565.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132808_60e400eb.png" group-title="Chuối Chiên" , 04/10 07:00 🟡 ⚽ Argentina vs Burkina Faso (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1640514/argentina-vs-burkina-faso
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132808_60e400eb.png" group-title="Bông Lau" , 04/10 07:00 🟢 ⚽ Argentina vs Burkina Faso (Chuối Chao (FHD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoichaohd%2Fplaylist.m3u8&source=bonglau
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/ef7329946e1741b9ade4fedbf739158a.png" group-title="Gà Vàng" , 04/10 07:00 🟡 ⚽ Argentina vs Burkina Faso (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/argentina-vs-burkina-faso-ngay-04-10-2026/
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6706.png" group-title="Sao Kê" , 04/10 07:00 🟡 ⚽ Argentina vs Burkina Faso (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/argentina-vs-burkina-faso-6abf70758117d47caf8cefb1.html
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132808_60e400eb.png" group-title="Bông Lau" , 04/10 07:00 🟡 ⚽ Argentina vs Burkina Faso (Chưa có link — chờ cập nhật)
-https://lau06.bonglautv1.org/truc-tiep/1640514
 
 #EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/iM_hcWzccgEfD4bo-sp6Wg_96x96.png" group-title="Giờ Vàng" , 04/10 07:30 🟢 ⚽ San Diego Padres vs Milwaukee Brewers (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1791052616_hd%2F1791052616_hd%40720p.m3u8&source=giovang
