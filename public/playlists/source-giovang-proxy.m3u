@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:29:18 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:32:19 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận) =====
 
@@ -13,17 +13,14 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.c
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/kashiwa-reysol.png" group-title="Giờ Vàng" , 03/10 17:00 🟢 ⚽ Kashiwa Reysol vs Gamba Osaka (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790966693_hd%2F1790966693_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea-u23.png" group-title="Giờ Vàng" , 03/10 17:30 🟢 ⚽ Hàn Quốc vs Nhật Bản (Giovang 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790966773_hd%2F1790966773_hd%40720p.m3u8&source=giovang
-
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/zPdeWyDr-pOTe4nSM.png" group-title="Giờ Vàng" , 03/10 18:45 🟢 🎾 Francisco Cenrundolo vs Jakub Mensik (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1791025004_hd%2F1791025004_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/rPFpfgDa-vRpcHup9.png" group-title="Giờ Vàng" , 03/10 20:00 🟢 🏐 Nilufer Bld. vs Eczacibasi (Giovang 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790967183_hd%2F1790967183_hd%40720p.m3u8&source=giovang
-
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/finland.png" group-title="Giờ Vàng" , 03/10 20:00 🟢 ⚽ Phần Lan vs Albania (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790966861_hd%2F1790966861_hd%40720p.m3u8&source=giovang
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/rPFpfgDa-vRpcHup9.png" group-title="Giờ Vàng" , 03/10 20:00 🟢 🏐 Nilufer Bld. vs Eczacibasi (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790967183_hd%2F1790967183_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/india.png" group-title="Giờ Vàng" , 03/10 21:00 ⚽ Ấn Độ vs Brazil (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-an-do-vs-brazil-03-10-6abda29c24d46db870d74668
@@ -94,3 +91,6 @@ https://giovang.rent/truc-tiep-atletico-union-guimar-vs-sporting-hortaleza-04-10
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/real-sociedad-b.png" group-title="Giờ Vàng" , 04/10 19:00 ⚽ Real Sociedad B vs Granada CF (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-real-sociedad-b-vs-granada-cf-04-10-6ab9ae3124d46db870ba4622
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/zyDlfTYA-MgUxY1Yb.png" group-title="Giờ Vàng" , 04/10 19:30 ⚽ Bryne vs Lyn (Chưa có link — chờ cập nhật)
+https://giovang.rent/truc-tiep-bryne-vs-lyn-04-10-vjhvyt6kxy80

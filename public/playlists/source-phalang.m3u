@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:29:18 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:32:19 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (96 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (95 trận) =====
 
 # ----- Ngày 2026-10-03 -----
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/02598ff81c211b703b81e49cf632688b.png" group-title="Phá Làng" , 03/10 17:30 🟢 ⚽ South Korea U23 - Japan U23 (LÝ LA LÀNG)
-#EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/south-korea-u23-vs-japan-u23-ednm9wh58633ryo
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/dafe34d6e084ce4a90c18fda523466df/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1800be60204966114d63970b5d0873da.png" group-title="Phá Làng" , 03/10 18:00 🟢 ⚽ Hannover 96 - SC Verl (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/hannover-96-vs-sc-verl-k82rekh2zwe6rep
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -23,6 +18,16 @@ https://lilive1.eu.cc/live/db7558be2fd58b1e75e078779e27dc3b/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/albacete-balompie-sad-vs-eibar-6ypq3nhvoe4ymd7
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/672644714be5367976f3862459ac5a5c/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/8c0ae90610760cd13ded8c9450e4bd99.png" group-title="Phá Làng" , 03/10 20:00 🟢 ⚽ Finland - Albania (LÝ LÀNG LÁ)
+#EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/finland-vs-albania-ednm9whw5y45ryo
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/0da76af9b265263aa4066bf5ef60889a/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b44ed2e934bbbae323265d36aeaa6d29.png!w80" group-title="Phá Làng" , 03/10 20:00 🟢 🏐 Nilufer Bld. Nữ - Eczacibasi Nữ (LÝ LÊN LỬA (Server 1))
+#EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/nilufer-bld-nu-vs-eczacibasi-nu-25e14d4604ed43f5aebf3f8d0cb23cdc
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://pull.digitalcdn.net/live/4f4ca130001b4d378b922bf641b6120b/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/12c180baf632b3936c187f6ceee5f2b0.png" group-title="Phá Làng" , 03/10 20:00 🟡 ⚽ SC Austria Lustenau - Schalke 04 (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#3glrw7h4k7g1qdy
@@ -41,9 +46,6 @@ https://phalang1.live/trang-chu#ednm9wh5879oryo
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/ec6e3233bdb7f61ac0ec2c8464f178d4.png" group-title="Phá Làng" , 03/10 20:00 🟡 ⚽ FC Torpedo Zhodino - Torpedo Moscow (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#ednm9wh58wxdryo
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/8c0ae90610760cd13ded8c9450e4bd99.png" group-title="Phá Làng" , 03/10 20:00 🟡 ⚽ Finland - Albania (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#ednm9whw5y45ryo
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/254d8af284bd9fdd575937e09d63fd83.png" group-title="Phá Làng" , 03/10 20:00 🟡 ⚽ Aris Limassol - Riga FC (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#n54qllh457wdqvy
@@ -66,16 +68,13 @@ https://phalang1.live/trang-chu#y0or5jh9xnwgqwz
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1190400e35499d8db850577c1e1ee2a8.png" group-title="Phá Làng" , 03/10 20:00 🟡 ⚽ Bruhl SG - St. Gallen (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#y0or5jh9xnwxqwz
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b44ed2e934bbbae323265d36aeaa6d29.png!w80" group-title="Phá Làng" , 03/10 20:00 🟡 🏐 Nilufer Bld. Nữ - Eczacibasi Nữ (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#25e14d4604ed43f5aebf3f8d0cb23cdc
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/65503b155488a643de688e8dfa849b1f.png" group-title="Phá Làng" , 03/10 20:30 ⚽ FC St. Pauli - Borussia Monchengladbach (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/65503b155488a643de688e8dfa849b1f.png" group-title="Phá Làng" , 03/10 20:30 🟡 ⚽ FC St. Pauli - Borussia Monchengladbach (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#965mkyh8l23wr1g
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7d869f45894b0c8a3cdf8ade8c568a06.png" group-title="Phá Làng" , 03/10 20:30 ⚽ VfL Osnabrück - Djurgardens (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7d869f45894b0c8a3cdf8ade8c568a06.png" group-title="Phá Làng" , 03/10 20:30 🟡 ⚽ VfL Osnabrück - Djurgardens (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#ednm9wh582z5ryo
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e74894fcaad7e4f5c3a42847571373af.png" group-title="Phá Làng" , 03/10 20:30 ⚽ WSG Tirol B - FC Wacker Innsbruck (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e74894fcaad7e4f5c3a42847571373af.png" group-title="Phá Làng" , 03/10 20:30 🟡 ⚽ WSG Tirol B - FC Wacker Innsbruck (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#l5ergphk04ver8k
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7385db9a3f11415bc0e9e2625fae3734.png" group-title="Phá Làng" , 03/10 21:00 ⚽ Kettering Town - Worcester City (Chưa có link — chờ cập nhật)
