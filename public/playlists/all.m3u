@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 10:56:53 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:59:51 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận), Khán Đài (20 trận), Chuối Chiên (20 trận), Phá Làng (146 trận), Gà Vàng (35 trận), Sao Kê (21 trận), GaVang33 (21 trận), Bông Lau (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận), Khán Đài (20 trận), Chuối Chiên (20 trận), Phá Làng (146 trận), Gà Vàng (35 trận), Sao Kê (21 trận), GaVang33 (20 trận), Bông Lau (20 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -23,10 +23,6 @@ https://playback.livetl002.com/live/6a2a59b347bbddd62a8dc4e4.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.rent/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1790988121_hd/1790988121_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3c7f7c2dae5b4e1dd398cffb26391a58.png" group-title="GaVang33" , 03/10 09:00 🟢 ⚽ El Salvador vs Jamaica (Gà Siêu Nhí)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://live2.zktsva.app/live/301263.m3u8
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwvnWRBNvGnO1GVEQTNkkJgE_aJlxZDxa0iNQWy_06A&s" group-title="Giờ Vàng" , 03/10 10:00 🟢 🎾 ATP Beijing Open vs ATP Beijing Open (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.rent/
