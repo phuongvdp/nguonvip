@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:39:37 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:42:48 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (11 trận), Chuối Chiên (11 trận), Phá Làng (23 trận), Gà Vàng (13 trận), Sao Kê (12 trận), GaVang33 (25 trận), Bông Lau (11 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (11 trận), Chuối Chiên (10 trận), Phá Làng (23 trận), Gà Vàng (13 trận), Sao Kê (12 trận), GaVang33 (25 trận), Bông Lau (10 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/051be0a9b61dedb583315fb75eaa8308.png" group-title="Gà Vàng" , 03/10 20:55 🟢 ⚽ Liverpool URU vs Club Atletico Progreso (SÚP LƠ)
@@ -57,6 +57,12 @@ https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8|User-Agent=Mozilla
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/0dd224173cbbce9636adbc9e309aec6f.png" group-title="Phá Làng" , 03/10 23:00 🟢 ⚽ Croatia - England (LÝ LONG)
 https://lilive1.eu.cc/live/b6f5df2e120738cfa4dc27beea5882ed/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/croatia-vs-england-y39mp1h6dgnemoj&Origin=https://phalang1.live
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10155.png" group-title="Sao Kê" , 03/10 23:00 🟢 ⚽ Croatia vs England (Bút Chì (HD))
+https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8536.png" group-title="Sao Kê" , 03/10 23:00 🟢 ⚽ Iceland vs Bulgaria (Ricky (HD))
+https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/a1b3eb19ca424555b5c61384059d21f7.png" group-title="GaVang33" , 03/10 23:00 🟢 ⚽ Croatia vs England (Gà Siêu Phệ + Gà Siêu Quỷ)
 https://live2.zktsva.app/live/304565.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -127,26 +133,14 @@ https://gavanglinkt.tv/truc-tiep/iceland-vs-bulgaria-ngay-03-10-2026/
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/350035841e1182bf4389c52752d8bd0d.png" group-title="Gà Vàng" , 03/10 23:00 🟡 ⚽ Estonia vs Luxembourg (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/estonia-vs-luxembourg-ngay-03-10-2026/
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10155.png" group-title="Sao Kê" , 03/10 23:00 🟡 ⚽ Croatia vs England (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/croatia-vs-england-6abf7062b9c200d560485f02.html
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8536.png" group-title="Sao Kê" , 03/10 23:00 🟡 ⚽ Iceland vs Bulgaria (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/iceland-vs-bulgaria-6abf7062b9c200d560485f07.html
-
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/350035841e1182bf4389c52752d8bd0d.png" group-title="GaVang33" , 03/10 23:00 🟡 ⚽ Estonia vs Luxembourg (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/estonia-vs-luxembourg-luc-2300-ngay-03-10-2026-l5ergph4kx69r8k
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133420_1ffc8b38.png" group-title="Chuối Chiên" , 03/10 23:30 🟡 ⚽ Cadiz vs Leganes (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1569950/cadiz-vs-leganes
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/13ad117ddb310052841244f0d1ed3c1e.png" group-title="Gà Vàng" , 03/10 23:30 🟡 ⚽ Cadiz CF vs Leganes (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/cadiz-cf-vs-cd-leganes-ngay-03-10-2026/
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8385.png" group-title="Sao Kê" , 03/10 23:30 🟡 ⚽ Cádiz vs Leganés (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/cadiz-vs-leganes-6abf7062b9c200d560485f0a.html
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133420_1ffc8b38.png" group-title="Bông Lau" , 03/10 23:30 🟡 ⚽ Cadiz vs Leganes (Chưa có link — chờ cập nhật)
-https://lau06.bonglautv1.org/truc-tiep/1569950
 
 # ----- Ngày 2026-10-04 -----
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/canada.png" group-title="Giờ Vàng" , 04/10 01:00 ⚽ Canada vs Peru (Chưa có link — chờ cập nhật)
@@ -247,6 +241,9 @@ https://gavang33.me/truc-tiep/cote-divoire-vs-cameroon-luc-0200-ngay-04-10-2026-
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132759_08d32594.png" group-title="Bông Lau" , 04/10 02:00 ⚽ Ivory Coast vs Cameroon (Chưa có link — chờ cập nhật)
 https://lau06.bonglautv1.org/truc-tiep/1640077
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/atletico-mineiro.png" group-title="Giờ Vàng" , 04/10 04:30 ⚽ Atletico Mineiro vs Bragantino SP (Chưa có link — chờ cập nhật)
+https://giovang.rent/truc-tiep-atletico-mineiro-vs-bragantino-sp-04-10-6a60081e24d46db870322581
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125542_d8ff9d63.png" group-title="Chuối Chiên" , 04/10 04:30 ⚽ Atletico-MG vs RB Bragantino (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1492310/atletico-mg-vs-rb-bragantino

@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:39:37 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:42:48 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (28 trận) =====
 
 # ----- Ngày 2026-10-03 -----
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/rPFpfgDa-vRpcHup9.png" group-title="Giờ Vàng" , 03/10 20:00 🟢 🏐 Nilufer Bld. vs Eczacibasi (Giovang 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790967183_hd%2F1790967183_hd%40720p.m3u8&source=giovang
-
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/india.png" group-title="Giờ Vàng" , 03/10 21:00 🟢 ⚽ Ấn Độ vs Brazil (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1791025202_hd%2F1791025202_hd%40720p.m3u8&source=giovang
 
@@ -46,6 +43,9 @@ https://giovang.rent/truc-tiep-tay-ban-nha-vs-cong-hoa-sec-04-10-69f3f2b74bff4a0
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/jcQ7UvyB-dWl7UQ2D.png" group-title="Giờ Vàng" , 04/10 03:00 ⚽ Silva vs Wang (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-silva-vs-wang-04-10-bwi9yp6ebiw9
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/atletico-mineiro.png" group-title="Giờ Vàng" , 04/10 04:30 ⚽ Atletico Mineiro vs Bragantino SP (Chưa có link — chờ cập nhật)
+https://giovang.rent/truc-tiep-atletico-mineiro-vs-bragantino-sp-04-10-6a60081e24d46db870322581
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png" group-title="Giờ Vàng" , 04/10 05:30 ⚽ New York Yankees vs Tampa Bay Rays (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-new-york-yankees-vs-tampa-bay-rays-04-10-d6e8z9500a5h
