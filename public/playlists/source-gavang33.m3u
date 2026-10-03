@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:27:59 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:31:11 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (21 trận) =====
 
@@ -12,8 +12,9 @@ https://live2.zktsva.app/live/741294.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/303098.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3c7f7c2dae5b4e1dd398cffb26391a58.png" group-title="GaVang33" , 03/10 09:00 🟡 ⚽ El Salvador vs Jamaica (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/el-salvador-vs-jamaica-luc-0900-ngay-03-10-2026-ednm9whw1nzpryo
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3c7f7c2dae5b4e1dd398cffb26391a58.png" group-title="GaVang33" , 03/10 09:00 🟢 ⚽ El Salvador vs Jamaica (Gà Siêu Nhí)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://live2.zktsva.app/live/301263.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/7e16680bbd661fd90dbf08501ae7a98e.png" group-title="GaVang33" , 03/10 10:00 ⚽ Club Atletico La Paz vs Venados FC Yucatán (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/club-atletico-la-paz-vs-venados-fc-yucatan-luc-1000-ngay-03-10-2026-318q66hxyj22qo9

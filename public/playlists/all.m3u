@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 08:27:59 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 08:31:11 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (21 trận), Chuối Chiên (20 trận), Phá Làng (141 trận), Gà Vàng (3 trận), Sao Kê (22 trận), GaVang33 (21 trận), Bông Lau (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (21 trận), Chuối Chiên (20 trận), Phá Làng (140 trận), Gà Vàng (3 trận), Sao Kê (22 trận), GaVang33 (21 trận), Bông Lau (20 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -23,11 +23,6 @@ https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/colombia-vs-paraguay-3glrw7h4k6weqdy
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/76f71bcf8f67e0433669183c5b8be8e4/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80" group-title="Phá Làng" , 03/10 07:00 🟢 🏐 Việt Nam - Thái Lan (LÝ LIỀU LĨNH (Server 1))
-#EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/viet-nam-vs-thai-lan-d1ffa074a5224d17a66fffa89ef5cdf9
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://pull.digitalcdn.net/live/51cc499d1fb84b1287ca214d86b57736/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8258.png" group-title="Sao Kê" , 03/10 07:00 🟢 ⚽ Colombia vs Paraguay (Tít (HD))
 #EXTVLCOPT:http-referrer=https://vip3.saoketv40.xyz/colombia-vs-paraguay-6abe354742ecb1c2b8370101.html
@@ -72,10 +67,8 @@ https://pzhgifbkllliv.vcdn.cloud/1790960636_hd/1790960636_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pzhgifbkllliv.vcdn.cloud/1790960822_hd/1790960822_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_TkTkw3i.jpg" group-title="Khán Đài" , 03/10 08:00 🟢 🏐 Qatar vs Hàn Quốc (Tiểu Mây)
-#EXTVLCOPT:http-referrer=https://khandai3.link
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_TkTkw3i.jpg" group-title="Khán Đài" , 03/10 08:00 🟢 🏐 Qatar vs Hàn Quốc (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/qatar-vs-han-quoc
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260927_010537_85b5c41a.png" group-title="Chuối Chiên" , 03/10 08:00 🟢 🏐 Qatar vs South Korea (Chuối Kem (FHD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
@@ -92,6 +85,10 @@ https://wtyi0525.edgemaxcdn.org/live/x10-hd-1111/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3c7f7c2dae5b4e1dd398cffb26391a58.png" group-title="GaVang33" , 03/10 09:00 🟢 ⚽ El Salvador vs Jamaica (Gà Siêu Nhí)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://live2.zktsva.app/live/301263.m3u8
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/el-salvador.png" group-title="Giờ Vàng" , 03/10 09:00 🟡 ⚽ El Salvador vs Jamaica (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-el-salvador-vs-jamaica-03-10-6aaf224e4e725bdee905b7cc
 
@@ -100,9 +97,6 @@ https://giovang.rent/truc-tiep-tokyo-open-vs-tokyo-open-03-10-c5qed1wa6w0h
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/cff411edceeeb7c1677d9db65ce47164.png" group-title="Phá Làng" , 03/10 09:00 🟡 ⚽ Pachuca - Mexico U23 (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#pxwrxlhlpyj0ryk
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3c7f7c2dae5b4e1dd398cffb26391a58.png" group-title="GaVang33" , 03/10 09:00 🟡 ⚽ El Salvador vs Jamaica (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/el-salvador-vs-jamaica-luc-0900-ngay-03-10-2026-ednm9whw1nzpryo
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwvnWRBNvGnO1GVEQTNkkJgE_aJlxZDxa0iNQWy_06A&s" group-title="Giờ Vàng" , 03/10 10:00 🎾 ATP Beijing Open vs ATP Beijing Open (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-atp-beijing-open-vs-atp-beijing-open-03-10-bc7jciqa68sn
