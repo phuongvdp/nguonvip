@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:32:43 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:34:52 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (11 trận), Chuối Chiên (4 trận), Phá Làng (23 trận), Gà Vàng (6 trận), Sao Kê (4 trận), GaVang33 (16 trận), Bông Lau (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (11 trận), Chuối Chiên (3 trận), Phá Làng (23 trận), Gà Vàng (6 trận), Sao Kê (4 trận), GaVang33 (16 trận), Bông Lau (3 trận) =====
 
 # ----- Ngày 2026-10-04 -----
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125542_d8ff9d63.png" group-title="Chuối Chiên" , 04/10 04:30 🟢 ⚽ Atletico-MG vs RB Bragantino (Trốc Tru (FHD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Ftroctruhd%2Fplaylist.m3u8&source=chuoichientv
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/079e86cebd6511ce807cc6073a3e26ee.png" group-title="Gà Vàng" , 04/10 04:30 🟢 ⚽ Atlético Mineiro - MG vs Bragantino (MáN NúI)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69cf6331585c5992182f4160.m3u8&source=gavang
 
@@ -15,9 +12,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10272.png" group-title="Sao Kê" , 04/10 04:30 🟢 ⚽ Atlético-MG vs RB Bragantino (Teppy (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx31-hd-1111%2Fplaylist.m3u8&source=saoke
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125542_d8ff9d63.png" group-title="Bông Lau" , 04/10 04:30 🟢 ⚽ Atletico-MG vs RB Bragantino (Trốc Tru (FHD))
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Ftroctruhd%2Fplaylist.m3u8&source=bonglau
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/fc-tulsa.png" group-title="Giờ Vàng" , 04/10 07:00 🟢 ⚽ FC Tulsa vs Sacramento Republic FC (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1791051657_hd%2F1791051657_hd%40720p.m3u8&source=giovang
