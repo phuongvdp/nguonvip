@@ -1,20 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:12:34 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:15:37 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (18 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (21 trận) =====
 
 # ----- Ngày 2026-10-03 -----
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/61e08ae9a3b69ce77f30bf51e71b2a77.png" group-title="Gà Vàng" , 03/10 14:00 🟢 ⚽ Ventforet Kofu vs Kataller Toyama (khang hi)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a7c0d8f65997681f18cacc4.m3u8&source=gavang
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a707913a6243a0bf393035cbdbfbccf0.png" group-title="Gà Vàng" , 03/10 17:00 🟢 ⚽ Veres vs Kudrivka (RIO)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a01a2511e8555d7a3685f5c.m3u8&source=gavang
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png" group-title="Gà Vàng" , 03/10 14:00 🟢 ⚽ Machida Zelvia vs Kyoto Sanga (A Long)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69ef10b47146e04fbe6d4363.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/68bbaa087749b718f6399542f3f51e6d.png" group-title="Gà Vàng" , 03/10 15:00 🟢 ⚽ Oita Trinita vs Montedio Yamagata (Lữ Bố.vip)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a9776215126529dede9bf51.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/0587c755424c4e6290e45f9c52fb7b13.png" group-title="Gà Vàng" , 03/10 15:00 🟢 ⚽ Tochigi City vs Imabari FC (THICHDUTHU)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a704ad865997681f18c2160.m3u8&source=gavang
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/d272859d78eb8ca7a14753f4293fbf45.png" group-title="Gà Vàng" , 03/10 17:00 🟢 ⚽ Kashiwa Reysol vs Gamba Osaka (SAITAMA)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69f42e961f739deff81510c0.m3u8&source=gavang
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/6581bc34692022be4c21d98778e33df0.png" group-title="Gà Vàng" , 03/10 17:30 🟡 ⚽ Korea U23 vs Japan U23 (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/south-korea-u23-vs-japan-u23-ngay-03-10-2026/
@@ -46,8 +40,23 @@ https://gavanglinkt.tv/truc-tiep/avai-fc-vs-ceara-ngay-03-10-2026/
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/e9cc8905877622c4a5e94905567fd889.png" group-title="Gà Vàng" , 03/10 21:00 ⚽ Partick Thistle FC vs Arbroath (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/partick-thistle-fc-vs-arbroath-ngay-03-10-2026/
 
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/e7083a9eae16cbc27fa133d41212e4c8.png" group-title="Gà Vàng" , 03/10 21:00 ⚽ India vs Brazil (Chưa có link — chờ cập nhật)
+https://gavanglinkt.tv/truc-tiep/india-vs-brazil-ngay-03-10-2026/
+
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a1b3eb19ca424555b5c61384059d21f7.png" group-title="Gà Vàng" , 03/10 23:00 ⚽ Croatia vs England (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/croatia-vs-england-ngay-03-10-2026/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/447d5c2ba3e790ec434c0bee994095ed.png" group-title="Gà Vàng" , 03/10 23:00 ⚽ Belarus vs San Marino (Chưa có link — chờ cập nhật)
+https://gavanglinkt.tv/truc-tiep/belarus-vs-san-marino-ngay-03-10-2026/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/430fda3112134b44b54eeba89eec5189.png" group-title="Gà Vàng" , 03/10 23:00 ⚽ Iceland vs Bulgaria (Chưa có link — chờ cập nhật)
+https://gavanglinkt.tv/truc-tiep/iceland-vs-bulgaria-ngay-03-10-2026/
+
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/350035841e1182bf4389c52752d8bd0d.png" group-title="Gà Vàng" , 03/10 23:00 ⚽ Estonia vs Luxembourg (Chưa có link — chờ cập nhật)
+https://gavanglinkt.tv/truc-tiep/estonia-vs-luxembourg-ngay-03-10-2026/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/13ad117ddb310052841244f0d1ed3c1e.png" group-title="Gà Vàng" , 03/10 23:30 ⚽ Cadiz CF vs Leganes (Chưa có link — chờ cập nhật)
+https://gavanglinkt.tv/truc-tiep/cadiz-cf-vs-cd-leganes-ngay-03-10-2026/
 
 # ----- Ngày 2026-10-04 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/9c1958aa257c4a318f87cb4b2d79fa11.png" group-title="Gà Vàng" , 04/10 01:45 ⚽ Spain vs Czechia (Chưa có link — chờ cập nhật)
