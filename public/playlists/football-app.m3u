@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:57:31 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:00:38 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (10 trận), Chuối Chiên (8 trận), Phá Làng (17 trận), Gà Vàng (19 trận), Sao Kê (11 trận), GaVang33 (25 trận), Bông Lau (8 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (10 trận), Chuối Chiên (8 trận), Phá Làng (16 trận), Gà Vàng (18 trận), Sao Kê (11 trận), GaVang33 (25 trận), Bông Lau (8 trận) =====
 
 # ----- Ngày 2026-10-03 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3874dcd109e646cbe7c5e8fb2bd41548.png" group-title="Phá Làng" , 03/10 22:55 🟢 ⚽ Saudi Arabia - Qatar (Server 1)
-https://lilive1.eu.cc/live/2cf1b7f90e829bb2b64935efc2b265e5/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/saudi-arabia-vs-qatar-pxwrxlhy636kryk&Origin=https://phalang1.live
-
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/344c0d0b85274807ba668a603ef5a05e.png" group-title="GaVang33" , 03/10 22:55 🟢 ⚽ Saudi Arabia vs Qatar (Gà Siêu Tồ)
 https://live2.zktsva.app/live/796315.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
@@ -31,8 +28,8 @@ https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8|User-Agent=Mozill
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8536.png" group-title="Sao Kê" , 03/10 23:00 🟢 ⚽ Iceland vs Bulgaria (Ricky (HD))
 https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/a1b3eb19ca424555b5c61384059d21f7.png" group-title="GaVang33" , 03/10 23:00 🟢 ⚽ Croatia vs England (Gà Siêu Phệ + Gà Siêu Quỷ)
-https://live2.zktsva.app/live/304565.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/a1b3eb19ca424555b5c61384059d21f7.png" group-title="GaVang33" , 03/10 23:00 🟢 ⚽ Croatia vs England (Gà Siêu Gáy)
+https://live2.zktsva.app/live/294335.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/447d5c2ba3e790ec434c0bee994095ed.png" group-title="GaVang33" , 03/10 23:00 🟢 ⚽ Belarus vs San Marino (Gà Siêu Ngố)
 https://live2.zktsva.app/live/301238.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -50,17 +47,11 @@ https://wtyi0525.edgemaxcdn.org/live/x00-hd-1111/playlist.m3u8|User-Agent=Mozill
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/canada.png" group-title="Giờ Vàng" , 04/10 01:00 🟢 ⚽ Canada vs Peru (Giovang 1)
 https://pzhgifbkllliv.vcdn.cloud/1791012160_hd/1791012160_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0c7660683be3429ea77999657fa17d79.png" group-title="Phá Làng" , 04/10 01:00 🟢 ⚽ Canada - Peru (Server 1)
+https://lilive1.eu.cc/live/bd667a172fbc9765d04f0ba1fe4a4bcd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/canada-vs-peru-ednm9wh58x99ryo&Origin=https://phalang1.live
+
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/336e1c9ab6894a3b893c1ef45235a164.png" group-title="GaVang33" , 04/10 01:00 🟢 ⚽ Canada vs Peru (Gà Siêu Péo)
 https://live2.zktsva.app/live/303098.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0c7660683be3429ea77999657fa17d79.png" group-title="Phá Làng" , 04/10 01:00 🟡 ⚽ Canada - Peru (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#ednm9wh58x99ryo
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/83a51708ac7d8d3d509995918d82a8f2.png" group-title="Phá Làng" , 04/10 01:00 🟡 ⚽ Atletico Melilla - Pinatar CF (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#jw2r09hk8eyxrz8
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/336e1c9ab6894a3b893c1ef45235a164.png" group-title="Gà Vàng" , 04/10 01:00 🟡 ⚽ Canada vs Peru (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/canada-vs-peru-ngay-04-10-2026/
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0db3b8167d91f65e5d7d08e3fc6de20d.png" group-title="Phá Làng" , 04/10 01:30 🟡 ⚽ United Arab Emirates - Oman (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#vjxm8ghenwnyr6o
@@ -131,31 +122,31 @@ https://lau06.bonglautv1.org/truc-tiep/1528936
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260531_193336_3393bc73.png" group-title="Bông Lau" , 04/10 01:45 🟡 ⚽ FYR Macedonia vs Scotland (Chưa có link — chờ cập nhật)
 https://lau06.bonglautv1.org/truc-tiep/1545660
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_738.jpg" group-title="Khán Đài" , 04/10 02:00 ⚽ Ivory Coast vs Cameroon (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_738.jpg" group-title="Khán Đài" , 04/10 02:00 🟡 ⚽ Ivory Coast vs Cameroon (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/ivory-coast-vs-cameroon-04-10-2026-855589
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132759_08d32594.png" group-title="Chuối Chiên" , 04/10 02:00 ⚽ Ivory Coast vs Cameroon (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132759_08d32594.png" group-title="Chuối Chiên" , 04/10 02:00 🟡 ⚽ Ivory Coast vs Cameroon (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1640077/ivory-coast-vs-cameroon
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/db5f54482ae28e132611f4c928b6f672.png" group-title="Phá Làng" , 04/10 02:00 ⚽ Cote d'Ivoire - Cameroon (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/db5f54482ae28e132611f4c928b6f672.png" group-title="Phá Làng" , 04/10 02:00 🟡 ⚽ Cote d'Ivoire - Cameroon (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#965mkyh8l543r1g
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5de585a438634b088e5734dde6783ffd.png" group-title="Phá Làng" , 04/10 02:00 ⚽ Tunisia - Mali (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5de585a438634b088e5734dde6783ffd.png" group-title="Phá Làng" , 04/10 02:00 🟡 ⚽ Tunisia - Mali (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#n54qllh4512oqvy
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b34cb4a1d0579ac2df94f7d9abea2ae7.png" group-title="Gà Vàng" , 04/10 02:00 ⚽ Atletico Clube Goianiense vs America MG (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b34cb4a1d0579ac2df94f7d9abea2ae7.png" group-title="Gà Vàng" , 04/10 02:00 🟡 ⚽ Atletico Clube Goianiense vs America MG (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/atletico-clube-goianiense-vs-america-mg-ngay-04-10-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/3190d6d022fe9b36c65d83cf98e16d15.png" group-title="Gà Vàng" , 04/10 02:00 ⚽ Aguilas Doradas vs Jaguares de Cordoba (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/3190d6d022fe9b36c65d83cf98e16d15.png" group-title="Gà Vàng" , 04/10 02:00 🟡 ⚽ Aguilas Doradas vs Jaguares de Cordoba (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/aguilas-doradas-vs-jaguares-de-cordoba-ngay-04-10-2026/
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6629.png" group-title="Sao Kê" , 04/10 02:00 ⚽ Cameroon vs Ivory Coast (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6629.png" group-title="Sao Kê" , 04/10 02:00 🟡 ⚽ Cameroon vs Ivory Coast (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/cameroon-vs-ivory-coast-6abf7062b9c200d560485f0e.html
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/17962554eedf40e0af9df1fc346ce09e.png" group-title="GaVang33" , 04/10 02:00 ⚽ Cote d'Ivoire vs Cameroon (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/17962554eedf40e0af9df1fc346ce09e.png" group-title="GaVang33" , 04/10 02:00 🟡 ⚽ Cote d'Ivoire vs Cameroon (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/cote-divoire-vs-cameroon-luc-0200-ngay-04-10-2026-965mkyh8l543r1g
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132759_08d32594.png" group-title="Bông Lau" , 04/10 02:00 ⚽ Ivory Coast vs Cameroon (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132759_08d32594.png" group-title="Bông Lau" , 04/10 02:00 🟡 ⚽ Ivory Coast vs Cameroon (Chưa có link — chờ cập nhật)
 https://lau06.bonglautv1.org/truc-tiep/1640077
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a9e3f5956f84947cbd6503823dcffbb0.png" group-title="Gà Vàng" , 04/10 03:00 ⚽ Cuiaba vs Ponte Preta (Chưa có link — chờ cập nhật)
@@ -262,6 +253,9 @@ https://giovang.rent/truc-tiep-barito-putera-vs-persela-04-10-k20w13z8ti4q
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/631d7950b866054f174c8d7389418f3b.png" group-title="GaVang33" , 04/10 15:30 ⚽ Barito Putera vs Persela Lamongan (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/barito-putera-vs-persela-lamongan-luc-1530-ngay-04-10-2026-x7lm7phj4dd3m2w
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5c20ae162fb41fea64a3b65684f37883.png" group-title="Phá Làng" , 04/10 16:00 ⚽ Dinamo Minsk - Uni X-Labs Minsk (Chưa có link — chờ cập nhật)
+https://phalang1.live/trang-chu#ednm9wh58wg9ryo
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/miyazaki.png" group-title="Giờ Vàng" , 04/10 17:00 ⚽ Miyazaki vs Omiya Ardija (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-miyazaki-vs-omiya-ardija-04-10-6ab9ae3124d46db870ba455d

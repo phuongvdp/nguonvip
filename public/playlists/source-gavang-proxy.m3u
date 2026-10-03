@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:57:31 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:00:38 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (19 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a1b3eb19ca424555b5c61384059d21f7.png" group-title="Gà Vàng" , 03/10 23:00 🟢 ⚽ Croatia vs England (CRIS)
@@ -20,9 +20,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a0c7c4b1ae4d6db02433c48.m3u8&source=gavang
 
 # ----- Ngày 2026-10-04 -----
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/336e1c9ab6894a3b893c1ef45235a164.png" group-title="Gà Vàng" , 04/10 01:00 🟡 ⚽ Canada vs Peru (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/canada-vs-peru-ngay-04-10-2026/
-
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/9c1958aa257c4a318f87cb4b2d79fa11.png" group-title="Gà Vàng" , 04/10 01:45 🟡 ⚽ Spain vs Czechia (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/spain-vs-czechia-ngay-04-10-2026/
 
@@ -32,10 +29,10 @@ https://gavanglinkt.tv/truc-tiep/switzerland-vs-slovenia-ngay-04-10-2026/
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f06adf060c098f11e76fa2ff1565ba70.png" group-title="Gà Vàng" , 04/10 01:45 🟡 ⚽ North Macedonia vs Scotland (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/north-macedonia-vs-scotland-ngay-04-10-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b34cb4a1d0579ac2df94f7d9abea2ae7.png" group-title="Gà Vàng" , 04/10 02:00 ⚽ Atletico Clube Goianiense vs America MG (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b34cb4a1d0579ac2df94f7d9abea2ae7.png" group-title="Gà Vàng" , 04/10 02:00 🟡 ⚽ Atletico Clube Goianiense vs America MG (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/atletico-clube-goianiense-vs-america-mg-ngay-04-10-2026/
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/3190d6d022fe9b36c65d83cf98e16d15.png" group-title="Gà Vàng" , 04/10 02:00 ⚽ Aguilas Doradas vs Jaguares de Cordoba (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/3190d6d022fe9b36c65d83cf98e16d15.png" group-title="Gà Vàng" , 04/10 02:00 🟡 ⚽ Aguilas Doradas vs Jaguares de Cordoba (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/aguilas-doradas-vs-jaguares-de-cordoba-ngay-04-10-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a9e3f5956f84947cbd6503823dcffbb0.png" group-title="Gà Vàng" , 04/10 03:00 ⚽ Cuiaba vs Ponte Preta (Chưa có link — chờ cập nhật)
