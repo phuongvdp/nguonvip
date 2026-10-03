@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 05:34:08 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 05:37:02 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (17 trận), Chuối Chiên (4 trận), Phá Làng (18 trận), Gà Vàng (10 trận), Sao Kê (4 trận), GaVang33 (16 trận), Bông Lau (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (28 trận), Khán Đài (17 trận), Chuối Chiên (4 trận), Phá Làng (18 trận), Gà Vàng (10 trận), Sao Kê (4 trận), GaVang33 (16 trận), Bông Lau (4 trận) =====
 
 # ----- Ngày 2026-10-04 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/YeWStKhl-xUjXmOIP.png" group-title="Giờ Vàng" , 04/10 03:00 🟢 ⚽ Los Angeles Dodgers vs Atlanta Braves (Giovang 1)
@@ -33,6 +33,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125542_d8ff9d63.png" group-title="Bông Lau" , 04/10 04:30 🟢 ⚽ Atletico-MG vs RB Bragantino (Trốc Tru (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Ftroctruhd%2Fplaylist.m3u8&source=bonglau
+
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png" group-title="Giờ Vàng" , 04/10 05:30 🟢 ⚽ New York Yankees vs Tampa Bay Rays (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1791015617_hd%2F1791015617_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/3f61db02c20eb73e5f27948b3122f2fb.png" group-title="Giờ Vàng" , 04/10 06:00 🟡 🏀 Toronto Raptors vs Miami Heat (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-toronto-raptors-vs-miami-heat-04-10-13022276
