@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:21:10 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:24:11 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (10 trận), Chuối Chiên (11 trận), Phá Làng (25 trận), Gà Vàng (13 trận), Sao Kê (12 trận), GaVang33 (25 trận), Bông Lau (11 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (10 trận), Chuối Chiên (11 trận), Phá Làng (24 trận), Gà Vàng (13 trận), Sao Kê (12 trận), GaVang33 (25 trận), Bông Lau (11 trận) =====
 
 # ----- Ngày 2026-10-03 -----
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/65503b155488a643de688e8dfa849b1f.png" group-title="Phá Làng" , 03/10 20:30 🟢 ⚽ FC St. Pauli - Borussia Monchengladbach (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F14e168ba3a74eb1e2bc316ecb22282ce%2Fplaylist.m3u8&source=phalang
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/051be0a9b61dedb583315fb75eaa8308.png" group-title="Gà Vàng" , 03/10 20:55 🟢 ⚽ Liverpool URU vs Club Atletico Progreso (SÚP LƠ)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a9a5525864ea536c2577392.m3u8&source=gavang
 
