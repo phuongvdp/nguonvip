@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 02:58:40 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 03:01:20 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (35 trận), Khán Đài (22 trận), Chuối Chiên (7 trận), Phá Làng (16 trận), Gà Vàng (20 trận), Sao Kê (7 trận), GaVang33 (21 trận), Bông Lau (7 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (35 trận), Khán Đài (22 trận), Chuối Chiên (7 trận), Phá Làng (18 trận), Gà Vàng (17 trận), Sao Kê (7 trận), GaVang33 (21 trận), Bông Lau (7 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/0OsJt6Fa-CxYUcq3p.png" group-title="Giờ Vàng" , 03/10 23:00 🟢 ⚽ Ben Whittaker vs Conor Wallace (Giovang 1)
@@ -195,15 +195,6 @@ https://ftlh5sc02iliv.vcdn.cloud/1791015339_hd/1791015339_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1791014174_hd/1791014174_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a9e3f5956f84947cbd6503823dcffbb0.png" group-title="Gà Vàng" , 04/10 03:00 🟡 ⚽ Cuiaba vs Ponte Preta (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/cuiaba-vs-ponte-preta-ngay-04-10-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/2d87cf3b426597f02435e2c72e8def93.png" group-title="Gà Vàng" , 04/10 03:00 🟡 ⚽ Atletico Tucuman vs CA Barracas Central (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/atletico-tucuman-vs-ca-barracas-central-ngay-04-10-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/845eed665066a19144dad9f96e550b50.png" group-title="Gà Vàng" , 04/10 03:00 🟡 ⚽ CA Newell's Old Boys vs CA Lanús (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/club-atletico-newells-old-boys-vs-club-atletico-lanus-ngay-04-10-2026/
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/932f3790a25e5c4f40ae328ad9060055.png" group-title="Gà Vàng" , 04/10 03:55 🟡 ⚽ Deportivo Maldonado vs Central Espanol (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/deportivo-maldonado-vs-central-espanol-ngay-04-10-2026/
 
@@ -389,6 +380,12 @@ https://gavang33.me/truc-tiep/sporting-de-gijon-b-vs-union-langreo-luc-1700-ngay
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/atletico-union-guimar.png" group-title="Giờ Vàng" , 04/10 18:00 ⚽ Atletico Union Guimar vs Sporting Hortaleza (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-atletico-union-guimar-vs-sporting-hortaleza-04-10-6aa498131f7a2190510195d1
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/4f2e51a4694f68360a19648b651b30ca.png" group-title="Phá Làng" , 04/10 18:00 ⚽ Dynamo Moscow - Rodina Moscow (Chưa có link — chờ cập nhật)
+https://phalang1.live/trang-chu#3glrw7h4k7xlqdy
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0e1cfeef85a7e29ef83582a113e173c1.png" group-title="Phá Làng" , 04/10 18:00 ⚽ Atletico Union Guimar - Sporting Hortaleza (Chưa có link — chờ cập nhật)
+https://phalang1.live/trang-chu#8yomo4h1nwl5q0j
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/real-sociedad-b.png" group-title="Giờ Vàng" , 04/10 19:00 ⚽ Real Sociedad B vs Granada CF (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-real-sociedad-b-vs-granada-cf-04-10-6ab9ae3124d46db870ba4622
