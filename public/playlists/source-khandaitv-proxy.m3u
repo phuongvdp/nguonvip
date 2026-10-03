@@ -1,25 +1,25 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:58:31 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:01:30 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (17 trận) =====
 
 # ----- Ngày 2026-10-03 -----
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/download_IAaCYjl.png" group-title="Khán Đài" , 03/10 17:00 🟢 ⚽ Hong Kong vs Cambodia (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/hong-kong-vs-cambodia-03-10-2026-860506
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/download_IAaCYjl.png" group-title="Khán Đài" , 03/10 17:00 🟢 ⚽ Hong Kong vs Cambodia (Pháo Thủ)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa4%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dfaaa23580764370ed378ecd708c9f262&source=khandaitv
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Khán Đài" , 03/10 17:20 🟢 🏐 Nhật Bản vs Iran (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/nhat-ban-vs-iran
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_4xNC98N.jpg" group-title="Khán Đài" , 03/10 17:20 🟢 🏐 Nhật Bản vs Iran (KaKa)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa7%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images_8kF19fZ.jpg" group-title="Khán Đài" , 03/10 17:30 🟢 ⚽ South Korea U23 vs Japan U23 (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/south-korea-u23-vs-japan-u23-03-10-2026-860366
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images_8kF19fZ.jpg" group-title="Khán Đài" , 03/10 17:30 🟢 ⚽ South Korea U23 vs Japan U23 (Lee Sin)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa10%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/image_2.webp" group-title="Khán Đài" , 03/10 18:00 🟢 🏐 Vakifbank vs Besiktas (Chưa có link — chờ cập nhật)
-https://khandai3.link/truc-tiep/vakifbank-vs-besiktas
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/image_2.webp" group-title="Khán Đài" , 03/10 18:00 🟢 🏐 Vakifbank vs Besiktas (Tiểu Mây)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa9%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_8.jpg" group-title="Khán Đài" , 03/10 20:00 ⚽ Finland vs Albania (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_8.jpg" group-title="Khán Đài" , 03/10 20:00 🟡 ⚽ Finland vs Albania (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/finland-vs-albania-03-10-2026-790940
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/image_4.webp" group-title="Khán Đài" , 03/10 20:00 🏐 Nilufer vs Eczacibasi (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/image_4.webp" group-title="Khán Đài" , 03/10 20:00 🟡 🏐 Nilufer vs Eczacibasi (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/nilufer-vs-eczacibasi
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_14.jpg" group-title="Khán Đài" , 03/10 23:00 ⚽ Croatia vs England (Chưa có link — chờ cập nhật)
@@ -52,3 +52,6 @@ https://khandai3.link/truc-tiep/ivory-coast-vs-cameroon-04-10-2026-855589
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_7694_CsCkv9g.png" group-title="Khán Đài" , 04/10 17:00 🏐 Fenerbahce vs Manisa BB (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/fenerbahce-vs-manisa-bb
+
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_7216.jpg" group-title="Khán Đài" , 04/10 19:00 ⚽ Real Sociedad B vs Granada CF (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/real-sociedad-b-vs-granada-cf-04-10-2026-799272
