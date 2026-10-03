@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:29:40 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:32:43 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận) =====
 
@@ -19,11 +19,15 @@ https://pzhgifbkllliv.vcdn.cloud/1791015617_hd/1791015617_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pzhgifbkllliv.vcdn.cloud/1790780813_hd/1790780813_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/fc-tulsa.png" group-title="Giờ Vàng" , 04/10 07:00 🟡 ⚽ FC Tulsa vs Sacramento Republic FC (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-fc-tulsa-vs-sacramento-republic-fc-04-10-6ab9ae2f24d46db870ba4387
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/fc-tulsa.png" group-title="Giờ Vàng" , 04/10 07:00 🟢 ⚽ FC Tulsa vs Sacramento Republic FC (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.rent/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ftlh5sc02iliv.vcdn.cloud/1791051657_hd/1791051657_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/iM_hcWzccgEfD4bo-sp6Wg_96x96.png" group-title="Giờ Vàng" , 04/10 07:30 ⚽ San Diego Padres vs Milwaukee Brewers (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-san-diego-padres-vs-milwaukee-brewers-04-10-bk0wjau1chgt
+#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/iM_hcWzccgEfD4bo-sp6Wg_96x96.png" group-title="Giờ Vàng" , 04/10 07:30 🟢 ⚽ San Diego Padres vs Milwaukee Brewers (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.rent/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ftlh5sc02iliv.vcdn.cloud/1791052616_hd/1791052616_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/usa.png" group-title="Giờ Vàng" , 04/10 09:00 ⚽ Mỹ vs Mexico (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-my-vs-mexico-04-10-6abaffac24d46db8707d3011

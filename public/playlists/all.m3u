@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 06:29:40 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:32:43 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (17 trận), Chuối Chiên (4 trận), Phá Làng (27 trận), Gà Vàng (8 trận), Sao Kê (4 trận), GaVang33 (16 trận), Bông Lau (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (17 trận), Chuối Chiên (4 trận), Phá Làng (25 trận), Gà Vàng (8 trận), Sao Kê (4 trận), GaVang33 (16 trận), Bông Lau (4 trận) =====
 
 # ----- Ngày 2026-10-04 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/jcQ7UvyB-dWl7UQ2D.png" group-title="Giờ Vàng" , 04/10 03:00 🟢 ⚽ Silva vs Wang (Giovang 1)
@@ -13,11 +13,6 @@ https://ftlh5sc02iliv.vcdn.cloud/1791014174_hd/1791014174_hd@720p.m3u8
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/079e86cebd6511ce807cc6073a3e26ee.png" group-title="Phá Làng" , 04/10 04:30 🟢 ⚽ Atlético Mineiro - MG - Red Bull Bragantino (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/atletico-mineiro-mg-vs-red-bull-bragantino-l7oqdehg8n41r51
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/f4fef1fbcdd6a739ba32b4bcf64660f1/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/079e86cebd6511ce807cc6073a3e26ee.png" group-title="Gà Vàng" , 04/10 04:30 🟢 ⚽ Atlético Mineiro - MG vs Bragantino (MáN NúI)
 #EXTVLCOPT:http-referrer=https://gavanglinkt.tv/
@@ -49,16 +44,15 @@ https://pzhgifbkllliv.vcdn.cloud/1791015617_hd/1791015617_hd@720p.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pzhgifbkllliv.vcdn.cloud/1790780813_hd/1790780813_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5c3f819a35454f424d85df5757650f8b.png" group-title="Phá Làng" , 04/10 06:30 🟡 ⚽ Rayados de Monterrey - Toluca (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#23xmvkhyvyvjqg8
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/fc-tulsa.png" group-title="Giờ Vàng" , 04/10 07:00 🟢 ⚽ FC Tulsa vs Sacramento Republic FC (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.rent/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ftlh5sc02iliv.vcdn.cloud/1791051657_hd/1791051657_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/xQCUe9zB-AmY8ktbk.png" group-title="Phá Làng" , 04/10 07:00 🟢 ⚽ Argentina - Burkina Faso (LÝ LONG)
 #EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/argentina-vs-burkina-faso-y39mp1hdvw5ymoj
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/dd793602ef1b41f97d9b56da277f0ede/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/fc-tulsa.png" group-title="Giờ Vàng" , 04/10 07:00 🟡 ⚽ FC Tulsa vs Sacramento Republic FC (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-fc-tulsa-vs-sacramento-republic-fc-04-10-6ab9ae2f24d46db870ba4387
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132808_60e400eb.png" group-title="Chuối Chiên" , 04/10 07:00 🟡 ⚽ Argentina vs Burkina Faso (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1640514/argentina-vs-burkina-faso
@@ -75,8 +69,10 @@ https://gavang33.me/truc-tiep/argentina-vs-burkina-faso-luc-0700-ngay-04-10-2026
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132808_60e400eb.png" group-title="Bông Lau" , 04/10 07:00 🟡 ⚽ Argentina vs Burkina Faso (Chưa có link — chờ cập nhật)
 https://lau06.bonglautv1.org/truc-tiep/1640514
 
-#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/iM_hcWzccgEfD4bo-sp6Wg_96x96.png" group-title="Giờ Vàng" , 04/10 07:30 ⚽ San Diego Padres vs Milwaukee Brewers (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-san-diego-padres-vs-milwaukee-brewers-04-10-bk0wjau1chgt
+#EXTINF:-1 tvg-logo="https://ssl.gstatic.com/onebox/media/sports/logos/optimized/iM_hcWzccgEfD4bo-sp6Wg_96x96.png" group-title="Giờ Vàng" , 04/10 07:30 🟢 ⚽ San Diego Padres vs Milwaukee Brewers (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.rent/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ftlh5sc02iliv.vcdn.cloud/1791052616_hd/1791052616_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/980699.png" group-title="Sao Kê" , 04/10 08:06 ⚽ Club Tijuana (W) vs Atlante (W) (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/club-tijuana-w-vs-atlante-w-6abf70758117d47caf8cefaf.html
