@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:54:09 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:57:07 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (31 trận), Khán Đài (21 trận), Chuối Chiên (20 trận), Phá Làng (130 trận), Gà Vàng (29 trận), Sao Kê (26 trận), GaVang33 (21 trận), Bông Lau (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (31 trận), Khán Đài (21 trận), Chuối Chiên (20 trận), Phá Làng (131 trận), Gà Vàng (29 trận), Sao Kê (26 trận), GaVang33 (21 trận), Bông Lau (20 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125536_698c7d26.png" group-title="Chuối Chiên" , 03/10 06:00 🟢 ⚽ Sao Paulo vs Santos (Chuối Tây (FHD))
@@ -107,6 +107,11 @@ https://playback.livetl002.com/live/69be75e0a0a45974afb67776.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pzhgifbkllliv.vcdn.cloud/1790959788_hd/1790959788_hd@720p.m3u8
 
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzsOYIOsX07EGftC-0YU85JEWhVV8eqZgHxa90ejwO9w&s=10" group-title="Giờ Vàng" , 03/10 08:00 🟢 ⚽ Correcaminos UAT vs Cruz Azul Hidalgo (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.rent/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://pzhgifbkllliv.vcdn.cloud/1790780201_hd/1790780201_hd@720p.m3u8
+
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png" group-title="Giờ Vàng" , 03/10 08:00 🟢 🏀 Golden State Valkyries vs Dallas Wings (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.rent/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -116,11 +121,6 @@ https://pzhgifbkllliv.vcdn.cloud/1790960636_hd/1790960636_hd@720p.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.rent/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pzhgifbkllliv.vcdn.cloud/1790960822_hd/1790960822_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzsOYIOsX07EGftC-0YU85JEWhVV8eqZgHxa90ejwO9w&s=10" group-title="Giờ Vàng" , 03/10 08:00 🟢 ⚽ Correcaminos UAT vs Cruz Azul Hidalgo (Giovang 1)
-#EXTVLCOPT:http-referrer=https://giovang.rent/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://pzhgifbkllliv.vcdn.cloud/1790780201_hd/1790780201_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_TkTkw3i.jpg" group-title="Khán Đài" , 03/10 08:00 🟢 🏐 Qatar vs Hàn Quốc (Tiểu Mây)
 #EXTVLCOPT:http-referrer=https://khandai3.link
@@ -235,7 +235,7 @@ https://lau05.bonglautv1.pro/truc-tiep/1643348
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTyQbV7R_wsuY6OfdPSIu1WhPyrDH-xXNobnjpwe0mzw&s=10" group-title="Giờ Vàng" , 03/10 14:00 ⚽ Machida Zelvia vs Kyoto Sanga (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-machida-zelvia-vs-kyoto-sanga-03-10-l4mwp2fvcukx
 
-#EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 14:00 🏐 Pakistan vs Trung Quốc (Chưa có link — chờ cập nhật)
+#EXTINF:-1 group-title="Giờ Vàng" , 03/10 14:00 🏐 Pakistan vs Trung Quốc (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-pakistan-vs-trung-quoc-03-10-aypu5oxinqxy
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/nuUeFiwS-0peDsUzn.png" group-title="Giờ Vàng" , 03/10 14:00 🏐 Kazakhstan vs Indonesia (Chưa có link — chờ cập nhật)
@@ -246,9 +246,6 @@ https://khandai3.link/truc-tiep/kazakhstan-vs-indonesia
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_OOrZwnR.jpg" group-title="Khán Đài" , 03/10 14:00 🏐 Trung Quốc vs Pakistan (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/trung-quoc-vs-pakistan
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132416_e9d110f2.png" group-title="Chuối Chiên" , 03/10 14:00 ⚽ Machida Zelvia vs Kyoto Sanga (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1567447/machida-zelvia-vs-kyoto-sanga
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Chuối Chiên" , 03/10 14:00 🏐 China vs Pakistan (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/991304/china-vs-pakistan
@@ -273,9 +270,6 @@ https://vip3.saoketv40.xyz/china-vs-pakistan-6ac04f0deaab1e8b951a7f33.html
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png" group-title="GaVang33" , 03/10 14:00 ⚽ Machida Zelvia vs Kyoto Sanga (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/machida-zelvia-vs-kyoto-sanga-luc-1400-ngay-03-10-2026-dn1m1ghlz380moe
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132416_e9d110f2.png" group-title="Bông Lau" , 03/10 14:00 ⚽ Machida Zelvia vs Kyoto Sanga (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1567447
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Bông Lau" , 03/10 14:00 🏐 China vs Pakistan (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/991304
@@ -817,6 +811,9 @@ https://giovang.rent/truc-tiep-cd-baztan-vs-atletico-calatayud-03-10-6aa498131f7
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/803da3d362e8645e8e6706f33885853a.png" group-title="Phá Làng" , 03/10 22:30 ⚽ CD Baztan - Atletico Calatayud (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#pxwrxlhyd68eryk
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3874dcd109e646cbe7c5e8fb2bd41548.png" group-title="Phá Làng" , 03/10 22:55 ⚽ Saudi Arabia - Qatar (Chưa có link — chờ cập nhật)
+https://phalang.live/trang-chu#pxwrxlhy636kryk
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_14.jpg" group-title="Khán Đài" , 03/10 23:00 ⚽ Croatia vs England (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/croatia-vs-england-03-10-2026-790894
 
@@ -902,6 +899,9 @@ https://live05.chuoichientv.me/live/1528936/spain-vs-czech-republic
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125452_c8ee16a6.png" group-title="Chuối Chiên" , 04/10 01:45 ⚽ Switzerland vs Slovenia (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1545653/switzerland-vs-slovenia
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260531_193336_3393bc73.png" group-title="Chuối Chiên" , 04/10 01:45 ⚽ FYR Macedonia vs Scotland (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1545660/fyr-macedonia-vs-scotland
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8260.png" group-title="Sao Kê" , 04/10 01:45 ⚽ North Macedonia vs Scotland (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/north-macedonia-vs-scotland-6abf7062b9c200d560485f00.html
 
@@ -925,6 +925,9 @@ https://lau05.bonglautv1.pro/truc-tiep/1528936
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125452_c8ee16a6.png" group-title="Bông Lau" , 04/10 01:45 ⚽ Switzerland vs Slovenia (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1545653
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260531_193336_3393bc73.png" group-title="Bông Lau" , 04/10 01:45 ⚽ FYR Macedonia vs Scotland (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1545660
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_738.jpg" group-title="Khán Đài" , 04/10 02:00 ⚽ Ivory Coast vs Cameroon (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/ivory-coast-vs-cameroon-04-10-2026-855589
