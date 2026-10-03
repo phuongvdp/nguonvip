@@ -1,14 +1,14 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:14:17 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:16:53 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (3 trận), Khán Đài (7 trận) =====
 
 # ----- Ngày 2026-10-04 -----
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/prWwhLwS-dbN3tce0.png" group-title="Giờ Vàng" , 04/10 01:30 🟢 🏐 Vero Volley nữ vs Firenze nữ (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1791015231_hd%2F1791015231_hd%40720p.m3u8&source=giovang
+
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/image_6.webp" group-title="Khán Đài" , 04/10 01:30 🟢 🏐 Vero Volley Milano vs Firenze (KaKa)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa7%2Findex.m3u8%3Fexpire%3D1815822079%26sign%3D9a0c1792a57466ace2166ab62a2ea149&source=khandaitv
-
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/prWwhLwS-dbN3tce0.png" group-title="Giờ Vàng" , 04/10 01:30 🟡 🏐 Vero Volley nữ vs Firenze nữ (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-vero-volley-nu-vs-firenze-nu-04-10-n4e8u2d368s8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/IROBodZA-z9Ihsud3.png" group-title="Giờ Vàng" , 04/10 17:00 🏐 Fenerbahce nữ vs Manisa BB Nữ (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-fenerbahce-nu-vs-manisa-bb-nu-04-10-xxznsgay4jcl
