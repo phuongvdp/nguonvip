@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:58:42 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 02:01:16 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (14 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (17 trận) =====
 
 # ----- Ngày 2026-10-04 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0c7660683be3429ea77999657fa17d79.png" group-title="Phá Làng" , 04/10 01:15 🟢 ⚽ Canada - Peru (Server 1)
@@ -24,13 +24,15 @@ https://lilive1.eu.cc/live/a83f2f1bc58ecb3bbddcf4b07a964fed/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/6a311bb20b31a673c9b236d05976c0aa/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/78e57b771bb363598680a056a7d26c0a.png" group-title="Phá Làng" , 04/10 01:45 🟢 ⚽ North Macedonia - Scotland (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/north-macedonia-vs-scotland-vjxm8ghekddxr6o
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/9ec95b791cd8617d377ea1ea396f1c1b/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/db5f54482ae28e132611f4c928b6f672.png" group-title="Phá Làng" , 04/10 02:00 🟢 ⚽ Cote d'Ivoire - Cameroon (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/cote-d-ivoire-vs-cameroon-965mkyh8l543r1g
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/0503a353317bdf9ff9f5bda52f196821/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5de585a438634b088e5734dde6783ffd.png" group-title="Phá Làng" , 04/10 02:00 🟡 ⚽ Tunisia - Mali (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#n54qllh4512oqvy
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/079e86cebd6511ce807cc6073a3e26ee.png" group-title="Phá Làng" , 04/10 04:30 ⚽ Atlético Mineiro - MG - Red Bull Bragantino (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#l7oqdehg8n41r51
@@ -55,3 +57,12 @@ https://phalang1.live/trang-chu#4jwq2ghgon74m0v
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5c20ae162fb41fea64a3b65684f37883.png" group-title="Phá Làng" , 04/10 16:00 ⚽ Dinamo Minsk - Uni X-Labs Minsk (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#ednm9wh58wg9ryo
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/98c2ee8cb3277cf417eeab8c4ee0b936.png" group-title="Phá Làng" , 04/10 17:00 ⚽ SC Farense - GD Chaves (Chưa có link — chờ cập nhật)
+https://phalang1.live/trang-chu#k82rekhgpyd1rep
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/e3edd00a3b183c321f6d7cc0a3398fb0.png" group-title="Phá Làng" , 04/10 17:00 ⚽ Kolos Kovalivka - Zorya (Chưa có link — chờ cập nhật)
+https://phalang1.live/trang-chu#l7oqdehjyj1zr51
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/faa46ea1d338402036b2e573b72f9b43.png!w80" group-title="Phá Làng" , 04/10 17:00 🏐 Fenerbahce Nữ - Manisa BB Women (Chưa có link — chờ cập nhật)
+https://phalang1.live/trang-chu#c9ba1d093cb04818b8e1e1dde4b88845

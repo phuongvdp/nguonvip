@@ -1,12 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:58:42 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 02:01:16 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (22 trận) =====
-
-# ----- Ngày 2026-10-03 -----
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/344c0d0b85274807ba668a603ef5a05e.png" group-title="GaVang33" , 03/10 22:55 🟢 ⚽ Saudi Arabia vs Qatar (Gà Siêu Tồ)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://live2.zktsva.app/live/796315.m3u8
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (20 trận) =====
 
 # ----- Ngày 2026-10-04 -----
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/336e1c9ab6894a3b893c1ef45235a164.png" group-title="GaVang33" , 04/10 01:15 🟢 ⚽ Canada vs Peru (Gà Siêu Péo)
@@ -24,9 +19,6 @@ https://live2.zktsva.app/live/432017.m3u8
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f06adf060c098f11e76fa2ff1565ba70.png" group-title="GaVang33" , 04/10 01:45 🟢 ⚽ North Macedonia vs Scotland (Gà Siêu Ngố)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/301238.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/17962554eedf40e0af9df1fc346ce09e.png" group-title="GaVang33" , 04/10 02:00 🟡 ⚽ Cote d'Ivoire vs Cameroon (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/cote-divoire-vs-cameroon-luc-0200-ngay-04-10-2026-965mkyh8l543r1g
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/ef7329946e1741b9ade4fedbf739158a.png" group-title="GaVang33" , 04/10 07:00 ⚽ Argentina vs Burkina Faso (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/argentina-vs-burkina-faso-luc-0700-ngay-04-10-2026-y39mp1hdvw5ymoj
