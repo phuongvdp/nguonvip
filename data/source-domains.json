@@ -1,12 +1,12 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-03T07:16:15.489Z",
+  "updatedAt": "2026-10-03T09:29:15.713Z",
   "domains": {
     "giovang": {
       "url": "https://giovang.rent",
       "envVar": "GIOVANG_DOMAIN",
       "role": "site",
-      "status": "moved",
+      "status": "alive",
       "from": "SOURCE_DOMAINS"
     },
     "khandaitv": {
@@ -14,20 +14,20 @@
       "envVar": "KHANDAITV_BASE_URL",
       "role": "site",
       "status": "blocked",
-      "from": "mặc định"
+      "from": "SOURCE_DOMAINS"
     },
     "phaohoa": {
       "url": "https://phaohoa1.live",
       "envVar": "PHAOHOA_BASE_URL",
       "role": "site",
       "status": "down",
-      "from": "mặc định"
+      "from": "SOURCE_DOMAINS"
     },
     "gavang": {
       "url": "https://gavanglinkt.tv",
       "envVar": "GAVANG_BASE_URL",
       "role": "site",
-      "status": "moved",
+      "status": "alive",
       "from": "SOURCE_DOMAINS"
     },
     "gavang33": {
@@ -35,99 +35,98 @@
       "envVar": "GAVANG33_DOMAIN",
       "role": "site",
       "status": "alive",
-      "from": "mặc định"
+      "from": "SOURCE_DOMAINS"
     },
     "saoke": {
       "url": "https://vip3.saoketv40.xyz",
       "envVar": "SAOKE_BASE_URL",
       "role": "site",
       "status": "alive",
-      "from": "mặc định"
+      "from": "SOURCE_DOMAINS"
     },
     "bonglau": {
       "url": "https://lau06.bonglautv1.org",
       "envVar": "BONGLAU_DOMAIN",
       "role": "site",
-      "status": "down",
+      "status": "alive",
       "from": "SOURCE_DOMAINS"
     },
     "phalang": {
       "url": "https://phalang1.live",
       "envVar": "PHALANG_DOMAIN",
       "role": "site",
-      "status": "moved",
+      "status": "alive",
       "from": "SOURCE_DOMAINS"
     },
     "chuoichientv": {
-      "url": "https://live05.chuoichientv.me",
+      "url": "https://live08.chuoichientv.me",
       "envVar": "CHUOICHIENTV_WATCH_DOMAIN",
       "role": "site",
-      "status": "moved",
-      "from": "mặc định",
-      "found": "https://live08.chuoichientv.me"
+      "status": "alive",
+      "from": "SOURCE_DOMAINS"
     },
     "chuoichientv-player": {
       "url": "https://live.chuoichien.tv",
       "envVar": "CHUOICHIENTV_PLAYER_DOMAIN",
       "role": "player",
       "status": "alive",
-      "from": "mặc định"
+      "from": "SOURCE_DOMAINS"
     },
     "saoke-player": {
       "url": "https://sk.mediastation.live",
       "envVar": "SAOKE_PLAYER_DOMAIN",
       "role": "player",
       "status": "alive",
-      "from": "mặc định"
+      "from": "SOURCE_DOMAINS"
     },
     "bonglau-player": {
       "url": "https://live.chuoichien.tv",
       "envVar": "BONGLAU_PLAYER_DOMAIN",
       "role": "player",
       "status": "alive",
-      "from": "mặc định"
+      "from": "SOURCE_DOMAINS"
     },
     "giovang-api": {
       "url": "https://live-api.keonhacaitp.one",
       "envVar": "GIOVANG_LIVE_API_HOST",
       "role": "api",
       "status": "alive",
-      "from": "mặc định"
+      "from": "SOURCE_DOMAINS"
     },
     "saoke-api": {
       "url": "https://skapi.66887979.xyz",
       "envVar": "SAOKE_API_DOMAIN",
       "role": "api",
       "status": "blocked",
-      "from": "mặc định"
+      "from": "SOURCE_DOMAINS"
     },
     "gavang33-api": {
       "url": "https://gavangtv-api.adviceme.io",
       "envVar": "GAVANG33_API_DOMAIN",
       "role": "api",
       "status": "alive",
-      "from": "mặc định"
+      "from": "SOURCE_DOMAINS"
     },
     "phalang-api": {
       "url": "https://api.plapi202624081158.com",
       "envVar": "PHALANG_API_BASE",
       "role": "api",
       "status": "alive",
-      "from": "mặc định"
+      "from": "SOURCE_DOMAINS"
     },
     "chuoichientv-api": {
       "url": "https://api-v2.chuoichientv.net/v2",
       "envVar": "CHUOICHIENTV_API_BASE",
       "role": "api",
       "status": "blocked",
-      "from": "mặc định"
+      "from": "SOURCE_DOMAINS"
     },
     "bonglau-api": {
       "url": "https://api-v2.chuoichientv.net/v2",
       "envVar": "BONGLAU_API_BASE",
       "role": "api",
       "status": "blocked",
-      "from": "mặc định"
+      "from": "SOURCE_DOMAINS"
     }
   },
   "history": [
@@ -200,6 +199,13 @@
       "from": "https://phalang.live",
       "to": "https://phalang1.live",
       "via": "chuyển hướng của chính trang"
+    },
+    {
+      "at": "2026-10-03T09:29:15.713Z",
+      "source": "chuoichientv",
+      "from": "https://live05.chuoichientv.me",
+      "to": "https://live08.chuoichientv.me",
+      "via": "sửa tay biến SOURCE_DOMAINS hoặc nguồn khác"
     }
   ]
 }
