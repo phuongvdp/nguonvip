@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:32:08 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:34:22 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (28 trận), Khán Đài (16 trận), Chuối Chiên (17 trận), Phá Làng (134 trận), Gà Vàng (20 trận), Sao Kê (18 trận), GaVang33 (20 trận), Bông Lau (17 trận) =====
 
@@ -52,8 +52,14 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/dd0a8169c1c22efabb56434f3631159b.png!w80" group-title="Phá Làng" , 03/10 17:00 🟢 🏐 "Đài Loan TQ - Việt Nam  " (LÝ LIỀU LĨNH (Server 1))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F35df9e6f01bd4c4da75d05f83d683940%2Findex.m3u8&source=phalang
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250627_220721_a791691e.png" group-title="Sao Kê" , 03/10 17:00 🟢 ⚽ Chinese Taipei vs Việt Nam (Kai (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx00-hd-1111%2Fplaylist.m3u8&source=saoke
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6322.png" group-title="Sao Kê" , 03/10 17:00 🟢 ⚽ Hong Kong vs Cambodia (Mơ (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx68-hd-1111%2Fplaylist.m3u8&source=saoke
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/d272859d78eb8ca7a14753f4293fbf45.png" group-title="GaVang33" , 03/10 17:00 🟢 ⚽ Kashiwa Reysol vs Gamba Osaka (Gà Siêu Nhí)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F301263.m3u8&source=gavang33
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/df321578b4f5f132345d2e6b39743126.png" group-title="GaVang33" , 03/10 17:00 🟢 ⚽ Hong Kong vs Cambodia (Gà Ô Long)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F432017.m3u8&source=gavang33
@@ -108,12 +114,6 @@ https://gavanglinkt.tv/truc-tiep/veres-vs-kudrivka-ngay-03-10-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/d272859d78eb8ca7a14753f4293fbf45.png" group-title="Gà Vàng" , 03/10 17:00 🟡 ⚽ Kashiwa Reysol vs Gamba Osaka (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/kashiwa-reysol-vs-gamba-osaka-ngay-03-10-2026/
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250627_220721_a791691e.png" group-title="Sao Kê" , 03/10 17:00 🟡 ⚽ Chinese Taipei vs Việt Nam (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/chinese-taipei-vs-viet-nam-6ac04f261000ad03ce1d3cdc.html
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/d272859d78eb8ca7a14753f4293fbf45.png" group-title="GaVang33" , 03/10 17:00 🟡 ⚽ Kashiwa Reysol vs Gamba Osaka (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/kashiwa-reysol-vs-gamba-osaka-luc-1700-ngay-03-10-2026-318q66hxp4j2qo9
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/iran.png" group-title="Giờ Vàng" , 03/10 17:20 🟡 🏐 Iran vs Nhật Bản (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-iran-vs-nhat-ban-03-10-lbwt390xmhlb
