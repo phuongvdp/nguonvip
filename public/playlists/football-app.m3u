@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:25:37 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:28:16 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (12 trận), Khán Đài (10 trận), Chuối Chiên (8 trận), Phá Làng (14 trận), Gà Vàng (18 trận), Sao Kê (9 trận), GaVang33 (22 trận), Bông Lau (8 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (10 trận), Chuối Chiên (8 trận), Phá Làng (14 trận), Gà Vàng (18 trận), Sao Kê (9 trận), GaVang33 (22 trận), Bông Lau (8 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/344c0d0b85274807ba668a603ef5a05e.png" group-title="GaVang33" , 03/10 22:55 🟢 ⚽ Saudi Arabia vs Qatar (Gà Siêu Tồ)
@@ -62,6 +62,24 @@ https://lilive1.eu.cc/live/a83f2f1bc58ecb3bbddcf4b07a964fed/playlist.m3u8|User-A
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/c9ab934c9ff00a42174245081924b57c.png" group-title="Phá Làng" , 04/10 01:45 🟢 ⚽ Spain - Czechia (LÝ LA LÀNG)
 https://lilive1.eu.cc/live/6a311bb20b31a673c9b236d05976c0aa/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/spain-vs-czechia-k82rekhg2p4drep&Origin=https://phalang1.live
 
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8260.png" group-title="Sao Kê" , 04/10 01:45 🟢 ⚽ North Macedonia vs Scotland (Tít (HD))
+https://wtyi0525.edgemaxcdn.org/live/x2-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6717.png" group-title="Sao Kê" , 04/10 01:45 🟢 ⚽ Switzerland vs Slovenia (Bút Chì (HD))
+https://wtyi0525.edgemaxcdn.org/live/x22-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
+
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6720.png" group-title="Sao Kê" , 04/10 01:45 🟢 ⚽ Spain vs Czechia (Ricky (HD))
+https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/9c1958aa257c4a318f87cb4b2d79fa11.png" group-title="GaVang33" , 04/10 01:45 🟢 ⚽ Spain vs Czechia (Gà Siêu Quỷ)
+https://live2.zktsva.app/live/304565.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/fad87ff2077540c8a951ade88a87901d.png" group-title="GaVang33" , 04/10 01:45 🟢 ⚽ Switzerland vs Slovenia (Gà Ô Long)
+https://live2.zktsva.app/live/432017.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f06adf060c098f11e76fa2ff1565ba70.png" group-title="GaVang33" , 04/10 01:45 🟢 ⚽ North Macedonia vs Scotland (Gà Siêu Ngố)
+https://live2.zktsva.app/live/301238.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125449_8711159b.png" group-title="Bông Lau" , 04/10 01:45 🟢 ⚽ Spain vs Czech Republic (Chuối Chao (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://tructiep.bonglau.live/
 
@@ -82,24 +100,6 @@ https://gavanglinkt.tv/truc-tiep/switzerland-vs-slovenia-ngay-04-10-2026/
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/f06adf060c098f11e76fa2ff1565ba70.png" group-title="Gà Vàng" , 04/10 01:45 🟡 ⚽ North Macedonia vs Scotland (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/north-macedonia-vs-scotland-ngay-04-10-2026/
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8260.png" group-title="Sao Kê" , 04/10 01:45 🟡 ⚽ North Macedonia vs Scotland (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/north-macedonia-vs-scotland-6abf7062b9c200d560485f00.html
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6717.png" group-title="Sao Kê" , 04/10 01:45 🟡 ⚽ Switzerland vs Slovenia (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/switzerland-vs-slovenia-6abf7062b9c200d560485f01.html
-
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6720.png" group-title="Sao Kê" , 04/10 01:45 🟡 ⚽ Spain vs Czechia (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/spain-vs-czechia-6abf7062b9c200d560485f03.html
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/9c1958aa257c4a318f87cb4b2d79fa11.png" group-title="GaVang33" , 04/10 01:45 🟡 ⚽ Spain vs Czechia (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/spain-vs-czechia-luc-0145-ngay-04-10-2026-k82rekhg2p4drep
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/fad87ff2077540c8a951ade88a87901d.png" group-title="GaVang33" , 04/10 01:45 🟡 ⚽ Switzerland vs Slovenia (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/switzerland-vs-slovenia-luc-0145-ngay-04-10-2026-318q66hx8yppqo9
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f06adf060c098f11e76fa2ff1565ba70.png" group-title="GaVang33" , 04/10 01:45 🟡 ⚽ North Macedonia vs Scotland (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/north-macedonia-vs-scotland-luc-0145-ngay-04-10-2026-vjxm8ghekddxr6o
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125452_c8ee16a6.png" group-title="Bông Lau" , 04/10 01:45 🟡 ⚽ Switzerland vs Slovenia (Chưa có link — chờ cập nhật)
 https://lau06.bonglautv1.org/truc-tiep/1545653
@@ -172,6 +172,9 @@ https://gavanglinkt.tv/truc-tiep/barranquilla-fc-vs-millonarios-ngay-04-10-2026/
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/5c3f819a35454f424d85df5757650f8b.png" group-title="Phá Làng" , 04/10 06:30 ⚽ Rayados de Monterrey - Toluca (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#23xmvkhyvyvjqg8
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/fc-tulsa.png" group-title="Giờ Vàng" , 04/10 07:00 ⚽ FC Tulsa vs Sacramento Republic FC (Chưa có link — chờ cập nhật)
+https://giovang.rent/truc-tiep-fc-tulsa-vs-sacramento-republic-fc-04-10-6ab9ae2f24d46db870ba4387
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132808_60e400eb.png" group-title="Chuối Chiên" , 04/10 07:00 ⚽ Argentina vs Burkina Faso (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1640514/argentina-vs-burkina-faso

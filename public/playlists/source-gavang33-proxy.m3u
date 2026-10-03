@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:25:37 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:28:16 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (22 trận) =====
 
@@ -11,14 +11,14 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/336e1c9ab6894a3b893c1ef45235a164.png" group-title="GaVang33" , 04/10 01:15 🟢 ⚽ Canada vs Peru (Gà Siêu Péo)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F303098.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/9c1958aa257c4a318f87cb4b2d79fa11.png" group-title="GaVang33" , 04/10 01:45 🟡 ⚽ Spain vs Czechia (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/spain-vs-czechia-luc-0145-ngay-04-10-2026-k82rekhg2p4drep
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/9c1958aa257c4a318f87cb4b2d79fa11.png" group-title="GaVang33" , 04/10 01:45 🟢 ⚽ Spain vs Czechia (Gà Siêu Quỷ)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F304565.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/fad87ff2077540c8a951ade88a87901d.png" group-title="GaVang33" , 04/10 01:45 🟡 ⚽ Switzerland vs Slovenia (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/switzerland-vs-slovenia-luc-0145-ngay-04-10-2026-318q66hx8yppqo9
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/fad87ff2077540c8a951ade88a87901d.png" group-title="GaVang33" , 04/10 01:45 🟢 ⚽ Switzerland vs Slovenia (Gà Ô Long)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F432017.m3u8&source=gavang33
 
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f06adf060c098f11e76fa2ff1565ba70.png" group-title="GaVang33" , 04/10 01:45 🟡 ⚽ North Macedonia vs Scotland (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/north-macedonia-vs-scotland-luc-0145-ngay-04-10-2026-vjxm8ghekddxr6o
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f06adf060c098f11e76fa2ff1565ba70.png" group-title="GaVang33" , 04/10 01:45 🟢 ⚽ North Macedonia vs Scotland (Gà Siêu Ngố)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F301238.m3u8&source=gavang33
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/17962554eedf40e0af9df1fc346ce09e.png" group-title="GaVang33" , 04/10 02:00 🟡 ⚽ Cote d'Ivoire vs Cameroon (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/cote-divoire-vs-cameroon-luc-0200-ngay-04-10-2026-965mkyh8l543r1g
