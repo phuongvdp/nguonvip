@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:16:53 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:19:49 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (14 trận) =====
 
@@ -7,11 +7,11 @@
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0db3b8167d91f65e5d7d08e3fc6de20d.png" group-title="Phá Làng" , 04/10 01:30 🟡 ⚽ United Arab Emirates - Oman (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#vjxm8ghenwnyr6o
 
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/a99e389a0921b70b567fd9c3f4510591.png" group-title="Phá Làng" , 04/10 01:45 🟢 ⚽ Switzerland - Slovenia (LÝ LIỀU LĨNH)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fa83f2f1bc58ecb3bbddcf4b07a964fed%2Fplaylist.m3u8&source=phalang
+
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/c9ab934c9ff00a42174245081924b57c.png" group-title="Phá Làng" , 04/10 01:45 🟢 ⚽ Spain - Czechia (LÝ LA LÀNG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F6a311bb20b31a673c9b236d05976c0aa%2Fplaylist.m3u8&source=phalang
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/a99e389a0921b70b567fd9c3f4510591.png" group-title="Phá Làng" , 04/10 01:45 🟡 ⚽ Switzerland - Slovenia (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#318q66hx8yppqo9
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/78e57b771bb363598680a056a7d26c0a.png" group-title="Phá Làng" , 04/10 01:45 🟡 ⚽ North Macedonia - Scotland (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#vjxm8ghekddxr6o
