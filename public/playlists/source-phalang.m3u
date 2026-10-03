@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:30:02 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:33:00 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (128 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (126 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/693af0d277fe3179594695614dce8666.png" group-title="Phá Làng" , 03/10 16:00 🟢 ⚽ AS Monaco - Pisa (Server 1)
@@ -38,12 +38,6 @@ https://pull.digitalcdn.net/live/9ebf9b79758e46cfaebfedcc8dc4a674/index.m3u8
 #EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/south-korea-u23-vs-japan-u23-ednm9wh58633ryo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/dafe34d6e084ce4a90c18fda523466df/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fd06ba41a2de13ab86456debdc68a330.png" group-title="Phá Làng" , 03/10 17:30 🟡 ⚽ FC Minsk - Arsenal Dzerzhinsk (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#4jwq2ghgongzm0v
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/b0fa01690e4a5c944c861b245b42d5b4.png" group-title="Phá Làng" , 03/10 17:30 🟡 ⚽ Jagiellonia Bialystok - Polonia Warszawa (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#4jwq2ghgonp1m0v
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0c1fd660c61fbfae819c5e37ba0e1e45.png" group-title="Phá Làng" , 03/10 18:00 🟡 ⚽ Racing Genk - Fortuna Sittard (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#318q66h8zw1gqo9
