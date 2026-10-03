@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:58:03 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 17:00:19 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (19 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — GaVang33 (21 trận) =====
 
 # ----- Ngày 2026-10-03 -----
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/3b748d71ceee359ab6cdd2b169d617a9.png" group-title="GaVang33" , 03/10 15:00 🟢 ⚽ Ulsan Citizens vs Siheung City (Gà Siêu Kiêu)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F741294.m3u8&source=gavang33
-
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/d272859d78eb8ca7a14753f4293fbf45.png" group-title="GaVang33" , 03/10 17:00 🟢 ⚽ Kashiwa Reysol vs Gamba Osaka (Gà Siêu Nhí)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F301263.m3u8&source=gavang33
 
@@ -61,3 +58,12 @@ https://gavang33.me/truc-tiep/usa-vs-mexico-luc-0900-ngay-04-10-2026-k82rekh2z69
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/631d7950b866054f174c8d7389418f3b.png" group-title="GaVang33" , 04/10 15:30 ⚽ Barito Putera vs Persela Lamongan (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/barito-putera-vs-persela-lamongan-luc-1530-ngay-04-10-2026-x7lm7phj4dd3m2w
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/98c2ee8cb3277cf417eeab8c4ee0b936.png" group-title="GaVang33" , 04/10 17:00 ⚽ SC Farense vs GD Chaves (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/sc-farense-vs-gd-chaves-luc-1700-ngay-04-10-2026-k82rekhgpyd1rep
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/d212b444eb151871d8fbbcafa8e36658.png" group-title="GaVang33" , 04/10 17:00 ⚽ Tegevajaro Miyazaki vs RB Omiya Ardija (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/tegevajaro-miyazaki-vs-rb-omiya-ardija-luc-1700-ngay-04-10-2026-4wyrn4h616z0q86
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/c862b02975932127779faae44decffb4.jpg" group-title="GaVang33" , 04/10 17:00 ⚽ Sporting de Gijon B vs Union Langreo (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/sporting-de-gijon-b-vs-union-langreo-luc-1700-ngay-04-10-2026-ednm9whw1202ryo
