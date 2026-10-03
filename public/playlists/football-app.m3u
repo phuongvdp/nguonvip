@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 09:59:49 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 10:02:55 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (12 trận), Chuối Chiên (15 trận), Phá Làng (133 trận), Gà Vàng (21 trận), Sao Kê (20 trận), GaVang33 (21 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (12 trận), Chuối Chiên (15 trận), Phá Làng (135 trận), Gà Vàng (21 trận), Sao Kê (20 trận), GaVang33 (21 trận), Bông Lau (15 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/7a9a6275e29e0f51ea68ba1ec740bf1e.png" group-title="Gà Vàng" , 03/10 06:45 🟢 ⚽ Juventude vs Operario Ferroviario PR (A Long)
@@ -37,7 +37,7 @@ https://live2.zktsva.app/live/301263.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/7e16680bbd661fd90dbf08501ae7a98e.png" group-title="GaVang33" , 03/10 10:00 🟢 ⚽ Club Atletico La Paz vs Venados FC Yucatán (Gà Siêu Tồ)
 https://live2.zktsva.app/live/796315.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_358dda20.png" group-title="Sao Kê" , 03/10 11:00 ⚽ Thailand vs India (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_358dda20.png" group-title="Sao Kê" , 03/10 11:00 🟡 ⚽ Thailand vs India (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/thailand-vs-india-6ac04d41721fced7755d0b83.html
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/albirex-niigata.png" group-title="Giờ Vàng" , 03/10 12:00 ⚽ Albirex Niigata vs Tokushima Vortis (Chưa có link — chờ cập nhật)
@@ -656,6 +656,12 @@ https://vip3.saoketv40.xyz/cadiz-vs-leganes-6abf7062b9c200d560485f0a.html
 https://lau05.bonglautv1.pro/truc-tiep/1569950
 
 # ----- Ngày 2026-10-04 -----
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0c7660683be3429ea77999657fa17d79.png" group-title="Phá Làng" , 04/10 01:00 ⚽ Canada - Peru (Chưa có link — chờ cập nhật)
+https://phalang1.live/trang-chu#ednm9wh58x99ryo
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/83a51708ac7d8d3d509995918d82a8f2.png" group-title="Phá Làng" , 04/10 01:00 ⚽ Atletico Melilla - Pinatar CF (Chưa có link — chờ cập nhật)
+https://phalang1.live/trang-chu#jw2r09hk8eyxrz8
+
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/336e1c9ab6894a3b893c1ef45235a164.png" group-title="GaVang33" , 04/10 01:00 ⚽ Canada vs Peru (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/canada-vs-peru-luc-0100-ngay-04-10-2026-ednm9wh58x99ryo
 
