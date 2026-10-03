@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 00:34:52 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 00:37:57 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (17 trận), Khán Đài (14 trận), Chuối Chiên (9 trận), Phá Làng (21 trận), Gà Vàng (20 trận), Sao Kê (11 trận), GaVang33 (26 trận), Bông Lau (9 trận) =====
 
@@ -95,8 +95,11 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/49a35dd00c51fc958ebf44054bce4c48.png" group-title="Gà Vàng" , 04/10 00:45 🟡 ⚽ Defensa Y Justicia vs CA San Lorenzo (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/defensa-y-justicia-vs-ca-san-lorenzo-ngay-04-10-2026/
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/canada.png" group-title="Giờ Vàng" , 04/10 01:00 🟡 ⚽ Canada vs Peru (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-canada-vs-peru-04-10-6ab9ae2d24d46db870ba4070
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/canada.png" group-title="Giờ Vàng" , 04/10 01:00 🟢 ⚽ Canada vs Peru (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1791012160_hd%2F1791012160_hd%40720p.m3u8&source=giovang
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/336e1c9ab6894a3b893c1ef45235a164.png" group-title="GaVang33" , 04/10 01:00 🟢 ⚽ Canada vs Peru (Gà Siêu Péo)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Flive%2F303098.m3u8&source=gavang33
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0c7660683be3429ea77999657fa17d79.png" group-title="Phá Làng" , 04/10 01:00 🟡 ⚽ Canada - Peru (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#ednm9wh58x99ryo
@@ -106,9 +109,6 @@ https://phalang1.live/trang-chu#jw2r09hk8eyxrz8
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/336e1c9ab6894a3b893c1ef45235a164.png" group-title="Gà Vàng" , 04/10 01:00 🟡 ⚽ Canada vs Peru (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/canada-vs-peru-ngay-04-10-2026/
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/336e1c9ab6894a3b893c1ef45235a164.png" group-title="GaVang33" , 04/10 01:00 🟡 ⚽ Canada vs Peru (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/canada-vs-peru-luc-0100-ngay-04-10-2026-ednm9wh58x99ryo
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0db3b8167d91f65e5d7d08e3fc6de20d.png" group-title="Phá Làng" , 04/10 01:30 🟡 ⚽ United Arab Emirates - Oman (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#vjxm8ghenwnyr6o
