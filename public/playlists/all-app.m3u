@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:13:19 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:16:20 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận), Khán Đài (20 trận), Chuối Chiên (20 trận), Phá Làng (147 trận), Gà Vàng (21 trận), Sao Kê (21 trận), GaVang33 (19 trận), Bông Lau (20 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (25 trận), Khán Đài (20 trận), Chuối Chiên (20 trận), Phá Làng (146 trận), Gà Vàng (21 trận), Sao Kê (21 trận), GaVang33 (19 trận), Bông Lau (20 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -24,9 +24,6 @@ https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfc
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_358dda20.png" group-title="Chuối Chiên" , 03/10 11:00 🟢 🏐 Thailand vs India (Chuối Tây (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/3e9126e77f86c6fd0f04f67c8f149712.png!w80" group-title="Phá Làng" , 03/10 11:00 🟢 🏐 Thái Lan - Ấn Độ (LÝ LINH LỰC (Server 1))
-https://pull.digitalcdn.net/live/d38d7dbbdeb64778a299a13af37330b8/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/thai-lan-vs-an-do-24ecc940d4f04a3eaf149b745ca6a923&Origin=https://phalang1.live
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132715_358dda20.png" group-title="Sao Kê" , 03/10 11:00 🟢 ⚽ Thailand vs India (Teppy (HD))
 https://wtyi0525.edgemaxcdn.org/live/x31-hd-1111/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://sk.mediastation.live/
@@ -70,6 +67,9 @@ https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8|User-Agent=Mozill
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Chuối Chiên" , 03/10 14:00 🟢 🏐 China vs Pakistan (Chuối Sấy (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
 
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80" group-title="Phá Làng" , 03/10 14:00 🟢 🏐 Trung Quốc - Pakistan (LÝ LÊN LỬA (Server 1))
+https://pull.digitalcdn.net/live/314476d9151449c28e0df687f4325047/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/trung-quoc-vs-pakistan-6a197b5c00924e67a3f9fa8a38560330&Origin=https://phalang1.live
+
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png" group-title="Bông Lau" , 03/10 14:00 🟢 🏐 China vs Pakistan (Chuối Sấy (FHD))
 https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://live.chuoichien.tv/
 
@@ -90,9 +90,6 @@ https://khandai3.link/truc-tiep/trung-quoc-vs-pakistan
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9594e7abdcb42f6e8a178db6d4f37a94.png" group-title="Phá Làng" , 03/10 14:00 🟡 ⚽ Ararat Yerevan - Ararat-Armenia FC (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#1l4rjnhny9nlm7v
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80" group-title="Phá Làng" , 03/10 14:00 🟡 🏐 Trung Quốc - Pakistan (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#6a197b5c00924e67a3f9fa8a38560330
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png" group-title="Phá Làng" , 03/10 14:00 🟡 ⚽ Machida Zelvia - Kyoto Sanga (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#dn1m1ghlz380moe

@@ -1,14 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 13:13:20 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 13:16:20 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (147 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (146 trận) =====
 
 # ----- Ngày 2026-10-03 -----
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/3e9126e77f86c6fd0f04f67c8f149712.png!w80" group-title="Phá Làng" , 03/10 11:00 🟢 🏐 Thái Lan - Ấn Độ (LÝ LINH LỰC (Server 1))
-#EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/thai-lan-vs-an-do-24ecc940d4f04a3eaf149b745ca6a923
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://pull.digitalcdn.net/live/d38d7dbbdeb64778a299a13af37330b8/index.m3u8
-
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6b55a647c6ffe4016e025e9f46144d3f.png" group-title="Phá Làng" , 03/10 12:10 🟢 ⚽ Australia U23 - South Korea U23 (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/australia-u23-vs-south-korea-u23-vjxm8ghkv346r6o
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -19,11 +14,13 @@ https://lilive1.eu.cc/live/2ea09a6a6d93932a96fd9321523b3e93/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/982cfe09137f0b0c36f28936096e90f6/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80" group-title="Phá Làng" , 03/10 14:00 🟢 🏐 Trung Quốc - Pakistan (LÝ LÊN LỬA (Server 1))
+#EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/trung-quoc-vs-pakistan-6a197b5c00924e67a3f9fa8a38560330
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://pull.digitalcdn.net/live/314476d9151449c28e0df687f4325047/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/9594e7abdcb42f6e8a178db6d4f37a94.png" group-title="Phá Làng" , 03/10 14:00 🟡 ⚽ Ararat Yerevan - Ararat-Armenia FC (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#1l4rjnhny9nlm7v
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80" group-title="Phá Làng" , 03/10 14:00 🟡 🏐 Trung Quốc - Pakistan (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#6a197b5c00924e67a3f9fa8a38560330
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/539c489a7bd94dd9d785308fd0f0a6b9.png" group-title="Phá Làng" , 03/10 14:00 🟡 ⚽ Machida Zelvia - Kyoto Sanga (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#dn1m1ghlz380moe
