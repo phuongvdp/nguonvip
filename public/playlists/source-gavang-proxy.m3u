@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:58:30 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 23:01:25 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (14 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (10 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/051be0a9b61dedb583315fb75eaa8308.png" group-title="Gà Vàng" , 03/10 20:55 🟢 ⚽ Liverpool URU vs Club Atletico Progreso (SÚP LƠ)
@@ -21,18 +21,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.c
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/d019943fa39f97f70cf49601cccbfa4b.png" group-title="Gà Vàng" , 03/10 21:15 🟢 ⚽ Almeria vs Burgos CF (MeoMeo)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69be75e0a0a45974afb67776.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/a1b3eb19ca424555b5c61384059d21f7.png" group-title="Gà Vàng" , 03/10 23:00 🟡 ⚽ Croatia vs England (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/croatia-vs-england-ngay-03-10-2026/
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/447d5c2ba3e790ec434c0bee994095ed.png" group-title="Gà Vàng" , 03/10 23:00 🟡 ⚽ Belarus vs San Marino (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/belarus-vs-san-marino-ngay-03-10-2026/
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/430fda3112134b44b54eeba89eec5189.png" group-title="Gà Vàng" , 03/10 23:00 🟡 ⚽ Iceland vs Bulgaria (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/iceland-vs-bulgaria-ngay-03-10-2026/
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/350035841e1182bf4389c52752d8bd0d.png" group-title="Gà Vàng" , 03/10 23:00 🟡 ⚽ Estonia vs Luxembourg (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/estonia-vs-luxembourg-ngay-03-10-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/13ad117ddb310052841244f0d1ed3c1e.png" group-title="Gà Vàng" , 03/10 23:30 🟡 ⚽ Cadiz CF vs Leganes (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/cadiz-cf-vs-cd-leganes-ngay-03-10-2026/
