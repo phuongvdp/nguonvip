@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:55:41 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:58:42 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (15 trận), Chuối Chiên (13 trận), Phá Làng (79 trận), Gà Vàng (17 trận), Sao Kê (14 trận), GaVang33 (25 trận), Bông Lau (13 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (15 trận), Chuối Chiên (12 trận), Phá Làng (78 trận), Gà Vàng (17 trận), Sao Kê (14 trận), GaVang33 (25 trận), Bông Lau (12 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -13,12 +13,6 @@ https://ftlh5sc02iliv.vcdn.cloud/1790988213_hd/1790988213_hd@720p.m3u8|User-Agen
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/d745193354f961e58538fdd1a5ebc6f3.png" group-title="Gà Vàng" , 03/10 18:30 🟢 ⚽ Chesterfield vs Tranmere Rovers (cố tư nghiêm)
 https://playback.livetl002.com/live/69a1aaa7230584579e2d5ce1.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133419_dd306d1b.png" group-title="Chuối Chiên" , 03/10 19:00 🟢 ⚽ Albacete vs Eibar (Chuối Lá (FHD))
-https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://fhd-01.cctvsignal.xyz/
-
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/5f371fba064362ca54b15d0429869494.png" group-title="Phá Làng" , 03/10 19:00 🟢 ⚽ Albacete Balompié SAD - Eibar (LÝ LONG)
-https://lilive1.eu.cc/live/672644714be5367976f3862459ac5a5c/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/albacete-balompie-sad-vs-eibar-6ypq3nhvoe4ymd7&Origin=https://phalang1.live
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a2f731e9147f64082f22b9a561425308.png" group-title="Gà Vàng" , 03/10 19:00 🟢 ⚽ Albacete vs Eibar (MáN NúI)
 https://playback.livetl002.com/live/69cf6331585c5992182f4160.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
 
@@ -27,9 +21,6 @@ https://wtyi0525.edgemaxcdn.org/live/x83-hd-1111/playlist.m3u8|User-Agent=Mozill
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/a2f731e9147f64082f22b9a561425308.png" group-title="GaVang33" , 03/10 19:00 🟢 ⚽ Albacete Balompié SAD vs Eibar (Gà Siêu Péo)
 https://live2.zktsva.app/live/303098.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_133419_dd306d1b.png" group-title="Bông Lau" , 03/10 19:00 🟢 ⚽ Albacete vs Eibar (Chuối Lá (FHD))
-https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://live.chuoichien.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fcafc8131a8bb3ae49f77a1378ee1166.png" group-title="Gà Vàng" , 03/10 19:30 🟢 ⚽ Strommen vs Sandnes Ulf (MeoMeo)
 https://playback.livetl002.com/live/69be75e0a0a45974afb67776.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
