@@ -110,7 +110,7 @@ jobs:
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "GitHub Actions"
-          git add data/source-domains.txt data/source-domains.json
+          git add -f data/source-domains.txt data/source-domains.json
           git commit -m "chore: cap nhat danh sach domain nguon [skip ci]" || { echo "Không có gì để commit"; exit 0; }
           for i in 1 2 3 4 5; do
             if git pull --rebase origin "${{ github.ref_name }}" && git push origin "HEAD:${{ github.ref_name }}"; then
@@ -119,6 +119,14 @@ jobs:
             echo "Đẩy lỗi (lần $i), thử lại..."; sleep $((i * 4))
           done
           echo "::error::Không đẩy được file domain lên git sau 5 lần"; exit 1
+
+      # Dự phòng: dù commit lên git lỗi (vd nhánh bị khoá) vẫn tải được file domain ở mục Artifacts của lần chạy.
+      - name: Upload domain files
+        if: ${{ !cancelled() && steps.scan.outputs.snapshot_changed == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-domains
+          path: data/source-domains.*
 
       # Chạy chậm sau cùng: dù bước quét báo đỏ (còn nguồn chưa xử lý được) mà đã ghi
       # được biến cho nguồn khác thì vẫn khởi động lại để dùng domain mới.
