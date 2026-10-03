@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:49:00 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:52:16 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (31 trận), Khán Đài (17 trận), Chuối Chiên (17 trận), Phá Làng (111 trận), Gà Vàng (20 trận), Sao Kê (18 trận), GaVang33 (20 trận), Bông Lau (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (31 trận), Khán Đài (17 trận), Chuối Chiên (17 trận), Phá Làng (110 trận), Gà Vàng (20 trận), Sao Kê (18 trận), GaVang33 (20 trận), Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -49,10 +49,8 @@ https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/ade4a45c69360428dc38bee1454c9957/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/dd0a8169c1c22efabb56434f3631159b.png!w80" group-title="Phá Làng" , 03/10 17:00 🟢 🏐 "Đài Loan TQ - Việt Nam  " (LÝ LIỀU LĨNH (Server 1))
-#EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/dai-loan-tq-vs-viet-nam-6854344e79334a88b21ffc6ae2f7218e
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://pull.digitalcdn.net/live/35df9e6f01bd4c4da75d05f83d683940/index.m3u8
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/dd0a8169c1c22efabb56434f3631159b.png!w80" group-title="Phá Làng" , 03/10 17:00 🟢 🏐 "Đài Loan TQ - Việt Nam  " (Chưa có link — chờ cập nhật)
+https://phalang1.live/trang-chu#6854344e79334a88b21ffc6ae2f7218e
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261002/91a80f58f89ac6422bbbf080147640fd.png" group-title="Phá Làng" , 03/10 17:00 🟢 ⚽ Hong Kong - Cambodia (LÝ LINH LỰC)
 #EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/hong-kong-vs-cambodia-vjxm8ghkvln9r6o
@@ -171,11 +169,6 @@ https://gckc0525.edgemaxcdn.org/live/camryhd/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://khandai3.link
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/1800be60204966114d63970b5d0873da.png" group-title="Phá Làng" , 03/10 18:00 🟢 ⚽ Hannover 96 - SC Verl (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/hannover-96-vs-sc-verl-k82rekh2zwe6rep
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/48f62b9d94d297e578174438685a1530/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aa54b4b022f88b8566c7834ee5fc3e12.png" group-title="Phá Làng" , 03/10 18:30 🟢 ⚽ Brentwood Town - Dagenham   Redbridge (Server 1)
 #EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/brentwood-town-vs-dagenham-redbridge-y0or5jh9x6wzqwz
