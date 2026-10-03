@@ -1,20 +1,20 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:16:42 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:19:08 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (4 trận), Khán Đài (5 trận), Chuối Chiên (2 trận), Phá Làng (4 trận), Bông Lau (2 trận) =====
 
 # ----- Ngày 2026-10-03 -----
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/jilBtfFG-0xLZRP53.png" group-title="Giờ Vàng" , 03/10 17:00 🟡 🏐 Việt Nam vs Đài Bắc Trung Hoa (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-viet-nam-vs-dai-bac-trung-hoa-03-10-kvc9ql2s5tt2
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/jilBtfFG-0xLZRP53.png" group-title="Giờ Vàng" , 03/10 17:00 🟢 🏐 Việt Nam vs Đài Bắc Trung Hoa (Giovang 1)
+https://ftlh5sc02iliv.vcdn.cloud/1790967060_hd/1790967060_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
+
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/dd0a8169c1c22efabb56434f3631159b.png!w80" group-title="Phá Làng" , 03/10 17:00 🟢 🏐 "Đài Loan TQ - Việt Nam  " (LÝ LIỀU LĨNH (Server 1))
+https://pull.digitalcdn.net/live/35df9e6f01bd4c4da75d05f83d683940/index.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/dai-loan-tq-vs-viet-nam-6854344e79334a88b21ffc6ae2f7218e&Origin=https://phalang1.live
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_hdpF9Rm.jpg" group-title="Khán Đài" , 03/10 17:00 🟡 🏐 Việt Nam vs Đài Loan (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/viet-nam-vs-dai-loan
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250627_220721_a791691e.png" group-title="Chuối Chiên" , 03/10 17:00 🟡 🏐 Chinese Taipei vs Việt Nam (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/993804/chinese-taipei-vs-viet-nam
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/dd0a8169c1c22efabb56434f3631159b.png!w80" group-title="Phá Làng" , 03/10 17:00 🟡 🏐 "Đài Loan TQ - Việt Nam  " (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#6854344e79334a88b21ffc6ae2f7218e
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250627_220721_a791691e.png" group-title="Bông Lau" , 03/10 17:00 🟡 🏐 Chinese Taipei vs Việt Nam (Chưa có link — chờ cập nhật)
 https://lau06.bonglautv1.org/truc-tiep/993804

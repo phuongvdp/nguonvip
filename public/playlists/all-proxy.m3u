@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:16:41 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:19:08 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (28 trận), Khán Đài (16 trận), Chuối Chiên (17 trận), Phá Làng (136 trận), Gà Vàng (21 trận), Sao Kê (18 trận), GaVang33 (20 trận), Bông Lau (17 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (27 trận), Khán Đài (16 trận), Chuối Chiên (17 trận), Phá Làng (136 trận), Gà Vàng (21 trận), Sao Kê (18 trận), GaVang33 (20 trận), Bông Lau (17 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -25,9 +25,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/fd1ef26f7174d02a5a30dbe9e69b45f9.png" group-title="Giờ Vàng" , 03/10 14:30 🟢 🏀 Brisbane Bullets vs Tasmania JackJumpers (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpzhgifbkllliv.vcdn.cloud%2F1790778903_hd%2F1790778903_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg-QFVk7ywVZkSYvxmUj-esyt7lv4--MPtntztVQQP_OWo7Lp7-XvpMB8&s=10" group-title="Giờ Vàng" , 03/10 15:00 🟢 🏎️ Gulf Air Bahrain Grand Prix vs Gulf Air Bahrain Grand Prix (Giovang 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790840310_hd%2F1790840310_hd%40720p.m3u8&source=giovang
-
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/tochigi-city.png" group-title="Giờ Vàng" , 03/10 15:00 🟢 ⚽ Tochigi City vs Imabari FC (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790966665_hd%2F1790966665_hd%40720p.m3u8&source=giovang
 
@@ -49,11 +46,14 @@ https://giovang.rent/truc-tiep-melbourne-united-vs-cairns-taipans-03-10-11322277
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/7ff892bf59463a54fa406496ca8e4f3f.png" group-title="Phá Làng" , 03/10 16:30 🟡 ⚽ SK Artis Brno - Trencin (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#dj2ryoh7vek6q1z
 
+#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/jilBtfFG-0xLZRP53.png" group-title="Giờ Vàng" , 03/10 17:00 🟢 🏐 Việt Nam vs Đài Bắc Trung Hoa (Giovang 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790967060_hd%2F1790967060_hd%40720p.m3u8&source=giovang
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/kashiwa-reysol.png" group-title="Giờ Vàng" , 03/10 17:00 🟢 ⚽ Kashiwa Reysol vs Gamba Osaka (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790966693_hd%2F1790966693_hd%40720p.m3u8&source=giovang
 
-#EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/jilBtfFG-0xLZRP53.png" group-title="Giờ Vàng" , 03/10 17:00 🟡 🏐 Việt Nam vs Đài Bắc Trung Hoa (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-viet-nam-vs-dai-bac-trung-hoa-03-10-kvc9ql2s5tt2
+#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/dd0a8169c1c22efabb56434f3631159b.png!w80" group-title="Phá Làng" , 03/10 17:00 🟢 🏐 "Đài Loan TQ - Việt Nam  " (LÝ LIỀU LĨNH (Server 1))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fpull.digitalcdn.net%2Flive%2F35df9e6f01bd4c4da75d05f83d683940%2Findex.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/download_IAaCYjl.png" group-title="Khán Đài" , 03/10 17:00 🟡 ⚽ Hong Kong vs Cambodia (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/hong-kong-vs-cambodia-03-10-2026-860506
@@ -81,9 +81,6 @@ https://phalang1.live/trang-chu#318q66hxp4j2qo9
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0c485b02c2250a680d4568c569615e0e.png" group-title="Phá Làng" , 03/10 17:00 🟡 ⚽ Ludogorets Razgrad II - FC Dunav Ruse (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#4wyrn4hyz6ngq86
-
-#EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/dd0a8169c1c22efabb56434f3631159b.png!w80" group-title="Phá Làng" , 03/10 17:00 🟡 🏐 "Đài Loan TQ - Việt Nam  " (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#6854344e79334a88b21ffc6ae2f7218e
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c44fca0a4232a01fc936277c51f0fdcb.png" group-title="Phá Làng" , 03/10 17:00 🟡 ⚽ FK Zalgiris Vilnius - FK Panevezys (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#n54qllh45742qvy
