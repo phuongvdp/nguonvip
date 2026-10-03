@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 14:24:38 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 14:27:51 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (10 trận), Khán Đài (12 trận), Chuối Chiên (16 trận), Phá Làng (142 trận), Gà Vàng (18 trận), Sao Kê (20 trận), GaVang33 (19 trận), Bông Lau (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (13 trận), Khán Đài (12 trận), Chuối Chiên (16 trận), Phá Làng (142 trận), Gà Vàng (18 trận), Sao Kê (20 trận), GaVang33 (19 trận), Bông Lau (16 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a4bfaa33f9e24bdb4a4952a0b4aab142.png" group-title="Gà Vàng" , 03/10 12:00 🟢 ⚽ Albirex Niigata vs Tokushima Vortis (KAYTI)
@@ -14,10 +14,8 @@ https://playback.livetl002.com/live/69b8e6f43bcf2231c35d5144.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pzhgifbkllliv.vcdn.cloud/1790780582_hd/1790780582_hd@720p.m3u8
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9462.jpg" group-title="Khán Đài" , 03/10 13:00 🟢 ⚽ China U23 vs Uzbekistan U23 (Tày)
-#EXTVLCOPT:http-referrer=https://khandai3.link
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9462.jpg" group-title="Khán Đài" , 03/10 13:00 🟢 ⚽ China U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
+https://khandai3.link/truc-tiep/china-u23-vs-uzbekistan-u23-03-10-2026-860365
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134337_d547f1b2.png" group-title="Chuối Chiên" , 03/10 13:00 🟢 ⚽ China PR U23 vs Uzbekistan U23 (Chuối Chao (FHD))
 #EXTVLCOPT:http-referrer=https://fhd-01.cctvsignal.xyz/
@@ -647,6 +645,9 @@ https://vip3.saoketv40.xyz/cadiz-vs-leganes-6abf7062b9c200d560485f0a.html
 https://lau06.bonglautv1.org/truc-tiep/1569950
 
 # ----- Ngày 2026-10-04 -----
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/canada.png" group-title="Giờ Vàng" , 04/10 01:00 ⚽ Canada vs Peru (Chưa có link — chờ cập nhật)
+https://giovang.rent/truc-tiep-canada-vs-peru-04-10-6ab9ae2d24d46db870ba4070
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0c7660683be3429ea77999657fa17d79.png" group-title="Phá Làng" , 04/10 01:00 ⚽ Canada - Peru (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#ednm9wh58x99ryo
 
@@ -661,6 +662,12 @@ https://phalang1.live/trang-chu#vjxm8ghenwnyr6o
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/north-macedonia.png" group-title="Giờ Vàng" , 04/10 01:45 ⚽ Bắc Macedonia vs Scotland (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-bac-macedonia-vs-scotland-04-10-69f7e7425c39b5554409bf50
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/switzerland.png" group-title="Giờ Vàng" , 04/10 01:45 ⚽ Thụy Sĩ vs Slovenia (Chưa có link — chờ cập nhật)
+https://giovang.rent/truc-tiep-thuy-si-vs-slovenia-04-10-69f7e7425c39b5554409bf4f
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/spain.png" group-title="Giờ Vàng" , 04/10 01:45 ⚽ Tây Ban Nha vs Cộng hòa Séc (Chưa có link — chờ cập nhật)
+https://giovang.rent/truc-tiep-tay-ban-nha-vs-cong-hoa-sec-04-10-69f3f2b74bff4a0c310bf76b
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_11.jpg" group-title="Khán Đài" , 04/10 01:45 ⚽ North Macedonia vs Scotland (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/north-macedonia-vs-scotland-04-10-2026-790846
