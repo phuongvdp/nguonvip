@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 17:57:51 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:01:49 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (32 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -27,6 +27,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.c
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea-u23.png" group-title="Giờ Vàng" , 03/10 17:30 🟢 ⚽ Hàn Quốc vs Nhật Bản (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790966773_hd%2F1790966773_hd%40720p.m3u8&source=giovang
+
+#EXTINF:-1 group-title="Giờ Vàng" , 03/10 18:45 🟡 🎾 Francisco Cenrundolo vs Jakub Mensik (Chưa có link — chờ cập nhật)
+https://giovang.rent/truc-tiep-francisco-cenrundolo-vs-jakub-mensik-03-10-zu80fioaocpd
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/finland.png" group-title="Giờ Vàng" , 03/10 20:00 ⚽ Phần Lan vs Albania (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-phan-lan-vs-albania-03-10-69f2a1a2bb398665fd0908e1
@@ -94,3 +97,6 @@ https://giovang.rent/truc-tiep-fenerbahce-nu-vs-manisa-bb-nu-04-10-xxznsgay4jcl
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPeUf5SGxZgN4FtG0kE7T_5IgtQykkJCDLljkW-w9QSrqBdRMtCghSZoM&s=10" group-title="Giờ Vàng" , 04/10 17:00 ⚽ China Smash 2026 vs China Smash 2026 (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-china-smash-2026-vs-china-smash-2026-04-10-0k1wm45ky3ai
+
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/atletico-union-guimar.png" group-title="Giờ Vàng" , 04/10 18:00 ⚽ Atletico Union Guimar vs Sporting Hortaleza (Chưa có link — chờ cập nhật)
+https://giovang.rent/truc-tiep-atletico-union-guimar-vs-sporting-hortaleza-04-10-6aa498131f7a2190510195d1
