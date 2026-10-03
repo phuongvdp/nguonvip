@@ -1,18 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:08:42 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:11:41 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (12 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (11 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a2f731e9147f64082f22b9a561425308.png" group-title="Gà Vàng" , 03/10 19:00 🟢 ⚽ Albacete vs Eibar (MáN NúI)
 #EXTVLCOPT:http-referrer=https://gavanglinkt.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/69cf6331585c5992182f4160.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fcafc8131a8bb3ae49f77a1378ee1166.png" group-title="Gà Vàng" , 03/10 19:30 🟢 ⚽ Strommen vs Sandnes Ulf (MeoMeo)
-#EXTVLCOPT:http-referrer=https://gavanglinkt.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69be75e0a0a45974afb67776.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/3c0b84f6c8ee0d929021de10cbb8cc69.png" group-title="Gà Vàng" , 03/10 20:00 🟢 ⚽ Finland vs Albania (CRIS)
 #EXTVLCOPT:http-referrer=https://gavanglinkt.tv/

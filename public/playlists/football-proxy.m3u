@@ -1,14 +1,11 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:08:42 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:11:40 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (10 trận), Chuối Chiên (11 trận), Phá Làng (26 trận), Gà Vàng (11 trận), Sao Kê (12 trận), GaVang33 (26 trận), Bông Lau (11 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (10 trận), Chuối Chiên (11 trận), Phá Làng (25 trận), Gà Vàng (10 trận), Sao Kê (12 trận), GaVang33 (26 trận), Bông Lau (11 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a2f731e9147f64082f22b9a561425308.png" group-title="Gà Vàng" , 03/10 19:00 🟢 ⚽ Albacete vs Eibar (MáN NúI)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69cf6331585c5992182f4160.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fcafc8131a8bb3ae49f77a1378ee1166.png" group-title="Gà Vàng" , 03/10 19:30 🟢 ⚽ Strommen vs Sandnes Ulf (MeoMeo)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69be75e0a0a45974afb67776.m3u8&source=gavang
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/3c0b84f6c8ee0d929021de10cbb8cc69.png" group-title="Gà Vàng" , 03/10 20:00 🟢 ⚽ Finland vs Albania (CRIS)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F69aa9525f5ec459ae275b43f.m3u8&source=gavang
@@ -42,9 +39,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flive2.zktsva.app%2Fl
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/russia.png" group-title="Giờ Vàng" , 03/10 22:00 🟢 ⚽ Nga vs Namibia (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1791034312_hd%2F1791034312_hd%40720p.m3u8&source=giovang
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fe3068bbe94dd5f423e9b9a6135d8c40.png" group-title="Phá Làng" , 03/10 22:00 🟢 ⚽ Russia - Namibia (Server 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Ff87cb6741a4cc8f52543c83bd5d49e68%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/cd-baztan.png" group-title="Giờ Vàng" , 03/10 22:30 🟡 ⚽ CD Baztan vs Atletico Calatayud (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-cd-baztan-vs-atletico-calatayud-03-10-6aa498131f7a2190510195c5

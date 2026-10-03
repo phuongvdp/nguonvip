@@ -1,18 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:08:42 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:11:40 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (17 trận), Chuối Chiên (11 trận), Phá Làng (27 trận), Gà Vàng (12 trận), Sao Kê (12 trận), GaVang33 (26 trận), Bông Lau (11 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (17 trận), Chuối Chiên (11 trận), Phá Làng (26 trận), Gà Vàng (11 trận), Sao Kê (12 trận), GaVang33 (26 trận), Bông Lau (11 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a2f731e9147f64082f22b9a561425308.png" group-title="Gà Vàng" , 03/10 19:00 🟢 ⚽ Albacete vs Eibar (MáN NúI)
 #EXTVLCOPT:http-referrer=https://gavanglinkt.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://playback.livetl002.com/live/69cf6331585c5992182f4160.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/fcafc8131a8bb3ae49f77a1378ee1166.png" group-title="Gà Vàng" , 03/10 19:30 🟢 ⚽ Strommen vs Sandnes Ulf (MeoMeo)
-#EXTVLCOPT:http-referrer=https://gavanglinkt.tv/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://playback.livetl002.com/live/69be75e0a0a45974afb67776.m3u8
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/rPFpfgDa-vRpcHup9.png" group-title="Giờ Vàng" , 03/10 20:00 🟢 🏐 Nilufer Bld. vs Eczacibasi (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.rent/
@@ -80,11 +75,6 @@ https://live2.zktsva.app/live/301263.m3u8
 #EXTVLCOPT:http-referrer=https://giovang.rent/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1791034312_hd/1791034312_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fe3068bbe94dd5f423e9b9a6135d8c40.png" group-title="Phá Làng" , 03/10 22:00 🟢 ⚽ Russia - Namibia (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/russia-vs-namibia-4jwq2ghgopk4m0v
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/f87cb6741a4cc8f52543c83bd5d49e68/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/cd-baztan.png" group-title="Giờ Vàng" , 03/10 22:30 🟡 ⚽ CD Baztan vs Atletico Calatayud (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-cd-baztan-vs-atletico-calatayud-03-10-6aa498131f7a2190510195c5

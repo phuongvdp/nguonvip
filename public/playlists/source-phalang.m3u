@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:08:42 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:11:40 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (27 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (26 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b44ed2e934bbbae323265d36aeaa6d29.png!w80" group-title="Phá Làng" , 03/10 20:00 🟢 🏐 Nilufer Bld. Nữ - Eczacibasi Nữ (LÝ LÊN LỬA (Server 1))
@@ -18,11 +18,6 @@ https://lilive1.eu.cc/live/14e168ba3a74eb1e2bc316ecb22282ce/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/india-vs-brazil-ednm9whwnj4xryo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/6fef4306b6d5ed9e117ed5198e899d03/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fe3068bbe94dd5f423e9b9a6135d8c40.png" group-title="Phá Làng" , 03/10 22:00 🟢 ⚽ Russia - Namibia (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/russia-vs-namibia-4jwq2ghgopk4m0v
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/f87cb6741a4cc8f52543c83bd5d49e68/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/803da3d362e8645e8e6706f33885853a.png" group-title="Phá Làng" , 03/10 22:30 🟡 ⚽ CD Baztan - Atletico Calatayud (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#pxwrxlhyd68eryk
