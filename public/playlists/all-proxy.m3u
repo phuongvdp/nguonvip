@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 04:58:31 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 05:01:25 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận), Khán Đài (17 trận), Chuối Chiên (4 trận), Phá Làng (15 trận), Gà Vàng (10 trận), Sao Kê (4 trận), GaVang33 (16 trận), Bông Lau (4 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận), Khán Đài (17 trận), Chuối Chiên (4 trận), Phá Làng (17 trận), Gà Vàng (10 trận), Sao Kê (4 trận), GaVang33 (16 trận), Bông Lau (4 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/0OsJt6Fa-CxYUcq3p.png" group-title="Giờ Vàng" , 03/10 23:00 🟢 ⚽ Ben Whittaker vs Conor Wallace (Giovang 1)
@@ -41,10 +41,10 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png" group-title="Giờ Vàng" , 04/10 05:30 🟡 ⚽ New York Yankees vs Tampa Bay Rays (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-new-york-yankees-vs-tampa-bay-rays-04-10-d6e8z9500a5h
 
-#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/3f61db02c20eb73e5f27948b3122f2fb.png" group-title="Giờ Vàng" , 04/10 06:00 🏀 Toronto Raptors vs Miami Heat (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/3f61db02c20eb73e5f27948b3122f2fb.png" group-title="Giờ Vàng" , 04/10 06:00 🟡 🏀 Toronto Raptors vs Miami Heat (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-toronto-raptors-vs-miami-heat-04-10-13022276
 
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/e299ddecec93dc5c8db83b1761e2fa1f.png" group-title="Gà Vàng" , 04/10 06:00 🏀 Toronto Raptors vs Miami Heat (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/e299ddecec93dc5c8db83b1761e2fa1f.png" group-title="Gà Vàng" , 04/10 06:00 🟡 🏀 Toronto Raptors vs Miami Heat (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/112c1604134a1af9a0b27d1359822977.png" group-title="Gà Vàng" , 04/10 06:10 ⚽ Barranquilla FC vs Millonarios (Chưa có link — chờ cập nhật)
@@ -235,6 +235,12 @@ https://khandai3.link/truc-tiep/azerbaijan-vs-lithuania-04-10-2026-790818
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/big_1784530297PMG2o_isWDRah.webp" group-title="Khán Đài" , 04/10 20:00 🏐 Aras Kargo vs Zeren Spor (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/aras-kargo-vs-zeren-spor
+
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/22fc8d10a1f32e5da720454189015664.png" group-title="Phá Làng" , 04/10 20:00 ⚽ Comoros - Senegal (Chưa có link — chờ cập nhật)
+https://phalang1.live/trang-chu#4wyrn4hyz2e0q86
+
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/f6237df91a40da399fdbb17d21d85907.png" group-title="Phá Làng" , 04/10 20:00 ⚽ Azerbaijan - Lithuania (Chưa có link — chờ cập nhật)
+https://phalang1.live/trang-chu#x7lm7phjxyy5m2w
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/f653d5976458f0dcce2b3939259acffa.png" group-title="GaVang33" , 04/10 20:00 ⚽ Azerbaijan vs Lithuania (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/azerbaijan-vs-lithuania-luc-2000-ngay-04-10-2026-x7lm7phjxyy5m2w
