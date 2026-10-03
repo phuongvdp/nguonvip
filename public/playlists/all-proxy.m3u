@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 19:41:33 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 19:44:33 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (14 trận), Chuối Chiên (14 trận), Phá Làng (95 trận), Gà Vàng (18 trận), Sao Kê (15 trận), GaVang33 (23 trận), Bông Lau (14 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (29 trận), Khán Đài (14 trận), Chuối Chiên (14 trận), Phá Làng (95 trận), Gà Vàng (18 trận), Sao Kê (15 trận), GaVang33 (24 trận), Bông Lau (14 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -9,9 +9,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.c
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwvnWRBNvGnO1GVEQTNkkJgE_aJlxZDxa0iNQWy_06A&s" group-title="Giờ Vàng" , 03/10 10:00 🟢 🎾 ATP Beijing Open vs ATP Beijing Open (Giovang 1)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790988213_hd%2F1790988213_hd%40720p.m3u8&source=giovang
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/kashiwa-reysol.png" group-title="Giờ Vàng" , 03/10 17:00 🟢 ⚽ Kashiwa Reysol vs Gamba Osaka (Giovang 1)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fftlh5sc02iliv.vcdn.cloud%2F1790966693_hd%2F1790966693_hd%40720p.m3u8&source=giovang
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a707913a6243a0bf393035cbdbfbccf0.png" group-title="Gà Vàng" , 03/10 17:00 🟢 ⚽ Veres vs Kudrivka (RIO)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a01a2511e8555d7a3685f5c.m3u8&source=gavang
@@ -306,6 +303,9 @@ https://gavang33.me/truc-tiep/india-vs-brazil-luc-2100-ngay-03-10-2026-ednm9whwn
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134311_eaf689af.png" group-title="Bông Lau" , 03/10 21:00 ⚽ India vs Brazil (Chưa có link — chờ cập nhật)
 https://lau06.bonglautv1.org/truc-tiep/1632355
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/d019943fa39f97f70cf49601cccbfa4b.png" group-title="GaVang33" , 03/10 21:15 ⚽ Almeria vs Burgos CF (Chưa có link — chờ cập nhật)
+https://gavang33.me/truc-tiep/almeria-vs-burgos-cf-luc-2115-ngay-03-10-2026-pxwrxlhyoe24ryk
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/eb9b870a25645ded21a7d5e41c207b0a.png" group-title="Phá Làng" , 03/10 22:00 ⚽ GKS Katowice - FC Baník Ostrava (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#3glrw7h4k7e1qdy
