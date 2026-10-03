@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:51:56 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:55:24 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (23 trận) =====
 
@@ -7,8 +7,8 @@
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/705d1a1b1eb532bc7ea002915b95101f.png" group-title="Phá Làng" , 03/10 21:00 🟢 ⚽ India - Brazil (LÝ LA LÀNG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F6fef4306b6d5ed9e117ed5198e899d03%2Fplaylist.m3u8&source=phalang
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3874dcd109e646cbe7c5e8fb2bd41548.png" group-title="Phá Làng" , 03/10 22:55 🟡 ⚽ Saudi Arabia - Qatar (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#pxwrxlhy636kryk
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3874dcd109e646cbe7c5e8fb2bd41548.png" group-title="Phá Làng" , 03/10 22:55 🟢 ⚽ Saudi Arabia - Qatar (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F2cf1b7f90e829bb2b64935efc2b265e5%2Fplaylist.m3u8&source=phalang
 
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20260929/0dd224173cbbce9636adbc9e309aec6f.png" group-title="Phá Làng" , 03/10 23:00 🟢 ⚽ Croatia - England (LÝ LONG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2Fb6f5df2e120738cfa4dc27beea5882ed%2Fplaylist.m3u8&source=phalang

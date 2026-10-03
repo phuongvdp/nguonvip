@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 22:51:56 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 22:55:24 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (11 trận), Chuối Chiên (10 trận), Phá Làng (23 trận), Gà Vàng (13 trận), Sao Kê (12 trận), GaVang33 (25 trận), Bông Lau (10 trận) =====
 
@@ -72,12 +72,14 @@ https://live2.zktsva.app/live/301263.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ftlh5sc02iliv.vcdn.cloud/1791034312_hd/1791034312_hd@720p.m3u8
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3874dcd109e646cbe7c5e8fb2bd41548.png" group-title="Phá Làng" , 03/10 22:55 🟢 ⚽ Saudi Arabia - Qatar (Server 1)
+#EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/saudi-arabia-vs-qatar-pxwrxlhy636kryk
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://lilive1.eu.cc/live/2cf1b7f90e829bb2b64935efc2b265e5/playlist.m3u8
+
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/344c0d0b85274807ba668a603ef5a05e.png" group-title="GaVang33" , 03/10 22:55 🟢 ⚽ Saudi Arabia vs Qatar (Gà Siêu Tồ)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/796315.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/3874dcd109e646cbe7c5e8fb2bd41548.png" group-title="Phá Làng" , 03/10 22:55 🟡 ⚽ Saudi Arabia - Qatar (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#pxwrxlhy636kryk
 
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/croatia.png" group-title="Giờ Vàng" , 03/10 23:00 🟢 ⚽ Croatia vs Anh (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.rent/
@@ -125,6 +127,10 @@ https://live2.zktsva.app/live/301238.m3u8
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/430fda3112134b44b54eeba89eec5189.png" group-title="GaVang33" , 03/10 23:00 🟢 ⚽ Iceland vs Bulgaria (Gà Siêu Péo)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/303098.m3u8
+
+#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/350035841e1182bf4389c52752d8bd0d.png" group-title="GaVang33" , 03/10 23:00 🟢 ⚽ Estonia vs Luxembourg (Gà Siêu Bệu)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://live2.zktsva.app/live/289650.m3u8
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125448_7dd16e8b.png" group-title="Bông Lau" , 03/10 23:00 🟢 ⚽ Croatia vs England (Chuối Nhỏ (FHD))
 #EXTVLCOPT:http-referrer=https://live.chuoichien.tv/
@@ -178,9 +184,6 @@ https://gavanglinkt.tv/truc-tiep/iceland-vs-bulgaria-ngay-03-10-2026/
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/350035841e1182bf4389c52752d8bd0d.png" group-title="Gà Vàng" , 03/10 23:00 🟡 ⚽ Estonia vs Luxembourg (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/estonia-vs-luxembourg-ngay-03-10-2026/
-
-#EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/350035841e1182bf4389c52752d8bd0d.png" group-title="GaVang33" , 03/10 23:00 🟡 ⚽ Estonia vs Luxembourg (Chưa có link — chờ cập nhật)
-https://gavang33.me/truc-tiep/estonia-vs-luxembourg-luc-2300-ngay-03-10-2026-l5ergph4kx69r8k
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/13ad117ddb310052841244f0d1ed3c1e.png" group-title="Gà Vàng" , 03/10 23:30 🟡 ⚽ Cadiz CF vs Leganes (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/cadiz-cf-vs-cd-leganes-ngay-03-10-2026/
