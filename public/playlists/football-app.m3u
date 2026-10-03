@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 07:42:08 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 07:44:44 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (12 trận), Chuối Chiên (15 trận), Phá Làng (122 trận), Gà Vàng (4 trận), Sao Kê (24 trận), GaVang33 (21 trận), Bông Lau (15 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (12 trận), Chuối Chiên (15 trận), Phá Làng (122 trận), Gà Vàng (4 trận), Sao Kê (26 trận), GaVang33 (21 trận), Bông Lau (15 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/e2f40e16499b22e942a5bd1d1d2398d3.png" group-title="Gà Vàng" , 03/10 05:30 🟢 ⚽ Sao Bernardo vs CRB (THICHDUTHU)
@@ -88,6 +88,9 @@ https://giovang.rent/truc-tiep-trung-quoc-vs-uzbekistan-03-10-rcep848bfe7s
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9462.jpg" group-title="Khán Đài" , 03/10 13:00 ⚽ China U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/china-u23-vs-uzbekistan-u23-03-10-2026-860365
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134337_d547f1b2.png" group-title="Chuối Chiên" , 03/10 13:00 ⚽ China PR U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1643348/china-pr-u23-vs-uzbekistan-u23
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/43f9c122bf617d349407a95d4f709a0d.png" group-title="Phá Làng" , 03/10 13:00 ⚽ Perth Glory - Adelaide United (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66h8z6oxqo9
 
@@ -96,6 +99,9 @@ https://phalang.live/trang-chu#4jwq2ghgo632m0v
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/317240.png" group-title="Sao Kê" , 03/10 13:00 ⚽ China U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/china-u23-vs-uzbekistan-u23-6abf7062b9c200d560485f0f.html
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134337_d547f1b2.png" group-title="Bông Lau" , 03/10 13:00 ⚽ China PR U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1643348
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTyQbV7R_wsuY6OfdPSIu1WhPyrDH-xXNobnjpwe0mzw&s=10" group-title="Giờ Vàng" , 03/10 14:00 ⚽ Machida Zelvia vs Kyoto Sanga (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-machida-zelvia-vs-kyoto-sanga-03-10-l4mwp2fvcukx
@@ -166,6 +172,9 @@ https://giovang.rent/truc-tiep-kashiwa-reysol-vs-gamba-osaka-03-10-6abda2c024d46
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/download_IAaCYjl.png" group-title="Khán Đài" , 03/10 17:00 ⚽ Hong Kong vs Cambodia (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/hong-kong-vs-cambodia
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134317_1bd3a785.png" group-title="Chuối Chiên" , 03/10 17:00 ⚽ Hong Kong vs Cambodia (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1643350/hong-kong-vs-cambodia
+
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/f4e1f24b1926a5646c522cd99e4c9358.png" group-title="Phá Làng" , 03/10 17:00 ⚽ FC Bukovyna Chernivtsi - FK Epitsentr Dunayivtsi (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#1l4rjnhny95km7v
 
@@ -193,17 +202,29 @@ https://phalang.live/trang-chu#y0or5jh9xn9xqwz
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6322.png" group-title="Sao Kê" , 03/10 17:00 ⚽ Hong Kong vs Cambodia (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/hong-kong-vs-cambodia-6abf7062b9c200d560485f0d.html
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250627_220721_a791691e.png" group-title="Sao Kê" , 03/10 17:00 ⚽ Chinese Taipei vs Việt Nam (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/chinese-taipei-vs-viet-nam-6ac04f261000ad03ce1d3cdc.html
+
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/d272859d78eb8ca7a14753f4293fbf45.png" group-title="GaVang33" , 03/10 17:00 ⚽ Kashiwa Reysol vs Gamba Osaka (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/kashiwa-reysol-vs-gamba-osaka-luc-1700-ngay-03-10-2026-318q66hxp4j2qo9
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/df321578b4f5f132345d2e6b39743126.png" group-title="GaVang33" , 03/10 17:00 ⚽ Hong Kong vs Cambodia (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/hong-kong-vs-cambodia-luc-1700-ngay-03-10-2026-vjxm8ghkvln9r6o
 
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134317_1bd3a785.png" group-title="Bông Lau" , 03/10 17:00 ⚽ Hong Kong vs Cambodia (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1643350
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png" group-title="Sao Kê" , 03/10 17:20 ⚽ Japan vs Iran (Chưa có link — chờ cập nhật)
+https://vip3.saoketv40.xyz/japan-vs-iran-6ac04f40316d23e0189870b1.html
+
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/south-korea-u23.png" group-title="Giờ Vàng" , 03/10 17:30 ⚽ Hàn Quốc vs Nhật Bản (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-han-quoc-vs-nhat-ban-03-10-u6fiwz5ggwyg
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/images_8kF19fZ.jpg" group-title="Khán Đài" , 03/10 17:30 ⚽ South Korea U23 vs Japan U23 (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/south-korea-u23-vs-japan-u23-03-10-2026-860366
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Chuối Chiên" , 03/10 17:30 ⚽ U23 Hàn Quốc  vs Japan U23 (Chưa có link — chờ cập nhật)
+https://live05.chuoichientv.me/live/1643349/u23-han-quoc-vs-japan-u23
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/fd06ba41a2de13ab86456debdc68a330.png" group-title="Phá Làng" , 03/10 17:30 ⚽ FC Minsk - Arsenal Dzerzhinsk (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#4jwq2ghgongzm0v
@@ -216,6 +237,9 @@ https://phalang.live/trang-chu#ednm9wh58633ryo
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/300702.png" group-title="Sao Kê" , 03/10 17:30 ⚽ South Korea U23 vs Japan U23 (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/south-korea-u23-vs-japan-u23-6abf7062b9c200d560485f10.html
+
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20250902_190339_a6b21e4f.png" group-title="Bông Lau" , 03/10 17:30 ⚽ U23 Hàn Quốc  vs Japan U23 (Chưa có link — chờ cập nhật)
+https://lau05.bonglautv1.pro/truc-tiep/1643349
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/0c1fd660c61fbfae819c5e37ba0e1e45.png" group-title="Phá Làng" , 03/10 18:00 ⚽ Racing Genk - Fortuna Sittard (Chưa có link — chờ cập nhật)
 https://phalang.live/trang-chu#318q66h8zw1gqo9
@@ -629,9 +653,6 @@ https://live05.chuoichientv.me/live/1528936/spain-vs-czech-republic
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125452_c8ee16a6.png" group-title="Chuối Chiên" , 04/10 01:45 ⚽ Switzerland vs Slovenia (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1545653/switzerland-vs-slovenia
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260531_193336_3393bc73.png" group-title="Chuối Chiên" , 04/10 01:45 ⚽ FYR Macedonia vs Scotland (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1545660/fyr-macedonia-vs-scotland
-
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8260.png" group-title="Sao Kê" , 04/10 01:45 ⚽ North Macedonia vs Scotland (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/north-macedonia-vs-scotland-6abf7062b9c200d560485f00.html
 
@@ -656,14 +677,8 @@ https://lau05.bonglautv1.pro/truc-tiep/1528936
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125452_c8ee16a6.png" group-title="Bông Lau" , 04/10 01:45 ⚽ Switzerland vs Slovenia (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1545653
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/20260531_193336_3393bc73.png" group-title="Bông Lau" , 04/10 01:45 ⚽ FYR Macedonia vs Scotland (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1545660
-
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_738.jpg" group-title="Khán Đài" , 04/10 02:00 ⚽ Ivory Coast vs Cameroon (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/ivory-coast-vs-cameroon-04-10-2026-855589
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132759_08d32594.png" group-title="Chuối Chiên" , 04/10 02:00 ⚽ Ivory Coast vs Cameroon (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1640077/ivory-coast-vs-cameroon
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6629.png" group-title="Sao Kê" , 04/10 02:00 ⚽ Cameroon vs Ivory Coast (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/cameroon-vs-ivory-coast-6abf7062b9c200d560485f0e.html
@@ -671,17 +686,8 @@ https://vip3.saoketv40.xyz/cameroon-vs-ivory-coast-6abf7062b9c200d560485f0e.html
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/17962554eedf40e0af9df1fc346ce09e.png" group-title="GaVang33" , 04/10 02:00 ⚽ Cote d'Ivoire vs Cameroon (Chưa có link — chờ cập nhật)
 https://gavang33.me/truc-tiep/cote-divoire-vs-cameroon-luc-0200-ngay-04-10-2026-965mkyh8l543r1g
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_132759_08d32594.png" group-title="Bông Lau" , 04/10 02:00 ⚽ Ivory Coast vs Cameroon (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1640077
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125542_d8ff9d63.png" group-title="Chuối Chiên" , 04/10 04:30 ⚽ Atletico-MG vs RB Bragantino (Chưa có link — chờ cập nhật)
-https://live05.chuoichientv.me/live/1492310/atletico-mg-vs-rb-bragantino
-
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/10272.png" group-title="Sao Kê" , 04/10 04:30 ⚽ Atlético-MG vs RB Bragantino (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/atletico-mg-vs-rb-bragantino-6abf7062b9c200d560485eff.html
-
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125542_d8ff9d63.png" group-title="Bông Lau" , 04/10 04:30 ⚽ Atletico-MG vs RB Bragantino (Chưa có link — chờ cập nhật)
-https://lau05.bonglautv1.pro/truc-tiep/1492310
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/980706.png" group-title="Sao Kê" , 04/10 06:00 ⚽ Querétaro (W) vs Atlético de San Luis (W) (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/queretaro-w-vs-atletico-de-san-luis-w-6abf7062b9c200d560485f0b.html
