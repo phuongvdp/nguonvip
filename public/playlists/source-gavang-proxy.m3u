@@ -1,22 +1,10 @@
 #EXTM3U
-# Cập nhật lần cuối: 11:59:56 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 12:02:58 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (34 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (30 trận) =====
 
 # ----- Ngày 2026-10-03 -----
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b997a2811a0caed43ff38b631a708420.png" group-title="Gà Vàng" , 03/10 08:30 🟢 ⚽ Deportivo Cali vs Alianza Fútbol Club (SiêU QuậY)
-https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fplayback.livetl002.com%2Flive%2F6a2a59b347bbddd62a8dc4e4.m3u8&source=gavang
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a4bfaa33f9e24bdb4a4952a0b4aab142.png" group-title="Gà Vàng" , 03/10 12:00 🟡 ⚽ Albirex Niigata vs Tokushima Vortis (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/albirex-niigata-vs-tokushima-vortis-ngay-03-10-2026/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/4a5ba2f4b39c4cb6db259ed9fb916da1.png" group-title="Gà Vàng" , 03/10 12:00 🟡 🏀 Goyang Sono Skygunners vs Daegu KOGAS Pegasus (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/0add24fc964de3ea25e83417aa301f81.png" group-title="Gà Vàng" , 03/10 12:00 🟡 🏀 Busan KCC Egis vs Changwon LG Sakers (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/
-
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/e51f03da53b2f36fc922a7ce18a07476.png" group-title="Gà Vàng" , 03/10 13:00 ⚽ China U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/e51f03da53b2f36fc922a7ce18a07476.png" group-title="Gà Vàng" , 03/10 13:00 🟡 ⚽ China U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/china-u23-vs-uzbekistan-u23-ngay-03-10-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/61e08ae9a3b69ce77f30bf51e71b2a77.png" group-title="Gà Vàng" , 03/10 14:00 ⚽ Ventforet Kofu vs Kataller Toyama (Chưa có link — chờ cập nhật)

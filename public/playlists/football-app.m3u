@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 11:59:56 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 12:02:58 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (10 trận), Khán Đài (12 trận), Chuối Chiên (16 trận), Phá Làng (142 trận), Gà Vàng (30 trận), Sao Kê (21 trận), GaVang33 (20 trận), Bông Lau (16 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (10 trận), Khán Đài (12 trận), Chuối Chiên (16 trận), Phá Làng (141 trận), Gà Vàng (28 trận), Sao Kê (21 trận), GaVang33 (20 trận), Bông Lau (16 trận) =====
 
 # ----- Ngày 2026-10-03 -----
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/b997a2811a0caed43ff38b631a708420.png" group-title="Gà Vàng" , 03/10 08:30 🟢 ⚽ Deportivo Cali vs Alianza Fútbol Club (SiêU QuậY)
-https://playback.livetl002.com/live/6a2a59b347bbddd62a8dc4e4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
-
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/7e16680bbd661fd90dbf08501ae7a98e.png" group-title="GaVang33" , 03/10 10:00 🟢 ⚽ Club Atletico La Paz vs Venados FC Yucatán (Gà Siêu Tồ)
 https://live2.zktsva.app/live/796315.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 
@@ -19,34 +16,28 @@ https://pzhgifbkllliv.vcdn.cloud/1790780385_hd/1790780385_hd@720p.m3u8|User-Agen
 #EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/fujieda-myfc.png" group-title="Giờ Vàng" , 03/10 12:00 🟢 ⚽ Fujieda MYFC vs Shonan Bellmare (Giovang 1)
 https://pzhgifbkllliv.vcdn.cloud/1790780421_hd/1790780421_hd@720p.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://giovang.rent/&Origin=https://giovang.rent
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/6b55a647c6ffe4016e025e9f46144d3f.png" group-title="Phá Làng" , 03/10 12:00 🟡 ⚽ Australia U23 - South Korea U23 (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#vjxm8ghkv346r6o
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/a4bfaa33f9e24bdb4a4952a0b4aab142.png" group-title="Gà Vàng" , 03/10 12:00 🟡 ⚽ Albirex Niigata vs Tokushima Vortis (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/truc-tiep/albirex-niigata-vs-tokushima-vortis-ngay-03-10-2026/
-
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/china-u23.png" group-title="Giờ Vàng" , 03/10 13:00 ⚽ Trung Quốc vs Uzbekistan (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/china-u23.png" group-title="Giờ Vàng" , 03/10 13:00 🟡 ⚽ Trung Quốc vs Uzbekistan (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-trung-quoc-vs-uzbekistan-03-10-rcep848bfe7s
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9462.jpg" group-title="Khán Đài" , 03/10 13:00 ⚽ China U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9462.jpg" group-title="Khán Đài" , 03/10 13:00 🟡 ⚽ China U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/china-u23-vs-uzbekistan-u23-03-10-2026-860365
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134337_d547f1b2.png" group-title="Chuối Chiên" , 03/10 13:00 ⚽ China PR U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134337_d547f1b2.png" group-title="Chuối Chiên" , 03/10 13:00 🟡 ⚽ China PR U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
 https://live05.chuoichientv.me/live/1643348/china-pr-u23-vs-uzbekistan-u23
 
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/43f9c122bf617d349407a95d4f709a0d.png" group-title="Phá Làng" , 03/10 13:00 ⚽ Perth Glory - Adelaide United (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/43f9c122bf617d349407a95d4f709a0d.png" group-title="Phá Làng" , 03/10 13:00 🟡 ⚽ Perth Glory - Adelaide United (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#318q66h8z6oxqo9
 
-#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/095833a8f2a539c9e27ac3170b659237.png" group-title="Phá Làng" , 03/10 13:00 ⚽ China U23 - Uzbekistan U23 (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/095833a8f2a539c9e27ac3170b659237.png" group-title="Phá Làng" , 03/10 13:00 🟡 ⚽ China U23 - Uzbekistan U23 (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#4jwq2ghgo632m0v
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/e51f03da53b2f36fc922a7ce18a07476.png" group-title="Gà Vàng" , 03/10 13:00 ⚽ China U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/e51f03da53b2f36fc922a7ce18a07476.png" group-title="Gà Vàng" , 03/10 13:00 🟡 ⚽ China U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/china-u23-vs-uzbekistan-u23-ngay-03-10-2026/
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/317240.png" group-title="Sao Kê" , 03/10 13:00 ⚽ China U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/317240.png" group-title="Sao Kê" , 03/10 13:00 🟡 ⚽ China U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/china-u23-vs-uzbekistan-u23-6abf7062b9c200d560485f0f.html
 
-#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134337_d547f1b2.png" group-title="Bông Lau" , 03/10 13:00 ⚽ China PR U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_134337_d547f1b2.png" group-title="Bông Lau" , 03/10 13:00 🟡 ⚽ China PR U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
 https://lau05.bonglautv1.pro/truc-tiep/1643348
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTyQbV7R_wsuY6OfdPSIu1WhPyrDH-xXNobnjpwe0mzw&s=10" group-title="Giờ Vàng" , 03/10 14:00 ⚽ Machida Zelvia vs Kyoto Sanga (Chưa có link — chờ cập nhật)

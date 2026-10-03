@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 11:59:56 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 12:02:58 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Khán Đài (20 trận) =====
 
@@ -7,7 +7,7 @@
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/OIP_Q9mUTFM.jpg" group-title="Khán Đài" , 03/10 11:00 🟢 🏐 Thái Lan vs Ấn Độ (Enzo)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fluong.phaohoa.live%2Flive%2Fphaohoa2%2Findex.m3u8%3Fexpire%3D1815505159%26sign%3Dd3bfcbaa36f949863f22cc89e1cc1afa&source=khandaitv
 
-#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9462.jpg" group-title="Khán Đài" , 03/10 13:00 ⚽ China U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/team_9462.jpg" group-title="Khán Đài" , 03/10 13:00 🟡 ⚽ China U23 vs Uzbekistan U23 (Chưa có link — chờ cập nhật)
 https://khandai3.link/truc-tiep/china-u23-vs-uzbekistan-u23-03-10-2026-860365
 
 #EXTINF:-1 tvg-logo="https://khandai3.link/media/teams/logos/Flag_of_Kazakhstan.svg.webp" group-title="Khán Đài" , 03/10 14:00 🏐 Kazakhstan vs Indonesia (Chưa có link — chờ cập nhật)
