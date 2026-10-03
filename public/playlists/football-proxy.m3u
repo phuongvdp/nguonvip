@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 01:42:01 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 01:44:40 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (16 trận), Khán Đài (10 trận), Chuối Chiên (7 trận), Phá Làng (15 trận), Gà Vàng (18 trận), Sao Kê (8 trận), GaVang33 (22 trận), Bông Lau (7 trận) =====
 
@@ -65,6 +65,9 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive
 #EXTINF:-1 tvg-logo="https://sta.vnres.co/file/common/20261001/c9ab934c9ff00a42174245081924b57c.png" group-title="Phá Làng" , 04/10 01:45 🟢 ⚽ Spain - Czechia (LÝ LA LÀNG)
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F6a311bb20b31a673c9b236d05976c0aa%2Fplaylist.m3u8&source=phalang
 
+#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/78e57b771bb363598680a056a7d26c0a.png" group-title="Phá Làng" , 04/10 01:45 🟢 ⚽ North Macedonia - Scotland (Server 1)
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Flilive1.eu.cc%2Flive%2F9ec95b791cd8617d377ea1ea396f1c1b%2Fplaylist.m3u8&source=phalang
+
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6720.png" group-title="Sao Kê" , 04/10 01:45 🟢 ⚽ Spain vs Czechia (Ricky (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx83-hd-1111%2Fplaylist.m3u8&source=saoke
 
@@ -91,9 +94,6 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.
 
 #EXTINF:-1 tvg-logo="https://media.chuoichientv.net/media/uploads/20250623_125452_c8ee16a6.png" group-title="Bông Lau" , 04/10 01:45 🟢 ⚽ Switzerland vs Slovenia (Chuối Tây (FHD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fgckc0525.edgemaxcdn.org%2Flive%2Fchuoitayhd%2Fplaylist.m3u8&source=bonglau
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/78e57b771bb363598680a056a7d26c0a.png" group-title="Phá Làng" , 04/10 01:45 🟡 ⚽ North Macedonia - Scotland (Chưa có link — chờ cập nhật)
-https://phalang1.live/trang-chu#vjxm8ghekddxr6o
 
 #EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/9c1958aa257c4a318f87cb4b2d79fa11.png" group-title="Gà Vàng" , 04/10 01:45 🟡 ⚽ Spain vs Czechia (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/spain-vs-czechia-ngay-04-10-2026/
