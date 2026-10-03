@@ -227,7 +227,8 @@ function mapStreams(match) {
       playUrl: url,
       format: 'hls',
       cdn: c.cdn,
-      quality: qualityFromText(c.name)
+      quality: qualityFromText(c.name),
+      referer: c.referer || null // giữ Referer theo CDN cả khi lấy link qua getStreamLinks()
     });
   }
   return list;
