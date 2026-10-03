@@ -1,16 +1,13 @@
 #EXTM3U
-# Cập nhật lần cuối: 05:57:38 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 06:00:33 4/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (6 trận), Gà Vàng (1 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (6 trận), Gà Vàng (2 trận) =====
 
 # ----- Ngày 2026-10-04 -----
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/3f61db02c20eb73e5f27948b3122f2fb.png" group-title="Giờ Vàng" , 04/10 06:00 🟢 🏀 Toronto Raptors vs Miami Heat (Giovang 1)
 #EXTVLCOPT:http-referrer=https://giovang.rent/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://pzhgifbkllliv.vcdn.cloud/1790780813_hd/1790780813_hd@720p.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/e299ddecec93dc5c8db83b1761e2fa1f.png" group-title="Gà Vàng" , 04/10 06:00 🟡 🏀 Toronto Raptors vs Miami Heat (Chưa có link — chờ cập nhật)
-https://gavanglinkt.tv/
 
 #EXTINF:-1 tvg-logo="https://cdn.keobongvip.digital/images/basketball-teams/e5c63f30ad74c5c5159f1e7695173ae5.png" group-title="Giờ Vàng" , 04/10 11:00 🏀 South East Melbourne Phoenix vs Illawarra Hawks (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-south-east-melbourne-phoenix-vs-illawarra-hawks-04-10-12322278
@@ -26,3 +23,10 @@ https://giovang.rent/truc-tiep-busan-ktf-magicwings-vs-seoul-samsung-thunders-04
 
 #EXTINF:-1 tvg-logo="https://static.flashscore.com/res/image/data/GQO85GxS-MkO5VDN4.png" group-title="Giờ Vàng" , 04/10 17:00 🏀 Obradoiro CAB vs Real Madrid (Chưa có link — chờ cập nhật)
 https://giovang.rent/truc-tiep-obradoiro-cab-vs-real-madrid-04-10-njzlpe07h95m
+
+# ----- Ngày 2026-10-05 -----
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/848b21021b2a1db7bde95ea52a1e021b.png" group-title="Gà Vàng" , 05/10 06:00 🏀 Los Angeles Clippers vs Golden State Warriors (Chưa có link — chờ cập nhật)
+https://gavanglinkt.tv/
+
+#EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/basketball/team/403a12aa187f47045c18d137cd8103dc.png" group-title="Gà Vàng" , 05/10 06:00 🏀 Denver Nuggets vs Utah Jazz (Chưa có link — chờ cập nhật)
+https://gavanglinkt.tv/
