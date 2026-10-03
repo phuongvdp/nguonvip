@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 20:24:54 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 20:27:53 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (15 trận), Chuối Chiên (13 trận), Phá Làng (82 trận), Gà Vàng (18 trận), Sao Kê (14 trận), GaVang33 (25 trận), Bông Lau (13 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (30 trận), Khán Đài (15 trận), Chuối Chiên (13 trận), Phá Làng (81 trận), Gà Vàng (18 trận), Sao Kê (14 trận), GaVang33 (25 trận), Bông Lau (13 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" group-title="Giờ Vàng" , 03/10 07:00 🟢 ⚽ ASIAD 2026 vs ASIAD 2026 (Giovang 1)
@@ -12,9 +12,6 @@ https://ftlh5sc02iliv.vcdn.cloud/1790988213_hd/1790988213_hd@720p.m3u8|User-Agen
 
 #EXTINF:-1 tvg-logo="https://img.gvapi.cc/football/team/d272859d78eb8ca7a14753f4293fbf45.png" group-title="GaVang33" , 03/10 17:00 🟢 ⚽ Kashiwa Reysol vs Gamba Osaka (Gà Siêu Nhí)
 https://live2.zktsva.app/live/301263.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/aa54b4b022f88b8566c7834ee5fc3e12.png" group-title="Phá Làng" , 03/10 18:30 🟢 ⚽ Brentwood Town - Dagenham   Redbridge (Server 1)
-https://lilive1.eu.cc/live/db7558be2fd58b1e75e078779e27dc3b/playlist.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://phalang1.live/truc-tiep/brentwood-town-vs-dagenham-redbridge-y0or5jh9x6wzqwz&Origin=https://phalang1.live
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/d745193354f961e58538fdd1a5ebc6f3.png" group-title="Gà Vàng" , 03/10 18:30 🟢 ⚽ Chesterfield vs Tranmere Rovers (cố tư nghiêm)
 https://playback.livetl002.com/live/69a1aaa7230584579e2d5ce1.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
