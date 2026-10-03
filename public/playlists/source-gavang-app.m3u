@@ -1,12 +1,9 @@
 #EXTM3U
-# Cập nhật lần cuối: 16:29:34 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 16:32:08 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (21 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Gà Vàng (20 trận) =====
 
 # ----- Ngày 2026-10-03 -----
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/e51f03da53b2f36fc922a7ce18a07476.png" group-title="Gà Vàng" , 03/10 13:00 🟢 ⚽ China U23 vs Uzbekistan U23 (RIO)
-https://playback.livetl002.com/live/6a01a2511e8555d7a3685f5c.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
-
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/61e08ae9a3b69ce77f30bf51e71b2a77.png" group-title="Gà Vàng" , 03/10 14:00 🟢 ⚽ Ventforet Kofu vs Kataller Toyama (khang hi)
 https://playback.livetl002.com/live/6a7c0d8f65997681f18cacc4.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36&Referer=https://gavanglinkt.tv/
 
@@ -25,7 +22,7 @@ https://gavanglinkt.tv/truc-tiep/veres-vs-kudrivka-ngay-03-10-2026/
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/d272859d78eb8ca7a14753f4293fbf45.png" group-title="Gà Vàng" , 03/10 17:00 🟡 ⚽ Kashiwa Reysol vs Gamba Osaka (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/kashiwa-reysol-vs-gamba-osaka-ngay-03-10-2026/
 
-#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/6581bc34692022be4c21d98778e33df0.png" group-title="Gà Vàng" , 03/10 17:30 ⚽ Korea U23 vs Japan U23 (Chưa có link — chờ cập nhật)
+#EXTINF:-1 tvg-logo="https://img.thesports.com/football/team/6581bc34692022be4c21d98778e33df0.png" group-title="Gà Vàng" , 03/10 17:30 🟡 ⚽ Korea U23 vs Japan U23 (Chưa có link — chờ cập nhật)
 https://gavanglinkt.tv/truc-tiep/south-korea-u23-vs-japan-u23-ngay-03-10-2026/
 
 #EXTINF:-1 tvg-logo="https://static.sportsfeed.pro/football/team/d745193354f961e58538fdd1a5ebc6f3.png" group-title="Gà Vàng" , 03/10 18:30 ⚽ Chesterfield vs Tranmere Rovers (Chưa có link — chờ cập nhật)
