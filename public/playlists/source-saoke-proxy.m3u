@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:30:37 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:33:42 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Sao Kê (18 trận) =====
 
@@ -16,8 +16,8 @@ https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/300702.png" group-title="Sao Kê" , 03/10 17:30 🟢 ⚽ South Korea U23 vs Japan U23 (Teppy (HD))
 https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx31-hd-1111%2Fplaylist.m3u8&source=saoke
 
-#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8393.png" group-title="Sao Kê" , 03/10 19:00 🟡 ⚽ Albacete vs Eibar (Chưa có link — chờ cập nhật)
-https://vip3.saoketv40.xyz/albacete-vs-eibar-6abf7062b9c200d560485f08.html
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8393.png" group-title="Sao Kê" , 03/10 19:00 🟢 ⚽ Albacete vs Eibar (Ricky (HD))
+https://nguonvip.vercel.app/api/proxy/hls?url=https%3A%2F%2Fwtyi0525.edgemaxcdn.org%2Flive%2Fx83-hd-1111%2Fplaylist.m3u8&source=saoke
 
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/7871.png" group-title="Sao Kê" , 03/10 20:00 ⚽ Finland vs Albania (Chưa có link — chờ cập nhật)
 https://vip3.saoketv40.xyz/finland-vs-albania-6abf7062b9c200d560485f04.html
