@@ -1,5 +1,5 @@
 #EXTM3U
-# Cập nhật lần cuối: 21:37:55 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 21:40:54 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
 # ===== Tất cả trận, sắp theo giờ thi đấu thực — Giờ Vàng (18 trận), Khán Đài (11 trận), Chuối Chiên (12 trận), Phá Làng (35 trận), Gà Vàng (12 trận), Sao Kê (13 trận), GaVang33 (25 trận), Bông Lau (12 trận) =====
 
@@ -101,8 +101,10 @@ https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live2.zktsva.app/live/301263.m3u8
 
-#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/russia.png" group-title="Giờ Vàng" , 03/10 22:00 🟡 ⚽ Nga vs Namibia (Chưa có link — chờ cập nhật)
-https://giovang.rent/truc-tiep-nga-vs-namibia-03-10-6abef41a24d46db87090601e
+#EXTINF:-1 tvg-logo="https://images.keovip88.net/images/teams/russia.png" group-title="Giờ Vàng" , 03/10 22:00 🟢 ⚽ Nga vs Namibia (Giovang 1)
+#EXTVLCOPT:http-referrer=https://giovang.rent/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ftlh5sc02iliv.vcdn.cloud/1791034312_hd/1791034312_hd@720p.m3u8
 
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/eb9b870a25645ded21a7d5e41c207b0a.png" group-title="Phá Làng" , 03/10 22:00 🟡 ⚽ GKS Katowice - FC Baník Ostrava (Chưa có link — chờ cập nhật)
 https://phalang1.live/trang-chu#3glrw7h4k7e1qdy
