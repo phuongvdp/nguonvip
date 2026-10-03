@@ -1,7 +1,7 @@
 #EXTM3U
-# Cập nhật lần cuối: 18:55:16 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
+# Cập nhật lần cuối: 18:58:31 3/10/2026 (giờ VN) — tự làm mới mỗi 2 phút
 
-# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (109 trận) =====
+# ===== Tất cả trận, sắp theo giờ thi đấu thực — Phá Làng (108 trận) =====
 
 # ----- Ngày 2026-10-03 -----
 #EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/d272859d78eb8ca7a14753f4293fbf45.png" group-title="Phá Làng" , 03/10 17:00 🟢 ⚽ Kashiwa Reysol - Gamba Osaka (Server 1)
@@ -13,11 +13,6 @@ https://lilive1.eu.cc/live/ade4a45c69360428dc38bee1454c9957/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/hong-kong-vs-cambodia-vjxm8ghkvln9r6o
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lilive1.eu.cc/live/b0b2be1d057755b8a75796f4f94cf1f4/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://img.sports-data.online/football/team/c764da226267244055d08a48e0a773f2.png" group-title="Phá Làng" , 03/10 17:00 🟢 ⚽ Veres  - Kudrivka (Server 1)
-#EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/veres-vs-kudrivka-y0or5jh8k8zxqwz
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://lilive1.eu.cc/live/7abeb36ca34f85e5e6af0904a1b7ebfd/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80" group-title="Phá Làng" , 03/10 17:20 🟢 🏐 Nhật Bản - Iran (LÝ LÊN LỬA (Server 1))
 #EXTVLCOPT:http-referrer=https://phalang1.live/truc-tiep/nhat-ban-vs-iran-9c530eb305f34981aecc45ef8196db37
