@@ -1,14 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-03T07:10:25.004Z",
+  "updatedAt": "2026-10-03T07:16:15.489Z",
   "domains": {
     "giovang": {
-      "url": "https://giovang.blog",
+      "url": "https://giovang.rent",
       "envVar": "GIOVANG_DOMAIN",
       "role": "site",
       "status": "moved",
-      "from": "mặc định",
-      "found": "https://giovang.rent"
+      "from": "SOURCE_DOMAINS"
     },
     "khandaitv": {
       "url": "https://khandai3.link",
@@ -25,12 +24,11 @@
       "from": "mặc định"
     },
     "gavang": {
-      "url": "https://gavanglinkp.tv",
+      "url": "https://gavanglinkt.tv",
       "envVar": "GAVANG_BASE_URL",
       "role": "site",
       "status": "moved",
-      "from": "mặc định",
-      "found": "https://gavanglinkt.tv"
+      "from": "SOURCE_DOMAINS"
     },
     "gavang33": {
       "url": "https://gavang33.me",
@@ -47,20 +45,18 @@
       "from": "mặc định"
     },
     "bonglau": {
-      "url": "https://lau05.bonglautv1.pro",
+      "url": "https://lau06.bonglautv1.org",
       "envVar": "BONGLAU_DOMAIN",
       "role": "site",
       "status": "down",
-      "from": "mặc định",
-      "found": "https://lau06.bonglautv1.org"
+      "from": "SOURCE_DOMAINS"
     },
     "phalang": {
-      "url": "https://phalang.live",
+      "url": "https://phalang1.live",
       "envVar": "PHALANG_DOMAIN",
       "role": "site",
       "status": "moved",
-      "from": "mặc định",
-      "found": "https://phalang1.live"
+      "from": "SOURCE_DOMAINS"
     },
     "chuoichientv": {
       "url": "https://live05.chuoichientv.me",
@@ -175,6 +171,34 @@
       "source": "chuoichientv",
       "from": "https://live05.chuoichientv.me",
       "to": "https://live05.chuoichientv.me",
+      "via": "chuyển hướng của chính trang"
+    },
+    {
+      "at": "2026-10-03T07:16:15.489Z",
+      "source": "giovang",
+      "from": "https://giovang.blog",
+      "to": "https://giovang.rent",
+      "via": "chuyển hướng của chính trang"
+    },
+    {
+      "at": "2026-10-03T07:16:15.489Z",
+      "source": "gavang",
+      "from": "https://gavanglinkp.tv",
+      "to": "https://gavanglinkt.tv",
+      "via": "chuyển hướng của chính trang"
+    },
+    {
+      "at": "2026-10-03T07:16:15.489Z",
+      "source": "bonglau",
+      "from": "https://lau05.bonglautv1.pro",
+      "to": "https://lau06.bonglautv1.org",
+      "via": "biến thể tên/đuôi"
+    },
+    {
+      "at": "2026-10-03T07:16:15.489Z",
+      "source": "phalang",
+      "from": "https://phalang.live",
+      "to": "https://phalang1.live",
       "via": "chuyển hướng của chính trang"
     }
   ]
